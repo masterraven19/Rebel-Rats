@@ -1,0 +1,157 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+			"rebelrats_mus_Balanced":10,
+	},
+	"combatSmall":{
+			"rebelrats_mus_Balanced":10,
+			"rebelrats_patron_Balanced":10,
+	},
+	"combatMedium":{
+			"rebelrats_rattus_Balanced":10,
+			"rebelrats_rattus_overdriven":8,
+			"rebelrats_helmsman_Balanced":10,
+	},
+	"combatLarge":{
+			"rebelrats_marmot_Balanced":9,
+			"rebelrats_marmot_Hardliner":7,
+			"rebelrats_marmot_Outdated":8,
+			"rebelrats_marmot_Antifighter":7,
+			"rebelrats_matkaboska_Balanced":9,
+			"rebelrats_matkaboska_Lancer":7,
+			"rebelrats_matkaboska_outdated":8,
+	},
+	"combatCapital":{
+			"rebelrats_porcellus_Balanced":8,
+			"rebelrats_porcellus_antishield":8,
+			"rebelrats_porcellus_Outdated":5,
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		
+	},
+	"combatFreighterMedium":{
+
+	},
+	"combatFreighterLarge":{
+			"rebelrats_monax_p_Balanced":10
+	},
+	
+	"civilianRandom":{
+		
+	},
+
+	# carriers
+	"carrierSmall":{
+			"rebelrats_mellivora_Balanced":8,
+			"rebelrats_mellivora_elite":6,
+			"rebelrats_mellivora_Outdated":7,
+	},
+	"carrierMedium":{
+
+			"rebelrats_marmot_Balanced":8,
+			"rebelrats_marmot_Hardliner":6,
+			"rebelrats_marmot_Outdated":7,
+},
+	"carrierLarge":{
+
+	},
+
+	# phase ships
+	"phaseSmall":{
+
+	},
+	"phaseMedium":{
+
+	},
+	"phaseLarge":{
+			"rebelrats_jerboa_Standard":10,
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+
+	},
+	"freighterMedium":{
+			"rebelrats_monax_Standard":10,
+	},
+	"freighterLarge":{
+			"rebelrats_pybara_Balanced":10,
+	},
+	
+	"tankerSmall":{
+            
+		
+	},
+	"tankerMedium":{
+		
+				
+	},
+	"tankerLarge":{
+		
+		
+	},
+	
+	"personnelSmall":{
+		
+		
+	},
+	"personnelMedium":{
+		
+		
+		
+	},
+	"personnelLarge":{
+		
+	},
+	
+	"linerSmall":{
+                
+	},
+	"linerMedium":{
+
+	},
+	"linerLarge":{
+
+	},
+	
+	# utility ships
+	"tug":{
+        
+	},
+	"crig":{
+
+	},
+	"utility":{
+
+	},
+	
+	"orbitalStationLowTech":{
+
+	},
+	
+	"battlestationLowTech":{
+
+	},
+	
+	
+
+
+	# Old/unused below this line
+	"fastAttack":{
+
+	},
+
+	"escortSmall":{
+
+	},
+	"escortMedium":{
+
+	},
+	
+}

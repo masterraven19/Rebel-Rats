@@ -1,0 +1,44 @@
+{
+  "variantId": "rebelrats_mellivora_elite",
+  "hullId": "rebelrats_mellivora",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_pyroclast",
+        "WS0002": "rebelrats_pyroclast"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "rebelrats_fowler",
+        "WS0004": "rebelrats_fowler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "rebelrats_hawker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "rebelrats_olympian_Bomber_wingt",
+    "rebelrats_olympian_Bomber_wingt"
+  ]
+}

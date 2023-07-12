@@ -1,0 +1,53 @@
+{
+  "id": "rebelrats_ranger_f",
+  "specClass": "projectile",
+  "projectileSpecId": "rebelrats_ranger",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/weapons/ranger_turret_base.png",
+  "turretGunSprite": "graphics/weapons/ranger_turret_barrel.png",
+  "hardpointSprite": "graphics/weapons/ranger_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/ranger_hardpoint_barrel.png",
+  "visualRecoil": 3,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    12,
+    5,
+    12,
+    -5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    19,
+    4,
+    19,
+    -4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 7,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "ranger_firing"
+}

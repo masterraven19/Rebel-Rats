@@ -1,0 +1,83 @@
+{
+  "variantId": "rebelrats_matkaboska_Lancer",
+  "hullId": "rebelrats_matkaboska",
+  "displayName": "Nuclear Lancer",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "rebelrats_drummer_l"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "rebelrats_petard_m",
+        "WS0010": "rebelrats_petard_m"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "rebelrats_falcon_m",
+        "WS0007": "rebelrats_falcon_m",
+        "WS0008": "rebelrats_falcon_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_fowler",
+        "WS0002": "rebelrats_fowler",
+        "WS0003": "rebelrats_fowler",
+        "WS0014": "rebelrats_fowler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "rebelrats_ashford",
+        "WS0005": "rebelrats_ashford"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "rebelrats_hawker",
+        "WS0012": "rebelrats_hawker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [
+    {
+      "WS0016": "rebelrats_matkaboskaplate_right_Balanced"
+    },
+    {
+      "WS0015": "rebelrats_matkaboskaplate_left_Balanced"
+    },
+    {
+      "WS0017": "rebelrats_matkaboskaplate_front_Balanced"
+    }
+  ],
+  "wings": []
+}

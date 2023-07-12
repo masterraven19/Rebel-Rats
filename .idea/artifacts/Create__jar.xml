@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Create .jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Create__jar</output-path>
+    <root id="archive" name="rebelrats.jar">
+      <element id="module-output" name="fat rat mod" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/rebelratsgen.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/rebelratsplugin.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/systems/rebelrats_dragonsblessing.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_doldrumsEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rulecmd/rebelrats_powerstationDialog.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/hullmods/rebelrats_stealthrathide.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_falconOnHitEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_pyroclastOnHitEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_petardBeamEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/rebelrats_Tortuga.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_custodianProxEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_custodianSmokeEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_hawkerProxEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rebelrats_powerstationEntityPlugin.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/rebelrats_Powerstation.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/ids/rebelrats_Conditions.java" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,47 @@
+{
+  "id": "rebelrats_guardsman",
+  "specClass": "projectile",
+  "projectileSpecId": "rebelrats_ranger",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/weapons/afg202guardsman_turret_base.png",
+  "hardpointSprite": "graphics/weapons/afg202guardsman_turret_base.png",
+  "turretOffsets": [
+    9,
+    1.5,
+    9,
+    -1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    14,
+    1.5,
+    14,
+    -1.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 7,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "ranger_firing"
+}

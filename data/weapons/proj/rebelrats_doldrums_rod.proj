@@ -1,0 +1,23 @@
+{
+	"id":"rebelrats_doldrums_rod",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onHitEffect":"data.scripts.weapons.rebelrats_doldrumsEffect",
+	"onFireEffect":"data.scripts.weapons.rebelrats_doldrumsEffect",
+	"hitGlowRadius":300,
+	"length":42.0,
+	"width":11,
+	"fadeTime":0.3,
+	"fringeColor":[50,50,255,255],
+	"coreColor":[235,235,255,255],
+	"glowColor":[218,125,222,105],
+	"glowRadius":60,
+	"textureScrollSpeed":90.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+    "passThroughFighters":true,
+    "passThroughFightersOnlyWhenDestroyed":false,
+	"bulletSprite":"graphics/missiles/ratrod_grey.png"
+}

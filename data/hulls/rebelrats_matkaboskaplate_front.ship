@@ -1,0 +1,27 @@
+{
+  "hullName": "Front Armor Plate",
+  "hullId": "rebelrats_matkaboskaplate_front",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/matkaboskaplate_front.png",
+  "style": "MIDLINE",
+  "height": 29,
+  "width": 52,
+  "center": [26, 14.5],
+  "collisionRadius": 48,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 44,
+  "viewOffset": 0,
+  "builtInMods": [
+    "solar_shielding"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -12.5, -9.5,
+    -4, -28,
+    13, -11,
+    13, 11,
+    -4, 28,
+    -12.5, 9.5
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "variantId": "rebelrats_ablativeright_Standard",
+  "hullId": "rebelrats_ablativeright",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "always_detaches",
+    "reduced_explosion"
+  ],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

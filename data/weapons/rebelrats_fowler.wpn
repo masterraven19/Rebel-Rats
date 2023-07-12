@@ -1,0 +1,65 @@
+{
+  "id": "rebelrats_fowler",
+  "specClass": "projectile",
+  "projectileSpecId": "rebelrats_ranger",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/weapons/afg20fowler_turret_base.png",
+  "turretGunSprite": "graphics/weapons/afg20fowler_turret_barrel.png",
+  "hardpointSprite": "graphics/weapons/afg20fowler_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/afg20fowler_hardpoint_barrel.png",
+  "visualRecoil": 6,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    18.5,
+    1.5,
+    18.5,
+    0.5,
+    18.5,
+    -0.5,
+    18.5,
+    -1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    21,
+    1.5,
+    21,
+    0.5,
+    21,
+    -0.5,
+    21,
+    -1.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 7,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "vulcan_cannon_fire"
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "rebelrats_ministro_Interceptor",
+  "hullId": "rebelrats_ministro",
+  "displayName": "Drone Interceptor",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_hwacha_f"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "rebelrats_ranger_f"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,126 @@
+{
+  "hullName": "Pybara",
+  "hullId": "rebelrats_pybara",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Pybara_cargo_capital.png",
+  "style": "REBELRATS",
+  "height": 392,
+  "width": 108,
+  "center": [54, 196],
+  "collisionRadius": 299,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 228,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 282,
+      "angle": 0,
+      "locations": [172, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 222,
+      "angle": -90,
+      "locations": [-56, -43]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 222,
+      "angle": 90,
+      "locations": [-56, 43]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 231,
+      "angle": 180,
+      "locations": [-128, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [104.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-193, -0],
+      "length": 53.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    },
+    {
+      "location": [-193, 10],
+      "length": 53.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    },
+    {
+      "location": [-193, -10],
+      "length": 53.5,
+      "width": 22,
+      "angle": -180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    },
+    {
+      "location": [-193, 22],
+      "length": 53.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    },
+    {
+      "location": [-193, -22],
+      "length": 53.5,
+      "width": 22,
+      "angle": -180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    }
+  ],
+  "bounds": [
+    -196, -27.5,
+    -113.5, -29,
+    -108, -40.5,
+    -52, -52,
+    -42.5, -36,
+    175, -37,
+    175, -11,
+    189, -6,
+    189, 6,
+    175, 11,
+    175, 37,
+    -42.5, 36,
+    -52, 52,
+    -108, 40.5,
+    -113.5, 29,
+    -196, 27.5
+  ]
+}

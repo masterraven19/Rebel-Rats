@@ -1,0 +1,27 @@
+{
+    "nexerelin":{
+		"agent_steal_ship_mults":{
+			#"my_fancy_ship":1.5,
+			#"do_not_steal":-1,
+			"rebelrats_ratship": -1,
+		},
+		"mining_ship_strengths":{
+			"rebelrats_monax": 40,
+			#,"mining_drone": 0.5,
+			#"junk_pirates_the_reaper": 160,
+		},
+		"mining_weapon_strengths":{
+		},
+		#"mining_hidden_ships_and_weapons":["drone_borer"],
+		
+		# difference between the colony size and how much of that good it would produce normally
+		# mining/farming outputs are grabbed from ResourceDepositsCondition.BASE_MODIFIER instead
+
+		# currently unused
+		#"faction_spawn_points":{
+		#	# faction: [system name, entity ID]
+		#	"hegemony": ["Corvus", "jangala"],
+		#	#"hegemony": ["Aztlan", "chicomoztoc"],
+		#},
+    },
+}

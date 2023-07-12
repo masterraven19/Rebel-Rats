@@ -1,0 +1,57 @@
+{
+    "ranger_firing":
+    [
+    {"file":"sounds/ranger_firing.ogg", "pitch":1.00, "volume":0.5},
+    {"file":"sounds/ranger_firing2.ogg", "pitch":1.00, "volume":0.5},
+    ],
+    "equalizer_firing":
+    [
+    {"file":"sounds/equalizer_firing3.ogg", "pitch":1.00, "volume":1.6},
+    {"file":"sounds/equalizer_firing4.ogg", "pitch":1.00, "volume":1.6},
+    {"file":"sounds/equalizer_firing5.ogg", "pitch":1.00, "volume":1.6},
+    {"file":"sounds/equalizer_firing6.ogg", "pitch":1.00, "volume":1.6},
+    ],
+    "doldrums_firing":
+    [
+    {"file":"sounds/doldrums_firing3.ogg", "pitch":1.00, "volume":1.4},
+    ],
+    "doldrums_charging":
+    [
+        {"file":"sounds/doldrums_charging.ogg", "pitch":1.00, "volume":1.4},
+    ],
+    "doldrums_firing_segment":
+    [
+        {"file":"sounds/doldrums_firing_segment.ogg", "pitch":1.00, "volume":1.4},
+    ],
+    "siegeharq_firing":[
+        {"file":"sounds/siegeharq_firing.ogg","pitch":1.00,"volume":0.8},
+    ],
+    "arratoi_firing":[
+        {"file":"sounds/Arratoi_guns_firing.ogg","pitch":1.00,"volume":0.5},
+    ],
+    "mangonel_firing":[
+        {"file":"sounds/Mangonel_firing1.ogg","pitch":1.00,"volume":1},
+    ],
+    "petard_firing":[
+        {"file":"sounds/petard_firing3.ogg","pitch":1.00,"volume":1},
+    ],
+    "braggador_firing":[
+        {"file":"sounds/Braggador_firing1.ogg","pitch":1.00,"volume":.6},
+        {"file":"sounds/Braggador_firing2.ogg","pitch":1.00,"volume":.6},
+    ],
+    "crossbow_firing":[
+        {"file":"sounds/Crossbow_firing2.ogg","pitch":1.00,"volume":.2},
+    ],
+    "rebelrats_engine_loop":{
+        "sounds":[
+            {"file":"sounds/ratengineburn.ogg","pitch":1.2,"volume":0.2}, #index 0
+            ],
+        "Rats":{"sounds":[0], "pitch":1, "volume":1}
+    },
+    "rebelrats_engine_accelerate":{ # played when ship receives an "engine boost" from having zero flux
+    "sounds":[
+        {"file":"sounds/ratengineboost.ogg","pitch":1.2,"volume":0.1},
+    ],
+
+    },
+}

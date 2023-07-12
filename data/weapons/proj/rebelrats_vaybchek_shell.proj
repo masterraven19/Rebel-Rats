@@ -1,0 +1,20 @@
+{
+	"id":"rebelrats_vaybchek_shell",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":13.0,
+	"hitGlowRadius":150,
+	"width":5.0,
+	"fadeTime":0.01,
+	"fringeColor":[88,195,232,175],
+	#"coreColor":[255,225,175,225],
+	"coreColor":[255,255,255,200],
+	"glowColor":[88,232,184,105],
+	"glowRadius":40,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/missiles/ratshell_medium_yellow.png"
+}

@@ -1,0 +1,32 @@
+{
+  "variantId": "rebelrats_monax_Standard",
+  "hullId": "rebelrats_monax",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "rebelrats_ranger"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_ashford",
+        "WS0003": "rebelrats_ashford"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

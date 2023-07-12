@@ -1,0 +1,74 @@
+{
+  "id": "rebelrats_hwacha_m",
+  "specClass": "projectile",
+  "projectileSpecId": "rebelrats_hwacha_srm",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/hwacha_mlrs_medium_mount.png",
+  "hardpointSprite": "graphics/weapons/hwacha_mlrs_medium_mount.png",
+  "turretOffsets": [
+    7.5,
+    7.5,
+    7.5,
+    4.5,
+    7.5,
+    2,
+    7.5,
+    -0.5,
+    7.5,
+    -3.5,
+    7.5,
+    -6.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    14,
+    7.5,
+    14,
+    4.5,
+    14,
+    2,
+    14,
+    -0.5,
+    14,
+    -3.5,
+    14,
+    -6.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      160,
+      150,
+      130
+    ]
+  },
+  "fireSoundTwo": "swarmer_fire"
+}

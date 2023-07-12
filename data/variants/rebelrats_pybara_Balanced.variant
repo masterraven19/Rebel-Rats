@@ -1,0 +1,30 @@
+{
+  "variantId": "rebelrats_pybara_Balanced",
+  "hullId": "rebelrats_pybara",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "efficiency_overhaul",
+    "expanded_cargo_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_hawker",
+        "WS0002": "rebelrats_hawker",
+        "WS0003": "rebelrats_hawker",
+        "WS0004": "rebelrats_hawker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "rebelrats_overseer_Interceptor_wingt"
+  ]
+}

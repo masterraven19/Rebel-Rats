@@ -1,0 +1,149 @@
+{
+  "hullName": "Jerboa",
+  "hullId": "rebelrats_jerboa",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Jerboa_Stealth_Cruiser.png",
+  "style": "REBELRATS",
+  "height": 327,
+  "width": 140,
+  "center": [71, 162],
+  "collisionRadius": 209,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 172.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rebelrats_stealthrathide",
+    "rebelrats_manatarmstargettinggrid"
+  ],
+  "builtInWeapons": {
+    "WS0001": "rebelrats_goedendag_l",
+    "WS0008": "rebelrats_salvo_autoloader"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 2,
+      "angle": 0,
+      "locations": [129.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 308,
+      "angle": 0,
+      "locations": [97, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [55, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 74,
+      "locations": [63, 32]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 203,
+      "angle": 101.5,
+      "locations": [-11, 54]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 282,
+      "angle": 180,
+      "locations": [-71, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 304,
+      "angle": 180,
+      "locations": [-107, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -24.5,
+      "locations": [-45, -56.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HIDDEN",
+      "arc": 33,
+      "angle": 0,
+      "locations": [92, -28.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -53, 59,
+        -43.5, 58.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-137, 9],
+      "length": 90,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    },
+    {
+      "location": [-137, -9],
+      "length": 90,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    }
+  ],
+  "bounds": [
+    163.5, -11.5,
+    163.5, 11.5,
+    108.5, 21,
+    43.5, 51.5,
+    -68, 70,
+    -155.5, 16.5,
+    -155, -18,
+    -70, -65.5,
+    110.5, -43,
+    116.5, -18.5
+  ]
+}

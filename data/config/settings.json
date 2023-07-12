@@ -1,0 +1,20 @@
+{
+	"designTypeColors":{
+		"Black Plague":[50,50,50,200],
+		"Rebel Rats":[122,33,210,255],
+		"Arms & Armor":[201,11,11,255],
+		"The Three Brothers Corporation":[219,191,28,255]
+	},
+	"graphics": {
+		"blueprint_packages": {
+			"rebelrats_package":"graphics/icons/cargo/ratblueprint.png",
+			"rebelrats_arsenal_package":"graphics/icons/cargo/ratblueprint.png"
+		},
+		"fx": {
+			"rebelrats_petardbeam":"graphics/fx/petardlaser_beam.png",
+		},
+	},
+	"ruleCommandPackages": [
+		"data.scripts.campaign.rulecmd",
+	],
+}

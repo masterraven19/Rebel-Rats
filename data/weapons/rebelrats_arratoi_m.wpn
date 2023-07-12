@@ -1,0 +1,53 @@
+{
+  "id": "rebelrats_arratoi_m",
+  "specClass": "projectile",
+  "projectileSpecId": "rebelrats_arratoi_plasma",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/weapons/arratoi_guns_base.png",
+  "turretGunSprite": "graphics/weapons/arratoi_guns_barrel.png",
+  "hardpointSprite": "graphics/weapons/arratoi_guns_base.png",
+  "hardpointGunSprite": "graphics/weapons/arratoi_guns_barrel.png",
+  "visualRecoil": 15,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    31,
+    22,
+    31,
+    -22
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    47,
+    -22,
+    47,
+    22
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 3,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 7,
+    "particleColor": [
+      0,
+      145,
+      238,
+      200
+    ]
+  },
+  "fireSoundTwo": "arratoi_firing"
+}

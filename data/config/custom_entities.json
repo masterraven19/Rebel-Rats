@@ -1,0 +1,29 @@
+{
+	# New station stuff which uses techlevels. Will clean up old stuff once this is all happy. -D
+	# lowtech stations
+	"rebelrats_powerstation":{
+		"defaultName":"Power Station", # used if name=null in addCustomEntity()
+		"defaultRadius":60, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"rebelrats_powerstation_interaction",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/rat_power_station_icon.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/rat_power_station.png",
+		"spriteWidth":66,
+		"spriteHeight":80,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station","has_interaction_dialog"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"pluginClass":"data.scripts.campaign.rebelrats_powerstationEntityPlugin",
+	},
+
+}
+
+

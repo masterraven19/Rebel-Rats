@@ -1,0 +1,58 @@
+{
+  "id": "rebelrats_salvo_autoloader",
+  "specClass": "projectile",
+  "projectileSpecId": "rebelrats_huntsman_torp",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/marmot_torpedo_launcher.png",
+  "hardpointSprite": "graphics/weapons/marmot_torpedo_launcher.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES_UNLESS_HIDDEN
+  ],
+  "turretOffsets": [
+    -2.5,
+    0,
+    6.5,
+    4,
+    6.5,
+    -4
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    3.5,
+    0,
+    12.5,
+    4,
+    12.5,
+    -4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 6,
+    "cloudDuration": 1.5,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
+    "particleColor": [
+      125,
+      75,
+      25,
+      105
+    ]
+  },
+  "fireSoundTwo": "atropos_fire"
+}

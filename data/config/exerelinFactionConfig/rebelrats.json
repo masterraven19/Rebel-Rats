@@ -1,0 +1,106 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "freeStart":false,
+
+    "difficultyString":"It's my Cheddar",
+    "ngcTooltip":"Lead the Krysans through the sector's turmoil.",
+    "rebelFleetSuffix":"Secessionists",
+
+    "noRandomizeRelations": true,
+    "useConfigRelationshipsInNonRandomSector": true,
+    "noSyncRelations": false,
+    "startRelationships":{
+        "hegemony": -0.4,			# Hegie bastards taxed the rats
+        "independent": 0.8,			# Independent bros coolio, they gave Persean cheese
+        "diktat": 0.5,				# Fuelratgang
+        "neutral": 0.4,				# Who the rat are you? But we cool
+        "pirates": -1,				# You all are mean!!! (Give us drugs)
+        "luddic_path": -1,			# They blew up our cheese wheels!!!
+    },
+    "minRelationships":{
+        "hegemony": -0.3,
+        "independent": 0.4,
+        "diktat": 0.3,
+        "pirates": -0.7,
+        "luddic_path": -1,
+    },
+    "maxRelationships":{
+        "hegemony": -1,
+        "independent": 1,
+        "diktat": 0.7,
+        "neutral": 0.6,
+        "pirates": -1,
+        "luddic_path": -1,
+    },
+    
+    "morality":"neutral",	# used to be good because of Histidine's pro-Rat bias
+
+    "alignments":{
+        "diplomatic":1,
+        "ideological":0.5,
+        "hierarchical":0.6,
+    },
+    "diplomacyTraits":["helps_allies", "temperamental", "stalwart"],
+    
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":1.25,	# slightly more expansionist to overcome Hegemony's numerical superiority,,
+    "colonyTargetValuator": "exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+        
+    "startShipsSolo":[
+	["rebelrats_rattus_Balanced"],
+	["rebelrats_mellivora_Balanced"],
+],
+
+    "startShipsCombatSmall":[
+	["rebelrats_rattus_Balanced", "rebelrats_mus_Balanced", "rebelrats_patron_Balanced"]
+    ],
+    "startShipsCombatLarge":[
+        ["rebelrats_porcellus_Balanced", "rebelrats_rattus_Balanced", "rebelrats_mus_Balanced","rebelrats_monax_Standard",]
+    ],
+    "startShipsTradeSmall":[
+	["rebelrats_rattus_Balanced","rebelrats_monax_Standard","rebelrats_mus_Balanced"]
+    ],
+    "startShipsTradeLarge":[
+	["rebelrats_pybara_Balanced","rebelrats_rattus_Balanced","rebelrats_mus_Balanced"]
+    ],
+
+    #"startShipsExplorerLarge":[[]],
+
+    "startShipsCarrierSmall":[
+	["rebelrats_mellivora_Balanced","rebelrats_mellivora_Balanced","rebelrats_mus_Balanced","rebelrats_monax_Standard",]
+    ],
+    "startShipsCarrierLarge":[
+	["rebelrats_marmot_Balanced","rebelrats_mellivora_Balanced","rebelrats_rattus_Balanced","rebelrats_mus_Balanced","rebelrats_monax_Standard",]
+    ],
+    "startShipsSuper": [
+        ["rebelrats_jerboa_Standard"],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]
+, "weight":0.5},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]},
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"], "weight":0.5},
+    ],
+    
+    "startSpecialItems":[
+        [["midline_package", ""]],
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_pristine", "count":1},
+        {"id":"aiCore_station", "count":1, "mult":0.1},
+        {"id":"aiCore_military", "mult":0.25},
+        {"id":"aiCore_fuelprod", "count":1},
+        {"id":"aiCore_other", "mult":0.5},
+    ],
+}

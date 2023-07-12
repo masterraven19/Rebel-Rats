@@ -1,0 +1,55 @@
+{
+  "id": "rebelrats_muridae_m",
+  "specClass": "projectile",
+  "projectileSpecId": "rebelrats_muridae_plasma",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/muridae_plasma_guns_base.png",
+  "turretGlowSprite": "graphics/weapons/muridae_plasma_guns_glow.png",
+  "hardpointSprite": "graphics/weapons/muridae_plasma_guns_base.png",
+  "hardpointGlowSprite": "graphics/weapons/muridae_plasma_guns_glow.png",
+  "glowColor": [
+    61,
+    179,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    11.5,
+    27,
+    11.5,
+    -27
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    17.5,
+    27,
+    17.5,
+    -27
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "requiresFullCharge": false,
+  "muzzleFlashSpec": {
+    "length": 24,
+    "spread": 7,
+    "particleSizeMin": 7,
+    "particleSizeRange": 8,
+    "particleDuration": 0.12,
+    "particleCount": 11,
+    "particleColor": [
+      0,
+      145,
+      238,
+      255
+    ]
+  },
+  "fireSoundTwo": "mining_blaster_fire"
+}

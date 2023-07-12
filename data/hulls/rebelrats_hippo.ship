@@ -1,0 +1,73 @@
+{
+  "hullName": "Hippo Skiff",
+  "hullId": "rebelrats_hippo",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/hippo_skiff.png",
+  "style": "MIDLINE",
+  "height": 67,
+  "width": 38,
+  "center": [19, 33.5],
+  "collisionRadius": 49,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 44,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rebelrats_manatarmstargettinggrid",
+    "targetingunit"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 80,
+      "locations": [6.5, 13]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -80,
+      "locations": [6.5, -13]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 293,
+      "angle": 180,
+      "locations": [-13.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33.5, 6.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    },
+    {
+      "location": [-33.5, -6.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    }
+  ],
+  "bounds": [
+    -33.5, -18,
+    32.5, -18,
+    32.5, 18,
+    -33.5, 18
+  ]
+}

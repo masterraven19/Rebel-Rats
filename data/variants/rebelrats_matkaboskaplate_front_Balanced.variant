@@ -1,0 +1,14 @@
+{
+  "variantId": "rebelrats_matkaboskaplate_front_Balanced",
+  "hullId": "rebelrats_matkaboskaplate_front",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

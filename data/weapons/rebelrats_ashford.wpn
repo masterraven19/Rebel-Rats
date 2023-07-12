@@ -1,0 +1,55 @@
+{
+  "id": "rebelrats_ashford",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/ashfordlaser_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/ashfordlaser_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/ashfordlaser_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/ashfordlaser_hardpoint_glow.png",
+  "glowColor": [
+    33,
+    219,
+    19,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    9,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    14,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    135,
+    208,
+    130,
+    255
+  ],
+  "coreColor": [
+    27,
+    210,
+    13,
+    255
+  ],
+  "width": 5,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 128,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "burst_pd_fire"
+}

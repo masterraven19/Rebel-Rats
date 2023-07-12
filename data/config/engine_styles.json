@@ -1,0 +1,25 @@
+{
+	# Reserved engine style ids (can not be used):
+	# "CUSTOM"
+	
+	"Rats":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"engineColor":[59,107,169,255],
+		"engineCampaignColor":[176,217,243,255],
+		"contrailDuration":1,
+		"contrailWidthMult":.5,
+		"contrailWidthAddedFractionAtEnd":0.5,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":0.68, #0.5
+		"contrailAngularVelocityMult":0, #0.5
+		"contrailColor":[176,217,243,50],
+		"contrailCampaignColor":[176,217,243,50],
+
+		"type":"GLOW", # GLOW or SMOKE
+		"glowSizeMult":0.5,
+		"glowAlternateColor":[136,195,239,255],
+		"glowSprite":"graphics/fx/rebelrats_engineglow1.png", #the plume shape
+		"glowOutline":"graphics/fx/rebelrats_engineflame4.png", #the plume flame
+	},
+}
+

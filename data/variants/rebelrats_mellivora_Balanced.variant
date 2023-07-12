@@ -1,0 +1,44 @@
+{
+  "variantId": "rebelrats_mellivora_Balanced",
+  "hullId": "rebelrats_mellivora",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "rebelrats_huntsmanx2",
+        "WS0002": "rebelrats_huntsmanx2"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "rebelrats_ranger",
+        "WS0004": "rebelrats_ranger"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "rebelrats_fowler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "rebelrats_sultan_Fighter_wingt",
+    "rebelrats_overseer_Interceptor_wingt"
+  ]
+}

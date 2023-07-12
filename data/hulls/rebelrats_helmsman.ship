@@ -1,0 +1,206 @@
+{
+  "hullName": "Helmsman",
+  "hullId": "rebelrats_helmsman",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/helmsman_pirate_destroyer.png",
+  "style": "LOW_TECH",
+  "height": 192,
+  "width": 82,
+  "center": [41, 96],
+  "collisionRadius": 127.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 106,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rebelrats_manatarmstargettinggrid"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 73,
+      "locations": [66, 23]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -73,
+      "locations": [66, -23]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [45, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [21, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 180,
+      "locations": [-39, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 212,
+      "angle": 105.5,
+      "locations": [-46, 28]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 212,
+      "angle": -105.5,
+      "locations": [-46, -28]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-96, -0],
+      "length": 74,
+      "width": 42,
+      "angle": 180,
+      "contrailSize": 42,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-3.5, 34.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-3.5, -34.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-92.5, 25.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-92.5, -25.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87.5, 30.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": 90,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87.5, -30.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": -90,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82.5, 25.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": 0,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82.5, -25.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": -0,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [1.5, 39.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": 90,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [1.5, -39.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": -90,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [6.5, 34.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": 0,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [6.5, -34.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": -0,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -95, -17.5,
+    -81.5, -11.5,
+    -38, -12,
+    -31.5, -17.5,
+    -1, -18,
+    5, -14,
+    64.5, -13,
+    83.5, -6,
+    83.5, 6,
+    64.5, 13,
+    5, 14,
+    -1, 18,
+    -31.5, 17.5,
+    -38, 12,
+    -81.5, 11.5,
+    -95, 17.5
+  ]
+}

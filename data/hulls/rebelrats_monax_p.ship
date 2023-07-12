@@ -1,0 +1,159 @@
+{
+  "hullName": "Monax (P)",
+  "hullId": "rebelrats_monax_p",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/monax_pirate_destroyer.png",
+  "style": "REBELRATS",
+  "height": 255,
+  "width": 114,
+  "center": [70, 127.5],
+  "collisionRadius": 174.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 147,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missleracks",
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 41,
+      "locations": [114.5, 31]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [107.5, -29]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 212,
+      "angle": -59.5,
+      "locations": [84.5, -35]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 202,
+      "angle": 57.5,
+      "locations": [89.5, 31]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 91,
+      "angle": 0,
+      "locations": [34.5, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 98,
+      "locations": [-48.5, 26]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 244,
+      "angle": 180,
+      "locations": [-71.5, -0]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -98,
+      "locations": [-48.5, -26]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [54, -43]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [29, -43]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        32.5, 32,
+        38, 32
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        58, 32,
+        64, 32
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-123.5, -0],
+      "length": 106,
+      "width": 57,
+      "angle": 180,
+      "contrailSize": 57,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    }
+  ],
+  "bounds": [
+    113.5, 0.5,
+    95.5, 37,
+    15, 36,
+    5.5, 52.5,
+    -18, 53.5,
+    -84, 38.5,
+    -125, 25,
+    -125, -26.5,
+    -86, -38.5,
+    -28, -44.5,
+    90, -44.5,
+    107.5, -35
+  ]
+}

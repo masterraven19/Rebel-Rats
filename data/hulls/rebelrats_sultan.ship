@@ -1,0 +1,84 @@
+{
+  "hullName": "Sultan",
+  "hullId": "rebelrats_sultan",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/sultan_fighter.png",
+  "style": "MIDLINE",
+  "height": 66,
+  "width": 50,
+  "center": [24.5, 32],
+  "collisionRadius": 41.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 37.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": 0,
+      "locations": [-10, 16]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": -0,
+      "locations": [-10, -16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": -0,
+      "locations": [27.5, -3]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": 0,
+      "locations": [-5.5, 7]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": 0,
+      "locations": [0.5, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23.5, 6],
+      "length": 41.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-23.5, -6],
+      "length": 41.5,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    -26, -22.5,
+    -26, 23.5,
+    32.5, -0.5
+  ]
+}

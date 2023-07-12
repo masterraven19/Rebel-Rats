@@ -1,0 +1,56 @@
+{
+  "id": "rebelrats_petard_m",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "beamEffect": "data.scripts.weapons.rebelrats_petardBeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/petardlaser_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/petardlaser_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/petardlaser_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/petardlaser_hardpoint_glow.png",
+  "glowColor": [
+    223,
+    182,
+    12,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    23,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    20,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    217,
+    180,
+    124,
+    255
+  ],
+  "coreColor": [
+    233,
+    192,
+    20,
+    255
+  ],
+  "width": 16,
+  "textureType": SMOOTH,
+  "textureScrollSpeed": 900,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "petard_firing"
+}

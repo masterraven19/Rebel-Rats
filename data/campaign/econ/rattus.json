@@ -1,0 +1,27 @@
+{
+	"starSystem":"rebelrats_dragonsblessing",
+	"markets":[
+		{
+			"entities":["rebelrats_krysa"],
+			"faction":"rebelrats",
+			"size":6,
+			"startingConditions":[
+				"population_6",
+				"habitable",
+				"terran",
+				"ore_moderate",
+				"farmland_adequate",
+                                "regional_capital",
+			],
+			"industries":[
+				"population",
+				"megaport",
+				"highcommand",
+				"heavybatteries",
+				"farming",
+				"starfortress",
+				"orbitalworks",
+			],
+		},
+	],
+}

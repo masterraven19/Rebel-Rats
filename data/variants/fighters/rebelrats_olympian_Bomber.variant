@@ -1,0 +1,30 @@
+{
+  "variantId": "rebelrats_olympian_Bomber",
+  "hullId": "rebelrats_olympian",
+  "displayName": "Anti-Ship Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "rebelrats_pyroclast_f"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_guardsman_f",
+        "WS0003": "rebelrats_guardsman_f"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

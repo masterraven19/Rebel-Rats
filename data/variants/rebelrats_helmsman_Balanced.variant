@@ -1,0 +1,49 @@
+{
+  "variantId": "rebelrats_helmsman_Balanced",
+  "hullId": "rebelrats_helmsman",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "rebelrats_crossbow_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "rebelrats_culverin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "rebelrats_hawker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_fowler",
+        "WS0002": "rebelrats_fowler",
+        "WS0006": "rebelrats_fowler",
+        "WS0007": "rebelrats_fowler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

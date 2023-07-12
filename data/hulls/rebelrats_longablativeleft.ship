@@ -1,0 +1,22 @@
+{
+  "hullName": "Long Ablative Plate (Left)",
+  "hullId": "rebelrats_longablativeleft",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/longablativeplate_left.png",
+  "style": "LOW_TECH",
+  "height": 30,
+  "width": 23,
+  "center": [11.5, 15],
+  "collisionRadius": 23.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 21,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -15, 10.5,
+    -4, 10.5,
+    15.5, -10.5,
+    -5, -10.5
+  ]
+}

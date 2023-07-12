@@ -1,0 +1,71 @@
+{
+  "hullName": "Monax ",
+  "hullId": "rebelrats_monax",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Monax_logistics_ship.png",
+  "style": "REBELRATS",
+  "height": 271,
+  "width": 111,
+  "center": [59, 133],
+  "collisionRadius": 182.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 147.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+    "repair_gantry",
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -67,
+      "locations": [82, -35]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [32, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 307,
+      "angle": 180,
+      "locations": [-74, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-130, -0],
+      "length": 184,
+      "width": 109,
+      "angle": 180,
+      "contrailSize": 109,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    }
+  ],
+  "bounds": [
+    105, -34,
+    87, -45,
+    -27, -45.5,
+    -88.5, -37.5,
+    -128, -22,
+    -128, 22,
+    -88.5, 36.5,
+    -21, 55,
+    91, 52,
+    123, 27
+  ]
+}

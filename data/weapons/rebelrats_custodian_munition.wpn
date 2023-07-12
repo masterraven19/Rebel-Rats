@@ -1,0 +1,48 @@
+{
+  "id": "rebelrats_custodian_munition",
+  "specClass": "projectile",
+  "projectileSpecId": "rebelrats_custodian_munition",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 400,
+  #"everyFrameEffect":"data.scripts.unused.rebelrats_custodianEffect",
+  "turretSprite": "graphics/weapons/afg76custodian_turret_base.png",
+  "turretGunSprite": "graphics/weapons/afg76custodian_turret_barrel.png",
+  "hardpointSprite": "graphics/weapons/afg76custodian_turret_base.png",
+  "hardpointGunSprite": "graphics/weapons/afg76custodian_turret_barrel.png",
+  "visualRecoil": 8,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    26.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    40.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 30,
+    "particleSizeMin": 16,
+    "particleSizeRange": 18,
+    "particleDuration": .5,
+    "particleCount": 46,
+    "particleColor": [
+      255,
+      155,
+      75,
+      225
+    ]
+  },
+  "fireSoundTwo": "flak_fire"
+}

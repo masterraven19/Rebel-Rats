@@ -1,0 +1,15 @@
+{
+	"id":"rebelrats_arratoi_plasma",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":75.0,
+	"width":20.0,
+	"fadeTime":0.25,
+	"fringeColor":[0,145,238,255],
+	"coreColor":[99,194,255,200],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

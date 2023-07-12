@@ -1,0 +1,54 @@
+{
+  "variantId": "rebelrats_mus_Balanced",
+  "hullId": "rebelrats_mus",
+  "displayName": "Mus ",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_huntsmanx2_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "rebelrats_longbow",
+        "WS0003": "rebelrats_longbow"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "rebelrats_muridae_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "rebelrats_ranger"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "rebelrats_fowler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

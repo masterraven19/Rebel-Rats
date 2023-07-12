@@ -1,0 +1,22 @@
+{
+  "hullName": "Ablative Plate (Right)",
+  "hullId": "rebelrats_ablativeright",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ablativeplate_right.png",
+  "style": "MIDLINE",
+  "height": 25,
+  "width": 17,
+  "center": [9, 12],
+  "collisionRadius": 18.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 17,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -6, 8,
+    -12, -7,
+    0, -7,
+    13.5, 8
+  ]
+}

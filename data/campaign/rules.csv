@@ -1,0 +1,14 @@
+id,trigger,conditions,script,text,options,notes
+# default entity interaction,,,,,,
+#defaultOpenDialog,OpenInteractionDialog,,"ShowDefaultVisual
+PrintDescription 3
+SetShortcut defaultLeave ""ESCAPE""",,defaultLeave:Leave,
+#defaultLeave,DialogOptionSelected,$option == defaultLeave,DismissDialog,,,
+# warning beacons,,,,,,
+#beaconOpenDialog,OpenInteractionDialog,$tag:warning_beacon,"ShowDefaultVisual
+SetShortcut beaconLeave ""ESCAPE""",An autonomous warning beacon has been left emitting a distorted wail between official channels. Whatever message it was meant to convey has been corrupted.,beaconLeave:Leave,
+,,,,,,
+#stations,,,,,,
+rebelrats_powerstationOpenDialog,OpenInteractionDialog,$customType == rebelrats_powerstation,"ShowDefaultVisual
+SetShortcut rebelrats_powerstation_Leave ""ESCAPE""",As your fleet approaches the power station you suddenly recieve a warning notification to not to approach the station any closer. Your gunnery officer alarms you that there are several targetting lasers pointing on the ships of your fleet. Your assistant officers advise you not to get closer.,0:rebelrats_powerstation_Leave:Leave,
+rebelrats_powerstation_Leave,DialogOptionSelected,$option == rebelrats_powerstation_Leave,DismissDialog,,,

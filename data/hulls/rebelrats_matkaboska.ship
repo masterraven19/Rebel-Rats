@@ -1,0 +1,199 @@
+{
+  "hullName": "Matkaboska",
+  "hullId": "rebelrats_matkaboska",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/matkaboska_assault_cruiser.png",
+  "style": "REBELRATS",
+  "height": 331,
+  "width": 116,
+  "center": [58, 165.5],
+  "collisionRadius": 228,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 191,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rebelrats_manatarmstargettinggrid"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [126.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 174,
+      "angle": -67,
+      "locations": [114.5, -17]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": 78,
+      "locations": [37.5, 25]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": -78,
+      "locations": [37.5, -25]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [89.5, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 82,
+      "locations": [17.5, 43]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -82,
+      "locations": [17.5, -43]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 95,
+      "locations": [-11.5, 30]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -95,
+      "locations": [-11.5, -30]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": 0,
+      "locations": [-10.5, -0]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 273,
+      "angle": 180,
+      "locations": [-94.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 174,
+      "angle": 67,
+      "locations": [114.5, 17]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [64.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [39.5, -0]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [136, 27]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [136, -27]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [164, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-163.5, -0],
+      "length": 131.5,
+      "width": 56,
+      "angle": 180,
+      "contrailSize": 56,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    }
+  ],
+  "bounds": [
+    -161.5, -19.5,
+    -105.5, -29.5,
+    -28, -40,
+    27, -55.5,
+    32.5, -39.5,
+    108, -39,
+    149.5, -11.5,
+    149.5, 11.5,
+    108, 39,
+    32.5, 39.5,
+    27, 55.5,
+    -28, 40,
+    -105.5, 29.5,
+    -161.5, 19.5
+  ]
+}

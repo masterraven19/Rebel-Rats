@@ -1,0 +1,64 @@
+{
+  "id": "rebelrats_falcon_m",
+  "specClass": "projectile",
+  "projectileSpecId": "rebelrats_falcon_mrm",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/falcon_missile_mount.png",
+  "hardpointSprite": "graphics/weapons/falcon_missile_mount.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES_UNLESS_HIDDEN
+  ],
+  "turretOffsets": [
+    -1,
+    8.5,
+    -1,
+    3.5,
+    -1,
+    -3.5,
+    -1,
+    -8.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    5.5,
+    8.5,
+    5.5,
+    3.5,
+    5.5,
+    -3.5,
+    5.5,
+    -8.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackSpread": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ]
+  },
+  "fireSoundTwo": "harpoon_fire"
+}

@@ -1,0 +1,98 @@
+{
+  "hullName": "Mus",
+  "hullId": "rebelrats_mus",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mus_missile_frigate.png",
+  "style": "REBELRATS",
+  "height": 153,
+  "width": 72,
+  "center": [36, 78],
+  "collisionRadius": 97.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 84.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rebelrats_manatarmstargettinggrid"
+  ],
+  "builtInWeapons": {
+    "WS0001": "rebelrats_huntsmanx2_m",
+    "WS0006": "rebelrats_muridae_m"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [58, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 70,
+      "locations": [-5, 25]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -70,
+      "locations": [-5, -25]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-13, 0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 180,
+      "locations": [-36, 0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [30, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-79, -0],
+      "length": 90,
+      "width": 40,
+      "angle": 180,
+      "contrailSize": 40,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    }
+  ],
+  "bounds": [
+    -77, -12,
+    -27.5, -35,
+    9, -34,
+    63, -14.5,
+    63, 14.5,
+    9, 34,
+    -27.5, 35,
+    -77, 12
+  ]
+}
