@@ -3,6 +3,7 @@ id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,att
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #FIGHTERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 rebelrats_sultan_Fighter_wingt,rebelrats_sultan_Fighter,"fighter2, fighter, rapid_reform, rebelrats_arsenal_bp, leader_no_swarm, wingmen_no_swarm",2,,8,16,V,4000,500,0,2,FIGHTER,Fighter Bomber,18,12000,,,,,,,,,,,,,
+rebelrats_daekon_Fighter_wingt,rebelrats_daekon_Fighter,"fighter3, fighter, rebelrats_arsenal_bp",2,,7,14,V,4000,500,0,3,FIGHTER,Fighter,15,11000,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #INTERCEPTORS,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 rebelrats_ministro_Interceptor_wingt,rebelrats_ministro_Interceptor,"interceptor3, interceptor, auto_fighter, rebelrats_arsenal_bp",0,,5,5,BOX,4000,600,0,6,INTERCEPTOR,Drone Interceptor,7,4000,,,,,,,,,,,,,

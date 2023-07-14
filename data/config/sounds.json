@@ -42,6 +42,10 @@
     "crossbow_firing":[
         {"file":"sounds/Crossbow_firing2.ogg","pitch":1.00,"volume":.2},
     ],
+    "nezulana_firing": [
+        {"file":"sounds/nezulana_firing2.ogg","pitch":1.00,"volume":.2},
+    ],
+
     "rebelrats_engine_loop":{
         "sounds":[
             {"file":"sounds/ratengineburn.ogg","pitch":1.2,"volume":0.2}, #index 0
@@ -52,6 +56,5 @@
     "sounds":[
         {"file":"sounds/ratengineboost.ogg","pitch":1.2,"volume":0.1},
     ],
-
     },
 }

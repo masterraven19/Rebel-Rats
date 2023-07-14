@@ -1,0 +1,32 @@
+{
+  "variantId": "rebelrats_daekon_Fighter",
+  "hullId": "rebelrats_daekon",
+  "displayName": "Assault Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "no_weapon_flux"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_chaingun_f",
+        "WS0002": "rebelrats_chaingun_f",
+        "WS0003": "rebelrats_falcon_f",
+        "WS0004": "rebelrats_falcon_f"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

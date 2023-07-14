@@ -85,6 +85,7 @@
 		"fighters":[
                         "rebelrats_sultan_Fighter_wingt",
                         "rebelrats_proctor_Fighter_wingt",
+                        "rebelrats_daekon_Fighter_wingt",
                         "rebelrats_ministro_Interceptor_wingt",
                         "rebelrats_overseer_Interceptor_wingt",
 		],
@@ -94,6 +95,7 @@
 		"fighters":[
                         "rebelrats_sultan_Fighter_wingt",
                         "rebelrats_proctor_Fighter_wingt",
+                        "rebelrats_daekon_Fighter_wingt",
                         "rebelrats_ministro_Interceptor_wingt",
                         "rebelrats_overseer_Interceptor_wingt",
 		],
@@ -103,6 +105,7 @@
 		"weapons":[                       
                         "rebelrats_equalizer_l",
                         "rebelrats_mangonel_l",
+                        "rebelrats_nezulana_l",
                         "rebelrats_siegeharq_m",
                         "rebelrats_crossbow_m",
                         "rebelrats_falcon_m",
@@ -127,6 +130,7 @@
 		"weapons":[
                         "rebelrats_equalizer_l",
                         "rebelrats_drummer_l",
+                        "rebelrats_nezulana_l",
                         "rebelrats_siegeharq_m",
                         "rebelrats_crossbow_m",
                         "rebelrats_falcon_m",

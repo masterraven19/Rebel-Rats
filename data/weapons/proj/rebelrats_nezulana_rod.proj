@@ -1,0 +1,21 @@
+{
+	"id":"rebelrats_nezulana_rod",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":24,
+	"hitGlowRadius":150,
+	"width":8,
+	"fadeTime":0.5,
+	"fringeColor":[110,110,110,175],
+	"coreColor":[221,221,221,200],
+	"glowColor":[255,255,255,105],
+	"glowRadius":0,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+    "passThroughFighters":true,
+    "passThroughFightersOnlyWhenDestroyed":false,
+	"bulletSprite":"graphics/missiles/ap_rod_large.png"
+}

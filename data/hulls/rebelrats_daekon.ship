@@ -1,0 +1,99 @@
+{
+  "hullName": "Daekon",
+  "hullId": "rebelrats_daekon",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/daekon_fighter.png",
+  "style": "REBELRATS",
+  "height": 55,
+  "width": 46,
+  "center": [23, 27.5],
+  "collisionRadius": 53,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 36.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0005": "rebelrats_daekon_left",
+    "WS0006": "rebelrats_daekon_right"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 11,
+      "angle": 0,
+      "locations": [-6.5, -7.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 11,
+      "angle": -0,
+      "locations": [-6.5, 7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 11,
+      "angle": -0,
+      "locations": [-10, -15.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 11,
+      "angle": 0,
+      "locations": [-10, 15.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-13, 16.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-13, -16.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-24, 6.5],
+      "length": 23,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    },
+    {
+      "location": [-24, -6.5],
+      "length": 23,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    }
+  ],
+  "bounds": [
+    -24.5, -22,
+    23.5, -0,
+    -24.5, 22
+  ]
+}
