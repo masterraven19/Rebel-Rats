@@ -1,5 +1,5 @@
 # Rebel-Rats-Krysan-Federal-Navy
- A faction mod that is inspired by the expanse for the game starsector.
+ A faction mod that is inspired by The Expanse for the game Starsector.
 
 # How to Install and Implement the mod to starsector
 You first navigate to the green button with the text "Code", after clicking it there will be an option on the bottom 
