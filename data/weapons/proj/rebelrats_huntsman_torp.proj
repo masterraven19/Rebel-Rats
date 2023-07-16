@@ -21,8 +21,8 @@
 					 "particleColor":[100,159,217,50]},
 	"armingTime":0.5,
 	"engineSpec":{"turnAcc":140,
-				  "turnRate":50,
-				  "acc":1200,
+				  "turnRate":80,
+				  "acc":400,
 				  "dec":300},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-12, 0],
@@ -33,14 +33,14 @@
 						"engineColor":[209,154,59,255],
 						"glowSizeMult":1.5,
 						"glowAlternateColor":[250,253,216,255],
-						"contrailDuration":2,
-						"contrailWidthMult":1,
-						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailDuration":5,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":-2,  # can be negative. makes trail spread out/narrow at the end
 						"contrailMinSeg":5, # min segment length, in pixels
 						"contrailMaxSpeedMult":.0f,
 						"contrailAngularVelocityMult":0.5f,
 						"contrailSpawnDistMult":.5, # how far away from engine it starts
-						"contrailColor":[155,100,70,75],
+						"contrailColor":[155,100,70,90],
 						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
 					},
 				    "width":10.0,

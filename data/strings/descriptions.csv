@@ -6,8 +6,8 @@ rebelrats_doldrums_l,WEAPON,"The Doldrums-Pattern railgun is the most capable we
 rebelrats_drummer_l,WEAPON,The Drummer is an offshoot development of the Doldrums-Pattern railgun family. It utilizes an electrothermal-chemical firing system and gauss coils to fire inert rods against enemy shields,,,,
 rebelrats_goedendag_l,WEAPON,"Buried behind the stealth composite plating is a complex series of carefully engineered electromagnets, capacitors, and extensive cooling equipment snaking around a set of magazines connected to the ship’s internal ammo forges. The Goedendag railgun is built to give the Jerboa the firepower to square off with its peers if its onboard missiles aren’t sufficient.",,,,
 rebelrats_mangonel_l,WEAPON,"At its core, the Mangonel is a reverse engineered TPC from a wrecked Onslaught. By overcharging the weapon, The Three Brothers Corporation magnified the damage of its shots beyond what the original TPC was designed for. Despite its ability to inflict horrific effects on enemy ships, the Mangonel has seen limited service in the Krysan Fleet due to its costly flux requirements.",,,,
-rebelrats_nezulana_l,WEAPON,A railgun designed by the rebel rats in order to quickly break the enemy shields.,,,,
-rebelrats_salvo_autoloader,WEAPON,"Initially a testbed bed for the Porcellus Battlecruiser's missile tubes, the autoloaders found itself installed in most of the Federal Navy's capital ships as a finisher weapon with its salvo of 3 Huntsman torpedos",,,,
+rebelrats_nezulana_l,WEAPON,"A railgun designed by the rebel rats in order to break capital-grade shields. Following the success of the Drummer, the Nezulana utilizes a scaled-up version of the same electrothermal-chemical launch system to hurl saboted hyperdense penetrating rods at enemy shields.",,,,
+rebelrats_salvo_autoloader,WEAPON,"Initially a testbed bed for the Porcellus Battlecruiser's missile tubes, the design is now installed in most of the Federal Navy's capital ships as a finisher weapon with its unparalleled reliability.",,,,
 ,,,,,,
 rebelrats_siegeharq_m,WEAPON,"Determined to create an anti-armor weapon, Rebel Rat engineers fashioned a barrel extension and an AM-energized warhead to modernize the antiquated artillery pieces found on Magawa after the Penance War.",,,,
 rebelrats_crossbow_m,WEAPON,The Crossbow is designed based on existing static defense emplacements. They are loaded with specialized anti-shield rounds fired from their electrothermal-chemical breech and can quickly bring down enemy shields during battle.,,,,
@@ -43,18 +43,18 @@ rebelrats_guardsman_f,WEAPON,Guardsman-Pattern turrets have their roots in old K
 rebelrats_vaybchek,WEAPON,"Overcharged plasma mining tools, the Vaybchek purposefully overloads its mining cartridges to produce a higher output. This unsafe practice commonly led to premature breech explosions when done wrong, often injuring the crew.",,,,
 rebelrats_pyroclast_f,WEAPON,"Removing the complex thruster system and fitted with a solid rocket motor, this version of the Pyroclast is meant to be fitted into the Olympian's magnetic bomb launcher.",,,,
 rebelrats_felis,WEAPON,Built-in PD laser created for the Patron corvette. Extremely effective against fighters and missiles despite its high flux costs.,,,,
-rebelrats_ashford_f,WEAPON,scary,,,,
-rebelrats_chaingun_f,WEAPON,A chaingun built to fight grey rats.,,,,
-rebelrats_falcon_f,WEAPON,A single racket of falcons,,,,
+rebelrats_ashford_f,WEAPON,Tuned down Ashford for fighter use.,,,,
+rebelrats_chaingun_f,WEAPON,Fires armor piercing incendiary rounds specialized for shredding thinly armored spacecraft.,,,,
+rebelrats_falcon_f,WEAPON,A wing mounting bracket for falcons.,,,,
 ,,,,,,
 #FIGHTERS,,,,,,
 rebelrats_sultan,SHIP,"The Sultan is the Krysan Navy's premier fighter. It was built and designed by Rebel Rats to operate both in atmosphere and space, acting as a multi-role SSTO fighter. Its large arsenal of weapons is enough to deal with most enemies in battle space, especially with its underslung Huntsman torpedo to help it hunt larger spacecraft.",,,,
-rebelrats_proctor,SHIP,"More of an engine than a fighter, the Proctor was created to counter the growing number of bombers in the Persean Sector. Its armaments allow it to hunt frigates, but it quickly falters against concentrated enemy PD fire with its lack of shields despite extensive armoring around crucial internal systems.",,,,
+rebelrats_proctor,SHIP,"More of an engine than a fighter, the Proctor was created to counter the growing number of pirates in the Persean Sector. Its armaments allow it to hunt frigates, but it quickly falters against concentrated enemy PD fire with its lack of shields despite extensive armoring around crucial internal systems.",,,,
 rebelrats_hippo,SHIP,"The Hippo is the standard-issue skiff of Krysan Federal Navy warships. They allow Krysan Ships to insert a platoon of marines into a planetary battlespace or initiate boarding action agaisnt enemy ships and stations with breaching charges. Outside of dropship duties, the skiffs can act as impromptu PD boats to screen its mothership with its Guardsman turrets.",,,,
 rebelrats_overseer,SHIP,"A light interceptor of the Krysan Federal Navy, the Overseer is a hardy fighter created by Arms & Armor. The craft comes equipped with a Hwacha missile rack and a pair of Ranger autocannons, making a wing of Overseers a threat to enemy shields.",,,,
-rebelrats_ministro,SHIP,"The Ministro is a lightweight, unmanned interceptor drone designed by Rebel Rat Industries as a proposal to Krysan Navy officials to reduce pilot losses. It quickly found success as increasingly advanced drone control systems allowed finer control with unmanned drones comparable to manned fighters.",,,,
+rebelrats_ministro,SHIP,"The Ministro is a lightweight, unmanned interceptor drone designed by Rebel Rat Industries as a proposal to Krysan Navy officials to reduce pilot losses. It quickly found success with increasingly advanced drone control systems that allowed finer control with unmanned drones.",,,,
 rebelrats_patron_f,SHIP,An array of microforges have been set up on this carrier to maintain a wing of Patron Corvettes. ,,,,
-rebelrats_daekon,SHIP,A fast assault fighter built to break the shields of the enemies and crack their armor with assault miniguns.,,,,
+rebelrats_daekon,SHIP,A fast assault fighter built to break the shields of the enemy spacecraft and shred their armor with assault chainguns.,,,,
 ,,,,,,
 #BOMBERS,,,,,,
 rebelrats_olympian,SHIP,"Despite its shambolic origins of being made from the remains of Piranha bombers, the Olympian is a capable bomber that dutifully does its job with more than enough armor and PD coverage to last it through its bombing run. A recurring joke among Olympian pilots is that the onboard warhead contains a Red Bombardier Rat as its payload.",,,,
@@ -127,10 +127,16 @@ The corvette is one of the few deep space ships that still maintains older-type 
 ",,,,
 ,,,,,,
 #LOGISTICS SHIPS,,,,,,
-rebelrats_pybara,SHIP,where the ca,,,,
+rebelrats_pybara,SHIP,"The penultimate cargo carrier of the Naval Logistics Fleet, the Pybara's built around the relatively new Super Heavy Containers to satisfy the increasing needs of Krysan Federal Navy. Uniquely, its size can be attributed to the hull being designed around a Daedalus-type fusion torch that utilizes features inspired by acquired Persean Sector technology.
+
+Developed in conjuction with the Fleet Logistics Improvement Program, the Three Brothers Corporation was tasked with the designing of a new heavy logistics ship based on the newly developed Super Heavy Containers that was supposed to speed up cargo turnover times. While the project was successful, the limited amount of docks that can accommodate the new line of ships and its rarer Daedalus-type engine prevented the Pybara from becoming the new system standard for fleet cargo carriers.
+
+Despite unfortunate shortcomings, Pybara captains and crew enjoy more spacious accommodations than the smaller Monax thanks to extensive automation and additional onboard facilities its fighter detachment. Pybaras feature a couple of people mover cars along its spines to quickly shunt people and materials around to the delight of onboard offduty crew and pilots.
+
+At its core, the Pybara hosts a single Camel-Pattern Flux Reactor to power the large H101D Daedalus-type Fusion Torch while two Minuitoid Flux Reactors are responsible for pwoering the ship's various subsystems.",,,,
 rebelrats_monax,SHIP,"The Monax is the workhorse of the Naval Logistics Fleet with its ample cargo holds and extensive salvaging equipment. Nothing on the ship’s base model is underutilized or an embellishment, every part of the Monax is designed to be easily interchangeable to fit the user’s needs while its cargo holds have been maximized to carry as many cargo units as possible with its powerful torch drive. 
 
-The freighter is a collaboration between Kaharian Naval Steelworks and Jerel’s Fuel Haulers in an attempt to standardize Krysan cargo hauling. The project, being hugely successful, made the Monax the most common freighter to be seen flying in Krysan trade fleets. The Monax’ ubiquity and focus in standardization in Krysan cargo fleets created a barter economy that revolved around trading parts and dedicated businesses meant for servicing Monax freighters.
+The freighter is a collaboration between Kaharian Naval Steelworks and Jerel’s Fuel Haulers, now the Three Brother's Corporation, in an attempt to standardize Krysan cargo hauling. The project, being hugely successful, made the Monax the most common freighter to be seen flying in Krysan trade fleets. The Monax’ ubiquity and focus in standardization in Krysan cargo fleets created a barter economy that revolved around trading parts and dedicated businesses meant for servicing Monax freighters.
 
 The ship is equipped with a M405 Torch Drive that has been factory tuned for maximum efficiency and is hooked up to a single Bobcat-Pattern Flux Reactor.
 ",,,,

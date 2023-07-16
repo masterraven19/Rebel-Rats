@@ -4,7 +4,7 @@
   "displayName": "Overdriven",
   "goalVariant": true,
   "fluxCapacitors": 10,
-  "fluxVents": 2,
+  "fluxVents": 7,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -22,17 +22,30 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "rebelrats_crossbow_m"
+        "WS0009": "rebelrats_rattus_torp"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "rebelrats_culverin",
-        "WS0003": "rebelrats_culverin",
-        "WS0004": "rebelrats_culverin",
-        "WS0005": "rebelrats_culverin"
+        "WS0001": "rebelrats_siegeharq_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "rebelrats_pyroclast",
+        "WS0003": "rebelrats_pyroclast"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "rebelrats_longbow",
+        "WS0005": "rebelrats_longbow"
       }
     },
     {
@@ -45,7 +58,7 @@
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {}
     }
