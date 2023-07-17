@@ -32,6 +32,7 @@ Huntsman Rack,rebelrats_huntsmanx2,0,,400,1500,,750,,50,20,5,2,0.025,1,HIGH_EXPL
 Pyroclast,rebelrats_pyroclast,0,,600,1200,,3000,,80,20,3,1,0.01,1,HIGH_EXPLOSIVE,300,,0,5,1,,0,0,0,0,,450,100,5,650,,,"STRIKE, DIRECT_AIM, USE_VS_FRIGATES","strike8, rocket3, rebelrats_arsenal_bp",,Rebel Rats,,Strike,Fast,Slow,,,Secondary charge inflicts additional damage on hit,,,,TRUE,
 AFG-155C Hawker,rebelrats_hawker,0,,300,300,,80,,1,60,3,,,,KINETIC,30,,0,1,1,,0,10,1,10,,700,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,,,Fires a shrapnel canister in a cone. Each piece of shrapnel deals 80 frag damage,,,,,
 Ashford LAWS,rebelrats_ashford,0,,400,400,600,,60,5,100,5,,,,ENERGY,,200,0,.1,.2,.4,,,,,10000,,,,,,,PD,"pd9, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Very Fast,Excellent,,,,,,
+AFG-25 Poacher,rebelrats_poacher_s,0,,400,300,,20,,1,75,4,,,,HIGH_EXPLOSIVE,5,,0,0.05,1,,0,2,0.1,10,,1000,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Arms & Armor,,Point Defense,,,Very Fast,Excellent,,,,,,
 Rattus Huntsman Torpedo Launcher,rebelrats_rattus_torp,,,0,2000,,750,,50,15,0,12,0.1,4,HIGH_EXPLOSIVE,150,,0,1,1,,0,0,0,0,,600,100,5,450,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Strike,Fast,Medium,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #FIGHTER WEAPONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

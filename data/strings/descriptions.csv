@@ -34,6 +34,7 @@ rebelrats_hawker,WEAPON,The Hawker is a pirate's favorite. It utilizes time-fuze
 rebelrats_pyroclast,WEAPON,The Pyroclast is the Federal Navy's answer to the Reaper. It uses a hypercharged AM-shaped charge warhead with raw penetration values measured in kilometers to break through heavy ship armor. Its built-in thruster system ensures that it hits the target.,,,,
 rebelrats_rattus_torp,WEAPON,"This is an autoloader that has been fitted into the ship's center weapons module. It can quickly reload Huntsman torpedoes, allowing the Rattus to conduct rapid strikes and replenish missiles through its onboard microforge.",,,,
 rebelrats_ashford,WEAPON,"The Ashford is comparable to Persean Sector lasers with its signature variable lense that allows it to have a higher effective range than other Krysan PD weapons. It utilizes newly found materials mined in the sector to induce EMP arcs on targets, often disabling their engines and sending them on a death spiral.",,,,
+rebelrats_poacher_s,WEAPON,25 milimmeter chaingun built for brrrrrrrr,,,,
 ,,,,,,
 #FIGHTER WEAPONS,,,,,,
 rebelrats_huntsman_f,WEAPON,"A fighter-mounted version of the Huntsman Torpedo stowed under the fuselage due to its size. The fighter's weight restrictions downsized the torpedo's warhead, but will still be sufficient to threaten ships, especially those with thin armor.",,,,
