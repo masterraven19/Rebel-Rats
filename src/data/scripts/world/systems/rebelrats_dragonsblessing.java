@@ -268,7 +268,7 @@ public class rebelrats_dragonsblessing {
         
         globalEconomy.addMarket(nutria_market, false);
 
-        MarketAPI magawa_market = Global.getFactory().createMarket("magawa_market", "", 4);
+        MarketAPI magawa_market = Global.getFactory().createMarket("magawa_market", "", 5);
         magawa.setMarket(magawa_market);
         magawa_market.setPrimaryEntity(magawa);
         magawa_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
@@ -283,9 +283,11 @@ public class rebelrats_dragonsblessing {
         magawa_market.addCondition(Conditions.NO_ATMOSPHERE);
         magawa_market.addCondition(Conditions.LOW_GRAVITY);
         magawa_market.addCondition(Conditions.RUINS_VAST);
+        magawa_market.addCondition(Conditions.POPULATION_5);
 
         magawa_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
         magawa_market.addSubmarket(Submarkets.SUBMARKET_BLACK);
+        magawa_market.addSubmarket(Submarkets.GENERIC_MILITARY);
         magawa_market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
 
         magawa_market.addIndustry(Industries.POPULATION);
@@ -295,6 +297,7 @@ public class rebelrats_dragonsblessing {
         magawa_market.addIndustry(Industries.WAYSTATION);
         magawa_market.addIndustry(Industries.GROUNDDEFENSES);
         magawa_market.addIndustry(Industries.ORBITALSTATION);
+        magawa_market.addIndustry(Industries.MILITARYBASE);
 
         globalEconomy.addMarket(magawa_market, false);
 
