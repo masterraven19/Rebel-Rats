@@ -14,6 +14,9 @@
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid"
   ],
+  "builtInWings": [
+    "rebelrats_hippo_Fighter_wingt"
+  ],
   "builtInWeapons": {
     "WS0008": "rebelrats_salvo_autoloader",
     "WS0011": "rebelrats_doldrums_l"

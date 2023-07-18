@@ -54,10 +54,10 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "rebelrats_fowler",
+        "WS0001": "rebelrats_poacher_s",
         "WS0004": "rebelrats_fowler",
         "WS0005": "rebelrats_fowler",
-        "WS0006": "rebelrats_fowler",
+        "WS0006": "rebelrats_poacher_s",
         "WS0007": "rebelrats_fowler"
       }
     },
@@ -88,7 +88,6 @@
     }
   ],
   "wings": [
-    "rebelrats_proctor_Fighter_wingt",
     "rebelrats_proctor_Fighter_wingt"
   ]
 }

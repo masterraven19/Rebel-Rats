@@ -3,7 +3,7 @@
   "hullId": "rebelrats_marmot",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 10,
+  "fluxCapacitors": 14,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
@@ -31,8 +31,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0012": "rebelrats_hwacha_m",
-        "WS0013": "rebelrats_hwacha_m"
+        "WS0012": "rebelrats_huntsman_salvo",
+        "WS0013": "rebelrats_huntsman_salvo"
       }
     },
     {
@@ -90,7 +90,6 @@
     }
   ],
   "wings": [
-    "rebelrats_ministro_Interceptor_wingt",
-    "rebelrats_sultan_Fighter_wingt"
+    "rebelrats_overseer_Interceptor_wingt"
   ]
 }

@@ -3,7 +3,7 @@
   "hullId": "rebelrats_marmot",
   "displayName": "Anti-Fighter",
   "goalVariant": true,
-  "fluxCapacitors": 8,
+  "fluxCapacitors": 23,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
@@ -39,8 +39,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "rebelrats_culverin",
-        "WS0003": "rebelrats_culverin"
+        "WS0007": "rebelrats_hawker"
       }
     },
     {
@@ -56,16 +55,17 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "rebelrats_ranger",
-        "WS0004": "rebelrats_ranger",
-        "WS0005": "rebelrats_ranger"
+        "WS0002": "rebelrats_poacher_s",
+        "WS0003": "rebelrats_poacher_s",
+        "WS0006": "rebelrats_poacher_s"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "rebelrats_fowler",
-        "WS0007": "rebelrats_fowler"
+        "WS0004": "rebelrats_ashford",
+        "WS0005": "rebelrats_ashford"
       }
     }
   ],
@@ -90,7 +90,6 @@
     }
   ],
   "wings": [
-    "rebelrats_overseer_Interceptor_wingt",
     "rebelrats_overseer_Interceptor_wingt"
   ]
 }
