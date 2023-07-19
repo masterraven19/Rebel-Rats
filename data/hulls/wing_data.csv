@@ -15,6 +15,6 @@ rebelrats_olympian_Bomber_wingt,rebelrats_olympian_Bomber,"bomber5, bomber, rebe
 rebelrats_bluster_Bomber_wingt,rebelrats_bluster_Bomber,"bomber4, bomber, pirates, independent",1,,5,12,V,4000,700,0,3,BOMBER,Bomber,14,10000,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #SPECIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-rebelrats_hippo_Fighter_wingt,rebelrats_hippo_Balanced,"fighter2, fighter",1,,3,0,V,1000,500,0,2,SUPPORT,Orbital Dropship,20,0,,,,,,,,,,,,,
+rebelrats_hippo_Fighter_wingt,rebelrats_hippo_Balanced,"fighter2, fighter, no_sell, no_drop, no_drop_salvage",1,,3,0,V,1000,500,0,2,SUPPORT,Orbital Dropship,20,0,,,,,,,,,,,,,
 rebelrats_patron_F_wingt,rebelrats_patron_F,"no_sell, no_drop, no_drop_salvage",2,,8,0,V,900,500,0,2,SUPPORT,Escort Corvette,20,0,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
