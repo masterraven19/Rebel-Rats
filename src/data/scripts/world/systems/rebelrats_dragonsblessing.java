@@ -139,22 +139,18 @@ public class rebelrats_dragonsblessing {
         SectorEntityToken powerstation1 = system.addCustomEntity("rebelrats_powerstation", "Power Station", "rebelrats_powerstation", "rebelrats");
         powerstation1.setCircularOrbitPointingDown(systemstar, 0, 1400, 200);
         powerstation1.setCustomDescriptionId("rebelrats_powerstation");
-        powerstation1.setInteractionImage("illustrations", "orbital");
         
         SectorEntityToken powerstation2 = system.addCustomEntity("rebelrats_powerstation", "Power Station", "rebelrats_powerstation", "rebelrats");
         powerstation2.setCircularOrbitPointingDown(systemstar, 90, 1400, 200);
         powerstation2.setCustomDescriptionId("rebelrats_powerstation");
-        powerstation2.setInteractionImage("illustrations", "orbital");
         
         SectorEntityToken powerstation3 = system.addCustomEntity("rebelrats_powerstation", "Power Station", "rebelrats_powerstation", "rebelrats");
         powerstation3.setCircularOrbitPointingDown(systemstar, 180, 1400, 200);
         powerstation3.setCustomDescriptionId("rebelrats_powerstation");
-        powerstation3.setInteractionImage("illustrations", "orbital");
         
         SectorEntityToken powerstation4 = system.addCustomEntity("rebelrats_powerstation", "Power Station", "rebelrats_powerstation", "rebelrats");
         powerstation4.setCircularOrbitPointingDown(systemstar, 270, 1400, 200);
         powerstation4.setCustomDescriptionId("rebelrats_powerstation");
-        powerstation4.setInteractionImage("illustrations", "orbital");
 
         SectorEntityToken outerstation = system.addCustomEntity("outerstation","Asteroid Central Station", "station_lowtech1","independent");
         outerstation.setCircularOrbit(systemstar, 90,15000,650);
