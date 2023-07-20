@@ -7,7 +7,7 @@ import com.fs.starfarer.api.util.Misc;
 
 public class rebelrats_Powerstation extends BaseMarketConditionPlugin {
     private static float accessb = 0.2F;
-    private static float accessbtooltip = accessb * 10;
+    private static float accessbtooltip = accessb * 100;
     private static float upkeepmod = 0.8F;
 
     public void apply(String id) {
