@@ -181,7 +181,7 @@ public class rebelrats_dragonsblessing {
         rattus_market.addCondition(Conditions.HABITABLE);
         rattus_market.addCondition(Conditions.TERRAN);
         rattus_market.addCondition(Conditions.ORE_MODERATE);
-        rattus_market.addCondition(Conditions.FARMLAND_ADEQUATE);
+        rattus_market.addCondition(Conditions.FARMLAND_BOUNTIFUL);
         rattus_market.addCondition(Conditions.REGIONAL_CAPITAL);
         
         rattus_market.addSubmarket(Submarkets.GENERIC_MILITARY);
@@ -192,10 +192,11 @@ public class rebelrats_dragonsblessing {
         rattus_market.addIndustry(Industries.POPULATION);
         rattus_market.addIndustry(Industries.MEGAPORT, Collections.singletonList(Items.FULLERENE_SPOOL));
         rattus_market.addIndustry(Industries.FARMING);
+        rattus_market.addIndustry(Industries.LIGHTINDUSTRY);
         rattus_market.addIndustry(Industries.HIGHCOMMAND);
         rattus_market.addIndustry(Industries.STARFORTRESS);
         rattus_market.addIndustry(Industries.HEAVYBATTERIES);
-        rattus_market.addIndustry(Industries.ORBITALWORKS, Collections.singletonList(Items.CORRUPTED_NANOFORGE));
+        rattus_market.addIndustry(Industries.ORBITALWORKS, Collections.singletonList(Items.PRISTINE_NANOFORGE));
 
         rattus_market.getIndustry(Industries.STARFORTRESS).setAICoreId(Commodities.ALPHA_CORE);
         EconomyAPI globalEconomy = Global.getSector().getEconomy();
@@ -274,7 +275,7 @@ public class rebelrats_dragonsblessing {
         magawa_market.getTariff().modifyFlat("generator", 0.13f);
         magawa.setInteractionImage("illustrations", "mine");
 
-        magawa_market.addCondition(Conditions.ORE_MODERATE);
+        magawa_market.addCondition(Conditions.ORE_RICH);
         magawa_market.addCondition(Conditions.RARE_ORE_RICH);
         magawa_market.addCondition(Conditions.NO_ATMOSPHERE);
         magawa_market.addCondition(Conditions.LOW_GRAVITY);
@@ -287,8 +288,8 @@ public class rebelrats_dragonsblessing {
         magawa_market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
 
         magawa_market.addIndustry(Industries.POPULATION);
-        magawa_market.addIndustry(Industries.MINING);
-        magawa_market.addIndustry(Industries.TECHMINING);
+        magawa_market.addIndustry(Industries.MINING, Collections.singletonList(Items.MANTLE_BORE));
+        magawa_market.addIndustry(Industries.REFINING);
         magawa_market.addIndustry(Industries.SPACEPORT);
         magawa_market.addIndustry(Industries.WAYSTATION);
         magawa_market.addIndustry(Industries.GROUNDDEFENSES);
@@ -322,6 +323,7 @@ public class rebelrats_dragonsblessing {
         rodentia_market.addIndustry(Industries.GROUNDDEFENSES);
         rodentia_market.addIndustry(Industries.ORBITALSTATION);
 
+        rodentia_market.getIndustry(Industries.FUELPROD).setAICoreId(Commodities.GAMMA_CORE);
         globalEconomy.addMarket(rodentia_market, false);
 
         MarketAPI outerstation_market = Global.getFactory().createMarket("outerstation_market", "", 4);

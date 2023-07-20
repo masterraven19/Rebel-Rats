@@ -6,11 +6,12 @@ import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
 
 public class rebelrats_Powerstation extends BaseMarketConditionPlugin {
-    private static float accessb = 20;
+    private static float accessb = 0.2F;
+    private static float accessbtooltip = accessb * 10;
     private static float upkeepmod = 0.8F;
 
     public void apply(String id) {
-        market.getAccessibilityMod().modifyPercent(id,accessb,"Krysan Aid");
+        market.getAccessibilityMod().modifyFlat(id,accessb,"Krysan Aid");
         for (Industry i : market.getIndustries()){
             i.getUpkeep().modifyMult(id,upkeepmod,"Krysan Aid");
         }
@@ -28,7 +29,7 @@ public class rebelrats_Powerstation extends BaseMarketConditionPlugin {
 
         tooltip.addPara("%s accessibility",
                 10f, Misc.getHighlightColor(),
-                "+" + (int)accessb + "%");
+                "+" + (int)accessbtooltip + "%");
         tooltip.addPara("%s upkeep",
                 10f,Misc.getHighlightColor(),
                 "-" + (1 - (int)upkeepmod)*10  + "%");
