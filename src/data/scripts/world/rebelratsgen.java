@@ -1,5 +1,6 @@
 
 package data.scripts.world;
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.shared.SharedData;
@@ -11,10 +12,14 @@ public class rebelratsgen {
         new rebelrats_dragonsblessing().generate(sector);
         FactionAPI rebelrats = sector.getFaction("rebelrats");
         SharedData.getData().getPersonBountyEventData().addParticipatingFaction("rebelrats");
-        //rebelrats.setRelationship(Factions.INDEPENDENT, 1.0f);
-        //rebelrats.setRelationship(Factions.PIRATES, -1.0f);
-        //rebelrats.setRelationship(Factions.NEUTRAL, 0.3f);
-        //rebelrats.setRelationship(Factions.HEGEMONY, -0.2f);
-        //rebelrats.setRelationship(Factions.DIKTAT, 0.5f);
+        boolean haveNexerelin = Global.getSettings().getModManager().isModEnabled("nexerelin");
+        if (!haveNexerelin){
+            rebelrats.setRelationship(Factions.INDEPENDENT, 1.0f);
+            rebelrats.setRelationship(Factions.PIRATES, -1.0f);
+            rebelrats.setRelationship(Factions.PLAYER, 0.3f);
+            rebelrats.setRelationship(Factions.HEGEMONY, -0.2f);
+            rebelrats.setRelationship(Factions.DIKTAT, 0.5f);
+            rebelrats.setRelationship(Factions.PERSEAN, 0.6F);
+        }
     }
 }

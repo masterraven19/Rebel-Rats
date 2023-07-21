@@ -13,6 +13,9 @@
 		"fx": {
 			"rebelrats_petardbeam":"graphics/fx/petardlaser_beam.png",
 		},
+		"illustrations": {
+			"rebelrats_powerstation": "graphics/illustrations/rat_powerstation_illu.png",
+		},
 	},
 	"ruleCommandPackages": [
 		"data.scripts.campaign.rulecmd",
