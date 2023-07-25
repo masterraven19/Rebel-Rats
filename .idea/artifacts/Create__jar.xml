@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="Create .jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Create__jar</output-path>
+    <output-path>$PROJECT_DIR$/jars</output-path>
     <root id="archive" name="rebelrats.jar">
       <element id="module-output" name="fat rat mod" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/rebelratsgen.java" />
@@ -19,6 +19,8 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rebelrats_powerstationEntityPlugin.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/rebelrats_Powerstation.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/ids/rebelrats_Conditions.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_missileTrackEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_missileScript.java" />
     </root>
   </artifact>
 </component>

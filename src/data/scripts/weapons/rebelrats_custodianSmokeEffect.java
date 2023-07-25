@@ -11,6 +11,6 @@ import java.awt.*;
 public class rebelrats_custodianSmokeEffect implements ProximityExplosionEffect {
     public void onExplosion(DamagingProjectileAPI explosion, DamagingProjectileAPI originalProjectile) {
         CombatEngineAPI engine = Global.getCombatEngine();
-        engine.addSmokeParticle(originalProjectile.getLocation(),new Vector2f(),40F,1F,0.8F, Color.BLACK);
+        engine.addSmokeParticle(originalProjectile.getLocation(),new Vector2f(),40F,1F,1.2F, Color.BLACK);
     }
 }

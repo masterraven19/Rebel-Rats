@@ -1,19 +1,19 @@
 {
-	"id":"rebelrats_hwacha_srm",
+	"id":"rebelrats_rattenjager_amm",
 	"specClass":"missile",	
 	"missileType":"MISSILE",
-	"sprite":"graphics/missiles/hwacha_missile.png",
-	"size":[7,13],	
-	"center":[3.5,6.5],
-	#"onFireEffect":"data.scripts.weapons.rebelrats_missileTrackEffect",
+	"sprite":"graphics/missiles/rattenjager_missile.png",
+	"size":[6,24],
+	"center":[3,12],
+	"onFireEffect":"data.scripts.weapons.rebelrats_missileTrackEffect",
 	"collisionRadius":12,
 	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":60, # purely visual
 	"fadeTime":1, # fadeout duration
-	"engineSpec":{"turnAcc":1720,
-				  "turnRate":240,
-				  "acc":2500,
+	"engineSpec":{"turnAcc":4000,
+				  "turnRate":2000,
+				  "acc":3400,
 				  "dec":800},			  
 	"engineSlots":[{"id":"ES1",
 					"loc":[-7, 0],

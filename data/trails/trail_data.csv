@@ -6,7 +6,7 @@ trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn
 rebelrats_doldrums_rod,rebelrats_doldrums_rod,base_trail_aura,10,0.1,0.1,0.8,12,24,"[218,125,222]","[230,208,231]",0.5,-128,-256,TRUE,10,0,0,0,FALSE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_hwacha_srm,rebelrats_hwacha_srm,base_trail_smooth,4,0.1,0.1,0.4,4,8,"[218,125,222]","[230,208,231]",0.5,-128,-256,TRUE,10,0,0,0,FALSE,FALSE,TRUE,60,0,0,0,0,180,false,false
 #rebelrats_custodian_munition,rebelrats_custodian_munition,base_trail_smooth,4,0.1,0.1,0.4,4,8,"[218,125,222]","[230,208,231]",0.5,-128,-256,TRUE,10,0,0,0,FALSE,FALSE,TRUE,60,0,0,0,0,180,false,false
-rebelrats_hawker_munition,rebelrats_hawker_munition,base_trail_weave,4,0.1,0.1,0.4,4,8,"[218,125,222]","[230,208,231]",0.5,-128,-256,TRUE,10,0,0,0,FALSE,FALSE,TRUE,60,0,0,0,0,180,false,false
+rebelrats_ranger,rebelrats_ranger,base_trail_weave,1,0.05,0.05,0.05,4,2,"[233,161,24]","[233,161,24]",1,-128,-256,TRUE,10,2,0,0,FALSE,FALSE,TRUE,60,0,0,0,0,180,false,false
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #String trail: projectile ID plus a suffix if there are multiple trails for that proj,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #String projectile: projectile ID,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
