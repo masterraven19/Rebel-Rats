@@ -1,7 +1,7 @@
 {
   "id": "rebelrats_equalizer_l",
   "specClass": "projectile",
-  "projectileSpecId": "rebelrats_siegeharq_shell",
+  "projectileSpecId": "rebelrats_equalizer_shell",
   "type": "BALLISTIC",
   "size": "LARGE",
   "displayArcRadius": 400,
@@ -44,8 +44,8 @@
     "particleCount": 40,
     "particleColor": [
       255,
-      255,
-      255,
+      165,
+      30,
       215
     ]
   },

@@ -1,7 +1,7 @@
 {
   "id": "rebelrats_poacher_s",
   "specClass": "projectile",
-  "projectileSpecId": "rebelrats_ranger",
+  "projectileSpecId": "rebelrats_poacher",
   "type": "BALLISTIC",
   "size": "SMALL",
   "displayArcRadius": 250,
@@ -39,5 +39,5 @@
       200
     ]
   },
-  "fireSoundTwo": "vulcan_cannon_fire"
+  "fireSoundTwo": "heavy_machinegun_fire"
 }

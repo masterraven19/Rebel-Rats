@@ -43,10 +43,10 @@
         {"file":"sounds/Crossbow_firing2.ogg","pitch":1.00,"volume":.2},
     ],
     "nezulana_firing": [
-        {"file":"sounds/nezulana_firing2.ogg","pitch":1.00,"volume":.4},
+        {"file":"sounds/nezulana_firing2.ogg","pitch":1.00,"volume":.6},
     ],
     "drummer_firing": [
-        {"file":"sounds/drummer_firing.ogg","pitch":1.00,"volume":.4},
+        {"file":"sounds/drummer_firing.ogg","pitch":1.00,"volume":.5},
     ],
 
     "rebelrats_engine_loop":{

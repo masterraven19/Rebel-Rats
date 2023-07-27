@@ -16,10 +16,10 @@
 	"bulletSprite":"graphics/missiles/ratshell_small_yellow.png",
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
 	                "onExplosionEffect":"data.scripts.weapons.rebelrats_custodianSmokeEffect",
-					"range":15,
+					"range":0,
 					#"vsMissileRange":100,
-					"explosionSpec":{"duration":0.1f,
-									 "radius":30,
+					"explosionSpec":{"duration":0.3f,
+									 "radius":50,
 									 "coreRadius":30, # full damage within core radius - also equal to proximity fuse range
 									 "collisionClass":PROJECTILE_FF,
 									 "collisionClassByFighter":PROJECTILE_FIGHTER,
