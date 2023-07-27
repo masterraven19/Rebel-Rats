@@ -46,7 +46,7 @@
         {"file":"sounds/nezulana_firing2.ogg","pitch":1.00,"volume":.6},
     ],
     "drummer_firing": [
-        {"file":"sounds/drummer_firing.ogg","pitch":1.00,"volume":.5},
+        {"file":"sounds/drummer_firing.ogg","pitch":1.00,"volume":.8},
     ],
 
     "rebelrats_engine_loop":{
