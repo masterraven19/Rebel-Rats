@@ -11,12 +11,18 @@ import com.fs.starfarer.api.combat.WeaponAPI.WeaponType;
 import com.fs.starfarer.api.combat.listeners.WeaponBaseRangeModifier;
 import com.fs.starfarer.api.loading.WeaponSlotAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
+import com.fs.starfarer.api.ui.Alignment;
+import com.fs.starfarer.api.ui.TooltipMakerAPI;
+import com.fs.starfarer.api.util.Misc;
+
+import java.awt.*;
 
 public class rebelrats_ManAtArmsTargettingGrid extends BaseHullMod {
 	public static float BONUS_SMALL_1 = 10;
 	public static float BONUS_MEDIUM_1 = 10;
 	public static float BONUS_LARGE_1 = 5;
 	public static float BONUS_PD = 50;
+
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 		stats.getDynamic().getMod(Stats.PD_BEST_TARGET_LEADING).modifyFlat(id, 1f);
 	}
@@ -94,11 +100,32 @@ public class rebelrats_ManAtArmsTargettingGrid extends BaseHullMod {
 		}
 
 	}
+
 	public String getDescriptionParam(int index, HullSize hullSize) {
 		if (index == 0) return "" + (int) BONUS_SMALL_1 + "%";
 		if (index == 1) return "" + (int) BONUS_MEDIUM_1 + "%";
 		if (index == 2) return "" + (int) BONUS_LARGE_1 + "%";
 		if (index == 3) return "" + (int) BONUS_PD + "%";
 		return null;
+	}
+	public void addPostDescriptionSection(final TooltipMakerAPI tooltip, final ShipAPI.HullSize hullSize, final ShipAPI ship, final float width, final boolean isForModSpec) {
+		float pad = 10f;
+		float cW = 100f;
+		Color h = Misc.getHighlightColor();
+		tooltip.addSectionHeading("Stat Effects", Alignment.MID,pad);
+
+		tooltip.beginTable(Color.GRAY,Color.DARK_GRAY,Color.WHITE,10f,true,true,
+				new Object[] {"LARGE",cW,"MEDIUM",cW,"SMALL",cW});
+		tooltip.addRow(Alignment.MID,h,Misc.getRoundedValue(BONUS_LARGE_1) + "%",
+				Alignment.MID,h,Misc.getRoundedValue(BONUS_MEDIUM_1) + "%",
+				Alignment.MID,h,Misc.getRoundedValue(BONUS_SMALL_1) + "%");
+		tooltip.addTable("",0,pad);
+
+		tooltip.beginTable(Color.GRAY,Color.DARK_GRAY,Color.WHITE,10f,true,true,
+				new Object[]{"SMALL PD",cW});
+		tooltip.addRow(Alignment.MID,h,Misc.getRoundedValue(BONUS_PD) + "%");
+		tooltip.addTable("",0,pad);
+
+		//tooltip.addPara("%s",2F,Color.gray,new String[]{ "The rats are armed" }).italicize();
 	}
 }
