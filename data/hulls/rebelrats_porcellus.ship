@@ -295,8 +295,8 @@
       "styleId": "Rats"
     },
     {
-      "location": [-232.5, 37],
-      "length": 90,
+      "location": [-230.5, 37],
+      "length": 100,
       "width": 50,
       "angle": 180,
       "contrailSize": 50,
@@ -304,8 +304,8 @@
       "styleId": "Rats"
     },
     {
-      "location": [-232.5, -37],
-      "length": 90,
+      "location": [-230.5, -37],
+      "length": 100,
       "width": 50,
       "angle": -180,
       "contrailSize": 50,
@@ -313,11 +313,11 @@
       "styleId": "Rats"
     },
     {
-      "location": [-232.5, -0],
-      "length": 90,
-      "width": 50,
+      "location": [-230.5, -0],
+      "length": 99.5,
+      "width": 51,
       "angle": 180,
-      "contrailSize": 50,
+      "contrailSize": 51,
       "style": "CUSTOM",
       "styleId": "Rats"
     }

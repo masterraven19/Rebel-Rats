@@ -81,11 +81,11 @@
   ],
   "engineSlots": [
     {
-      "location": [-96, -0],
-      "length": 74,
-      "width": 42,
+      "location": [-95, -0],
+      "length": 90,
+      "width": 30,
       "angle": 180,
-      "contrailSize": 42,
+      "contrailSize": 30,
       "style": "LOW_TECH"
     },
     {
