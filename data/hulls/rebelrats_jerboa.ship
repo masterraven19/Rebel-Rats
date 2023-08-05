@@ -4,8 +4,8 @@
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/Jerboa_Stealth_Cruiser.png",
   "style": "REBELRATS",
-  "height": 327,
-  "width": 140,
+  "height": 322,
+  "width": 139,
   "center": [71, 162],
   "collisionRadius": 209,
   "shieldCenter": [0, 0],
@@ -27,7 +27,7 @@
       "mount": "HARDPOINT",
       "arc": 2,
       "angle": 0,
-      "locations": [129.5, -0]
+      "locations": [124.5, 0]
     },
     {
       "id": "WS0002",
@@ -36,7 +36,7 @@
       "mount": "TURRET",
       "arc": 308,
       "angle": 0,
-      "locations": [97, -0]
+      "locations": [92, 0]
     },
     {
       "id": "WS0003",
@@ -45,7 +45,7 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [55, -0]
+      "locations": [50, 0]
     },
     {
       "id": "WS0004",
@@ -54,7 +54,7 @@
       "mount": "TURRET",
       "arc": 165,
       "angle": 74,
-      "locations": [63, 32]
+      "locations": [58, 32]
     },
     {
       "id": "WS0005",
@@ -63,7 +63,7 @@
       "mount": "TURRET",
       "arc": 203,
       "angle": 101.5,
-      "locations": [-11, 54]
+      "locations": [-16, 54]
     },
     {
       "id": "WS0006",
@@ -72,7 +72,7 @@
       "mount": "TURRET",
       "arc": 282,
       "angle": 180,
-      "locations": [-71, -0]
+      "locations": [-76, 0]
     },
     {
       "id": "WS0007",
@@ -81,7 +81,7 @@
       "mount": "TURRET",
       "arc": 304,
       "angle": 180,
-      "locations": [-107, -0]
+      "locations": [-112, 0]
     },
     {
       "id": "WS0008",
@@ -90,7 +90,7 @@
       "mount": "HIDDEN",
       "arc": 10,
       "angle": -24.5,
-      "locations": [-45, -56.5]
+      "locations": [-50, -56.5]
     },
     {
       "id": "WS0009",
@@ -99,7 +99,7 @@
       "mount": "HIDDEN",
       "arc": 33,
       "angle": 0,
-      "locations": [92, -28.5]
+      "locations": [87, -28.5]
     },
     {
       "id": "LB 1",
