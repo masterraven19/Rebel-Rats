@@ -18,15 +18,9 @@
   ],
   "hardpointOffsets": [
     5.5,
-    9,
-    5.5,
-    0,
-    5.5,
-    -9
+    0
   ],
   "hardpointAngleOffsets": [
-    0,
-    0,
     0
   ],
   "barrelMode": "ALTERNATING",
