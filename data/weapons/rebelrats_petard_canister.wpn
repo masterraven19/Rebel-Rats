@@ -1,14 +1,14 @@
 {
-  "id": "rebelrats_petard_m",
+  "id": "rebelrats_petard_canister",
   "specClass": "beam",
   "type": "ENERGY",
   "size": "MEDIUM",
   "beamEffect": "data.scripts.weapons.rebelrats_petardBeamEffect",
-  "collisionClass": "RAY",
+  "collisionClass": "PROJECTILE_NO_FF",
   "collisionClassByFighter": "RAY_FIGHTER",
-  "turretSprite": "graphics/weapons/petardlaser_turret_base.png",
-  "turretGlowSprite": "graphics/weapons/petardlaser_turret_glow.png",
-  "hardpointSprite": "graphics/weapons/petardlaser_hardpoint_base.png",
+  "turretSprite": "graphics/weapons/fired_petard_canister.png",
+  "turretGlowSprite": "graphics/weapons/fired_petard_canister.png",
+  "hardpointSprite": "graphics/weapons/fired_petard_canister.png",
   "hardpointGlowSprite": "graphics/weapons/petardlaser_hardpoint_glow.png",
   "glowColor": [
     223,
@@ -16,9 +16,9 @@
     12,
     255
   ],
-  "hitGlowRadius": 200,
+  "hitGlowRadius": 50,
   "turretOffsets": [
-    23,
+    10,
     0
   ],
   "turretAngleOffsets": [

@@ -23,7 +23,7 @@
 	"armingTime":0.05,
 	"engineSpec":{"turnAcc":0,
 				  "turnRate":0,
-				  "acc":50,
+				  "acc":500,
 				  "dec":0},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-10, 0],
