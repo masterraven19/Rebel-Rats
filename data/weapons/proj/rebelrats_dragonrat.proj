@@ -10,7 +10,7 @@
 		"preferredMinFireDistance":[600,650],
 		"turnRateBoost":100,
 		"targetingTime":3,
-		"firingTime":5,
+		"firingTime":1,
 		"targetingLaserId":"targetinglaser3",
 		"targetingLaserFireOffset":[8, 0, 8, 0],
 		"targetingLaserSweepAngles":[0, -7, 0, 7],
@@ -57,8 +57,8 @@
 					 #"particleColor":[255,100,100,255],
 					 #"explosionColor":[255,100,100,255],
 
-					 "particleColor":[255,100,80,255],
-					 "explosionColor":[255,70,70,255],
+					 "particleColor":[223,182,12,255],
+					 "explosionColor":[223,182,12,255],
 
 					 "useDetailedExplosion":true,
 					 "useDetailedExplosionColorAlpha":true,

@@ -4,7 +4,7 @@
   "type": "ENERGY",
   "size": "MEDIUM",
   "beamEffect": "data.scripts.weapons.rebelrats_petardBeamEffect",
-  "collisionClass": "PROJECTILE_NO_FF",
+  "collisionClass": "RAY_FIGHTER",
   "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/weapons/fired_petard_canister.png",
   "turretGlowSprite": "graphics/weapons/fired_petard_canister.png",
@@ -16,7 +16,7 @@
     12,
     255
   ],
-  "hitGlowRadius": 50,
+  "hitGlowRadius": 200,
   "turretOffsets": [
     10,
     0
@@ -52,5 +52,5 @@
     PROJECTILE_NO_FF,
     PROJECTILE_FIGHTER
   ],
-  "fireSoundOne": "petard_firing"
+  "fireSoundOne": "petardcanister_firing"
 }

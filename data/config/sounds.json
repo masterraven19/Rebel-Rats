@@ -48,7 +48,9 @@
     "drummer_firing": [
         {"file":"sounds/drummer_firing.ogg","pitch":1.00,"volume":.8},
     ],
-
+    "petardcanister_firing": [
+        {"file":"sounds/petardcanister_firing.ogg","pitch":1.00,"volume":1},
+    ],
     "rebelrats_engine_loop":{
         "sounds":[
             {"file":"sounds/ratengineburn.ogg","pitch":1.2,"volume":0.2}, #index 0
