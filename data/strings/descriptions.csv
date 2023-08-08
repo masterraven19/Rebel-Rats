@@ -19,6 +19,8 @@ rebelrats_arratoi_m,WEAPON,These are powerful railguns that fire standard issue 
 rebelrats_petard_m,WEAPON,"Using laser activated nuclear pellets in a reinforced chamber, the Petard is a terrifying weapon to be struck by. Barrel Rectifiers would guide the released energy into a concentrated beam as it exits the gun and produce horrific results if the hull is directly struck, working similar to that of Krysan Pest Control equipment.",,,,
 rebelrats_braggador_m,WEAPON,"Created to bridge the gap between long ranged flak and smaller short ranged PD, the Braggador’s quad guns can easily shoot down enemy torpedoes or blunt incoming enemy bomber runs.",,,,
 rebelrats_rattenjager_m,WEAPON,The Rattenjager utilizes advanced algorithms and a smart-fuze system to intercept fighters and missiles. An integrated ammo feeder in the turret mount allows the weapon to be constantly fed with new missiles during battle. ,,,,
+rebelrats_rattenjager_array_m,WEAPON,A built-in array of Rattenjagers.,,,,
+rebelrats_petardlauncher_m,WEAPON,WHat if we take a dragonfire and put a petard? This is the result. Nuclear boom!,,,,
 rebelrats_huntsman_salvo,WEAPON,Triple rack for Huntsman Torpedos,,,,
 ,,,,,,
 #MUS HUNTSMAN AUTOLOADER,,,,,,
@@ -89,6 +91,7 @@ The base design of the ship predates that of the Marmot and even resembles that 
 
 The ship is equipped with two Barkley-Pattern AM-catalysed flux reactors to power its singular H305 Torch Drive and its Basilica-Model shield generator. Multiple redundant systems are in place to make sure that the ship can get the crew back to safety.
 ",,,,
+rebelrats_steersman,SHIP,Yo what the. Give that back independents no stealing!,,,,
 rebelrats_mellivora,SHIP,"Though thin skinned and lightly armed, the Mellivora’s high-capacity hangars provide the fighter cover for itself and other ships in the fleet. It heavily relies on its speed and fighters to keep enemy ships at a distance and to strike opponents.
 
 Realizing the need for a mobile light carrier, Krysan High Command commissioned Arms & Armor to design a light carrier with high mobility. And so, with Arms & Armor having prior carrier building experience from creating the Porcellus, the development for the Mellivora was quick and had no difficulties.

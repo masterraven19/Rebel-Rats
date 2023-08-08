@@ -3,7 +3,8 @@
 		"Black Plague":[50,50,50,200],
 		"Rebel Rats":[122,33,210,255],
 		"Arms & Armor":[201,11,11,255],
-		"The Three Brothers Corporation":[219,191,28,255]
+		"The Three Brothers Corporation":[219,191,28,255],
+		"Belters": [189,189,189,255],
 	},
 	"graphics": {
 		"blueprint_packages": {

@@ -22,7 +22,10 @@ Rattenjager AMM,rebelrats_rattenjager_m,1,,1500,1200,,300,,5,30,10,,,,HIGH_EXPLO
 
 Targets missiles first",50,,,,
 Petard Canister Launcher,rebelrats_petardlauncher_m,1,,2100,1500,,750,,50,15,13,6,0.1,6,HIGH_EXPLOSIVE,150,,0,1,1,0,0,0,0,0,,300,100,8,450,,,"STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, damage_special, rebelrats_arsenal_bp",,Rebel Rats,,Torpedo,Fast,Medium,,,Fires an energy beam that deal %s energy damage along with an additional energy explosion on hit,3000,,,TRUE,
-Huntsman Tube Launchers,rebelrats_huntsmanx2_m,,,0,2000,,750,,50,15,0,8,0.1,2,HIGH_EXPLOSIVE,150,,0,1,2,0.5,0,0,0,0,,600,100,5,450,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
+Rattenjager AMM Array,rebelrats_rattenjager_array_m,,,0,1200,,300,,5,30,0,,,,HIGH_EXPLOSIVE,60,,0,2.75,3,0.5,0,0,0,0,,800,50,4,50,,,"SYSTEM, PD, DO_NOT_CONSERVE, DO_NOT_AIM","no_sell, no_drop, no_drop_salvage",,Arms & Armor,,Anti-Missile Missile,Very Fast,Very High,,,"Has a multi-purpose fuze. It will shrapnel against missiles with each piece dealing %s frag damage, but it will use a contact fuze against ships and fighters
+
+Targets missiles first",50,,,,
+Huntsman Tube Launchers,rebelrats_huntsmanx2_m,,,0,2000,,750,,50,15,0,8,0.1,2,HIGH_EXPLOSIVE,150,,0,1,2,0.5,0,0,0,0,,600,100,5,450,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 Dual Arratoi Launchers,rebelrats_arratoi_m,,,0,900,,600,,100,0,0,,,,KINETIC,400,,0,9,1,,0,5,1,2,,1000,,,30,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Arms & Armor,,Shield Breaker,,,Fixed,Perfect,,,,,,
 Dual Muridae Plasma Launchers,rebelrats_muridae_m,,,0,700,,500,100,70,0,0,,,,ENERGY,400,,0,4,1,,0,0,0,0,,1000,,,,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,The Three Brothers Corporation,,Strike,,,Fixed,Perfect,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
