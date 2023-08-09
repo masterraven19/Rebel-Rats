@@ -11,7 +11,7 @@
 	"combatMedium":{
 			"rebelrats_rattus_Balanced":10,
 			"rebelrats_rattus_overdriven":8,
-			"rebelrats_helmsman_Balanced":10,
+			"rebelrats_helmsman_Balanced":6,
 	},
 	"combatLarge":{
 			"rebelrats_marmot_Balanced":9,
@@ -21,7 +21,7 @@
 			"rebelrats_matkaboska_Balanced":9,
 			"rebelrats_matkaboska_Lancer":7,
 			"rebelrats_matkaboska_outdated":8,
-			"rebelrats_steersman_Balanced":5,
+			"rebelrats_steersman_Balanced":7,
 	},
 	"combatCapital":{
 			"rebelrats_porcellus_Balanced":8,

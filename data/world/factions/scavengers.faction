@@ -1,0 +1,16 @@
+{
+	# only used for fleet creation, not an actual faction
+    "hullFrequency":{
+        #"hulls":{
+        #"rebelrats_steersman":7,
+        #"rebelrats_helmsman":6,
+        #},
+    },
+	"knownShips":{
+	    #"tags":[],
+		"hulls":[
+		"rebelrats_steersman",
+        "rebelrats_helmsman",
+		],
+	},
+},	
