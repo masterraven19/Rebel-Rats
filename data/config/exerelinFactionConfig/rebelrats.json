@@ -3,8 +3,8 @@
     "corvusCompatible":true,
     "freeStart":false,
 
-    "difficultyString":"It's my Cheddar",
-    "ngcTooltip":"Lead the Krysans through the sector's turmoil.",
+    "difficultyString":"Medium",
+    "ngcTooltip":"Lead the Krysan Navy through the sector's turmoil.",
     "rebelFleetSuffix":"Secessionists",
 
     "noRandomizeRelations": true,
@@ -46,7 +46,7 @@
     "diplomacyTraits":["helps_allies", "temperamental", "stalwart"],
     
     # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
-    "colonyExpeditionChance":1.25,	# slightly more expansionist to overcome Hegemony's numerical superiority,,
+    "colonyExpeditionChance":1.5,	# slightly more expansionist to overcome Hegemony's numerical superiority,,
     "colonyTargetValuator": "exerelin.campaign.colony.IndustrialColonyTargetValuator",
     
     "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
