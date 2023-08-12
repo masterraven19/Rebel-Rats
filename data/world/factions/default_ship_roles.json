@@ -76,7 +76,7 @@
 
 	# freighters and such
 	"freighterSmall":{
-
+			"rebelrats_panya_Balanced":10,
 	},
 	"freighterMedium":{
 			"rebelrats_monax_Standard":10,

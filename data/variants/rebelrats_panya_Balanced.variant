@@ -1,0 +1,25 @@
+{
+  "variantId": "rebelrats_panya_Balanced",
+  "hullId": "rebelrats_panya",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "surveying_equipment",
+    "expanded_cargo_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_ranger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

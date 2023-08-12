@@ -54,7 +54,7 @@ public class rebelrats_missileScript extends BaseEveryFrameCombatPlugin {
                         angle = missile.getFacing() - angle;
                         p.setFacing(angle);
                     }
-                    engine.addSmokeParticle(missile.getLocation(),new Vector2f(0,0),50F,1F,2F,Color.WHITE);
+                    engine.addSmokeParticle(missile.getLocation(),new Vector2f(0,0),50F,1F,1F,Color.WHITE);
                     resetrange();
                     engine.removePlugin(this);
                     engine.removeEntity(missile);

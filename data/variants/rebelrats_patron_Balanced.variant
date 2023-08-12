@@ -2,7 +2,7 @@
   "variantId": "rebelrats_patron_Balanced",
   "hullId": "rebelrats_patron",
   "displayName": "Standard",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 6,
   "fluxVents": 10,
   "quality": 1,

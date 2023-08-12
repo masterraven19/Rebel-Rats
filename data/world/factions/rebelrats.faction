@@ -62,6 +62,7 @@
                         "rebelrats_matkaboska",
                         "rebelrats_mellivora",
                         "rebelrats_pybara",
+                        "rebelrats_panya",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
