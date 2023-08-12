@@ -22,9 +22,7 @@ Rattenjager AMM,rebelrats_rattenjager_m,1,,1500,1200,,300,,5,30,10,,,,HIGH_EXPLO
 
 Targets missiles first",50,,,,
 Petard Canister Launcher,rebelrats_petardlauncher_m,1,,5000,1500,,750,,50,15,13,6,0.03333,2,HIGH_EXPLOSIVE,150,,0,5,1,0,0,0,0,0,,300,100,8,450,,,"STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, damage_special, rebelrats_arsenal_bp",,Rebel Rats,,Torpedo,Fast,Medium,,,Fires an energy beam that deal %s energy damage along with an additional energy explosion on hit,3000,,,TRUE,
-Rattenjager VLS Array,rebelrats_rattenjager_array_m,,,0,1200,,300,,5,30,0,6,1,3,HIGH_EXPLOSIVE,60,,0,1,3,0.5,0,0,0,0,,800,50,4,50,,,"SYSTEM, PD, DO_NOT_CONSERVE, DO_NOT_AIM","no_sell, no_drop, no_drop_salvage",,Arms & Armor,,Anti-Missile Missile,Very Fast,Very High,,,"Has a multi-purpose fuze. It will shrapnel against missiles with each piece dealing %s frag damage, but it will use a contact fuze against ships and fighters
-
-Targets missiles first",50,,,,
+Snapper VLS Array,rebelrats_rattenjager_array_m,,,0,1200,,300,,5,30,0,6,1,3,HIGH_EXPLOSIVE,60,,0,1,3,0.5,0,0,0,0,,800,50,4,50,,,"SYSTEM, PD, DO_NOT_CONSERVE, DO_NOT_AIM","no_sell, no_drop, no_drop_salvage",,Arms & Armor,,Anti-Missile Missile,Very Fast,Very High,,,Targets missiles that are closest to itself,,,,,
 Huntsman Tube Launchers,rebelrats_huntsmanx2_m,,,0,2000,,750,,50,15,0,8,0.1,2,HIGH_EXPLOSIVE,150,,0,1,2,0.5,0,0,0,0,,600,100,5,450,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 Dual Arratoi Launchers,rebelrats_arratoi_m,,,0,900,,600,,100,0,0,,,,KINETIC,400,,0,9,1,,0,5,1,2,,1000,,,30,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Arms & Armor,,Shield Breaker,,,Fixed,Perfect,,,,,,
 Dual Muridae Plasma Launchers,rebelrats_muridae_m,,,0,700,,500,100,70,0,0,,,,ENERGY,400,,0,4,1,,0,0,0,0,,1000,,,,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,The Three Brothers Corporation,,Strike,,,Fixed,Perfect,,,,,,
@@ -40,7 +38,8 @@ Pyroclast,rebelrats_pyroclast,0,,600,1200,,3000,,80,20,3,1,0.01,1,HIGH_EXPLOSIVE
 AFG-155C Hawker,rebelrats_hawker,0,,300,300,,80,,1,60,3,,,,KINETIC,30,,0,1,1,,0,10,1,10,,700,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,,,Fires a shrapnel canister in a cone. Each piece of shrapnel deals %s frag damage,80,,,,
 Ashford LAWS,rebelrats_ashford,0,,400,400,300,,10,5,100,5,,,,ENERGY,,300,0,0.1,0.1,,,,,,10000,,,,,,,PD,"pd9, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Very Fast,Excellent,,,,,,
 AFG-35 Poacher,rebelrats_poacher_s,0,,400,250,,14,,1,80,4,60,10,28,HIGH_EXPLOSIVE,5,,0,0.07,1,,0,4,1,5,,1200,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Arms & Armor,,Point Defense,,,Very Fast,Excellent,,,,,,
-Rattus Huntsman Torpedo Launcher,rebelrats_rattus_torp,,,0,2000,,750,,50,15,0,12,0.1,4,HIGH_EXPLOSIVE,150,,0,1,1,,0,0,0,0,,600,100,5,450,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
+Poubelle,rebelrats_poubelle,,,0,1200,,3000,,80,20,3,,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,0,0,0,,450,150,5,650,,,"SYSTEM, STRIKE, DIRECT_AIM, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Torpedo,Fast,Slow,,,Secondary charge inflicts additional damage on hit,,,,TRUE,
+Rattus Huntsman Torpedo Launcher,rebelrats_rattus_torp,,,0,2000,,750,,50,15,0,12,0.1,4,HIGH_EXPLOSIVE,150,,0,1,1,,0,0,0,0,,600,100,5,450,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #FIGHTER WEAPONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Huntsman Torpedo (f),rebelrats_huntsman_f,,,0,1000,,550,,80,15,0,1,0.0001,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,600,100,6,350,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,

@@ -6,9 +6,9 @@
   "size": "LARGE",
   "turretSprite": "graphics/weapons/rattus_torpedo_launcher.png",
   "hardpointSprite": "graphics/weapons/rattus_torpedo_launcher.png",
-  "renderHints": [
-    RENDER_LOADED_MISSILES_UNLESS_HIDDEN
-  ],
+  #"renderHints": [
+  #  RENDER_LOADED_MISSILES_UNLESS_HIDDEN
+  #],
   "turretOffsets": [
     -1,
     0

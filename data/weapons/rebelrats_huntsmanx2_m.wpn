@@ -6,9 +6,9 @@
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/torpedo_launcher_bow.png",
   "hardpointSprite": "graphics/weapons/torpedo_launcher_bow.png",
-  "renderHints": [
-    RENDER_LOADED_MISSILES_UNLESS_HIDDEN
-  ],
+  #"renderHints": [
+  #  RENDER_LOADED_MISSILES_UNLESS_HIDDEN
+  #],
   "turretOffsets": [
     -1,
     4.5,

@@ -1,0 +1,51 @@
+{
+	"id":"rebelrats_poubelle_torp",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/poubelle_torpedo.png",
+	"size":[5,28],
+	"center":[2.5,14],
+	"onHitEffect":"data.scripts.weapons.rebelrats_pyroclastOnHitEffect",
+	"onFireEffect":"data.scripts.weapons.rebelrats_sideMissileScript",
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,39,1,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":250, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":150,
+					 "coreRadius":50, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":5.0,
+					 "particleSizeRange":3.0,
+					 "particleDuration":1,
+					 "particleCount":150,
+					 "particleColor":[198,71,49,255]},
+	"armingTime":0.5,
+	"engineSpec":{"turnAcc":240,
+				  "turnRate":20,
+				  "acc":400,
+				  "dec":300},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-10, 0],
+				    #"style":"TORPEDO_ATROPOS",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[199,16,16,255],
+						"glowSizeMult":3.5,
+						"glowAlternateColor":[227,0,0,255],
+						"contrailDuration":2,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[155,100,70,75],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":10.0,
+				    "length":30.0,
+				    "angle":180.0}]
+}

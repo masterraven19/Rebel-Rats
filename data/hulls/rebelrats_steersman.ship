@@ -16,7 +16,11 @@
   ],
   "builtInWeapons": {
     "WS0009": "rebelrats_rattenjager_array_m",
-    "WS0010": "rebelrats_rattenjager_array_m"
+    "WS0010": "rebelrats_rattenjager_array_m",
+    "WS0011": "rebelrats_poubelle",
+    "WS0012": "rebelrats_poubelle",
+    "WS0013": "rebelrats_poubelle",
+    "WS0014": "rebelrats_poubelle"
   },
   "weaponSlots": [
     {
@@ -120,6 +124,42 @@
         34.5, -0,
         54.5, -0
       ]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [35, 34.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [35, -34.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [64, 34.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [64, -34.5]
     }
   ],
   "engineSlots": [

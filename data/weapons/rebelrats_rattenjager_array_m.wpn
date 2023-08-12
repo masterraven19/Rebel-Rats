@@ -1,15 +1,15 @@
 {
   "id": "rebelrats_rattenjager_array_m",
   "specClass": "projectile",
-  "projectileSpecId": "rebelrats_rattenjager_amm",
+  "projectileSpecId": "rebelrats_snapper_amm",
   "type": "COMPOSITE",
   "size": "MEDIUM",
   "displayArcRadius": 500,
   "turretSprite": "graphics/weapons/rattenjager_array_medium.png",
   "hardpointSprite": "graphics/weapons/rattenjager_array_medium.png",
-  "renderHints": [
-    RENDER_LOADED_MISSILES_UNLESS_HIDDEN
-  ],
+  #"renderHints": [
+  #  RENDER_LOADED_MISSILES_UNLESS_HIDDEN
+  #],
   "turretOffsets": [
     2.5,
     5,

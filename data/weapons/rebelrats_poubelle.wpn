@@ -1,38 +1,26 @@
 {
-  "id": "rebelrats_salvo_autoloader",
+  "id": "rebelrats_poubelle",
   "specClass": "projectile",
-  "projectileSpecId": "rebelrats_huntsman_torp",
+  "projectileSpecId": "rebelrats_poubelle_torp",
   "type": "MISSILE",
-  "size": "LARGE",
-  "turretSprite": "graphics/weapons/marmot_torpedo_launcher.png",
-  "hardpointSprite": "graphics/weapons/marmot_torpedo_launcher.png",
-  #"renderHints": [
-  #  RENDER_LOADED_MISSILES_UNLESS_HIDDEN
-  #],
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/poubelle_missile_mount.png",
+  "hardpointSprite": "graphics/weapons/poubelle_missile_mount.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES_UNLESS_HIDDEN
+  ],
   "turretOffsets": [
-    -2.5,
-    0,
-    6.5,
-    4,
-    6.5,
-    -4
+    -1,
+    0
   ],
   "turretAngleOffsets": [
-    0,
-    0,
     0
   ],
   "hardpointOffsets": [
-    3.5,
-    0,
-    12.5,
-    4,
-    12.5,
-    -4
+    5.5,
+    0
   ],
   "hardpointAngleOffsets": [
-    0,
-    0,
     0
   ],
   "barrelMode": "ALTERNATING",

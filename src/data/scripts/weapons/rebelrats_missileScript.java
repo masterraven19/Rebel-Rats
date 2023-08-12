@@ -13,6 +13,7 @@ public class rebelrats_missileScript extends BaseEveryFrameCombatPlugin {
     protected MissileAPI missile;
     protected MagicMissileAI ai;
     protected CombatEngineAPI engine;
+    private boolean shrapbomb = false;
     private float range = 1200;
     private float proxyrange = 100;
     private float numshrapnel = 35;
@@ -20,12 +21,16 @@ public class rebelrats_missileScript extends BaseEveryFrameCombatPlugin {
     private float d = 0;
     public rebelrats_missileScript(MissileAPI m, CombatEngineAPI e, MagicMissileAI ai){
         this.missile = m;
+        if (m.getWeapon().getId().equals("rebelrats_rattenjager_m")){
+            shrapbomb = true;
+        }
         this.ai = ai;
         this.engine = e;
     }
     private void resetrange(){
         d = 0;
         range = 1200;
+        shrapbomb = false;
     }
 
     public void advance(float amount, List<InputEventAPI> events) {
@@ -45,19 +50,24 @@ public class rebelrats_missileScript extends BaseEveryFrameCombatPlugin {
                     range = d;
                     ai.setTarget(m);
                 }
-                if (d < proxyrange){
-                    for (int i = 0; i < numshrapnel; i++){
-                        CombatEntityAPI p = engine.spawnProjectile(missile.getSource(), null, "rebelrats_rattenjager_munition", missile.getLocation(), missile.getFacing(), missile.getSource().getVelocity());
-                        float angle = cone * (float)Math.random();
-                        if (angle > cone/2){angle = (float)Math.random() * cone/2;}
-                        else{angle = (float)Math.random() * -cone/2;}
-                        angle = missile.getFacing() - angle;
-                        p.setFacing(angle);
+                if (shrapbomb) {
+                    if (d < proxyrange) {
+                        for (int i = 0; i < numshrapnel; i++) {
+                            CombatEntityAPI p = engine.spawnProjectile(missile.getSource(), null, "rebelrats_rattenjager_munition", missile.getLocation(), missile.getFacing(), missile.getSource().getVelocity());
+                            float angle = cone * (float) Math.random();
+                            if (angle > cone / 2) {
+                                angle = (float) Math.random() * cone / 2;
+                            } else {
+                                angle = (float) Math.random() * -cone / 2;
+                            }
+                            angle = missile.getFacing() - angle;
+                            p.setFacing(angle);
+                        }
+                        engine.addSmokeParticle(missile.getLocation(), new Vector2f(0, 0), 50F, 1F, 1F, Color.WHITE);
+                        resetrange();
+                        engine.removePlugin(this);
+                        engine.removeEntity(missile);
                     }
-                    engine.addSmokeParticle(missile.getLocation(),new Vector2f(0,0),50F,1F,1F,Color.WHITE);
-                    resetrange();
-                    engine.removePlugin(this);
-                    engine.removeEntity(missile);
                 }
             }
         }
