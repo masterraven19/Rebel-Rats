@@ -21,6 +21,16 @@
       }
     },
     {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "rebelrats_poubelle",
+        "WS0012": "rebelrats_poubelle",
+        "WS0013": "rebelrats_poubelle",
+        "WS0014": "rebelrats_poubelle"
+      }
+    },
+    {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
@@ -37,7 +47,7 @@
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {
         "WS0002": "vulcan",
