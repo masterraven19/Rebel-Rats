@@ -87,7 +87,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 235,
+      "arc": 240,
       "angle": 180,
       "locations": [-69, -0]
     },
@@ -124,67 +124,11 @@
   ],
   "engineSlots": [
     {
-      "location": [-133.5, 23],
-      "length": 65,
-      "width": 11,
+      "location": [-137, -0],
+      "length": 100,
+      "width": 30,
       "angle": 180,
-      "contrailSize": 11,
-      "style": "LOW_TECH"
-    },
-    {
-      "location": [-133.5, -23],
-      "length": 65,
-      "width": 11,
-      "angle": -180,
-      "contrailSize": 11,
-      "style": "LOW_TECH"
-    },
-    {
-      "location": [-135.5, 17],
-      "length": 65,
-      "width": 12,
-      "angle": 180,
-      "contrailSize": 12,
-      "style": "LOW_TECH"
-    },
-    {
-      "location": [-135.5, -17],
-      "length": 65,
-      "width": 12,
-      "angle": -180,
-      "contrailSize": 12,
-      "style": "LOW_TECH"
-    },
-    {
-      "location": [-135.5, 10],
-      "length": 65,
-      "width": 12,
-      "angle": 180,
-      "contrailSize": 12,
-      "style": "LOW_TECH"
-    },
-    {
-      "location": [-135.5, -10],
-      "length": 65,
-      "width": 12,
-      "angle": -180,
-      "contrailSize": 12,
-      "style": "LOW_TECH"
-    },
-    {
-      "location": [-135.5, 3.5],
-      "length": 65,
-      "width": 12,
-      "angle": 180,
-      "contrailSize": 12,
-      "style": "LOW_TECH"
-    },
-    {
-      "location": [-135.5, -3.5],
-      "length": 65,
-      "width": 12,
-      "angle": -180,
-      "contrailSize": 12,
+      "contrailSize": 30,
       "style": "LOW_TECH"
     }
   ],

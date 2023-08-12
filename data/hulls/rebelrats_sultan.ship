@@ -4,9 +4,9 @@
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/sultan_fighter.png",
   "style": "MIDLINE",
-  "height": 66,
-  "width": 50,
-  "center": [24.5, 32],
+  "height": 59,
+  "width": 46,
+  "center": [23, 26],
   "collisionRadius": 41.5,
   "shieldCenter": [0, -0],
   "shieldRadius": 37.5,
@@ -19,7 +19,7 @@
       "mount": "HIDDEN",
       "arc": 7,
       "angle": 0,
-      "locations": [-10, 16]
+      "locations": [-5.5, 16.5]
     },
     {
       "id": "WS0003",
@@ -28,7 +28,7 @@
       "mount": "HIDDEN",
       "arc": 7,
       "angle": -0,
-      "locations": [-10, -16]
+      "locations": [-5.5, -15.5]
     },
     {
       "id": "WS0005",
@@ -37,16 +37,7 @@
       "mount": "HIDDEN",
       "arc": 7,
       "angle": -0,
-      "locations": [27.5, -3]
-    },
-    {
-      "id": "WS0006",
-      "size": "SMALL",
-      "type": "BALLISTIC",
-      "mount": "HIDDEN",
-      "arc": 7,
-      "angle": 0,
-      "locations": [-5.5, 7]
+      "locations": [32, -2.5]
     },
     {
       "id": "WS0001",
@@ -55,30 +46,51 @@
       "mount": "HIDDEN",
       "arc": 7,
       "angle": 0,
-      "locations": [0.5, -0.5]
+      "locations": [5, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": 0,
+      "locations": [-1, 7.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": -0,
+      "locations": [-1, -7.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-23.5, 6],
-      "length": 41.5,
-      "width": 21,
+      "location": [-21, 6.5],
+      "length": 40,
+      "width": 10,
       "angle": 180,
-      "contrailSize": 21,
-      "style": "OMEGA"
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "Rats"
     },
     {
-      "location": [-23.5, -6],
-      "length": 41.5,
-      "width": 21,
+      "location": [-21, -6.5],
+      "length": 40,
+      "width": 10,
       "angle": -180,
-      "contrailSize": 21,
-      "style": "OMEGA"
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "Rats"
     }
   ],
   "bounds": [
-    -26, -22.5,
-    -26, 23.5,
-    32.5, -0.5
+    -21, -24.5,
+    30, -2,
+    30, 2,
+    -21, 24.5
   ]
 }

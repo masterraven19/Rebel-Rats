@@ -7,9 +7,9 @@
   "height": 392,
   "width": 108,
   "center": [54, 196],
-  "collisionRadius": 299,
+  "collisionRadius": 253.5,
   "shieldCenter": [0, 0],
-  "shieldRadius": 228,
+  "shieldRadius": 212.5,
   "viewOffset": 0,
   "weaponSlots": [
     {
@@ -60,47 +60,11 @@
   ],
   "engineSlots": [
     {
-      "location": [-193, -0],
-      "length": 53.5,
-      "width": 22,
+      "location": [-196, -0],
+      "length": 150,
+      "width": 40,
       "angle": 180,
-      "contrailSize": 22,
-      "style": "CUSTOM",
-      "styleId": "Rats"
-    },
-    {
-      "location": [-193, 10],
-      "length": 53.5,
-      "width": 22,
-      "angle": 180,
-      "contrailSize": 22,
-      "style": "CUSTOM",
-      "styleId": "Rats"
-    },
-    {
-      "location": [-193, -10],
-      "length": 53.5,
-      "width": 22,
-      "angle": -180,
-      "contrailSize": 22,
-      "style": "CUSTOM",
-      "styleId": "Rats"
-    },
-    {
-      "location": [-193, 22],
-      "length": 53.5,
-      "width": 22,
-      "angle": 180,
-      "contrailSize": 22,
-      "style": "CUSTOM",
-      "styleId": "Rats"
-    },
-    {
-      "location": [-193, -22],
-      "length": 53.5,
-      "width": 22,
-      "angle": -180,
-      "contrailSize": 22,
+      "contrailSize": 40,
       "style": "CUSTOM",
       "styleId": "Rats"
     }

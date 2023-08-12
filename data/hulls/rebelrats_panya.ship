@@ -27,47 +27,11 @@
   ],
   "engineSlots": [
     {
-      "location": [-91, 16.5],
-      "length": 58.5,
-      "width": 14,
+      "location": [-92, -0],
+      "length": 100,
+      "width": 30,
       "angle": 180,
-      "contrailSize": 14,
-      "style": "CUSTOM",
-      "styleId": "Rats"
-    },
-    {
-      "location": [-91, -16.5],
-      "length": 58.5,
-      "width": 14,
-      "angle": -180,
-      "contrailSize": 14,
-      "style": "CUSTOM",
-      "styleId": "Rats"
-    },
-    {
-      "location": [-91, -8],
-      "length": 58.5,
-      "width": 14,
-      "angle": -180,
-      "contrailSize": 14,
-      "style": "CUSTOM",
-      "styleId": "Rats"
-    },
-    {
-      "location": [-91, 8],
-      "length": 58.5,
-      "width": 14,
-      "angle": 180,
-      "contrailSize": 14,
-      "style": "CUSTOM",
-      "styleId": "Rats"
-    },
-    {
-      "location": [-91, -0],
-      "length": 58.5,
-      "width": 14,
-      "angle": -180,
-      "contrailSize": 14,
+      "contrailSize": 30,
       "style": "CUSTOM",
       "styleId": "Rats"
     }
@@ -75,8 +39,7 @@
   "bounds": [
     -92, -21.5,
     81, -21,
-    93, -5,
-    93, 5,
+    93, -0,
     81, 21,
     -92, 21.5
   ]
