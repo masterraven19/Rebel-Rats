@@ -6,7 +6,7 @@
 	"size":[5,28],
 	"center":[2.5,14],
 	#"onHitEffect":"data.scripts.weapons.rebelrats_pyroclastOnHitEffect",
-	"onFireEffect":"data.scripts.weapons.rebelrats_sideMissileScript",
+	"onFireEffect":"data.scripts.weapons.rebelrats_poubelleEffect",
 	"collisionRadius":15,
 	"collisionClass":"MISSILE_FF",
 	"explosionColor":[255,39,1,255],  # purely visual, will get a white additively blended core on top of this color
@@ -24,7 +24,7 @@
 	"armingTime":0.5,
 	"engineSpec":{"turnAcc":30,
 				  "turnRate":60,
-				  "acc":600,
+				  "acc":600, #600
 				  "dec":400},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-10, 0],

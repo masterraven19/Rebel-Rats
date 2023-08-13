@@ -21,7 +21,9 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/ids/rebelrats_Conditions.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_missileTrackEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_missileScript.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_sideMissileScript.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_combatUtils.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_poubelleEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_addParticle.java" />
     </root>
   </artifact>
 </component>
