@@ -38,7 +38,7 @@ Pyroclast,rebelrats_pyroclast,0,,600,1200,,3000,,80,20,3,1,0.01,1,HIGH_EXPLOSIVE
 AFG-155C Hawker,rebelrats_hawker,0,,300,300,,80,,1,60,3,,,,KINETIC,30,,0,1,1,,0,10,1,10,,700,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,,,Fires a shrapnel canister in a cone. Each piece of shrapnel deals %s frag damage,80,,,,
 Ashford LAWS,rebelrats_ashford,0,,400,400,300,,10,5,100,5,,,,ENERGY,,300,0,0.1,0.1,,,,,,10000,,,,,,,PD,"pd9, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Very Fast,Excellent,,,,,,
 AFG-35 Poacher,rebelrats_poacher_s,0,,400,250,,14,,1,80,4,60,10,28,HIGH_EXPLOSIVE,5,,0,0.07,1,,0,4,1,5,,1200,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Arms & Armor,,Point Defense,,,Very Fast,Excellent,,,,,,
-Poubelle Torpedo,rebelrats_poubelle,,,0,1600,,4000,,80,20,3,1,0.005,1,HIGH_EXPLOSIVE,0,,0,60,1,,0,0,0,0,,800,50,3,800,,,"SYSTEM, STRIKE, DIRECT_AIM, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Belters,,Armored Torpedo,Very Fast,Medium,,,Ejected to the sides via explosive bolts when fired,,,,TRUE,
+Poubelle Torpedo,rebelrats_poubelle,,,0,1600,,4000,,80,20,3,1,0.005,1,HIGH_EXPLOSIVE,0,,0,60,1,,0,0,0,0,,800,50,4,800,,,"SYSTEM, STRIKE, DIRECT_AIM, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Belters,,Armored Torpedo,Very Fast,Slow,,,Ejected to the sides with explosive bolts when fired to clear the ship,,,,TRUE,
 Rattus Huntsman Torpedo Launcher,rebelrats_rattus_torp,,,0,2000,,750,,50,15,0,12,0.1,4,HIGH_EXPLOSIVE,150,,0,1,1,,0,0,0,0,,600,100,5,450,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #FIGHTER WEAPONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

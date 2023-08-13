@@ -5,10 +5,10 @@
 	"sprite":"graphics/missiles/poubelle_torpedo.png",
 	"size":[5,28],
 	"center":[2.5,14],
-	"onHitEffect":"data.scripts.weapons.rebelrats_pyroclastOnHitEffect",
+	#"onHitEffect":"data.scripts.weapons.rebelrats_pyroclastOnHitEffect",
 	"onFireEffect":"data.scripts.weapons.rebelrats_sideMissileScript",
 	"collisionRadius":15,
-	"collisionClass":"MISSILE_NO_FF",
+	"collisionClass":"MISSILE_FF",
 	"explosionColor":[255,39,1,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":250, # purely visual
 	"explosionSpec":{"duration":0.1f, # not visual
@@ -22,8 +22,8 @@
 					 "particleCount":150,
 					 "particleColor":[198,71,49,255]},
 	"armingTime":0.5,
-	"engineSpec":{"turnAcc":240,
-				  "turnRate":120,
+	"engineSpec":{"turnAcc":30,
+				  "turnRate":60,
 				  "acc":600,
 				  "dec":400},
 	"engineSlots":[{"id":"ES1",
@@ -32,7 +32,7 @@
 				    "style":"CUSTOM",
 					"styleSpec":{
 						"mode":"PARTICLES", # PARTICLES or QUAD_STRIP, determines which params are used
-						"engineColor":[255,120,80,255],
+						"engineColor":[200,200,200,255],
 						"glowSizeMult":2,
 						"glowAlternateColor":[227,0,0,255],
                                 		"contrailParticleSizeMult":2,
@@ -45,7 +45,7 @@
 						"contrailMaxSpeedMult":.0f,
 						"contrailAngularVelocityMult":0.5f,
 						"contrailSpawnDistMult":.5, # how far away from engine it starts
-						"contrailColor":[255,120,80,255],
+						"contrailColor":[200,200,200,255],
 						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
 					},
 				    "width":10.0,
