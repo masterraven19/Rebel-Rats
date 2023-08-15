@@ -2,7 +2,7 @@ name,id,tags,tech/manufacturer,rarity,base price,stack size,cargo space,baseRaid
 ,,,,,,,,,,,,,,,
 #Blueprints,,,,,,,,,,,,,,,
 Rebel Rats,rebelrats_arsenal_package,package_bp,Rebel Rats,0.25,200000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_modspec_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,rebelrats_arsenal_bp,A blueprint package containing the warships and weapons of the Krysan Navy.,200
-Belters,rebelrats_belter_package,package_bp,Belters,,150000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_modspec_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,rebelrats_ind_bp,A blueprint package containing the warships and weapons of the Belters.,200
+Belters,rebelrats_belter_package,package_bp,Belters,0,150000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_modspec_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,rebelrats_ind_bp,A blueprint package containing the warships and weapons of the Belters.,200
 Rat Package,rebelrats_package,package_bp,Rats,0.025,100,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_modspec_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,rebelrats_bp,What is this??! You must not build it.,200
 ,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,

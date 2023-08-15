@@ -9,6 +9,7 @@ import com.fs.starfarer.api.graphics.SpriteAPI;
 import com.fs.starfarer.api.util.FaderUtil;
 import org.lwjgl.util.vector.Vector2f;
 
+import java.awt.*;
 import java.util.EnumSet;
 //adds big boom
 public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
@@ -18,6 +19,7 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
     private Vector2f sizeEnd;
     private Vector2f currSize;
     private Vector2f loc;
+    private Color color;
     private float fadeOutTime;
     private float spriteDur;
     private float flatIncreaseRate;
@@ -26,7 +28,7 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
     private float elapsed;
     //private float elapsed2;
     public void addExplosion(String spritePath, Vector2f sizeStart, Vector2f sizeEnd,
-                             Vector2f loc, float fadeOutTime, float spriteDur,
+                             Vector2f loc, Color color, float fadeOutTime, float spriteDur,
                              float flatIncreaseRate, float angeRotation, float alphaMult){
         this.sprite = Global.getSettings().getSprite(spritePath);
         this.sizeStart = sizeStart;
@@ -37,8 +39,10 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
         this.flatIncreaseRate = flatIncreaseRate;
         this.alphaMult = alphaMult;
         this.angleRotation = angeRotation;
+        this.color = color;
         sprite.setSize(sizeStart.x,sizeStart.y);
         sprite.setAlphaMult(1);
+        sprite.setColor(color);
         sprite.setAdditiveBlend();
 
         fader = new FaderUtil(alphaMult,fadeOutTime);
