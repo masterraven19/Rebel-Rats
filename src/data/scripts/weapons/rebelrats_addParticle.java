@@ -6,6 +6,7 @@ import com.fs.starfarer.api.graphics.SpriteAPI;
 import com.fs.starfarer.api.util.FaderUtil;
 import org.lwjgl.util.vector.Vector2f;
 
+import java.awt.*;
 import java.util.EnumSet;
 //Will create a single particle when used. Make sure to assign it as a CombatEntity as
 //"engine.addLayeredPlugin(copy of this class)"
@@ -16,6 +17,7 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
     private Vector2f loc;
     private Vector2f fixedLoc;
     private FaderUtil fader;
+    private Color color;
     private boolean pulseInOut;
     private boolean trail;
     private boolean hasRendered = false;
@@ -34,7 +36,8 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
     public void addParticle(CombatEntityAPI proj, String spriteName,
                             float spriteWidth, float spriteHeight, Vector2f loc,
                             float angle, float angleRotation, boolean pulseInOut,
-                            float pulseDur, float spriteDur, boolean trail){
+                            float pulseDur, float spriteDur, boolean trail,
+                            Color color){
 
         if (proj != null) {
             this.proj = proj;
@@ -56,6 +59,10 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
         this.spriteDur = spriteDur;
         this.trail = trail;
         this.sprite = Global.getSettings().getSprite(spriteName);
+        if (color != null){
+            this.color = color;
+            sprite.setColor(color);
+        }
         pulseMin = (spriteWidth * 0.7F);
         pulseMax = (spriteWidth * 1);
         scaleincrease = 0.01F;
