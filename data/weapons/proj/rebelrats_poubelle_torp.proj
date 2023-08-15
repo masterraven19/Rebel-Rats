@@ -5,7 +5,7 @@
 	"sprite":"graphics/missiles/poubelle_torpedo.png",
 	"size":[5,28],
 	"center":[2.5,14],
-	#"onHitEffect":"data.scripts.weapons.rebelrats_pyroclastOnHitEffect",
+	"onHitEffect":"data.scripts.weapons.rebelrats_poubelleEffect",
 	"onFireEffect":"data.scripts.weapons.rebelrats_poubelleEffect",
 	"collisionRadius":15,
 	"collisionClass":"MISSILE_FF",

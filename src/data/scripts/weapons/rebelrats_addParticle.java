@@ -3,17 +3,22 @@ package data.scripts.weapons;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.graphics.SpriteAPI;
+import com.fs.starfarer.api.util.FaderUtil;
 import org.lwjgl.util.vector.Vector2f;
 
-import java.awt.*;
 import java.util.EnumSet;
-
+//Will create a single particle when used. Make sure to assign it as a CombatEntity as
+//"engine.addLayeredPlugin(copy of this class)"
+//Will follow the projectile when given one, will stay in place when given a Vector2f
 public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
     private CombatEntityAPI proj;
-    private CombatEngineAPI e;
     private SpriteAPI sprite;
     private Vector2f loc;
+    private Vector2f fixedLoc;
+    private FaderUtil fader;
     private boolean pulseInOut;
+    private boolean trail;
+    private boolean hasRendered = false;
     private float spriteWidth;
     private float spriteHeight;
     private float angle;
@@ -25,14 +30,23 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
     private float scaleincrease = 1;
     private float elapsed = 0;
     private float elapsed2 = 0;
-    private float spriteDur;
-    public void addParticle(CombatEntityAPI proj, CombatEngineAPI e, String spriteName,
+    private float spriteDur = 0;
+    public void addParticle(CombatEntityAPI proj, String spriteName,
                             float spriteWidth, float spriteHeight, Vector2f loc,
                             float angle, float angleRotation, boolean pulseInOut,
-                            float pulseDur, float spriteDur){
-        if (proj != null){this.proj = proj;}
-        if (loc != null){this.loc = loc;}
-        this.e = e;
+                            float pulseDur, float spriteDur, boolean trail){
+
+        if (proj != null) {
+            this.proj = proj;
+            this.loc = proj.getLocation();
+            fixedLoc = proj.getLocation();
+        } else {
+            if (loc != null) {
+                this.loc = loc;
+                fixedLoc = loc;
+            }
+        }
+
         this.spriteWidth = spriteWidth;
         this.spriteHeight = spriteHeight;
         this.angle = angle;
@@ -40,11 +54,14 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
         this.pulseInOut = pulseInOut;
         this.pulseDur = pulseDur;
         this.spriteDur = spriteDur;
+        this.trail = trail;
         this.sprite = Global.getSettings().getSprite(spriteName);
         pulseMin = (spriteWidth * 0.7F);
         pulseMax = (spriteWidth * 1);
         scaleincrease = 0.01F;
         scale = 1F;
+        fader = new FaderUtil(1F,0.5F);
+        fader.fadeOut();
 
         sprite.setWidth(spriteWidth);
         sprite.setHeight(spriteHeight);
@@ -56,16 +73,22 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
         if (Global.getCombatEngine().isPaused()) return;
         elapsed2 += amount;
 
+        if (elapsed2 >= spriteDur * 0.9){
+            fader.advance(amount);
+        }
 
-        if (proj != null){
-            entity.getLocation().set(proj.getLocation());
-        }else{
+        if (!trail){
             entity.getLocation().set(loc);
         }
+        else{
+            entity.getLocation().set(fixedLoc);
+        }
+
         sprite.setAngle(sprite.getAngle() + angleRotation);
 
         if (pulseInOut){
             elapsed += amount;
+
             if (elapsed < pulseDur){
                 if (scale < 1){
                     scale += scaleincrease;
@@ -87,13 +110,13 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
 
     public void render(CombatEngineLayers layer, ViewportAPI viewport) {
         //sprite.setSize(spriteWidth,spriteHeight);
-        sprite.setAlphaMult(1);
+        sprite.setAlphaMult(fader.getBrightness());
         sprite.setSize(spriteWidth * scale,spriteHeight * scale);
 
-        if (proj != null){
-            sprite.renderAtCenter(proj.getLocation().x,proj.getLocation().y);
+        if (!trail) {
+            sprite.renderAtCenter(loc.x, loc.y);
         }else{
-            sprite.renderAtCenter(loc.x,loc.y);
+            sprite.renderAtCenter(fixedLoc.x,fixedLoc.y);
         }
     }
     protected EnumSet<CombatEngineLayers> layers = EnumSet.of(CombatEngineLayers.ABOVE_SHIPS_AND_MISSILES_LAYER);
@@ -104,7 +127,7 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
         if (proj != null) {
             return proj.isExpired() || !Global.getCombatEngine().isEntityInPlay(proj);
         }else{
-            if (elapsed > spriteDur){
+            if (elapsed2 > spriteDur){
                 return true;
             }
         }

@@ -8,7 +8,10 @@ import data.scripts.weapons.rebelrats_combatUtils;
 public class rebelrats_poubelleEffect implements OnHitEffectPlugin, OnFireEffectPlugin,EveryFrameWeaponEffectPlugin {
 
     public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
-
+        rebelrats_addExplosionFx explosionFx = new rebelrats_addExplosionFx();
+        explosionFx.addExplosion("graphics/fx/shields128c.png",new Vector2f(50,50),new Vector2f(200,200),point,0.7F,3,5,0.1F,0.6F);
+        CombatEntityAPI e = engine.addLayeredRenderingPlugin(explosionFx);
+        e.getLocation().set(point);
     }
 
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
@@ -22,11 +25,11 @@ public class rebelrats_poubelleEffect implements OnHitEffectPlugin, OnFireEffect
         m.getVelocity().set(0,0);
 
         float launchspeed = m.getSpec().getLaunchSpeed();
-        Vector2f vel = rebelrats_combatUtils.calculateloc(m.getFacing(),90,launchspeed,weapon.getSlot().getLocation());
+        Vector2f vel = rebelrats_combatUtils.calcSideMissileLaunch(m.getFacing(),90,launchspeed,weapon.getSlot().getLocation());
         m.getVelocity().set(vel);
 
         rebelrats_addParticle p = new rebelrats_addParticle();
-        p.addParticle(m,engine,"graphics/fx/target_painter.png",50,50,null,m.getFacing(),0,true,1,m.getMaxFlightTime());
+        p.addParticle(m,"graphics/fx/target_painter.png",50,50,null,m.getFacing(),0,true,1,m.getMaxFlightTime(),false);
         CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
         e.getLocation().set(projectile.getLocation());
     }

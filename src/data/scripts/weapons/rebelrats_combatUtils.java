@@ -4,7 +4,7 @@ import org.lwjgl.util.vector.Vector2f;
 
 
 public class rebelrats_combatUtils {
-    public static Vector2f calculateloc(float angle, float launchAngle, float launchSpeed, Vector2f slotloc){
+    public static Vector2f calcSideMissileLaunch(float angle, float launchAngle, float launchSpeed, Vector2f slotloc){
         float dx;
         float dy;
         Vector2f targetloc;
