@@ -35,7 +35,7 @@
     "particleDuration": 2,
     "particleCount": 25,
     "particleColor": [
-      238,189,6,255
+      218,125,222,105
     ]
   },
   "fireSoundOne": "doldrums_charging",

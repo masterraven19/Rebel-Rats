@@ -19,8 +19,8 @@ rebelrats_arratoi_m,WEAPON,These are powerful railguns that fire standard issue 
 rebelrats_petard_m,WEAPON,"Using laser activated nuclear pellets in a reinforced chamber, the Petard is a terrifying weapon to be struck by. Barrel Rectifiers would guide the released energy into a concentrated beam as it exits the gun and produce horrific results if the hull is directly struck, working similar to that of Krysan Pest Control equipment.",,,,
 rebelrats_braggador_m,WEAPON,"Created to bridge the gap between long ranged flak and smaller short ranged PD, the Braggador’s quad guns can easily shoot down enemy torpedoes or blunt incoming enemy bomber runs.",,,,
 rebelrats_rattenjager_m,WEAPON,The Rattenjager utilizes advanced algorithms and a smart-fuze system to intercept fighters and missiles. An integrated ammo feeder in the turret mount allows the weapon to be constantly fed with new missiles during battle. ,,,,
-rebelrats_rattenjager_array_m,WEAPON,A built-in array of Snappers.,,,,
-rebelrats_petardlauncher_m,WEAPON,WHat if we take a dragonfire and put a petard? This is the result. Nuclear boom!,,,,
+rebelrats_rattenjager_array_m,WEAPON,A built-in array of Snapper Hardkill APS for long-range interceptions,,,,
+rebelrats_petardlauncher_m,WEAPON,"Seeing that the Petard conveniently came in ready-to-use canisters, it didn't take long for someone to mount thrusters and a guidance system to make a rudimentary, but effective, DEM",,,,
 rebelrats_huntsman_salvo,WEAPON,Triple rack for Huntsman Torpedos,,,,
 ,,,,,,
 #MUS HUNTSMAN AUTOLOADER,,,,,,
@@ -38,7 +38,7 @@ rebelrats_pyroclast,WEAPON,The Pyroclast is the Federal Navy's answer to the Rea
 rebelrats_rattus_torp,WEAPON,"This is an autoloader that has been fitted into the ship's center weapons module. It can quickly reload Huntsman torpedoes, allowing the Rattus to conduct rapid strikes and replenish missiles through its onboard microforge.",,,,
 rebelrats_ashford,WEAPON,"The Ashford is comparable to Persean Sector lasers with its signature variable lense that allows it to have a higher effective range than other Krysan PD weapons. It utilizes newly found materials mined in the sector to induce EMP arcs on targets, often disabling their engines and sending them on a death spiral.",,,,
 rebelrats_poacher_s,WEAPON,"Favoring accuracy by volume like ancient CIWS designs, the Poacher was an anti-ship weapon that was handed PD duties. The turret's APIT shells coupled with an astounding rate of fire allows it to shred through destroyer-grade armor plating relatively quickly when enmassed.",,,,
-rebelrats_poubelle,WEAPON,"A deadly nuke ready to strike. You won't be liking this, general!",,,,
+rebelrats_poubelle,WEAPON,"Less of a missile and more of a mobile IED cobbled from off-the-shelf civilian components, the torpedo lacks the robust thruster system that Federal navy missiles have but it makes up for it with a larger payload that can easily sledge through thick armor",,,,
 ,,,,,,
 #FIGHTER WEAPONS,,,,,,
 rebelrats_huntsman_f,WEAPON,"A fighter-mounted version of the Huntsman Torpedo stowed under the fuselage due to its size. The fighter's weight restrictions downsized the torpedo's warhead, but will still be sufficient to threaten ships, especially those with thin armor.",,,,
@@ -92,7 +92,11 @@ The base design of the ship predates that of the Marmot and even resembles that 
 
 The ship is equipped with two Barkley-Pattern AM-catalysed flux reactors to power its singular H305 Torch Drive and its Basilica-Model shield generator. Multiple redundant systems are in place to make sure that the ship can get the crew back to safety.
 ",,,,
-rebelrats_steersman,SHIP,Yo what the. Give that back independents no stealing!,,,,
+rebelrats_steersman,SHIP,"A direct evolution from the Helmsman, this ship is a more serious take in creating a functional belter warship and a sign of things to come. The hull is visibly armoured with massive rivets dotting the ship's hull and an armoured retractable armored door hangs over the hangar. On its side mountings, the ship sports racks of large torpedos that make the Steersman a credible threat. Despite this, the ship can still falter to pressure from professionally made warships if care is not given.
+
+Hailing from the docks of the Asteroid Central Station, the Steersman represents the Belter will to be independents and its wish to remove piracy within the system. The ship was made to coutneract the growing levels of piracy coming from the rest of the Persean Sector and protect vulnerable independent traders.
+
+Its onboard fusion torch is a design derived from the most successful Helmsman homebrewed fusion torch drive named the Mammoth Fusion Torch. Three Bobcat-Pattern flux reactors power the ship's systems and the torch drive.",,,,
 rebelrats_mellivora,SHIP,"Though thin skinned and lightly armed, the Mellivora’s high-capacity hangars provide the fighter cover for itself and other ships in the fleet. It heavily relies on its speed and fighters to keep enemy ships at a distance and to strike opponents.
 
 Realizing the need for a mobile light carrier, Krysan High Command commissioned Arms & Armor to design a light carrier with high mobility. And so, with Arms & Armor having prior carrier building experience from creating the Porcellus, the development for the Mellivora was quick and had no difficulties.
@@ -142,11 +146,17 @@ Despite unfortunate shortcomings, Pybara captains and crew enjoy more spacious a
 At its core, the Pybara hosts a single Camel-Pattern Flux Reactor to power the large H101D Daedalus-type Fusion Torch while two Minuitoid Flux Reactors are responsible for pwoering the ship's various subsystems.",,,,
 rebelrats_monax,SHIP,"The Monax is the workhorse of the Naval Logistics Fleet with its ample cargo holds and extensive salvaging equipment. Nothing on the ship’s base model is underutilized or an embellishment, every part of the Monax is designed to be easily interchangeable to fit the user’s needs while its cargo holds have been maximized to carry as many cargo units as possible with its powerful torch drive. 
 
-The freighter is a collaboration between Kaharian Naval Steelworks and Jerel’s Fuel Haulers, now the Three Brother's Corporation, in an attempt to standardize Krysan cargo hauling. The project, being hugely successful, made the Monax the most common freighter to be seen flying in Krysan trade fleets. The Monax’ ubiquity and focus in standardization in Krysan cargo fleets created a barter economy that revolved around trading parts and also allowed dedicated businesses that are solely created for servicing Monax freighters.
+The freighter is a collaboration between Kaharian Naval Steelworks and Jerel’s Fuel Haulers, now called the Three Brother's Corporation after merging, in an attempt to standardize Krysan cargo hauling. The project, being hugely successful, made the Monax the most common freighter to be seen flying in Krysan trade fleets. The Monax’ ubiquity and focus in standardization in Krysan cargo fleets created a barter economy that revolved around trading parts and also allowed dedicated businesses that are solely created for servicing Monax freighters.
 
 The ship is equipped with an M405 Torch Drive that has been factory tuned for maximum efficiency and is hooked up to a single Bobcat-Pattern Flux Reactor.
 ",,,,
-rebelrats_panya,SHIP,smol smol Pybara,,,,
+rebelrats_panya,SHIP,"Finding ample work in doing station to station deliveries, the Panya is more than capable of supporting local economies and small commerce fleets. The Federal Navy took interest in the Panya's potential to extend the deep space endurance of flotillas as the ship was essentially nothing more than modular cargo holds with a fusion torch attached on its back. Like the Buffalo, the Panya relies on good winds to carry it through its journeys.
+
+The ship found its origins as a cheap solution to solving the shortage of service shuttles large enough to meet the growing demands of station constellations in Dragon's Blessing. Overtime, the Panya was able to grow out a niche of being the first choice for new Krysan starfarers who looked for a cheap cargo ship that demanded little maintenance.
+
+With its diminutive size as a frigate-classed freighter, the Panya's interiors can only be described as utilitarian and more akin to that of terrestrial cargo ships with individual cabins to host its measly number of crew. Fortunately for the crew, this meant that onboard accommodations were much more spacious than their larger counterparts with many crews reporting the cabins to be cosy but not constricting.
+
+The ship is equipped with a Lynx-pattern flux reactor to power its systems and a single M303 Fusion Torch tuned down for efficiency.",,,,
 ,,,,,,
 rebelrats,FACTION,"Rats, rats, we are the rats
 Celebrating yet another birthday bash

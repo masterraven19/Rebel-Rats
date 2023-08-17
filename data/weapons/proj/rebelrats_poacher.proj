@@ -13,6 +13,8 @@
 	"fadeTime":0.3,
 	"fringeColor":[255,213,110,250],
 	"coreColor":[148,255,248,250],
+	"glowColor":[255,213,110,100],
+	"glowRadius":5,
 	"textureScrollSpeed":120.0,
 	"pixelsPerTexel":5.0,
 	"bulletSprite":"graphics/missiles/ratshell_small_yellow.png"
