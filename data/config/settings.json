@@ -9,7 +9,9 @@
 	"graphics": {
 		"blueprint_packages": {
 			"rebelrats_package":"graphics/icons/cargo/ratblueprint.png",
-			"rebelrats_arsenal_package":"graphics/icons/cargo/ratblueprint.png"
+			"rebelrats_arsenal_package":"graphics/icons/cargo/ratblueprint.png",
+			"rebelrats_hull_package":"graphics/icons/cargo/ratblueprint.png",
+			"rebelrats_belter_package":"graphics/icons/cargo/ratblueprint.png",
 		},
 		"fx": {
 			"rebelrats_petardbeam":"graphics/fx/petardlaser_beam.png",

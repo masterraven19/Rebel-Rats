@@ -21,7 +21,7 @@
 
     },
     "minRelationships":{
-        "hegemony": -0.3,
+        "hegemony": -0.1,
         "independent": 0.4,
         "diktat": 0.3,
         "pirates": -0.7,
