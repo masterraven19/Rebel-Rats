@@ -12,7 +12,7 @@
 	"fringeColor":[0,145,238,255],
 	"coreColor":[99,194,255,200],
 	"glowColor":[0,145,238,255],
-	"glowRadius":40,
+	"glowRadius":30,
 	#"textureType":"SMOOTH",  # only needed for BEAM spawnType
 	#"textureScrollSpeed":64.0,
 	#"pixelsPerTexel":5.0

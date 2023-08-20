@@ -14,6 +14,10 @@
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid"
   ],
+  "builtInWeapons": {
+    "WS0008": "rebelrats_poubelle",
+    "WS0009": "rebelrats_poubelle"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -77,6 +81,24 @@
       "arc": 212,
       "angle": -105.5,
       "locations": [-46, -28]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [29, 17.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [29, -17.5]
     }
   ],
   "engineSlots": [

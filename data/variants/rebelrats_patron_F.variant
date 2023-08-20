@@ -22,8 +22,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "rebelrats_ranger",
-        "WS0003": "rebelrats_ranger"
+        "WS0002": "rebelrats_poacher_s",
+        "WS0003": "rebelrats_poacher_s"
       }
     },
     {

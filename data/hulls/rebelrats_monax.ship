@@ -7,9 +7,9 @@
   "height": 271,
   "width": 111,
   "center": [59, 133],
-  "collisionRadius": 187.5,
+  "collisionRadius": 169,
   "shieldCenter": [0, 0],
-  "shieldRadius": 147.5,
+  "shieldRadius": 144,
   "viewOffset": 0,
   "builtInMods": [
     "hiressensors",

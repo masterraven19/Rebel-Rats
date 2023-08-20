@@ -7,9 +7,9 @@
   "height": 196,
   "width": 80,
   "center": [40, 95],
-  "collisionRadius": 148,
+  "collisionRadius": 128.5,
   "shieldCenter": [0, 0],
-  "shieldRadius": 116,
+  "shieldRadius": 111,
   "viewOffset": 0,
   "builtInMods": [
     "missleracks",
