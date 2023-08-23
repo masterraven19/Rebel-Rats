@@ -17,7 +17,7 @@
         "neutral": 0.4,				# Who the rat are you? But we cool
         "pirates": -1,				# You all are mean!!! (Give us drugs)
         "luddic_path": -1,			# They blew up our cheese wheels!!!
-        "tahlan_legioinfernalis": -0.5,  #
+        "tahlan_legioinfernalis": -0.5,  # They overgrilled the cheese
 
     },
     "minRelationships":{
@@ -89,7 +89,7 @@
     ],
     
     "startSpecialItems":[
-        [["midline_package", ""]],
+        [["rebelrats_arsenal_package", ""]],
     ],
     
     "industrySeeds":[

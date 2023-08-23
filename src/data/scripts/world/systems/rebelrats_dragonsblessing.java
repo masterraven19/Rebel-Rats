@@ -30,38 +30,44 @@ public class rebelrats_dragonsblessing {
         system.getLocation().set(-39000,-26000); //top leftish -39000, 39000
         system.setEnteredByPlayer(true);
         system.setBackgroundTextureFilename("graphics/backgrounds/background6.jpg");
-        
+
         //entities 
         // create the star and generate the hyperspace anchor for this system
+        // the yellow!! giant
+        // to make the orbit days consistent I will divide the radius from whatever it orbits
+        // by 30
         PlanetAPI systemstar = system.initStar("Dragon's Blessing", // unique id for this star
         "star_yellow", // id in planets.json
         1100f, // radius (in pixels at default zoom)
         450); // corona radius, from star edge
+        //flood them in yellow
         system.setLightColor(new Color(255,247,215)); // light color in entire system, affects all entities        
         
         //terrain
-        system.addAsteroidBelt(systemstar, 0, 3000, 270f, 200, 250, Terrain.RING, "Hot Belt");
-        system.addRingBand(systemstar, "misc", "rings_dust0", 270, 0, Color.yellow, 270, 3000, 200);
-        
-        system.addAsteroidBelt(systemstar, 400, 3500, 270f, 250, 300, Terrain.ASTEROID_BELT, "Astero Belt");
-        system.addRingBand(systemstar, "misc", "rings_dust0", 270, 0, Color.yellow, 270, 3500, 300);
-        
-        system.addAsteroidBelt(systemstar, 0, 4000, 270f, 350, 400, Terrain.RING, "MARMOT ZZZZ");
-        system.addRingBand(systemstar, "misc", "rings_dust0", 270, 0, Color.yellow, 270, 4000, 450);
-        
-        system.addAsteroidBelt(systemstar, 800, 15000, 270f, 600, 650, Terrain.ASTEROID_BELT, "Cold Belt");
-        system.addRingBand(systemstar, "misc", "rings_dust0", 270, 0, Color.yellow, 270, 15000, 600);
+        //asteroid bands
+        //first ring
+        system.addAsteroidBelt(systemstar, 0, 2250, 270f, 74, 75, Terrain.RING, "Hot Belt");
+        system.addRingBand(systemstar, "misc", "rings_asteroids0", 270, 2, Color.lightGray, 270, 2250, 75);
+        //second ring
+        system.addAsteroidBelt(systemstar, 350, 2500, 270f, 82, 83, Terrain.ASTEROID_BELT, "Astero Belt");
+        system.addRingBand(systemstar, "misc", "rings_asteroids0", 270, 2, Color.darkGray, 270, 2500, 83);
+        //third ring
+        system.addAsteroidBelt(systemstar, 0, 2900, 230f, 95, 96, Terrain.RING, "MARMOT ZZZZ");
+        system.addRingBand(systemstar, "misc", "rings_dust0", 230, 0, Color.lightGray, 230, 2900, 96);
+        //fourth ring (infinity rings)
+        system.addAsteroidBelt(systemstar, 700, 6900, 200f, 229, 230, Terrain.ASTEROID_BELT, "Cold Belt");
+        system.addRingBand(systemstar, "misc", "rings_dust0", 200, 0, Color.yellow, 200, 6900, 230);
         
         SectorEntityToken astfield1 = system.addTerrain(Terrain.ASTEROID_FIELD,
         new AsteroidFieldTerrainPlugin.AsteroidFieldParams(
-                400f, // min radius
-                500f, // max radius
-                19, // min asteroid count
-                30, // max asteroid count
+                500f, // min radius
+                600f, // max radius
+                30, // min asteroid count
+                60, // max asteroid count
                 4f, // min asteroid radius
-                16f, // max asteroid radius
+                19f, // max asteroid radius
                 "Asteroids Field")); // null for default name
-        astfield1.setCircularOrbit(systemstar, 360f * (float) Math.random(), 10000, 270);
+        astfield1.setCircularOrbit(systemstar, 270, 4900, 163);
         
         SectorEntityToken astfield2 = system.addTerrain(Terrain.ASTEROID_FIELD,
         new AsteroidFieldTerrainPlugin.AsteroidFieldParams(
@@ -72,105 +78,105 @@ public class rebelrats_dragonsblessing {
                 4f, // min asteroid radius
                 16f, // max asteroid radius
                 "Asteroids Field")); // null for default name
-        astfield2.setCircularOrbit(systemstar, 360f * (float) Math.random(), 12000, 360);
+        astfield2.setCircularOrbit(systemstar, 0, 4900, 163);
         
         //planets
-                       
+        //pirates!!!
         PlanetAPI malus = system.addPlanet("rebelrats_malus", 
                 systemstar, 
                 "Malus", 
                 "arid", 
                 200, 
                 160f, 
-                3250, 
-                225);
+                2700,
+                90);
         malus.setCustomDescriptionId("rebelrats_malus_planet"); //reference descriptions.csv
         malus.setFaction(Factions.PIRATES);
-        
+        //the rebel rats home
         PlanetAPI rattus = system.addPlanet("rebelrats_krysa",
                 systemstar,
                 "Krysa",
                 Planets.PLANET_TERRAN,
                 235,
                 190f,
-                7000,
-                300);
+                4800,
+                160);
         rattus.setCustomDescriptionId("rebelrats_rattus_planet"); //reference descriptions.csv
         rattus.setFaction("rebelrats");
-        
+        //the rats mine
         PlanetAPI magawa = system.addPlanet("rebelrats_magawa", 
                 rattus, 
                 "Magawa", 
                 "barren", 
-                150, 
+                240,
                 60f, 
-                1000, 
-                30);
+                1200,
+                40);
         magawa.setCustomDescriptionId("rebelrats_magawa_moon"); //reference descriptions.csv
         magawa.setFaction("rebelrats");
-        
+        //stinky
         PlanetAPI rodentia = system.addPlanet("rebelrats_rodentia", 
                 systemstar, 
                 "Rodentia", 
                 "rebelrats_fart_giant",
-                221, 
+                260,
                 300f, 
-                7000, 
-                300);
+                4800,
+                160);
         rodentia.setCustomDescriptionId("rebelrats_rodentia_planet"); //reference descriptions.csv
         rodentia.setFaction(Factions.NEUTRAL);
         
-        system.addAsteroidBelt(rodentia, 0, 550, 270f, 20, 30, Terrain.RING, "Rodentia Belt");
-        system.addRingBand(rodentia, "misc", "rings_dust0", 270, 0, Color.yellow, 270, 400, 20);
-        
+        system.addAsteroidBelt(rodentia, 0, 550, 270f, 8, 9, Terrain.RING, "Rodentia Belt");
+        system.addRingBand(rodentia, "misc", "rings_dust0", 270, 0, Color.lightGray, 270, 550, 9);
+        //Outer Belters!!
         PlanetAPI nutria = system.addPlanet("rebelrats_nutria", 
                 systemstar, 
                 "Nutria", 
                 Planets.TUNDRA, 
                 180, 
                 150f, 
-                18500,
-                700);
+                7900,
+                263);
         nutria.setCustomDescriptionId("rebelrats_nutria_planet"); //reference descriptions.csv
         nutria.setFaction(Factions.INDEPENDENT);
         
         //stations
         
         SectorEntityToken powerstation1 = system.addCustomEntity("rebelrats_powerstation", "Power Station", "rebelrats_powerstation", "rebelrats");
-        powerstation1.setCircularOrbitPointingDown(systemstar, 0, 1400, 200);
+        powerstation1.setCircularOrbitPointingDown(systemstar, 0, 1400, 46);
         powerstation1.setCustomDescriptionId("rebelrats_powerstation");
         
         SectorEntityToken powerstation2 = system.addCustomEntity("rebelrats_powerstation", "Power Station", "rebelrats_powerstation", "rebelrats");
-        powerstation2.setCircularOrbitPointingDown(systemstar, 90, 1400, 200);
+        powerstation2.setCircularOrbitPointingDown(systemstar, 90, 1400, 46);
         powerstation2.setCustomDescriptionId("rebelrats_powerstation");
         
         SectorEntityToken powerstation3 = system.addCustomEntity("rebelrats_powerstation", "Power Station", "rebelrats_powerstation", "rebelrats");
-        powerstation3.setCircularOrbitPointingDown(systemstar, 180, 1400, 200);
+        powerstation3.setCircularOrbitPointingDown(systemstar, 180, 1400, 46);
         powerstation3.setCustomDescriptionId("rebelrats_powerstation");
         
         SectorEntityToken powerstation4 = system.addCustomEntity("rebelrats_powerstation", "Power Station", "rebelrats_powerstation", "rebelrats");
-        powerstation4.setCircularOrbitPointingDown(systemstar, 270, 1400, 200);
+        powerstation4.setCircularOrbitPointingDown(systemstar, 270, 1400, 46);
         powerstation4.setCustomDescriptionId("rebelrats_powerstation");
 
         SectorEntityToken outerstation = system.addCustomEntity("outerstation","Asteroid Central Station", "station_lowtech1","independent");
-        outerstation.setCircularOrbit(systemstar, 90,15000,650);
+        outerstation.setCircularOrbit(systemstar, 90,6900,230);
         outerstation.setCustomDescriptionId("rebelrats_outerstation");
 
         //stable locs
         SectorEntityToken stableLoc1 = system.addCustomEntity("dragons_blessing_stableloc1", "Nav Buoy", "nav_buoy", "rebelrats");
-        stableLoc1.setCircularOrbit(systemstar, 290, 14000, 520);
+        stableLoc1.setCircularOrbit(systemstar, 290, 6600, 220);
         
         SectorEntityToken stableLoc2 = system.addCustomEntity("dragons_blessing_stableloc2", "Comm Relay", "comm_relay", "rebelrats");
-        stableLoc2.setCircularOrbit(systemstar, 195, 16000, 520);
+        stableLoc2.setCircularOrbit(systemstar, 135, 7200, 240);
         
         SectorEntityToken stableLoc3 = system.addCustomEntity("dragons_blessing_stableloc3", "Sensor Array", "sensor_array", "rebelrats");
-        stableLoc3.setCircularOrbit(systemstar, 190, 5000, 520);
+        stableLoc3.setCircularOrbit(systemstar, 45, 6600, 220);
+
         //markets and conditions
         //krysa
         MarketAPI rattus_market = Global.getFactory().createMarket("rattus_market", "", 7);
         rattus.setMarket(rattus_market);
         rattus_market.setPrimaryEntity(rattus);
-        rattus_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
                             
         rattus_market.setFactionId("rebelrats");
         rattus_market.setName("Krysa");
@@ -199,6 +205,7 @@ public class rebelrats_dragonsblessing {
         rattus_market.addIndustry(Industries.ORBITALWORKS, Collections.singletonList(Items.PRISTINE_NANOFORGE));
 
         rattus_market.getIndustry(Industries.STARFORTRESS).setAICoreId(Commodities.ALPHA_CORE);
+        rattus_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         EconomyAPI globalEconomy = Global.getSector().getEconomy();
         globalEconomy.addMarket(rattus_market, false);
         
@@ -206,7 +213,6 @@ public class rebelrats_dragonsblessing {
         MarketAPI malus_market = Global.getFactory().createMarket("malus_market", "", 5);
         malus.setMarket(malus_market);
         malus_market.setPrimaryEntity(malus);
-        malus_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         
         malus_market.setFactionId(Factions.PIRATES);
         malus_market.setName("Malus");
@@ -232,13 +238,13 @@ public class rebelrats_dragonsblessing {
         malus_market.addIndustry(Industries.GROUNDDEFENSES);
         malus_market.addIndustry(Industries.PATROLHQ);
 
+        malus_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         globalEconomy.addMarket(malus_market, false);
         
         //nutria
         MarketAPI nutria_market = Global.getFactory().createMarket("nutria_market", "", 4);
         nutria.setMarket(nutria_market);
         nutria_market.setPrimaryEntity(nutria);
-        nutria_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         
         nutria_market.setFactionId(Factions.INDEPENDENT);
         nutria_market.setName("Nutria");
@@ -262,13 +268,13 @@ public class rebelrats_dragonsblessing {
         nutria_market.addIndustry(Industries.PATROLHQ);
         nutria_market.addIndustry(Industries.WAYSTATION);
         nutria_market.addIndustry(Industries.FARMING);
-        
+
+        nutria_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         globalEconomy.addMarket(nutria_market, false);
 
         MarketAPI magawa_market = Global.getFactory().createMarket("magawa_market", "", 5);
         magawa.setMarket(magawa_market);
         magawa_market.setPrimaryEntity(magawa);
-        magawa_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
 
         magawa_market.setFactionId("rebelrats");
         magawa_market.setName("Magawa");
@@ -296,12 +302,12 @@ public class rebelrats_dragonsblessing {
         magawa_market.addIndustry(Industries.ORBITALSTATION);
         magawa_market.addIndustry(Industries.MILITARYBASE);
 
+        magawa_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         globalEconomy.addMarket(magawa_market, false);
 
         MarketAPI rodentia_market = Global.getFactory().createMarket("rodentia_market", "", 4);
         rodentia.setMarket(rodentia_market);
         rodentia_market.setPrimaryEntity(rodentia);
-        rodentia_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
 
         rodentia_market.setFactionId("rebelrats");
         rodentia_market.setName("Rodentia");
@@ -323,13 +329,13 @@ public class rebelrats_dragonsblessing {
         rodentia_market.addIndustry(Industries.GROUNDDEFENSES);
         rodentia_market.addIndustry(Industries.ORBITALSTATION);
 
+        rodentia_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         rodentia_market.getIndustry(Industries.FUELPROD).setAICoreId(Commodities.GAMMA_CORE);
         globalEconomy.addMarket(rodentia_market, false);
 
         MarketAPI outerstation_market = Global.getFactory().createMarket("outerstation_market", "", 4);
         outerstation.setMarket(outerstation_market);
         outerstation_market.setPrimaryEntity(outerstation);
-        outerstation_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
 
         outerstation_market.setFactionId(Factions.INDEPENDENT);
         outerstation_market.setName(outerstation.getName());
@@ -350,6 +356,7 @@ public class rebelrats_dragonsblessing {
         outerstation_market.addIndustry(Industries.LIGHTINDUSTRY);
         outerstation_market.addIndustry(Industries.ORBITALSTATION);
 
+        outerstation_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         globalEconomy.addMarket(outerstation_market,false);
         //persons 
        //* PersonAPI person = Global.getFactory().createPerson();
@@ -375,14 +382,14 @@ public class rebelrats_dragonsblessing {
         JumpPointAPI jump1 = Global.getFactory().createJumpPoint("lower_jaw",
                 "Dragon's Lower Jaw");
         jump1.setStandardWormholeToHyperspaceVisual();
-        jump1.setCircularOrbit(rattus, 235, 4500f, 300);
+        jump1.setCircularOrbit(systemstar, 235, 3100f, 103);
         jump1.setAutoCreateEntranceFromHyperspace(true);
         system.addEntity(jump1);
 
         JumpPointAPI jump2 = Global.getFactory().createJumpPoint("upper_jaw",
                 "Dragon's Upper Jaw");
         jump2.setStandardWormholeToHyperspaceVisual();
-        jump2.setCircularOrbit(rattus, 235, 14000f, 300);
+        jump2.setCircularOrbit(systemstar, 235, 7300f, 243);
         jump2.setAutoCreateEntranceFromHyperspace(true);
         system.addEntity(jump2);
 
@@ -391,7 +398,7 @@ public class rebelrats_dragonsblessing {
                 "Dragons Gate",
                 "inactive_gate",
                 null);
-        dragons_gate.setCircularOrbit(systemstar,180,20000,3000);
+        dragons_gate.setCircularOrbit(nutria,180,700,23);
 
         //fleet
         CampaignFleetAPI krysafleet = FleetFactoryV3.createEmptyFleet("rebelrats", FleetTypes.PATROL_LARGE,null);

@@ -6,13 +6,18 @@ import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.shared.SharedData;
 import data.scripts.world.systems.rebelrats_dragonsblessing;
 import com.fs.starfarer.api.campaign.FactionAPI;
+import data.scripts.world.systems.rebelrats_tikus;
 
 public class rebelratsgen {
     public void generate(SectorAPI sector) {
+
         new rebelrats_dragonsblessing().generate(sector);
+        new rebelrats_tikus().generate(sector);
+
         FactionAPI rebelrats = sector.getFaction("rebelrats");
         SharedData.getData().getPersonBountyEventData().addParticipatingFaction("rebelrats");
         boolean haveNexerelin = Global.getSettings().getModManager().isModEnabled("nexerelin");
+
         if (!haveNexerelin){
             rebelrats.setRelationship(Factions.INDEPENDENT, 1.0f);
             rebelrats.setRelationship(Factions.PIRATES, -1.0f);

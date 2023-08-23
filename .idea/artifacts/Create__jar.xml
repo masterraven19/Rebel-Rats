@@ -25,6 +25,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_poubelleEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_combatUtils.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_addExplosionFx.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/systems/rebelrats_tikus.java" />
     </root>
   </artifact>
 </component>
