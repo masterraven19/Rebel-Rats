@@ -3,7 +3,7 @@ id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,att
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #FIGHTERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 rebelrats_sultan_Fighter_wingt,rebelrats_sultan_Fighter,"fighter2, fighter, rebelrats_arsenal_bp, leader_no_swarm",2,,8,16,V,4000,1200,600,3,FIGHTER,Fighter Bomber,18,14000,,,,,,,,,,,,,
-rebelrats_daekon_Fighter_wingt,rebelrats_daekon_Fighter,"fighter3, fighter, rebelrats_arsenal_bp, match_leader_facing, wingmen_no_swarm",2,,7,14,CLAW,4000,1300,200,3,FIGHTER,Fighter,15,11000,,,,,,,,,,,,,
+rebelrats_daekon_Fighter_wingt,rebelrats_daekon_Fighter,"fighter3, fighter, rebelrats_arsenal_bp, match_leader_facing, wingmen_no_swarm",2,,7,14,CLAW,4000,1300,300,3,FIGHTER,Fighter,15,11000,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #INTERCEPTORS,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 rebelrats_ministro_Interceptor_wingt,rebelrats_ministro_Interceptor,"interceptor3, interceptor, auto_fighter, rebelrats_arsenal_bp, attack_at_an_angle",0,,5,5,DIAMOND,4000,800,400,6,INTERCEPTOR,Drone Interceptor,7,4000,,,,,,,,,,,,,
