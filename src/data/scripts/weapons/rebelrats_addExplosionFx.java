@@ -20,7 +20,7 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
     private Vector2f currSize;
     private Vector2f loc;
     private Color color;
-    private float fadeOutTime;
+    private float fadeOutDur;
     private float spriteDur;
     private float flatIncreaseRate;
     private float angleRotation;
@@ -28,14 +28,14 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
     private float elapsed;
     //private float elapsed2;
     public void addExplosion(String spritePath, Vector2f sizeStart, Vector2f sizeEnd,
-                             Vector2f loc, Color color, float fadeOutTime, float spriteDur,
+                             Vector2f loc, Color color, float fadeOutDur, float spriteDur,
                              float flatIncreaseRate, float angeRotation, float alphaMult){
         this.sprite = Global.getSettings().getSprite(spritePath);
         this.sizeStart = sizeStart;
         this.sizeEnd = sizeEnd;
         this.loc = loc;
         this.spriteDur = spriteDur;
-        this.fadeOutTime = fadeOutTime;
+        this.fadeOutDur = fadeOutDur;
         this.flatIncreaseRate = flatIncreaseRate;
         this.alphaMult = alphaMult;
         this.angleRotation = angeRotation;
@@ -45,7 +45,7 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
         sprite.setColor(color);
         sprite.setAdditiveBlend();
 
-        fader = new FaderUtil(alphaMult,fadeOutTime);
+        fader = new FaderUtil(alphaMult,fadeOutDur);
         fader.fadeOut();
     }
 
@@ -62,7 +62,7 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
             sprite.setSize(sprite.getWidth() + flatIncreaseRate, sprite.getHeight() + flatIncreaseRate);
         }
 
-        if (elapsed > (spriteDur * 0.9) - fadeOutTime || currSize.x >= sizeEnd.x){
+        if (elapsed > (spriteDur * 0.9) - fadeOutDur || currSize.x >= sizeEnd.x){
             fader.advance(amount);
         }
     }

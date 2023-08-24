@@ -117,8 +117,34 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
         float f = weapon.getAnimation().getNumFrames() / weapon.getAnimation().getFrameRate();
         weapon.getAnimation().play();
 
-        if (elapsed > f) {
+        //for tomorrow, make separate class for smoke particles
+        //also limit this to only spawn every 0.1 sec or so to avoid lag
+        //compress rattenjager and hawker cone calculation
+        //add explosion effect to pyroclast
+        if (weapon.getAnimation().getFrame() >= 13 && weapon.getAnimation().getFrame() < 37){
+            //right vent
+            float angle = rebelrats_combatUtils.calcConeAngle(40,0);
+            Vector2f vel = rebelrats_combatUtils.calcVelDir((weapon.getCurrAngle() - 135) + angle, 400);
+            Vector2f loc = rebelrats_combatUtils.calcLocWAngle(weapon.getCurrAngle() - 135, 16, weapon.getLocation());
 
+            rebelrats_addParticle p = new rebelrats_addParticle();
+            p.addParticle(null,"misc", "nebula_particles",20,20,loc,vel,angle,1,false,0,0.2F,0.5F,true,Color.WHITE);
+            CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
+            e.getLocation().set(weapon.getLocation());
+
+            //left
+            float angle2 = rebelrats_combatUtils.calcConeAngle(40,0);
+            Vector2f vel2 = rebelrats_combatUtils.calcVelDir((weapon.getCurrAngle() + 135) + angle2, 400);
+            Vector2f loc2 = rebelrats_combatUtils.calcLocWAngle(weapon.getCurrAngle() + 135, 16, weapon.getLocation());
+
+            rebelrats_addParticle p2 = new rebelrats_addParticle();
+            p2.addParticle(null,"misc", "nebula_particles",20,20,loc2,vel2,angle2,1,false,0,0.2F,0.5F,true,Color.WHITE);
+            CombatEntityAPI e2 = engine.addLayeredRenderingPlugin(p2);
+            e2.getLocation().set(weapon.getLocation());
+        }
+
+
+        if (elapsed > f) {
                 fired = !fired;
                 elapsed -= f;
         }

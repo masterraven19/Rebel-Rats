@@ -9,7 +9,7 @@ import java.awt.*;
 
 public class rebelrats_falconOnHitEffect implements OnHitEffectPlugin{
     public DamagingExplosionSpec createExplosionSpec() {
-        float damage = 300f;
+        float damage = 400f;
         DamagingExplosionSpec spec = new DamagingExplosionSpec(
                 0.1f, // duration
                 60f, // radius
