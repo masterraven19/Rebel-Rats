@@ -58,7 +58,7 @@ rebelrats_proctor,SHIP,"More of an engine than a fighter, the Proctor was create
 rebelrats_hippo,SHIP,"The Hippo is the standard-issue skiff of Krysan Federal Navy warships. They allow Krysan Ships to insert a platoon of marines into a planetary battlespace or initiate boarding action agaisnt enemy ships and stations with breaching charges. Outside of dropship duties, the skiffs can act as impromptu PD boats to screen its mothership with its Guardsman turrets.",,,,
 rebelrats_overseer,SHIP,"A light interceptor of the Krysan Federal Navy, the Overseer is a hardy fighter created by Arms & Armor. The craft comes equipped with a Hwacha missile rack and a pair of Ranger autocannons, making a wing of Overseers a threat to enemy shields.",,,,
 rebelrats_ministro,SHIP,"The Ministro is a lightweight, unmanned interceptor drone designed by Rebel Rat Industries as a proposal to Krysan Navy officials to reduce pilot losses. It quickly found success with increasingly advanced drone control systems that allowed finer control with unmanned drones.",,,,
-rebelrats_patron_f,SHIP,An array of microforges have been set up on this carrier to maintain a wing of Patron Corvettes. ,,,,
+rebelrats_patron_f,SHIP,"Cleverly set up microforges have allowed Federal ships to stuff an entire corvette into a hangar bay. Unfortunately, this means that only one Patron can be deployed per hangar bay with reduced capabilities.",,,,
 rebelrats_daekon,SHIP,A fast assault fighter built to break the shields of the enemy spacecraft and shred their armor with assault chainguns.,,,,
 ,,,,,,
 #BOMBERS,,,,,,
