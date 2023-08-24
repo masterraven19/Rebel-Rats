@@ -4,8 +4,8 @@
 	"missileType":"MISSILE",
 	#"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
 	"sprite":"graphics/missiles/pyroclast_torpedo.png",
-	"size":[14,34],	
-	"center":[7,17],
+	"size":[6,24],	
+	"center":[3,12],
 	"collisionRadius":15,
 	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[255,39,1,255],  # purely visual, will get a white additively blended core on top of this color

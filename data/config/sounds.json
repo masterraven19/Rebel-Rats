@@ -52,7 +52,7 @@
         {"file":"sounds/petardcanister_firing.ogg","pitch":1.00,"volume":1},
     ],
     "poacher_firing": [
-        {"file":"sounds/poacher_firing.ogg","pitch":1.00,"volume":0.4},
+        {"file":"sounds/poacher_firing.ogg","pitch":1.00,"volume":0.2},
     ],
     "rebelrats_engine_loop":{
         "sounds":[

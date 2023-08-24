@@ -4,12 +4,12 @@
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/monax_pirate_destroyer.png",
   "style": "REBELRATS",
-  "height": 255,
+  "height": 260,
   "width": 114,
   "center": [70, 126],
   "collisionRadius": 160,
   "shieldCenter": [0, -0],
-  "shieldRadius": 139.5,
+  "shieldRadius": 141,
   "viewOffset": 0,
   "builtInMods": [
     "missleracks",
@@ -21,18 +21,18 @@
       "size": "MEDIUM",
       "type": "COMPOSITE",
       "mount": "TURRET",
-      "arc": 180,
+      "arc": 110,
       "angle": 41,
-      "locations": [116, 31]
+      "locations": [123, 14]
     },
     {
       "id": "WS0002",
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HARDPOINT",
-      "arc": 20,
+      "arc": 0,
       "angle": 0,
-      "locations": [109, -29]
+      "locations": [108, -29]
     },
     {
       "id": "WS0003",
@@ -143,17 +143,17 @@
     }
   ],
   "bounds": [
-    115, 0.5,
-    97, 37,
-    16.5, 36,
-    7, 52.5,
-    -16.5, 53.5,
-    -82.5, 38.5,
-    -123.5, 25,
-    -123.5, -26.5,
-    -84.5, -38.5,
-    -26.5, -44.5,
-    91.5, -44.5,
-    109, -35
+    134, 14,
+    96.5, 37.5,
+    5, 55,
+    -17.5, 55.5,
+    -29, 43,
+    -88, 33.5,
+    -125.5, 23,
+    -125.5, -22,
+    -54, -43.5,
+    89.5, -43,
+    108.5, -33.5,
+    115, -2.5
   ]
 }

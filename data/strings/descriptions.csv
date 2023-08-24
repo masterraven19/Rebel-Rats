@@ -168,7 +168,7 @@ Open up your gifts while we all cheer",,,,
 #PLANETS,,,,,,
 rebelrats_rattus_planet,CUSTOM,"The planet serves as the ultimate symbol of the people’s conviction to nation’s founding tenets, manifesting itself in the ability of the people to heal the planet's grievous wounds from interplanetary conflicts that brought the nation to its knees.
 
-Today, Krysa presents itself to the sector as one of the cleanest and most prosperous places to visit, bearing natural features similar to that of Old Earth despite the planet nearly turning into an arid hellscape more than half a century earlier. Upon closer inspection, scars of past conflicts can be seen with huge craters formed from explosions having been filled over long ago by Mother Nature.",,,,
+Today, Krysa presents itself to the sector as one of the most prosperous places to visit, bearing natural features similar to that of Old Earth despite the planet nearly turning into an arid hellscape more than half a century earlier. Upon closer inspection, scars of past conflicts can be seen with huge craters formed from explosions having been filled over long ago by Mother Nature.",,,,
 rebelrats_malus_planet,CUSTOM,"Lawless is what can describe Malus. Despite its arid wastelands, small settlements pockmark around the planet's remaining major water sources, ranging from hastily made shanty towns, to relatively well-built hab towns that host their own spaceports. Whatever authority available is largely self-imposed through the use of force with shady backroom deals and smuggling by undesirables as the norm in the major settlements.
 
 It was only recent when it became a hub of pirate activity. Its history goes far back into the days of the Empire when rebels used Malus as a smuggling port which eventually developed into hubs for undesirables to flock towards which inevitably grew to become its own independent entity.
@@ -183,9 +183,11 @@ Nowadays, Rodentia is home to the largest orbital fuel refineries of the system,
 rebelrats_nutria_planet,CUSTOM,"Amusingly referred to as the system's supermarket, Nutria is home to the largest settlement of independent traders second only to the Asteroid Central Station. Due to its proximity to the warp gates, Nutria is the first point of contact for many Persean captains looking to visit the system for the first time.
 
 ",,,,
-rebelrats_tikus_gasGiant,CUSTOM,what.. this isnt fart?,,,,
-rebelrats_tikusII_planet,CUSTOM,Are those the Laconians?,,,,
-rebelrats_tikusIII_planet,CUSTOM,WHO FROZE THE RATS,,,,
+rebelrats_tikus_gasGiant,CUSTOM,"Like Rodentia, Tikus I has refineries dotting across the planet, routinely sending out teams to mine the giant of its precious gas. It is considered the beating heart of the system's inhabitants, providing the necessary fuel for return trips. The size of the gas giant means that industry is expected to bolster the nation's fleets and economy for many generations.",,,,
+rebelrats_tikusII_planet,CUSTOM,"With relatively mild climates, rich ore and crop compatible soils, Tikus II was the primary target for Krysan colonisation efforts. While described as a jungle planet, it is far from being a single biome. Tikus II has a complex system of biomes with the equatorial regions hosting the densest concentrations of flora and fauna. Its thicker atmosphere allows its highest peaks to be just barely breathable for individuals.",,,,
+rebelrats_tikusIII_planet,CUSTOM,"Tikus III, despite its almost destitute geography, is host to numerous independent settlements that popped up during Krysan colonisation efforts. The settlements on the planet huddle around the systems of natural caves and tunnels that hosts the few places that settlers can actively grow food such as mushrooms and low-light crops.
+
+Outside of what little crops can be exported, settlers also take to mining the pockets of gas and send it out to be refined on Tikus I as a external source of credits for the planet's economy.",,,,
 ,,,,,,
 #STATIONS,,,,,,
 rebelrats_powerstation,CUSTOM,A collector station designed by The Three Brothers Corporation to consume the power of the sun and beam it back to Krysan orbital power stations.,,,,
