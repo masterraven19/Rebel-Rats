@@ -54,13 +54,7 @@ public class rebelrats_missileScript extends BaseEveryFrameCombatPlugin {
                     if (d < proxyrange) {
                         for (int i = 0; i < numshrapnel; i++) {
                             CombatEntityAPI p = engine.spawnProjectile(missile.getSource(), null, "rebelrats_rattenjager_munition", missile.getLocation(), missile.getFacing(), missile.getSource().getVelocity());
-                            float angle = cone * (float) Math.random();
-                            if (angle > cone / 2) {
-                                angle = (float) Math.random() * cone / 2;
-                            } else {
-                                angle = (float) Math.random() * -cone / 2;
-                            }
-                            angle = missile.getFacing() - angle;
+                            float angle = rebelrats_combatUtils.calcConeAngle(cone,missile.getFacing());
                             p.setFacing(angle);
                         }
                         engine.addSmokeParticle(missile.getLocation(), new Vector2f(0, 0), 50F, 1F, 1F, Color.WHITE);

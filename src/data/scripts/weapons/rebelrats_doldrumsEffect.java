@@ -78,12 +78,10 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
             if (Math.random() < shieldpiercechance){
                 Vector2f projloc = new Vector2f(projectile.getLocation());
                 float shipLength = target.getCollisionRadius() * 1.2F;
-                float angle = projectile.getFacing() * (float) Math.PI / 180;
-                float dx = (float) Math.cos(angle);
-                float dy = (float) Math.sin(angle);
 
                 for (int i = 0; i < numexplosions; i++) {
-                    Vector2f exploloc = new Vector2f((shipLength*i/numexplosions) * dx + projloc.x, (shipLength*i/numexplosions) * dy + projloc.y);
+                    Vector2f exploloc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(),shipLength * i/numexplosions, projloc);
+                    //Vector2f exploloc = new Vector2f((shipLength*i/numexplosions) * dx + projloc.x, (shipLength*i/numexplosions) * dy + projloc.y);
                     DamagingProjectileAPI e = engine.spawnDamagingExplosion(createExplosionSpec(),projectile.getSource(),exploloc);
                     engine.spawnExplosion(exploloc, new Vector2f(30,30),Color.getHSBColor(207,71,35),30F,1F);
                 }
@@ -92,12 +90,10 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
         if (!shieldHit){
             Vector2f projloc = new Vector2f(projectile.getLocation());
             float shipLength = target.getCollisionRadius() * 1.2F;
-            float angle = projectile.getFacing() * (float) Math.PI / 180;
-            float dx = (float) Math.cos(angle);
-            float dy = (float) Math.sin(angle);
 
             for (int i = 0; i < numexplosions; i++) {
-                Vector2f exploloc = new Vector2f((shipLength*i/numexplosions) * dx + projloc.x, (shipLength*i/numexplosions) * dy + projloc.y);
+                Vector2f exploloc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(),shipLength * i/numexplosions, projloc);
+                //Vector2f exploloc = new Vector2f((shipLength*i/numexplosions) * dx + projloc.x, (shipLength*i/numexplosions) * dy + projloc.y);
                 DamagingProjectileAPI e = engine.spawnDamagingExplosion(createExplosionSpec(),projectile.getSource(),exploloc);
                 engine.spawnExplosion(exploloc, new Vector2f(30,30),Color.getHSBColor(207,71,35),30F,1F);
             }
@@ -118,9 +114,7 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
         weapon.getAnimation().play();
 
         //for tomorrow, make separate class for smoke particles
-        //also limit this to only spawn every 0.1 sec or so to avoid lag
-        //compress rattenjager and hawker cone calculation
-        //add explosion effect to pyroclast
+        //--also limit this to only spawn every 0.1 sec or so to avoid lag--
         if (weapon.getAnimation().getFrame() >= 13 && weapon.getAnimation().getFrame() < 37){
             //right vent
             float angle = rebelrats_combatUtils.calcConeAngle(40,0);

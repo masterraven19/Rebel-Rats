@@ -21,8 +21,8 @@ public class rebelrats_pyroclastOnHitEffect implements OnHitEffectPlugin {
                 5f, // particleSizeMin
                 5f, // particleSizeRange
                 0.7f, // particleDuration
-                150, // particleCount
-                new Color(0,212,255,255), // particleColor
+                0, // particleCount //150, turned off because replaced by custom FX
+                new Color(198,71,49,255), // particleColor
                 new Color(0,212,255,0)  // explosionColor
         );
 
@@ -35,5 +35,15 @@ public class rebelrats_pyroclastOnHitEffect implements OnHitEffectPlugin {
                       Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
         damageResult.setTotalDamageToArmor(300F);
         DamagingProjectileAPI e = engine.spawnDamagingExplosion(createExplosionSpec(), projectile.getSource(), point);
+
+        rebelrats_addExplosionFx p = new rebelrats_addExplosionFx();
+        p.addExplosion("graphics/fx/explosion0.png",new Vector2f(30,30), new Vector2f(120,120),point,new Color(198,71,49),0.7F,1,5,0,1);
+        CombatEntityAPI explosion = engine.addLayeredRenderingPlugin(p);
+        explosion.getLocation().set(point);
+
+        rebelrats_addExplosionFx p2 = new rebelrats_addExplosionFx();
+        p2.addExplosion("graphics/fx/explosion_ring0.png",new Vector2f(30,30), new Vector2f(200,200),point,new Color(217,115,97),3F,4,0.7F,0,0.8F);
+        CombatEntityAPI explosion2 = engine.addLayeredRenderingPlugin(p2);
+        explosion2.getLocation().set(point);
     }
 }

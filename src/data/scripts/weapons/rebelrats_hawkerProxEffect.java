@@ -13,10 +13,7 @@ public class rebelrats_hawkerProxEffect implements ProximityExplosionEffect {
         CombatEngineAPI engine = Global.getCombatEngine();
         for (int i = 0; i < numshrapnel; i++){
             CombatEntityAPI p = engine.spawnProjectile(originalProjectile.getSource(), null, "rebelrats_hawker_munition", originalProjectile.getLocation(), originalProjectile.getFacing(), originalProjectile.getSource().getVelocity());
-            float angle = cone * (float)Math.random();
-            if (angle > cone/2){angle = (float)Math.random() * cone/2;}
-            else{angle = (float)Math.random() * -cone/2;}
-            angle = originalProjectile.getFacing() - angle;
+            float angle = rebelrats_combatUtils.calcConeAngle(cone, originalProjectile.getFacing());
             p.setFacing(angle);
         }
     }
