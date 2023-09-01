@@ -1,7 +1,7 @@
 package data.scripts.weapons;
 
 import com.fs.starfarer.api.combat.*;
-import data.scripts.weapons.rebelrats_missileScript;
+import data.scripts.combat.rebelrats_missileScript;
 import org.magiclib.ai.MagicMissileAI;
 
 public class rebelrats_missileTrackEffect implements OnFireEffectPlugin {

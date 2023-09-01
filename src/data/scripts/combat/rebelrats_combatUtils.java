@@ -1,4 +1,4 @@
-package data.scripts.weapons;
+package data.scripts.combat;
 
 import org.lwjgl.util.vector.Vector2f;
 

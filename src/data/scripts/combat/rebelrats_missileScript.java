@@ -1,4 +1,4 @@
-package data.scripts.weapons;
+package data.scripts.combat;
 
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.input.InputEventAPI;

@@ -9,7 +9,7 @@
 	"collisionRadius":15,
 	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[255,39,1,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":250, # purely visual
+	"explosionRadius":50, # purely visual
 	"explosionSpec":{"duration":0.1f, # not visual
 					 "radius":150,
 					 "coreRadius":50, # full damage within core radius

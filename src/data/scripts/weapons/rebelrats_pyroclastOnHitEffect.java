@@ -3,6 +3,7 @@ package data.scripts.weapons;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
+import data.scripts.combat.rebelrats_addExplosionFx;
 import org.lwjgl.util.vector.Vector2f;
 
 import java.awt.*;
@@ -33,16 +34,16 @@ public class rebelrats_pyroclastOnHitEffect implements OnHitEffectPlugin {
     }
     public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target,
                       Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
-        damageResult.setTotalDamageToArmor(300F);
         DamagingProjectileAPI e = engine.spawnDamagingExplosion(createExplosionSpec(), projectile.getSource(), point);
 
+        float angle = (float) Math.random() * 180;
         rebelrats_addExplosionFx p = new rebelrats_addExplosionFx();
-        p.addExplosion("graphics/fx/explosion0.png",new Vector2f(30,30), new Vector2f(120,120),point,new Color(198,71,49),0.7F,1,5,0,1);
+        p.addExplosion("graphics/fx/explosion0.png",null,new Vector2f(50,50), new Vector2f(200,200),point,new Color(198,71,49),0.5F,4,2,0,angle,1,false);
         CombatEntityAPI explosion = engine.addLayeredRenderingPlugin(p);
         explosion.getLocation().set(point);
 
         rebelrats_addExplosionFx p2 = new rebelrats_addExplosionFx();
-        p2.addExplosion("graphics/fx/explosion_ring0.png",new Vector2f(30,30), new Vector2f(200,200),point,new Color(217,115,97),3F,4,0.7F,0,0.8F);
+        p2.addExplosion("graphics/fx/explosion_ring0.png",null,new Vector2f(100,100), new Vector2f(250,250),point,new Color(217,115,97),3F,4,0.8F,0,angle,0.8F,false);
         CombatEntityAPI explosion2 = engine.addLayeredRenderingPlugin(p2);
         explosion2.getLocation().set(point);
     }

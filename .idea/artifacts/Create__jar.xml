@@ -20,12 +20,13 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/rebelrats_Powerstation.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/ids/rebelrats_Conditions.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_missileTrackEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_missileScript.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_addParticle.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_missileScript.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_addParticle.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_poubelleEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_combatUtils.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_addExplosionFx.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_combatUtils.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_addExplosionFx.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/systems/rebelrats_tikus.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_huntsmanOnHitEffect.java" />
     </root>
   </artifact>
 </component>

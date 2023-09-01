@@ -1,4 +1,4 @@
-package data.scripts.weapons;
+package data.scripts.combat;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseCombatLayeredRenderingPlugin;
@@ -7,6 +7,7 @@ import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.ViewportAPI;
 import com.fs.starfarer.api.graphics.SpriteAPI;
 import com.fs.starfarer.api.util.FaderUtil;
+import com.fs.starfarer.api.util.Misc;
 import org.lwjgl.util.vector.Vector2f;
 
 import java.awt.*;
@@ -27,10 +28,15 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
     private float alphaMult;
     private float elapsed;
     //private float elapsed2;
-    public void addExplosion(String spritePath, Vector2f sizeStart, Vector2f sizeEnd,
+    public void addExplosion(String spriteNameOrCategory, String spriteKey, Vector2f sizeStart, Vector2f sizeEnd,
                              Vector2f loc, Color color, float fadeOutDur, float spriteDur,
-                             float flatIncreaseRate, float angeRotation, float alphaMult){
-        this.sprite = Global.getSettings().getSprite(spritePath);
+                             float flatIncreaseRate, float angeRotation,float angle, float alphaMult, boolean multipleSprites){
+
+        if (spriteNameOrCategory != null && spriteKey != null){
+            this.sprite = Global.getSettings().getSprite(spriteNameOrCategory,spriteKey,true);
+        }else{
+            this.sprite = Global.getSettings().getSprite(spriteNameOrCategory);
+        }
         this.sizeStart = sizeStart;
         this.sizeEnd = sizeEnd;
         this.loc = loc;
@@ -40,8 +46,18 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
         this.alphaMult = alphaMult;
         this.angleRotation = angeRotation;
         this.color = color;
+
+        if (multipleSprites){
+            float i = Misc.random.nextInt(4);
+            float j = Misc.random.nextInt(4);
+            sprite.setTexWidth(0.25f);
+            sprite.setTexHeight(0.25f);
+            sprite.setTexX(i * 0.25f);
+            sprite.setTexY(j * 0.25f);
+        }
         sprite.setSize(sizeStart.x,sizeStart.y);
         sprite.setAlphaMult(1);
+        sprite.setAngle(angle);
         sprite.setColor(color);
         sprite.setAdditiveBlend();
 
@@ -78,7 +94,7 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
     }
 
     public boolean isExpired() {
-        if (elapsed > spriteDur){
+        if (elapsed > spriteDur || sprite.getAlphaMult() == 0){
             return true;
         }
         return false;

@@ -5,6 +5,7 @@ import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.DamagingProjectileAPI;
 import com.fs.starfarer.api.combat.ProximityExplosionEffect;
+import data.scripts.combat.rebelrats_combatUtils;
 
 public class rebelrats_hawkerProxEffect implements ProximityExplosionEffect {
     protected float numshrapnel = 20;

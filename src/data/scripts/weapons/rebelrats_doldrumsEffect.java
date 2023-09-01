@@ -14,6 +14,8 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
+import data.scripts.combat.rebelrats_addParticle;
+import data.scripts.combat.rebelrats_combatUtils;
 import org.lwjgl.util.vector.Vector2f;
 
 public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWeaponEffectPlugin,OnFireEffectPlugin{
