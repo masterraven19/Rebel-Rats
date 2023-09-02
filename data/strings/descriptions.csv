@@ -160,6 +160,9 @@ With its diminutive size as a frigate-classed freighter, the Panya's interiors c
 
 The ship is equipped with a Lynx-pattern flux reactor to power its systems and a single M303 Fusion Torch tuned down for efficiency.",,,,
 ,,,,,,
+#SHIP SYSTEMS,,,,,,
+rebelrats_jerboaSystem,SHIP_SYSTEM,Points all of its EW equipment to the enemy ship.,Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
+,,,,,,
 rebelrats,FACTION,"Rats, rats, we are the rats
 Celebrating yet another birthday bash
 Michael, its your birthday today
