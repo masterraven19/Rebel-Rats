@@ -113,7 +113,7 @@ public class rebelrats_tikus {
 
         //markets
         //tikus 1 (not green this time)
-        MarketAPI tikus_market = Global.getFactory().createMarket("tikus_market","",4);
+        MarketAPI tikus_market = Global.getFactory().createMarket("tikus_market","",3);
         tikus.setMarket(tikus_market);
         tikus_market.setPrimaryEntity(tikus);
 
@@ -122,7 +122,7 @@ public class rebelrats_tikus {
         tikus_market.getTariff().modifyFlat("generator", 0.3f);
         tikus.setInteractionImage("illustrations", "orbital");
 
-        tikus_market.addCondition(Conditions.POPULATION_4);
+        tikus_market.addCondition(Conditions.POPULATION_3);
         tikus_market.addCondition(Conditions.VOLATILES_PLENTIFUL);
         tikus_market.addCondition(Conditions.EXTREME_WEATHER);
 
