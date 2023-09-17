@@ -25,7 +25,7 @@ public class rebelrats_JerboaSystemStats extends BaseShipSystemScript {
 
         if (target != null) {
             if (state == State.IN){
-                target.getMutableStats().getWeaponTurnRateBonus().modifyFlat(id,weaponTurnRateDebuff);
+                target.getMutableStats().getWeaponTurnRateBonus().modifyMult(id,-1);
                 target.getMutableStats().getAcceleration().modifyPercent(id,-200 * effectLevel);
                 target.getMutableStats().getDeceleration().modifyPercent(id,-200 * effectLevel);
                 target.getMutableStats().getTurnAcceleration().modifyPercent(id,-200 * effectLevel);
@@ -36,7 +36,7 @@ public class rebelrats_JerboaSystemStats extends BaseShipSystemScript {
                     target.getFluxTracker().showOverloadFloatyIfNeeded("EWS Blasted!",new Color(255,55,55),4f,true);
                     hasActivated = !hasActivated;
                 }
-            }else
+            }
                 if(state == State.ACTIVE){
                     for (ShipEngineControllerAPI.ShipEngineAPI e : target.getEngineController().getShipEngines()){
                         target.getEngineController().setFlameLevel(e.getEngineSlot(),-0f);
@@ -51,6 +51,14 @@ public class rebelrats_JerboaSystemStats extends BaseShipSystemScript {
                 target.getMutableStats().getMaxSpeed().unmodify(id);
 
                 hasActivated = !hasActivated;
+            }
+            if (state == State.IDLE){
+                target.getMutableStats().getWeaponTurnRateBonus().unmodify(id);
+                target.getMutableStats().getAcceleration().unmodify(id);
+                target.getMutableStats().getDeceleration().unmodify(id);
+                target.getMutableStats().getTurnAcceleration().unmodify(id);
+                target.getMutableStats().getMaxTurnRate().unmodify(id);
+                target.getMutableStats().getMaxSpeed().unmodify(id);
             }
         }
     }
