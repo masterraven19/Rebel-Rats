@@ -56,13 +56,13 @@
     ],
     "rebelrats_engine_loop":{
         "sounds":[
-            {"file":"sounds/ratengineburn.ogg","pitch":1.2,"volume":0.2}, #index 0
+            {"file":"sounds/ratengineburn2.ogg","pitch":1.2,"volume":0.2}, #index 0
             ],
         "Rats":{"sounds":[0], "pitch":1, "volume":1}
     },
     "rebelrats_engine_accelerate":{ # played when ship receives an "engine boost" from having zero flux
     "sounds":[
-        {"file":"sounds/ratengineboost.ogg","pitch":1.2,"volume":0.1},
+        {"file":"sounds/ratengineboost.ogg","pitch":1.2,"volume":0.4},
     ],
     },
 }
