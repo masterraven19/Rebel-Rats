@@ -62,7 +62,7 @@ rebelrats_patron_f,SHIP,"Cleverly set up microforges have allowed Federal ships 
 rebelrats_daekon,SHIP,A fast assault fighter built to break the shields of the enemy spacecraft and shred their armor with assault chainguns.,,,,
 ,,,,,,
 #BOMBERS,,,,,,
-rebelrats_olympian,SHIP,"Despite its shambolic origins of being made from the remains of Piranha bombers, the Olympian is a capable bomber that dutifully does its job with more than enough armor and PD coverage to last it through its bombing run. A recurring joke among Olympian pilots is that the onboard warhead contains a Red Bombardier Rat as its payload.",,,,
+rebelrats_olympian,SHIP,"Despite its shambolic origins of being made from the remains of Piranha bombers, the Olympian is a capable bomber that dutifully does its job with more than enough armor and PD coverage to last it through its bombing run. A recurring joke among Olympian pilots is that the onboard warhead contains a Red Bombardier Rat as its payload.",,,,"""What kind of barbarians would ever use an animal as its guidance system? That's preposterous!"""
 rebelrats_bluster,SHIP,The Bluster has its origins from juryrigged shuttlecraft in mining fleets around Asteroid Central Station who looked for a temporary solution to the growing pirate problem. A salvaged guardsman turret sits on top of the Bluster's engine block to serve as all around protection against enemy fightercraft.,,,,
 ,,,,,,
 #COMBAT SHIPS ,,,,,,
@@ -113,29 +113,29 @@ While at a glance, two Monax(P)s are seemingly alike, the lack of standardizatio
 
 Despite extensive upgrades to the hull, an inexperienced captain can be easily caught off guard in battle if they get too greedy in their Monax(P). Any pirate captain, experienced enough, knows that the ship is never able to fight peer to peer enemy ships; with its lackluster flux reactor core and jury-rigged shield module, a Monax(P) can easily falter to enemy fire.
 ",,,,
-rebelrats_rattus,SHIP,"The Rattus is an ancient design that predates the Krysan Federal Navy. The design was extensively updated by the Rebel Rats Head of Design, Violet Witherfield, giving it new Arratoi railguns to crack enemy shields, a new AM-catalysed flux reactor to power the ship’s new shield system, and an onboard micro-forge to reload its torpedo launcher.
+rebelrats_rattus,SHIP,"The Rattus is an ancient design that predates the Krysan Federal Navy. The design was extensively overhauled by the Rebel Rats Head of Design, Violet Witherfield, with little of the core design left untouched. With new railguns and an onboard missile microforge, the Rattus can easily hold its own in modern combat.
 
-Dubbed as “The Blue Angel”, the Rattus was instrumental during Penance Day when disillusioned captains led a massive rebellion against the Krysan Empire, leading to a brutal 8-year long civil war that would culminate in the dissolution of the Empire and the formation of the Federal Monarchy of Krysa. During the rebellion, Rattus destroyers were used in guerrilla tactics and rapid insertion of rebel forces into orbital stations to seize decommissioned empire ships.
+Dubbed as “The Blue Angel”, the Rattus was instrumental during Penance Day when disillusioned captains led a massive rebellion against the Krysan Empire, leading to a brutal 8-cycle long civil war that would culminate in the dissolution of the Empire and the formation of the Federal Monarchy of Krysa. During the rebellion, Rattus destroyers were used in guerrilla tactics and rapid insertion of rebel forces into orbital stations to seize decommissioned empire ships.
 
 Following the principles of thrust-gravity oriented design, the Rattus has a narrow hull with a vertical layout, leading to a smaller front cross section that allows Rattus captains to minimize the chances of the enemy landing a hit, though to the disdain of crewmembers needing to navigate up and down the ship’s tight vertical spaces with steep ladders.
 ",,,,
-rebelrats_helmsman,SHIP,"Despite its makeshift appearance, the Helmsman’s barebones design gives it outstanding agility with its outrigged RCS thrusters. Its onboard shield generator was ripped off of a salvaged Monax cargo ship and tuned to the size of the Helmsman. Despite this, the ship is surprisingly adequately armed for its size, but can’t handle similarly sized ships that have proper flux cores.
+rebelrats_helmsman,SHIP,"Despite its makeshift appearance, the Helmsman’s barebones design gives it outstanding agility with its outrigged RCS thrusters. Its onboard shield generator was ripped off of a salvaged Monax cargo ship and tuned to the size of the Helmsman. Despite this, the ship is adequately armed for its size but can’t handle similarly sized ships that have proper flux cores installed.
 
-With captains that can only be described as desperate daredevils with no regard for their own indemnity, the Helmsman is manually constructed in the hands of any person desperate enough with the wanderlust for star travel or piracy. Its interior spaces are cramped and reminiscent of ancient planetary submersibles with parts of the crew sleeping in cramped bunks with very little headroom or privacy. 
+With captains that can only be described as desperate daredevils with no regard for their own indemnity, the Helmsman can be manually constructed in the hands of any person desperate enough with the wanderlust for star travel or piracy. Its interior spaces are cramped and reminiscent of ancient planetary submersibles with parts of the crew sleeping in cramped bunks with very little headroom or privacy. 
 
-Its fusion torch engine is usually homebrewed from a Frankenstein of parts while its flux reactor is usually a Bobcat-Pattern Flux Reactor taken from a salvaged Monax.
+Its fusion torch engine is homebrewed from a frankenstein of parts while its flux reactor is usually a Bobcat-Pattern Flux Reactor taken from a salvaged Monax.
 ",,,,
-rebelrats_mus,SHIP,"Bearing unparalleled speed and brash firepower, the Mus is a menace on the battlefield when left unattended. The ship’s built-in plasma launchers and torpedo tubes allow it to spar with larger ships while its new S601 Fusion Torch gives it the speed to easily keep up with enemy frigates. However, this emphasis on movement meant that armor had to be sacrificed, leaivng the Mus with very thin armor.
+rebelrats_mus,SHIP,"Bearing unparalleled speed and brash firepower, the Mus is a menace on the battlefield when left unattended. The ship’s built-in plasma launchers and torpedo tubes allow it to spar with larger ships while its new S601 Fusion Torch gives it the speed to easily keep up with enemy frigates. However, this emphasis on movement meant that armor had to be sacrificed, leaivng the Mus with paper thin armor.
 
 Rebel Rat Industries created the Mus to serve alongside the Rattus as its escort. As the newest addition to the Krysan Federal Navy, the Mus enjoys better shield generators that are more efficient at taking shots and provides wider coverage than older shield models.
 
 Despite being a recent addition, the Mus quickly became a common sight along Krysan trade routes as a pursuit ship against any roving pirate ship.
 ",,,,
-rebelrats_patron,SHIP,"A corvette built to provide laser PD coverage for ships, the Patron can use its bow mounted Felis LAWS to quickly sweep through fighter formations. However, ironically, due to its diminutive size, the Patron is vulnerable to being overwhelmed by fighters if it operates alone due to the Felis LAWS’ limited firing arc.
+rebelrats_patron,SHIP,"A corvette built to provide laser PD coverage for ships, the Patron uses its bow mounted Felis LAWS to quickly sweep through fighter formations. However, ironically, due to its diminutive size, the Patron is vulnerable to being overwhelmed by fighters if it operates alone due to the Felis LAWS’ limited firing arc.
 
-Created by Arms & Armor, there was no expenses spared in the creation of the Patron. The interior has been carefully modelled to house the 4-man cockpit as comfortably as possible. The designers had even included a dedicated galley for the crew, which, as small as it is, goes a long way during long voyages for crew comfort. Unfortunately, this meant that the vessel has little in the way of protection, being comparable to that on armoured fighter craft.
+Created by Arms & Armor, there was no expenses spared in the creation of the Patron. The interior has been carefully modelled to house the 4-man cockpit crew as comfortably as possible. The designers included a dedicated galley for the crew, which, as small as it is, goes a long way during long voyages for crew comfort. Unfortunately, its small size meant that the vessel has little in the way of protection, being comparable to armoured fighter craft.
 
-The corvette is one of the few deep space ships that still maintains older-type fusion engines, that being two XS801 Pion Pulse Fusion Engines. The ship’s energy is maintained by a side mounted Minuitoid flux reactor, a fairly recent development in the miniaturization of Flux Reactor technology.
+The corvette is one of the few deep space capable ships that still maintains older-type fusion engines, that being two XS801 Pion Pulse Fusion Engines. The ship’s energy is maintained by a side mounted Minuitoid-Pattern flux reactor, a fairly recent development in the miniaturization of Flux Reactor technology.
 ",,,,
 ,,,,,,
 #LOGISTICS SHIPS,,,,,,
@@ -161,7 +161,7 @@ With its diminutive size as a frigate-classed freighter, the Panya's interiors c
 The ship is equipped with a Lynx-pattern flux reactor to power its systems and a single M303 Fusion Torch tuned down for efficiency.",,,,
 ,,,,,,
 #SHIP SYSTEMS,,,,,,
-rebelrats_jerboaSystem,SHIP_SYSTEM,Points all of its EW equipment to the enemy ship.,Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
+rebelrats_jerboaSystem,SHIP_SYSTEM,Overwhelms the target with onboard EW systems to disrupt its systems. ,Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
 ,,,,,,
 rebelrats,FACTION,"Rats, rats, we are the rats
 Celebrating yet another birthday bash
@@ -171,24 +171,23 @@ And Michael's been such a good boy this year
 Open up your gifts while we all cheer",,,,
 ,,,,,,
 #PLANETS,,,,,,
-rebelrats_rattus_planet,CUSTOM,"The planet serves as the ultimate symbol of the people’s conviction to nation’s founding tenets, manifesting itself in the ability of the people to heal the planet's grievous wounds from interplanetary conflicts that brought the nation to its knees.
+rebelrats_rattus_planet,CUSTOM,"The planet serves as the ultimate symbol of the people’s conviction to nation’s founding tenets, manifesting itself in the ability of the people to mend the planet's grievous wounds from previous interplanetary conflicts that brought the nation to its knees.
 
-Today, Krysa presents itself to the sector as one of the most prosperous places to visit, bearing natural features similar to that of Old Earth despite the planet nearly turning into an arid hellscape more than half a century earlier. Upon closer inspection, scars of past conflicts can be seen with huge craters formed from explosions having been filled over long ago by Mother Nature.",,,,
+Today, Krysa presents itself to the sector as one of the most prosperous places to visit, bearing natural features similar to that of Old Earth despite the planet nearly turning into an arid hellscape more than half a century earlier. Upon closer inspection, scars of past conflicts can be seen with huge craters filled over long ago by Mother Nature.",,,,
 rebelrats_malus_planet,CUSTOM,"Lawless is what can describe Malus. Despite its arid wastelands, small settlements pockmark around the planet's remaining major water sources, ranging from hastily made shanty towns, to relatively well-built hab towns that host their own spaceports. Whatever authority available is largely self-imposed through the use of force with shady backroom deals and smuggling by undesirables as the norm in the major settlements.
 
 It was only recent when it became a hub of pirate activity. Its history goes far back into the days of the Empire when rebels used Malus as a smuggling port which eventually developed into hubs for undesirables to flock towards which inevitably grew to become its own independent entity.
 ",,,,
 rebelrats_magawa_moon,CUSTOM,"Gigantic orbital berths can be seen dutifully servicing civilian freighters who have come to load their holds full of newly mined ores towards the outer belt. Magawan defence stations in the horizon orbit ponderously as a grim reminder of the planet’s recent grim history.
 
-Despite its unforgiving looks due to previous decades of conflict, Magawa hosts one of the largest subterranean complexes of fortresses in the sector that were built during the time of the Penance War from the vast network of old mining tunnels; many of the former surface emplacements have been converted into viewing domes for the people's leisure, with the biggest ones developing into fully fledged dome cities.
+Despite its scarred looks due to decades of conflict, Magawa hosts one of the largest subterranean complexes of fortresses in the sector. These were built during the time of the Penance War from the vast network of old mining tunnels. Today, many of the former surface emplacements have been converted into civilian use, with the biggest ones developing into fully fledged dome cities.
 ",,,,
-rebelrats_rodentia_planet,CUSTOM,"The humble green giant has been the source of many Krysan folk tales and superstitions, often cited by olden folks to be where gods reside together with their emerald riches. However, in contrast, the children often joke that the gas giant is actual full of rat flatulence due to its vivid green hue.
+rebelrats_rodentia_planet,CUSTOM,"The humble green giant has been the source of many Krysan folk tales and superstitions, often cited by olden folks to be where gods reside together with their emerald riches. However, in contrast, children often joke that the gas giant's vivid hue is because of rat flatulence.
 
-Nowadays, Rodentia is home to the largest orbital fuel refineries of the system, fuelling the armadas of the Federal Navy and houses the berthing of the ships of the Krysan Federal Auxiliary Corps. Diligent haulers and trade fleets can be observed using the gas giant’s immense gravity to save fuel via slingshots, which provides a constant show of graceful gravitational manoeuvres.",,,,
-rebelrats_nutria_planet,CUSTOM,"Amusingly referred to as the system's supermarket, Nutria is home to the largest settlement of independent traders second only to the Asteroid Central Station. Due to its proximity to the warp gates, Nutria is the first point of contact for many Persean captains looking to visit the system for the first time.
-
+Nowadays, Rodentia is home to the largest orbital fuel refineries of Krysa, fuelling the armadas of the Federal Navy and houses the berthing of the ships of the Krysan Federal Auxiliary Corps. Diligent haulers and trade fleets can be observed using the gas giant’s immense gravity to save fuel via slingshots, which provides a constant show of graceful gravitational manoeuvres.",,,,
+rebelrats_nutria_planet,CUSTOM,"Amusingly referred to as the system's supermarket, Nutria is home to the largest settlement of independent traders second only to the Asteroid Central Station. The city of Spalax can be seen with its huge concourse of markets spanning the breadth of the city next to would be space ports.
 ",,,,
-rebelrats_tikus_gasGiant,CUSTOM,"Like Rodentia, Tikus I has refineries dotting across the planet, routinely sending out teams to mine the giant of its precious gas. It is considered the beating heart of the system's inhabitants, providing the necessary fuel for return trips. The size of the gas giant means that industry is expected to bolster the nation's fleets and economy for many generations.",,,,
+rebelrats_tikus_gasGiant,CUSTOM,"Like Rodentia, Tikus I has refineries dotting across the planet, routinely sending out teams to mine the giant of its precious gas. It is considered the beating heart of the system's inhabitants, providing the necessary fuel for return trips. The size of the gas giant means that its fuel industry is expected to bolster the nation's fleets and economy for many generations in the future.",,,,
 rebelrats_tikusII_planet,CUSTOM,"With relatively mild climates, rich ore and crop compatible soils, Tikus II was the primary target for Krysan colonisation efforts. While described as a jungle planet, it is far from being a single biome. Tikus II has a complex system of biomes with the equatorial regions hosting the densest concentrations of flora and fauna. Its thicker atmosphere allows its highest peaks to be just barely breathable for individuals.",,,,
 rebelrats_tikusIII_planet,CUSTOM,"Tikus III, despite its almost destitute geography, is host to numerous independent settlements that popped up during Krysan colonisation efforts. The settlements on the planet huddle around the systems of natural caves and tunnels that hosts the few places that settlers can actively grow food such as mushrooms and low-light crops.
 
