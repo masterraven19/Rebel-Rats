@@ -62,7 +62,7 @@
     },
     "rebelrats_engine_accelerate":{ # played when ship receives an "engine boost" from having zero flux
     "sounds":[
-        {"file":"sounds/ratengineboost.ogg","pitch":1.2,"volume":0.4},
+        {"file":"sounds/ratengineboost.ogg","pitch":1.2,"volume":0.3},
     ],
     },
 }
