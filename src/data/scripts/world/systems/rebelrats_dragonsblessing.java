@@ -49,13 +49,13 @@ public class rebelrats_dragonsblessing {
         system.addAsteroidBelt(systemstar, 0, 2250, 270f, 74, 75, Terrain.RING, "Hot Belt");
         system.addRingBand(systemstar, "misc", "rings_asteroids0", 270, 2, Color.lightGray, 270, 2250, 75);
         //second ring
-        system.addAsteroidBelt(systemstar, 350, 2500, 270f, 82, 83, Terrain.ASTEROID_BELT, "Astero Belt");
+        system.addAsteroidBelt(systemstar, 100, 2500, 270f, 82, 83, Terrain.ASTEROID_BELT, "Astero Belt");
         system.addRingBand(systemstar, "misc", "rings_asteroids0", 270, 2, Color.darkGray, 270, 2500, 83);
         //third ring
         system.addAsteroidBelt(systemstar, 0, 2900, 230f, 95, 96, Terrain.RING, "MARMOT ZZZZ");
         system.addRingBand(systemstar, "misc", "rings_dust0", 230, 0, Color.lightGray, 230, 2900, 96);
         //fourth ring (infinity rings)
-        system.addAsteroidBelt(systemstar, 700, 6900, 200f, 229, 230, Terrain.ASTEROID_BELT, "Cold Belt");
+        system.addAsteroidBelt(systemstar, 400, 6900, 200f, 229, 230, Terrain.ASTEROID_BELT, "Cold Belt");
         system.addRingBand(systemstar, "misc", "rings_dust0", 200, 0, Color.yellow, 200, 6900, 230);
         
         SectorEntityToken astfield1 = system.addTerrain(Terrain.ASTEROID_FIELD,

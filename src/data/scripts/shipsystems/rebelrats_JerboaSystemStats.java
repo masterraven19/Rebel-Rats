@@ -3,62 +3,77 @@ package data.scripts.shipsystems;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
+import data.scripts.combat.rebelrats_JerboaTarget;
 import com.fs.starfarer.api.util.Misc;
 
 import java.awt.*;
 
 public class rebelrats_JerboaSystemStats extends BaseShipSystemScript {
     //mostly works, however still not bug tested thoroughly
-    //also no description yet (StatusData)
-
-    private static float weaponTurnRateDebuff = -200;
+    //AHHH the rats curse
+    private rebelrats_JerboaTarget effect = null;
+    private Color jitterColor = new Color(60,213,33,255);
     private static float range = 1500;
-    private static boolean hasActivated = false;
+    private boolean hasActivated = false;
+    private boolean addedeffect = false;
     public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
         ShipAPI ship = null;
+
         if (stats.getEntity() instanceof ShipAPI){
             ship = (ShipAPI) stats.getEntity();
         }else{
             return;
         }
+
         ShipAPI target = findTarget(ship);
 
-        if (target != null) {
-            if (state == State.IN){
-                target.getMutableStats().getWeaponTurnRateBonus().modifyMult(id,-1);
-                target.getMutableStats().getAcceleration().modifyPercent(id,-200 * effectLevel);
-                target.getMutableStats().getDeceleration().modifyPercent(id,-200 * effectLevel);
-                target.getMutableStats().getTurnAcceleration().modifyPercent(id,-200 * effectLevel);
-                target.getMutableStats().getMaxTurnRate().modifyPercent(id, 0 * effectLevel);
-                target.getMutableStats().getMaxSpeed().modifyFlat(id, 0 * effectLevel);
+        if(effect == null && ship.isAlive()) {
+            effect = new rebelrats_JerboaTarget();
+        }
 
+        if (target != null && effect != null) {
+
+            if (state == State.IN){
                 if (!hasActivated){
                     target.getFluxTracker().showOverloadFloatyIfNeeded("EWS Blasted!",new Color(255,55,55),4f,true);
-                    hasActivated = !hasActivated;
+                    hasActivated = true;
                 }
             }
-                if(state == State.ACTIVE){
-                    for (ShipEngineControllerAPI.ShipEngineAPI e : target.getEngineController().getShipEngines()){
-                        target.getEngineController().setFlameLevel(e.getEngineSlot(),-0f);
-                    }
-                }
-            if (state == State.OUT){
-                target.getMutableStats().getWeaponTurnRateBonus().unmodify(id);
-                target.getMutableStats().getAcceleration().unmodify(id);
-                target.getMutableStats().getDeceleration().unmodify(id);
-                target.getMutableStats().getTurnAcceleration().unmodify(id);
-                target.getMutableStats().getMaxTurnRate().unmodify(id);
-                target.getMutableStats().getMaxSpeed().unmodify(id);
 
-                hasActivated = !hasActivated;
+            if(state == State.ACTIVE){
+                if (!addedeffect){
+                    Global.getCombatEngine().addPlugin(effect);
+                    //Global.getCombatEngine().addFloatingText(stats.getEntity().getLocation(),"EFFECT READY",10,Color.WHITE,stats.getEntity(),1,1);
+                    addedeffect = true;
+                }
+                effect.update(target,effectLevel,id);
+                //Global.getCombatEngine().addFloatingText(stats.getEntity().getLocation(),""+effectLevel,10,Color.WHITE,stats.getEntity(),1,1);
+                for (ShipEngineControllerAPI.ShipEngineAPI e : target.getEngineController().getShipEngines()){
+                    target.getEngineController().setFlameLevel(e.getEngineSlot(),-0f);
+                }
             }
+
+            if (state == State.OUT){
+                hasActivated = false;
+                addedeffect = false;
+                //Global.getCombatEngine().addFloatingText(stats.getEntity().getLocation(),""+addedeffect,10,Color.WHITE,stats.getEntity(),1,1);
+                effect.update(target,effectLevel,id);
+            }
+
             if (state == State.IDLE){
-                target.getMutableStats().getWeaponTurnRateBonus().unmodify(id);
-                target.getMutableStats().getAcceleration().unmodify(id);
-                target.getMutableStats().getDeceleration().unmodify(id);
-                target.getMutableStats().getTurnAcceleration().unmodify(id);
-                target.getMutableStats().getMaxTurnRate().unmodify(id);
-                target.getMutableStats().getMaxSpeed().unmodify(id);
+                if (!ship.isAlive()){
+                    effect.update(target,effectLevel,id);
+                }
+                //yeah
+            }
+        }
+
+        if (effectLevel > 0){
+            float shipjitter = effectLevel * 0.7F;
+            ship.setJitter(ship,jitterColor,shipjitter,2,5f);
+
+            if (shipjitter > 0){
+                ship.setJitter(ship,jitterColor,shipjitter,2,5f);
             }
         }
     }
@@ -115,12 +130,12 @@ public class rebelrats_JerboaSystemStats extends BaseShipSystemScript {
 
         ShipAPI target = findTarget(ship);
         if (target != null && target != ship) {
-            return "SQUEEK!!!";
+            return "BURST READY";
         }
         if ((target == null) && ship.getShipTarget() != null) {
-            return "squeek...";
+            return "OUT OF RANGE";
         }
-        return "squeek?";
+        return "NO TARGET";
     }
     public boolean isUsable(ShipSystemAPI system, ShipAPI ship) {
         ShipAPI target = findTarget(ship);
