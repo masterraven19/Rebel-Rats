@@ -4,9 +4,9 @@
   "hullSize": "DESTROYER",
   "spriteName": "graphics/ships/Monax_logistics_ship.png",
   "style": "REBELRATS",
-  "height": 271,
-  "width": 111,
-  "center": [59, 133],
+  "height": 264,
+  "width": 99,
+  "center": [55, 131],
   "collisionRadius": 169,
   "shieldCenter": [0, 0],
   "shieldRadius": 144,
@@ -24,7 +24,7 @@
       "mount": "TURRET",
       "arc": 225,
       "angle": -67,
-      "locations": [82, -35]
+      "locations": [80, -35]
     },
     {
       "id": "WS0002",
@@ -33,7 +33,7 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [32, 0]
+      "locations": [30, -0]
     },
     {
       "id": "WS0003",
@@ -42,12 +42,12 @@
       "mount": "TURRET",
       "arc": 307,
       "angle": 180,
-      "locations": [-74, 0]
+      "locations": [-76, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-127, -0],
+      "location": [-127.5, 0],
       "length": 180,
       "width": 60,
       "angle": 180,
@@ -57,15 +57,15 @@
     }
   ],
   "bounds": [
-    105, -34,
-    87, -45,
-    -27, -45.5,
-    -88.5, -37.5,
-    -128, -22,
-    -128, 22,
-    -88.5, 36.5,
-    -21, 55,
-    91, 52,
-    123, 27
+    108.5, 4,
+    71, 51,
+    -15.5, 55.5,
+    -98, 28,
+    -129, 24,
+    -129, -24,
+    -98.5, -29,
+    -59, -44.5,
+    85, -44,
+    103, -36
   ]
 }
