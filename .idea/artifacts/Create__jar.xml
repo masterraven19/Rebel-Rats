@@ -28,6 +28,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/systems/rebelrats_tikus.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_huntsmanOnHitEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/shipsystems/rebelrats_JerboaSystemStats.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_JerboaTarget.java" />
     </root>
   </artifact>
 </component>
