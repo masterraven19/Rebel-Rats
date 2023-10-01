@@ -12,7 +12,8 @@
   "shieldRadius": 77.5,
   "viewOffset": 0,
   "builtInMods": [
-    "rebelrats_manatarmstargettinggrid"
+    "rebelrats_manatarmstargettinggrid",
+    "rebelrats_bastionshield"
   ],
   "builtInWeapons": {
     "WS0001": "rebelrats_huntsmanx2_m",

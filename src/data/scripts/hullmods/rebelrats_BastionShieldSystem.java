@@ -7,7 +7,7 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
 public class rebelrats_BastionShieldSystem extends BaseHullMod {
-    private static float shieldRadiusOffset = -0.15F;
+    private static float shieldRadiusOffset = -0.1F;
     private static float shieldArcMax = 150;
     private static float shieldDebuff = 0.2F;
     private static String modId = null;
@@ -116,7 +116,7 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
 
     public String getDescriptionParam(int index, HullSize hullSize) {
         if (index == 0) return "" + (int) shieldArcMax;
-        if (index == 1) return "" + (int) shieldDebuff;
+        if (index == 1) return "" + shieldDebuff;
         return null;
     }
 }

@@ -14,7 +14,8 @@
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid",
     "pointdefenseai",
-    "advancedoptics"
+    "advancedoptics",
+    "rebelrats_bastionshield"
   ],
   "builtInWeapons": {
     "WS0004": "rebelrats_felis"

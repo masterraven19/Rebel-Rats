@@ -12,7 +12,8 @@
   "shieldRadius": 191,
   "viewOffset": 0,
   "builtInMods": [
-    "rebelrats_manatarmstargettinggrid"
+    "rebelrats_manatarmstargettinggrid",
+    "rebelrats_bastionshield"
   ],
   "weaponSlots": [
     {

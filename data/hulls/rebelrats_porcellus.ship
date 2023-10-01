@@ -14,7 +14,8 @@
   "builtInMods": [
     "ground_support",
     "ballistic_rangefinder",
-    "rebelrats_manatarmstargettinggrid"
+    "rebelrats_manatarmstargettinggrid",
+    "rebelrats_bastionshield"
   ],
   "builtInWings": [
     "rebelrats_hippo_Fighter_wingt"

@@ -12,7 +12,8 @@
   "shieldRadius": 160,
   "viewOffset": 0,
   "builtInMods": [
-    "rebelrats_manatarmstargettinggrid"
+    "rebelrats_manatarmstargettinggrid",
+    "rebelrats_bastionshield"
   ],
   "builtInWings": [
     "rebelrats_hippo_Fighter_wingt"
