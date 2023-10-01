@@ -8,7 +8,6 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/systems/rebelrats_dragonsblessing.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_doldrumsEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rulecmd/rebelrats_powerstationDialog.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/hullmods/rebelrats_stealthrathide.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_falconOnHitEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_pyroclastOnHitEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_petardBeamEffect.java" />
@@ -29,6 +28,9 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_huntsmanOnHitEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/shipsystems/rebelrats_JerboaSystemStats.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_JerboaTarget.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_ManAtArmsTargettingGrid.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_stealthrathide.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_BastionShieldSystem.java" />
     </root>
   </artifact>
 </component>

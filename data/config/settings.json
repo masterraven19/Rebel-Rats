@@ -16,6 +16,7 @@
 		"fx": {
 			"rebelrats_petardbeam":"graphics/fx/petardlaser_beam.png",
 			"rebelrats_target_painter":"graphics/fx/target_painter.png",
+			"rebelrats_shieldouter":"graphics/fx/ratshieldouter.png",
 		},
 		"illustrations": {
 			"rebelrats_powerstation": "graphics/illustrations/rat_powerstation_illu.png",
