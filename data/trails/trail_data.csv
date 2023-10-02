@@ -14,6 +14,7 @@ rebelrats_drummer_shell,rebelrats_drummer_shell,base_trail_rough,2,0.05,0.1,0.1,
 rebelrats_equalizer_shell,rebelrats_equalizer_shell,base_trail_smoke,2,0.05,0.1,0.1,10,5,"[255,165,30]","[233,161,24]",0.5,100,300,TRUE,10,4,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,90,true,false
 rebelrats_crossbow_shell,rebelrats_crossbow_shell,base_trail_aura,1,0.025,0.05,0.025,6,3,"[218,218,218]","[233,161,24]",0.5,100,300,TRUE,10,4,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,90,true,false
 rebelrats_siegeharq_shell,rebelrats_siegeharq_shell,base_trail_smoke,1,0.05,0.1,0.05,6,3,"[255,165,30]","[233,161,24]",0.5,100,300,TRUE,10,4,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,90,true,false
+rebelrats_tripubus_shell,rebelrats_tripubus_shell,base_trail_smoke,1,0.05,0.1,0.05,6,3,"[255,165,30]","[233,161,24]",0.5,100,300,TRUE,10,4,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,90,true,false
 rebelrats_braggador_shell,rebelrats_braggador_shell,base_trail_smooth,1.5,0.05,0.025,0.025,6,2,"[200,200,200]","[233,161,44]",1,100,300,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,90,true,false
 rebelrats_culverin_shell,rebelrats_culverin_shell,base_trail_smoke,1,0.025,0.05,0.025,4,2,"[255,165,30]","[233,161,24]",0.5,100,300,TRUE,10,4,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,90,true,false
 rebelrats_longbow_shell,rebelrats_longbow_shell,base_trail_aura,1,0.025,0.05,0.025,4,2,"[218,218,218]","[233,161,24]",0.5,100,300,TRUE,10,4,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,90,true,false

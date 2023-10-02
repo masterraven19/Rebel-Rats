@@ -6,6 +6,7 @@ AHG-450 Equalizer Howitzer,rebelrats_equalizer_l,2,,6000,1000,,700,,200,6,22,,,,
 ASG-203 Drummer Heavy Railgun,rebelrats_drummer_l,2,,6000,1000,,600,50,400,5,20,,,,KINETIC,720,,0,5.5,2,0.5,0,8,3,10,,1000,,,500,,,STRIKE,"kinetic14, rebelrats_arsenal_bp",,Arms & Armor,,Anti-Shield,,,Slow,Medium,,,,,,
 Mangonel Plasma Launcher,rebelrats_mangonel_l,2,,8000,900,,400,,100,8,24,8,1,2,ENERGY,320,,0,0.5,2,0.25,0,10,2,5,,1200,,,,,,STRIKE,"energy14, rebelrats_arsenal_bp",,The Three Brothers Corporation,,General,,,Slow,Poor,,,,,,
 Nezulana Assault Railgun,rebelrats_nezulana_l,2,,8000,1300,,300,,400,6,26,,,,KINETIC,330,,0,4,4,0.5,0,5,1,5,,1100,,,400,,,STRIKE,"kinetic14, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Shield,,,Slow,Excellent,,,,,,
+Tripubus Assault Howitzer,rebelrats_tripubus_l,2,,8000,1200,,400,,12,5,25,,,,HIGH_EXPLOSIVE,400,,0,7,3,0.2,0,10,3,10,,700,,,40,,,STRIKE,"he18, rebelrats_arsenal_bp",,Arms & Armor,,Anti-Armor,,,Slow,Good,,,,,,
 Goedendag Assault Railgun,rebelrats_goedendag_l,,,0,1300,,1400,100,300,0,0,,,,ENERGY,1600,,3.8,11,3,1.5,0,6,1,10,,2000,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Cruiser,,,,,,,,,,
 Doldrums Superheavy Railgun,rebelrats_doldrums_l,,,0,1500,,3600,300,500,5,0,,,,ENERGY,4000,,3.8,19.8,1,,0,4,1,10,,2500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,Very Slow,Excellent,"Fires rods with a shaped charge
 
