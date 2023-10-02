@@ -9,7 +9,7 @@
   "center": [71, 162],
   "collisionRadius": 212,
   "shieldCenter": [0, 0],
-  "shieldRadius": 172.5,
+  "shieldRadius": 186,
   "viewOffset": 0,
   "builtInMods": [
     "rebelrats_stealthrathide",

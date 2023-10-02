@@ -7,9 +7,9 @@
   "height": 300,
   "width": 122,
   "center": [61, 144],
-  "collisionRadius": 182,
+  "collisionRadius": 188,
   "shieldCenter": [0, -0],
-  "shieldRadius": 160,
+  "shieldRadius": 167,
   "viewOffset": 0,
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid",

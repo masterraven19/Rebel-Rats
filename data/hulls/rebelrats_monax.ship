@@ -9,7 +9,7 @@
   "center": [55, 131],
   "collisionRadius": 169,
   "shieldCenter": [0, 0],
-  "shieldRadius": 144,
+  "shieldRadius": 148.5,
   "viewOffset": 0,
   "builtInMods": [
     "hiressensors",

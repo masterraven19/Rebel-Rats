@@ -6,10 +6,10 @@
   "style": "REBELRATS",
   "height": 153,
   "width": 72,
-  "center": [36, 78],
-  "collisionRadius": 89,
+  "center": [36, 74],
+  "collisionRadius": 96.5,
   "shieldCenter": [0, -0],
-  "shieldRadius": 77.5,
+  "shieldRadius": 84,
   "viewOffset": 0,
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid",
@@ -27,7 +27,7 @@
       "mount": "HIDDEN",
       "arc": 5,
       "angle": 0,
-      "locations": [58, 0]
+      "locations": [62, 0]
     },
     {
       "id": "WS0002",
@@ -36,7 +36,7 @@
       "mount": "TURRET",
       "arc": 165,
       "angle": 70,
-      "locations": [-5, 25]
+      "locations": [-1, 25]
     },
     {
       "id": "WS0003",
@@ -45,7 +45,7 @@
       "mount": "TURRET",
       "arc": 165,
       "angle": -70,
-      "locations": [-5, -25]
+      "locations": [-1, -25]
     },
     {
       "id": "WS0004",
@@ -54,7 +54,7 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [-13, 0]
+      "locations": [-9, 0]
     },
     {
       "id": "WS0005",
@@ -63,7 +63,7 @@
       "mount": "TURRET",
       "arc": 260,
       "angle": 180,
-      "locations": [-36, 0]
+      "locations": [-32, 0]
     },
     {
       "id": "WS0006",
@@ -72,12 +72,12 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 0,
-      "locations": [30, 0]
+      "locations": [34, 0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-77, -0],
+      "location": [-73, -0],
       "length": 90,
       "width": 40,
       "angle": 180,
@@ -87,13 +87,13 @@
     }
   ],
   "bounds": [
-    -77, -12,
-    -27.5, -35,
-    9, -34,
-    63, -14.5,
-    63, 14.5,
-    9, 34,
-    -27.5, 35,
-    -77, 12
+    -73, -12,
+    -23.5, -35,
+    13, -34,
+    67, -14.5,
+    67, 14.5,
+    13, 34,
+    -23.5, 35,
+    -73, 12
   ]
 }

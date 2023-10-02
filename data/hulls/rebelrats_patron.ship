@@ -9,7 +9,7 @@
   "center": [25, 37.5],
   "collisionRadius": 61,
   "shieldCenter": [0, 0],
-  "shieldRadius": 48.5,
+  "shieldRadius": 52,
   "viewOffset": 0,
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid",
