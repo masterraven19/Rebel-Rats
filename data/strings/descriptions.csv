@@ -4,9 +4,9 @@ id,type,text1,text2,text3,text4,notes
 rebelrats_equalizer_l,WEAPON,"The Equalizer's ponderous shots can shatter even the thickest armor plates. Its origins are as old as the Krysan Federal Monarchy, with it seeing first use in the defence of Magawa from loyalist elements.",,,,
 rebelrats_doldrums_l,WEAPON,"The Doldrums-Pattern railgun is the most capable weapon in the Khrysan Navy arsenal, firing devastating AM-tipped warheads. The Federal Navy built the Doldrums during Khrysan Orbital Defence Program but later retooled the railgun to install them on Krysan Cruisers and Battleships as per the new Mobile Defence Doctrine.",Does this show up?,,,
 rebelrats_drummer_l,WEAPON,The Drummer is an offshoot development of the Doldrums-Pattern railgun family. It utilizes an electrothermal-chemical firing system and gauss coils to fire inert rods against enemy shields,,,,
-rebelrats_tripubus_l,WEAPON,The siegeharquebus' brother that you should not mess with.,,,,
+rebelrats_tripubus_l,WEAPON,"Unimaginative, but effective, the Tripubus is the Siege Harquebus' bigger brother. Despite sporting smaller shells than the Equalizer, the Tripubus has a heavier throw weight and more potential damage. Will be reliable against all but the thickest armor plates.",,,,
 rebelrats_goedendag_l,WEAPON,"Buried behind the stealth composite plating is a complex series of carefully engineered electromagnets, capacitors, and extensive cooling equipment snaking around a set of magazines connected to the ship’s internal ammo forges. The Goedendag railgun is built to give the Jerboa the firepower to square off with its peers if its onboard missiles aren’t sufficient.",,,,
-rebelrats_mangonel_l,WEAPON,"At its core, the Mangonel is a reverse engineered TPC from a wrecked Onslaught. By overcharging the weapon, The Three Brothers Corporation magnified the damage of its shots beyond what the original TPC was designed for. Despite its ability to inflict horrific effects on enemy ships, the Mangonel has seen limited service in the Krysan Fleet due to its costly flux requirements.",,,,
+rebelrats_mangonel_l,WEAPON,"At its core, the Mangonel is a reverse engineered TPC from a wrecked Onslaught. Installing larger capacitors, The Three Brothers Corporation magnified the damage beyond what the original TPC was designed for. Despite its ability to inflict horrific damage on enemy ships, the Mangonel has seen limited service in the Krysan Fleet due to its costly flux requirements.",,,,
 rebelrats_nezulana_l,WEAPON,"A railgun designed by the rebel rats in order to break capital-grade shields. Following the success of the Drummer, the Nezulana utilizes a scaled-up version of the same electrothermal-chemical launch system to hurl saboted hyperdense penetrating rods at enemy shields.",,,,
 rebelrats_salvo_autoloader,WEAPON,"Initially a testbed bed for the Porcellus Battlecruiser's missile tubes, the design is now installed in most of the Federal Navy's capital ships as a finisher weapon with its unparalleled reliability.",,,,
 ,,,,,,
@@ -114,9 +114,9 @@ While at a glance, two Monax(P)s are seemingly alike, the lack of standardizatio
 
 Despite extensive upgrades to the hull, an inexperienced captain can be easily caught off guard in battle if they get too greedy in their Monax(P). Any pirate captain, experienced enough, knows that the ship is never able to fight peer to peer enemy ships; with its lackluster flux reactor core and jury-rigged shield module, a Monax(P) can easily falter to enemy fire.
 ",,,,
-rebelrats_rattus,SHIP,"The Rattus is an ancient design that predates the Krysan Federal Navy. The design was extensively overhauled by the Rebel Rats Head of Design, Violet Witherfield, with little of the core design left untouched. With new railguns and an onboard missile microforge, the Rattus can easily hold its own in modern combat.
+rebelrats_rattus,SHIP,"The Rattus is an ancient design that predates the Krysan Federal Navy. The design was extensively overhauled with little of the core design left untouched by the Rebel Rats Head of Design, Violet Witherfield. With its new railguns and a new missile microforge, the Rattus can easily hold its own in modern combat.
 
-Dubbed as “The Blue Angel”, the Rattus was instrumental during Penance Day when disillusioned captains led a massive rebellion against the Krysan Empire, leading to a brutal 8-cycle long civil war that would culminate in the dissolution of the Empire and the formation of the Federal Monarchy of Krysa. During the rebellion, Rattus destroyers were used in guerrilla tactics and rapid insertion of rebel forces into orbital stations to seize decommissioned empire ships.
+Dubbed as “The Blue Angel”, the Rattus was instrumental during Penance Day when disillusioned captains and nobles led a massive rebellion against the Krysan Empire. This lead to a brutal 8-cycle long civil war that would culminate in the dissolution of the Empire and the formation of the Federal Monarchy of Krysa. During the rebellion, Rattus destroyers were used in guerrilla tactics and rapid insertion of rebel forces into orbital stations to seize decommissioned empire ships.
 
 Following the principles of thrust-gravity oriented design, the Rattus has a narrow hull with a vertical layout, leading to a smaller front cross section that allows Rattus captains to minimize the chances of the enemy landing a hit, though to the disdain of crewmembers needing to navigate up and down the ship’s tight vertical spaces with steep ladders.
 ",,,,
@@ -162,7 +162,7 @@ With its diminutive size as a frigate-classed freighter, the Panya's interiors c
 The ship is equipped with a Lynx-pattern flux reactor to power its systems and a single M303 Fusion Torch tuned down for efficiency.",,,,
 ,,,,,,
 #SHIP SYSTEMS,,,,,,
-rebelrats_jerboaSystem,SHIP_SYSTEM,Overwhelms the target with onboard EW systems to disrupt its systems. ,Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
+rebelrats_jerboaSystem,SHIP_SYSTEM,Overwhelms the target with the onboard EW systems. Disrupts the target's subsystems for a short amount of time.,Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
 ,,,,,,
 rebelrats,FACTION,"Rats, rats, we are the rats
 Celebrating yet another birthday bash

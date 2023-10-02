@@ -11,7 +11,7 @@
 		"fighterChipIconColor":[161,12,228,255],
 		"weaponDisabledExplosionColor":[255,145,75,255],
 		"shieldRingColor":[149,135,167,255],
-		"shieldInnerColor":[120,81,169,75],
+		"shieldInnerColor":[170,121,219,255],
 		"fluxVentCoreColor":[255,255,255,127],
 		"fluxVentFringeColor":[137,182,221,127],
 		"engineLoopSet":"rebelrats_engine_loop", 					# id of entry in sounds.json
