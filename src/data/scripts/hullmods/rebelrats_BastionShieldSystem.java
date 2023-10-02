@@ -6,10 +6,13 @@ import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
+import java.awt.*;
+
 public class rebelrats_BastionShieldSystem extends BaseHullMod {
     private static float shieldRadiusOffset = -0.1F;
     private static float shieldArcMax = 150;
     private static float shieldDebuff = 0.2F;
+    private static float elapsed = 0;
     private static String modId = null;
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 
@@ -31,9 +34,49 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
         float arcDifference = shieldArcMax - shieldArc;
 
         //this basically makes the shield larger and closer to the ship when its facing the sides of the ship.
+        float anglediff = (frontAngle - shieldAngle + 180 + 360) % 360 - 180;
+
+        if (anglediff >= 0 && anglediff <= 90){
+            float diffRatio = anglediff / 90;
+
+            targetArc = (diffRatio * arcDifference) + shieldArc;
+
+            shieldRatio = diffRatio * shieldRadiusOffset;
+
+            efficiencyRatio = diffRatio * shieldDebuff;
+        }
+        if (anglediff <= 0 && anglediff >= -90){
+            float diffRatio = (anglediff / -90);
+
+            targetArc = (diffRatio * arcDifference) + shieldArc;
+
+            shieldRatio = diffRatio * shieldRadiusOffset;
+
+            efficiencyRatio = diffRatio * shieldDebuff;
+        }
+        if (anglediff >= 90 && anglediff <= 180){
+            float diffRatio = ((90 - anglediff) / 90) + 1;
+
+            targetArc = (diffRatio * arcDifference) + shieldArc;
+
+            shieldRatio = diffRatio * shieldRadiusOffset;
+
+            efficiencyRatio = diffRatio * shieldDebuff;
+        }
+        if (anglediff <= -90 && anglediff >= -180){
+            float diffRatio = ((90 + anglediff) / 90) + 1;
+
+            targetArc = (diffRatio * arcDifference) + shieldArc;
+
+            shieldRatio = diffRatio * shieldRadiusOffset;
+
+            efficiencyRatio = diffRatio * shieldDebuff;
+        }
+        /**
         float angleDifference = frontAngle - shieldAngle;
         if (angleDifference >= 0 && angleDifference <= 90){
             float diffRatio = angleDifference * 0.01F;
+            if (diffRatio == 0.9){diffRatio = 1;}
 
             targetArc = (diffRatio * arcDifference) + shieldArc;
 
@@ -43,6 +86,7 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
         }
         if (angleDifference >= 90 && angleDifference <= 180){
             float diffRatio = 1 - ((angleDifference - 90) * 0.01F);
+            if (diffRatio == 0.1){diffRatio = 0;}
 
             targetArc = (diffRatio * arcDifference) + shieldArc;
 
@@ -52,6 +96,7 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
         }
         if (angleDifference >= 180 && angleDifference <= 270){
             float diffRatio = (angleDifference - 180) * 0.01F;
+            if (diffRatio == 0.9){diffRatio = 1;}
 
             targetArc = (diffRatio * arcDifference) + shieldArc;
 
@@ -61,6 +106,7 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
         }
         if (angleDifference >= 270 && angleDifference <= 360){
             float diffRatio = 1 - ((angleDifference - 270) * 0.01F);
+            if (diffRatio == 0.1){diffRatio = 0;}
 
             targetArc = (diffRatio * arcDifference) + shieldArc;
 
@@ -70,6 +116,7 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
         }
         if (angleDifference <= 0 && angleDifference >= -90){
             float diffRatio = angleDifference * -0.01F;
+            if (diffRatio == 0.9){diffRatio = 1;}
 
             targetArc = (diffRatio * arcDifference) + shieldArc;
 
@@ -79,6 +126,7 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
         }
         if (angleDifference <= -90 && angleDifference >= -180){
             float diffRatio = 1 - ((angleDifference + 90) * -0.01F);
+            if (diffRatio == 0.1){diffRatio = 0;}
 
             targetArc = (diffRatio * arcDifference) + shieldArc;
 
@@ -88,6 +136,7 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
         }
         if(angleDifference <= -180 && angleDifference >= -270){
             float diffRatio = (angleDifference + 180) * -0.01F;
+            if (diffRatio == 0.9){diffRatio = 1;}
 
             targetArc = (diffRatio * arcDifference) + shieldArc;
 
@@ -97,6 +146,7 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
         }
         if(angleDifference <= -270 && angleDifference >= -360){
             float diffRatio = 1 - ((angleDifference + 270) * -0.01F);
+            if (diffRatio == 0.1){diffRatio = 0;}
 
             targetArc = (diffRatio * arcDifference) + shieldArc;
 
@@ -104,7 +154,7 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
 
             efficiencyRatio = diffRatio * shieldDebuff;
         }
-
+        **/
 
         float shieldRadiusTarget = (1 + shieldRatio) * shieldRadius;
 
