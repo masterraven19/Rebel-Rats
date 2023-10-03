@@ -24,7 +24,7 @@
       "size": "LARGE",
       "type": "BUILT_IN",
       "mount": "HARDPOINT",
-      "arc": 6,
+      "arc": 1,
       "angle": 0,
       "locations": [15, -0]
     },

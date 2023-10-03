@@ -16,7 +16,7 @@ Helmsman,rebelrats_helmsman,Destroyer,Belters,maneuveringjets,7,3000,300,4500,,2
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Mus,rebelrats_mus,Missile Frigate,Rebel Rats,plasmajets,8,2400,300,3000,,400,50,,160,80,30,30,60,230,OMNI,,90,0.2,0.6,,,20,50,60,30,1,30,10,20000,8,20,360,0.25,7,7,,,,,,,RENDER_ENGINES_BELOW_HULL,rebelrats_hull_bp,,.25,2,3,,
 Patron,rebelrats_patron,Escort Corvette,Rebel Rats,highenergyfocus,7,1000,150,1300,,200,40,,190,90,50,50,70,100,OMNI,,120,0.1,0.6,,,4,8,12,15,1,15,10,8000,8,20,360,0.25,3,3,,,,,,,,rebelrats_hull_bp,,.25,1,,,
-Mus Rattus,rebelrats_musrattus,Super Frigate,The Three Brothers Corporation,maneuveringjets,10,2000,200,3200,,300,60,,170,80,40,45,90,280,OMNI,,80,0.2,0.4,,,10,30,50,40,1,40,10,40000,8,30,360,0.25,15,15,,,,,,,RENDER_ENGINES_BELOW_HULL,rebelrats_hull_bp,,.25,1,2,,
+Mus Rattus,rebelrats_musrattus,Super Frigate,The Three Brothers Corporation,maneuveringjets,10,2000,200,3200,,200,60,,170,80,40,45,90,280,OMNI,,80,0.2,0.4,,,10,30,50,40,1,40,10,40000,8,30,360,0.25,15,15,,,,,,,RENDER_ENGINES_BELOW_HULL,rebelrats_hull_bp,,.25,1,2,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #LOGISTICS SHIPS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Pybara,rebelrats_pybara,Freighter,The Three Brothers Corporation,burndrive,7,9000,300,5000,,200,70,1,60,10,6,6,2,4200,OMNI,,60,0.3,1.2,,,30,60,2000,400,5,80,7,65000,5,20,270,0.25,10,10,,,,,,,"CIVILIAN, FREIGHTER",rebelrats_hull_bp,,.25,1,2,,
