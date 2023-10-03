@@ -126,11 +126,12 @@ public class rebelrats_JerboaSystemStats extends BaseShipSystemScript {
         return null;
     }
     public String getInfoText(ShipSystemAPI system, ShipAPI ship) {
-        if (system.isOutOfAmmo()) return null;
+        if (system.isCoolingDown()) return "SENSORS COOLING DOWN";
+        if (system.isChargedown()) return "SENSORS COOLING DOWN";
 
         ShipAPI target = findTarget(ship);
         if (target != null && target != ship) {
-            return "BURST READY";
+            return "TARGET IN RANGE";
         }
         if ((target == null) && ship.getShipTarget() != null) {
             return "OUT OF RANGE";
