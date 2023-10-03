@@ -1,4 +1,4 @@
-{
+ {
     "ranger_firing":
     [
     {"file":"sounds/ranger_firing.ogg", "pitch":1.00, "volume":0.5},
@@ -53,6 +53,12 @@
     ],
     "poacher_firing": [
         {"file":"sounds/poacher_firing.ogg","pitch":1.00,"volume":0.2},
+    ],
+    "spinaldoldrums_firing": [
+        {"file":"sounds/spinaldoldrums_firing1.ogg","pitch":1.00,"volume":0.6},
+    ],
+    "spinaldoldrums_charging": [
+        {"file":"sounds/spinaldoldrums_charging1.ogg","pitch":1.00,"volume":0.6},
     ],
     "rebelrats_engine_loop":{
         "sounds":[

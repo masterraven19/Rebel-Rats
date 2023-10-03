@@ -46,6 +46,6 @@
       105
     ]
   },
-  "fireSoundOne": "doldrums_charging",
-  "fireSoundTwo": "doldrums_firing_segment"
+  "fireSoundOne": "spinaldoldrums_charging",
+  "fireSoundTwo": "spinaldoldrums_firing"
 }
