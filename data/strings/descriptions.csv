@@ -8,6 +8,7 @@ rebelrats_tripubus_l,WEAPON,"Unimaginative, but effective, the Tripubus is the S
 rebelrats_goedendag_l,WEAPON,"Buried behind the stealth composite plating is a complex series of carefully engineered electromagnets, capacitors, and extensive cooling equipment snaking around a set of magazines connected to the ship’s internal ammo forges. The Goedendag railgun is built to give the Jerboa the firepower to square off with its peers if its onboard missiles aren’t sufficient.",,,,
 rebelrats_mangonel_l,WEAPON,"At its core, the Mangonel is a reverse engineered TPC from a wrecked Onslaught. Installing larger capacitors, The Three Brothers Corporation magnified the damage beyond what the original TPC was designed for. Despite its ability to inflict horrific damage on enemy ships, the Mangonel has seen limited service in the Krysan Fleet due to its costly flux requirements.",,,,
 rebelrats_nezulana_l,WEAPON,"A railgun designed by the rebel rats in order to break capital-grade shields. Following the success of the Drummer, the Nezulana utilizes a scaled-up version of the same electrothermal-chemical launch system to hurl saboted hyperdense penetrating rods at enemy shields.",,,,
+rebelrats_babydoldrumspine_l,WEAPON,smol smol spine hahaha,,,,
 rebelrats_salvo_autoloader,WEAPON,"Initially a testbed bed for the Porcellus Battlecruiser's missile tubes, the design is now installed in most of the Federal Navy's capital ships as a finisher weapon with its unparalleled reliability.",,,,
 ,,,,,,
 rebelrats_siegeharq_m,WEAPON,"Determined to create an anti-armor weapon, Rebel Rat engineers fashioned a barrel extension and an AM-energized warhead to modernize the antiquated artillery pieces found on Magawa after the Penance War.",,,,
@@ -138,6 +139,7 @@ Created by Arms & Armor, there was no expenses spared in the creation of the Pat
 
 The corvette is one of the few deep space capable ships that still maintains older-type fusion engines, that being two XS801 Pion Pulse Fusion Engines. The ship’s energy is maintained by a side mounted Minuitoid-Pattern flux reactor, a fairly recent development in the miniaturization of Flux Reactor technology.
 ",,,,
+rebelrats_musrattus,SHIP,the mus and the rattus made musrattus????,,,,
 ,,,,,,
 #LOGISTICS SHIPS,,,,,,
 rebelrats_pybara,SHIP,"The penultimate cargo carrier of the Naval Logistics Fleet, the Pybara's built around the relatively new Super Heavy Containers to satisfy the increasing needs of Krysan Federal Navy. Uniquely, its size can be attributed to the hull being designed around a Daedalus-type fusion torch that utilizes features inspired by acquired Persean Sector technology.

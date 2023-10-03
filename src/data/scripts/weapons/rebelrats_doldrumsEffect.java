@@ -115,8 +115,6 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
         float f = weapon.getAnimation().getNumFrames() / weapon.getAnimation().getFrameRate();
         weapon.getAnimation().play();
 
-        //for tomorrow, make separate class for smoke particles
-        //--also limit this to only spawn every 0.1 sec or so to avoid lag--
         if (weapon.getAnimation().getFrame() >= 13 && weapon.getAnimation().getFrame() < 37){
             //right vent
             float angle = rebelrats_combatUtils.calcConeAngle(40,0);

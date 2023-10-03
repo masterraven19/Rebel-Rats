@@ -1,0 +1,42 @@
+{
+  "variantId": "rebelrats_musrattus_Balanced",
+  "hullId": "rebelrats_musrattus",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "heavyarmor",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_babydoldrumspine_l"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "rebelrats_huntsman_s",
+        "WS0005": "rebelrats_huntsman_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "rebelrats_poacher_s",
+        "WS0003": "rebelrats_poacher_s"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

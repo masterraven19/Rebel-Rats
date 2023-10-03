@@ -1,0 +1,87 @@
+{
+  "hullName": "Mus Rattus",
+  "hullId": "rebelrats_musrattus",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/musrattus_super_frigate.png",
+  "style": "REBELRATS",
+  "height": 158,
+  "width": 76,
+  "center": [38, 79],
+  "collisionRadius": 101.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 89.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rebelrats_bastionshield",
+    "rebelrats_manatarmstargettinggrid"
+  ],
+  "builtInWeapons": {
+    "WS0001": "rebelrats_babydoldrumspine_l"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [15, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 77,
+      "locations": [-12, 16]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -77,
+      "locations": [-12, -16]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 17,
+      "angle": 0,
+      "locations": [-16.5, 31.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 17,
+      "angle": -0,
+      "locations": [-16.5, -31.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-76, -0],
+      "length": 90,
+      "width": 40,
+      "angle": 180,
+      "contrailSize": 40,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    }
+  ],
+  "bounds": [
+    -77.5, -18.5,
+    -16.5, -31.5,
+    64, -11,
+    64, 11,
+    -16.5, 31.5,
+    -77.5, 18.5
+  ]
+}
