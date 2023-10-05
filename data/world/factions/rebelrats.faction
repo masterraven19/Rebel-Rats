@@ -38,7 +38,8 @@
                         "rebelrats_matkaboska":9,
                         "rebelrats_mellivora":6,
                         "rebelrats_pybara":4,
-                        "rebelrats_musrattus":2,
+                        "rebelrats_musrattus":6,
+			"rebelrats_panya":5,
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
