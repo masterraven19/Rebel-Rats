@@ -33,7 +33,7 @@
 					"styleSpec":{
 						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
 						"engineColor":[199,16,16,255],
-						"glowSizeMult":0,
+						"glowSizeMult":3.5,
 						"glowAlternateColor":[227,0,0,255],
 						"contrailDuration":2,
 						"contrailWidthMult":1,
