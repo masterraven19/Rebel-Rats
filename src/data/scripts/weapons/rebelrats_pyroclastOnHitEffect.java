@@ -38,12 +38,12 @@ public class rebelrats_pyroclastOnHitEffect implements OnHitEffectPlugin {
 
         float angle = (float) Math.random() * 180;
         rebelrats_addExplosionFx p = new rebelrats_addExplosionFx();
-        p.addExplosion("graphics/fx/explosion0.png",null,new Vector2f(50,50), new Vector2f(200,200),point,new Color(198,71,49),0.5F,4,2,0,angle,1,false);
+        p.addExplosion("graphics/fx/explosion0.png",null,new Vector2f(50,50), new Vector2f(200,200),point,new Vector2f(0,0),new Color(198,71,49),0.5F,4,2,0,angle,1,false);
         CombatEntityAPI explosion = engine.addLayeredRenderingPlugin(p);
         explosion.getLocation().set(point);
 
         rebelrats_addExplosionFx p2 = new rebelrats_addExplosionFx();
-        p2.addExplosion("graphics/fx/explosion_ring0.png",null,new Vector2f(100,100), new Vector2f(250,250),point,new Color(217,115,97),3F,4,0.8F,0,angle,0.8F,false);
+        p2.addExplosion("graphics/fx/explosion_ring0.png",null,new Vector2f(100,100), new Vector2f(250,250),point,new Vector2f(0,0),new Color(217,115,97),3F,4,0.8F,0,angle,0.8F,false);
         CombatEntityAPI explosion2 = engine.addLayeredRenderingPlugin(p2);
         explosion2.getLocation().set(point);
     }

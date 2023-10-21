@@ -5,6 +5,7 @@
   "type": "BALLISTIC",
   "size": "LARGE",
   "displayArcRadius": 1500,
+  "everyFrameEffect":"data.scripts.weapons.rebelrats_spinalDoldrumsEffect",
   "turretSprite": "graphics/weapons/babydoldrums_spinal_base.png",
   "turretGlowSprite": "graphics/weapons/babydoldrums_spinal_glow.png",
   "hardpointSprite": "graphics/weapons/babydoldrums_spinal_base.png",

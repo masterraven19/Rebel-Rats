@@ -15,7 +15,7 @@ public class rebelrats_huntsmanOnHitEffect implements OnHitEffectPlugin {
     public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
         for (int i = 0;i<numParticles;i++){
             rebelrats_addExplosionFx p = new rebelrats_addExplosionFx();
-            p.addExplosion("misc","nebula_particles",new Vector2f(50,50),new Vector2f(200,200),point,new Color(42,106,170),3.5F,4,1,(float) Math.random() * 1F,0,0.7F,true);
+            p.addExplosion("misc","nebula_particles",new Vector2f(50,50),new Vector2f(200,200),point,new Vector2f(0,0),new Color(42,106,170),3.5F,4,1,(float) Math.random() * 1F,0,0.7F,true);
             CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
             e.getLocation().set(point);
         }
