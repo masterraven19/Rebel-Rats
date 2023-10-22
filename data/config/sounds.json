@@ -17,7 +17,7 @@
     ],
     "doldrums_charging":
     [
-        {"file":"sounds/doldrums_charging.ogg", "pitch":1.00, "volume":1.4},
+        {"file":"sounds/doldrums_charging2.ogg", "pitch":1.00, "volume":1.4},
     ],
     "doldrums_firing_segment":
     [
@@ -52,13 +52,13 @@
         {"file":"sounds/petardcanister_firing.ogg","pitch":1.00,"volume":1},
     ],
     "poacher_firing": [
-        {"file":"sounds/poacher_firing.ogg","pitch":1.00,"volume":0.2},
+        {"file":"sounds/poacher_firing3.ogg","pitch":1.00,"volume":0.2},
     ],
     "spinaldoldrums_firing": [
         {"file":"sounds/spinaldoldrums_firing1.ogg","pitch":1.00,"volume":0.6},
     ],
     "spinaldoldrums_charging": [
-        {"file":"sounds/spinaldoldrums_charging1.ogg","pitch":1.00,"volume":0.6},
+        {"file":"sounds/spinaldoldrums_charging2.ogg","pitch":1.00,"volume":0.6},
     ],
     "rebelrats_engine_loop":{
         "sounds":[
@@ -68,7 +68,7 @@
     },
     "rebelrats_engine_accelerate":{ # played when ship receives an "engine boost" from having zero flux
     "sounds":[
-        {"file":"sounds/ratengineboost.ogg","pitch":1.2,"volume":0.3},
+        {"file":"sounds/ratengineboost.ogg","pitch":1.2,"volume":0.2},
     ],
     },
 }
