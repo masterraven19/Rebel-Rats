@@ -20,6 +20,7 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
     private Vector2f sizeEnd;
     private Vector2f currSize;
     private Vector2f loc;
+    private Vector2f velocity;
     private Color color;
     private float fadeOutDur;
     private float spriteDur;
@@ -29,7 +30,7 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
     private float elapsed;
     //private float elapsed2;
     public void addExplosion(String spriteNameOrCategory, String spriteKey, Vector2f sizeStart, Vector2f sizeEnd,
-                             Vector2f loc, Color color, float fadeOutDur, float spriteDur,
+                             Vector2f loc, Vector2f velocity, Color color, float fadeOutDur, float spriteDur,
                              float flatIncreaseRate, float angeRotation,float angle, float alphaMult, boolean multipleSprites){
 
         if (spriteNameOrCategory != null && spriteKey != null){
@@ -40,6 +41,7 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
         this.sizeStart = sizeStart;
         this.sizeEnd = sizeEnd;
         this.loc = loc;
+        this.velocity = velocity;
         this.spriteDur = spriteDur;
         this.fadeOutDur = fadeOutDur;
         this.flatIncreaseRate = flatIncreaseRate;
@@ -71,6 +73,7 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
 
         elapsed += amount;
         sprite.setAngle(sprite.getAngle() + angleRotation);
+        entity.getLocation().set(loc.x += velocity.x * amount, loc.y += velocity.y * amount);
         currSize = new Vector2f(sprite.getWidth(), sprite.getHeight());
         //entity.getLocation().set(loc);
 

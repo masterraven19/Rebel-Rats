@@ -13,7 +13,7 @@ public class rebelrats_poubelleEffect implements OnHitEffectPlugin, OnFireEffect
 
     public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
         rebelrats_addExplosionFx explosionFx = new rebelrats_addExplosionFx();
-        explosionFx.addExplosion("graphics/fx/explosion0.png",null,new Vector2f(50,50),new Vector2f(200,200),point, new Color(61,160,244),0.7F,3,5,0.1F,(float) Math.random() * 180,0.6F,false);
+        explosionFx.addExplosion("graphics/fx/explosion0.png",null,new Vector2f(50,50),new Vector2f(200,200),point,new Vector2f(0,0), new Color(61,160,244),0.7F,3,5,0.1F,(float) Math.random() * 180,0.6F,false);
         CombatEntityAPI e = engine.addLayeredRenderingPlugin(explosionFx);
         e.getLocation().set(point);
     }
