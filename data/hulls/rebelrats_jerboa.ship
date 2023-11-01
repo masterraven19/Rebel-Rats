@@ -18,7 +18,8 @@
   ],
   "builtInWeapons": {
     "WS0001": "rebelrats_goedendag_l",
-    "WS0008": "rebelrats_salvo_autoloader"
+    "WS0008": "rebelrats_huntsman_sidelauncher",
+    "WS0010": "rebelrats_jerboahatch"
   },
   "weaponSlots": [
     {
@@ -90,8 +91,8 @@
       "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 10,
-      "angle": -24.5,
-      "locations": [-50, -56.5]
+      "angle": 12.5,
+      "locations": [-48, -55.5]
     },
     {
       "id": "WS0009",
@@ -113,6 +114,15 @@
         -53, 59,
         -43.5, 58.5
       ]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-24.5, -61.5]
     }
   ],
   "engineSlots": [

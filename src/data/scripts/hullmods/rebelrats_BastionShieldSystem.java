@@ -159,7 +159,7 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
         float shieldRadiusTarget = (1 + shieldRatio) * shieldRadius;
 
         ship.getMutableStats().getShieldDamageTakenMult().modifyMult(modId, 1 + efficiencyRatio);
-        ship.getShield().setRadius(shieldRadiusTarget, "graphics/fx/ratshieldouter.png", "graphics/fx/empty.png");
+        ship.getShield().setRadius(shieldRadiusTarget, "graphics/fx/ratshieldouter.png", "graphics/fx/ratshieldouterring.png");
         ship.getShield().setArc(targetArc);
 
     }

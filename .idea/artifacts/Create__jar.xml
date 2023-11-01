@@ -32,6 +32,8 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_stealthrathide.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_BastionShieldSystem.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_spinalDoldrumsEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_huntsmanLaunchEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/decorations/rebelrats_jerboaHatch.java" />
     </root>
   </artifact>
 </component>
