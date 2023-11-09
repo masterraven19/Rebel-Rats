@@ -298,9 +298,9 @@ public class rebelrats_dragonsblessing {
         magawa_market.addIndustry(Industries.REFINING);
         magawa_market.addIndustry(Industries.SPACEPORT);
         magawa_market.addIndustry(Industries.WAYSTATION);
-        magawa_market.addIndustry(Industries.GROUNDDEFENSES);
+        magawa_market.addIndustry(Industries.HEAVYBATTERIES);
         magawa_market.addIndustry(Industries.ORBITALSTATION);
-        magawa_market.addIndustry(Industries.MILITARYBASE);
+        magawa_market.addIndustry(Industries.HIGHCOMMAND);
 
         magawa_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         globalEconomy.addMarket(magawa_market, false);

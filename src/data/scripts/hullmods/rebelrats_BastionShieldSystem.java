@@ -20,7 +20,7 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
     }
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
 
-    }
+    }//tomrow make rat check once instead of every FRAME.. do it through customdata in engine
     public void advanceInCombat(ShipAPI ship, float amount) {
         if (Global.getCombatEngine().isPaused()) return;
 
