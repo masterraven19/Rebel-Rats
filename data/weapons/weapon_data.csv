@@ -13,6 +13,7 @@ Doldrums Superheavy Railgun,rebelrats_doldrums_l,,,0,1500,,3600,300,500,5,0,,,,E
 
 Has a chance to trigger shaped charge when hitting shields",,,,,
 Huntsman Torpedo Salvo Launcher,rebelrats_salvo_autoloader,,,0,2000,,1200,,50,15,0,9,0.075,3,HIGH_EXPLOSIVE,150,,0,4.5,3,0.5,0,0,0,0,,600,50,7,200,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
+Huntsman Torpedo Side Salvo Launcher,rebelrats_huntsman_sidelauncher,,,0,2000,,1200,,50,15,0,9,0.075,3,HIGH_EXPLOSIVE,150,,0.8,4.5,3,0.5,0,0,0,0,,600,200,7,200,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AHG-203 Siege Harquebus,rebelrats_siegeharq_m,1,,1100,800,,400,,12,10,13,,,,HIGH_EXPLOSIVE,480,,0,3,1,,0,10,5,12,,700,,,40,,,,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Fast,Excellent,,,,,,
 ASG-120 Crossbow,rebelrats_crossbow_m,1,,1100,850,,100,,10,10,12,,,,KINETIC,120,,0,.5,2,0.25,0,8,2,12,,800,,,30,,,,"kinetic14, rebelrats_arsenal_bp",,Arms & Armor,,Anti-Shield,,,Fast,Medium,,,,,,
@@ -68,6 +69,7 @@ Petard (secondary),rebelrats_petard_canister,,,0,1200,2500,,,1,40,0,,,,HIGH_EXPL
 #DECORATIVE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Daekon Left,rebelrats_daekon_left,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 Daekon Right,rebelrats_daekon_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Jerboa Hatch,rebelrats_jerboahatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #UNKOWN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Lobsterclaw,rebelrats_lobsterclaw,,,2500000,2500,12000,,,100,1,34,,,,ENERGY,,3000,0.1,0.1,0.8,,,,,,5000,,,,,,,,"energy20, beam15, rebelrats_bp, no_sell",,Black Plague,,Death Laser,,,,,"Damn son, where did you find that?",,,,,
