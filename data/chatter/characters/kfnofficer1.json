@@ -1,0 +1,77 @@
+{
+	"name":"Krysan Navy Officer",
+	"personalities":["cautious","steady"],
+	"gender":["m","f","n"],
+	"chance":0.5,
+	"talkativeness":1,
+	"categoryTags":["default", "original"],
+	
+	"lines":{
+		"start":[
+			{"text":"General Quarters. All hands man your action stations."},
+			{"text":"Drive signatures detected."},
+			{"text":"Maintaining present course."},
+			{"text":"Rig ship for combat."},
+			{"text":"Awaiting orders."}
+		],
+		"start_boss":[
+			{"text":"You don't see that everyday..."},
+			{"text":"Scanning unknown drive signatures."},
+		],		
+		"retreat":[
+			{"text":"Withdrawing from combat area."},
+			{"text":"Rig ship for emergency war power!"}
+		],
+		"out_of_missiles":[
+			{"text":"Missiles Expended."},
+			{"text":"Missiles depleted."}
+		],
+		"engaged":[
+			{"text":"Enemy contact, powering PDCs."},
+			{"text":"Combat initiated, engaging target."},
+			{"text":"I am in combat, help wanted."}
+		],
+		"need_help":[
+			{"text":"I could use some help over here!"},
+			{"text":"I'm in trouble here!"},
+		],
+		"pursuing":[
+			{"text":"Pursuing target."},
+			{"text":"Contact, moving to intercept."},
+			{"text":"Vectoring to intercept."}
+		],
+		"running":[
+			{"text":"I'm outta here!"}
+		],
+		"hull_90":[
+			{"text":"Damage sustained. Pressure Hull remains stable."},
+			{"text":"Taking fire."},
+		],
+		"hull_50":[
+			{"text":"Pressure Hull has been breached!"},
+			{"text":"Fire, fire, fire. Damage control!"},
+			{"text":"Switching condition to material ZEBRA"},
+		],
+		"hull_30":[
+			{"text":"My hull's down to 30%!"},
+			{"text":"Hull status critical!"},
+			{"text":"Pressure hull is buckling, prepare to abandon ship!"},
+			#{"text":"Breach in starboard fusion chamber!"},
+		],
+		"overload":[
+			{"text":"Power Grid offline!"},
+			{"text":"Ship overloaded, requesting for cover!"}
+		],
+		"death":[
+			{"text":"BRACE!"},
+			{"text":"Purge the fusion core, we're out!"},
+			{"text":"Mayday, mayday, mayday!"},
+		],
+		"victory":[
+			{"text":"The day is ours!"},
+			{"text":"We have triumphed!"},
+			{"text":"The enemy has been foundered!"},
+			{"text":"We showed them!"},
+		],
+	}
+}

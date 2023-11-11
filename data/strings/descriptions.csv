@@ -26,7 +26,7 @@ rebelrats_petardlauncher_m,WEAPON,"Seeing that the Petard conveniently came in r
 rebelrats_huntsman_salvo,WEAPON,Triple rack for Huntsman Torpedos,,,,
 ,,,,,,
 #MUS HUNTSMAN AUTOLOADER,,,,,,
-rebelrats_huntsmanx2_m,WEAPON,These torpedo tubes serve as the Mus' main anti-ship weapon to allow the Mus to punch above its weight class. The tubes utilize an autoloader derived from the Rattus that is directly linked to the Mus' onboard microforge.,,,,
+rebelrats_huntsmanx2_m,WEAPON,These torpedo tubes serve as the Mus' main anti-ship weapon to allow the Mus to punch above its weight class. The tubes utilizes an autoloader derived from the Rattus that ensures a quick rate of fire.,,,,
 ,,,,,,
 rebelrats_huntsman_s,WEAPON,"Ubiquitous on Krysan Navy ships, the Huntsman is a guided torpedo designed similarly to the Persean Sector's Harpoons. The Huntsman's AM-catalysed plasma warhead allow it to punch through contemporary armor plates.",,,,
 rebelrats_hwacha_s,WEAPON,"The Hwacha SRM takes inspiration from the Swarmer SRM, dutifully fulfilling atmospheric and non-atmospheric anti-fighter craft roles with high agility. ",,,,
@@ -37,7 +37,7 @@ rebelrats_longbow,WEAPON,"The Longbow is the standard issue light anti-shield we
 rebelrats_huntsmanx2,WEAPON,Dual rack for the Huntsman Torpedo,,,,
 rebelrats_hawker,WEAPON,The Hawker is a pirate's favorite. It utilizes time-fuzed canister shells to quickly bring down incoming groups of missiles without the need of complex guidance systems,,,,
 rebelrats_pyroclast,WEAPON,The Pyroclast is the Federal Navy's answer to the Reaper. It uses a hypercharged AM-shaped charge warhead that has armour penetration values measured in kilometers to allow it to break through heavy ship armor.,,,,
-rebelrats_rattus_torp,WEAPON,A missile autoloader that has been fitted into the ship's center weapons module to quickly reload Huntsman torpedoes. The autoloader itself is fed by an onboard array of microforges dedicated to producing Huntsman torpedoes,,,,
+rebelrats_rattus_torp,WEAPON,A missile autoloader that has been fitted into the ship's center weapons module to quickly reload Huntsman torpedoes. ,,,,
 rebelrats_ashford,WEAPON,The Ashford is comparable to Persean Sector PD lasers with its signature variable lense that allows it to have a higher effective range than other Krysan PD weapons. ,,,,
 rebelrats_poacher_s,WEAPON,"Favoring accuracy by volume like ancient CIWS designs, the Poacher was an anti-ship weapon that was handed PD duties. The turret's APIT shells coupled with an astounding rate of fire allows it to shred through destroyer-grade armor plating quickly when enmassed.",,,,
 rebelrats_poubelle,WEAPON,Less of a proper missile and more of a propelled IED cobbled from off-the-shelf civilian guidance components. The lack of a complex thruster system has left plenty of room to stuff a far larger payload to compensate for the low-grade explosives used in civilian mining charges.,,,,
@@ -115,7 +115,7 @@ While at a glance, two Monax(P)s are seemingly alike, the lack of standardizatio
 
 Despite extensive upgrades to the hull, an inexperienced captain can be easily caught off guard in battle if they get too greedy in their Monax(P). Any pirate captain, experienced enough, knows that the ship is never able to fight peer to peer enemy ships; with its lackluster flux reactor core and jury-rigged shield module, a Monax(P) can easily falter to enemy fire.
 ",,,,
-rebelrats_rattus,SHIP,"The Rattus is an ancient design that predates the Krysan Federal Navy. The design was extensively overhauled with little of the core design left untouched by the Rebel Rats Head of Design, Violet Witherfield. With its new railguns and a new missile microforge, the Rattus can easily hold its own in modern combat.
+rebelrats_rattus,SHIP,"The Rattus is an ancient design that predates the Krysan Federal Navy. The ship would see a later refurbishment by Violet Witherfield, the Rebel Rats' head of engineering to keep up with sector standards. With new railguns and a bigger missile storage, the Rattus can easily hold its own in modern combat.
 
 Dubbed as “The Blue Angel”, the Rattus was instrumental during Penance Day when disillusioned captains and nobles led a massive rebellion against the Krysan Empire. This lead to a brutal 8-cycle long civil war that would culminate in the dissolution of the Empire and the formation of the Federal Monarchy of Krysa. During the rebellion, Rattus destroyers were used in guerrilla tactics and rapid insertion of rebel forces into orbital stations to seize decommissioned empire ships.
 
@@ -133,15 +133,15 @@ Rebel Rat Industries created the Mus to serve alongside the Rattus as its escort
 
 Despite being a recent addition, the Mus quickly became a common sight along Krysan trade routes as a pursuit ship against any roving pirate ship.
 ",,,,
-rebelrats_patron,SHIP,"A corvette built to provide laser PD coverage for ships, the Patron uses its bow mounted Felis LAWS to quickly sweep through fighter formations. However, ironically, due to its diminutive size, the Patron is vulnerable to being overwhelmed by fighters if it operates alone due to the Felis LAWS’ limited firing arc.
+rebelrats_patron,SHIP,"A corvette built to provide PD coverage for warships, the Patron uses its bow mounted Felis LAWS to quickly sweep through fighter formations. Ironically, due to its diminutive size, the Patron is vulnerable to being overwhelmed by fighters due to the Felis LAWS’ limited firing arc.
 
 Created by Arms & Armor, there was no expenses spared in the creation of the Patron. The interior has been carefully modelled to house the 4-man cockpit crew as comfortably as possible. The designers included a dedicated galley for the crew, which, as small as it is, goes a long way during long voyages for crew comfort. Unfortunately, its small size meant that the vessel has little in the way of protection, being comparable to armoured fighter craft.
 
 The corvette is one of the few deep space capable ships that still maintains older-type fusion engines, that being two XS801 Pion Pulse Fusion Engines. The ship’s energy is maintained by a side mounted Minuitoid-Pattern flux reactor, a fairly recent development in the miniaturization of Flux Reactor technology.
 ",,,,
-rebelrats_musrattus,SHIP,"An experimental ship created to maximize the concept of the Mobile Defence Doctrine, the Mus Rattus is a bleeding-edge advanced frigate built around a miniaturized Doldrums Railgun. The miniaturization of Krysan technology has allowed its designers to fit all the necessary components to run and fire the Doldrums without shutting down additional subsystems.
+rebelrats_musrattus,SHIP,"An experimental ship created to maximize the aspects of the Mobile Defence Doctrine, the Mus Rattus is a bleeding-edge advanced frigate built around a shortened Doldrums Railgun. Miniaturization of Krysan technology has allowed its designers to fit all the necessary components to run and fire the Doldrums without shutting down additional subsystems.
 
-Despite miniaturization of ship technologies and subsystems, sacrifices had to be made as evident by the ship's cramped accommodations and amenities. This meant that the ship had to be flown together with larger more spacious ships in long-term deployments for the sake of crew morale.",,,,
+Despite miniaturization of ship technologies and subsystems, sacrifices had to be made as evident by the ship's cramped accommodations and amenities. This meant that the ship had to be flown together with larger more spacious ships in long-term deployments to sustain ship operations.",,,,
 ,,,,,,
 #LOGISTICS SHIPS,,,,,,
 rebelrats_pybara,SHIP,"The penultimate cargo carrier of the Naval Logistics Fleet, the Pybara's built around the relatively new Super Heavy Containers to satisfy the increasing needs of Krysan Federal Navy. Uniquely, its size can be attributed to the hull being designed around a Daedalus-type fusion torch that utilizes features inspired by acquired Persean Sector technology.

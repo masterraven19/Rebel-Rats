@@ -12,7 +12,6 @@
 	"crest":"graphics/factions/rebelratscrest.png",
 	"shipNamePrefix":"FNS",
 	"shipNameSources":{
-		"GENERAL":1,
 		"rebelrats_Rats":1,
 	},
 	"names":{
@@ -39,14 +38,14 @@
                         "rebelrats_mellivora":6,
                         "rebelrats_pybara":4,
                         "rebelrats_musrattus":6,
-			            "rebelrats_panya":5,
+			"rebelrats_panya":3,
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
 		"tags":["base_bp","rebelrats_arsenal_bp"],
 		"hulls":[
-			            "rebelrats_marmot",
+			"rebelrats_marmot",
                         "rebelrats_rattus",
                         "rebelrats_mus",
 		],
@@ -137,6 +136,7 @@
 		"weapons":[
                         "rebelrats_equalizer_l",
                         "rebelrats_drummer_l",
+                        "rebelrats_tripubus_l",
                         "rebelrats_nezulana_l",
                         "rebelrats_siegeharq_m",
                         "rebelrats_crossbow_m",
@@ -146,7 +146,8 @@
                         "rebelrats_huntsman_s",
                         "rebelrats_huntsmanx2",
                         "rebelrats_hwacha_s",
-                        "rebelrats_pyroclast",                     
+                        "rebelrats_pyroclast",
+                        "rebelrats_petardlauncher_m",                     
                         "rebelrats_ranger",
                         "rebelrats_fowler",
                         "rebelrats_culverin",
@@ -193,9 +194,9 @@
 		
 		"officerQuality":2,
 		"shipQuality":3,
-		"numShips":3,
+		"numShips":4,
 		
-		"shipSize":4,
+		"shipSize":5,
 		
 		"aggression":3,
 		
@@ -291,13 +292,13 @@
 		},
 		"posts":{
 			"patrolCommander":{"name":"Demi Admiral"},
-			"fleetCommander":{"name":"Admiral"},
+			"fleetCommander":{"name":"Rear Admiral"},
 			"baseCommander":{"name":"Fleet Admiral"},
 		},
 	},
 	"fleetTypeNames":{
-		"trade":"Commerce Fleet",
-		"tradeLiner":"Liner Convoy",
+		"trade":"Mercantile Column",
+		"tradeLiner":"Liner Column",
 		"tradeSmuggler":"Rats",
 		"smallTrader":"Sole Trader",
 		
