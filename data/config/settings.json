@@ -18,8 +18,9 @@
 			"rebelrats_target_painter":"graphics/fx/target_painter.png",
 			"rebelrats_shieldouter":"graphics/fx/ratshieldouter.png",
 			"rebelrats_shieldring":"graphics/fx/ratshieldouterring.png",
-			"reblerats_fog":"graphics/fx/fog_circle.png",
-			"reblerats_explosion3":"graphics/fx/explosion3.png",
+			"rebelrats_fog":"graphics/fx/fog_circle.png",
+			"rebelrats_explosion3":"graphics/fx/explosion3.png",
+			"rebelrats_doldrumstrail":"graphics/fx/doldrumstrail.png",
 		},
 		"illustrations": {
 			"rebelrats_powerstation": "graphics/illustrations/rat_powerstation_illu.png",
