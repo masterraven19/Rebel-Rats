@@ -8,7 +8,7 @@
 	
 	"lines":{
 		"start":[
-			{"text":"General Quarters. All hands man your action stations."},
+			{"text":"General Quarters. All hands man to action stations."},
 			{"text":"Drive signatures detected."},
 			{"text":"Maintaining present course."},
 			{"text":"Rig ship for combat."},
@@ -16,32 +16,33 @@
 		],
 		"start_boss":[
 			{"text":"You don't see that everyday..."},
-			{"text":"Scanning unknown drive signatures."},
+			{"text":"Sending large data package to command."},
 		],		
 		"retreat":[
 			{"text":"Withdrawing from combat area."},
-			{"text":"Rig ship for emergency war power!"}
+			{"text":"Rig ship for emergency war power."}
 		],
 		"out_of_missiles":[
-			{"text":"Missiles Expended."},
+			{"text":"Missiles expended."},
 			{"text":"Missiles depleted."}
 		],
 		"engaged":[
 			{"text":"Enemy contact, powering PDCs."},
 			{"text":"Combat initiated, engaging target."},
+			{"text":"HAVE AT THEE!"},
 			{"text":"I am in combat, help wanted."}
 		],
 		"need_help":[
 			{"text":"I could use some help over here!"},
-			{"text":"I'm in trouble here!"},
+			{"text":"Need some extra hands!"},
 		],
 		"pursuing":[
 			{"text":"Pursuing target."},
 			{"text":"Contact, moving to intercept."},
-			{"text":"Vectoring to intercept."}
+			{"text":"Vectoring to intercept target."}
 		],
 		"running":[
-			{"text":"I'm outta here!"}
+			{"text":"Disengaging."}
 		],
 		"hull_90":[
 			{"text":"Damage sustained. Pressure Hull remains stable."},
@@ -54,7 +55,7 @@
 		],
 		"hull_30":[
 			{"text":"My hull's down to 30%!"},
-			{"text":"Hull status critical!"},
+			{"text":"Pressure hull integrity critical!"},
 			{"text":"Pressure hull is buckling, prepare to abandon ship!"},
 			#{"text":"Breach in starboard fusion chamber!"},
 		],
@@ -64,7 +65,7 @@
 		],
 		"death":[
 			{"text":"BRACE!"},
-			{"text":"Purge the fusion core, we're out!"},
+			{"text":"Purge the fusion reactor, we're out!"},
 			{"text":"Mayday, mayday, mayday!"},
 		],
 		"victory":[
