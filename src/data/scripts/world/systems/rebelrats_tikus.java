@@ -11,6 +11,7 @@ import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
 
 import java.awt.*;
+import java.util.Collections;
 
 public class rebelrats_tikus {
     public void generate(SectorAPI sector){
@@ -113,7 +114,7 @@ public class rebelrats_tikus {
 
         //markets
         //tikus 1 (not green this time)
-        MarketAPI tikus_market = Global.getFactory().createMarket("tikus_market","",3);
+        MarketAPI tikus_market = Global.getFactory().createMarket("tikus_market","",4);
         tikus.setMarket(tikus_market);
         tikus_market.setPrimaryEntity(tikus);
 
@@ -122,7 +123,7 @@ public class rebelrats_tikus {
         tikus_market.getTariff().modifyFlat("generator", 0.3f);
         tikus.setInteractionImage("illustrations", "orbital");
 
-        tikus_market.addCondition(Conditions.POPULATION_3);
+        tikus_market.addCondition(Conditions.POPULATION_4);
         tikus_market.addCondition(Conditions.VOLATILES_PLENTIFUL);
         tikus_market.addCondition(Conditions.EXTREME_WEATHER);
 
@@ -132,10 +133,12 @@ public class rebelrats_tikus {
 
         tikus_market.addIndustry(Industries.POPULATION);
         tikus_market.addIndustry(Industries.SPACEPORT);
-        tikus_market.addIndustry(Industries.MINING);
+        tikus_market.addIndustry(Industries.MINING, Collections.singletonList(Items.PLASMA_DYNAMO));
         tikus_market.addIndustry(Industries.FUELPROD);
         tikus_market.addIndustry(Industries.GROUNDDEFENSES);
+        tikus_market.addIndustry(Industries.PATROLHQ);
         tikus_market.addIndustry(Industries.ORBITALSTATION);
+        tikus_market.addIndustry(Industries.WAYSTATION);
 
         tikus_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         globalEconomy.addMarket(tikus_market, false);
@@ -164,14 +167,13 @@ public class rebelrats_tikus {
         tikusII_market.addIndustry(Industries.MEGAPORT);
         tikusII_market.addIndustry(Industries.MINING);
         tikusII_market.addIndustry(Industries.FARMING);
-        tikusII_market.addIndustry(Industries.COMMERCE);
+        tikusII_market.addIndustry(Industries.WAYSTATION);
         tikusII_market.addIndustry(Industries.GROUNDDEFENSES);
-        tikusII_market.addIndustry(Industries.PATROLHQ);
+        tikusII_market.addIndustry(Industries.MILITARYBASE);
         tikusII_market.addIndustry(Industries.BATTLESTATION);
 
         tikusII_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         tikusII_market.getIndustry(Industries.MINING).setAICoreId(Commodities.BETA_CORE);
-        tikusII_market.getIndustry(Industries.COMMERCE).setAICoreId(Commodities.GAMMA_CORE);
         globalEconomy.addMarket(tikusII_market, true);
         //tikus 3 COLD
         MarketAPI tikusIII_market = Global.getFactory().createMarket("tikusIII_market","",4);

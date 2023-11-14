@@ -6,21 +6,18 @@ import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
-import java.awt.*;
-
 public class rebelrats_BastionShieldSystem extends BaseHullMod {
     private final float shieldRadiusOffset = -0.1F;
     private final float shieldArcMax = 150;
     private final float shieldDebuff = 0.2F;
-    private final float sModShieldDebuff = 0F;
+    private final float sModShieldBuff = 0F;
     private final float hardenedShieldBuff = 0.1F;
     private String modId = null;
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
         modId = id;
     }
-    public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
+    public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {}
 
-    }//tomrow make rat check once instead of every FRAME.. do it through customdata in engine
     public void advanceInCombat(ShipAPI ship, float amount) {
         if (Global.getCombatEngine().isPaused()) return;
 
@@ -79,12 +76,12 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
 
         boolean sMod = isSMod(ship);
         if (sMod) {
-            efficiency = sModShieldDebuff;
+            efficiency = sModShieldBuff;
         }else{
             for(String mod: ship.getVariant().getHullMods()){
                 if (mod.equals(modId)) continue;
                 if (mod.equals("hardenedshieldemitter")){
-                    if (efficiency > hardenedShieldBuff){
+                    if (efficiency > 1){
                         efficiency = efficiency - hardenedShieldBuff;
                     }
                 }

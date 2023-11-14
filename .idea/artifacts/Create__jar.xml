@@ -13,7 +13,6 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_petardBeamEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/rebelrats_Tortuga.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_custodianProxEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_custodianSmokeEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_hawkerProxEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rebelrats_powerstationEntityPlugin.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/rebelrats_Powerstation.java" />
@@ -33,7 +32,6 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_BastionShieldSystem.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_spinalDoldrumsEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_huntsmanLaunchEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/decorations/rebelrats_jerboaHatch.java" />
     </root>
   </artifact>
 </component>
