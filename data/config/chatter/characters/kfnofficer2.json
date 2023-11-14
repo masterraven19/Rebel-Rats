@@ -16,7 +16,7 @@
 		],
 		"start_boss":[
 			{"text":"By the gods, that is huge!"},
-			{"text":"It's either us or them!"},
+			{"text":"It's either us or them!"}
 		],		
 		"retreat":[
 			{"text":"This isn't optimal."},
@@ -30,12 +30,12 @@
 			{"text":"Target painted, engaging!"},
 			{"text":"Get some, get some, get some!"},
 			{"text":"HAVE AT THEE!"},
-			{"text":"Engaging hostiles."}
+			{"text":"Engaging hostiles."},
 			{"text":"Temper, temper, temper!"}
 		],
 		"need_help":[
 			{"text":"Need reinforcement!"},
-			{"text":"Requesting assistance, situation's turned sour."},
+			{"text":"Requesting assistance, situation's turned sour."}
 		],
 		"pursuing":[
 			{"text":"Start praying, pests!"},
@@ -43,26 +43,26 @@
 			{"text":"Vectoring to intercept target."}
 		],
 		"running":[
-			{"text":"Disengaging."}
-			{"text":"That is unfortunate, disengaging."}
+			{"text":"Disengaging."},
+			{"text":"That is unfortunate, disengaging."},
 			{"text":"We're out, pressure is too high"}
 		],
 		"hull_90":[
 			{"text":"Damage Control, plug that hole"},
-			{"text":"Taking fire."},
+			{"text":"Taking fire."}
 		],
 		"hull_50":[
 			{"text":"Pressure Hull breached!"},
 			{"text":"Damage Control, fire in the bridge!"},
 			{"text":"Switching condition to material ZEBRA"},
-			{"text":"Critical systems damaged!"},
+			{"text":"Critical systems damaged!"}
 		],
 		"hull_30":[
 			{"text":"My hull's down to 30%!"},
 			{"text":"Pressure hull is screwed!"},
 			{"text":"We've taken heavy hits!"},
 			{"text":"Get that reactor stable, or we're dead!"},
-			#{"text":"Breach in starboard fusion chamber!"},
+			#{"text":"Breach in starboard fusion chamber!"}
 		],
 		"overload":[
 			{"text":"Subsystems offline!"},
@@ -71,13 +71,13 @@
 		"death":[
 			{"text":"Sorry, sir, we're out!"},
 			{"text":"Out, out, out!"},
-			{"text":"Mayday, mayday, mayday!"},
+			{"text":"Mayday, mayday, mayday!"}
 		],
 		"victory":[
 			{"text":"All identified hostiles eliminated."},
 			{"text":"Area secured."},
 			{"text":"The enemy has been foundered!"},
-			{"text":"Take that!"},
+			{"text":"Take that!"}
 		],
 	}
 }
