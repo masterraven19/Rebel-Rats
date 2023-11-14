@@ -21,7 +21,7 @@
 					 "particleCount":75,
 					 "particleColor":[100,159,217,50]},
 	"armingTime":0.5,
-	"engineSpec":{"turnAcc":140,
+	"engineSpec":{"turnAcc":320,
 				  "turnRate":160,
 				  "acc":1200,
 				  "dec":300},

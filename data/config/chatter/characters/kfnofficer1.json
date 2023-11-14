@@ -16,7 +16,7 @@
 		],
 		"start_boss":[
 			{"text":"You don't see that everyday..."},
-			{"text":"Sending large data package to command."},
+			{"text":"Sending large data package to command."}
 		],		
 		"retreat":[
 			{"text":"Withdrawing from combat area."},
@@ -30,11 +30,11 @@
 			{"text":"Enemy contact, powering PDCs."},
 			{"text":"Combat initiated, engaging target."},
 			{"text":"HAVE AT THEE!"},
-			{"text":"I am in combat, help wanted."}
+			{"text":"I am in combat, help requested."}
 		],
 		"need_help":[
 			{"text":"I could use some help over here!"},
-			{"text":"Need some extra hands!"},
+			{"text":"Need some extra hands!"}
 		],
 		"pursuing":[
 			{"text":"Pursuing target."},
@@ -46,18 +46,18 @@
 		],
 		"hull_90":[
 			{"text":"Damage sustained. Pressure Hull remains stable."},
-			{"text":"Taking fire."},
+			{"text":"Taking fire."}
 		],
 		"hull_50":[
 			{"text":"Pressure Hull has been breached!"},
 			{"text":"Fire, fire, fire. Damage control!"},
-			{"text":"Switching condition to material ZEBRA"},
+			{"text":"Switching condition to material ZEBRA"}
 		],
 		"hull_30":[
 			{"text":"My hull's down to 30%!"},
 			{"text":"Pressure hull integrity critical!"},
 			{"text":"Pressure hull is buckling, prepare to abandon ship!"},
-			#{"text":"Breach in starboard fusion chamber!"},
+			#{"text":"Breach in starboard fusion chamber!"}
 		],
 		"overload":[
 			{"text":"Power Grid offline!"},
@@ -66,13 +66,13 @@
 		"death":[
 			{"text":"BRACE!"},
 			{"text":"Purge the fusion reactor, we're out!"},
-			{"text":"Mayday, mayday, mayday!"},
+			{"text":"Mayday, mayday, mayday!"}
 		],
 		"victory":[
 			{"text":"The day is ours!"},
 			{"text":"We have triumphed!"},
 			{"text":"The enemy has been foundered!"},
-			{"text":"We showed them!"},
+			{"text":"We showed them!"}
 		],
 	}
 }
