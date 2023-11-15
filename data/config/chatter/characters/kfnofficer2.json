@@ -4,7 +4,7 @@
 	"gender":["m","f","n"],
 	"chance":0.5,
 	"talkativeness":1,
-	"categoryTags":["default", "original"],
+	"categoryTags":["original","military"],
 	
 	"lines":{
 		"start":[
@@ -20,10 +20,10 @@
 		],		
 		"retreat":[
 			{"text":"This isn't optimal."},
-			{"text":"Back up, back up!."}
+			{"text":"Back up, back up!"}
 		],
 		"out_of_missiles":[
-			{"text":"Missiles Expended."},
+			{"text":"Missiles expended."},
 			{"text":"Missiles depleted."}
 		],
 		"engaged":[
@@ -44,7 +44,7 @@
 		],
 		"running":[
 			{"text":"Disengaging."},
-			{"text":"That is unfortunate, disengaging."},
+			{"text":"This is unfortunate, disengaging."},
 			{"text":"We're out, pressure is too high"}
 		],
 		"hull_90":[

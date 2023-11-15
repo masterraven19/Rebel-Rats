@@ -4,19 +4,19 @@
 	"gender":["m","f","n"],
 	"chance":0.5,
 	"talkativeness":1,
-	"categoryTags":["default", "original"],
+	"categoryTags":["original","military"],
 	
 	"lines":{
 		"start":[
-			{"text":"General Quarters. All hands man to action stations."},
-			{"text":"Drive signatures detected."},
+			{"text":"General Quarters, General Quarters. All hands action stations."},
+			{"text":"Drive signatures detected, all hands to action stations."},
 			{"text":"Maintaining present course."},
 			{"text":"Rig ship for combat."},
 			{"text":"Awaiting orders."}
 		],
 		"start_boss":[
 			{"text":"You don't see that everyday..."},
-			{"text":"Sending large data package to command."}
+			{"text":"Sending data package to command."}
 		],		
 		"retreat":[
 			{"text":"Withdrawing from combat area."},

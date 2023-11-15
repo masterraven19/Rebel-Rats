@@ -1,0 +1,82 @@
+{
+	"name":"Krysan Navy Paladin",
+	"personalities":["steady","aggressive"],
+	"gender":["m","f","n"],
+	"chance":0.5,
+	"talkativeness":1,
+	"categoryTags":["rebelrats"],
+	
+	"lines":{
+		"start":[
+			{"text":"May the gods favor us."},
+			{"text":"We will emerge a stronger soul from this."},
+			{"text":"Eye for an eye, ship for a ship."},
+			{"text":"Have fun and be careful."},
+			{"text":"Treat others as you would treat them."}
+		],
+		"start_boss":[
+			{"text":"The gods are watching, let's give em'a good show!"},
+			{"text":"Count your blessings, goodluck everyone."}
+		],		
+		"retreat":[
+			{"text":"Oh blessed be."},
+			{"text":"The gods aren't in our favor today."}
+		],
+		"out_of_missiles":[
+			{"text":"Oh that's unfortunate, racks are dry!"},
+			{"text":"Missiles have been depleted."}
+		],
+		"engaged":[
+			{"text":"Smite that target!"},
+			{"text":"I live to serve my oath!"},
+			{"text":"HAVE AT THEE!"},
+			{"text":"Through oath I serve!"},
+			{"text":"Justice guides our guns!"}
+		],
+		"need_help":[
+			{"text":"We're in need of assistance!"},
+			{"text":"Things are turning ugly, send help."}
+		],
+		"pursuing":[
+			{"text":"Have you counted your blessings?"},
+			{"text":"Fate has unfortunately caught up you them."},
+			{"text":"Vectoring to intercept target."}
+		],
+		"running":[
+			{"text":"Reverse thrusters!"},
+			{"text":"Pull back!"},
+			{"text":"Seeking assistance!"}
+		],
+		"hull_90":[
+			{"text":"Oh- that's a hole"},
+			{"text":"Seems that we've agitated them, fire back!"}
+		],
+		"hull_50":[
+			{"text":"Oh, blessed be, that's a big hole."},
+			{"text":"Oh great heavens! Ship's roughed up."},
+			{"text":"Critical system damage!"}
+		],
+		"hull_30":[
+			{"text":"My hull's down to 30%!"},
+			{"text":"Oh heavens! there goes my navigator."},
+			{"text":"Heavy casualties sustained, the corpsmen are dead!"},
+			{"text":"Ship's buckling, but my men are not. Please send help!"},
+			#{"text":"Breach in starboard fusion chamber!"}
+		],
+		"overload":[
+			{"text":"Oof, we're redlining!"},
+			{"text":"Curses, the reactor's overloading."}
+		],
+		"death":[
+			{"text":"All remaining crew get the wounded into the skiffs, we're done!"},
+			{"text":"May the souls guide the fallen"},
+			{"text":"Agh-! *connection lost*"}
+		],
+		"victory":[
+			{"text":"The gods look at us with glee."},
+			{"text":"Praise be!"},
+			{"text":"Battle's over, secure the wounded, assess battle damage."},
+			{"text":"Absolutely sublime performance, sir!"}
+		],
+	}
+}
