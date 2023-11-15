@@ -24,4 +24,9 @@
 		#	#"hegemony": ["Aztlan", "chicomoztoc"],
 		#},
     },
+	"chatter":{
+	"factionRoundels":{
+			"rebelrats":"graphics/factions/rebelratscrest.png",
+		},
+	}
 }
