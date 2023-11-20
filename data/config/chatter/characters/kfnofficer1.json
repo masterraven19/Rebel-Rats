@@ -55,8 +55,8 @@
 		],
 		"hull_30":[
 			{"text":"My hull's down to 30%!"},
-			{"text":"Pressure hull integrity critical!"},
-			{"text":"Pressure hull is buckling, prepare to abandon ship!"},
+			{"text":"Pressure hull critical!"},
+			{"text":"Pressure hull is buckling, prepare the skiffs!"},
 			#{"text":"Breach in starboard fusion chamber!"}
 		],
 		"overload":[
@@ -72,7 +72,7 @@
 			{"text":"The day is ours!"},
 			{"text":"We have triumphed!"},
 			{"text":"The enemy has been foundered!"},
-			{"text":"We showed them!"}
+			{"text":"We showed them."}
 		],
 	}
 }

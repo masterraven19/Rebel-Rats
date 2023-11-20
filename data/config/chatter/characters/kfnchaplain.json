@@ -15,7 +15,7 @@
 			{"text":"Treat others as you would treat them."}
 		],
 		"start_boss":[
-			{"text":"The gods are watching, let's give em'a good show!"},
+			{"text":"The gods are watching, let's give em' a good show!"},
 			{"text":"Count your blessings, goodluck everyone."}
 		],		
 		"retreat":[
@@ -23,15 +23,15 @@
 			{"text":"The gods aren't in our favor today."}
 		],
 		"out_of_missiles":[
-			{"text":"Oh that's unfortunate, racks are dry!"},
+			{"text":"Oh that's unfortunate, racks have gone dry."},
 			{"text":"Missiles have been depleted."}
 		],
 		"engaged":[
 			{"text":"Smite that target!"},
-			{"text":"I live to serve my oath!"},
+			{"text":"For oath and country!"},
 			{"text":"HAVE AT THEE!"},
 			{"text":"Through oath I serve!"},
-			{"text":"Justice guides our guns!"}
+			{"text":"Our belief guides our shells!"}
 		],
 		"need_help":[
 			{"text":"We're in need of assistance!"},
@@ -39,7 +39,7 @@
 		],
 		"pursuing":[
 			{"text":"Have you counted your blessings?"},
-			{"text":"Fate has unfortunately caught up you them."},
+			{"text":"Fate has unfortunately caught up."},
 			{"text":"Vectoring to intercept target."}
 		],
 		"running":[
@@ -48,7 +48,7 @@
 			{"text":"Seeking assistance!"}
 		],
 		"hull_90":[
-			{"text":"Oh- that's a hole"},
+			{"text":"Oh- that's a hole."},
 			{"text":"Seems that we've agitated them, fire back!"}
 		],
 		"hull_50":[

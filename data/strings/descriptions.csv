@@ -200,11 +200,11 @@ Outside of what little crops can be exported, settlers also take to mining the p
 ,,,,,,
 #STATIONS,,,,,,
 rebelrats_powerstation,CUSTOM,A collector station designed by The Three Brothers Corporation to consume the power of the sun and beam it back to Krysan orbital power stations.,,,,
-rebelrats_powerstation_interaction,CUSTOM,"As your fleet approaches the power station you suddenly recieve a warning notification to not to approach the station any closer. Your gunnery officer alarms the bridge that several targetting lasers from the station are painting your fleet, prompting your officers to advise against any notion of further approaching the station.",,,,
-rebelrats_rod_station,CUSTOM,A station made by Rebel Rat Industries in order to extract the resources of Rodentia.,,,,
-rebelrats_outerstation,CUSTOM,"A station made out of massive asteroids that have been cobbled together. Asteroid Central Station serves as a refuelling site for miners and smugglers. The massive station is the home of the people who are the ancestors of the many refugees who fled to the Outer Maw during the Penance War.
+rebelrats_powerstation_interaction,CUSTOM,Rising thermal signatures eminating from its internals indicate reactors being activated for a potential scuffle. You're informed by your gunnery officer that targetting lasers from the station are painting your fleet.,,,,
+rebelrats_rod_station,CUSTOM,A station built by Rebel Rat Industries to extract the resources of Rodentia.,,,,
+rebelrats_outerstation,CUSTOM,"A station made of massive cobbled together asteroids, Asteroid Central Station serves as both a refuelling point for miners and smugglers and as their home in the system. The massive station is the home of the people who are the ancestors of the many refugees who fled to the Outer Maw during the Penance War.
 
-Despite its ponderous appearance, the station is comparatively lightly-armed with very few large guns to speak off. The few dedicated defence modules that can be seen are a handful of jury-rigged gun platforms not too dissimilar to those found on Pirate or Pather stations.
+Despite its ponderous appearance, the station is lightly-armed with very few large guns to speak off. The few dedicated defence modules that can be seen are a handful of jury-rigged gun platforms not too dissimilar to those found on Pirate or Pather stations.
 ",,,,
 ,,,,,,
 #UNKOWN,,,,,,
