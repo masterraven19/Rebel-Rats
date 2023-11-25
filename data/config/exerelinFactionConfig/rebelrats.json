@@ -18,7 +18,7 @@
         "pirates": -1,				# You all are mean!!! (Give us drugs)
         "luddic_path": -1,			# They blew up our cheese!!!
         "tahlan_legioinfernalis": -0.5,  	# They overgrilled the cheese
-
+	"tritachyon": -0.3,
     },
     "minRelationships":{
         "hegemony": -0.1,
@@ -26,6 +26,7 @@
         "diktat": 0.3,
         "pirates": -0.7,
         "luddic_path": -1,
+	"tritachyon": -0.5,
     },
     "maxRelationships":{
         "hegemony": -1,
@@ -34,6 +35,7 @@
         "neutral": 0.6,
         "pirates": -1,
         "luddic_path": -1,
+	"tritachyon": -0.1,
     },
     
     "morality":"good",	# Pro-Rat supremacy
@@ -42,13 +44,18 @@
         "diplomatic":1,
         "ideological":0.3,
         "hierarchical":0.8,
+	"militarist":0.5,
     },
-    "diplomacyTraits":["helps_allies", "temperamental", "stalwart"],
+    "diplomacyTraits":["helps_allies", "neutralist", "stalwart"],
     
     # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
-    "colonyExpeditionChance":1.5,	# slightly more expansionist to overcome Hegemony's numerical superiority,,
+    "colonyExpeditionChance":1.5,	# expansionist to mirror the rat colonization efforts,
     "colonyTargetValuator": "exerelin.campaign.colony.IndustrialColonyTargetValuator",
-    
+	
+	"groundBattleSettings":{
+		"moraleDamageTakenMult":0.8,
+		},
+
     "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
         
     "startShipsSolo":[
