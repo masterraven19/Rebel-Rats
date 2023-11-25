@@ -124,7 +124,7 @@ public class rebelrats_dragonsblessing {
                 4800,
                 160);
         rodentia.setCustomDescriptionId("rebelrats_rodentia_planet"); //reference descriptions.csv
-        rodentia.setFaction(Factions.NEUTRAL);
+        rodentia.setFaction("rebelrats");
         
         system.addAsteroidBelt(rodentia, 0, 550, 270f, 8, 9, Terrain.RING, "Rodentia Belt");
         system.addRingBand(rodentia, "misc", "rings_dust0", 270, 0, Color.lightGray, 270, 550, 9);
