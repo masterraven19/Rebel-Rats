@@ -11,14 +11,24 @@
     "useConfigRelationshipsInNonRandomSector": true,
     "noSyncRelations": false,
     "startRelationships":{
-        "hegemony": -0.4,			# Hegie bastards taxed the rats
-        "independent": 0.8,			# Independent bros coolio, they gave Persean cheese
-        "diktat": 0.5,				# Fuelratgang
-        "neutral": 0.4,				# Who the rat are you? But we cool
-        "pirates": -1,				# You all are mean!!! (Give us drugs)
-        "luddic_path": -1,			# They blew up our cheese!!!
-        "tahlan_legioinfernalis": -0.5,  	# They overgrilled the cheese
-	"tritachyon": -0.3,
+	"hegemony": -0.4,			# Hegie bastards taxed the rats
+	"independent": 0.8,			# Independent bros coolio, they gave Persean cheese
+	"sindrian_diktat": 0.5,			# Fuelratgang
+	"remnant": -1,				# Robotic abominations
+	"neutral": 0.4,				# Who the rat are you? But we cool
+	"pirates": -1,				# You all are mean!!! (Give us drugs)
+	"luddic_church": 0.3,			# They make natural tasty cheese, wowie!
+	"luddic_path": -1,			# They blew up our cheese!!!
+	"tritachyon": -0.1,			# Fancy pant shiny man big sus, ratoo no trusto
+	"tahlan_legioinfernalis": -0.5,  	# They STOLE the cheese!
+	"uaf": 0.4,				# Rats no trust royalty but chococheese coolio
+	"legionarry": 0.5,			# Beeg fortress system very cool
+	"mayasura": 0.6,			# The persecuted innocents must be helped, they have cool sand shark pets!
+	"SCY": 0.5,				# People eeking out a living to rebuild and redeem themselves
+	"diableavionics": 0.3,			# Corporate slavers who salved rattos!
+	"scalartech": 0.7,			# shipa go pew pew pew rat like shiny pew pew pew
+	"kadur_remnant": 0.1,			# Idealistic unfriendlies! Ratto no likey
+	"scalartech": 0.7,
     },
     "minRelationships":{
         "hegemony": -0.1,
@@ -26,7 +36,7 @@
         "diktat": 0.3,
         "pirates": -0.7,
         "luddic_path": -1,
-	"tritachyon": -0.5,
+	"tritachyon": -0.3,
     },
     "maxRelationships":{
         "hegemony": -1,
@@ -35,7 +45,7 @@
         "neutral": 0.6,
         "pirates": -1,
         "luddic_path": -1,
-	"tritachyon": -0.1,
+	"tritachyon": 0.1,
     },
     
     "morality":"good",	# Pro-Rat supremacy

@@ -304,10 +304,10 @@
 		
 		"patrolSmall":"Patrol Flotilla",
 		"patrolMedium":"System Defense Squadron",
-		"patrolLarge":"System Defense Battlegroup",
+		"patrolLarge":"System Battlegroup",
 		
 		"inspectionFleet":"Inspectors",
-		"taskForce":"Company Battlegroup",
+		"taskForce":"Maneuver Element",
 		
 		"foodReliefFleet":"Relief Convoy",
 	},

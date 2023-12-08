@@ -16,7 +16,8 @@
 		],
 		"start_boss":[
 			{"text":"You don't see that everyday..."},
-			{"text":"Sending data package to command."}
+			{"text":"Command, are you seeing this?!"},
+			{"text":"Command, we're sending an emergency data package."}
 		],		
 		"retreat":[
 			{"text":"Withdrawing from combat area."},
@@ -30,7 +31,8 @@
 			{"text":"Enemy contact, powering PDCs."},
 			{"text":"Combat initiated, engaging target."},
 			{"text":"HAVE AT THEE!"},
-			{"text":"I am in combat, help requested."}
+			{"text":"Target verified, engaging."},
+			{"text":"Enemy contact, responding."}
 		],
 		"need_help":[
 			{"text":"I could use some help over here!"},
@@ -42,15 +44,17 @@
 			{"text":"Vectoring to intercept target."}
 		],
 		"running":[
-			{"text":"Disengaging."}
+			{"text":"Disengaging."},
+			{"text":"Break off enemy contact."}
 		],
 		"hull_90":[
 			{"text":"Damage sustained. Pressure Hull remains stable."},
-			{"text":"Taking fire."}
+			{"text":"Hull impact, damage control systems check."},
+			{"text":"Taking fire, damage report."}
 		],
 		"hull_50":[
 			{"text":"Pressure Hull has been breached!"},
-			{"text":"Fire, fire, fire. Damage control!"},
+			{"text":"Damage control, fire, fire, fire."},
 			{"text":"Switching condition to material ZEBRA"}
 		],
 		"hull_30":[
@@ -61,7 +65,7 @@
 		],
 		"overload":[
 			{"text":"Power Grid offline!"},
-			{"text":"Ship overloaded, requesting for cover!"}
+			{"text":"Ship overloaded, requesting cover!"}
 		],
 		"death":[
 			{"text":"BRACE!"},

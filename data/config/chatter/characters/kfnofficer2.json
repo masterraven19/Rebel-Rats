@@ -15,7 +15,7 @@
 			{"text":"Awaiting for combat orders."}
 		],
 		"start_boss":[
-			{"text":"By the gods, that is huge!"},
+			{"text":"By the gods, that is quite a handful!"},
 			{"text":"It's either us or them!"}
 		],		
 		"retreat":[
@@ -31,7 +31,7 @@
 			{"text":"Get some, get some, get some!"},
 			{"text":"HAVE AT THEE!"},
 			{"text":"Engaging hostiles."},
-			{"text":"Temper, temper, temper!"}
+			{"text":"Rip them apart!"}
 		],
 		"need_help":[
 			{"text":"Need reinforcement!"},
@@ -48,19 +48,20 @@
 			{"text":"We're out, pressure is too high"}
 		],
 		"hull_90":[
-			{"text":"Damage Control, plug that hole"},
+			{"text":"Damage Control, hull impact"},
 			{"text":"Taking fire."}
 		],
 		"hull_50":[
-			{"text":"Pressure Hull breached!"},
+			{"text":"Pressure hull breached!"},
 			{"text":"Fire in the bridge!"},
 			{"text":"Switching condition to material ZEBRA"},
+			{"text":"Main hull lost pressure."},
 			{"text":"Critical systems damaged!"}
 		],
 		"hull_30":[
 			{"text":"My hull's down to 30%!"},
 			{"text":"Pressure hull is screwed!"},
-			{"text":"We've taken heavy hits!"},
+			{"text":"We've taken critical damage!"},
 			{"text":"Get that reactor stable, or we're dead!"},
 			#{"text":"Breach in starboard fusion chamber!"}
 		],
