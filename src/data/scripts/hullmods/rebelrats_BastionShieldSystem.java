@@ -6,6 +6,8 @@ import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
+import java.awt.*;
+
 public class rebelrats_BastionShieldSystem extends BaseHullMod {
     private final float shieldRadiusOffset = -0.1F;
     private final float shieldArcMax = 150;
@@ -99,7 +101,13 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
         return null;
     }
     public String getSModDescriptionParam(int index, HullSize hullSize) {
-        if (index == 0) return "" + 0;
+        if (index == 0) return "" + sModShieldBuff;
         return null;
+    }
+    public Color getBorderColor() {
+        return Global.getSettings().getDesignTypeColor("Rebel Rats");
+    }
+    public Color getNameColor() {
+        return Global.getSettings().getDesignTypeColor("Rebel Rats");
     }
 }

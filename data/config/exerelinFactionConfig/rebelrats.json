@@ -28,7 +28,6 @@
 	"diableavionics": 0.3,			# Corporate slavers who salved rattos!
 	"scalartech": 0.7,			# shipa go pew pew pew rat like shiny pew pew pew
 	"kadur_remnant": 0.1,			# Idealistic unfriendlies! Ratto no likey
-	"scalartech": 0.7,
     },
     "minRelationships":{
         "hegemony": -0.1,

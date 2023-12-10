@@ -12,3 +12,9 @@ SetShortcut beaconLeave ""ESCAPE""",An autonomous warning beacon has been left e
 rebelrats_powerstationOpenDialog,OpenInteractionDialog,$customType == rebelrats_powerstation,"ShowDefaultVisual
 SetShortcut rebelrats_powerstation_Leave ""ESCAPE""",As your fleet approaches the power station you suddenly recieve a warning notification to not to approach the station any closer. Your gunnery officer alarms you that there are several targetting lasers pointing on the ships of your fleet. Your assistant officers advise you not to get closer.,0:rebelrats_powerstation_Leave:Leave,
 rebelrats_powerstation_Leave,DialogOptionSelected,$option == rebelrats_powerstation_Leave,DismissDialog,,,
+,,,,,,
+#CC GG!!!!!!!,,,,,,
+rebelrats_comissioned,ExerelinNGCStep3,"$playerFaction == rebelrats
+!$rebelrats_changemind	","AddText ""Commissioned Crews Bonus: Ships gain repairs.""
+SetTextHighlights Commissioned Crews Bonus
+$rebelrats_changemind = true 0",,,

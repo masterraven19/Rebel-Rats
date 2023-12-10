@@ -10,3 +10,5 @@ Bastion Shield System,rebelrats_bastionshield,1,,Rebel Rats,"defensive, shields,
 Increases shield arc to %s when turned to the sides, but decreases shield efficiency by %s",Yeah,Nullifies the shield debuff and sets it to %s.,graphics/hullmods/bastion_shield_system.png
 ,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
+#comissionooonon,,,,,,,,,,,,,,,,,,,
+Krysan fart assist,rebelrats_cc,,,Rebel Rats,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.rebelrats_cc,"Krysan engineers decide to stop eating their sandwiches and get to work. Repairs the hull up to a certain cap, depending on hull size. Starts repairing at %s hull and goes up to %s/%s/%s/%s. At %s hull the engineers decide we gotta run and buffs the acceleration and deceleration by %s and turn speed by %s",Repairs hull and provides acceleration when low.,,graphics/hullmods/bastion_shield_system.png

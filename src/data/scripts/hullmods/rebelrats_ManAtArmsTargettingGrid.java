@@ -1,5 +1,6 @@
 package data.scripts.hullmods;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
@@ -127,5 +128,11 @@ public class rebelrats_ManAtArmsTargettingGrid extends BaseHullMod {
 		tooltip.addTable("",0,pad);
 
 		//tooltip.addPara("%s",2F,Color.gray,new String[]{ "The rats are armed" }).italicize();
+	}
+	public Color getBorderColor() {
+		return Global.getSettings().getDesignTypeColor("Arms & Armor");
+	}
+	public Color getNameColor() {
+		return Global.getSettings().getDesignTypeColor("Arms & Armor");
 	}
 }
