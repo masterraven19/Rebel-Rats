@@ -62,6 +62,7 @@ rebelrats_overseer,SHIP,"A light interceptor of the Krysan Federal Navy, the Ove
 rebelrats_ministro,SHIP,"The Ministro is a lightweight, unmanned interceptor drone designed by Rebel Rat Industries as a proposal to Krysan Navy officials to reduce pilot losses. It quickly found success with increasingly advanced drone control systems that allowed finer control with unmanned drones.",,,,
 rebelrats_patron_f,SHIP,"Cleverly set up microforges have allowed Federal ships to stuff an entire corvette into a hangar bay. Unfortunately, this means that only one Patron can be deployed per hangar bay with reduced capabilities.",,,,
 rebelrats_daekon,SHIP,A fast assault fighter built to break the shields of the enemy spacecraft and shred their armor with assault chainguns.,,,,
+rebelrats_dustero,SHIP,lol haha im talon but i got guardsman turrets. better fear me,,,,
 ,,,,,,
 #BOMBERS,,,,,,
 rebelrats_olympian,SHIP,"Despite its shambolic origins of being made from the remains of Piranha bombers, the Olympian is a capable bomber that dutifully does its job with more than enough armor and PD coverage to last it through its bombing run. A recurring joke among Olympian pilots is that the onboard warhead contains a Red Bombardier Rat as its payload.",,,,"""What kind of barbarians would ever use an animal as its guidance system? That's preposterous!"""
@@ -74,6 +75,7 @@ The Porcellus is designed by the Arms and Armor Conglomerate and is built in the
 
 At the ship’s core, four Barkley-Pattern Heavy-Duty AM-catalysed flux reactors are responsible for powering the ship’s Basilica-Model shield generator and its set of four massive H303 Torch Drives and two secondary H302 Torch Drives.
 ",,,,
+,,,,,,
 rebelrats_marmot,SHIP,"Marmot Heavy Cruisers form the backbone of Krysan formations. The ship’s set of weapon mounts and hangars means that the ship can fill most roles that its captain may require. With its Doldrums Superheavy Railgun, the Marmot allows captains to bring station-grade weaponry to battles, allowing the ship to act as fire support for larger capitals.
 
 Designed by Veronica Witherfield, Rebel Rats Head Engineer, the Marmot is designed to fill out a multitude of roles in the field from squadron leader in flotillas, to fire support platforms in larger battles. Veronica, together with Federal Navy officers, created the ship alongside the Mobile Defence Doctrine, giving the ship with sufficient structural integrity and flux systems to handle the operation of a Doldrums Superheavy Railgun.
@@ -103,6 +105,7 @@ A direct evolution from the Helmsman, the Steersman is a more serious take by Be
 Hailing from the docks of the Asteroid Central Station, the Steersman represents the Belter's will to be independents and its ultimate wish to remove piracy within its jurisdiction. The ship was made to counteract the growing levels of piracy as pirates coming from the Persean Sector bring ever more heavier ships and weapons to raid Belter space.
 
 Its onboard fusion torch is a design derived from the most successful Helmsman homebrewed fusion torch drive named the Mammoth Fusion Torch. At its core, three Bobcat-Pattern flux reactors power the ship's onboard systems and torch drive.",,,,
+,,,,,,
 rebelrats_mellivora,SHIP,"Though thin skinned and lightly armed, the Mellivora can provide sufficient strikecraft cover with its high-capacity hangars. During battles, it relies on its blistering speed and ample fighter coverage to strike opponents as its armaments is, at best, comparable to that of a frigate.
 
 Realizing the need for a high mobility light carrier, Krysan High Command commissioned Arms & Armor to design the light carrier as the company possesses most experience with designing carriers. This resulted in a quick turnover time with the ship's design and development and saw no major issues during its field tests.
@@ -129,6 +132,8 @@ With captains that can only be described as desperate daredevils with no regard 
 
 Its fusion torch engine is homebrewed from a frankenstein of parts while its flux reactor is usually a Bobcat-Pattern Flux Reactor taken from a salvaged Monax.
 ",,,,
+rebelrats_sorex,SHIP,Im a gunship and u should fear me,,,,
+,,,,,,
 rebelrats_mus,SHIP,"Bearing unparalleled speed and brash firepower, the Mus is a menace on the battlefield when left unattended. The ship’s built-in plasma launchers and torpedo tubes allow it to spar with larger ships while its new S601 Fusion Torch gives it the speed to easily keep up with enemy frigates. However, this emphasis on movement meant that armor had to be sacrificed, leaivng the Mus with paper thin armor.
 
 Rebel Rat Industries created the Mus to serve alongside the Rattus as its escort. As the newest addition to the Krysan Federal Navy, the Mus enjoys better shield generators that are more efficient at taking shots and provides wider coverage than older shield models.
@@ -153,12 +158,14 @@ Developed in conjuction with the Fleet Logistics Improvement Program, the Three 
 Despite unfortunate shortcomings, Pybara captains and crew enjoy more spacious accommodations than the smaller Monax thanks to extensive automation and additional onboard facilities its fighter detachment. Pybaras feature a couple of people mover cars along its spines to quickly shunt people and materials around to the delight of onboard offduty crew and pilots.
 
 At its core, the Pybara hosts a single Camel-Pattern Flux Reactor to power the large H101D Daedalus-type Fusion Torch while two Minuitoid Flux Reactors are responsible for pwoering the ship's various subsystems.",,,,
+,,,,,,
 rebelrats_monax,SHIP,"The Monax is the workhorse of the Naval Logistics Fleet with its ample cargo holds and extensive salvaging equipment. Nothing on the ship’s base model is underutilized or an embellishment, every part of the Monax is designed to be easily interchangeable to fit the user’s needs while its cargo holds have been maximized to carry as many cargo units as possible with its powerful torch drive. 
 
 The freighter is a collaboration between Kaharian Naval Steelworks and Jerel’s Fuel Haulers, now called the Three Brother's Corporation after merging, in an attempt to standardize Krysan cargo hauling. The project, being hugely successful, made the Monax the most common freighter to be seen flying in Krysan trade fleets. The Monax’ ubiquity and focus in standardization in Krysan cargo fleets created a barter economy that revolved around trading parts and also allowed dedicated businesses that are solely created for servicing Monax freighters.
 
 The ship is equipped with an M405 Torch Drive that has been factory tuned for maximum efficiency and is hooked up to a single Bobcat-Pattern Flux Reactor.
 ",,,,
+,,,,,,
 rebelrats_panya,SHIP,"Despite its size, the Panya is more than capable of supporting local economies and small commerce fleets. Due to this, Federal Navy officers took interest in the ship's potential to extend the deep space endurance of flotillas as the ship was essentially nothing more than a few modular cargo holds with a fusion torch attached on its back. Like the Buffalo, the Panya relies on escorts to carry it through its journeys safely.
 
 The ship found its origins as a cheap solution to solving the shortage of service shuttles large enough to meet the growing demands of station constellations in Dragon's Blessing. Overtime, the Panya was able to grow out a niche of being the first choice for upcoming Krysan starfarers looking for a cheap cargo ship that demanded little maintenance.
@@ -166,6 +173,7 @@ The ship found its origins as a cheap solution to solving the shortage of servic
 With its diminutive size, the Panya's interiors can only be described as utilitarian and more akin to that of terrestrial cargo ships with individual cabins to host its measly number of crew. Fortunately for the crew, the ship utilizes extensive automation to ease the level of workload, meaning that onboard accommodations are more spacious than its larger brothers.
 
 The ship is equipped with a Lynx-pattern flux reactor to power its systems and a single M303 Fusion Torch tuned down for efficiency.",,,,
+rebelrats_rott,SHIP,woah rott? The chunky frigate fueler,,,,
 ,,,,,,
 #SHIP SYSTEMS,,,,,,
 rebelrats_jerboaSystem,SHIP_SYSTEM,"Overwhelms the target using onboard EW systems. Disrupts the target's subsystems for a short amount of time: disables turret rotation, reduces ship turning, disables engines",Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,

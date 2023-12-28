@@ -1,0 +1,23 @@
+{
+  "variantId": "rebelrats_dustero_Fighter",
+  "hullId": "rebelrats_dustero",
+  "displayName": "Assault Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_guardsman_f",
+        "WS0002": "rebelrats_guardsman_f"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

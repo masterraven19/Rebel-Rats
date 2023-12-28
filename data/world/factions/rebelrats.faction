@@ -27,18 +27,36 @@
 		"tags":{
 		},
 		"hulls":{
-                        "rebelrats_marmot":9,
-                        "rebelrats_rattus":6,
-                        "rebelrats_mus":5,
-                        "rebelrats_monax":5,
-                        "rebelrats_porcellus":10,
-                        "rebelrats_jerboa":4,
-                        "rebelrats_patron":5,
-                        "rebelrats_matkaboska":9,
-                        "rebelrats_mellivora":6,
-                        "rebelrats_pybara":4,
-                        "rebelrats_musrattus":6,
-			"rebelrats_panya":3,
+		                #combat cap
+		                "rebelrats_porcellus":10,
+
+		                #combat cruiser
+		                "rebelrats_marmot":9,
+		                "rebelrats_matkaboska":9,
+		                "rebelrats_jerboa":4,
+
+		                #combat destroyer
+		                "rebelrats_rattus":6,
+		                "rebelrats_mellivora":6,
+		                "rebelrats_sorex":6,
+
+		                #combat frig
+		                "rebelrats_mus":5,
+		                "rebelrats_patron":5,
+		                "rebelrats_musrattus":6,
+
+		                #logis cap
+		                "rebelrats_pybara":4,
+
+		                #logis cruiser
+
+		                #logis destroyer
+		                "rebelrats_monax":5,
+
+		                #logis frig
+                        "rebelrats_panya":3,
+                        "rebelrats_rott":3,
+
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
@@ -53,105 +71,158 @@
 	"knownShips":{
 		"tags":["rebelrats_arsenal_bp"],
 		"hulls":[
+		                #combat cap
+		                "rebelrats_porcellus",
+
+		                #combat cruiser
                         "rebelrats_marmot",
-                        "rebelrats_rattus",
-                        "rebelrats_mus",
-                        "rebelrats_monax",
-                        "rebelrats_porcellus",
                         "rebelrats_jerboa",
-                        "rebelrats_patron",
                         "rebelrats_matkaboska",
-                        "rebelrats_mellivora",
-                        "rebelrats_pybara",
+
+		                #combat destroyer
+		                "rebelrats_rattus",
+		                "rebelrats_mellivora",
+		                "rebelrats_sorex",
+
+		                #combat frig
+		                "rebelrats_mus",
+		                "rebelrats_patron",
+		                "rebelrats_musrattus",
+
+		                #logis cap
+		                "rebelrats_pybara",
+
+		                #logis cruiser
+
+		                #logis destroyer
+		                "rebelrats_monax",
+
+		                #logis frig
                         "rebelrats_panya",
-                        "rebelrats_musrattus",
+                        "rebelrats_rott",
+
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
 		"tags":[],
 		"hulls":[
-                        "rebelrats_marmot",
-                        "rebelrats_rattus",
-                        "rebelrats_mus",
-                        "rebelrats_monax",
-                        "rebelrats_porcellus",
-                        "rebelrats_jerboa",
+		                #combat cap
+		                "rebelrats_porcellus",
+
+		                #combat cruiser
+		                "rebelrats_marmot",
+		                "rebelrats_jerboa",
+		                "rebelrats_matkaboska",
+
+		                #combat destroyer
+		                "rebelrats_rattus",
+		                "rebelrats_mellivora",
+		                "rebelrats_sorex",
+
+		                #combat frig
+		                "rebelrats_mus",
                         "rebelrats_patron",
-                        "rebelrats_matkaboska",
-                        "rebelrats_mellivora",
-                        "rebelrats_pybara",
+
 		],
 	},
 	"knownFighters":{
 		"tags":["rebelrats_arsenal_bp"],
 		"fighters":[
-                        "rebelrats_sultan_Fighter_wingt",
-                        "rebelrats_proctor_Fighter_wingt",
-                        "rebelrats_daekon_Fighter_wingt",
-                        "rebelrats_ministro_Interceptor_wingt",
+		                #Fighter
+		                "rebelrats_sultan_Fighter_wingt",
+		                "rebelrats_proctor_Fighter_wingt",
+		                "rebelrats_daekon_Fighter_wingt",
+
+		                #Interceptor
+		                "rebelrats_ministro_Interceptor_wingt",
                         "rebelrats_overseer_Interceptor_wingt",
+                        "rebelrats_proctor_Fighter_wingt",
+
+		                #Bomber
+		                "rebelrats_olympian_Bomber_wingt",
+
 		],
 	},
 	"priorityFighters":{
 		"tags":[],
 		"fighters":[
+		                #Fighter
                         "rebelrats_sultan_Fighter_wingt",
                         "rebelrats_proctor_Fighter_wingt",
                         "rebelrats_daekon_Fighter_wingt",
+
+                        #Interceptor
                         "rebelrats_ministro_Interceptor_wingt",
                         "rebelrats_overseer_Interceptor_wingt",
+                        "rebelrats_proctor_Fighter_wingt",
+
+                        #Bomber
+                        "rebelrats_olympian_Bomber_wingt",
+
 		],
 	},
 	"knownWeapons":{
 		"tags":["rebelrats_arsenal_bp"],
-		"weapons":[                       
+		"weapons":[
+		                #large
+                        "rebelrats_drummer_l",
                         "rebelrats_equalizer_l",
                         "rebelrats_mangonel_l",
                         "rebelrats_nezulana_l",
                         "rebelrats_tripubus_l",
-                        "rebelrats_siegeharq_m",
+
+                        #medium
+                        "rebelrats_braggador_m",
                         "rebelrats_crossbow_m",
+                        "rebelrats_custodian_m",
                         "rebelrats_falcon_m",
+                        "rebelrats_huntsman_salvo",
                         "rebelrats_hwacha_m",
                         "rebelrats_petard_m",
-                        "rebelrats_huntsman_salvo",
-                        "rebelrats_braggador_m",
-                        "rebelrats_rattenjager_m",
                         "rebelrats_petardlauncher_m",
+                        "rebelrats_rattenjager_m",
+                        "rebelrats_siegeharq_m",
+
+                        #small
+                        "rebelrats_ashford",
+                        "rebelrats_culverin",
+                        "rebelrats_fowler",
+                        "rebelrats_hawker",
                         "rebelrats_huntsman_s",
                         "rebelrats_huntsmanx2",
                         "rebelrats_hwacha_s",
-                        "rebelrats_pyroclast",                     
-                        "rebelrats_ranger",
-                        "rebelrats_fowler",
-                        "rebelrats_culverin",
                         "rebelrats_longbow",
-                        "rebelrats_hawker",
-                        "rebelrats_ashford",
+                        "rebelrats_pyroclast",
+                        "rebelrats_ranger",
 		],
 	},
 	"priorityWeapons":{
 		"tags":[],
 		"weapons":[
-                        "rebelrats_equalizer_l",
+		                #large
                         "rebelrats_drummer_l",
-                        "rebelrats_tripubus_l",
+                        "rebelrats_equalizer_l",
                         "rebelrats_nezulana_l",
-                        "rebelrats_siegeharq_m",
+                        "rebelrats_tripubus_l",
+
+                        #medium
                         "rebelrats_crossbow_m",
+                        "rebelrats_custodian_m",
                         "rebelrats_falcon_m",
                         "rebelrats_hwacha_m",
-                        "rebelrats_custodian_m",
+                        "rebelrats_siegeharq_m",
+
+                        #small
+                        "rebelrats_culverin",
+                        "rebelrats_fowler",
                         "rebelrats_huntsman_s",
                         "rebelrats_huntsmanx2",
                         "rebelrats_hwacha_s",
-                        "rebelrats_pyroclast",
-                        "rebelrats_petardlauncher_m",                     
-                        "rebelrats_ranger",
-                        "rebelrats_fowler",
-                        "rebelrats_culverin",
                         "rebelrats_longbow",
+                        "rebelrats_petardlauncher_m",
+                        "rebelrats_pyroclast",
+                        "rebelrats_ranger",
 		],
 	},
 	"knownHullMods":{

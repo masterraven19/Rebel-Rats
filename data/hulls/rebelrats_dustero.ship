@@ -1,0 +1,43 @@
+{
+  "hullName": "Dustero",
+  "hullId": "rebelrats_dustero",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/dustero_fighter.png",
+  "style": "LOW_TECH",
+  "height": 20,
+  "width": 22,
+  "center": [11, 10],
+  "collisionRadius": 18,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 15,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 8]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, -8]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -10, -12,
+    10, -0,
+    -10, 12
+  ]
+}

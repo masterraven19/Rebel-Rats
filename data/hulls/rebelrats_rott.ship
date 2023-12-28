@@ -1,0 +1,45 @@
+{
+  "hullName": "Rott",
+  "hullId": "rebelrats_rott",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/rott_tanker_frigate.png",
+  "style": "REBELRATS",
+  "height": 156,
+  "width": 64,
+  "center": [32, 78],
+  "collisionRadius": 114.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 85.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 262,
+      "angle": 0,
+      "locations": [66, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-75.5, -0],
+      "length": 121.5,
+      "width": 56,
+      "angle": 180,
+      "contrailSize": 56,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    }
+  ],
+  "bounds": [
+    -78.5, -29,
+    65.5, -28,
+    65.5, 28,
+    -78.5, 29
+  ]
+}

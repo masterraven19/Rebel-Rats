@@ -12,6 +12,7 @@
 			"rebelrats_rattus_Balanced":10,
 			"rebelrats_rattus_overdriven":8,
 			"rebelrats_helmsman_Balanced":6,
+			"rebelrats_sorex_Balanced":6,
 	},
 	"combatLarge":{
 			"rebelrats_marmot_Balanced":9,
@@ -77,6 +78,7 @@
 	# freighters and such
 	"freighterSmall":{
 			"rebelrats_panya_Balanced":10,
+			"rebelrats_rott_Balanced":10,
 	},
 	"freighterMedium":{
 			"rebelrats_monax_Standard":10,

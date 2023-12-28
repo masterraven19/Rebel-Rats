@@ -1,0 +1,25 @@
+{
+  "variantId": "rebelrats_rott_Balanced",
+  "hullId": "rebelrats_rott",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_ranger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
