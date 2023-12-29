@@ -1,0 +1,31 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+rebelrats_orbitalstation,Orbital Station - Rebel Rats,50,90,,3,,rebelrats_battlestation,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:rebelrats_station_Orbital,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,data.scripts.campaign.econ.impl.rebelrats_OrbitalStation,"A heavily armed orbital station mounted with four heavy battery modules that each have a doldrums.
+
+Must be reduced before invasions or bombardment can be attempted.",2070,
+rebelrats_battlestation,Battlestation - Rebel Rats,100,120,,4,rebelrats_orbitalstation,rebelrats_starfortress,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:rebelrats_station_Orbital,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.impl.rebelrats_OrbitalStation,"A space station, augmented with a defensive citadel featuring heavy firepower.
+
+Must be reduced before invasions or bombardment can be attempted.",2080,
+rebelrats_starfortress,Star Fortress - Rebel Rats,200,180,,5,rebelrats_battlestation,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:rebelrats_station_Orbital,
+fleetName:Star Fortress
+}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.impl.rebelrats_OrbitalStation,"An up-armored battlestation, featuring Gargoyle-class defense drones and long-range targeted mine teleporters.
+
+Must be reduced before invasions or bombardment can be attempted.",2090,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+#heavyindustry,Heavy Industry,100,120,,12,,orbitalworks,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/heavy_industry.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,"Centralized manufacturing infrastructure for production of heavy industrial equipment, supplies, and weapons. Also capable of producing barely-spaceworthy starships; a nanoforge can be installed to improve production quality.",1600,HIGH
+#orbitalworks,Orbital Works,60,150,,12,heavyindustry,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/orbital_works.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,"Centralized manufacturing infrastructure for production of heavy industrial equipment, supplies, and weapons. Also capable of producing barely-spaceworthy starships; a nanoforge can be installed to improve production quality.
+
+Upgraded with an orbital component that further facilitates ship construction, resulting in fewer manufacturing defects.",1700,HIGH
+#patrolhq,Patrol HQ,60,60,,8,,militarybase,"patrol, unraidable, tactical_bombardment, structure",,graphics/icons/industry/patrol_hq.png,com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase,"The requisite hangars, maintenance bays, command/control center, barracks, and logistics operations required to project force throughout a star system. Once established, militarized patrols will hunt pirates and protect friendly convoys.",2400,
+#lionsguard,Lion's Guard HQ,90,60,,6,,,"military, unraidable, tactical_bombardment, structure",,graphics/icons/industry/lions_guard.png,com.fs.starfarer.api.impl.campaign.econ.impl.LionsGuardHQ,"Headquarters of the feared personal guard of Phillip ""The Lion of Sindria"" Andrada. Boasting superb training and access to the best equipment credits can buy, the fanatical loyalty of the Guard is maintained through a system of perks and incentives that both elevate and isolate the Guard from the Diktat's regular military.",2650,
+#planetaryshield,Planetary Shield,150,90,,3,,,"grounddefenses, structure",,graphics/icons/industry/planetary_shield.png,com.fs.starfarer.api.impl.campaign.econ.impl.PlanetaryShield,An envelope of charged plasma seeded with exotic virtual particles producing effects which disrupt the combat effectiveness of long-range bombardment and even incursion by small vessels. The planetary shield can be continually charged and controlled by a central source and presents a formidable obstacle to any form of ground assault.,2700,EXTREME

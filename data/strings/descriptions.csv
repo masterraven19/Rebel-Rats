@@ -218,6 +218,7 @@ rebelrats_outerstation,CUSTOM,"A station made of massive cobbled together astero
 
 Despite its ponderous appearance, the station is lightly-armed with very few large guns to speak off. The few dedicated defence modules that can be seen are a handful of jury-rigged gun platforms not too dissimilar to those found on Pirate or Pather stations.
 ",,,,
+rebelrats_station,SHIP,A heavily armed orbital station with heavy doldrum railguns,,,,
 ,,,,,,
 #UNKOWN,,,,,,
 rebelrats_lobsterclaw,WEAPON,"What.. what is this? What the hell. Avoid it at all costs. Dodge. Parry- It has a slow turn rate so use it to your advantage. In unrelated terms, it fired superheated lobsters.",,,,

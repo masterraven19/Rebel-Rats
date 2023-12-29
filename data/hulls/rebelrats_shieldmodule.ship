@@ -1,0 +1,72 @@
+{
+  "hullName": "Rat Shield Module",
+  "hullId": "rebelrats_shieldmodule",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/rr_shield_module.png",
+  "style": "REBELRATS",
+  "height": 182,
+  "width": 132,
+  "center": [66, 91],
+  "collisionRadius": 177.5,
+  "shieldCenter": [-26, -0],
+  "shieldRadius": 173,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "chassis_storage",
+    "reduced_explosion",
+    "shield_always_on",
+    "targetingunit",
+    "rebelrats_manatarmstargettinggrid"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 187,
+      "angle": 45,
+      "locations": [57, 22]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 187,
+      "angle": -45,
+      "locations": [57, -22]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 284,
+      "angle": 0,
+      "locations": [15, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        80, -10.5,
+        79.5, 9.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -89, -66,
+    40.5, -65,
+    80, -32,
+    80, 32,
+    40.5, 65,
+    -89, 66
+  ]
+}

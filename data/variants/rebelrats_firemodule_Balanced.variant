@@ -1,0 +1,34 @@
+{
+  "variantId": "rebelrats_firemodule_Balanced",
+  "hullId": "rebelrats_firemodule",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_poacher_s",
+        "WS0002": "rebelrats_ranger",
+        "WS0003": "rebelrats_ranger",
+        "WS0004": "rebelrats_poacher_s",
+        "WS0005": "rebelrats_poacher_s",
+        "WS0006": "rebelrats_braggador_m",
+        "WS0007": "rebelrats_braggador_m",
+        "WS0008": "rebelrats_crossbow_m",
+        "WS0009": "rebelrats_petard_m",
+        "WS0010": "rebelrats_petard_m",
+        "WS0011": "rebelrats_tripubus_l",
+        "WS0012": "rebelrats_tripubus_l",
+        "WS0013": "rebelrats_doldrums_l"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

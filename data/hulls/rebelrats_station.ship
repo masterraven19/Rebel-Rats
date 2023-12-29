@@ -1,0 +1,105 @@
+{
+  "hullName": "Krysan Station",
+  "hullId": "rebelrats_station",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/rr_station_core.png",
+  "style": "REBELRATS",
+  "height": 534,
+  "width": 534,
+  "center": [267, 267],
+  "collisionRadius": 578,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 576.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "shared_flux_sink",
+    "supercomputer",
+    "vastbulk"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0, 316]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [0, -316]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [195, 194]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [195, -194]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 135,
+      "locations": [-194, 195]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -135,
+      "locations": [-194, -195]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [316, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-316, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -229.5, -105,
+    -110.5, -220,
+    101.5, -220,
+    230.5, -105,
+    230.5, 105,
+    101.5, 220,
+    -110.5, 220,
+    -229.5, 105
+  ]
+}

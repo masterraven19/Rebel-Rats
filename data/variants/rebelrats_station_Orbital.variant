@@ -1,0 +1,39 @@
+{
+  "variantId": "rebelrats_station_Orbital",
+  "hullId": "rebelrats_station",
+  "displayName": "Orbital",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "rebelrats_firemodule_Balanced"
+    },
+    {
+      "WS0002": "rebelrats_firemodule_Balanced"
+    },
+    {
+      "WS0008": "rebelrats_firemodule_Balanced"
+    },
+    {
+      "WS0004": "rebelrats_shieldmodule_Balanced"
+    },
+    {
+      "WS0005": "rebelrats_shieldmodule_Balanced"
+    },
+    {
+      "WS0003": "rebelrats_shieldmodule_Balanced"
+    },
+    {
+      "WS0006": "rebelrats_shieldmodule_Balanced"
+    },
+    {
+      "WS0007": "rebelrats_firemodule_Balanced"
+    }
+  ],
+  "wings": []
+}
