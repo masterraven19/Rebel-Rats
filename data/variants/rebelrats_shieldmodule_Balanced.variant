@@ -10,12 +10,18 @@
   "hullMods": [],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "rebelrats_custodian_m"
+      }
+    },
+    {
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0001": "rebelrats_poacher_s",
-        "WS0002": "rebelrats_poacher_s",
-        "WS0003": "rebelrats_custodian_m"
+        "WS0002": "rebelrats_poacher_s"
       }
     }
   ],

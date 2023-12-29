@@ -13,10 +13,10 @@
   "viewOffset": 0,
   "builtInMods": [
     "always_detaches",
-    "fluxbreakers",
     "reduced_explosion",
     "rebelrats_manatarmstargettinggrid",
-    "targetingunit"
+    "targetingunit",
+    "ballistic_rangefinder"
   ],
   "builtInWeapons": {
     "WS0013": "rebelrats_doldrums_l"

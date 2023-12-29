@@ -7,9 +7,9 @@
   "height": 182,
   "width": 132,
   "center": [66, 91],
-  "collisionRadius": 177.5,
+  "collisionRadius": 472,
   "shieldCenter": [-26, -0],
-  "shieldRadius": 173,
+  "shieldRadius": 407.5,
   "viewOffset": 0,
   "builtInMods": [
     "always_detaches",
@@ -17,7 +17,9 @@
     "reduced_explosion",
     "shield_always_on",
     "targetingunit",
-    "rebelrats_manatarmstargettinggrid"
+    "rebelrats_manatarmstargettinggrid",
+    "pointdefenseai",
+    "ballistic_rangefinder"
   ],
   "weaponSlots": [
     {
