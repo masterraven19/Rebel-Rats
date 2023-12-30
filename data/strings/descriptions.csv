@@ -31,16 +31,16 @@ rebelrats_huntsmanx2_m,WEAPON,These torpedo tubes serve as the Mus' main anti-sh
 rebelrats_huntsman_s,WEAPON,"Ubiquitous on Krysan Navy ships, the Huntsman is a guided torpedo designed similarly to the Persean Sector's Harpoons. The Huntsman's AM-catalysed plasma warhead allow it to punch through contemporary armor plates.",,,,
 rebelrats_hwacha_s,WEAPON,"The Hwacha SRM takes inspiration from the Swarmer SRM, dutifully fulfilling atmospheric and non-atmospheric anti-fighter craft roles with high agility. ",,,,
 rebelrats_ranger,WEAPON,"Developed from the turret of a SPAAG, the Ranger quickly destroys incoming targets with a burst of accurate fire.",,,,
-rebelrats_fowler,WEAPON,"Created from the large surplus amount of low caliber cannons available after the Penance War, the Fowler is an amalgamation of 8 low caliber barrels grouped together to fire a wall of bullets, achieving accuracy by volume of fire.",,,,
+rebelrats_fowler,WEAPON,"Created from the large surplus of low caliber cannons after the Penance War, the Fowler is an amalgamation of 8 low caliber barrels grouped together to fire a wall of bullets, achieving accuracy by volume of fire.",,,,
 rebelrats_culverin,WEAPON,"A simple weapon, the Culverin is the standard issue high-explosive light anti-ship weapon for the Krysan Navy. Its two internal magazines let it fire HE shells in rapid bursts.",,,,
 rebelrats_longbow,WEAPON,"The Longbow is the standard issue light anti-shield weapon for the Krysan Navy. It fires small inert rounds that are relatively effective against enemy shields, especially against frigates that have a smaller flux capacity.",,,,
 rebelrats_huntsmanx2,WEAPON,Dual rack for the Huntsman Torpedo,,,,
 rebelrats_hawker,WEAPON,The Hawker is a pirate's favorite. It utilizes time-fuzed canister shells to quickly bring down incoming groups of missiles without the need of complex guidance systems,,,,
-rebelrats_pyroclast,WEAPON,The Pyroclast is the Federal Navy's answer to the Reaper. It uses a hypercharged AM-shaped charge warhead that has armour penetration values measured in kilometers to allow it to break through heavy ship armor.,,,,
+rebelrats_pyroclast,WEAPON,The Pyroclast is the Federal Navy's answer to the Persean Sector's heavy torpedoes. It uses a hypercharged AM-shaped charge warhead that has armour penetration values measured in kilometers to allow it to break through heavy ship armor.,,,,
 rebelrats_rattus_torp,WEAPON,A missile autoloader that has been fitted into the ship's center weapons module to quickly reload Huntsman torpedoes. ,,,,
-rebelrats_ashford,WEAPON,The Ashford is comparable to Persean Sector PD lasers with its signature variable lense that allows it to have a higher effective range than other Krysan PD weapons. ,,,,
-rebelrats_poacher_s,WEAPON,"Favoring accuracy by volume like ancient CIWS designs, the Poacher was an anti-ship weapon that was handed PD duties. The turret's APIT shells coupled with an astounding rate of fire allows it to shred through destroyer-grade armor plating quickly when enmassed.",,,,
-rebelrats_poubelle,WEAPON,Less of a proper missile and more of a propelled IED cobbled from off-the-shelf civilian guidance components. The lack of a complex thruster system has left plenty of room to stuff a far larger payload to compensate for the low-grade explosives used in civilian mining charges.,,,,
+rebelrats_ashford,WEAPON,The Ashford is comparable to Persean Sector PD lasers with its signature variable lense that allows it to be effective at all ranges. ,,,,
+rebelrats_poacher_s,WEAPON,"The Poacher was an anti-ship weapon that was handed PD duties, favoring accuracy by volume like old CIWS designs. The turret's APIT shells coupled with an astounding rate of fire allows it to shred through frigate-grade armor plating quickly when enmassed.",,,,
+rebelrats_poubelle,WEAPON,"Less of a proper missile and more of a propelled IED cobbled together from civilian guidance components, the Poubelle is still a credible threat as the lack of a complex thruster system has left plenty of room to stuff a larger payload to compensate for onboard low-grade explosives.",,,,
 ,,,,,,
 #FIGHTER WEAPONS,,,,,,
 rebelrats_huntsman_f,WEAPON,"A fighter-mounted version of the Huntsman Torpedo stowed under the fuselage due to its size. The fighter's weight restrictions downsized the torpedo's warhead, but will still be sufficient to threaten ships, especially those with thin armor.",,,,
@@ -62,7 +62,7 @@ rebelrats_overseer,SHIP,"A light interceptor of the Krysan Federal Navy, the Ove
 rebelrats_ministro,SHIP,"The Ministro is a lightweight, unmanned interceptor drone designed by Rebel Rat Industries as a proposal to Krysan Navy officials to reduce pilot losses. It quickly found success with increasingly advanced drone control systems that allowed finer control with unmanned drones.",,,,
 rebelrats_patron_f,SHIP,"Cleverly set up microforges have allowed Federal ships to stuff an entire corvette into a hangar bay. Unfortunately, this means that only one Patron can be deployed per hangar bay with reduced capabilities.",,,,
 rebelrats_daekon,SHIP,A fast assault fighter built to break the shields of the enemy spacecraft and shred their armor with assault chainguns.,,,,
-rebelrats_dustero,SHIP,lol haha im talon but i got guardsman turrets. better fear me,,,,
+rebelrats_dustero,SHIP,"When a group of spacers found the firepower of the Talon to be lacking, the Dustero was their answer, although, it's arguable if it is any more effective than its Persean counterpart. Equipped with a volley of 20mm guns salvaged from Guardsman turrets, the Dusteros can easily pressure the shielding of its targets.",,,,
 ,,,,,,
 #BOMBERS,,,,,,
 rebelrats_olympian,SHIP,"Despite its shambolic origins of being made from the remains of Piranha bombers, the Olympian is a capable bomber that dutifully does its job with more than enough armor and PD coverage to last it through its bombing run. A recurring joke among Olympian pilots is that the onboard warhead contains a Red Bombardier Rat as its payload.",,,,"""What kind of barbarians would ever use an animal as its guidance system? That's preposterous!"""
@@ -132,7 +132,11 @@ With captains that can only be described as desperate daredevils with no regard 
 
 Its fusion torch engine is homebrewed from a frankenstein of parts while its flux reactor is usually a Bobcat-Pattern Flux Reactor taken from a salvaged Monax.
 ",,,,
-rebelrats_sorex,SHIP,Im a gunship and u should fear me,,,,
+rebelrats_sorex,SHIP,"Considered unconventional in Krysan Admiralty for its lack of missiles tubes, nevertheless, the Sorex is a capable destroyer with decent forward firepower. They are often paired with another ship to make up for its lackluster point defence grid so that it can focus on anti-ship duties. The ship's autoloaders will make sure that weapons will engage at the maximum rate of fire while having respectable armor to soak up damage.
+
+Despite being overshadowed by the Rattus for its unwieldiness and its late introduction just after the Penance War, the Sorex has a reputation for being a comfortable ship by its crews as it has been designed around crew ergonomics. The ship was expected to perform long duration patrols or intermittent deep space anti-piracy missions. 
+
+Unlike the Rattus, Sorex crews enjoy roomier and more modern accommodations with several quality of life measures taken for crew comfort, making it popular for captains who seek to enjoy picket duty in comfort. Its onboard galley is regarded to be like a hotel with its homely decorations and lighting acting as a third place for crew to get together in their free time.",,,,
 ,,,,,,
 rebelrats_mus,SHIP,"Bearing unparalleled speed and brash firepower, the Mus is a menace on the battlefield when left unattended. The ship’s built-in plasma launchers and torpedo tubes allow it to spar with larger ships while its new S601 Fusion Torch gives it the speed to easily keep up with enemy frigates. However, this emphasis on movement meant that armor had to be sacrificed, leaivng the Mus with paper thin armor.
 
@@ -175,7 +179,11 @@ With its diminutive size, the Panya's interiors can only be described as utilita
 The ship is equipped with a Lynx-pattern flux reactor to power its systems and a single M303 Fusion Torch tuned down for efficiency.",,,,
 rebelrats_rott,SHIP,"The Rott is a humble fuel tanker that can be compared to the Persean Sector's Dram. The Rott has enough fuel in its tanks to double the fuel range of a flotilla. As such, the ship is often seen paired together with Panyas or other cargo haulers to extend the range of Krysan Expeditions.
 
-Like the Panya, the ship was initially conceived by The Three Brothers Corporation as a way to address the lack of standardization within the grassroots level of Krysan space economy. With its barebones structure and open truss structure, the Rott can easily be configured by any captain to their taste without the need for specialized tools",,,,
+The ship was initially conceived by The Three Brothers Corporation as a way to address the lack of standardization within the grassroots level of Krysan space economy. With its barebones structure and open truss structure, the Rott can easily be configured by any captain to their taste without the need for specialized tools.
+
+Like the Panya, the interior of the Rott is utilitarian with little luxuries to speak of. Although, with onboard automation, Rott crews can expect at least a modicum of comfort as indicated by spaceworthy assurance laws with onboard accommodations created using mass-produced ""Unit Rooms"". This meant entire rooms can be easily renovated or replaced, assuring Rott captains that their ship accommodations can be easily updated.
+
+The ship runs with a Lynx-Pattern flux reactor to power and systems while a pellet-fed DAEDALUS-type engine ensures efficient fuel consumption. ",,,,
 ,,,,,,
 #SHIP SYSTEMS,,,,,,
 rebelrats_jerboaSystem,SHIP_SYSTEM,"Overwhelms the target using onboard EW systems. Disrupts the target's subsystems for a short amount of time: disables turret rotation, reduces ship turning, disables engines",Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,

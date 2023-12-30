@@ -5,9 +5,9 @@
   "spriteName": "graphics/ships/porcellus_battleship.png",
   "style": "REBELRATS",
   "height": 460,
-  "width": 212,
-  "center": [106, 211],
-  "collisionRadius": 272.5,
+  "width": 208,
+  "center": [104, 211],
+  "collisionRadius": 282.5,
   "shieldCenter": [0, -0],
   "shieldRadius": 262.5,
   "viewOffset": 0,
@@ -87,7 +87,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 0,
-      "locations": [18, -0]
+      "locations": [18, 0]
     },
     {
       "id": "WS0008",
@@ -96,7 +96,7 @@
       "mount": "TURRET",
       "arc": 130,
       "angle": 0,
-      "locations": [206, -0]
+      "locations": [206, 0]
     },
     {
       "id": "WS0009",
@@ -123,7 +123,7 @@
       "mount": "TURRET",
       "arc": 150,
       "angle": 180,
-      "locations": [-153, -0]
+      "locations": [-153, 0]
     },
     {
       "id": "WS0012",
@@ -204,7 +204,7 @@
       "mount": "TURRET",
       "arc": 255,
       "angle": 180,
-      "locations": [-107, -0]
+      "locations": [-107, 0]
     },
     {
       "id": "WS0020",
@@ -249,7 +249,7 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [-37, -0]
+      "locations": [-37, 0]
     },
     {
       "id": "LB 1",
@@ -278,7 +278,7 @@
   ],
   "engineSlots": [
     {
-      "location": [-197, 84],
+      "location": [-197, 83.5],
       "length": 66.097138,
       "width": 26.545711,
       "angle": 170.5,
@@ -287,7 +287,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-197, -84],
+      "location": [-197, -84.5],
       "length": 66.097138,
       "width": 26.545711,
       "angle": -170.5,
@@ -296,7 +296,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-210, 37],
+      "location": [-210, 36.5],
       "length": 100,
       "width": 50,
       "angle": 180,
@@ -305,7 +305,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-210, -37],
+      "location": [-210, -37.5],
       "length": 100,
       "width": 50,
       "angle": -180,
@@ -314,7 +314,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-210, -0],
+      "location": [-210, -0.5],
       "length": 99.5,
       "width": 51,
       "angle": 180,

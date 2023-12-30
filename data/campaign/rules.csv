@@ -15,6 +15,6 @@ rebelrats_powerstation_Leave,DialogOptionSelected,$option == rebelrats_powerstat
 ,,,,,,
 #CC GG!!!!!!!,,,,,,
 rebelrats_comissioned,ExerelinNGCStep3,"$playerFaction == rebelrats
-!$rebelrats_changemind	","AddText ""Commissioned Crews Bonus: Ships gain repairs.""
-SetTextHighlights Commissioned Crews Bonus
+!$rebelrats_changemind	","AddText ""Krysan Fervor: Krysan crews are renowned for their fervent attitude towards battle, often making frequent field repairs whenever a lull occurs.""
+SetTextHighlights Krysan Fervor
 $rebelrats_changemind = true 0",,,
