@@ -8,8 +8,8 @@
   "width": 132,
   "center": [66, 91],
   "collisionRadius": 472,
-  "shieldCenter": [-26, -0],
-  "shieldRadius": 407.5,
+  "shieldCenter": [25, -0],
+  "shieldRadius": 376,
   "viewOffset": 0,
   "builtInMods": [
     "always_detaches",

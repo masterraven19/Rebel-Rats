@@ -200,13 +200,13 @@ public class rebelrats_dragonsblessing {
         rattus_market.addIndustry(Industries.FARMING, Collections.singletonList(Items.SOIL_NANITES));
         rattus_market.addIndustry(Industries.LIGHTINDUSTRY);
         rattus_market.addIndustry(Industries.HIGHCOMMAND);
-        rattus_market.addIndustry(Industries.STARFORTRESS);
+        rattus_market.addIndustry("rebelrats_starfortress");
         rattus_market.addIndustry(Industries.HEAVYBATTERIES);
         rattus_market.addIndustry(Industries.ORBITALWORKS, Collections.singletonList(Items.CORRUPTED_NANOFORGE));
 
         rattus_market.getIndustry(Industries.HIGHCOMMAND).setAICoreId(Commodities.GAMMA_CORE);
         rattus_market.getIndustry(Industries.ORBITALWORKS).setAICoreId(Commodities.BETA_CORE);
-        rattus_market.getIndustry(Industries.STARFORTRESS).setAICoreId(Commodities.ALPHA_CORE);
+        rattus_market.getIndustry("rebelrats_starfortress").setAICoreId(Commodities.ALPHA_CORE);
         rattus_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         EconomyAPI globalEconomy = Global.getSector().getEconomy();
         globalEconomy.addMarket(rattus_market, false);
@@ -301,7 +301,7 @@ public class rebelrats_dragonsblessing {
         magawa_market.addIndustry(Industries.SPACEPORT);
         magawa_market.addIndustry(Industries.WAYSTATION);
         magawa_market.addIndustry(Industries.HEAVYBATTERIES, Collections.singletonList(Items.DRONE_REPLICATOR));
-        magawa_market.addIndustry(Industries.ORBITALSTATION);
+        magawa_market.addIndustry("rebelrats_battlestation");
         magawa_market.addIndustry(Industries.HIGHCOMMAND);
 
         magawa_market.getIndustry(Industries.MINING).setAICoreId(Commodities.GAMMA_CORE);

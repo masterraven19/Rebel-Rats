@@ -38,7 +38,7 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 	public static float IMPROVE_STABILITY_BONUS = 1f;
 
 	public boolean isHidden() {
-		return true;
+		return false;
 	}
 	public boolean showWhenUnavailable() {
 		return false;
