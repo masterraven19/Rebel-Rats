@@ -60,6 +60,9 @@
     "spinaldoldrums_charging": [
         {"file":"sounds/spinaldoldrums_charging2.ogg","pitch":1.00,"volume":0.8},
     ],
+    "sorex_firing": [
+        {"file":"sounds/Sorex_gun_firing.ogg","pitch":1.00,"volume":0.8},
+    ],
     "rebelrats_engine_loop":{
         "sounds":[
             {"file":"sounds/ratengineburn2.ogg","pitch":1,"volume":0.15}, #index 0

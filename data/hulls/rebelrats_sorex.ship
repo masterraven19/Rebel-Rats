@@ -15,6 +15,9 @@
     "rebelrats_manatarmstargettinggrid",
     "rebelrats_bastionshield"
   ],
+  "builtInWeapons": {
+    "WS0001": "rebelrats_gyrolauncher_m"
+  },
   "weaponSlots": [
     {
       "id": "WS0002",
@@ -55,20 +58,11 @@
     {
       "id": "WS0001",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
-      "arc": 5,
-      "angle": -0,
-      "locations": [53.5, 8.5]
-    },
-    {
-      "id": "WS0006",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
-      "mount": "HIDDEN",
-      "arc": 5,
+      "arc": 0,
       "angle": 0,
-      "locations": [53.5, -8.5]
+      "locations": [62, -0]
     }
   ],
   "engineSlots": [

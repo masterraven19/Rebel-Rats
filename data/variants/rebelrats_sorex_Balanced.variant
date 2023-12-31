@@ -16,8 +16,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "rebelrats_siegeharq_m",
-        "WS0006": "rebelrats_siegeharq_m"
+        "WS0001": "rebelrats_gyrolauncher_m"
       }
     },
     {
