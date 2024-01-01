@@ -16,7 +16,8 @@
     "reduced_explosion",
     "rebelrats_manatarmstargettinggrid",
     "targetingunit",
-    "ballistic_rangefinder"
+    "ballistic_rangefinder",
+    "fluxbreakers"
   ],
   "builtInWeapons": {
     "WS0013": "rebelrats_doldrums_l"

@@ -19,7 +19,8 @@
     "targetingunit",
     "rebelrats_manatarmstargettinggrid",
     "pointdefenseai",
-    "ballistic_rangefinder"
+    "ballistic_rangefinder",
+    "fluxbreakers"
   ],
   "weaponSlots": [
     {
