@@ -87,9 +87,9 @@
     {
       "location": [-83, -0],
       "length": 100,
-      "width": 30,
+      "width": 40,
       "angle": 180,
-      "contrailSize": 30,
+      "contrailSize": 40,
       "style": "CUSTOM",
       "styleId": "Rats"
     }
