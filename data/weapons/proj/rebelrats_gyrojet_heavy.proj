@@ -8,7 +8,7 @@
 	"collisionRadius":15,
 	"collisionClass":"MISSILE_FF",
 	"explosionColor":[224,184,50,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":150, # purely visual
+	"explosionRadius":100, # purely visual
 	"explosionSpec":{"duration":0.1f, # not visual
 					 "radius":60,
 					 "coreRadius":50, # full damage within core radius
@@ -21,9 +21,9 @@
 					 "particleColor":[61,160,244,255]},
 	"armingTime":0.5,
 	"engineSpec":{"turnAcc":30,
-				  "turnRate":60,
-				  "acc":600, #600
-				  "dec":400},
+				  "turnRate":90,
+				  "acc":400, #600
+				  "dec":100},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-10, 0],
 				    #"style":"TORPEDO_ATROPOS",

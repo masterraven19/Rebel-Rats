@@ -52,7 +52,7 @@
         {"file":"sounds/petardcanister_firing.ogg","pitch":1.00,"volume":1},
     ],
     "poacher_firing": [
-        {"file":"sounds/poacher_firing3.ogg","pitch":0.70,"volume":0.3},
+        {"file":"sounds/poacher_firing3.ogg","pitch":1.00,"volume":0.2},
     ],
     "spinaldoldrums_firing": [
         {"file":"sounds/spinaldoldrums_firing1.ogg","pitch":1.00,"volume":0.8},

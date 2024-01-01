@@ -24,6 +24,7 @@ rebelrats_rattenjager_m,WEAPON,The Rattenjager utilizes advanced algorithms and 
 rebelrats_rattenjager_array_m,WEAPON,A built-in array of Snapper Hardkill APS for long-range interceptions,,,,
 rebelrats_petardlauncher_m,WEAPON,"Seeing that the Petard conveniently came in ready-to-use canisters, it didn't take long for someone to mount thrusters and a guidance system to make a rudimentary, but effective, DEM",,,,
 rebelrats_huntsman_salvo,WEAPON,Triple rack for Huntsman Torpedos,,,,
+rebelrats_gyrolauncher_m,WEAPON,"The Sorex's Gyrojet Launcher is an example of an old type of weapon making a resurgence in the Krysan Navy arsenal as miniaturization of technology outpaced weapons development. The utilization of gyrojets means that the ship can forgo the need of a complicated recoil management system and focus on having a larger payload size. A basic beam riding system keeps the rocket relatively on target, but could never keep up with fast moving targets.",,,,
 ,,,,,,
 #MUS HUNTSMAN AUTOLOADER,,,,,,
 rebelrats_huntsmanx2_m,WEAPON,These torpedo tubes serve as the Mus' main anti-ship weapon to allow the Mus to punch above its weight class. The tubes utilizes an autoloader derived from the Rattus that ensures a quick rate of fire.,,,,
@@ -132,7 +133,7 @@ With captains that can only be described as desperate daredevils with no regard 
 
 Its fusion torch engine is homebrewed from a frankenstein of parts while its flux reactor is usually a Bobcat-Pattern Flux Reactor taken from a salvaged Monax.
 ",,,,
-rebelrats_sorex,SHIP,"Considered unconventional in Krysan Admiralty for its lack of missiles tubes, nevertheless, the Sorex is a capable destroyer with decent forward firepower. They are often paired with another ship to make up for its lackluster point defence grid so that it can focus on anti-ship duties. The ship's autoloaders will make sure that weapons will engage at the maximum rate of fire while having respectable armor to soak up damage.
+rebelrats_sorex,SHIP,"Considered unconventional in Krysan Admiralty for its lack of missiles tubes, nevertheless, the Sorex is a capable destroyer with monstrous forward firepower. They are often paired with another ship to make up for its lackluster point defence grid so that it can focus on anti-ship duties. The ship's autoloaders will make sure that weapons will engage at the maximum rate of fire while having respectable armor to soak up damage.
 
 Despite being overshadowed by the Rattus for its unwieldiness and its late introduction just after the Penance War, the Sorex has a reputation for being a comfortable ship by its crews as it has been designed around crew ergonomics. The ship was expected to perform long duration patrols or intermittent deep space anti-piracy missions. 
 

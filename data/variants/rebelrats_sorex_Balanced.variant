@@ -4,19 +4,28 @@
   "displayName": "Standard",
   "goalVariant": true,
   "fluxCapacitors": 20,
-  "fluxVents": 11,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "targetingunit",
-    "armoredweapons"
+    "armoredweapons",
+    "reinforcedhull"
   ],
   "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_gyrolauncher_m"
+      }
+    },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "rebelrats_gyrolauncher_m"
+        "WS0006": "rebelrats_longbow",
+        "WS0007": "rebelrats_longbow"
       }
     },
     {

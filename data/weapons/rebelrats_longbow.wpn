@@ -7,8 +7,8 @@
   "displayArcRadius": 600,
   "turretSprite": "graphics/weapons/as57longbow_turret_base.png",
   "turretGunSprite": "graphics/weapons/as57longbow_turret_barrel.png",
-  "hardpointSprite": "graphics/weapons/as57longbow_turret_base.png",
-  "hardpointGunSprite": "graphics/weapons/as57longbow_turret_barrel.png",
+  "hardpointSprite": "graphics/weapons/as57longbow_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/as57longbow_hardpoint_barrel.png",
   "specialWeaponGlowHeight": 30,
   "specialWeaponGlowWidth": 12,
   "visualRecoil": 7,
@@ -26,9 +26,9 @@
     0
   ],
   "hardpointOffsets": [
-    26,
+    17,
     3,
-    26,
+    17,
     -3
   ],
   "hardpointAngleOffsets": [

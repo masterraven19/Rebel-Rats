@@ -5,11 +5,11 @@
   "spriteName": "graphics/ships/Sorex_gun_destroyer.png",
   "style": "REBELRATS",
   "height": 172,
-  "width": 60,
-  "center": [30, 86],
+  "width": 88,
+  "center": [44, 85],
   "collisionRadius": 132.5,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 89,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 97,
   "viewOffset": 0,
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid",
@@ -25,8 +25,8 @@
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 175,
-      "angle": 80.5,
-      "locations": [4, 17]
+      "angle": 79.5,
+      "locations": [5, 17]
     },
     {
       "id": "WS0003",
@@ -34,8 +34,8 @@
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 175,
-      "angle": -80.5,
-      "locations": [4, -17]
+      "angle": -79.5,
+      "locations": [5, -17]
     },
     {
       "id": "WS0004",
@@ -44,7 +44,7 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [-15, -0]
+      "locations": [-14, -0]
     },
     {
       "id": "WS0005",
@@ -53,7 +53,7 @@
       "mount": "TURRET",
       "arc": 279,
       "angle": 180,
-      "locations": [-44, -0]
+      "locations": [-43, 0]
     },
     {
       "id": "WS0001",
@@ -62,28 +62,54 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [62, -0]
+      "locations": [63, 0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [9, 33]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [9, -33]
     }
   ],
   "engineSlots": [
     {
-      "location": [-83.5, -0],
-      "length": 83.5,
-      "width": 44,
+      "location": [-83, -0],
+      "length": 100,
+      "width": 30,
       "angle": 180,
-      "contrailSize": 44,
+      "contrailSize": 30,
       "style": "CUSTOM",
       "styleId": "Rats"
     }
   ],
   "bounds": [
-    -85.5, -16,
-    -68, -29.5,
-    59, -24,
-    73.5, -15,
-    73.5, 15,
-    59, 24,
-    -68, 29.5,
-    -85.5, 16
+    -84, -15,
+    -73, -15,
+    -66.5, -27,
+    -29.5, -29.5,
+    4, -44.5,
+    11.5, -24.5,
+    59.5, -24,
+    74, -15,
+    74, 15,
+    59.5, 24,
+    11.5, 24.5,
+    4, 44.5,
+    -29.5, 29.5,
+    -66.5, 27,
+    -73, 15,
+    -84, 15
   ]
 }
