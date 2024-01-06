@@ -4,11 +4,11 @@ trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 rebelrats_doldrums_rod,rebelrats_doldrums_rod,base_trail_zap,10,0.1,0.1,0.8,12,64,"[218,125,222]","[230,208,231]",1,100,100,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
-rebelrats_doldrumstrail,rebelrats_doldrums_rod,rebelrats_doldrumstrail,0.1,0.2,0.5,0.2,18,256,"[218,125,222]","[230,208,231]",1,100,-100,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,0,false,false
-rebelrats_hwacha_srm,rebelrats_hwacha_srm,base_trail_smooth,0.5,0.025,0.025,0.05,4,8,"[218,125,222]","[230,208,231]",0.5,100,300,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
-rebelrats_huntsman_torp,rebelrats_huntsman_torp,base_trail_heavySmoke,1.5,0.05,0.05,0.2,10,16,"[230,230,230]","[230,208,231]",0.5,100,300,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
-rebelrats_rattenjager_amm,rebelrats_rattenjager_amm,base_trail_smooth,1,0.05,0.05,0.05,4,8,"[255,165,80]","[233,161,24]",0.5,100,300,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
-rebelrats_custodian_shell,rebelrats_custodian_shell,base_trail_rough,1,0.05,0.05,0.2,4,8,"[230,230,230]","[230,208,231]",0.8,100,300,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,90,true,false
+rebelrats_doldrumstrail,rebelrats_doldrums_rod,rebelrats_doldrumstrail,0.1,0.2,0.5,0.2,18,256,"[218,165,222]","[230,228,231]",1,100,-100,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,0,false,false
+rebelrats_hwacha_srm,rebelrats_hwacha_srm,base_trail_smooth,0.5,0.025,0.025,0.05,4,8,"[218,125,222]","[230,208,231]",0.5,100,100,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
+rebelrats_huntsman_torp,rebelrats_huntsman_torp,base_trail_heavySmoke,1.5,0.05,0.05,0.2,10,16,"[230,230,230]","[230,208,231]",0.5,100,100,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
+rebelrats_rattenjager_amm,rebelrats_rattenjager_amm,base_trail_smooth,1,0.05,0.05,0.05,4,8,"[255,165,80]","[233,161,24]",0.5,100,200,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
+rebelrats_custodian_shell,rebelrats_custodian_shell,base_trail_rough,1,0.05,0.05,0.2,4,8,"[230,230,230]","[230,208,231]",0.8,100,50,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,90,true,false
 rebelrats_ranger,rebelrats_ranger,base_trail_weave,1,0.05,0.025,0.025,3,2,"[233,200,24]","[233,161,24]",1,100,300,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_poacher,rebelrats_poacher,base_trail_smooth,0.5,0.025,0.03,0.025,3,2,"[233,233,233]","[233,161,24]",1,100,300,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_drummer_shell,rebelrats_drummer_shell,base_trail_rough,2,0.05,0.1,0.1,10,5,"[218,218,218]","[233,161,24]",0.5,100,300,TRUE,10,4,1,0,TRUE,FALSE,TRUE,60,0,0,0,45,90,true,false
@@ -20,8 +20,8 @@ rebelrats_braggador_shell,rebelrats_braggador_shell,base_trail_smooth,1.5,0.05,0
 rebelrats_culverin_shell,rebelrats_culverin_shell,base_trail_smoke,1,0.025,0.1,0.05,4,2,"[255,165,30]","[233,161,24]",0.5,100,300,TRUE,10,4,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,90,true,false
 rebelrats_longbow_shell,rebelrats_longbow_shell,base_trail_aura,1,0.025,0.1,0.05,4,2,"[218,218,218]","[233,161,24]",0.5,100,300,TRUE,10,4,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,90,true,false
 rebelrats_nezulana_rod,rebelrats_nezulana_rod,base_trail_weave,3,0.1,0.2,0.3,10,5,"[218,218,218]","[230,208,231]",0.8,100,300,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
-rebelrats_pyroclast_bomb,rebelrats_pyroclast_bomb,base_trail_smooth,1,0.1,0.1,0.2,12,24,"[218,218,218]","[255,59,80]",0.5,100,300,TRUE,0,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
-rebelrats_pyroclast_torp,rebelrats_pyroclast_torp,base_trail_heavySmoke,2,0.1,0.1,0.4,12,18,"[230,230,230]","[255,59,80]",0.5,100,300,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
+rebelrats_pyroclast_bomb,rebelrats_pyroclast_bomb,base_trail_smooth,1,0.1,0.1,0.2,12,24,"[218,218,218]","[255,59,80]",0.5,100,50,TRUE,0,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
+rebelrats_pyroclast_torp,rebelrats_pyroclast_torp,base_trail_heavySmoke,2,0.1,0.1,0.4,12,18,"[230,230,230]","[255,59,80]",0.5,100,50,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_muridae_plasma,rebelrats_muridae_plasma,base_trail_zap,1,0.025,0.05,0.075,24,4,"[99,194,255]","[0,145,238]",0.5,100,100,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,180,true,false
 rebelrats_mangonel_shot,rebelrats_mangonel_shot,base_trail_zap,1,0.05,0.1,0.07,4,24,"[255,255,255]","[255,0,0]",0.5,100,300,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,180,true,false
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

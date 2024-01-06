@@ -28,17 +28,17 @@
 		},
 		"hulls":{
 		                #combat cap
-		                "rebelrats_porcellus":10,
+		                "rebelrats_porcellus":6,
 
 		                #combat cruiser
-		                "rebelrats_marmot":9,
+		                "rebelrats_marmot":5,
 		                "rebelrats_matkaboska":9,
 		                "rebelrats_jerboa":4,
 
 		                #combat destroyer
-		                "rebelrats_rattus":6,
+		                "rebelrats_rattus":7,
 		                "rebelrats_mellivora":6,
-		                "rebelrats_sorex":6,
+		                "rebelrats_sorex":76,
 
 		                #combat frig
 		                "rebelrats_mus":5,

@@ -27,7 +27,7 @@
 									 "collisionClassByFighter":PROJECTILE_FIGHTER,
 									 "particleSizeMin":1,
 									 "particleSizeRange":1.5,
-									 "particleDuration":1,
+									 "particleDuration":0.25,
 									 "particleCount":100,
 									 "particleColor":[65,63,59,120],
 									 "sound":"explosion_flak"},
