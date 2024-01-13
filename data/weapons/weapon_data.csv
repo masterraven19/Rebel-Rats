@@ -2,10 +2,10 @@ name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn r
 #Light Machine Gun,lightmg,0,,100,300,,25,,1,50,3,,,,KINETIC,3,,0,0.4,5,0.1,0,5,1,15,,600,,,10,,,PD,"pd6, kinetic3, SR, base_bp",,,,Point Defense,,,,,,,,,,0.5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #SHIP WEAPONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AHG-450 Equalizer Howitzer,rebelrats_equalizer_l,1,,6000,1000,,600,,200,6,20,,,,HIGH_EXPLOSIVE,720,,0,6.5,2,0.5,0,10,6,10,,700,,,450,,,STRIKE,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Slow,Good,,,,,,
-ASG-203 Drummer Heavy Railgun,rebelrats_drummer_l,2,,6000,1000,,600,50,200,5,20,,,,KINETIC,720,,0,7.5,2,0.5,0,8,3,10,,1000,,,500,,,STRIKE,"kinetic14, rebelrats_arsenal_bp",,Arms & Armor,,Anti-Shield,,,Slow,Good,,,,,,
+AHG-450 Equalizer Howitzer,rebelrats_equalizer_l,1,,6000,1000,,500,,200,6,20,,,,HIGH_EXPLOSIVE,720,,0,6.5,2,0.5,0,10,6,10,,700,,,450,,,STRIKE,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Slow,Good,,,,,,
+ASG-203 Drummer Heavy Railgun,rebelrats_drummer_l,2,,6000,1000,,500,50,200,5,20,,,,KINETIC,720,,0,7.5,2,0.5,0,8,3,10,,1000,,,500,,,STRIKE,"kinetic14, rebelrats_arsenal_bp",,Arms & Armor,,Anti-Shield,,,Slow,Good,,,,,,
 Mangonel Plasma Launcher,rebelrats_mangonel_l,2,,8000,900,,500,,100,8,24,9,1,3,ENERGY,400,,0,0.5,2,0.25,0,10,2,5,,1200,,,,,,STRIKE,"energy14, rebelrats_arsenal_bp",,The Three Brothers Corporation,,General,,,Slow,Poor,,,,,,
-Nezulana Assault Railgun,rebelrats_nezulana_l,2,,8000,1200,,500,,400,6,26,,,,KINETIC,600,,0,6,4,0.5,0,5,1,5,,1100,,,400,,,STRIKE,"kinetic14, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Shield,,,Slow,Excellent,,,,,,
+Nezulana Assault Railgun,rebelrats_nezulana_l,2,,8000,1200,,400,,400,6,26,,,,KINETIC,600,,0,6,4,0.5,0,5,1,5,,1100,,,400,,,STRIKE,"kinetic14, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Shield,,,Slow,Excellent,,,,,,
 Tripubus Saker,rebelrats_tripubus_l,1,,8000,900,,450,,100,5,24,,,,HIGH_EXPLOSIVE,420,,0,7,1,,0,10,3,10,,700,,,40,,,STRIKE,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Slow,Good,,,,,,
 ACG-210 Spinal Doldrums,rebelrats_babydoldrumspine_l,,,0,1100,,1400,100,300,60,0,,,,KINETIC,1440,,1.5,5.5,1,,0,6,1,10,,2500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Cruiser,,,,,"Fires rods with an antimatter shaped charge
 
@@ -19,7 +19,7 @@ Has a 30% chance to trigger the shaped charge when hitting shields",,,,,
 Huntsman Torpedo Salvo Launcher,rebelrats_salvo_autoloader,,,0,2000,,1000,,50,15,0,21,0.03,3,HIGH_EXPLOSIVE,,,0,4.5,3,0.5,0,0,0,0,,600,50,5,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 Huntsman Side Salvo Launcher,rebelrats_huntsman_sidelauncher,,,0,2000,,1000,,50,15,0,21,0.03,3,HIGH_EXPLOSIVE,,,0.8,4.5,3,0.5,0,0,0,0,,600,400,5,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AHG-203 Siege Harquebus,rebelrats_siegeharq_m,1,,1100,800,,600,,12,10,13,,,,HIGH_EXPLOSIVE,480,,0,3,1,,0,10,5,12,,700,,,40,,,,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Fast,Excellent,,,,,,
+AHG-203 Siege Harquebus,rebelrats_siegeharq_m,1,,1100,800,,500,,12,10,13,,,,HIGH_EXPLOSIVE,480,,0,3,1,,0,10,5,12,,700,,,40,,,,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Fast,Excellent,,,,,,
 ASG-120 Crossbow,rebelrats_crossbow_m,1,,1100,850,,100,,10,10,12,,,,KINETIC,120,,0,.5,2,0.25,0,8,2,12,,800,,,30,,,,"kinetic14, rebelrats_arsenal_bp",,Arms & Armor,,Anti-Shield,,,Fast,Medium,,,,,,
 KEM-400 Falcon Missile Pod,rebelrats_falcon_m,1,,2000,2000,,1200,,40,15,12,16,0.04,4,FRAGMENTATION,,,0,4,4,0.5,0,0,0,0,,500,150,6,150,,,"STRIKE, USE_VS_FRIGATES","missile12, strike9, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Shield,Medium,Medium,,,Specialized flechettes have been tailored to damage shields (%s kinetic damage),300,,,TRUE,
 Hwacha MLRS,rebelrats_hwacha_m,1,,1900,1400,,200,,5,15,10,96,0.2,12,HIGH_EXPLOSIVE,20,,0,5,12,0.2,0,0,0,0,,600,50,4,20,,,"ANTI_FTR, DO_NOT_CONSERVE, DO_NOT_AIM","utility8, missile0, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Fighter,Very Fast,Very High,,,,,,,,
