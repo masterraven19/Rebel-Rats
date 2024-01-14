@@ -22,7 +22,7 @@ public class rebelrats_ManAtArmsTargettingGrid extends BaseHullMod {
 	public static float BONUS_SMALL_1 = 10;
 	public static float BONUS_MEDIUM_1 = 10;
 	public static float BONUS_LARGE_1 = 5;
-	public static float BONUS_PD = 50;
+	public static float BONUS_PD = 30;
 
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 		stats.getDynamic().getMod(Stats.PD_BEST_TARGET_LEADING).modifyFlat(id, 1f);

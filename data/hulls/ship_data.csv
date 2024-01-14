@@ -59,7 +59,7 @@ Right Ablative Plate,rebelrats_matkaboskaplate_left,,Rebel Rats,,,1000,1000,0,,0
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #STATIONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Orbital Station,station1_hightech,Orbital Station,,,100,40000,1600,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2002.2
-,rebelrats_station,Orbital Station,,,100,40000,1600,1000,,100,0,,30,200,200,1,1,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,
+,rebelrats_station,Ironclad Bulk Superheated Fortress Of the Almighty Krysan Rat Federation Army ,,,100,40000,1600,1000,,100,0,,30,200,200,1,1,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #UNKOWN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Rat Ship,rebelrats_ratship,Capital Class Lobster,Black Plague,microburn,100,10000,6000,25000,,3500,360,,100,85,60,30,70,6000,FRONT,,360,0.1,0.3,,,1,1,15000,1000,1,1000,10,10000000,3,12,700,.25,150,150,,,,,,,,"rebelrats_bp, no_dealer",,,,,,

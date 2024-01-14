@@ -14,7 +14,7 @@ public class rebelrats_custodianProxEffect implements ProximityExplosionEffect {
     public void onExplosion(DamagingProjectileAPI explosion, DamagingProjectileAPI originalProjectile) {
         CombatEngineAPI engine = Global.getCombatEngine();
         if (originalProjectile.getWeapon() == null){
-            engine.addSmokeParticle(originalProjectile.getLocation(),new Vector2f(),40F,1F,1.2F, Color.BLACK);
+            engine.addSmokeParticle(originalProjectile.getLocation(),new Vector2f(),40F,1F,1.52F, new Color(156,84,45,255));
             return;
         }
         if (originalProjectile.getWeapon().getId().matches("rebelrats_custodian_m")){

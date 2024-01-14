@@ -351,7 +351,6 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 //		}
 		
 		stationFleet = FleetFactoryV3.createFleet(fParams);
-		//stationFleet.setName(getCurrentName());
 		stationFleet.setNoFactionInName(true);
 		
 		
@@ -416,7 +415,7 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 		String fleetName = null;
 		String variantId = null;
 		float radius = 60f;
-		
+
 		try {
 			JSONObject json = new JSONObject(getSpec().getData());
 			variantId = json.getString("variant");
@@ -613,8 +612,17 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 	
 	public boolean isAvailableToBuild() {
 		//if (getSpec().hasTag(Industries.TAG_PARENT)) return true;
-		
 		boolean canBuild = false;
+		/**
+		for (Industry ind : market.getIndustries()) {
+			if (ind == this) continue;
+			if (!ind.isFunctional()) continue;
+			if (ind.getSpec().hasTag(Industries.TAG_SPACEPORT)) {
+				canBuild = true;
+				break;
+			}
+		}
+		 **/
 		return canBuild;
 	}
 	

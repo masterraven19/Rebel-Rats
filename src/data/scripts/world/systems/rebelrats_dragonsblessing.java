@@ -301,7 +301,7 @@ public class rebelrats_dragonsblessing {
         magawa_market.addIndustry(Industries.SPACEPORT);
         magawa_market.addIndustry(Industries.WAYSTATION);
         magawa_market.addIndustry(Industries.HEAVYBATTERIES, Collections.singletonList(Items.DRONE_REPLICATOR));
-        magawa_market.addIndustry("rebelrats_battlestation");
+        magawa_market.addIndustry("rebelrats_starfortress");
         magawa_market.addIndustry(Industries.HIGHCOMMAND);
 
         magawa_market.getIndustry(Industries.MINING).setAICoreId(Commodities.GAMMA_CORE);

@@ -1,5 +1,5 @@
 {
-	"id":"rebelrats_hawker_canister",
+	"id":"rebelrats_chaff_canister",
 	"specClass":"projectile",
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",
@@ -14,7 +14,7 @@
 	"pixelsPerTexel":5.0,
 	"bulletSprite":"graphics/missiles/rat_canister.png",
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
-    	                "onExplosionEffect":"data.scripts.weapons.rebelrats_hawkerProxEffect",
+    	                "onExplosionEffect":"data.scripts.weapons.rebelrats_chaffProxEffect",
     					"range":100,
     					#"vsMissileRange":100,
     					"explosionSpec":{"duration":0.1f,
