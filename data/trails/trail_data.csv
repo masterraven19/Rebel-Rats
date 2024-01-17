@@ -4,7 +4,7 @@ trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 rebelrats_doldrums_rod,rebelrats_doldrums_rod,base_trail_zap,10,0.1,0.1,0.8,12,64,"[218,125,222]","[230,208,231]",1,100,100,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
-rebelrats_doldrumstrail,rebelrats_doldrums_rod,rebelrats_doldrumstrail,0.1,0.2,0.5,0.2,18,256,"[218,165,222]","[230,228,231]",1,100,-100,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,0,false,false
+rebelrats_doldrumstrail,rebelrats_doldrums_rod,rebelrats_doldrumstrail,0.1,0.2,2,1,18,192,"[218,165,222]","[230,228,231]",1,100,-100,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,0,false,false
 rebelrats_hwacha_srm,rebelrats_hwacha_srm,base_trail_smooth,0.5,0.025,0.025,0.05,4,8,"[218,125,222]","[230,208,231]",0.5,100,100,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_huntsman_torp,rebelrats_huntsman_torp,base_trail_heavySmoke,1.5,0.05,0.05,0.2,10,16,"[230,230,230]","[230,208,231]",0.5,100,100,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_rattenjager_amm,rebelrats_rattenjager_amm,base_trail_smooth,1,0.05,0.05,0.05,4,8,"[255,165,80]","[233,161,24]",0.5,100,200,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
@@ -23,7 +23,7 @@ rebelrats_nezulana_rod,rebelrats_nezulana_rod,base_trail_weave,3,0.1,0.2,0.3,10,
 rebelrats_pyroclast_bomb,rebelrats_pyroclast_bomb,base_trail_smooth,1,0.1,0.1,0.2,12,24,"[218,218,218]","[255,59,80]",0.5,100,50,TRUE,0,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_pyroclast_torp,rebelrats_pyroclast_torp,base_trail_heavySmoke,2,0.1,0.1,0.4,12,18,"[230,230,230]","[255,59,80]",0.5,100,50,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_muridae_plasma,rebelrats_muridae_plasma,base_trail_zap,1,0.025,0.05,0.075,24,4,"[99,194,255]","[0,145,238]",0.5,100,100,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,180,true,false
-rebelrats_mangonel_shot,rebelrats_mangonel_shot,base_trail_zap,1,0.05,0.1,0.07,4,24,"[255,255,255]","[255,0,0]",0.5,100,300,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,180,true,false
+rebelrats_mangonel_shot,rebelrats_mangonel_shot,base_trail_zap,1,0.05,0.1,0.07,4,24,"[255,255,255]","[255,0,0]",0.5,100,-100,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,180,true,false
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #String trail: projectile ID plus a suffix if there are multiple trails for that proj,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #String projectile: projectile ID,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

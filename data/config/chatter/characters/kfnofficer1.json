@@ -28,7 +28,7 @@
 			{"text":"Missiles depleted."}
 		],
 		"engaged":[
-			{"text":"Enemy contact, powering PDCs."},
+			{"text":"Enemy contact, power to PDCs."},
 			{"text":"Combat initiated, engaging target."},
 			{"text":"HAVE AT THEE!"},
 			{"text":"Target verified, engaging."},

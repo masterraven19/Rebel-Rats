@@ -133,7 +133,7 @@ With captains that can only be described as desperate daredevils with no regard 
 
 Its fusion torch engine is homebrewed from a frankenstein of parts while its flux reactor is usually a Bobcat-Pattern Flux Reactor taken from a salvaged Monax.
 ",,,,
-rebelrats_sorex,SHIP,"Considered unconventional in Krysan Admiralty for its lack of missiles tubes, nevertheless, the Sorex is a capable destroyer with monstrous forward firepower. They are often paired with another ship to make up for its lackluster point defence grid so that it can focus on anti-ship duties. The ship's autoloaders will make sure that weapons will engage at the maximum rate of fire while having respectable armor to soak up damage.
+rebelrats_sorex,SHIP,"Considered unconventional in Krysan Admiralty for its lack of missile mounts, nevertheless, the Sorex is a capable destroyer with respectable forward firepower. They are often paired with another ship to make up for its lackluster point defence grid so that it can focus on anti-ship duties. The ship's autoloaders ensures that its weapons will engage at the max rate of fire. Its respectable level of protection will let it weather through scuffles.
 
 Despite being overshadowed by the Rattus for its unwieldiness and its late introduction just after the Penance War, the Sorex has a reputation for being a comfortable ship by its crews as it has been designed around crew ergonomics. The ship was expected to perform long duration patrols or intermittent deep space anti-piracy missions. 
 
@@ -187,14 +187,24 @@ Like the Panya, the interior of the Rott is utilitarian with little luxuries to 
 The ship runs with a Lynx-Pattern flux reactor to power and systems while a pellet-fed DAEDALUS-type engine ensures efficient fuel consumption. ",,,,
 ,,,,,,
 #SHIP SYSTEMS,,,,,,
-rebelrats_jerboaSystem,SHIP_SYSTEM,"Overwhelms the target using onboard EW systems. Disrupts the target's subsystems for a short amount of time: disables turret rotation, reduces ship turning, disables engines",Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
+rebelrats_jerboaSystem,SHIP_SYSTEM,"Overwhelms the target using extensive EW systems. Disrupts the target's subsystems for a short amount of time: disables turret rotation, reduces ship turning, disables engines",Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
 ,,,,,,
 rebelrats,FACTION,"Rats, rats, we are the rats
 Celebrating yet another birthday bash
 Michael, its your birthday today
 Cake and ice-cream are on its way
 And Michael's been such a good boy this year
-Open up your gifts while we all cheer",,,,
+Open up your gifts while we all cheer
+
+The Krysan Federal Navy is the naval arm of the Federated States of Krysa and is responsible for the security and protection of the nation's borders as well as the meticulous safekeeping the well being of all its citizens within the sector.
+
+The Federated States of Krysa is a burgeoning polity governed by a directorial council who jointly serves as the collective head of state. The polity was formed from the, now defunct, Krysan Empire, after a civil war. It is not known whether the nation is of Domain in origin as no records of colonization efforts exists within Hegemony libraries. Nevertheless, it is clear to the sector that the nationstate has poised itself to be an opponent of the Hegemony, with its Spokesperson stating clearly the people's disdain of the Hegemony's iron grip over the sector.
+
+Despite the nation's apparent unity against foreign powers, it is not without its own set of problems. The nation is still tackling the problem of existing rebel cells that took their roots during the civil war. Sporadic armed conflicts not unlike that of pirate attacks occur within the periphery, especially in orbit of Malus and Nutria. The problem has also been exacerbated by arriving Persean pirates and unruly debtors looking for a quick buck.
+
+Regardless, the Federated States of Krysa remains stalwart and lustrous against the sea of darkness of the Persean Sector, always optimistic with the prospect of finding new planets to colonize and expand its domain.
+
+Instilled within every citizen is the nation's founding tenets that give them a common purpose, accompanied by its often heard motto: ""In the will of the gods, we fervently live.""",,,,
 ,,,,,,
 #PLANETS,,,,,,
 rebelrats_rattus_planet,CUSTOM,"The planet serves as an example of the nation’s conviction to its founding tenets, manifesting itself in the people's ability to heal the planet's grievous wounds earned from its long history of conflict.

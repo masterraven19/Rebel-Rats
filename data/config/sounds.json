@@ -6,10 +6,10 @@
     ],
     "equalizer_firing":
     [
-    {"file":"sounds/equalizer_firing3.ogg", "pitch":1.00, "volume":1.5},
-    {"file":"sounds/equalizer_firing4.ogg", "pitch":1.00, "volume":1.5},
-    {"file":"sounds/equalizer_firing5.ogg", "pitch":1.00, "volume":1.5},
-    {"file":"sounds/equalizer_firing6.ogg", "pitch":1.00, "volume":1.5},
+    {"file":"sounds/equalizer_firing3.ogg", "pitch":1.00, "volume":1},
+    {"file":"sounds/equalizer_firing4.ogg", "pitch":1.00, "volume":1},
+    {"file":"sounds/equalizer_firing5.ogg", "pitch":1.00, "volume":1},
+    {"file":"sounds/equalizer_firing6.ogg", "pitch":1.00, "volume":1},
     ],
     "doldrums_firing":
     [
@@ -33,20 +33,20 @@
         {"file":"sounds/Mangonel_firing1.ogg","pitch":1.00,"volume":1},
     ],
     "petard_firing":[
-        {"file":"sounds/petard_firing3.ogg","pitch":1.00,"volume":1},
+        {"file":"sounds/petard_firing3.ogg","pitch":1.00,"volume":0.8},
     ],
     "braggador_firing":[
-        {"file":"sounds/Braggador_firing1.ogg","pitch":1.00,"volume":.7},
-        {"file":"sounds/Braggador_firing2.ogg","pitch":1.00,"volume":.7},
+        {"file":"sounds/Braggador_firing1.ogg","pitch":1.00,"volume":0.7},
+        {"file":"sounds/Braggador_firing2.ogg","pitch":1.00,"volume":0.7},
     ],
     "crossbow_firing":[
-        {"file":"sounds/Crossbow_firing2.ogg","pitch":1.00,"volume":.2},
+        {"file":"sounds/Crossbow_firing2.ogg","pitch":1.00,"volume":0.2},
     ],
     "nezulana_firing": [
-        {"file":"sounds/nezulana_firing2.ogg","pitch":1.00,"volume":.6},
+        {"file":"sounds/nezulana_firing2.ogg","pitch":1.00,"volume":0.6},
     ],
     "drummer_firing": [
-        {"file":"sounds/drummer_firing.ogg","pitch":1.00,"volume":.7},
+        {"file":"sounds/drummer_firing.ogg","pitch":1.00,"volume":0.7},
     ],
     "petardcanister_firing": [
         {"file":"sounds/petardcanister_firing.ogg","pitch":1.00,"volume":1},
@@ -61,7 +61,7 @@
         {"file":"sounds/spinaldoldrums_charging2.ogg","pitch":1.00,"volume":0.8},
     ],
     "sorex_firing": [
-        {"file":"sounds/Sorex_gun_firing.ogg","pitch":1.00,"volume":0.8},
+        {"file":"sounds/Sorex_gun_firing.ogg","pitch":1.00,"volume":0.7},
     ],
     "rebelrats_engine_loop":{
         "sounds":[
@@ -71,7 +71,7 @@
     },
     "rebelrats_engine_accelerate":{ # played when ship receives an "engine boost" from having zero flux
     "sounds":[
-        {"file":"sounds/ratengineboost.ogg","pitch":1,"volume":0.15},
+        {"file":"sounds/ratengineboost.ogg","pitch":1,"volume":0.1},
     ],
     },
 }

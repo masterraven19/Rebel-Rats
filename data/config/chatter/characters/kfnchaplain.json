@@ -12,7 +12,7 @@
 			{"text":"We will emerge a stronger soul from this."},
 			{"text":"Eye for an eye, ship for a ship."},
 			{"text":"Have fun and be careful."},
-			{"text":"Treat others as you would be by them."}
+			{"text":"Treat others as you would be treated by them."}
 		],
 		"start_boss":[
 			{"text":"The gods are watching, let's give em' a good show!"},
@@ -23,14 +23,14 @@
 			{"text":"The gods aren't in our favor today."}
 		],
 		"out_of_missiles":[
-			{"text":"Oh that's unfortunate, racks have gone dry."},
+			{"text":"Oh, that's unfortunate, racks have gone dry."},
 			{"text":"Missiles have been depleted."}
 		],
 		"engaged":[
 			{"text":"Smite that target!"},
 			{"text":"For oath and country!"},
 			{"text":"HAVE AT THEE!"},
-			{"text":"Through oath I serve!"},
+			{"text":"Through oath I serve dutifully!"},
 			{"text":"Our belief guides our shells!"}
 		],
 		"need_help":[
@@ -39,7 +39,8 @@
 		],
 		"pursuing":[
 			{"text":"Have you counted your blessings?"},
-			{"text":"Fate has unfortunately caught up."},
+			{"text":"Fate has, unfortunately, caught up."},
+			{"text":"I'll take you to the gods myself."},
 			{"text":"Vectoring to intercept target."}
 		],
 		"running":[
@@ -49,7 +50,7 @@
 		],
 		"hull_90":[
 			{"text":"Oh- that's a hole."},
-			{"text":"Seems that we've agitated them, fire back!"}
+			{"text":"Seems that we've agitated them, gunner fire back!"}
 		],
 		"hull_50":[
 			{"text":"Oh, blessed be, that's a big hole."},
@@ -59,7 +60,7 @@
 		"hull_30":[
 			{"text":"My hull's down to 30%!"},
 			{"text":"Oh heavens! there goes my navigator."},
-			{"text":"Heavy casualties sustained, the corpsmen are dead!"},
+			{"text":"Heavy casualties sustained, the corpsmen are dead."},
 			{"text":"Ship's buckling, but my men are not. Please send help!"},
 			#{"text":"Breach in starboard fusion chamber!"}
 		],
@@ -74,9 +75,9 @@
 		],
 		"victory":[
 			{"text":"The gods look at us with glee."},
-			{"text":"Praise be!"},
-			{"text":"Battle's over, secure the wounded, assess battle damage."},
-			{"text":"Absolutely sublime performance, sir!"}
+			{"text":"Praise be, we live another day!"},
+			{"text":"Battle's over, secure the wounded and assess battle damage."},
+			{"text":"Absolutely sublime performance, sir."}
 		],
 	}
 }
