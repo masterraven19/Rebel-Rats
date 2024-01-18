@@ -60,7 +60,7 @@ Rattus Huntsman Torpedo Launcher,rebelrats_rattus_torp,,,0,2000,,1000,,50,15,0,6
 # guards,rebelrats_guardsman,,,0,400,,28,,1,100,0,,,,KINETIC,0,,0,.15,1,,0,2,0.5,15,,900,,,5,,,"SYSTEM, PD, NO_TURN_RATE_BOOST_WHEN_IDLE","pd7, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #FIGHTER WEAPONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Mini Huntsman Torpedo,rebelrats_huntsman_f,,,0,1000,,550,,80,15,0,1,0.0001,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,600,100,3,150,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
+Mini Huntsman Torpedo,rebelrats_huntsman_f,,,0,1000,,500,,80,15,0,1,0.0001,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,600,100,3,150,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 Hwacha SRM x6,rebelrats_hwacha_f,,,0,800,,100,,5,15,0,6,,,HIGH_EXPLOSIVE,0,,0,6,2,0.5,0,0,0,0,,600,150,3,50,,,"SYSTEM, ANTI_FTR, DO_NOT_CONSERVE, DO_NOT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Fighter,Medium,High,,,,,,,TRUE,
 AFG-40 Ranger (f),rebelrats_ranger_f,,,0,400,,20,,1,75,0,,,,KINETIC,0,,0,.15,1,,0,4,1,15,,1300,,,10,,,"SYSTEM, PD","pd7, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
 AFG-20(2) Guardsman,rebelrats_guardsman_f,,,0,400,,28,,1,100,0,,,,KINETIC,0,,0,.15,1,,0,2,0.5,15,,900,,,5,,,"SYSTEM, PD, NO_TURN_RATE_BOOST_WHEN_IDLE","pd7, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
