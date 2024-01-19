@@ -9,7 +9,7 @@
   "turretGunSprite": "graphics/weapons/drummer_turret_barrel.png",
   "hardpointSprite": "graphics/weapons/drummer_hardpoint_base.png",
   "hardpointGunSprite": "graphics/weapons/drummer_hardpoint_barrel.png",
-  "visualRecoil": 8,
+  "visualRecoil": 10,
   "renderHints": [
     RENDER_BARREL_BELOW
   ],
@@ -33,7 +33,7 @@
     0,
     0
   ],
-  "barrelMode": "ALTERNATING",
+  "barrelMode": "LINKED",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
     "length": 60,

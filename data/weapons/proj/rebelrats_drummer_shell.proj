@@ -11,7 +11,7 @@
 	"fringeColor":[110,110,110,175],
 	"coreColor":[221,221,221,200],
 	"glowColor":[255,255,255,105],
-	"glowRadius":80,
+	"glowRadius":30,
 	"textureScrollSpeed":64.0,
 	"pixelsPerTexel":5.0,
 	"passThroughMissiles":true,

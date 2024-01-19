@@ -4,11 +4,11 @@
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/Patron_corvette.png",
   "style": "MIDLINE",
-  "height": 75,
+  "height": 79,
   "width": 50,
-  "center": [25, 37.5],
+  "center": [25, 42],
   "collisionRadius": 76,
-  "shieldCenter": [0, 0],
+  "shieldCenter": [0, -0],
   "shieldRadius": 56.5,
   "viewOffset": 0,
   "builtInMods": [
@@ -23,9 +23,9 @@
       "size": "SMALL",
       "type": "COMPOSITE",
       "mount": "TURRET",
-      "arc": 180,
+      "arc": 90,
       "angle": 0,
-      "locations": [11.5, -0]
+      "locations": [16, -0]
     },
     {
       "id": "WS0002",
@@ -34,7 +34,7 @@
       "mount": "TURRET",
       "arc": 201,
       "angle": 90,
-      "locations": [-3.5, 15]
+      "locations": [1, 15]
     },
     {
       "id": "WS0003",
@@ -43,7 +43,7 @@
       "mount": "TURRET",
       "arc": 201,
       "angle": -90,
-      "locations": [-3.5, -15]
+      "locations": [1, -15]
     },
     {
       "id": "WS0004",
@@ -52,12 +52,12 @@
       "mount": "TURRET",
       "arc": 70,
       "angle": 0,
-      "locations": [34.5, -0]
+      "locations": [35, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-35.5, 7.5],
+      "location": [-41, 7],
       "length": 35,
       "width": 13,
       "angle": 180,
@@ -66,7 +66,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-35.5, -7.5],
+      "location": [-41, -7],
       "length": 35,
       "width": 13,
       "angle": -180,
@@ -76,11 +76,11 @@
     }
   ],
   "bounds": [
-    -36.5, -14.5,
-    -8, -24,
+    -41.5, -14,
+    5, -21,
     35, -9,
     35, 9,
-    -8, 24,
-    -36.5, 14.5
+    5, 21,
+    -41.5, 14
   ]
 }

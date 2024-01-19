@@ -4,12 +4,12 @@
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/Patron_corvette.png",
   "style": "MIDLINE",
-  "height": 75,
+  "height": 79,
   "width": 50,
-  "center": [25, 37.5],
-  "collisionRadius": 61,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 52,
+  "center": [25, 42],
+  "collisionRadius": 70.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 57.5,
   "viewOffset": 0,
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid",
@@ -26,9 +26,9 @@
       "size": "SMALL",
       "type": "COMPOSITE",
       "mount": "TURRET",
-      "arc": 180,
+      "arc": 90,
       "angle": 0,
-      "locations": [11.5, -0]
+      "locations": [16, -0]
     },
     {
       "id": "WS0002",
@@ -37,7 +37,7 @@
       "mount": "TURRET",
       "arc": 201,
       "angle": 90,
-      "locations": [-3.5, 15]
+      "locations": [1, 15]
     },
     {
       "id": "WS0003",
@@ -46,7 +46,7 @@
       "mount": "TURRET",
       "arc": 201,
       "angle": -90,
-      "locations": [-3.5, -15]
+      "locations": [1, -15]
     },
     {
       "id": "WS0004",
@@ -55,12 +55,12 @@
       "mount": "TURRET",
       "arc": 70,
       "angle": 0,
-      "locations": [34, -0]
+      "locations": [40, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-35.5, 7.5],
+      "location": [-41, 8],
       "length": 35,
       "width": 13,
       "angle": 180,
@@ -69,7 +69,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-35.5, -7.5],
+      "location": [-41, -7],
       "length": 35,
       "width": 13,
       "angle": -180,
@@ -79,11 +79,11 @@
     }
   ],
   "bounds": [
-    -36.5, -14.5,
-    -8, -24,
-    35, -9,
-    35, 9,
-    -8, 24,
-    -36.5, 14.5
+    -41, -14.5,
+    5, -20.5,
+    34, -7.5,
+    34, 7.5,
+    5, 20.5,
+    -41, 14.5
   ]
 }
