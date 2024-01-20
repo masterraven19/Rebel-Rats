@@ -3,4 +3,4 @@ name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u 
 #Fortress Shield,fortressshield,,,0.025,,,,,,,1.5,,1.5,0,TRUE,,,TRUE,TRUE,,,,,,,,graphics/icons/hullsys/fortress_shield.png
 #Fast Missile Racks,fastmissileracks,,,,,,0.25,,3,0.1,1,0,0,0,,,,,,,,,,,,,graphics/icons/hullsys/missile_racks.png
 #Accelerated Ammo Feeder,ammofeed,,,,,,,,,,1,5,1,10,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
-Jerboa EMP Burst,rebelrats_jerboaSystem,,,,1000,,,,,,1,5,2,12,,,,,,,,,,,,,graphics/icons/hullsys/entropy_amplifier.png
+Jerboa EMP Burst,rebelrats_jerboaSystem,,,,1000,,,,,,1,5,2,15,,,,,,,,,,,,,graphics/icons/hullsys/entropy_amplifier.png
