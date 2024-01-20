@@ -188,6 +188,7 @@ The ship runs with a Lynx-Pattern flux reactor to power and systems while a pell
 ,,,,,,
 #SHIP SYSTEMS,,,,,,
 rebelrats_jerboaSystem,SHIP_SYSTEM,"Overwhelms the target using extensive EW systems. Disrupts the target's subsystems for a short amount of time: disables turret rotation, reduces ship turning, disables engines",Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
+rebelrats_lockjaw,SHIP_SYSTEM,Uses blue rats to rapidly heat up the shells and red rat poop fragments in shells to add explosive power. This process however decreases the weapon reload rate.,,,,
 ,,,,,,
 rebelrats,FACTION,"Rats, rats, we are the rats
 Celebrating yet another birthday bash

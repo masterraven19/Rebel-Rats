@@ -35,6 +35,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_cc.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/impl/rebelrats_OrbitalStation.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_chaffProxEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/shipsystems/rebelrats_lockjaw.java" />
     </root>
   </artifact>
 </component>

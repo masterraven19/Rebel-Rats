@@ -1,0 +1,16 @@
+{
+	"id":"rebelrats_lockjaw",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.scripts.shipsystems.rebelrats_lockjaw",
+	
+	"weaponGlowColor":[204,116,27,255],
+	"weaponTypes":[BALLISTIC],
+	
+	"useSound":"system_high_energy_focus_activate",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop",	
+}
