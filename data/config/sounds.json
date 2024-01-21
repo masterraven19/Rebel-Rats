@@ -58,7 +58,7 @@
         {"file":"sounds/spinaldoldrums_firing1.ogg","pitch":1.00,"volume":0.8},
     ],
     "spinaldoldrums_charging": [
-        {"file":"sounds/spinaldoldrums_charging2.ogg","pitch":1.00,"volume":0.8},
+        {"file":"sounds/spinaldoldrums_charging2.ogg","pitch":0.8,"volume":0.7},
     ],
     "sorex_firing": [
         {"file":"sounds/Sorex_gun_firing.ogg","pitch":1.00,"volume":0.7},
