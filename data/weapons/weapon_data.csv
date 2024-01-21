@@ -2,7 +2,7 @@ name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn r
 #Light Machine Gun,lightmg,0,,100,300,,25,,1,50,3,,,,KINETIC,3,,0,0.4,5,0.1,0,5,1,15,,600,,,10,,,PD,"pd6, kinetic3, SR, base_bp",,,,Point Defense,,,,,,,,,,0.5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #SHIP WEAPONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AHG-450 Equalizer Howitzer,rebelrats_equalizer_l,1,,6000,1000,,600,,200,6,18,,,,HIGH_EXPLOSIVE,650,,0,5.5,2,0.5,0,10,6,10,,700,,,450,,,STRIKE,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Slow,Good,,,,,,
+AHG-450 Equalizer Howitzer,rebelrats_equalizer_l,1,,6000,1000,,600,,200,6,18,,,,HIGH_EXPLOSIVE,720,,0,5.5,2,0.5,0,10,6,10,,700,,,450,,,STRIKE,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Slow,Good,,,,,,
 ASG-203 Drummer Heavy Railgun,rebelrats_drummer_l,2,,6000,1000,,500,50,200,5,18,,,,KINETIC,600,,0,5,1,,0,8,3,10,,1000,,,500,,,STRIKE,"kinetic14, rebelrats_arsenal_bp",,Arms & Armor,,Anti-Shield,,,Slow,Good,,,,,,
 Mangonel Plasma Launcher,rebelrats_mangonel_l,2,,8000,900,,400,,100,8,24,9,1,4,ENERGY,520,,0,0.5,2,0.25,0,10,2,5,,1200,,,,,,STRIKE,"energy14, rebelrats_arsenal_bp",,The Three Brothers Corporation,,General,,,Slow,Poor,,,,,,
 Nezulana Assault Railgun,rebelrats_nezulana_l,2,,8000,1200,,500,,200,6,26,,,,KINETIC,700,,0,6,4,0.5,0,5,1,5,,1100,,,400,,,STRIKE,"kinetic14, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Shield,,,Slow,Excellent,,,,,,
