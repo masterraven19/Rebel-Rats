@@ -62,26 +62,26 @@ rebelrats_hippo,SHIP,"The Hippo is the standard-issue skiff of Krysan Federal Na
 rebelrats_overseer,SHIP,"A light interceptor of the Krysan Federal Navy, the Overseer is a hardy fighter created by Arms & Armor. The craft comes equipped with a Hwacha missile rack and a pair of Ranger autocannons, making a wing of Overseers a threat to enemy shields.",,,,
 rebelrats_ministro,SHIP,"The Ministro is a lightweight, unmanned interceptor drone designed by Rebel Rat Industries as a proposal to Krysan Navy officials to reduce pilot losses. It quickly found success with increasingly advanced drone control systems that allowed finer control with unmanned drones.",,,,
 rebelrats_patron_f,SHIP,"Cleverly set up microforges have allowed Federal ships to stuff an entire corvette into a hangar bay. Unfortunately, this means that only one Patron can be deployed per hangar bay with reduced capabilities.",,,,
-rebelrats_daekon,SHIP,A fast assault fighter built to break the shields of the enemy spacecraft and shred their armor with assault chainguns.,,,,
+rebelrats_daekon,SHIP,A fast assault fighter built to break the shields of the enemy spacecraft with special flechette warheads and shred armor plates with assault chainguns.,,,,
 rebelrats_dustero,SHIP,"When a group of spacers found the firepower of the Talon to be lacking, the Dustero was their answer, although, it's arguable if it is any more effective than its Persean counterpart. Equipped with a volley of 20mm guns salvaged from Guardsman turrets, the Dusteros can easily pressure the shielding of its targets.",,,,
 ,,,,,,
 #BOMBERS,,,,,,
-rebelrats_olympian,SHIP,"Despite its shambolic origins of being made from the remains of Piranha bombers, the Olympian is a capable bomber that dutifully does its job with more than enough armor and PD coverage to last it through its bombing run. A recurring joke among Olympian pilots is that the onboard warhead contains a Red Bombardier Rat as its payload.",,,,"""What kind of barbarians would ever use an animal as its guidance system? That's preposterous!"""
-rebelrats_bluster,SHIP,The Bluster has its origins from juryrigged shuttlecraft in mining fleets around Asteroid Central Station who looked for a temporary solution to the growing pirate problem. A salvaged guardsman turret sits on top of the Bluster's engine block to serve as all around protection against enemy fightercraft.,,,,
+rebelrats_olympian,SHIP,"Despite its shambolic origins of being created from the scavenged remains of Piranha bombers, the Olympian is a capable bomber that dutifully does its job with enough armor and PD coverage to last it through bombing runs. A recurring joke among Olympian pilots is that the onboard warhead contains a Red Bombardier Rat as its payload.",,,,"""What kind of barbarians would ever use an animal as its guidance system? That's preposterous!"""
+rebelrats_bluster,SHIP,The Bluster has its origins from juryrigged shuttlecraft in mining fleets who looked for a temporary solution to the growing pirate problem. A salvaged guardsman turret sits on top of the Bluster's engine block to serve as all around protection against enemy fightercraft.,,,,
 ,,,,,,
 #COMBAT SHIPS ,,,,,,
-rebelrats_porcellus,SHIP,"Bristling with weaponry and cladded in thick composites, the Porcellus is the most common capital ship found in Krysan Federal Navy battlegroups. In the ship's hangars, the Porcellus carries a pair of skiffs that can conduct rapid military insertions, or act as PD screens during engagements.
+rebelrats_porcellus,SHIP,"Bristling with weaponry and cladded in thick composites, the Porcellus is the most common capital ship found in Krysan Federal Navy battlegroups. In the ship's hangars, the Porcellus carries a pair of skiffs that can conduct rapid military insertions, or act as PD screens during engagements. The ship can readily serve a multitude of roles from a mobile artillery platform to a mobile command center during battles.
 
 The Porcellus is designed by the Arms and Armor Conglomerate and is built in the massive orbital berths of Kaharian Naval Steelworks. Being based off of a venerable design in the days of the Empire, the prototype model initially lacked effective PD coverage and long-ranged weaponry, but improvements to PD designs and new technologies brought by the development of the Mobile Defence Doctrine made the Porcellus one of the safest ships in the Krysan Federal Navy.
 
 At the ship’s core, four Barkley-Pattern Heavy-Duty AM-catalysed flux reactors are responsible for powering the ship’s Basilica-Model shield generator and its set of four massive H303 Torch Drives and two secondary H302 Torch Drives.
 ",,,,
 ,,,,,,
-rebelrats_marmot,SHIP,"Marmot Heavy Cruisers form the backbone of Krysan formations. The ship’s set of weapon mounts and hangars means that the ship can fill most roles that its captain may require. With its Doldrums Superheavy Railgun, the Marmot allows captains to bring station-grade weaponry to battles, allowing the ship to act as fire support for larger capitals.
+rebelrats_marmot,SHIP,"Marmot Cruisers form the backbone of Krysan formations. The ship’s set of weapon mounts and hangars means that the ship can fill most roles that its captain may require. With its Doldrums Superheavy Railgun, the Marmot allows captains to bring station-grade weaponry to battles, allowing the ship to act as fire support for larger capitals.
 
-Designed by Veronica Witherfield, Rebel Rats Head Engineer, the Marmot is designed to fill out a multitude of roles in the field from squadron leader in flotillas, to fire support platforms in larger battles. Veronica, together with Federal Navy officers, created the ship alongside the Mobile Defence Doctrine, giving the ship with sufficient structural integrity and flux systems to handle the operation of a Doldrums Superheavy Railgun.
+Designed by Veronica Witherfield, Rebel Rats Head Engineer, the Marmot is designed to fill out a multitude of roles in the field from squadron leader in flotillas, to fire support platforms in larger battles. Veronica and Federal Navy officials created the ship together with the Mobile Defence Doctrine, giving the ship with the structural integrity and flux systems to handle the operation of a Doldrums Superheavy Railgun.
 
-The ship became notable during its first major use in the Siege of Nutria against pirate ships from the Persean Sector. Using the Doldrums, flotillas of Marmots were able to lift the siege and chase the fleeing pirates back to the jump point with minimal losses. The battle would prove the ship's capabilities to Krysan High Command as an effective fire support vehicle for capitals.
+The ship became notable during its first use in the Siege of Nutria against a major priate armada hailing from the Persean Sector. Using its railgun, Marmots were able to lift the siege and chase the fleeing pirates back to the jump point with minimal losses. The battle would prove the ship's capabilities to Krysan High Command as an effective fire support vehicle in major engagements.
 
 Equipped with two M405 Torch Drives, the Marmot can easily manoeuvre around the battlefield to take advantage of opportunities. For power, the ship uses two Barkley-Pattern Heavy-duty AM-catalysed flux reactors that power the ship’s torch drives and dual shield generators.
 ",,,,
@@ -91,11 +91,11 @@ Built by The Three Brothers Corporation, the Jerboa is the main warship of the K
 
 The ship uses two heavily modified M503 Torch Drives fed by three Sleipnir-Pattern Hyper Cooled flux reactors. Apart from its use of stealth composites, the Jerboa also runs extensive hull cooling systems to hide it in the infrared spectrum, often storing waste heat in its 2 massive internal heat sinks that recycle the heat to power auxiliary systems until the ship can dump it out safely out of prying eyes.
 ",,,,
-rebelrats_matkaboska,SHIP,"Despite lacking the mountings for a Doldrums, the Matka Boska makes up for it with copious amounts of firepower and armor. The ship has a solid reputation for keeping its crew safe during heavy engagements thanks to its armor layout. Due to this apparent hardiness, the ship has become a favorite for officers to use as frontline command ships.
+rebelrats_matkaboska,SHIP,"Despite lacking the mountings for a Doldrums, the Matka Boska makes up for it with heavy firepower and protection. The ship has a solid reputation for keeping its crew safe during heavy engagements thanks to its armor layout. Due to this apparent hardiness, the ship has become a favorite for officers to use as frontline command ships.
 
-The Matka Boska was unfortunately conceived right before the culmination of the Mobile Defence Doctrine development. Due to this, the ship received neither suffiecient mountings nor sufficient reactors to accommodate the energy need of a Doldrums. Instead, the ship relies on thick slabs of frontal ablative armour and an arsenal of missiles to even out peer to peer fights.
+The Matka Boska was unfortunately conceived right before the beginning of the Mobile Defence Doctrine development. Due to this, the ship received neither suffiecient mountings nor sufficient reactors to accommodate the energy need of a Doldrums. Instead, the ship relies on thick slabs of frontal ablative armour and an arsenal of missiles to even out peer to peer fights.
 
-The base design of the ship predates that of the Marmot and resembles that of archaic Krysan warships as Rebel Rat engineers took design cues from warships of old. Due to this, the Matka Boska not only boasts heavier armour than its contemporaries, but also better structural integrity and hardier citadels to keep its crew safe during engagements.
+The base design of the ship predates that of the Marmot and resembles that of archaic Krysan warships which Rebel Rat engineers took design cues from. Due to this, the Matka Boska not only boasts heavier armour than its contemporaries, but also better structural integrity and hardier citadels that effectively keeps its crew safe during engagements.
 
 The ship is equipped with two Barkley-Pattern AM-catalysed flux reactors to power its singular H305 Torch Drive and its Basilica-Model shield generator. Multiple redundant subsystems are in place to make sure that the ship can get the crew back to safety including extensive escape skiff bays.
 ",,,,
@@ -188,7 +188,7 @@ The ship runs with a Lynx-Pattern flux reactor to power and systems while a pell
 ,,,,,,
 #SHIP SYSTEMS,,,,,,
 rebelrats_jerboaSystem,SHIP_SYSTEM,"Overwhelms the target using extensive EW systems. Disrupts the target's subsystems for a short amount of time: disables turret rotation, reduces ship turning, disables engines",Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
-rebelrats_lockjaw,SHIP_SYSTEM,Uses blue rats to rapidly heat up the shells and red rat poop fragments in shells to add explosive power. This process however decreases the weapon reload rate.,,,,
+rebelrats_lockjaw,SHIP_SYSTEM,"Power for shield projectors are diverted into the ship's autoloaders while Composition HEP is injected into shell canisters. Generates hardflux, disables shields, disables hardflux dissipation, increases weapon damage by 50% and rate of fire by 30%",,,,
 ,,,,,,
 rebelrats,FACTION,"Rats, rats, we are the rats
 Celebrating yet another birthday bash
@@ -199,13 +199,15 @@ Open up your gifts while we all cheer
 
 The Krysan Federal Navy is the naval arm of the Federated States of Krysa and is responsible for the security and protection of the nation's borders as well as the meticulous safekeeping the well being of all its citizens within the sector.
 
-The Federated States of Krysa is a burgeoning polity governed by a directorial council who jointly serves as the collective head of state. The polity was formed from the, now defunct, Krysan Empire, after a civil war. It is not known whether the nation is of Domain in origin as no records of colonization efforts exists within Hegemony libraries. Nevertheless, it is clear to the sector that the nationstate has poised itself to be an opponent of the Hegemony, with its Spokesperson stating clearly the people's disdain of the Hegemony's iron grip over the sector.
+The Federated States of Krysa is a self-sufficient burgeoning polity governed by a directorial council who jointly serves as the collective head of state. The polity was formed from the, now defunct, Krysan Empire, after an interplanetary civil war. It is not known whether the nation is Domain in origin as there are no records of past colonization efforts that exists within Hegemony libraries. Nevertheless, it is clear to the sector that the nationstate has poised itself to be an opponent of the Hegemony, with a Krysan spokesperson stating clearly the people's disdain of the Hegemony's iron grip over the sector.
 
-Despite the nation's apparent unity against foreign powers, it is not without its own set of problems. The nation is still tackling the problem of existing rebel cells that took their roots during the civil war. Sporadic armed conflicts not unlike that of pirate attacks occur within the periphery, especially in orbit of Malus and Nutria. The problem has also been exacerbated by arriving Persean pirates and unruly debtors looking for a quick buck.
+Despite the its apparent unity against hostile foreign powers, the nation is not without its own set of problems as the problem of rebel cells left over from the civil war still persist. Sporadic armed conflicts not unlike that of pirate attacks occur within the periphery of colonies, especially within that of the new colony of Tikus where problem has been exacerbated by Persean pirates and unruly debtors looking for a quick buck. Federal interdiction flotillas are often seen patrolling major trade routes to deter pirates while undercover agents keep local pirate warlords in check.
 
-Regardless, the Federated States of Krysa remains stalwart and lustrous against the sea of darkness of the Persean Sector, always optimistic with the prospect of finding new planets to colonize and expand its domain.
+Regardless of the problems, the Federated States of Krysa remains ever stalwart and lustrous against the sea of darkness of the decaying Persean Sector, always optimistic with the prospect of finding new planets to colonize and expand its domain.
 
-Instilled within every citizen is the nation's founding tenets that give them a common purpose, accompanied by its often heard motto: ""In the will of the gods, we fervently live.""",,,,
+Instilled within every citizen is the nation's founding tenets that give them a common purpose, accompanied by its often heard motto:
+
+""In the will of the gods, we fervently live.""",,,,
 ,,,,,,
 #PLANETS,,,,,,
 rebelrats_rattus_planet,CUSTOM,"The planet serves as an example of the nation’s conviction to its founding tenets, manifesting itself in the people's ability to heal the planet's grievous wounds earned from its long history of conflict.
