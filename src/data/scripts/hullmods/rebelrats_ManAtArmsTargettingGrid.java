@@ -30,6 +30,10 @@ public class rebelrats_ManAtArmsTargettingGrid extends BaseHullMod {
 
 	@Override
 	public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
+        if(ship.getVariant().hasHullMod("pointdefenseai")){
+            ship.getVariant().removeMod("pointdefenseai");
+			ship.getVariant().addMod("rebelrats_incompatible");
+        }
 		WeaponSize largest = null;
 		for (WeaponSlotAPI slot : ship.getHullSpec().getAllWeaponSlotsCopy()) {
 			if (slot.isDecorative() ) continue;
@@ -101,12 +105,21 @@ public class rebelrats_ManAtArmsTargettingGrid extends BaseHullMod {
 		}
 
 	}
-
+    public boolean isApplicableToShip(ShipAPI ship) {
+        return (!ship.getVariant().getHullMods().contains("pointdefenseai"));
+    }
+    public String getUnapplicableReason(ShipAPI ship) {
+        if(ship.getVariant().getHullMods().contains("pointdefenseai")){
+            return "Incompatible with Integrated Point Defense AI";
+        }
+        return null;
+    }
 	public String getDescriptionParam(int index, HullSize hullSize) {
 		if (index == 0) return "" + (int) BONUS_SMALL_1 + "%";
 		if (index == 1) return "" + (int) BONUS_MEDIUM_1 + "%";
 		if (index == 2) return "" + (int) BONUS_LARGE_1 + "%";
 		if (index == 3) return "" + (int) BONUS_PD + "%";
+		if (index == 4) return "Integrated Point Defense AI";
 		return null;
 	}
 	public void addPostDescriptionSection(final TooltipMakerAPI tooltip, final ShipAPI.HullSize hullSize, final ShipAPI ship, final float width, final boolean isForModSpec) {
