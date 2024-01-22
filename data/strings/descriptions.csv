@@ -188,7 +188,7 @@ The ship runs with a Lynx-Pattern flux reactor to power and systems while a pell
 ,,,,,,
 #SHIP SYSTEMS,,,,,,
 rebelrats_jerboaSystem,SHIP_SYSTEM,"Overwhelms the target using extensive EW systems. Disrupts the target's subsystems for a short amount of time: disables turret rotation, reduces ship turning, disables engines",Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
-rebelrats_lockjaw,SHIP_SYSTEM,"Power for shield projectors are diverted into the ship's autoloaders while Composition HEP is injected into shell canisters. Generates hardflux, disables shields, disables hardflux dissipation, increases weapon damage by 50% and rate of fire by 30%",,,,
+rebelrats_lockjaw,SHIP_SYSTEM,"Power for shields and thrusters are diverted into weapon capacitors while Composition HEP is injected into shell canisters. Increases weapon damage by 50% and range by 30% but generates hardflux, disables shields and thrusters",,,,
 ,,,,,,
 rebelrats,FACTION,"Rats, rats, we are the rats
 Celebrating yet another birthday bash
@@ -240,7 +240,7 @@ rebelrats_outerstation,CUSTOM,"A station made of massive cobbled together astero
 
 Despite its ponderous appearance, the station is lightly-armed with very few large guns to speak off. The few dedicated defence modules that can be seen are a handful of jury-rigged gun platforms not too dissimilar to those found on Pirate or Pather stations.
 ",,,,
-rebelrats_station,SHIP,A heavily armed orbital station with heavy doldrum railguns,,,,
+rebelrats_station,SHIP,A heavily armed orbital station equipped with a doldrums railgun battery,,,,
 ,,,,,,
 #UNKOWN,,,,,,
 rebelrats_lobsterclaw,WEAPON,"What.. what is this? What the hell. Avoid it at all costs. Dodge. Parry- It has a slow turn rate so use it to your advantage. In unrelated terms, it fired superheated lobsters.",,,,

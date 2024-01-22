@@ -27,7 +27,7 @@
         {"file":"sounds/siegeharq_firing.ogg","pitch":1.00,"volume":0.8},
     ],
     "arratoi_firing":[
-        {"file":"sounds/Arratoi_guns_firing.ogg","pitch":1.00,"volume":0.6},
+        {"file":"sounds/Arratoi_guns_firing.ogg","pitch":0.90,"volume":0.5},
     ],
     "mangonel_firing":[
         {"file":"sounds/Mangonel_firing1.ogg","pitch":1.00,"volume":1},

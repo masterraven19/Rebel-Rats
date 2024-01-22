@@ -2,7 +2,7 @@ id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,att
 #broadsword_wing,broadsword_Fighter,"fighter4, fighter, low, lowtech_bp, merc",0,,6,8,V,4000,500,,3,FIGHTER,Heavy Fighter,10,6000,,,,,,,,,,,,,1
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #FIGHTERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-rebelrats_sultan_Fighter_wingt,rebelrats_sultan_Fighter,"fighter2, fighter, rebelrats_arsenal_bp, leader_no_swarm, wingmen_no_swarm",2,,8,16,V,4000,800,200,3,FIGHTER,Fighter Bomber,18,14000,,,,,,,,,,,,,
+rebelrats_sultan_Fighter_wingt,rebelrats_sultan_Fighter,"fighter2, fighter, rebelrats_arsenal_bp, leader_no_swarm, wingmen_no_swarm",2,,8,16,V,4000,800,200,3,FIGHTER,Fighter Bomber,20,14000,,,,,,,,,,,,,
 rebelrats_daekon_Fighter_wingt,rebelrats_daekon_Fighter,"fighter3, fighter, rebelrats_arsenal_bp, wingmen_no_swarm, leader_no_swarm",2,,7,14,V,4000,800,150,3,FIGHTER,Fighter Bomber,15,11000,,,,,,,,,,,,,
 rebelrats_dustero_Fighter_wingt,rebelrats_dustero_Fighter,"fighter, pirates, independent, rebelrats_belter_arsenal_bp, leader_no_swarm",2,,5,3,V,4000,500,150,4,FIGHTER,Belter Fighter,6,3000,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
