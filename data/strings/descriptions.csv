@@ -53,16 +53,24 @@ rebelrats_pyroclast_f,WEAPON,"Removing the complex thruster system and fitted wi
 rebelrats_felis,WEAPON,Built-in PD laser created for the Patron corvette. Extremely effective against fighters and missiles despite its high flux costs.,,,,
 rebelrats_ashford_f,WEAPON,A tuned down Ashford for fighter use.,,,,
 rebelrats_chaingun_f,WEAPON,Fires armor piercing incendiary rounds specialized for shredding thinly armored spacecraft.,,,,
-rebelrats_falcon_f,WEAPON,A wing mounting bracket for falcons.,,,,
+rebelrats_falcon_f,WEAPON,A wing mounting bracket for a Falcon missile.,,,,
 ,,,,,,
 #FIGHTERS,,,,,,
-rebelrats_sultan,SHIP,"The Sultan is the Krysan Navy's premier fighter. It was built and designed by Rebel Rats to operate both in atmosphere and space, acting as a multi-role SSTO fighter. Its large arsenal of weapons is enough to deal with most enemies in battle space, especially with its underslung Huntsman torpedo to help it hunt larger spacecraft.",,,,
+rebelrats_sultan,SHIP,"The Sultan is the Krysan Navy's premier fighter. It was built and designed by Rebel Rats to operate both in atmosphere and space, acting as a multi-role SSTO fighter. Its large arsenal allows it deal with most enemies in a battle space, especially with its underslung Huntsman torpedo to help it hunt larger spacecraft.
+
+Will return to carrier once missiles are expended.",,,,
 rebelrats_proctor,SHIP,"More of an engine than a fighter, the Proctor was created to counter the growing number of pirates in the Persean Sector. Its armaments allow it to hunt frigates, but it quickly falters against concentrated enemy PD fire with its lack of shields despite extensive armoring around crucial internal systems.",,,,
 rebelrats_hippo,SHIP,"The Hippo is the standard-issue skiff of Krysan Federal Navy warships. They allow Krysan Ships to insert a platoon of marines into a planetary battlespace or initiate boarding action agaisnt enemy ships and stations with breaching charges. Outside of dropship duties, the skiffs can act as impromptu PD boats to screen its mothership with its Guardsman turrets.",,,,
-rebelrats_overseer,SHIP,"A light interceptor of the Krysan Federal Navy, the Overseer is a hardy fighter created by Arms & Armor. The craft comes equipped with a Hwacha missile rack and a pair of Ranger autocannons, making a wing of Overseers a threat to enemy shields.",,,,
-rebelrats_ministro,SHIP,"The Ministro is a lightweight, unmanned interceptor drone designed by Rebel Rat Industries as a proposal to Krysan Navy officials to reduce pilot losses. It quickly found success with increasingly advanced drone control systems that allowed finer control with unmanned drones.",,,,
+rebelrats_overseer,SHIP,"A light interceptor of the Krysan Federal Navy, the Overseer is a hardy fighter created by Arms & Armor. The craft comes equipped with a Hwacha missile rack and a pair of Ranger autocannons, making a wing of Overseers a threat to enemy shields.
+
+Will return to its carrier once missiles are expended.",,,,
+rebelrats_ministro,SHIP,"The Ministro is a lightweight, unmanned interceptor drone designed by Rebel Rat Industries as a proposal to Krysan Navy officials to reduce pilot losses. It quickly found success with increasingly advanced drone control systems that allowed finer control with unmanned drones.
+
+Will return to carrier once missiles are expended.",,,,
 rebelrats_patron_f,SHIP,"Cleverly set up microforges have allowed Federal ships to stuff an entire corvette into a hangar bay. Unfortunately, this means that only one Patron can be deployed per hangar bay with reduced capabilities.",,,,
-rebelrats_daekon,SHIP,A fast assault fighter built to break the shields of the enemy spacecraft with special flechette warheads and shred armor plates with assault chainguns.,,,,
+rebelrats_daekon,SHIP,"A fast assault fighter built to break the shields of the enemy spacecraft with special flechette warheads and shred armor plates with assault chainguns.
+
+Will not return to carrier once missiles are expended.",,,,
 rebelrats_dustero,SHIP,"When a group of spacers found the firepower of the Talon to be lacking, the Dustero was their answer, although, it's arguable if it is any more effective than its Persean counterpart. Equipped with a volley of 20mm guns salvaged from Guardsman turrets, the Dusteros can easily pressure the shielding of its targets.",,,,
 ,,,,,,
 #BOMBERS,,,,,,
@@ -187,8 +195,8 @@ Like the Panya, the interior of the Rott is utilitarian with little luxuries to 
 The ship runs with a Lynx-Pattern flux reactor to power and systems while a pellet-fed DAEDALUS-type engine ensures efficient fuel consumption. ",,,,
 ,,,,,,
 #SHIP SYSTEMS,,,,,,
-rebelrats_jerboaSystem,SHIP_SYSTEM,"Overwhelms the target using extensive EW systems. Disrupts the target's subsystems for a short amount of time: disables turret rotation, reduces ship turning, disables engines",Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
-rebelrats_lockjaw,SHIP_SYSTEM,"Power for shields and thrusters are diverted into weapon capacitors while Composition HEP is injected into shell canisters. Increases weapon damage by 50% and range by 30% but generates hardflux, disables shields and thrusters",,,,
+rebelrats_jerboaSystem,SHIP_SYSTEM,Overwhelms the target using extensive EW systems. Disables turret rotation | Reduces ship turning | Disables engines,Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
+rebelrats_lockjaw,SHIP_SYSTEM,Power for shields are diverted into weapon capacitors while Composition HEP is injected into shell canisters. Increases weapon damage by 50% | Increases range by 30% | Generates 3%/s hardflux | Disables shields | Disables venting | Disables flux dissipation.,,,,
 ,,,,,,
 rebelrats,FACTION,"Rats, rats, we are the rats
 Celebrating yet another birthday bash
