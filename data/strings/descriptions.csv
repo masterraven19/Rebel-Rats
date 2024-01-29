@@ -195,7 +195,7 @@ Like the Panya, the interior of the Rott is utilitarian with little luxuries to 
 The ship runs with a Lynx-Pattern flux reactor to power and systems while a pellet-fed DAEDALUS-type engine ensures efficient fuel consumption. ",,,,
 ,,,,,,
 #SHIP SYSTEMS,,,,,,
-rebelrats_jerboaSystem,SHIP_SYSTEM,Overwhelms the target using extensive EW systems. Disables enemy turret rotation | Reduces enemy ship turning | Disables enemy engines,Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
+rebelrats_jerboaSystem,SHIP_SYSTEM,Overwhelms the target using extensive EW systems. Disables enemy turret rotation || Reduces enemy ship turning || Disables enemy engines,Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
 rebelrats_lockjaw,SHIP_SYSTEM,Power for shields are diverted into weapon capacitors while Composition HEP is injected into shell canisters. Increases weapon damage by 50% | Increases range by 30% | Generates 3%/s hardflux | Disables shields | Disables venting | Disables flux dissipation.,,,,
 ,,,,,,
 rebelrats,FACTION,"Rats, rats, we are the rats
