@@ -6,7 +6,7 @@ AHG-450 Equalizer Howitzer,rebelrats_equalizer_l,1,,6000,1000,,600,,200,6,18,,,,
 ASG-203 Drummer Heavy Railgun,rebelrats_drummer_l,2,,6000,1000,,500,50,200,5,20,,,,KINETIC,600,,0,5,1,,0,8,3,10,,1000,,,500,,,STRIKE,"kinetic14, rebelrats_arsenal_bp",,Arms & Armor,,Anti-Shield,,,Slow,Good,,,,,,
 Mangonel Plasma Launcher,rebelrats_mangonel_l,2,,8000,900,,400,,100,8,24,9,0.5,1,ENERGY,480,,0,0.5,2,0.25,0,18,3,5,,1200,,,,,,STRIKE,"energy14, rebelrats_arsenal_bp",,The Three Brothers Corporation,,General,,,Slow,Poor,,,,,,
 Nezulana Assault Railgun,rebelrats_nezulana_l,2,,8000,1200,,500,,200,6,26,,,,KINETIC,700,,0,6,4,0.5,0,5,1,5,,1100,,,400,,,STRIKE,"kinetic14, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Shield,,,Slow,Excellent,,,,,,
-Tripubus Saker,rebelrats_tripubus_l,1,,8000,900,,450,,100,5,18,,,,HIGH_EXPLOSIVE,495,,0,5,1,,0,10,3,10,,700,,,40,,,STRIKE,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Slow,Good,,,,,,
+Tripubus Saker,rebelrats_tripubus_l,1,,8000,900,,500,,100,5,18,,,,HIGH_EXPLOSIVE,600,,0,5,1,,0,10,3,10,,700,,,40,,,STRIKE,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Slow,Good,,,,,,
 ACG-210 Spinal Doldrums,rebelrats_babydoldrumspine_l,,,0,1100,,1200,100,300,60,0,,,,KINETIC,1440,,1.5,8.5,1,,0,6,1,10,,2500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Cruiser,,,,,"Fires rods with an antimatter shaped charge
 
 Has a 30% chance to trigger the shaped charge when hitting shields",,,,,
@@ -26,7 +26,7 @@ Hwacha MLRS,rebelrats_hwacha_m,1,,1900,1400,,200,,5,15,10,60,0.2,12,HIGH_EXPLOSI
 AFG-76 Custodian,rebelrats_custodian_m,1,,1100,600,,150,,12,40,10,,,,FRAGMENTATION,75,,0,1.5,1,,0,12,3,6,,1000,,,30,,,PD,"pd13, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Fast,Excellent,Splits into submunitions that deal %s frag damage each,80,,,,
 Petard Nuclear Howitzer,rebelrats_petard_m,1,,1600,600,1230,,,5,40,12,,,,HIGH_EXPLOSIVE,,1230,0,.5,3,25,,,,,10000,,,,,,,"STRIKE, USE_VS_FRIGATES","strike9, rebelrats_arsenal_bp",,Rebel Rats,,Strike,,,Fast,Excellent,Inflicts an energy explosion on hit,,,,,
 Triple Huntsman Launcher,rebelrats_huntsman_salvo,1,,2100,2000,,1000,,50,15,13,9,0.03,3,HIGH_EXPLOSIVE,,,0,3,1,,0,0,0,0,,600,50,5,300,,,"STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, rebelrats_arsenal_bp",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
-AFG-50 Braggador,rebelrats_braggador_m,1,,1400,500,,60,,5,90,12,,,,HIGH_EXPLOSIVE,30,,0,.5,2,0.1,0,2,1,15,,1500,,,35,,,"PD, IGNORES_FLARES, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic11, pd10, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Fast,Good,Onboard multispectral sensors lets the turret ignore flares,,,,,
+AFG-50 Braggador,rebelrats_braggador_m,1,,1400,500,,60,,5,90,12,,,,HIGH_EXPLOSIVE,30,,0,.5,2,0.1,0,2,1,15,,1500,,,35,,,"PD, IGNORES_FLARES, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic11, pd10, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Medium,Good,Onboard multispectral sensors lets the turret ignore flares,,,,,
 AMM-200 Rattenjager,rebelrats_rattenjager_m,1,,1500,1000,,300,,5,30,10,2,0.5,2,HIGH_EXPLOSIVE,200,,0,0.25,1,,0,0,0,0,,800,50,2,50,,,"PD, DO_NOT_CONSERVE, DO_NOT_AIM","utility8, missile0, rebelrats_arsenal_bp",,Arms & Armor,,Anti-Missile Missile,Very Fast,Very High,,,"Has a multi-purpose fuze. It will shrapnel against missiles with each piece dealing %s frag damage, but it will use a contact fuze against ships and fighters
 
 Targets missiles first
@@ -54,7 +54,7 @@ AFG-155C Hawker,rebelrats_hawker,0,,300,600,,80,,1,60,3,,,,FRAGMENTATION,30,,0,1
 Each shrapnel deals %s fragmentation damage",80,,,TRUE,
 Ashford LAWS,rebelrats_ashford,0,,400,450,400,,10,12,100,5,,,,ENERGY,,300,0.05,0.05,0.3,0.5,,,,,10000,,,,,,,PD,"pd9, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Very Fast,Excellent,,,,,,
 AFG-35 Poacher,rebelrats_poacher_s,0,,400,300,,29,,1,80,4,60,5,2,HIGH_EXPLOSIVE,7,,0,0.07,1,,0,6,1,4,,1200,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Arms & Armor,,Point Defense,,,Very Fast,Excellent,,,,,,
-Chaffer,rebelrats_chaff,0,,300,600,,80,,1,60,3,,,,KINETIC,30,,0,1.5,1,,0,10,1,10,,700,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,,,WIP,80,,,TRUE,
+Chaffer,rebelrats_chaff,0,,300,300,,80,,1,60,3,,,,KINETIC,30,,0,6,1,,0,10,1,10,,700,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,,,WIP,80,,,TRUE,
 Poubelle Torpedo,rebelrats_poubelle,,,0,1600,,6000,,80,20,3,1,0.004166,1,FRAGMENTATION,,,0,60,1,,0,0,0,0,,800,50,3,350,,,"SYSTEM, STRIKE, DIRECT_AIM, USE_VS_FRIGATES, DO_NOT_CONSERVE, GUIDED_POOR","no_sell, no_drop, no_drop_salvage",,Belters,,Armored Torpedo,Very Fast,Poor,,,Ejects to the side with explosive bolts,,,,TRUE,
 Rattus Huntsman Torpedo Launcher,rebelrats_rattus_torp,,,0,2000,,1000,,50,15,0,6,0.05,1,HIGH_EXPLOSIVE,,,0,1,1,,0,0,0,0,,600,50,3,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 # guards,rebelrats_guardsman,,,0,400,,28,,1,100,0,,,,KINETIC,0,,0,.15,1,,0,2,0.5,15,,900,,,5,,,"SYSTEM, PD, NO_TURN_RATE_BOOST_WHEN_IDLE","pd7, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
