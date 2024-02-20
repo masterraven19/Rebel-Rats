@@ -4,7 +4,7 @@
     "author": "Raven and Rico",
 	"version": "Update 39",
     "description": "Faction mod inspired by The Expanse and the 86 series",
-    "gameVersion": "0.96a-RC10",
+    "gameVersion": "0.97a-RC11",
     "jars": ["jars/rebelrats.jar"],
     "dependencies": [
         {"id": "lw_lazylib","name": "LazyLib"},

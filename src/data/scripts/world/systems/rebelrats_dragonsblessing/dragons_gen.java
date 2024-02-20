@@ -1,5 +1,5 @@
 
-package data.scripts.world.systems;
+package data.scripts.world.systems.rebelrats_dragonsblessing;
 
 import java.awt.Color;
 
@@ -24,7 +24,7 @@ import com.fs.starfarer.api.util.Misc;
 
 import java.util.*;
 
-public class rebelrats_dragonsblessing {
+public class dragons_gen {
      public void generate(SectorAPI sector) {
         StarSystemAPI system = sector.createStarSystem("Dragon's Blessing");
         system.getLocation().set(-39000,-26000); //top leftish -39000, 39000
@@ -361,7 +361,8 @@ public class rebelrats_dragonsblessing {
 
         outerstation_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         globalEconomy.addMarket(outerstation_market,false);
-        //persons 
+        //persons
+        gen_NPCs.generateNPCS(rattus,rattus_market);
        //* PersonAPI person = Global.getFactory().createPerson();
 	//		person.setId(IBRAHIM);
 	//		person.setFaction(Factions.INDEPENDENT);
