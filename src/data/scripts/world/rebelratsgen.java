@@ -4,14 +4,14 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.shared.SharedData;
-import data.scripts.world.systems.rebelrats_dragonsblessing;
+import data.scripts.world.systems.rebelrats_dragonsblessing.dragons_gen;
 import com.fs.starfarer.api.campaign.FactionAPI;
 import data.scripts.world.systems.rebelrats_tikus;
 
 public class rebelratsgen {
     public void generate(SectorAPI sector) {
 
-        new rebelrats_dragonsblessing().generate(sector);
+        new dragons_gen().generate(sector);
         new rebelrats_tikus().generate(sector);
 
         FactionAPI rebelrats = sector.getFaction("rebelrats");

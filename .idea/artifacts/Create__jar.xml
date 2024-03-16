@@ -5,7 +5,7 @@
       <element id="module-output" name="fat rat mod" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/rebelratsgen.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/rebelratsplugin.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/systems/rebelrats_dragonsblessing.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/systems/rebelrats_dragonsblessing/dragons_gen.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_doldrumsEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rulecmd/rebelrats_powerstationDialog.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_falconOnHitEffect.java" />
@@ -37,6 +37,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_chaffProxEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/shipsystems/rebelrats_lockjaw.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_incompatible.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/systems/rebelrats_dragonsblessing/gen_NPCs.java" />
     </root>
   </artifact>
 </component>
