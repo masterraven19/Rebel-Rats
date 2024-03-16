@@ -4,9 +4,9 @@
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/marmot_heavy_cruiser.png",
   "style": "REBELRATS",
-  "height": 300,
-  "width": 122,
-  "center": [61, 144],
+  "height": 299,
+  "width": 204,
+  "center": [102, 137],
   "collisionRadius": 197.5,
   "shieldCenter": [0, -0],
   "shieldRadius": 167,
@@ -30,7 +30,7 @@
       "mount": "TURRET",
       "arc": 250,
       "angle": 0,
-      "locations": [108, -0]
+      "locations": [115, 0]
     },
     {
       "id": "WS0002",
@@ -39,7 +39,7 @@
       "mount": "TURRET",
       "arc": 154,
       "angle": 61.5,
-      "locations": [47, 45]
+      "locations": [54, 45]
     },
     {
       "id": "WS0003",
@@ -48,7 +48,7 @@
       "mount": "TURRET",
       "arc": 154,
       "angle": -61.5,
-      "locations": [47, -45]
+      "locations": [54, -45]
     },
     {
       "id": "WS0004",
@@ -57,7 +57,7 @@
       "mount": "TURRET",
       "arc": 201,
       "angle": 77.5,
-      "locations": [25, 48]
+      "locations": [32, 48]
     },
     {
       "id": "WS0005",
@@ -66,7 +66,7 @@
       "mount": "TURRET",
       "arc": 201,
       "angle": -77.5,
-      "locations": [25, -48]
+      "locations": [32, -48]
     },
     {
       "id": "WS0006",
@@ -75,7 +75,7 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": 180,
-      "locations": [-115, -0]
+      "locations": [-108, 0]
     },
     {
       "id": "WS0007",
@@ -84,7 +84,7 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": 180,
-      "locations": [-134, -0]
+      "locations": [-127, 0]
     },
     {
       "id": "WS0008",
@@ -93,7 +93,7 @@
       "mount": "HIDDEN",
       "arc": 5,
       "angle": 0,
-      "locations": [132, -0]
+      "locations": [139, 0]
     },
     {
       "id": "WS0009",
@@ -102,7 +102,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 85,
-      "locations": [-49, 36]
+      "locations": [-42, 36]
     },
     {
       "id": "WS0010",
@@ -111,7 +111,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -85,
-      "locations": [-49, -36]
+      "locations": [-42, -36]
     },
     {
       "id": "WS0011",
@@ -120,7 +120,7 @@
       "mount": "TURRET",
       "arc": 91,
       "angle": 0,
-      "locations": [-54, -0]
+      "locations": [-47, 0]
     },
     {
       "id": "WS0013",
@@ -129,7 +129,7 @@
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
-      "locations": [15, -0]
+      "locations": [22, 0]
     },
     {
       "id": "WS0012",
@@ -138,7 +138,7 @@
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
-      "locations": [44, -0]
+      "locations": [51, 0]
     },
     {
       "id": "LB 1",
@@ -148,8 +148,8 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        -7.5, 42.5,
-        -8, 45.5
+        -1, 44.5,
+        -1.5, 47.5
       ]
     },
     {
@@ -160,8 +160,8 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        -7.5, -44.5,
-        -8, -48
+        -1, -42.5,
+        -1.5, -46
       ]
     },
     {
@@ -171,7 +171,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": -0,
-      "locations": [21.5, 65.5]
+      "locations": [28.5, 65.5]
     },
     {
       "id": "WS0015",
@@ -180,7 +180,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [21.5, -65.5]
+      "locations": [28.5, -65.5]
     },
     {
       "id": "WS0016",
@@ -189,7 +189,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": -0,
-      "locations": [-54, 59.5]
+      "locations": [-47, 59.5]
     },
     {
       "id": "WS0017",
@@ -198,7 +198,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [-54, -59.5]
+      "locations": [-47, -59.5]
     },
     {
       "id": "WS0018",
@@ -207,7 +207,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [84, 56.5]
+      "locations": [94, 56.5]
     },
     {
       "id": "WS0019",
@@ -216,12 +216,12 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": -0,
-      "locations": [84.5, -57]
+      "locations": [94, -57]
     }
   ],
   "engineSlots": [
     {
-      "location": [-143, 27.5],
+      "location": [-136, 27.5],
       "length": 120,
       "width": 40,
       "angle": 180,
@@ -230,7 +230,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-143, -27.5],
+      "location": [-136, -27.5],
       "length": 120,
       "width": 40,
       "angle": -180,
@@ -240,17 +240,21 @@
     }
   ],
   "bounds": [
-    -143, -42.5,
-    -128.5, -56,
-    -73, -42.5,
-    30.5, -52.5,
-    106.5, -45,
-    142, -10,
-    142, 10,
-    106.5, 45,
-    30.5, 52.5,
-    -73, 42.5,
-    -128.5, 56,
-    -143, 42.5
+    -135.5, -36.5,
+    -120.5, -56.5,
+    -65.5, -45.5,
+    8.5, -47.5,
+    31.5, -57,
+    64.5, -45,
+    113.5, -45.5,
+    150, -11.5,
+    150, 11.5,
+    113.5, 45.5,
+    64.5, 45,
+    31.5, 57,
+    8.5, 47.5,
+    -65.5, 45.5,
+    -120.5, 56.5,
+    -135.5, 36.5
   ]
 }

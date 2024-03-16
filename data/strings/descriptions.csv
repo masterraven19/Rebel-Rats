@@ -2,27 +2,27 @@ id,type,text1,text2,text3,text4,notes
 ,,,,,,
 #SHIP WEAPONS,,,,,,
 rebelrats_equalizer_l,WEAPON,"The Equalizer's ponderous shots can shatter even the thickest armor plates. Its origins are as old as the Krysan Federal Monarchy, with it seeing first use in the defence of Magawa from loyalist elements.",,,,
-rebelrats_doldrums_l,WEAPON,"The Doldrums-Pattern railgun is the most capable weapon in the Khrysan Navy arsenal, firing devastating AM-tipped warheads. The Federal Navy built the Doldrums during Krysan Orbital Defence Program but later retooled the railgun to install them on Krysan Cruisers and Battleships as per the new Mobile Defence Doctrine.",Does this show up?,,,
-rebelrats_drummer_l,WEAPON,The Drummer is an offshoot development of the Doldrums-Pattern railgun family. It utilizes an electrothermal-chemical firing system and gauss coils to fire inert rods against enemy shields,,,,
-rebelrats_tripubus_l,WEAPON,"Unimaginative, but effective, the Tripubus is the Siege Harquebus' bigger brother. Despite sporting smaller shells than the Equalizer, the Tripubus has a heavier throw weight and more potential damage. Will be reliable against all but the thickest armor plates.",,,,
-rebelrats_goedendag_l,WEAPON,"Buried behind the stealth composite plating is a complex series of carefully engineered electromagnets, capacitors, and extensive cooling equipment snaking around a set of magazines connected to the ship’s internal ammo forges. The Goedendag railgun is built to give the Jerboa the firepower to square off with its peers if its onboard missiles aren’t sufficient.",,,,
-rebelrats_mangonel_l,WEAPON,"At its core, the Mangonel is a reverse engineered TPC from a wrecked Onslaught. Installing larger capacitors, The Three Brothers Corporation magnified the damage beyond what the original TPC was designed for. Despite its ability to inflict horrific damage on enemy ships, the Mangonel has seen limited service in the Krysan Fleet due to its costly flux requirements.",,,,
-rebelrats_nezulana_l,WEAPON,"A railgun designed by the rebel rats in order to break capital-grade shields. Following the success of the Drummer, the Nezulana utilizes a scaled-up version of the same electrothermal-chemical launch system to hurl saboted hyperdense penetrating rods at enemy shields.",,,,
+rebelrats_doldrums_l,WEAPON,The Doldrums-Pattern Railgun is the most capable weapon that can be found in the Krysan Navy's arsenal. The gun was initially built for Orbital installations but was later retooled to be installed on Krysan ships as required per the new Mobile Defence Doctrine.,Does this show up?,,,
+rebelrats_drummer_l,WEAPON,The Drummer is an offshoot development of the Doldrums-Pattern railgun family. It utilizes an electrothermal-chemical firing system and massive gauss coils to accelerate inert rods with devastating results.,,,,
+rebelrats_tripubus_l,WEAPON,"Unimaginative, but effective, the Tripubus is the Siege Harquebus' bigger brother. Despite sporting smaller shells than the Equalizer, the Tripubus has a heavier throw weight and bigger potential damage, making it reliable against all but the thickest armor plates.",,,,
+rebelrats_goedendag_l,WEAPON,"Buried behind the stealth composite plating is a complex series of carefully engineered superconductors, capacitors, and extensive cooling equipment snaking around a set of magazines connected to the ship’s internal ammo forges. The Goedendag railgun gives the Jerboa the firepower to punch above its weight.",,,,
+rebelrats_mangonel_l,WEAPON,"At its core, the Mangonel is a reverse engineered TPC from a wrecked Onslaught. Installing larger capacitors, The Three Brothers Corporation magnified the damage beyond what the original TPC was designed for. Despite its ability to inflict horrific damage on enemy ships, the Mangonel has seen limited service in the Krysan Fleet due to its costly flux requirements and tendency to overheat.",,,,
+rebelrats_nezulana_l,WEAPON,"A railgun designed to break capital-grade shields. Following the success of the Drummer, the Nezulana utilizes a scaled-up version of the same electrothermal-chemical system to hurl saboted hyperdense penetrating rods at enemy shields.",,,,
 rebelrats_babydoldrumspine_l,WEAPON,Advancements in Krysan technology has allowed designers to fit what is effectively a downsized Doldrums Railgun into the frame of a frigate.,,,,
 rebelrats_salvo_autoloader,WEAPON,"Initially a testbed bed for the Porcellus Battleship's missile tubes, the design is now used in many of the Federal Navy's capital ships as a finisher weapon with its unparalleled reliability.",,,,
 ,,,,,,
 rebelrats_siegeharq_m,WEAPON,"Determined to create an anti-armor weapon, Rebel Rat engineers fashioned a barrel extension and an AM-energized warhead to modernize the antiquated artillery pieces found on Magawa after the Penance War.",,,,
-rebelrats_crossbow_m,WEAPON,The Crossbow is designed based on existing static defense emplacements. They are loaded with specialized anti-shield rounds fired from their electrothermal-chemical breech and can quickly bring down enemy shields during battle.,,,,
-rebelrats_falcon_m,WEAPON,Falcon missiles carry a shrapnel warhead designed to shred through lightly armored ships and exposed hulls. They possess more maneuverability than speed to counter the frigates of the sector,,,,
-rebelrats_hwacha_m,WEAPON,"Created from the Land Mattress Weapons Program, the Hwacha MLRS is simple in concept, it fires mass amounts of Hwacha missiles to saturate an enemy's point defense grid, acting as decoys for larger more potent torpedos to hit the enemy.",,,,
+rebelrats_crossbow_m,WEAPON,The Crossbow is designed based on existing static defense emplacements. They are loaded with standard anti-shield rounds and fired them with an electrothermal-chemical breech.,,,,
+rebelrats_falcon_m,WEAPON,Falcon missiles carry a shrapnel warhead designed to shred through lightly armored ships and exposed hulls.,,,,
+rebelrats_hwacha_m,WEAPON,"Created from the Land Mattress Weapons Program, the Hwacha MLRS is simple in concept. The weapon fires mass amounts of Hwacha missiles to saturate an enemy's point defense grid, acting as decoys for larger, more potent, torpedos to hit the enemy.",,,,
 rebelrats_custodian_m,WEAPON,The Custodian brings the much needed capability to bring down multiple targets with a single shot. Its built-in autoloader ensures that the gun is quickly fed flak shells during battle.,,,,
 rebelrats_muridae_m,WEAPON,"Created by The Three Brothers Corporation and leased to Rebel Rat Industries, the launcher fires hyper-charged plasma bolts that melt through armour and hull. However, its downside is its relatively high flux requirements and its tendency to overheat that limits its capabilities.",,,,
-rebelrats_arratoi_m,WEAPON,These are powerful railguns that fire standard issue anti-shield rounds. The Arratoi were developed for the Rattus Modernization Project to augment the firepower of the Rattus against increasingly hardy spacecraft shields.,,,,
-rebelrats_petard_m,WEAPON,"Using laser activated nuclear pellets in a reinforced chamber, the Petard is a terrifying weapon to be struck by. Barrel Rectifiers would guide the released energy into a concentrated beam as it exits the gun and produce horrific results if the hull is directly struck, working similar to that of Krysan Pest Control equipment.",,,,
-rebelrats_braggador_m,WEAPON,"Created to bridge the gap between long ranged flak and smaller short ranged PD, the Braggador’s quad guns can easily shoot down enemy torpedoes or blunt incoming enemy bomber runs.",,,,
+rebelrats_arratoi_m,WEAPON,These are powerful railguns that fire standard issue anti-shield rounds. It was developed for the Rattus Modernization Project to augment the firepower of Rattus destroyers against increasingly hardy spacecraft shields.,,,,
+rebelrats_petard_m,WEAPON,"Using laser activated nuclear pellets in a reinforced chamber, the Petard is a terrifying weapon to be struck by. Barrel rectifiers would guide the released energy into a concentrated beam and produce horrific results once hull is struck, working similar to what's found in Krysan pest control equipment.",,,,
+rebelrats_braggador_m,WEAPON,"Created to bridge the gap between long ranged flak and smaller short ranged PD, the Braggador’s quad guns can easily shoot down enemy torpedoes or blunt incoming enemy bombing runs.",,,,
 rebelrats_rattenjager_m,WEAPON,The Rattenjager utilizes advanced algorithms and a smart-fuze system to intercept fighters and missiles. An integrated ammo feeder in the turret mount allows the weapon to be constantly fed with new missiles during battle. ,,,,
 rebelrats_rattenjager_array_m,WEAPON,A built-in array of Snapper Hardkill APS for long-range interceptions,,,,
-rebelrats_petardlauncher_m,WEAPON,"Seeing that the Petard conveniently came in ready-to-use canisters, it didn't take long for someone to mount thrusters and a guidance system to make a rudimentary, but effective, DEM",,,,
+rebelrats_petardlauncher_m,WEAPON,"Seeing that the Petard conveniently came in ready-to-use canisters, it didn't take long for Krysans to mount thrusters and a rudimentary guidance system to make a simple, but effective, Directed Energy Weapon",,,,
 rebelrats_huntsman_salvo,WEAPON,Triple rack for Huntsman Torpedos,,,,
 rebelrats_gyrolauncher_m,WEAPON,"The Sorex's Gyrojet Launcher is an example of an old type of weapon making a resurgence in the Krysan Navy arsenal as miniaturization of technology outpaced weapons development. The utilization of gyrojets means that the ship can forgo the need of a complicated recoil management system and focus on having a larger payload size. A basic beam riding system keeps the rocket relatively on target, but could never keep up with fast moving targets.",,,,
 ,,,,,,
@@ -211,11 +211,16 @@ The Federated States of Krysa is a burgeoning polity governed by a directorial a
 
 Despite the its apparent unity against hostile foreign powers, the nation is not without its own set of problems as the problem of rebel cells left over from the civil war still persist. Sporadic armed conflicts, not unlike that of pirate attacks, occur within the periphery of colonies, especially within the Tikus system where the influx of Persean Sector pirates and unruly debtors have lumped with rebel cells for a quick buck. Federal interdiction flotillas are often seen patrolling major trade routes to deter these pirates while undercover agents keep foreign agents and rebel cells in check.
 
-Regardless of the problems, the Federated States of Krysa remains ever stalwart and lustrous against the sea of darkness of the decaying Persean Sector. The nation is always optimistic with the prospect of finding new planets to colonize and expand its domain.
+Regardless of its problems, the Federated States of Krysa remain stalwart and lustrous against the sea of darkness of the decaying Persean Sector. The nation is always optimistic with the prospect of finding new planets to colonize and expand its domain.
 
 Most importantly, instilled within every citizen is the nation's founding tenets that give them a common purpose, accompanied by its often heard motto:
 
-""In the will of the gods, we fervently live.""",,,,
+""In the will of the gods, we fervently live.""
+
+
+
+
+",,,,
 ,,,,,,
 #PLANETS,,,,,,
 rebelrats_rattus_planet,CUSTOM,"The planet serves as an example of the nation’s conviction to its founding tenets, manifesting itself in the people's ability to heal the planet's grievous wounds earned from its long history of conflict.

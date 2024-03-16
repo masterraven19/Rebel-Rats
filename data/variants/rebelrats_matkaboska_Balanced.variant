@@ -3,20 +3,21 @@
   "hullId": "rebelrats_matkaboska",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 3,
+  "fluxCapacitors": 0,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "targetingunit",
-    "reinforcedhull"
+    "reinforcedhull",
+    "eccm"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0013": "rebelrats_equalizer_l"
+        "WS0013": "rebelrats_tripubus_l"
       }
     },
     {
@@ -39,10 +40,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0011": "rebelrats_ranger",
-        "WS0012": "rebelrats_ranger"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
@@ -65,7 +63,10 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0011": "rebelrats_hawker",
+        "WS0012": "rebelrats_hawker"
+      }
     }
   ],
   "modules": [

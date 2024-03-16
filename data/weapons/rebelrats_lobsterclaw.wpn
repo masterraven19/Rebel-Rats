@@ -42,9 +42,9 @@
     255,
     255
   ],
-  "width": 25,
-  "textureType": ROUGH,
-  "textureScrollSpeed": 292,
+  "width": 40,
+  "textureType": LASER,
+  "textureScrollSpeed": 100,
   "pixelsPerTexel": 5,
   "pierceSet": [
     PROJECTILE_FF,
