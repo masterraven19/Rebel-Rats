@@ -43,10 +43,10 @@
         {"file":"sounds/Crossbow_firing2.ogg","pitch":1.00,"volume":0.2},
     ],
     "nezulana_firing": [
-        {"file":"sounds/nezulana_firing2.ogg","pitch":1.00,"volume":0.6},
+        {"file":"sounds/nezulana_firing2.ogg","pitch":1.00,"volume":0.7},
     ],
     "drummer_firing": [
-        {"file":"sounds/drummer_firing.ogg","pitch":1.00,"volume":0.7},
+        {"file":"sounds/drummer_firing.ogg","pitch":1.00,"volume":0.8},
     ],
     "petardcanister_firing": [
         {"file":"sounds/petardcanister_firing.ogg","pitch":1.00,"volume":1},

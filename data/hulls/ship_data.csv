@@ -40,7 +40,7 @@ Overseer,rebelrats_overseer,Light Interceptor,Arms & Armor,flarelauncher_fighter
 #BOMBERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Olympian,rebelrats_olympian,Heavy Bomber,Rebel Rats,flarelauncher_fighter,,500,200,300,,150,0,,200,400,200,100,100,40,NONE,,0,0,0,,,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,
 Bluster,rebelrats_bluster,Light Bomber,Belters,maneuveringjets,,150,50,200,,100,0,,350,500,300,120,240,20,NONE,,,,,,,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,
-cooomn,rebelrats_conductor_bomber,Heavy Bomber,Rebel Rats,flarelauncher_fighter,,500,200,300,,150,0,,200,400,200,100,100,40,NONE,,0,0,0,,,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,
+Conductor,rebelrats_conductor_bomber,Heavy Rocket Bomber,Arms & Armor,flarelauncher_fighter,,300,100,300,,150,0,,300,600,300,150,150,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #MODULES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Ablative Plate (Left),rebelrats_ablativeleft,,Rebel Rats,,,200,1000,0,,0,0,,0,0,0,10,10,50,NONE,,0,0,0,,,0,0,0,0,1,0,0,50000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,0,,,,
