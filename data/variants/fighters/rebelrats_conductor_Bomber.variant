@@ -1,20 +1,25 @@
 {
-    "displayName": "Balanced",
-    "fluxCapacitors": 0,
-    "fluxVents": 0,
-    "goalVariant": false,
-    "hullId": "rebelrats_conductor_bomber",
-    "hullMods": ["no_weapon_flux"],
-    "quality": 0.0,
-    "variantId": "rebelrats_conductor_Bomber",
-    "weaponGroups": [
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {
-                "WS 000": "rebelrats_huntsman_f",
-                "WS 001": "rebelrats_huntsman_f"
-            }
-        }
-    ]
+  "variantId": "rebelrats_conductor_Bomber",
+  "hullId": "rebelrats_conductor_bomber",
+  "displayName": "Balanced",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "no_weapon_flux"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "rebelrats_tephra_f",
+        "WS 001": "rebelrats_tephra_f"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
 }

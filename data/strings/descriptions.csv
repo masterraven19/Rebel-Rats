@@ -54,6 +54,7 @@ rebelrats_felis,WEAPON,Built-in PD laser created for the Patron corvette. Extrem
 rebelrats_ashford_f,WEAPON,A tuned down Ashford for fighter use.,,,,
 rebelrats_chaingun_f,WEAPON,Fires armor piercing incendiary rounds specialized for shredding thinly armored spacecraft.,,,,
 rebelrats_falcon_f,WEAPON,A wing mounting bracket for a Falcon missile.,,,,
+rebelrats_tephra_f,WEAPON,A deadly torpedo filled with anti anti anti shield material,,,,
 ,,,,,,
 #FIGHTERS,,,,,,
 rebelrats_sultan,SHIP,"The Sultan is the Krysan Navy's premier fighter. It was built and designed by Rebel Rats to operate both in atmosphere and space, acting as a multi-role SSTO fighter. Its large arsenal allows it deal with most enemies in a battle space, especially with its underslung Huntsman torpedo to help it hunt larger spacecraft.
@@ -76,6 +77,7 @@ rebelrats_dustero,SHIP,"When a group of spacers found the firepower of the Talon
 #BOMBERS,,,,,,
 rebelrats_olympian,SHIP,"Despite its shambolic origins of being created from the scavenged remains of Piranha bombers, the Olympian is a capable bomber that dutifully does its job with enough armor and PD coverage to last it through bombing runs. A recurring joke among Olympian pilots is that the onboard warhead contains a Red Bombardier Rat as its payload.",,,,"""What kind of barbarians would ever use an animal as its guidance system? That's preposterous!"""
 rebelrats_bluster,SHIP,The Bluster has its origins from juryrigged shuttlecraft in mining fleets who looked for a temporary solution to the growing pirate problem. A salvaged guardsman turret sits on top of the Bluster's engine block to serve as all around protection against enemy fightercraft.,,,,
+rebelrats_conductor_bomber,SHIP,What the this rat is so smooth,,,,
 ,,,,,,
 #COMBAT SHIPS ,,,,,,
 rebelrats_porcellus,SHIP,"Bristling with weaponry and cladded in thick composites, the Porcellus is the most common capital ship found in Krysan Federal Navy battlegroups. In the ship's hangars, the Porcellus carries a pair of skiffs that can conduct rapid military insertions, or act as PD screens during engagements. The ship can readily serve a multitude of roles from a mobile artillery platform to a mobile command center during battles.

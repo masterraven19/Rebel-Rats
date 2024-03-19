@@ -20,11 +20,11 @@ import org.lwjgl.util.vector.Vector2f;
 
 public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWeaponEffectPlugin,OnFireEffectPlugin{
     private static float emparcs = 3;
-    private static float numexplosions = 10;
+    private static float numexplosions = 20;
     private static float shieldpiercechance = 0.3F;
     private float elapsed = 0;
     public DamagingExplosionSpec createExplosionSpec() {
-        float damage = 300f;
+        float damage = 150f;
         DamagingExplosionSpec spec = new DamagingExplosionSpec(
                 0.1f, // duration
                 80f, // radius

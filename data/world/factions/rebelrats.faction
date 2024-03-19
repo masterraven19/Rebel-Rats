@@ -141,6 +141,7 @@
 
 		                #Bomber
 		                "rebelrats_olympian_Bomber_wingt",
+		                "rebelrats_conductor_Bomber_wingt",
 
 		],
 	},
@@ -159,7 +160,8 @@
 
                         #Bomber
                         "rebelrats_olympian_Bomber_wingt",
-
+                        "rebelrats_conductor_Bomber_wingt",
+                        
 		],
 	},
 	"knownWeapons":{
