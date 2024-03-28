@@ -54,30 +54,30 @@ rebelrats_felis,WEAPON,Built-in PD laser created for the Patron corvette. Extrem
 rebelrats_ashford_f,WEAPON,A tuned down Ashford for fighter use.,,,,
 rebelrats_chaingun_f,WEAPON,Fires armor piercing incendiary rounds specialized for shredding thinly armored spacecraft.,,,,
 rebelrats_falcon_f,WEAPON,A wing mounting bracket for a Falcon missile.,,,,
-rebelrats_tephra_f,WEAPON,A deadly torpedo filled with anti anti anti shield material,,,,
+rebelrats_tephra_f,WEAPON,Uses an overclocked fusion torch to accelerate a long-rod penetrator to ludicrous speeds.,,,,
 ,,,,,,
 #FIGHTERS,,,,,,
 rebelrats_sultan,SHIP,"The Sultan is the Krysan Navy's premier fighter. It was built and designed by Rebel Rats to operate both in atmosphere and space, acting as a multi-role SSTO fighter. Its large arsenal allows it deal with most enemies in a battle space, especially with its underslung Huntsman torpedo to help it hunt larger spacecraft.
 
 Will return to carrier once missiles are expended.",,,,
-rebelrats_proctor,SHIP,"More of an engine than a fighter, the Proctor was created to counter the growing number of pirates in the Persean Sector. Its armaments allow it to hunt frigates, but it quickly falters against concentrated enemy PD fire with its lack of shields despite extensive armoring around crucial internal systems.",,,,
-rebelrats_hippo,SHIP,"The Hippo is the standard-issue skiff of Krysan Federal Navy warships. They allow Krysan Ships to insert a platoon of marines into a planetary battlespace or initiate boarding action agaisnt enemy ships and stations with breaching charges. Outside of dropship duties, the skiffs can act as impromptu PD boats to screen its mothership with its Guardsman turrets.",,,,
+rebelrats_proctor,SHIP,"More engine than fighter, the Proctor is built to counter the thick PD grids in the Persean Sector. Its armaments allow it to hunt frigates, but quickly falters against concentrated enemy PD fire from a lack of shields despite extensive armor around crucial internal systems.",,,,
+rebelrats_hippo,SHIP,"The Hippo is the standard skiff of Krysan Federal Navy. They allow Krysan ships to insert a platoon of marines into planetary battlespace or initiate boarding action against enemy ships and stations with breaching charges. Outside of dropship duties, the skiffs can act as impromptu PD boats to screen its mothership with its Guardsman turrets.",,,,
 rebelrats_overseer,SHIP,"A light interceptor of the Krysan Federal Navy, the Overseer is a hardy fighter created by Arms & Armor. The craft comes equipped with a Hwacha missile rack and a pair of Ranger autocannons, making a wing of Overseers a threat to enemy shields.
 
 Will return to its carrier once missiles are expended.",,,,
-rebelrats_ministro,SHIP,"The Ministro is a lightweight, unmanned interceptor drone designed by Rebel Rat Industries as a proposal to Krysan Navy officials to reduce pilot losses. It quickly found success with increasingly advanced drone control systems that allowed finer control with unmanned drones.
+rebelrats_ministro,SHIP,"The Ministro is an unmanned interceptor designed by Rebel Rat Industries as a proposal to Krysan Navy officials to reduce pilot losses. It quickly found success with the advent of increasingly advanced drone control systems that allows finer control with unmanned systems.
 
 Will return to carrier once missiles are expended.",,,,
 rebelrats_patron_f,SHIP,"Cleverly set up microforges have allowed Federal ships to stuff an entire corvette into a hangar bay. Unfortunately, this means that only one Patron can be deployed per hangar bay with reduced capabilities.",,,,
-rebelrats_daekon,SHIP,"A fast assault fighter built to break the shields of the enemy spacecraft with special flechette warheads and shred armor plates with assault chainguns.
+rebelrats_daekon,SHIP,"A fast assault fighter built to break the shields of the enemy spacecraft with falcon missiles and shred armor plates with assault chainguns.
 
 Will not return to carrier once missiles are expended.",,,,
-rebelrats_dustero,SHIP,"When a group of spacers found the firepower of the Talon to be lacking, the Dustero was their answer, although, it's arguable if it is any more effective than its Persean counterpart. Equipped with a volley of 20mm guns salvaged from Guardsman turrets, the Dusteros can easily pressure the shielding of its targets.",,,,
+rebelrats_dustero,SHIP,"When a group of Belters found the Talon to be lacking, the Dustero was their answer. However, it is arguable if the Dustero is any more effective than its Persean counterpart. Despite its firepower, the Dustero lacks shields, missiles, and armor that lends it very little survivability during battles.",,,,
 ,,,,,,
 #BOMBERS,,,,,,
-rebelrats_olympian,SHIP,"Despite its shambolic origins of being created from the scavenged remains of Piranha bombers, the Olympian is a capable bomber that dutifully does its job with enough armor and PD coverage to last it through bombing runs. A recurring joke among Olympian pilots is that the onboard warhead contains a Red Bombardier Rat as its payload.",,,,"""What kind of barbarians would ever use an animal as its guidance system? That's preposterous!"""
+rebelrats_olympian,SHIP,"Despite its shambolic origins of being created from scavenged remains of Piranha bombers, the Olympian today is a capable bomber that dutifully does its job with enough armor and PD coverage to last it through bombing runs. A recurring joke among Olympian pilots is that the onboard warhead contains a Red Bombardier Rat as its payload.",,,,"""What kind of barbarians would ever use an animal as its guidance system? That's preposterous!"""
 rebelrats_bluster,SHIP,The Bluster has its origins from juryrigged shuttlecraft in mining fleets who looked for a temporary solution to the growing pirate problem. A salvaged guardsman turret sits on top of the Bluster's engine block to serve as all around protection against enemy fightercraft.,,,,
-rebelrats_conductor_bomber,SHIP,What the this rat is so smooth,,,,
+rebelrats_conductor_bomber,SHIP,The Conductor is made to extend the anti-shield striking range of Federal Navy carriers. Persean Sector shields proved to be hardier than the then-current Krysan shield generators.,,,,
 ,,,,,,
 #COMBAT SHIPS ,,,,,,
 rebelrats_porcellus,SHIP,"Bristling with weaponry and cladded in thick composites, the Porcellus is the most common capital ship found in Krysan Federal Navy battlegroups. In the ship's hangars, the Porcellus carries a pair of skiffs that can conduct rapid military insertions, or act as PD screens during engagements. The ship can readily serve a multitude of roles from a mobile artillery platform to a mobile command center during battles.
@@ -170,9 +170,9 @@ rebelrats_pybara,SHIP,"The penultimate cargo carrier of the Naval Logistics Flee
 
 Developed in conjuction with the Fleet Logistics Improvement Program, the Three Brothers Corporation was tasked with the designing of a new heavy logistics ship based on the newly developed Super Heavy Containers that was supposed to speed up cargo turnover times. While the project was successful, the limited amount of docks that can accommodate the new line of ships and its rarer Daedalus-type engine prevented the Pybara from becoming the new system standard for fleet cargo carriers.
 
-Despite unfortunate shortcomings, Pybara captains and crew enjoy more spacious accommodations than the smaller Monax thanks to extensive automation and additional onboard facilities its fighter detachment. Pybaras feature a couple of people mover cars along its spines to quickly shunt people and materials around to the delight of onboard offduty crew and pilots.
+Despite unfortunate shortcomings, Pybara captains and crew enjoy more spacious accommodations than the smaller Monax thanks to extensive automation and additional onboard facilities its fighter detachment. Pybaras feature a couple of people mover cars along its spines to quickly shunt people and materials around to the delight of onboard off-duty crew and pilots.
 
-At its core, the Pybara hosts a single Camel-Pattern Flux Reactor to power the large H101D Daedalus-type Fusion Torch while two Minuitoid Flux Reactors are responsible for pwoering the ship's various subsystems.",,,,
+At its core, the Pybara hosts a single Camel-Pattern Flux Reactor to power the large H101D Daedalus-type Fusion Torch while two Minuitoid Flux Reactors are responsible for powering the ship's various subsystems.",,,,
 ,,,,,,
 rebelrats_monax,SHIP,"The Monax is the workhorse of the Naval Logistics Fleet with its ample cargo holds and extensive salvaging equipment. Nothing on the ship’s base model is underutilized or an embellishment, every part of the Monax is designed to be easily interchangeable to fit the user’s needs while its cargo holds have been maximized to carry as many cargo units as possible with its powerful torch drive. 
 
@@ -188,7 +188,7 @@ The ship found its origins as a cheap solution to solving the shortage of servic
 With its diminutive size, the Panya's interiors can only be described as utilitarian and more akin to that of terrestrial cargo ships with individual cabins to host its measly number of crew. Fortunately for the crew, the ship utilizes extensive automation to ease the level of workload, meaning that onboard accommodations are more spacious than its larger brothers.
 
 The ship is equipped with a Lynx-pattern flux reactor to power its systems and a single M303 Fusion Torch tuned down for efficiency.",,,,
-rebelrats_rott,SHIP,"The Rott is a humble fuel tanker that can be compared to the Persean Sector's Dram. The Rott has enough fuel in its tanks to double the fuel range of a flotilla. As such, the ship is often seen paired together with Panyas or other cargo haulers to extend the range of Krysan Expeditions.
+rebelrats_rott,SHIP,"The Rott is a humble fuel tanker that can be compared to the Persean Sector's Dram. The Rott has enough fuel in its tanks to double the fuel range of a Federal navy flotilla. As such, the ship is often seen paired together with Panyas or other cargo haulers to extend the range of Krysan Expeditions.
 
 The ship was initially conceived by The Three Brothers Corporation as a way to address the lack of standardization within the grassroots level of Krysan space economy. With its barebones structure and open truss structure, the Rott can easily be configured by any captain to their taste without the need for specialized tools.
 
@@ -197,8 +197,8 @@ Like the Panya, the interior of the Rott is utilitarian with little luxuries to 
 The ship runs with a Lynx-Pattern flux reactor to power and systems while a pellet-fed DAEDALUS-type engine ensures efficient fuel consumption. ",,,,
 ,,,,,,
 #SHIP SYSTEMS,,,,,,
-rebelrats_jerboaSystem,SHIP_SYSTEM,Overwhelms the target using extensive EW systems. Disables enemy turret rotation || Reduces enemy ship turning || Disables enemy engines,Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
-rebelrats_lockjaw,SHIP_SYSTEM,Power for shields are diverted into weapon capacitors while Composition HEP is injected into shell canisters. Increases weapon damage by 50% | Increases range by 30% | Generates 3%/s hardflux | Disables shields | Disables venting | Disables flux dissipation.,,,,
+rebelrats_jerboaSystem,SHIP_SYSTEM,Overwhelms the target using the ship's extensive EW systems. Disables enemy turret rotation | Reduces enemy ship turning | Disables enemy engines,Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
+rebelrats_lockjaw,SHIP_SYSTEM,Power for shields are diverted into weapon capacitors while Composition HEP is injected into shell canisters. Increases weapon damage by 50% | Increases range by 30% | Generates hardflux | Disables shields | Disables venting,,,,
 ,,,,,,
 rebelrats,FACTION,"Rats, rats, we are the rats
 Celebrating yet another birthday bash
@@ -209,11 +209,11 @@ Open up your gifts while we all cheer
 
 The Krysan Federal Navy is the naval arm of the Federated States of Krysa responsible for enforcing the nation's celestial borders and safeguarding its citizens in the sector.
 
-The Federated States of Krysa is a burgeoning polity governed by a directorial assembly who jointly serves as the collective head of state. The polity was formed from the, now defunct, Krysan Empire, after an interplanetary civil war. It is not known whether the nation is Domain in origin as there are no records of past colonization efforts that exists within Hegemony libraries. Nevertheless, it is clear to the sector that the nationstate has poised itself to be an opponent of the Hegemony, with a Krysan spokesperson stating clearly the nation's disdain of the Hegemony's iron grip over the sector.
+The Federated States of Krysa is a burgeoning polity governed by a directorial assembly who jointly serves as the collective head of state. The polity was formed from the, now defunct, Krysan Empire, after an interplanetary civil war. It is not known whether the nation is Domain in origin as there are no records of past colonization efforts that exists within Hegemony libraries. Nevertheless, it is clear to the sector that the nationstate has poised itself to be an opponent of the Hegemony; with a Krysan spokesperson stating the nation's disdain of the Hegemony's iron grip over the sector.
 
-Despite the its apparent unity against hostile foreign powers, the nation is not without its own set of problems as the problem of rebel cells left over from the civil war still persist. Sporadic armed conflicts, not unlike that of pirate attacks, occur within the periphery of colonies, especially within the Tikus system where the influx of Persean Sector pirates and unruly debtors have lumped with rebel cells for a quick buck. Federal interdiction flotillas are often seen patrolling major trade routes to deter these pirates while undercover agents keep foreign agents and rebel cells in check.
+Despite the its apparent unity against hostile foreign powers, the nation is not without its own set of problems as the problem of rebel cells left over from the civil war still persist. Sporadic armed conflicts, not unlike that of pirate attacks, occur within the periphery of colonies, especially within the Tikus system where the influx of Persean Sector pirates and unruly debtors have lumped with rebel cells for a quick buck. Federal interdiction flotillas are often seen patrolling major trade routes to deter pirates while undercover agents keep foreign agents and rebel cells in check.
 
-Regardless of its problems, the Federated States of Krysa remain stalwart and lustrous against the sea of darkness of the decaying Persean Sector. The nation is always optimistic with the prospect of finding new planets to colonize and expand its domain.
+Regardless of its problems, the Federated States of Krysa remain stalwart and lustrous against the sea of darkness of the decaying Persean Sector. The nation is always optimistic with the prospect of finding new planets to colonize and expand its own domain.
 
 Most importantly, instilled within every citizen is the nation's founding tenets that give them a common purpose, accompanied by its often heard motto:
 

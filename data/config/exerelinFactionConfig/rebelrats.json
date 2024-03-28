@@ -33,15 +33,15 @@
 	"orks": 0,				# Low techos
 	"Goat_Aviation_Bureau": 0.2,		# Speedy demons, rat likey speed
 	"batavia": 0.7,				# Actual goodie goodies? Wowie!
-	"aEP_FSF": 0.1,				# Gun mechanisms so cool!
+	"aEP_FSF": 0.3,				# Gun mechanisms so cool!
 	"LLI": 0.2,				# Cool red ship shabangs!
 	"Gudalanmu": 0.2,			# Weirdoes, but welcomed weirdoes yippeeeee
 	"fantasy_manufacturing": 0.4,		# Shiny guns firing SHINY bullets, rat like like!
-	"lakhesismonarchy": -0.3,		# Monarchy, but where person? Rat no trust!
-	"tahlan_greathouses": 0.5,		# Chronoshmono, independents but timed!
-	"osiris": 0.1,				# Pretty chill peeps
-	"star_federation": 0.4,			# Expensive but chillo
-	"MVS": -0.1,				# A bit smelly blue cheeso shipo
+	"lakhesismonarchy": 0,			# Monarchy, but where monarchy person? Rat no trust!
+	"tahlan_greathouses": 0.5,		# Chronoshmono, independents but time nyooms!
+	"osiris": 0.2,				# Pretty chill peeps
+	"star_federation": 0.6,			# Expensive but chillo
+	"MVS": 0,				# A bit smelly blue cheeso shipo
 	"xlu": 0.2,				# Thicc blue cheese shipas
 	"roider": 0.5,				# coolio independent miners
     },

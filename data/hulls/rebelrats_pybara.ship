@@ -4,52 +4,43 @@
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/Pybara_cargo_capital.png",
   "style": "REBELRATS",
-  "height": 392,
-  "width": 108,
-  "center": [54, 196],
-  "collisionRadius": 226.5,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 206.5,
+  "height": 505,
+  "width": 122,
+  "center": [61, 231],
+  "collisionRadius": 277.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 257,
   "viewOffset": 0,
   "builtInMods": [
     "civgrade"
   ],
   "weaponSlots": [
     {
-      "id": "WS0001",
-      "size": "SMALL",
-      "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 282,
-      "angle": 0,
-      "locations": [172, -0]
-    },
-    {
       "id": "WS0002",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 222,
+      "arc": 200,
       "angle": -90,
-      "locations": [-56, -43]
+      "locations": [-53, -47]
     },
     {
       "id": "WS0003",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 222,
+      "arc": 200,
       "angle": 90,
-      "locations": [-56, 43]
+      "locations": [-53, 47]
     },
     {
       "id": "WS0004",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 231,
+      "arc": 280,
       "angle": 180,
-      "locations": [-128, -0]
+      "locations": [-163, 0]
     },
     {
       "id": "LB 1",
@@ -58,12 +49,48 @@
       "mount": "HIDDEN",
       "arc": 360,
       "angle": 0,
-      "locations": [104.5, -0]
+      "locations": [69.5, 7]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [53, 47]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [53, -47]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [150, 47]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [150, -47]
     }
   ],
   "engineSlots": [
     {
-      "location": [-196, -0],
+      "location": [-231, -0],
       "length": 150,
       "width": 40,
       "angle": 180,
@@ -73,21 +100,25 @@
     }
   ],
   "bounds": [
-    -196, -27.5,
-    -113.5, -29,
-    -108, -40.5,
-    -52, -52,
-    -42.5, -36,
-    174.5, -36,
-    174.5, -12,
-    189, -6,
-    189, 6,
-    174.5, 12,
-    174.5, 36,
-    -42.5, 36,
-    -52, 52,
-    -108, 40.5,
-    -113.5, 29,
-    -196, 27.5
+    -230.5, -27.5,
+    -148, -30,
+    -104.5, -48,
+    -53, -60.5,
+    0, -48,
+    53, -60.5,
+    101.5, -52,
+    155, -60,
+    203, -48,
+    229, -21,
+    229, 21,
+    203, 48,
+    155, 60,
+    101.5, 52,
+    53, 60.5,
+    0, 48,
+    -53, 60.5,
+    -104.5, 48,
+    -148, 30,
+    -230.5, 27.5
   ]
 }

@@ -20,7 +20,7 @@ Patron,rebelrats_patron,Escort Corvette,Rebel Rats,highenergyfocus,7,1000,100,13
 Mus Rattus,rebelrats_musrattus,Super Frigate,The Three Brothers Corporation,plasmajets,10,2400,150,3200,,200,50,,170,80,40,45,90,280,OMNI,,80,0.3,0.5,,,10,30,50,40,1,40,10,50000,8,30,360,0.25,15,15,,,,,,,RENDER_ENGINES_BELOW_HULL,rebelrats_hull_bp,,.25,1,2,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #LOGISTICS SHIPS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Pybara,rebelrats_pybara,Freighter,The Three Brothers Corporation,microburn,7,9000,200,5000,,200,70,1,50,10,6,6,2,4200,OMNI,,60,0.3,1.2,,,30,60,1800,300,1,300,7,120000,5,20,720,0.25,16,16,,,,,,,"CIVILIAN, FREIGHTER",rebelrats_hull_bp,,.25,1,2,,
+Pybara,rebelrats_pybara,Freighter,The Three Brothers Corporation,microburn,7,9000,200,5000,,200,90,1,50,10,6,6,2,4200,OMNI,,60,0.3,1.2,,,30,60,2400,300,1,300,7,120000,5,20,720,0.25,16,16,,,,,,,"CIVILIAN, FREIGHTER",rebelrats_hull_bp,,.25,1,2,,
 Monax,rebelrats_monax,Freighter,The Three Brothers Corporation,microburn,5,3000,80,1700,,150,30,,60,30,15,15,5,300,OMNI,,90,0.3,1.2,,,12,25,500,100,2,50,8,45000,5,20,360,0.25,6,6,,,,,,,"CIVILIAN, FREIGHTER",rebelrats_hull_bp,,.25,1,2,,
 Rott,rebelrats_rott,Tanker,The Three Brothers Corporation,microburn,3,750,40,1000,,100,15,,100,50,15,17,7,200,OMNI,,90,0.5,1.2,,,5,10,15,350,1,300,9,8000,8,20,270,0.25,2,2,,,,,,,"CIVILIAN, TANKER",rebelrats_hull_bp,,0.7,2,4,,
 Panya,rebelrats_panya,Freighter,The Three Brothers Corporation,microburn,2,1000,40,1000,,40,15,,100,50,15,17,7,150,OMNI,,90,0.3,1.2,,,4,10,200,50,1,50,9,8000,5,20,270,0.25,2,2,,,,,,,"CIVILIAN, FREIGHTER",rebelrats_hull_bp,,.25,1,2,,
