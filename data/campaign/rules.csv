@@ -13,6 +13,13 @@ rebelrats_powerstationOpenDialog,OpenInteractionDialog,$customType == rebelrats_
 SetShortcut rebelrats_powerstation_Leave ""ESCAPE""",As your fleet approaches the power station you suddenly recieve a warning notification to not to approach the station any closer. Your gunnery officer alarms you that there are several targetting lasers pointing on the ships of your fleet. Your assistant officers advise you not to get closer.,0:rebelrats_powerstation_Leave:Leave,
 rebelrats_powerstation_Leave,DialogOptionSelected,$option == rebelrats_powerstation_Leave,DismissDialog,,,
 ,,,,,,
+#Dialogues,,,,,,
+rebelrats_nazarDialogues,PopulateOptions,"$isPerson
+$id == rebelrats_nazarin",	,,"rebelrats_nazar_aboutKrysa:""What the hell is krysa bro u stinky ahh rat.""
+rebelrats_nazar_aboutRats:""What about rats they're stinky as hell right?""",
+rebelrats_nazar_aboutKrysa,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysa,,Krysa is cool lol,cutCommLink:Cut the comm link,
+rebelrats_nazar_aboutRats,DialogOptionSelected,$option == rebelrats_nazar_aboutRats,,L noob rats are better than you,"rebelrats_nazar_aboutRats2:""That's mean, do you know i can draw you in 10 seconds?""",
+rebelrats_nazar_aboutRats2,DialogOptionSelected,$option == rebelrats_nazar_aboutRats2,,Rats are 100% better than u,cutCommLink:Cut the comm link,
 #CC GG!!!!!!!,,,,,,
 rebelrats_comissioned,ExerelinNGCStep3,"$playerFaction == rebelrats
 !$rebelrats_changemind	","AddText ""Krysan Fervor: Krysan crews are renowned for their fervent attitude towards battle, often making frequent field repairs whenever a lull occurs.""
