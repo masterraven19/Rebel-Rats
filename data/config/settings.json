@@ -26,6 +26,9 @@
 		"illustrations": {
 			"rebelrats_powerstation": "graphics/illustrations/rat_powerstation_illu.png",
 		},
+		"characters": {
+			"rebelrats_nazarin": "graphics/portraits/Nazrin_huh.png",
+		},
 	},
 	"ruleCommandPackages": [
 		"data.scripts.campaign.rulecmd",
