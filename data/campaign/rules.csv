@@ -10,18 +10,43 @@ SetShortcut beaconLeave ""ESCAPE""",An autonomous warning beacon has been left e
 ,,,,,,
 #stations,,,,,,
 rebelrats_powerstationOpenDialog,OpenInteractionDialog,$customType == rebelrats_powerstation,"ShowDefaultVisual
-SetShortcut rebelrats_powerstation_Leave ""ESCAPE""",As your fleet approaches the power station you suddenly recieve a warning notification to not to approach the station any closer. Your gunnery officer alarms you that there are several targetting lasers pointing on the ships of your fleet. Your assistant officers advise you not to get closer.,0:rebelrats_powerstation_Leave:Leave,
+SetShortcut rebelrats_powerstation_Leave ""ESCAPE""",As your fleet approaches the power station you receive a warning notification to divert your current course with the gunnery officer warning that several targetting lasers have painted the fleet. Your executive officer advises you not to escalate further.,"0:rebelrats_powerstation_Leave:""Divert course.""",
 rebelrats_powerstation_Leave,DialogOptionSelected,$option == rebelrats_powerstation_Leave,DismissDialog,,,
 ,,,,,,
 #Dialogues,,,,,,
 rebelrats_nazarDialogues,PopulateOptions,"$isPerson
-$id == rebelrats_nazarin",	,,"rebelrats_nazar_aboutKrysa:""What the hell is krysa bro u stinky ahh rat.""
-rebelrats_nazar_aboutRats:""What about rats they're stinky as hell right?""",
-rebelrats_nazar_aboutKrysa,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysa,,Krysa is cool lol,cutCommLink:Cut the comm link,
+$id == rebelrats_nazarin",	,"After a short wait at a Foreign Relations outlet, you hear the familiar beep of the terminal connecting. However, what should have been a typical meeting turned into a peculiarity. Instead, you are greeted by an image of a shoddily drawn character with rodent ears. The image would light up whenever she spoke.
+
+""Greetings, starfarer! How may I help you?""
+
+","rebelrats_nazar_aboutKrysa:""Can I ask something about Krysa?""
+rebelrats_nazar_aboutRats:""Why are you a picture?""
+rebelrats_nazar_cheese:""Do you like cheese?""
+cutCommLink:Cut the comm link",
+rebelrats_nazar_aboutKrysa,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysa,,"One can almost imagine the ears of the shoddily drawn rat perking up in anticipated silence after hearing the question. A subtle clink in the background can be heard before the image lit up again.
+
+""Hoh... What may be of your interest with Krysa starfarer. May it be history, culture and what's its?""
+
+The voice was almost boisterous as if they've puffed up their chest. It was almost reassuringly insulting that someone was this energetic in this decaying sector.","rebelrats_nazar_aboutKrysaoverview:""What exactly is Krysa? I have read the pamphlet packets, but I want to hear from a Krysan.""
+rebelrats_nazar_aboutKrysafood:""I'm curious, what exactly do Krysans eat. Do they like cheese as much as in the stories?""
+rebelrats_nazar_aboutKrysadomain:""I have read the info packets about Krysa, but is Krysa a Domain colony?""
+cutCommLink:Cut the comm link",
+rebelrats_nazar_aboutKrysaoverview1,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview1,,"It didn't take long for the image to light up again. Her voice had become more energetic, as if some curtain had been unfurled. The shoddy drawing then reserves itself to the corner as an infographic slides into view. You felt as if a mistake had been made as she took an audibly long breath.
+
+""As you may have read on the information pamphlets, Krysa is the Federated States of Krysa's seat of power and houses the Directorial Assembly, the governing entity of the nation.""","rebelrats_nazar_aboutKrysaoverview2:Continue listening
+cutCommLink:Cut the comm link",
+rebelrats_nazar_aboutKrysaoverview2,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview2,,Not done,cutCommLink:Cut the comm link,
+rebelrats_nazar_aboutKrysafood,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysafood,,Not done,cutCommLink:Cut the comm link,
+rebelrats_nazar_aboutKrysadomain,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysadomain,,Not done,cutCommLink:Cut the comm link,
+,,,,,,
 rebelrats_nazar_aboutRats,DialogOptionSelected,$option == rebelrats_nazar_aboutRats,,L noob rats are better than you,"rebelrats_nazar_aboutRats2:""That's mean, do you know i can draw you in 10 seconds?""",
 rebelrats_nazar_aboutRats2,DialogOptionSelected,$option == rebelrats_nazar_aboutRats2,,Rats are 100% better than u,cutCommLink:Cut the comm link,
+,,,,,,
+rebelrats_nazar_cheese,DialogOptionSelected,$option == rebelrats_nazar_cheese,,"Almost on queue, ruffling of plastic can be heard through the audio, followed by the familiar sound of nibbling.
+
+""Yes, and my favorite is Cheddar. It is always a sign of a Gouda day!""",,
 #CC GG!!!!!!!,,,,,,
 rebelrats_comissioned,ExerelinNGCStep3,"$playerFaction == rebelrats
-!$rebelrats_changemind	","AddText ""Krysan Fervor: Krysan crews are renowned for their fervent attitude towards battle, often making frequent field repairs whenever a lull occurs.""
+!$rebelrats_changemind	","AddText ""Krysan Fervor: Krysan crews are renowned for their stalwart attitude towards battle, often making frequent field repairs whenever a lull occurs.""
 SetTextHighlights Krysan Fervor
 $rebelrats_changemind = true 0",,,

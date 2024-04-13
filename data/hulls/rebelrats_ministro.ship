@@ -4,12 +4,12 @@
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/ministro_interceptor.png",
   "style": "LOW_TECH",
-  "height": 20,
-  "width": 36,
-  "center": [18, 10],
-  "collisionRadius": 24,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 21.5,
+  "height": 17,
+  "width": 28,
+  "center": [14, 8],
+  "collisionRadius": 19,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 16,
   "viewOffset": 0,
   "weaponSlots": [
     {
@@ -28,35 +28,32 @@
       "mount": "HIDDEN",
       "arc": 13,
       "angle": 0,
-      "locations": [4.5, 5.5]
+      "locations": [3.5, 5.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-10, 3.5],
+      "location": [-8, 3],
       "length": 15,
-      "width": 10,
+      "width": 7,
       "angle": 180,
-      "contrailSize": 10,
+      "contrailSize": 7,
       "style": "CUSTOM",
       "styleId": "Rats"
     },
     {
-      "location": [-10, -3.5],
+      "location": [-8, -3],
       "length": 15,
-      "width": 10,
+      "width": 7,
       "angle": -180,
-      "contrailSize": 10,
+      "contrailSize": 7,
       "style": "CUSTOM",
       "styleId": "Rats"
     }
   ],
   "bounds": [
-    -9.5, -9.5,
-    -0.5, -18,
-    9.5, -2.5,
-    9.5, 2.5,
-    -0.5, 18,
-    -9.5, 9.5
+    -4, -14,
+    11, -0,
+    -4, 14
   ]
 }

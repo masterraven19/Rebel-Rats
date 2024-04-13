@@ -4,12 +4,12 @@
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/proctor_fighter.png",
   "style": "MIDLINE",
-  "height": 52,
-  "width": 42,
-  "center": [21, 27],
+  "height": 43,
+  "width": 30,
+  "center": [15, 22],
   "collisionRadius": 32,
   "shieldCenter": [0, -0],
-  "shieldRadius": 29,
+  "shieldRadius": 25.5,
   "viewOffset": 0,
   "weaponSlots": [
     {
@@ -19,7 +19,7 @@
       "mount": "HIDDEN",
       "arc": 6,
       "angle": 0,
-      "locations": [18.5, 5.5]
+      "locations": [17, 4]
     },
     {
       "id": "WS0002",
@@ -27,8 +27,8 @@
       "type": "BALLISTIC",
       "mount": "HIDDEN",
       "arc": 6,
-      "angle": -0,
-      "locations": [18.5, -5.5]
+      "angle": 0,
+      "locations": [17, -4]
     },
     {
       "id": "WS0003",
@@ -37,7 +37,7 @@
       "mount": "HIDDEN",
       "arc": 6,
       "angle": 0,
-      "locations": [3, 12.5]
+      "locations": [3, 10]
     },
     {
       "id": "WS0004",
@@ -46,12 +46,12 @@
       "mount": "HIDDEN",
       "arc": 6,
       "angle": -0,
-      "locations": [3, -12.5]
+      "locations": [3, -10]
     }
   ],
   "engineSlots": [
     {
-      "location": [-20.5, -0],
+      "location": [-22, -0],
       "length": 40,
       "width": 20,
       "angle": 180,
@@ -60,9 +60,9 @@
     }
   ],
   "bounds": [
-    18.5, -7.5,
-    -21.5, -19,
-    -21.5, 19,
-    18.5, 7.5
+    -14, -16,
+    17, -6,
+    17, 6,
+    -14, 16
   ]
 }

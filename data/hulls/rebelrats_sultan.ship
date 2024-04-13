@@ -4,12 +4,12 @@
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/sultan_fighter.png",
   "style": "MIDLINE",
-  "height": 59,
-  "width": 46,
-  "center": [23, 26],
-  "collisionRadius": 41.5,
+  "height": 45,
+  "width": 34,
+  "center": [17, 23],
+  "collisionRadius": 32,
   "shieldCenter": [0, -0],
-  "shieldRadius": 37.5,
+  "shieldRadius": 27,
   "viewOffset": 0,
   "weaponSlots": [
     {
@@ -19,7 +19,7 @@
       "mount": "HIDDEN",
       "arc": 7,
       "angle": 0,
-      "locations": [-5.5, 16.5]
+      "locations": [-6, 12]
     },
     {
       "id": "WS0003",
@@ -28,7 +28,7 @@
       "mount": "HIDDEN",
       "arc": 7,
       "angle": -0,
-      "locations": [-5.5, -15.5]
+      "locations": [-6, -12]
     },
     {
       "id": "WS0005",
@@ -37,7 +37,7 @@
       "mount": "HIDDEN",
       "arc": 7,
       "angle": -0,
-      "locations": [32, -2]
+      "locations": [20.5, -2]
     },
     {
       "id": "WS0001",
@@ -46,7 +46,7 @@
       "mount": "HIDDEN",
       "arc": 7,
       "angle": 0,
-      "locations": [5, 0]
+      "locations": [3.5, -0]
     },
     {
       "id": "WS0004",
@@ -55,7 +55,7 @@
       "mount": "HIDDEN",
       "arc": 7,
       "angle": 0,
-      "locations": [-1, 7.5]
+      "locations": [-2, 6.5]
     },
     {
       "id": "WS0006",
@@ -64,12 +64,12 @@
       "mount": "HIDDEN",
       "arc": 7,
       "angle": -0,
-      "locations": [-1, -7.5]
+      "locations": [-2, -6.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-21, 6.5],
+      "location": [-19, 6],
       "length": 40,
       "width": 10,
       "angle": 180,
@@ -78,7 +78,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-21, -6.5],
+      "location": [-19, -6],
       "length": 40,
       "width": 10,
       "angle": -180,
@@ -88,9 +88,9 @@
     }
   ],
   "bounds": [
-    -21, -22.5,
-    30, -2,
-    30, 2,
-    -21, 22.5
+    -19, -17.5,
+    20, -2.5,
+    20, 2.5,
+    -19, 17.5
   ]
 }
