@@ -242,7 +242,7 @@ rebelrats_rodentia_planet,CUSTOM,"The humble green giant has been the source of 
 Today, Rodentia is home to the largest orbital refineries of Krysa, fuelling the armadas of the Federal Navy and housing the berths of the Krysan Federal Auxiliary Corps. Around the planet, trade fleets can be observed using the green giant’s immense gravity to save fuel via slingshots, providing a beautiful demonstration of graceful gravitational manoeuvres akin to that of old Earth.",,,,
 rebelrats_nutria_planet,CUSTOM,"Amusingly referred to as the system's supermarket, Nutria is home to the largest settlement of independent traders second only to the Asteroid Central Station. The city of Spalax can be seen with its concourse of markets spanning the breadth of the city next to its equally gigantic space port that accommodates the flow of trade between Krysa and the rest of the Persean Sector.
 ",,,,
-rebelrats_tikus_gasGiant,CUSTOM,"Like Rodentia, Tikus I has orbital refineries dotting across the planet's office, routinely sending out teams to mine the giant of its precious gas. Tikus I is the beating heart of the system's inhabitants, providing the necessary fuel for interstellar return trips. The gas giant is expected to bolster the nation's fleets and economy for many generations as the colonies grow.",,,,
+rebelrats_tikus_gasGiant,CUSTOM,"Like Rodentia, Tikus I has orbital refineries dotting across the planet's orbit, routinely sending out teams to mine the giant of its precious gas. The gas giant is the beating heart of the system's inhabitants, providing the necessary fuel for interstellar return trips. In the future, the gas giant is expected to overtake Rodentia as the nation's main source of fuel.",,,,
 rebelrats_tikusII_planet,CUSTOM,"With relatively mild climates, rich ore and crop compatible soils, Tikus II easily became a prime target for Krysan colonisation efforts. While Tikus II is described as a jungle planet, it is far from being a single biome. Tikus II has a complex system of biomes with equatorial regions hosting the densest concentrations of flora and fauna while its highest peaks are just barely breathable for individuals due to the planet's thick atmosphere.",,,,
 rebelrats_tikusIII_planet,CUSTOM,"Tikus III, despite its almost destitute geography, is host to numerous independent settlements that popped up during Krysan colonisation efforts. The settlements on the planet huddle around the systems of natural caves and tunnels that hosts the few places that settlers can actively grow food such as mushrooms and low-light crops.
 
@@ -250,16 +250,16 @@ Outside of what little crops can be exported, settlers also take to mining the p
 ,,,,,,
 #STATIONS,,,,,,
 rebelrats_powerstation,CUSTOM,A collector station designed by The Three Brothers Corporation to consume the power of the sun and beam it back to Krysan orbital power stations.,,,,
-rebelrats_powerstation_interaction,CUSTOM,Rising thermal signatures eminating from its internals indicate massive reactors being activated for a potential scuffle. Your gunnery officer promptly informs you that numerous station targetting lasers have been trained on your fleet.,,,,
+rebelrats_powerstation_interaction,CUSTOM,Rising thermal signatures eminating from the station's internals indicate massive reactors reactivating for a potential scuffle. Your gunnery officer promptly informs you that numerous targeting lasers are painting your fleet.,,,,
 rebelrats_rod_station,CUSTOM,A station built by Rebel Rat Industries to extract the resources of Rodentia.,,,,
 rebelrats_outerstation,CUSTOM,"A station made of massive cobbled together asteroids, Asteroid Central Station serves as the home port for miners and smugglers in the system. The massive station was once a humble outpost owned by a now defunct mining company and later rapidly expanded out of necessity as numerous refugees fled to the outpost during the Penance War.
 
 Despite its ponderous appearance, the station is lightly-armed with very few large guns to speak off. The few dedicated defence modules that can be seen are a handful of jury-rigged gun platforms not too dissimilar to those found on Pirate or Pather stations.
 ",,,,
-rebelrats_station,SHIP,A heavily armed orbital station equipped with a doldrums railgun battery,,,,
+rebelrats_station,SHIP,A heavily armed orbital station equipped with a battery of doldrums railguns.,,,,
 ,,,,,,
 #UNKOWN,,,,,,
-rebelrats_lobsterclaw,WEAPON,"What.. what is this? What the hell. Avoid it at all costs. Dodge. Parry- It has a slow turn rate so use it to your advantage. In unrelated terms, it fired superheated lobsters.",,,,
+rebelrats_lobsterclaw,WEAPON,"What.. what is this? What the hell- Avoid it at all costs. Dodge, parry even, avoid the beam of ultraheated lobsters at all costs!!!",,,,
 rebelrats_ratship,SHIP,The blue lobster has evolved... by the time you are reading this you should focus on trying to escape rather than defeating it.. You may lose some capitals.,,,,
 ,,,,,,
 ,,,,,,

@@ -27,7 +27,7 @@ rebelrats_nazar_aboutKrysa,DialogOptionSelected,$option == rebelrats_nazar_about
 
 ""Hoh... What may be of your interest with Krysa starfarer. May it be history, culture and what's its?""
 
-The voice was almost boisterous as if they've puffed up their chest. It was almost reassuringly insulting that someone was this energetic in this decaying sector.","rebelrats_nazar_aboutKrysaoverview:""What exactly is Krysa? I have read the pamphlet packets, but I want to hear from a Krysan.""
+The voice was almost boisterous as if they've puffed up their chest. It was almost reassuringly insulting that someone was this energetic in this decaying sector.","rebelrats_nazar_aboutKrysaoverview1:""What exactly is Krysa? I have read the pamphlet packets, but I want to hear from a Krysan.""
 rebelrats_nazar_aboutKrysafood:""I'm curious, what exactly do Krysans eat. Do they like cheese as much as in the stories?""
 rebelrats_nazar_aboutKrysadomain:""I have read the info packets about Krysa, but is Krysa a Domain colony?""
 cutCommLink:Cut the comm link",
