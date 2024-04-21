@@ -23,7 +23,7 @@ $id == rebelrats_nazarin",	,"After a short wait at a Foreign Relations outlet, y
 rebelrats_nazar_aboutRats:""Why are you a picture?""
 rebelrats_nazar_cheese:""Do you like cheese?""
 cutCommLink:Cut the comm link",
-rebelrats_nazar_aboutKrysa,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysa,,"One can almost imagine the ears of the shoddily drawn rat perking up in anticipated silence after hearing the question. A subtle clink in the background can be heard before the image lit up again.
+rebelrats_nazar_aboutKrysa,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysa,,"One can almost imagine the ears of the shoddily drawn rat perking up in anticipated silence after hearing the question. A subtle clink of a cup in the background can be heard before the image lit up again.
 
 ""Hoh... What may be of your interest with Krysa starfarer. May it be history, culture and what's its?""
 
@@ -35,11 +35,13 @@ rebelrats_nazar_aboutKrysaoverview1,DialogOptionSelected,$option == rebelrats_na
 
 ""As you may have read on the information pamphlets, Krysa is the Federated States of Krysa's seat of power and houses the Directorial Assembly, the governing entity of the nation.""","rebelrats_nazar_aboutKrysaoverview2:Continue listening
 cutCommLink:Cut the comm link",
-rebelrats_nazar_aboutKrysaoverview2,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview2,,"An audible clunk is heard as the infographic switches its slides. A manual presentation in this day and age? This person is really eccentric. It makes one wonder if the rest of the planet is like her, using archaic trinkets and doodads in their daily lives. Onwards, the next slide was more expansive, portraying what seems to be a map of Krysa's geography and key landmarks.
+rebelrats_nazar_aboutKrysaoverview2,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview2,,"An audible clunk was heard before the infographic switches to the next slide. It was more expansive, portraying what seems to be a map of Krysa's geography and key landmarks. Aside from that... a manual presentation in this day and age? It makes one wonder if the rest of the planet is like her, using archaic trinkets and doodads in their daily lives.
 
-""If you may, the closest example of a planet I could compare Krysa is Gilead. Despite its beauty, the planet used to be barren, ravaged by past conflict, yet, with the will of the gods and the people's resolute determination, the planet was restored to the beauty it is today.""
+""The closest example of a planet I could compare to Krysa, if you may, is Gilead. The planet used to be barren believe it or not! It had been ravaged by past conflicts. Yet, with the will of the gods and the people's resolute determination, the planet was restored to the beauty it is today through the Ratze-Potkan Rejuvenation Program.""
 
-",cutCommLink:Cut the comm link,
+The portrait lit up again as a flip of the page can be heard.
+
+""",cutCommLink:Cut the comm link,
 rebelrats_nazar_aboutKrysafood,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysafood,,Not done,cutCommLink:Cut the comm link,
 rebelrats_nazar_aboutKrysadomain,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysadomain,,Not done,cutCommLink:Cut the comm link,
 ,,,,,,
