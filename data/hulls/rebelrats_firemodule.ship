@@ -20,7 +20,8 @@
     "fluxbreakers"
   ],
   "builtInWeapons": {
-    "WS0013": "rebelrats_doldrums_l"
+    "WS0013": "rebelrats_doldrums_l",
+    "WS0014": "rebelrats_targetinglaser"
   },
   "weaponSlots": [
     {
@@ -135,6 +136,15 @@
       "id": "WS0013",
       "size": "LARGE",
       "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-54, -0]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
       "mount": "TURRET",
       "arc": 180,
       "angle": 0,

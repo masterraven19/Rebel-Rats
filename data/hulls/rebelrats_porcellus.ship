@@ -23,7 +23,8 @@
   "builtInWeapons": {
     "WS0022": "rebelrats_salvo_autoloader",
     "WS0023": "rebelrats_salvo_autoloader",
-    "WS0024": "rebelrats_doldrums_l"
+    "WS0024": "rebelrats_doldrums_l",
+    "WS0025": "rebelrats_targetinglaser"
   },
   "weaponSlots": [
     {
@@ -274,6 +275,15 @@
         112, 0,
         123.5, 0
       ]
+    },
+    {
+      "id": "WS0025",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-37.5, -0]
     }
   ],
   "engineSlots": [

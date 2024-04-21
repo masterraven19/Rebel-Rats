@@ -13,7 +13,7 @@ Has a 30%% chance to trigger the shaped charge when hitting shields",300,,,,
 ACG-210 Goedendag Assault Railgun,rebelrats_goedendag_l,,,0,1100,,1000,100,300,60,0,,,,KINETIC,1200,,2.5,17.5,3,1.5,0,6,1,10,,2500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,,,"Fires rods with an antimatter shaped charge dealing roughly %s additional damage per explosion
 
 Has a 30%% chance to trigger the shaped charge when hitting shields",300,,,,
-ACG-380 Doldrums Superheavy Railgun,rebelrats_doldrums_l,,,0,1200,,3600,300,500,8,0,,,,KINETIC,3600,,2.5,27.5,1,,0,4,1,10,,2000,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,Very Slow,Excellent,"Fires rods with an antimatter shaped charge dealing roughly %s additional damage per explosion
+ACG-380 Doldrums Superheavy Railgun,rebelrats_doldrums_l,,,0,1200,,3600,300,500,10,0,,,,KINETIC,3600,,2.5,27.5,1,,0,4,1,10,,2000,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,Very Slow,Excellent,"Fires rods with an antimatter shaped charge dealing roughly %s additional damage per explosion
 
 Has a 30%% chance to trigger the shaped charge when hitting shields",300,,,,
 Huntsman Torpedo Salvo Launcher,rebelrats_salvo_autoloader,,,0,2500,,1000,,50,15,0,15,0.03,3,HIGH_EXPLOSIVE,,,0,6.5,3,0.5,0,0,0,0,,600,50,5,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
@@ -85,6 +85,8 @@ Petard (secondary),rebelrats_petard_canister,,,0,1000,2500,,,1,40,0,,,,HIGH_EXPL
 Daekon Left,rebelrats_daekon_left,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 Daekon Right,rebelrats_daekon_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 Jerboa Hatch,rebelrats_jerboahatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rat Targetting Laser,rebelrats_targetinglaser,0,,0,2500,1,,,0,200,0,1000,1000,,ENERGY,,0,0.05,0.05,0.1,0.05,,,,,1000000,,,,,,,SYSTEM,rebelrats_laser,,,,Special,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #UNKOWN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Lobsterclaw,rebelrats_lobsterclaw,,,2500000,2500,5000,,800,1000,1,34,4,0.1,1,ENERGY,,8000,0.05,0.05,.9,4,,,,,10000,,,,,,,,"energy20, beam15, rebelrats_bp, no_sell",,Black Plague,,Death Laser,,,,,"Damn son, where did you find this?",,,,,

@@ -38,6 +38,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/shipsystems/rebelrats_lockjaw.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_incompatible.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/systems/rebelrats_dragonsblessing/gen_NPCs.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_targetinglaserEffect.java" />
     </root>
   </artifact>
 </component>
