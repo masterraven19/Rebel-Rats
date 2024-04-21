@@ -21,6 +21,7 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
     private CombatEntityAPI proj;
     private SpriteAPI sprite;
     private Vector2f loc;
+    private Vector2f offset;
     private Vector2f vel;
     private FaderUtil fader;
     private Color color;
@@ -40,7 +41,7 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
     private float spriteDur = 0;
     private float fadeOutDur = 0;
     public void addParticle(CombatEntityAPI proj, String spriteNameOrCategory, String spriteKey,
-                            float spriteWidth, float spriteHeight, Vector2f loc,
+                            float spriteWidth, float spriteHeight, Vector2f loc, Vector2f offset,
                             Vector2f vel,
                             float angle, float angleRotation, boolean pulseInOut,
                             float pulseDur, float spriteDur, float fadeOutDur,
@@ -52,7 +53,7 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
             this.loc = proj.getLocation();
         } else {
             if (loc != null) {
-                this.loc = loc;
+                this.loc = Vector2f.add(loc,offset,new Vector2f(0,0));
             }
         }
 
@@ -66,6 +67,7 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
         this.spriteHeight = spriteHeight;
         this.angle = angle;
         this.vel = vel;
+        this.offset = offset;
         this.angleRotation = angleRotation;
         this.pulseInOut = pulseInOut;
         this.pulseDur = pulseDur;
@@ -135,7 +137,7 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
         sprite.setAlphaMult(fader.getBrightness());
         sprite.setSize(spriteWidth * scale,spriteHeight * scale);
 
-        sprite.renderAtCenter(loc.x, loc.y);
+        sprite.renderAtCenter(loc.x + offset.x, loc.y + offset.y);
     }
     protected EnumSet<CombatEngineLayers> layers = EnumSet.of(CombatEngineLayers.ABOVE_SHIPS_AND_MISSILES_LAYER);
 

@@ -363,25 +363,6 @@ public class dragons_gen {
         globalEconomy.addMarket(outerstation_market,false);
         //persons
         gen_NPCs.generateNPCS(rattus,rattus_market);
-       //* PersonAPI person = Global.getFactory().createPerson();
-	//		person.setId(IBRAHIM);
-	//		person.setFaction(Factions.INDEPENDENT);
-	//		person.setGender(Gender.FEMALE);
-	//		person.setRankId(Ranks.CITIZEN);
-	//		person.setPostId(Ranks.POST_ENTREPRENEUR);
-	//		person.setImportance(PersonImportance.HIGH);
-	//		person.getName().setFirst("Callisto");
-	//		person.getName().setLast("Ibrahim");
-	//		person.addTag(Tags.CONTACT_TRADE);
-	//		person.setVoice(Voices.SPACER);
-	//		person.setPortraitSprite(Global.getSettings().getSpriteName("characters", person.getId()));
-	//		person.getStats().setSkillLevel(Skills.SALVAGING, 1);
-	//		person.getStats().setSkillLevel(Skills.BULK_TRANSPORT, 1);
-	//		person.getStats().setSkillLevel(Skills.NAVIGATION, 1);
-	//		
-	//		rattus_market.setAdmin(person);
-	//		rattus_market.getCommDirectory().addPerson(person, 0);
-	//		rattus_market.addPerson(person);
         //jumpoints
         JumpPointAPI jump1 = Global.getFactory().createJumpPoint("lower_jaw",
                 "Dragon's Lower Jaw");

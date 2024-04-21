@@ -122,7 +122,7 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
             Vector2f loc = rebelrats_combatUtils.calcLocWAngle(weapon.getCurrAngle() - 135, 16, weapon.getLocation());
 
             rebelrats_addParticle p = new rebelrats_addParticle();
-            p.addParticle(null,"misc", "nebula_particles",20,20,loc,vel,angle,1,false,0,0.2F,0.5F,true,Color.WHITE);
+            p.addParticle(null,"misc", "nebula_particles",20,20,loc,new Vector2f(0,0),vel,angle,1,false,0,0.2F,0.5F,true,Color.WHITE);
             CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
             e.getLocation().set(weapon.getLocation());
 
@@ -132,7 +132,7 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
             Vector2f loc2 = rebelrats_combatUtils.calcLocWAngle(weapon.getCurrAngle() + 135, 16, weapon.getLocation());
 
             rebelrats_addParticle p2 = new rebelrats_addParticle();
-            p2.addParticle(null,"misc", "nebula_particles",20,20,loc2,vel2,angle2,1,false,0,0.2F,0.5F,true,Color.WHITE);
+            p2.addParticle(null,"misc", "nebula_particles",20,20,loc2,new Vector2f(0,0),vel2,angle2,1,false,0,0.2F,0.5F,true,Color.WHITE);
             CombatEntityAPI e2 = engine.addLayeredRenderingPlugin(p2);
             e2.getLocation().set(weapon.getLocation());
         }
@@ -146,5 +146,10 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
 
     public void onFire(DamagingProjectileAPI projectile, WeaponAPI weapon, CombatEngineAPI engine) {
         fired = true;
+
+        rebelrats_addParticle p = new rebelrats_addParticle(); //165,65
+        p.addParticle(projectile,"graphics/fx/doldrums_warning.png",null,240,80,null,new Vector2f(80,10),new Vector2f(0,0),0,0,false,0,15,0.5F,false, new Color(233,91,14,255));
+        CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
+        e.getLocation().set(projectile.getLocation());
     }
 }
