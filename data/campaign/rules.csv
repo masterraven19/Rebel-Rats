@@ -15,42 +15,60 @@ rebelrats_powerstation_Leave,DialogOptionSelected,$option == rebelrats_powerstat
 ,,,,,,
 #Dialogues,,,,,,
 rebelrats_nazarDialogues,PopulateOptions,"$isPerson
-$id == rebelrats_nazarin",	,"After a short wait at a Foreign Relations outlet, you hear the familiar beep of the terminal connecting. However, what should have been a typical meeting turned into a peculiarity. Instead, you are greeted by an image of a shoddily drawn character with rodent ears. The image would light up whenever she spoke.
+$id == rebelrats_nazarin",	,"(This is placeholder stuff)
 
-""Greetings, starfarer! How may I help you?""
+What should have been a typical meeting turned into a peculiarity. Instead of a normal holo, you are greeted by an image of a shoddily drawn character with rodent ears. The image would light up whenever she spoke.
 
-","rebelrats_nazar_aboutKrysa:""Can I ask something about Krysa?""
+""Greetings, starfarer! I am Foreign Relations Officer, Nazarin Dess. How may I help you?""","rebelrats_nazar_aboutKrysa:""Can I ask something about Krysa?""
 rebelrats_nazar_aboutRats:""Why are you a picture?""
-rebelrats_nazar_cheese:""Do you like cheese?""
-cutCommLink:Cut the comm link",
+rebelrats_nazar_cheese:""Do you like cheese?""",
 rebelrats_nazar_aboutKrysa,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysa,,"One can almost imagine the ears of the shoddily drawn rat perking up in anticipated silence after hearing the question. A subtle clink of a cup in the background can be heard before the image lit up again.
 
-""Hoh... What may be of your interest with Krysa starfarer. May it be history, culture and what's its?""
+""Hoh... What may be of your interest with Krysa starfarer. May it be history, or our culture and what's its?""
 
-The voice was almost boisterous as if they've puffed up their chest. It was almost reassuringly insulting that someone was this energetic in this decaying sector.","rebelrats_nazar_aboutKrysaoverview1:""What exactly is Krysa? I have read the pamphlet packets, but I want to hear from a Krysan.""
+The voice was almost boisterous as if they've puffed up their chest. It was almost reassuringly insulting that someone was this energetic in this decaying sector. You wonder if they even know the current state of the sector.","rebelrats_nazar_aboutKrysaoverview1:""I have read the pamphlet packets, but I want to hear from a Krysan what Krysa is.""
 rebelrats_nazar_aboutKrysafood:""I'm curious, what exactly do Krysans eat. Do they like cheese as much as in the stories?""
-rebelrats_nazar_aboutKrysadomain:""I have read the info packets about Krysa, but is Krysa a Domain colony?""
+rebelrats_nazar_aboutKrysadomain:""I have read the info packets about Krysa, but is Krysa a former Domain colony?""
 cutCommLink:Cut the comm link",
-rebelrats_nazar_aboutKrysaoverview1,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview1,,"It didn't take long for the image to light up again. Her voice had become more energetic, as if some curtain had been unfurled. The shoddy drawing then reserves itself to the corner as an infographic slides into view. You felt as if a mistake had been made as she took an audibly long breath.
+rebelrats_nazar_aboutKrysaoverview1,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview1,,"It didn't take long for the image to light up again. Her voice had become more energetic, as if some curtain had been unfurled. The shoddy drawing then reserves itself to the corner as an infographic slides portraying six coat of arms under the Krysan flag. You felt as if a mistake had been made as she took an audibly long breath.
 
-""As you may have read on the information pamphlets, Krysa is the Federated States of Krysa's seat of power and houses the Directorial Assembly, the governing entity of the nation.""","rebelrats_nazar_aboutKrysaoverview2:Continue listening
+""As you may have read on the information pamphlets, Krysa is the Federated States of Krysa's seat of power and houses the Directorial Assembly, the governing entity of the nation. They are the collective members of the 6 founding states, namely: The Kaharian Principality, The Alenian Federal Republic, United Clans of Sandar, Kingdom of Taledia, Republic of Zestiel, and the Collective Houses of the Neusian Ritters.""
+
+A brief pause lingered before she continued.
+
+""Still following me, Starfarer?""","rebelrats_nazar_aboutKrysaoverview2:Continue listening
 cutCommLink:Cut the comm link",
-rebelrats_nazar_aboutKrysaoverview2,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview2,,"An audible clunk was heard before the infographic switches to the next slide. It was more expansive, portraying what seems to be a map of Krysa's geography and key landmarks. Aside from that... a manual presentation in this day and age? It makes one wonder if the rest of the planet is like her, using archaic trinkets and doodads in their daily lives.
+rebelrats_nazar_aboutKrysaoverview2,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview2,,"An audible clunk was heard before the infographic switches to the next slide. It was more expansive, portraying what seems to be a map of Krysa's geography and key landmarks. Aside from that, a manual presentation in this day and age? It makes one wonder if the rest of the planet is like her, using archaic trinkets and doodads in their daily lives.
 
-""The closest example of a planet I could compare to Krysa, if you may, is Gilead. The planet used to be barren believe it or not! It had been ravaged by past conflicts. Yet, with the will of the gods and the people's resolute determination, the planet was restored to the beauty it is today through the Ratze-Potkan Rejuvenation Program.""
+""The closest example of a planet I could compare to Krysa, if you may, is Gilead. The planet used to be barren believe it or not! It had been severely ravaged by past conflicts. Yet, with the will of the gods and the people's resolute determination, the planet was restored to the beauty it is today through the Ratze-Potkan Planet Rejuvenation Program.""
 
-The portrait lit up again as a flip of the page can be heard.
+Pausing for a moment, a flip of the page can be heard right before she continued to speak. Your group of officers show a mix of intrigue and a rising sense of boredom.
 
-""",cutCommLink:Cut the comm link,
-rebelrats_nazar_aboutKrysafood,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysafood,,Not done,cutCommLink:Cut the comm link,
-rebelrats_nazar_aboutKrysadomain,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysadomain,,Not done,cutCommLink:Cut the comm link,
+""Today you can see some evidence of such catastrophic damage on your way down from orbit. One of such craters were as a result of an asteroid strike. The people have converted it into the Remembrance Park to stand as a reminder of those who fell fighting for Krysa. The nearby shuttle terminal can take you there directly.""","rebelrats_nazar_aboutKrysaoverview3:""Yeah...""
+cutCommLink:Cut the comm link",
+rebelrats_nazar_aboutKrysaoverview3,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview3,,"There were two clinks heard. The next slide was a list of the local bars, resorts, hotels, or local attractions.
+
+""If I may, I can see that your crew are getting boorish  the best location to lounge in for a vacation here is, ideally, here at the starport where hotels and resorts are widely available. But, I would suggest taking a shuttle to the tip of the peninsula. The crowds are smaller there and the beaches are equally beautiful.""
+
+Another clink and the slides disappeared to be replaced by Nazarin's icon.
+
+""Thank you for listening, Starfarer.""","cutCommLink:""Anytime.""",
 ,,,,,,
-rebelrats_nazar_aboutRats,DialogOptionSelected,$option == rebelrats_nazar_aboutRats,,L noob rats are better than you,"rebelrats_nazar_aboutRats2:""That's mean, do you know i can draw you in 10 seconds?""",
-rebelrats_nazar_aboutRats2,DialogOptionSelected,$option == rebelrats_nazar_aboutRats2,,Rats are 100% better than u,cutCommLink:Cut the comm link,
+rebelrats_nazar_aboutKrysafood,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysafood,,"""Oh hoh, absolutely! Cheese has been ingrained in Krysan culture for centuries, Starfarer. Many festivals and theatrics have been based on cheese and its makings. From Cheddar, all the way to the delicious Pecorino Romano, we welcome any and all because we love a cheese equally!""",cutCommLink:Cut the comm link,
+rebelrats_nazar_aboutKrysadomain,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysadomain,,"""Not to my knowledge, no, I don't believe that Krysa is a Domain colony. We are a people who have put our life and blood into creating what Krysa is today.""
+
+Despite a slight pause, she continued talking before you were able to ask a follow up question.
+
+""However, I can request a shuttle to take you to the Fialot Library if you wish to inquire further. The scholars there may be more knowledgeable on thsi matter than I am.""",cutCommLink:Cut the comm link,
+,,,,,,
+rebelrats_nazar_aboutRats,DialogOptionSelected,$option == rebelrats_nazar_aboutRats,,"""Oh! Ehehehe, it is a drawing of my own. My superiors told me that it adds character.""
+
+Her response was immediate, as if planned. While it wasn't uncommon to find an oddball pirate to run with an unconventional look, it is odder to find one being used by a Foreign Relations Officer.","rebelrats_nazar_aboutRats2:""Right, it gives character.""",
+rebelrats_nazar_aboutRats2,DialogOptionSelected,$option == rebelrats_nazar_aboutRats2,,"""Oh hoh, I can hear the doubt in your voice, but I assure you that the children love it and I make sure that other officers take the same approach.""",cutCommLink:Cut the comm link,
 ,,,,,,
 rebelrats_nazar_cheese,DialogOptionSelected,$option == rebelrats_nazar_cheese,,"Almost on queue, ruffling of plastic can be heard through the audio, followed by the familiar sound of nibbling.
 
-""Yes, and my favorite is Cheddar. It is always a sign of a Gouda day!""",,
+""Yes, and my favorite is Cheddar. It is always a sign of a Gouda day!""","cutCommLink:"". . .""",
 #CC GG!!!!!!!,,,,,,
 rebelrats_comissioned,ExerelinNGCStep3,"$playerFaction == rebelrats
 !$rebelrats_changemind	","AddText ""Krysan Fervor: Krysan crews are renowned for their stalwart attitude towards battle, often making frequent field repairs whenever a lull occurs.""

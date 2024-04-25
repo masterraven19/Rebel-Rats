@@ -26,48 +26,48 @@
       "mount": "HARDPOINT",
       "arc": 6,
       "angle": 0,
-      "locations": [15, -0]
+      "locations": [29, -0]
     },
     {
       "id": "WS0002",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "COMPOSITE",
       "mount": "TURRET",
-      "arc": 225,
-      "angle": 77,
-      "locations": [-12, 16]
+      "arc": 215,
+      "angle": 90,
+      "locations": [-14, 18]
     },
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "COMPOSITE",
       "mount": "TURRET",
-      "arc": 225,
-      "angle": -77,
-      "locations": [-12, -16]
+      "arc": 215,
+      "angle": -90,
+      "locations": [-14, -18]
     },
     {
       "id": "WS0004",
       "size": "SMALL",
-      "type": "MISSILE",
+      "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 17,
+      "arc": 270,
       "angle": 0,
-      "locations": [-16.5, 31.5]
+      "locations": [-1, -0]
     },
     {
       "id": "WS0005",
       "size": "SMALL",
-      "type": "MISSILE",
+      "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 17,
-      "angle": -0,
-      "locations": [-16.5, -31.5]
+      "arc": 270,
+      "angle": 180,
+      "locations": [-42, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-76, -0],
+      "location": [-78, -0],
       "length": 90,
       "width": 40,
       "angle": 180,
@@ -77,11 +77,11 @@
     }
   ],
   "bounds": [
-    -77.5, -18.5,
-    -16.5, -31.5,
-    64, -11,
-    64, 11,
-    -16.5, 31.5,
-    -77.5, 18.5
+    -79, -15.5,
+    -20, -29,
+    76, -11,
+    76, 11,
+    -20, 29,
+    -79, 15.5
   ]
 }
