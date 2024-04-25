@@ -52,7 +52,7 @@ Pyroclast Torpedo,rebelrats_pyroclast,0,,600,1200,,1800,,80,20,5,1,0.008333,1,HI
 AFG-155C Hawker,rebelrats_hawker,0,,300,600,,80,,1,60,3,,,,FRAGMENTATION,30,,0,1.5,1,,0,10,1,10,,700,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,,,"Fires a shrapnel canister that explodes into a cone of shrapnel.
 
 Each shrapnel deals %s fragmentation damage",80,,,TRUE,
-Ashford LAWS,rebelrats_ashford,0,,400,450,350,,10,12,100,5,,,,ENERGY,,300,0.05,0.05,0.3,0.5,,,,,10000,,,,,,,PD,"pd9, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Very Fast,Excellent,,,,,,
+Ashford LAWS,rebelrats_ashford,0,,400,450,230,,10,12,100,5,,,,ENERGY,,184,0,0,0.1,0.05,,,,,100000,,,,,,,PD,"pd9, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Very Fast,Excellent,,,,,,
 AFG-35 Poacher,rebelrats_poacher_s,0,,400,300,,29,,1,80,4,60,5,2,HIGH_EXPLOSIVE,7,,0,0.07,1,,0,6,1,4,,1200,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Arms & Armor,,Point Defense,,,Very Fast,Excellent,,,,,,
 APS Chaffer,rebelrats_chaff,0,,300,300,,80,,1,60,2,,,,FRAGMENTATION,30,,0,8,1,,0,10,1,10,,200,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,,,WIP,80,,,TRUE,
 Poubelle Torpedo,rebelrats_poubelle,,,0,1600,,6000,,80,20,3,1,0.004166,1,FRAGMENTATION,,,0,60,1,,0,0,0,0,,800,50,3,350,,,"SYSTEM, STRIKE, DIRECT_AIM, USE_VS_FRIGATES, DO_NOT_CONSERVE, GUIDED_POOR","no_sell, no_drop, no_drop_salvage",,Belters,,Armored Torpedo,Very Fast,Poor,,,Ejects to the side with explosive bolts,,,,TRUE,
@@ -66,8 +66,8 @@ AFG-40 Ranger (f),rebelrats_ranger_f,,,0,400,,18,,1,75,0,,,,KINETIC,0,,0,.3,1,,0
 AFG-20(2) Guardsman,rebelrats_guardsman_f,,,0,400,,25,,1,100,0,,,,KINETIC,0,,0,.15,1,,0,2,0.5,15,,900,,,5,,,"SYSTEM, PD, NO_TURN_RATE_BOOST_WHEN_IDLE","pd7, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
 Vaybchek Plasma Howitzer,rebelrats_vaybchek,,,0,600,,300,,20,15,0,2,,,ENERGY,0,,0,3,1,,0,0,0,0,,700,,,40,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","he6, no_sell, no_drop, no_drop_salvage",,Pirate,,Strike,,,,,,,,,,
 Pyroclast Torpedo Bay,rebelrats_pyroclast_f,,,0,800,,1000,,75,20,0,1,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,0,0,0,,800,100,2,300,,,"SYSTEM, STRIKE, DIRECT_AIM, USE_VS_FRIGATES","strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Torpedo,Fast,Unguided,,,Secondary anti-matter charge inflicts additional %s fragmentation on hit,1200,,,TRUE,
-Felis LAWS,rebelrats_felis,,,0,700,500,,,30,100,0,,,,ENERGY,,500,0,.2,0.2,,,,,,10000,,,,,,,"SYSTEM, PD, ANTI_FTR","pd9, beam6, no_sell, no_drop, no_drop_salvage",,Arms & Armor,,Point Defense,,,Very Fast,Excellent,,,,,,
-Ashford LAWS (f),rebelrats_ashford_f,,,0,400,400,,30,5,100,0,1,.5,1,FRAGMENTATION,,,0,.1,.5,,,,,,10000,,,,,,,"SYSTEM, PD","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,Very Fast,Perfect,,,,,,
+Felis LAWS,rebelrats_felis,,,0,700,500,,,30,100,0,,,,ENERGY,,500,0,.2,0.2,,,,,,100000,,,,,,,"SYSTEM, PD, ANTI_FTR","pd9, beam6, no_sell, no_drop, no_drop_salvage",,Arms & Armor,,Point Defense,,,Very Fast,Excellent,,,,,,
+Ashford LAWS (f),rebelrats_ashford_f,,,0,400,400,,30,5,100,0,1,.5,1,FRAGMENTATION,,,0,.1,.5,,,,,,100000,,,,,,,"SYSTEM, PD","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,Very Fast,Perfect,,,,,,
 Wing-mounted Falcon,rebelrats_falcon_f,,,0,1000,,1000,,40,15,0,1,0.0001,,FRAGMENTATION,0,,0,4.5,1,,0,0,0,0,,400,100,6,150,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Shield,Medium,Medium,,,"Specialized flechettes have been tailored to cause extra damage(%s) to shields
 
 Warhead size reduced due to fighter restrictions",300,,,TRUE,
