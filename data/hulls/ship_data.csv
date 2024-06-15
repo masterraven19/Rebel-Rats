@@ -40,7 +40,7 @@ Overseer,rebelrats_overseer,Light Interceptor,Arms & Armor,flarelauncher_fighter
 #BOMBERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Olympian,rebelrats_olympian,Heavy Bomber,Rebel Rats,flarelauncher_fighter,,500,200,300,,150,0,,200,400,200,100,100,40,NONE,,0,0,0,,,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,
 Bluster,rebelrats_bluster,Light Bomber,Belters,maneuveringjets,,150,50,200,,100,0,,350,500,300,120,240,20,NONE,,,,,,,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,
-Conductor,rebelrats_conductor_bomber,Heavy Rocket Bomber,Arms & Armor,flarelauncher_fighter,,300,100,300,,150,0,,300,600,300,150,150,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,
+Conductor,rebelrats_conductor_bomber,Heavy Rocket Bomber,Arms & Armor,microburn,,300,100,300,,150,0,,300,600,300,150,150,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #MODULES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Ablative Plate (Left),rebelrats_ablativeleft,,Rebel Rats,,,200,1000,0,,0,0,,0,0,0,10,10,50,NONE,,0,0,0,,,0,0,0,0,1,0,0,50000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,0,,,,
@@ -55,7 +55,7 @@ Right Ablative Plate,rebelrats_matkaboskaplate_left,,Rebel Rats,,,1000,1000,0,,0
 #STATION MODULES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #,module_large1_lowtech,Heavy Combat Module,,forgevats_station,1,20000,2000,30000,30000,1200,1000,,0,0,0,10,10,3500,FRONT,,120,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2063
 #,module_large2_lowtech,Heavy Support Module,,forgevats_station,1,10000,1500,10000,12500,500,1000,2,0,0,0,10,10,2500,FRONT,,130,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2064
-,rebelrats_firemodule,Heavy Weapons Battery,,,1,24000,2200,25000,,1000,1000,,0,0,0,10,10,4000,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,
+,rebelrats_firemodule,Heavy Weapons Battery,,,1,30000,8000,25000,,1000,1000,,0,0,0,10,10,4000,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,
 ,rebelrats_shieldmodule,Shield Module,,,1,8000,1000,18000,,300,1000,2,0,0,0,10,10,2000,FRONT,,130,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #STATIONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -63,7 +63,7 @@ Right Ablative Plate,rebelrats_matkaboskaplate_left,,Rebel Rats,,,1000,1000,0,,0
 ,rebelrats_station,Bastion Fortess,,,100,40000,1600,1000,,100,0,,30,200,200,1.5,1.5,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #UNKOWN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Rat Ship,rebelrats_ratship,Capital Class Lobster,Black Plague,microburn,100,10000,6000,25000,,3500,360,,100,85,60,30,70,6000,FRONT,,270,0.1,0.3,,,1,1,15000,1000,1,1000,10,10000000,3,12,700,.25,150,150,,,,,,,,"rebelrats_bp, no_dealer",,,,,,
+Rat Ship,rebelrats_ratship,Capital Class Lobster,Black Plague,microburn,100,10000,3000,25000,,3500,360,,100,85,60,30,70,6000,FRONT,,270,0.1,0.3,,,1,1,15000,1000,1,1000,10,10000000,3,12,700,.25,150,150,,,,,,,,"rebelrats_bp, no_dealer",,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

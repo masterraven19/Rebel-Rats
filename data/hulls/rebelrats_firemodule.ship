@@ -17,7 +17,8 @@
     "rebelrats_manatarmstargettinggrid",
     "targetingunit",
     "ballistic_rangefinder",
-    "fluxbreakers"
+    "fluxbreakers",
+    "ablative_armor"
   ],
   "builtInWeapons": {
     "WS0013": "rebelrats_doldrums_l",
