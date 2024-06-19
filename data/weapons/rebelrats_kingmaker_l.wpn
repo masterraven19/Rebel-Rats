@@ -1,21 +1,18 @@
 {
-  "id": "rebelrats_doldrums_l",
+  "id": "rebelrats_kingmaker_l",
   "specClass": "projectile",
-  "projectileSpecId": "rebelrats_doldrums_rod",
+  "projectileSpecId": "rebelrats_kingmaker_rod",
   "type": "BALLISTIC",
   "size": "LARGE",
   "displayArcRadius": 1500,
-  "everyFrameEffect":"data.scripts.weapons.rebelrats_doldrumsEffect",
-  "turretSprite": "graphics/weapons/doldrums/doldrums_turret_base0000.png",
-  "turretGlowSprite": "graphics/weapons/doldrums_turret_glow.png",
-  "turretGunSprite": "graphics/weapons/doldrums_turret_barrel.png",
-  "hardpointSprite": "graphics/weapons/doldrums/doldrums_turret_base0000.png",
-  "hardpointGunSprite": "graphics/weapons/doldrums_turret_barrel.png",
-  "numFrames":45,
-  "frameRate":24,
+  "everyFrameEffect":"data.scripts.weapons.rebelrats_kingmakerEffect",
+  "turretSprite": "graphics/weapons/kingmaker/kingmaker0000.png",
+  "turretGunSprite": "graphics/weapons/kingmaker/kingmaker_turret_barrel.png",
+  "hardpointSprite": "graphics/weapons/kingmaker/kingmaker0000.png",
+  "hardpointGunSprite": "graphics/weapons/kingmaker/kingmaker_turret_barrel.png",
   "glowColor": [
-    100,
-    100,
+    255,
+    255,
     255,
     255
   ],
@@ -24,14 +21,14 @@
     RENDER_BARREL_BELOW
   ],
   "turretOffsets": [
-    30.5,
+    51,
     0
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    80.5,
+    113.5,
     0
   ],
   "hardpointAngleOffsets": [
@@ -39,6 +36,8 @@
   ],
   "barrelMode": "ALTERNATING",
   "animationType": "GLOW_AND_FLASH",
+  "numFrames": 45,
+  "frameRate": 24,
   "autocharge": true,
   "muzzleFlashSpec": {
     "length": 100,
@@ -55,5 +54,5 @@
     ]
   },
   "fireSoundOne": "doldrums_charging",
-  "fireSoundTwo": "doldrums_firing_segment",
+  "fireSoundTwo": "doldrums_firing_segment"
 }

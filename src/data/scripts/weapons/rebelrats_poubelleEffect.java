@@ -33,7 +33,7 @@ public class rebelrats_poubelleEffect implements OnHitEffectPlugin, OnFireEffect
         m.getVelocity().set(vel);
 
         rebelrats_addParticle p = new rebelrats_addParticle();
-        p.addParticle(m,"graphics/fx/target_painter.png",null,50,50,null,new Vector2f(0,0),new Vector2f(0,0),m.getFacing(),0,true,1,m.getMaxFlightTime(),0.5F,false, null);
+        p.addParticle(m,"graphics/fx/target_painter.png",null,50,50,null,new Vector2f(0,0),new Vector2f(0,0),m.getFacing(),0,true,1,m.getMaxFlightTime(),1,0.5F,false, null);
         CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
         e.getLocation().set(projectile.getLocation());
     }

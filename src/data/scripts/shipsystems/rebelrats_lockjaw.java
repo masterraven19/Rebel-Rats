@@ -9,10 +9,10 @@ public class rebelrats_lockjaw extends BaseShipSystemScript {
     private static final float ballisticDamageBonus = 50;
     private static final float ballisticRangeBuff = 30;
     public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
-        float ballisticBonus = ballisticDamageBonus * effectLevel;
-        float ballisticDebuff = ballisticRangeBuff * effectLevel;
-        stats.getBallisticWeaponDamageMult().modifyPercent(id,ballisticBonus);
-        stats.getBallisticWeaponRangeBonus().modifyPercent(id,ballisticDebuff);
+        float ballisticDamage = ballisticDamageBonus * effectLevel;
+        float ballisticRange = ballisticRangeBuff * effectLevel;
+        stats.getBallisticWeaponDamageMult().modifyPercent(id,ballisticDamage);
+        stats.getBallisticWeaponRangeBonus().modifyPercent(id,ballisticRange);
     }
     public void unapply(MutableShipStatsAPI stats, String id) {
         stats.getBallisticWeaponDamageMult().unmodify(id);
@@ -21,12 +21,12 @@ public class rebelrats_lockjaw extends BaseShipSystemScript {
 
     public StatusData getStatusData(int index, State state, float effectLevel) {
         float bonusPercent = ballisticDamageBonus * effectLevel;
-        float rofDebuff = ballisticRangeBuff * effectLevel;
+        float rangeBuff = ballisticRangeBuff * effectLevel;
         if (index == 0) {
             return new StatusData("+" + (int) bonusPercent + "% ballistic weapon damage" , false);
         }
         if (index == 1){
-            return new StatusData("+" + (int) rofDebuff + "% ballistic RoF" , false);
+            return new StatusData("+" + (int) rangeBuff + "% ballistic weapon range" , false);
         }
         return null;
     }

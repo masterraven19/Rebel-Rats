@@ -44,7 +44,7 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
                             float spriteWidth, float spriteHeight, Vector2f loc, Vector2f offset,
                             Vector2f vel,
                             float angle, float angleRotation, boolean pulseInOut,
-                            float pulseDur, float spriteDur, float fadeOutDur,
+                            float pulseDur, float spriteDur, float alphaMult, float fadeOutDur,
                             boolean multipleSprites,
                             Color color){
 
@@ -81,7 +81,7 @@ public class rebelrats_addParticle extends BaseCombatLayeredRenderingPlugin {
         pulseMax = (spriteWidth * 1);
         scaleincrease = 0.01F;
         scale = 1F;
-        fader = new FaderUtil(1F,fadeOutDur);
+        fader = new FaderUtil(alphaMult,fadeOutDur);
         fader.fadeOut();
 
         if (multipleSprites){

@@ -1,0 +1,23 @@
+{
+	"id":"rebelrats_kingmaker_rod",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onHitEffect":"data.scripts.weapons.rebelrats_doldrumsEffect",
+	"onFireEffect":"data.scripts.weapons.rebelrats_kingmakerEffect",
+	"hitGlowRadius":300,
+	"length":42.0,
+	"width":11,
+	"fadeTime":0.3,
+	"fringeColor":[241,21,21,255],
+	"coreColor":[212,212,212,255],
+	"glowColor":[236,41,41,105],
+	"glowRadius":80,
+	"textureScrollSpeed":90.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+    "passThroughFighters":true,
+    "passThroughFightersOnlyWhenDestroyed":false,
+	"bulletSprite":"graphics/missiles/ratrod_grey.png"
+}

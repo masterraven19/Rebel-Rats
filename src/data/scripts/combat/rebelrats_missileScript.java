@@ -27,18 +27,12 @@ public class rebelrats_missileScript extends BaseEveryFrameCombatPlugin {
         this.ai = ai;
         this.engine = e;
     }
-    private void resetrange(){
-        d = 0;
-        range = 1200;
-        shrapbomb = false;
-    }
 
     public void advance(float amount, List<InputEventAPI> events) {
         if (engine.isPaused()) return;
         if (engine.getMissiles().isEmpty()) return;
         if (missile.isFading() || missile.isExpired() || !engine.isEntityInPlay(missile)) {
             engine.removePlugin(this);
-            resetrange();
             return;
         }
 
@@ -58,7 +52,6 @@ public class rebelrats_missileScript extends BaseEveryFrameCombatPlugin {
                             p.setFacing(angle);
                         }
                         engine.addSmokeParticle(missile.getLocation(), new Vector2f(0, 0), 50F, 1F, 1F, Color.WHITE);
-                        resetrange();
                         engine.removePlugin(this);
                         engine.removeEntity(missile);
                     }

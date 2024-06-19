@@ -13,9 +13,9 @@
   "viewOffset": 0,
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid",
-    "pointdefenseai",
     "advancedoptics",
-    "rebelrats_bastionshield"
+    "rebelrats_bastionshield",
+    "rebelrats_ratfield"
   ],
   "builtInWeapons": {
     "WS0004": "rebelrats_felis"
