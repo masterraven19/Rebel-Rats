@@ -22,6 +22,7 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
     private static float emparcs = 3;
     private static float numexplosions = 20;
     private static float shieldpiercechance = 0.3F;
+    private int numShrap = 15;
     private float elapsed = 0;
     public DamagingExplosionSpec createExplosionSpec() {
         float damage = 150f;
@@ -50,32 +51,31 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
                       Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
         //check if target is a ship and assign variable
         if (!(target instanceof ShipAPI)) return;
-        ShipAPI ship = (ShipAPI) target;
-        //emp pierce chance
-        float pierceChance = ((ShipAPI) target).getHardFluxLevel() - 0.1f;
-        pierceChance *= ship.getMutableStats().getDynamic().getValue(Stats.SHIELD_PIERCED_MULT);
-        boolean piercedShield = shieldHit && (float) Math.random() < pierceChance;
-        //shield pierce chance
 
-        if (!shieldHit || piercedShield){
-            float emp = projectile.getEmpAmount();
-            float dam = 100;
-            for (int i = 0; i < emparcs; i++){
-                engine.spawnEmpArcPierceShields(
-                        projectile.getSource(), point, target, target,
-                        DamageType.ENERGY,
-                        dam, // damage
-                        emp, // emp
-                        100000f, // max range
-                        "tachyon_lance_emp_impact",
-                        30f, // thickness
-                        //new Color(25,100,155,255),
-                        //new Color(255,255,255,255)
-                        new Color(73, 171, 255, 255),
-                        new Color(255, 255, 255, 255)
-                );
-            }
+        float emp = 0;
+        float dam = 0;
+        for (int i = 0; i < emparcs; i++){
+            engine.spawnEmpArcPierceShields(
+                    projectile.getSource(), point, target, target,
+                    DamageType.ENERGY,
+                    dam, // damage
+                    emp, // emp
+                    100000f, // max range
+                    "tachyon_lance_emp_impact",
+                    30f, // thickness
+                    //new Color(25,100,155,255),
+                    //new Color(255,255,255,255)
+                    new Color(73, 171, 255, 255),
+                    new Color(255, 255, 255, 255)
+            );
         }
+        for (int i = 0; i < numShrap; i++) {
+            Vector2f loc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing() - 180, 60, point);
+            CombatEntityAPI p = engine.spawnProjectile(projectile.getSource(), null, "rebelrats_hwacha_munition", loc, projectile.getFacing(), projectile.getSource().getVelocity());
+            float angle = rebelrats_combatUtils.calcConeAngle(180,projectile.getFacing() - 180);
+            p.setFacing(angle);
+        }
+
         if (shieldHit){
             if (Math.random() < shieldpiercechance){
                 Vector2f projloc = new Vector2f(projectile.getLocation());
@@ -83,7 +83,6 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
 
                 for (int i = 0; i < numexplosions; i++) {
                     Vector2f exploloc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(),shipLength * i/numexplosions, projloc);
-                    //Vector2f exploloc = new Vector2f((shipLength*i/numexplosions) * dx + projloc.x, (shipLength*i/numexplosions) * dy + projloc.y);
                     DamagingProjectileAPI e = engine.spawnDamagingExplosion(createExplosionSpec(),projectile.getSource(),exploloc);
                     engine.spawnExplosion(exploloc, new Vector2f(30,30),Color.getHSBColor(207,71,35),30F,1F);
                 }
@@ -95,7 +94,6 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
 
             for (int i = 0; i < numexplosions; i++) {
                 Vector2f exploloc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(),shipLength * i/numexplosions, projloc);
-                //Vector2f exploloc = new Vector2f((shipLength*i/numexplosions) * dx + projloc.x, (shipLength*i/numexplosions) * dy + projloc.y);
                 DamagingProjectileAPI e = engine.spawnDamagingExplosion(createExplosionSpec(),projectile.getSource(),exploloc);
                 engine.spawnExplosion(exploloc, new Vector2f(30,30),Color.getHSBColor(207,71,35),30F,1F);
             }

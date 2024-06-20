@@ -42,6 +42,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_missileProxy.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_ratfield.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_kingmakerEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_kingmaker_munitionOnHitEffect.java" />
     </root>
   </artifact>
 </component>

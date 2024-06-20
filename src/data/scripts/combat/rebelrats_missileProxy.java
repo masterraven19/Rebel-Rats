@@ -10,6 +10,7 @@ public class rebelrats_missileProxy extends BaseEveryFrameCombatPlugin {
     protected MissileAPI missile;
     protected CombatEngineAPI engine;
     private float proxyRange = 30;
+    private int numShrap = 40;
     public rebelrats_missileProxy(MissileAPI m, CombatEngineAPI engine){
         missile = m;
         this.engine = engine;
@@ -25,7 +26,7 @@ public class rebelrats_missileProxy extends BaseEveryFrameCombatPlugin {
             if (!(ship.isFighter()))continue;
             if (ship.getOwner() == missile.getOwner())continue;
             if (MathUtils.getDistance(missile.getLocation(),ship.getLocation()) < proxyRange){
-                for (int i = 0; i < 40; i++) {
+                for (int i = 0; i < numShrap; i++) {
                     CombatEntityAPI p = engine.spawnProjectile(missile.getSource(), null, "rebelrats_hwacha_munition", missile.getLocation(), missile.getFacing(), missile.getSource().getVelocity());
                     float angle = rebelrats_combatUtils.calcConeAngle(360,missile.getFacing());
                     p.setFacing(angle);

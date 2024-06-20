@@ -9,16 +9,16 @@ Nezulana Assault Railgun,rebelrats_nezulana_l,2,,8000,1200,,500,,200,6,26,,,,KIN
 Tripubus Saker,rebelrats_tripubus_l,1,,8000,900,,500,,100,5,18,,,,HIGH_EXPLOSIVE,600,,0,5,1,,0,10,3,10,,700,,,40,,,STRIKE,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Slow,Good,,,,,,
 ACG-210 Spinal Doldrums,rebelrats_babydoldrumspine_l,,,0,1100,,1200,100,300,60,0,,,,KINETIC,1200,,1.5,8.5,1,,0,6,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Cruiser,,,,,"Fires rods with an antimatter shaped charge dealing roughly %s additional damage per explosion
 
-Has a 30%% chance to trigger the shaped charge when hitting shields",300,,,,
+Has a 30%% chance to trigger the shaped charge when hitting shields",150,,,,
 ACG-210 Goedendag Assault Railgun,rebelrats_goedendag_l,,,0,1100,,1200,100,300,60,0,,,,KINETIC,1200,,2.5,17.5,3,1.5,0,6,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,,,"Fires rods with an antimatter shaped charge dealing roughly %s additional damage per explosion
 
-Has a 30%% chance to trigger the shaped charge when hitting shields",300,,,,
+Has a 30%% chance to trigger the shaped charge when hitting shields",150,,,,
 ACG-380 Doldrums Superheavy Railgun,rebelrats_doldrums_l,,,0,1200,,3600,300,500,10,0,,,,KINETIC,3600,,2.5,27.5,1,,0,4,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,Very Slow,Excellent,"Fires rods with an antimatter shaped charge dealing roughly %s additional damage per explosion
 
-Has a 30%% chance to trigger the shaped charge when hitting shields",300,,,,
+Has a 30%% chance to trigger the shaped charge when hitting shields",150,,,,
 ACG-380 Kingmaker Titan Railgun,rebelrats_kingmaker_l,,,0,1200,,7200,600,1000,5,0,,,,KINETIC,7200,,2.5,27.5,1,,0,4,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,Very Slow,Excellent,"Fires rods with an antimatter shaped charge dealing roughly %s additional damage per explosion
 
-Has a 30%% chance to trigger the shaped charge when hitting shields",300,,,,
+Has a 30%% chance to trigger the shaped charge when hitting shields",150,,,,
 Huntsman Torpedo Salvo Launcher,rebelrats_salvo_autoloader,,,0,2500,,1000,,50,15,0,15,0.03,3,HIGH_EXPLOSIVE,,,0,6.5,3,0.5,0,0,0,0,,450,200,5,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 Huntsman Side Salvo Launcher,rebelrats_huntsman_sidelauncher,,,0,2500,,1000,,50,15,0,15,0.03,3,HIGH_EXPLOSIVE,,,0.8,6.5,3,0.5,0,0,0,0,,450,300,5,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -78,6 +78,7 @@ AHG-20 Chaingun,rebelrats_chaingun_f,,,0,400,,15,,1,75,0,,,,HIGH_EXPLOSIVE,0,,0,
 Tephra Kinetic Rocket,rebelrats_tephra_f,,,0,800,,600,50,80,15,0,1,,,KINETIC,0,,0,1,1,,0,0,0,0,,600,0,2,200,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Shield Rocket,Very Fast,Unguided,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #SPECIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ACG-380 Kingmaker (Post-hit),rebelrats_kingmaker_munition,,,0,800,,6000,,300,5,0,,,,FRAGMENTATION,0,,2.5,27.5,1,,0,4,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,,,"What remains of the Kingmaker's rod after penetrating a ship, on hit explodes into frag dealing %s damage",80,,,,
 AFG-76 Custodian (secondary),rebelrats_custodian_munition,,,0,90,,80,,12,0,0,,,,FRAGMENTATION,0,,0,0,1,,0,12,2,6,,700,,,30,,,SYSTEM,"no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
 AFG-155C Hawker (secondary),rebelrats_hawker_munition,,,0,100,,80,,1,0,0,,,,FRAGMENTATION,0,,0,0,1,,0,10,1,10,,1300,,,10,,,SYSTEM,"no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
 Rattenjager (secondary),rebelrats_rattenjager_munition,,,0,100,,50,,1,0,0,,,,FRAGMENTATION,0,,0,0,1,,0,10,1,10,,1300,,,10,,,SYSTEM,"no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,

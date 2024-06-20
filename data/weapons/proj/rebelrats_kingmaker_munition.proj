@@ -1,11 +1,10 @@
 {
-	"id":"rebelrats_kingmaker_rod",
+	"id":"rebelrats_kingmaker_munition",
 	"specClass":"projectile",
 	"spawnType":"BALLISTIC_AS_BEAM",
 	"collisionClass":"RAY",
 	"collisionClassByFighter":"RAY_FIGHTER",
-	"onHitEffect":"data.scripts.weapons.rebelrats_kingmakerEffect",
-	"onFireEffect":"data.scripts.weapons.rebelrats_kingmakerEffect",
+	"onHitEffect":"data.scripts.weapons.rebelrats_kingmaker_munitionOnHitEffect",
 	"hitGlowRadius":300,
 	"length":42.0,
 	"width":11,
