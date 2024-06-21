@@ -36,14 +36,14 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 308,
-      "angle": 0,
-      "locations": [92, 0]
+      "arc": 154,
+      "angle": -80.5,
+      "locations": [-8, -46]
     },
     {
       "id": "WS0003",
       "size": "MEDIUM",
-      "type": "COMPOSITE",
+      "type": "UNIVERSAL",
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
@@ -54,36 +54,36 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 165,
-      "angle": 74,
-      "locations": [58, 32]
+      "arc": 200,
+      "angle": 90,
+      "locations": [17, 33]
     },
     {
       "id": "WS0005",
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 203,
+      "arc": 180,
       "angle": 101.5,
-      "locations": [-16, 54]
+      "locations": [-16, 51]
     },
     {
       "id": "WS0006",
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 282,
-      "angle": 180,
-      "locations": [-76, 0]
+      "arc": 298,
+      "angle": -174,
+      "locations": [-85, -3]
     },
     {
       "id": "WS0007",
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 304,
+      "arc": 210,
       "angle": 180,
-      "locations": [-112, 0]
+      "locations": [-127.5, -0]
     },
     {
       "id": "WS0008",
