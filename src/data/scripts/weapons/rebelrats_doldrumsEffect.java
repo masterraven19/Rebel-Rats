@@ -69,12 +69,6 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
                     new Color(255, 255, 255, 255)
             );
         }
-        for (int i = 0; i < numShrap; i++) {
-            Vector2f loc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing() - 180, 60, point);
-            CombatEntityAPI p = engine.spawnProjectile(projectile.getSource(), null, "rebelrats_hwacha_munition", loc, projectile.getFacing(), projectile.getSource().getVelocity());
-            float angle = rebelrats_combatUtils.calcConeAngle(180,projectile.getFacing() - 180);
-            p.setFacing(angle);
-        }
 
         if (shieldHit){
             if (Math.random() < shieldpiercechance){
@@ -96,6 +90,12 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
                 Vector2f exploloc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(),shipLength * i/numexplosions, projloc);
                 DamagingProjectileAPI e = engine.spawnDamagingExplosion(createExplosionSpec(),projectile.getSource(),exploloc);
                 engine.spawnExplosion(exploloc, new Vector2f(30,30),Color.getHSBColor(207,71,35),30F,1F);
+            }
+            for (int i = 0; i < numShrap; i++) {
+                Vector2f loc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing() - 180, 60, point);
+                CombatEntityAPI p = engine.spawnProjectile(projectile.getSource(), null, "rebelrats_railgun_shrapnel", loc, projectile.getFacing(), projectile.getSource().getVelocity());
+                float angle = rebelrats_combatUtils.calcConeAngle(180,projectile.getFacing() - 180);
+                p.setFacing(angle);
             }
         }
     }

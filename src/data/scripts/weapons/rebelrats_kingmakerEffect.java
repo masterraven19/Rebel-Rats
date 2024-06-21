@@ -16,6 +16,7 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
     private float numexplosions = 20;
     private float shieldpiercechance = 0.3F;
     private float numEmp = 10;
+    private int numShrap = 15;
     private boolean fired = false;
     private boolean fired2 = false;
     private DamagingProjectileAPI proj;
@@ -74,14 +75,18 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
                     DamagingProjectileAPI e = engine.spawnDamagingExplosion(createExplosionSpec(),projectile.getSource(),exploloc);
                     engine.spawnExplosion(exploloc, new Vector2f(30,30),Color.getHSBColor(207,71,35),30F,1F);
                 }
-                Vector2f point2 = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(),shipLength * 1.3F,point);
-                CombatEntityAPI newproj = engine.spawnProjectile(projectile.getSource(), null,"rebelrats_kingmaker_munition",point2, projectile.getFacing(),projectile.getSource().getVelocity());
             }
         }
         if (!shieldHit){
             Vector2f projloc = new Vector2f(projectile.getLocation());
             float shipLength = target.getCollisionRadius() * 1.2F;
 
+            for (int i = 0; i < numShrap; i++) {
+                Vector2f loc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing() - 180, 60, point);
+                CombatEntityAPI p = engine.spawnProjectile(projectile.getSource(), null, "rebelrats_railgun_shrapnel", loc, projectile.getFacing(), projectile.getSource().getVelocity());
+                float angle = rebelrats_combatUtils.calcConeAngle(180,projectile.getFacing() - 180);
+                p.setFacing(angle);
+            }
             for (int i = 0; i < numexplosions; i++) {
                 Vector2f exploloc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(),shipLength * i/numexplosions, projloc);
                 DamagingProjectileAPI e = engine.spawnDamagingExplosion(createExplosionSpec(),projectile.getSource(),exploloc);
@@ -89,6 +94,12 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
             }
             Vector2f point2 = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(),shipLength * 1.3F,point);
             CombatEntityAPI newproj = engine.spawnProjectile(projectile.getSource(), null,"rebelrats_kingmaker_munition",point2, projectile.getFacing(),projectile.getSource().getVelocity());
+            for (int i = 0; i < numShrap; i++) {
+                Vector2f loc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(), shipLength * 1.3F, point);
+                CombatEntityAPI p = engine.spawnProjectile(projectile.getSource(), null, "rebelrats_railgun_shrapnel", loc, projectile.getFacing(), projectile.getSource().getVelocity());
+                float angle = rebelrats_combatUtils.calcConeAngle(180,projectile.getFacing());
+                p.setFacing(angle);
+            }
         }
     }
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
@@ -107,7 +118,7 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
             float alphaMult = (float)(Math.random() * range) + 0.5F;
 
             rebelrats_addParticle p = new rebelrats_addParticle();
-            p.addParticle(null,"misc", "nebula_particles",100,100,loc,new Vector2f(0,0),vel,currAngle,1,false,0,1F,alphaMult,0.5F,true,new Color(235,54,54,255));
+            p.addParticle(null,"misc", "nebula_particles",80,80,loc,new Vector2f(0,0),vel,currAngle,1,false,0,1F,alphaMult,0.5F,true,new Color(235,54,54,160));
             CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
             e.getLocation().set(projloc);
         }
