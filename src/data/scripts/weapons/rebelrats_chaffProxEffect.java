@@ -5,9 +5,6 @@ import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.DamagingProjectileAPI;
 import com.fs.starfarer.api.combat.ProximityExplosionEffect;
-import org.lwjgl.util.vector.Vector2f;
-
-import java.awt.*;
 
 public class rebelrats_chaffProxEffect implements ProximityExplosionEffect {
     protected static float numflak = 10;

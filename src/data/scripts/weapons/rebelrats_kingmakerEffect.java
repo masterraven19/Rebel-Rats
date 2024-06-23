@@ -1,13 +1,23 @@
 package data.scripts.weapons;
 
-import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.OnHitEffectPlugin;
+import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
+import com.fs.starfarer.api.combat.OnFireEffectPlugin;
+import com.fs.starfarer.api.combat.DamagingProjectileAPI;
+import com.fs.starfarer.api.combat.CollisionClass;
+import com.fs.starfarer.api.combat.DamageType;
+import com.fs.starfarer.api.combat.CombatEntityAPI;
+import com.fs.starfarer.api.combat.CombatEngineAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
 import data.scripts.combat.rebelrats_addParticle;
 import data.scripts.combat.rebelrats_combatUtils;
+import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
-import java.awt.*;
+import java.awt.Color;
 
 public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameWeaponEffectPlugin, OnFireEffectPlugin {
     private float elapsed = 0;
@@ -16,6 +26,8 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
     private float numexplosions = 20;
     private float shieldpiercechance = 0.3F;
     private float numEmp = 10;
+    private float baseCone = 40;
+    private float penDist = 600;
     private int numShrap = 15;
     private boolean fired = false;
     private boolean fired2 = false;
@@ -49,7 +61,7 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
 
         for (int i = 0; i < numEmp; i++) {
             float angle = rebelrats_combatUtils.calcConeAngle(360,0);
-            Vector2f loc = rebelrats_combatUtils.calcLocWAngle(angle,target.getCollisionRadius() * 0.8F,point);
+            Vector2f loc = rebelrats_combatUtils.calcLocWAngle(angle,100f,point);
             engine.spawnEmpArcPierceShields(
                     projectile.getSource(), loc, target, target,
                     DamageType.ENERGY,
@@ -66,6 +78,33 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
         }
 
         if (shieldHit){
+            float pFacing = projectile.getFacing();
+            float reflectAngle;
+            float dist = MathUtils.getDistance(projectile.getSource(),target);
+
+            float normal = rebelrats_combatUtils.calcDirectionOfTwoPoints(point,target.getLocation());
+            if(pFacing > 0){reflectAngle = pFacing -180;}
+            else{reflectAngle = pFacing + 180;}
+            float diff = normal - reflectAngle;
+            reflectAngle = normal + diff;
+
+            float reflectDiff = diff;
+            if(diff < -180){reflectDiff += 360;}
+            if(diff > 180){reflectDiff -= 360;}
+
+            float dmg = projectile.getWeapon().getDamage().getDamage();
+
+            if ((reflectDiff > baseCone || reflectDiff < -baseCone) && dist > penDist){
+                dmg = projectile.getWeapon().getDamage().getDamage() * 0.5F;
+                engine.applyDamage(target,point,dmg,projectile.getDamageType(), projectile.getEmpAmount(),false,false,projectile.getSource());
+
+                Vector2f loc = rebelrats_combatUtils.calcLocWAngle(reflectAngle,40,point);
+                CombatEntityAPI newproj = engine.spawnProjectile(projectile.getSource(), null,"rebelrats_kingmaker_munition",loc, reflectAngle,projectile.getSource().getVelocity());
+                return;
+            }
+            engine.applyDamage(target,point,dmg,projectile.getDamageType(), projectile.getEmpAmount(),false,false,projectile.getSource());
+
+
             if (Math.random() < shieldpiercechance){
                 Vector2f projloc = new Vector2f(projectile.getLocation());
                 float shipLength = target.getCollisionRadius() * 1.2F;
@@ -80,6 +119,8 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
         if (!shieldHit){
             Vector2f projloc = new Vector2f(projectile.getLocation());
             float shipLength = target.getCollisionRadius() * 1.2F;
+            float dmg = projectile.getWeapon().getDamage().getDamage();
+            engine.applyDamage(target,point,dmg,projectile.getDamageType(), projectile.getEmpAmount(),false,false,projectile.getSource());
 
             for (int i = 0; i < numShrap; i++) {
                 Vector2f loc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing() - 180, 60, point);
@@ -92,14 +133,15 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
                 DamagingProjectileAPI e = engine.spawnDamagingExplosion(createExplosionSpec(),projectile.getSource(),exploloc);
                 engine.spawnExplosion(exploloc, new Vector2f(30,30),Color.getHSBColor(207,71,35),30F,1F);
             }
-            Vector2f point2 = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(),shipLength * 1.3F,point);
-            CombatEntityAPI newproj = engine.spawnProjectile(projectile.getSource(), null,"rebelrats_kingmaker_munition",point2, projectile.getFacing(),projectile.getSource().getVelocity());
             for (int i = 0; i < numShrap; i++) {
                 Vector2f loc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(), shipLength * 1.3F, point);
                 CombatEntityAPI p = engine.spawnProjectile(projectile.getSource(), null, "rebelrats_railgun_shrapnel", loc, projectile.getFacing(), projectile.getSource().getVelocity());
                 float angle = rebelrats_combatUtils.calcConeAngle(180,projectile.getFacing());
                 p.setFacing(angle);
             }
+            Vector2f point2 = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(),shipLength * 1.3F,point);
+            CombatEntityAPI newproj = engine.spawnProjectile(projectile.getSource(), null,"rebelrats_kingmaker_munition",point2, projectile.getFacing(),projectile.getSource().getVelocity());
+
         }
     }
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
@@ -140,12 +182,12 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
         if (weapon.getAnimation().getFrame() >= 6 && weapon.getAnimation().getFrame() < 37){
             float angle = rebelrats_combatUtils.calcConeAngle(30,0);
             Vector2f vel = rebelrats_combatUtils.calcVelDir((weapon.getCurrAngle() - 180) + angle, 200);
-            Vector2f loc = rebelrats_combatUtils.calcLocWAngle(weapon.getCurrAngle() - 180, 32, weapon.getLocation());
+            Vector2f loc = rebelrats_combatUtils.calcLocWAngle(weapon.getCurrAngle() - 180, 35, weapon.getLocation());
             float range = (1 - 0.5F) + 1;
             float alphaMult = (float)(Math.random() * range) + 0.5F;
 
             rebelrats_addParticle p = new rebelrats_addParticle();
-            p.addParticle(null,"misc", "nebula_particles",20,20,loc,new Vector2f(0,0),vel,angle,1,false,0,0.2F,alphaMult,0.5F,true,new Color(141,95,240,255));
+            p.addParticle(null,"misc", "nebula_particles",30,30,loc,new Vector2f(0,0),vel,angle,1,false,0,0.2F,alphaMult,0.5F,true,new Color(141,95,240,255));
             CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
             e.getLocation().set(weapon.getLocation());
         }
@@ -160,6 +202,7 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
         fired = true;
         fired2 = true;
         proj = projectile;
+        projectile.getDamage().setDamage(1);
 
         rebelrats_addParticle p = new rebelrats_addParticle();
         p.addParticle(projectile,"graphics/fx/doldrums_warning.png",null,240,80,null,new Vector2f(80,10),new Vector2f(0,0),0,0,false,0,15,1,0.5F,false, new Color(233,91,14,255));

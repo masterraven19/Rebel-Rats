@@ -1,7 +1,7 @@
 package data.scripts.weapons;
-import java.awt.*;
+import java.awt.Color;
 
-import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.CollisionClass;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
@@ -12,16 +12,15 @@ import com.fs.starfarer.api.combat.OnHitEffectPlugin;
 import com.fs.starfarer.api.combat.OnFireEffectPlugin;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
-import com.fs.starfarer.api.impl.campaign.ids.Stats;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
 import data.scripts.combat.rebelrats_addParticle;
 import data.scripts.combat.rebelrats_combatUtils;
 import org.lwjgl.util.vector.Vector2f;
 
 public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWeaponEffectPlugin,OnFireEffectPlugin{
-    private static float emparcs = 3;
-    private static float numexplosions = 20;
-    private static float shieldpiercechance = 0.3F;
+    private float emparcs = 3;
+    private float numexplosions = 20;
+    private float shieldpiercechance = 0.3F;
     private int numShrap = 15;
     private float elapsed = 0;
     public DamagingExplosionSpec createExplosionSpec() {

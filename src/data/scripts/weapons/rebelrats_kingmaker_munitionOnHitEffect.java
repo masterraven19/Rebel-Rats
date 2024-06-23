@@ -1,11 +1,16 @@
 package data.scripts.weapons;
 
-import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.OnHitEffectPlugin;
+import com.fs.starfarer.api.combat.DamagingProjectileAPI;
+import com.fs.starfarer.api.combat.CombatEntityAPI;
+import com.fs.starfarer.api.combat.CombatEngineAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import data.scripts.combat.rebelrats_combatUtils;
 import org.lwjgl.util.vector.Vector2f;
 
-import java.awt.*;
+import java.awt.Color;
 
 public class rebelrats_kingmaker_munitionOnHitEffect implements OnHitEffectPlugin {
     private int numShrap = 15;

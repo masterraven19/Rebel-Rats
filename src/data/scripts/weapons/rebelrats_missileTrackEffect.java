@@ -1,6 +1,10 @@
 package data.scripts.weapons;
 
-import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.OnFireEffectPlugin;
+import com.fs.starfarer.api.combat.DamagingProjectileAPI;
+import com.fs.starfarer.api.combat.WeaponAPI;
+import com.fs.starfarer.api.combat.CombatEngineAPI;
+import com.fs.starfarer.api.combat.MissileAPI;
 import data.scripts.combat.rebelrats_missileProxy;
 import data.scripts.combat.rebelrats_missileScript;
 import org.magiclib.ai.MagicMissileAI;

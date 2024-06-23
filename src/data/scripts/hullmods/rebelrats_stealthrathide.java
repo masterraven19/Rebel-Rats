@@ -3,14 +3,12 @@ package data.scripts.hullmods;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
-import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
-import java.awt.*;
+import java.awt.Color;
 
 public class rebelrats_stealthrathide extends BaseHullMod {
-    public static float profiledetection_bonus = -70;
-    public static String design;
+    public float profiledetection_bonus = -70;
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
         stats.getSensorProfile().modifyPercent(id,profiledetection_bonus);
     }

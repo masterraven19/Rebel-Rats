@@ -1,7 +1,12 @@
 package data.scripts.campaign.econ.impl;
 
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.campaign.*;
+import com.fs.starfarer.api.campaign.FleetInflater;
+import com.fs.starfarer.api.campaign.CampaignFleetAPI;
+import com.fs.starfarer.api.campaign.SectorEntityToken;
+import com.fs.starfarer.api.campaign.CustomCampaignEntityAPI;
+import com.fs.starfarer.api.campaign.AICoreOfficerPlugin;
+import com.fs.starfarer.api.campaign.BattleAPI;
 import com.fs.starfarer.api.campaign.CampaignEventListener.FleetDespawnReason;
 import com.fs.starfarer.api.campaign.econ.CommoditySpecAPI;
 import com.fs.starfarer.api.campaign.econ.Industry;
@@ -26,7 +31,7 @@ import com.fs.starfarer.api.util.Pair;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.awt.*;
+import java.awt.Color;
 
 
 public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEventListener {

@@ -8,7 +8,7 @@ import com.fs.starfarer.api.combat.listeners.AdvanceableListener;
 import com.fs.starfarer.api.combat.listeners.HullDamageAboutToBeTakenListener;
 import org.lwjgl.util.vector.Vector2f;
 
-import java.awt.*;
+import java.awt.Color;
 
 public class rebelrats_cc extends BaseHullMod {
     //repair hull when below 50% and no dmg for 10 seconds

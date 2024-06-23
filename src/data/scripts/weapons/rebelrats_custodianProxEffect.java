@@ -7,7 +7,7 @@ import com.fs.starfarer.api.combat.DamagingProjectileAPI;
 import com.fs.starfarer.api.combat.ProximityExplosionEffect;
 import org.lwjgl.util.vector.Vector2f;
 
-import java.awt.*;
+import java.awt.Color;
 
 public class rebelrats_custodianProxEffect implements ProximityExplosionEffect {
     protected static float numflak = 10;

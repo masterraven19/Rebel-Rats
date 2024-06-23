@@ -10,7 +10,7 @@ import com.fs.starfarer.api.util.FaderUtil;
 import com.fs.starfarer.api.util.Misc;
 import org.lwjgl.util.vector.Vector2f;
 
-import java.awt.*;
+import java.awt.Color;
 import java.util.EnumSet;
 //adds big boom
 public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {

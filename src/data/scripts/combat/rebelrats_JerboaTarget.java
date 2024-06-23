@@ -5,7 +5,7 @@ import com.fs.starfarer.api.combat.BaseEveryFrameCombatPlugin;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.input.InputEventAPI;
 
-import java.awt.*;
+import java.awt.Color;
 import java.util.List;
 
 public class rebelrats_JerboaTarget extends BaseEveryFrameCombatPlugin {

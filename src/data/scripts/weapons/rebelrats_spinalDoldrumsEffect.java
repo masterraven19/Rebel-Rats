@@ -8,7 +8,7 @@ import data.scripts.combat.rebelrats_addExplosionFx;
 import data.scripts.combat.rebelrats_combatUtils;
 import org.lwjgl.util.vector.Vector2f;
 
-import java.awt.*;
+import java.awt.Color;
 
 public class rebelrats_spinalDoldrumsEffect implements EveryFrameWeaponEffectPlugin {
     final Vector2f endSize = new Vector2f(30,30);

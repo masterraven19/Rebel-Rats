@@ -1,7 +1,7 @@
 package data.scripts.campaign;
 
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.campaign.*;
+import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.BaseCampaignObjectivePlugin;
 import com.fs.starfarer.api.util.Misc;

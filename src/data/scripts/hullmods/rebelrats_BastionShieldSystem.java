@@ -6,7 +6,7 @@ import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
-import java.awt.*;
+import java.awt.Color;
 
 public class rebelrats_BastionShieldSystem extends BaseHullMod {
     private final float shieldRadiusOffset = -0.1F;

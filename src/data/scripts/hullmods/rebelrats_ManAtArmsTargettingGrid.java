@@ -16,13 +16,13 @@ import com.fs.starfarer.api.ui.Alignment;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
 
-import java.awt.*;
+import java.awt.Color;
 
 public class rebelrats_ManAtArmsTargettingGrid extends BaseHullMod {
-	public static float BONUS_SMALL_1 = 10;
-	public static float BONUS_MEDIUM_1 = 10;
-	public static float BONUS_LARGE_1 = 5;
-	public static float BONUS_PD = 30;
+	public float BONUS_SMALL_1 = 10;
+	public float BONUS_MEDIUM_1 = 10;
+	public float BONUS_LARGE_1 = 5;
+	public float BONUS_PD = 30;
 
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 		stats.getDynamic().getMod(Stats.PD_BEST_TARGET_LEADING).modifyFlat(id, 1f);

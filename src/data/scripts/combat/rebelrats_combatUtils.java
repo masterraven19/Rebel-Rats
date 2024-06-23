@@ -50,4 +50,13 @@ public class rebelrats_combatUtils {
         angle = faceAngle - angle;
         return angle;
     }
+    public static float calcDirectionOfTwoPoints(Vector2f origin, Vector2f target){
+        float angle;
+        float dx = target.x - origin.x;
+        float dy = target.y - origin.y;
+        angle = (float) Math.atan2(dx,dy) * -180/(float)Math.PI;
+        if(angle < -90){angle += 270;}
+        else{angle -= 90;}
+        return angle;
+    }
 }

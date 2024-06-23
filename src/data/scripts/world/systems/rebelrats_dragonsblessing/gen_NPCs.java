@@ -10,7 +10,6 @@ import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.impl.campaign.ids.People;
 import com.fs.starfarer.api.impl.campaign.ids.Ranks;
 import com.fs.starfarer.api.impl.campaign.ids.Tags;
-import exerelin.utilities.NexUtilsMarket;
 
 public class gen_NPCs {
     public static void Administrator_Example(MarketAPI market){//finally works,

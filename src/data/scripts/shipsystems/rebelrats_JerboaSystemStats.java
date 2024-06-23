@@ -1,12 +1,16 @@
 package data.scripts.shipsystems;
 
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.MutableShipStatsAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.ShipEngineControllerAPI;
+import com.fs.starfarer.api.combat.ShipwideAIFlags;
+import com.fs.starfarer.api.combat.ShipSystemAPI;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import data.scripts.combat.rebelrats_JerboaTarget;
 import com.fs.starfarer.api.util.Misc;
 
-import java.awt.*;
+import java.awt.Color;
 
 public class rebelrats_JerboaSystemStats extends BaseShipSystemScript {
     //mostly works, however still not bug tested thoroughly
