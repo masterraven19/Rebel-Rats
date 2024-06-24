@@ -10,8 +10,10 @@ import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
+import com.fs.starfarer.api.impl.combat.BreachOnHitEffect;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
+import data.scripts.combat.rebelrats_addExplosionFx;
 import data.scripts.combat.rebelrats_addParticle;
 import data.scripts.combat.rebelrats_combatUtils;
 import org.lazywizard.lazylib.MathUtils;
@@ -24,6 +26,8 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
     private float elapsed2 = 0;
     private float particleDuration = 1F;
     private float numexplosions = 20;
+    private float explosionDmg = 50;
+    private float armorDmg = 100;
     private float shieldpiercechance = 0.3F;
     private float numEmp = 10;
     private float baseCone = 40;
@@ -33,7 +37,7 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
     private boolean fired2 = false;
     private DamagingProjectileAPI proj;
     public DamagingExplosionSpec createExplosionSpec() {
-        float damage = 150f;
+        float damage = explosionDmg;
         DamagingExplosionSpec spec = new DamagingExplosionSpec(
                 0.1f, // duration
                 80f, // radius
@@ -50,14 +54,16 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
                 new Color(163,124,200,0)  // explosionColor
         );
 
-        spec.setDamageType(DamageType.HIGH_EXPLOSIVE);
+        spec.setDamageType(DamageType.FRAGMENTATION);
         spec.setUseDetailedExplosion(false);
+        spec.setShowGraphic(false);
         spec.setSoundSetId("explosion_guardian");
         return spec;
     }
     public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target,
                       Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
         if (!(target instanceof ShipAPI)) return;
+        ShipAPI ship = (ShipAPI) target;
 
         for (int i = 0; i < numEmp; i++) {
             float angle = rebelrats_combatUtils.calcConeAngle(360,0);
@@ -95,7 +101,7 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
             float dmg = projectile.getWeapon().getDamage().getDamage();
 
             if ((reflectDiff > baseCone || reflectDiff < -baseCone) && dist > penDist){
-                dmg = projectile.getWeapon().getDamage().getDamage() * 0.5F;
+                dmg *= 0.5F;
                 engine.applyDamage(target,point,dmg,projectile.getDamageType(), projectile.getEmpAmount(),false,false,projectile.getSource());
 
                 Vector2f loc = rebelrats_combatUtils.calcLocWAngle(reflectAngle,40,point);
@@ -111,8 +117,14 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
 
                 for (int i = 0; i < numexplosions; i++) {
                     Vector2f exploloc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(),shipLength * i/numexplosions, projloc);
-                    DamagingProjectileAPI e = engine.spawnDamagingExplosion(createExplosionSpec(),projectile.getSource(),exploloc);
+                    DamagingProjectileAPI ex = engine.spawnDamagingExplosion(createExplosionSpec(),projectile.getSource(),exploloc);
                     engine.spawnExplosion(exploloc, new Vector2f(30,30),Color.getHSBColor(207,71,35),30F,1F);
+                    BreachOnHitEffect.dealArmorDamage(projectile,ship,exploloc,armorDmg);
+
+                    rebelrats_addExplosionFx explosionFx = new rebelrats_addExplosionFx();
+                    explosionFx.addExplosion("graphics/fx/explosion_ring0.png",null,new Vector2f(50,50),new Vector2f(100,100),exploloc,new Vector2f(0,0), new Color(235,163,54),1.5F,2,2.2F,0,(float) Math.random() * 180,0.8F,false);
+                    CombatEntityAPI e = engine.addLayeredRenderingPlugin(explosionFx);
+                    e.getLocation().set(point);
                 }
             }
         }
@@ -130,8 +142,14 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
             }
             for (int i = 0; i < numexplosions; i++) {
                 Vector2f exploloc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(),shipLength * i/numexplosions, projloc);
-                DamagingProjectileAPI e = engine.spawnDamagingExplosion(createExplosionSpec(),projectile.getSource(),exploloc);
+                DamagingProjectileAPI ex = engine.spawnDamagingExplosion(createExplosionSpec(),projectile.getSource(),exploloc);
                 engine.spawnExplosion(exploloc, new Vector2f(30,30),Color.getHSBColor(207,71,35),30F,1F);
+                BreachOnHitEffect.dealArmorDamage(projectile,ship,exploloc,armorDmg);
+
+                rebelrats_addExplosionFx explosionFx = new rebelrats_addExplosionFx();
+                explosionFx.addExplosion("graphics/fx/explosion_ring0.png",null,new Vector2f(50,50),new Vector2f(100,100),exploloc,new Vector2f(0,0), new Color(235,163,54),1.5F,2,2.2F,0,(float) Math.random() * 180,0.8F,false);
+                CombatEntityAPI e = engine.addLayeredRenderingPlugin(explosionFx);
+                e.getLocation().set(point);
             }
             for (int i = 0; i < numShrap; i++) {
                 Vector2f loc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(), shipLength * 1.3F, point);

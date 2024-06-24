@@ -59,4 +59,8 @@ public class rebelrats_combatUtils {
         else{angle -= 90;}
         return angle;
     }
+    public static float randomNumber(float min, float max){
+        float r = (float)Math.random() * ((max - min + 1) + min);
+        return r;
+    }
 }
