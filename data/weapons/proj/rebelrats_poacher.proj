@@ -5,6 +5,7 @@
 	"collisionClass":"RAY",
 	"collisionClassByFighter":"RAY_FIGHTER",
 	"hitGlowRadius":10,
+	"onHitEffect":"data.scripts.weapons.rebelrats_poacherOnHitEffect",
 	#"spawnType":"BALLISTIC",
 	#"collisionClass":"PROJECTILE_FF",
 	#"collisionClassByFighter":"PROJECTILE_FIGHTER",

@@ -44,6 +44,7 @@ rebelrats_ashford,WEAPON,The Ashford is comparable to Persean Sector PD lasers w
 rebelrats_poacher_s,WEAPON,"The Poacher was an anti-ship weapon that was handed PD duties, favoring accuracy by volume like old CIWS designs. The turret's APIT shells coupled with an astounding rate of fire allows it to shred through frigate-grade armor plating quickly when enmassed.",,,,
 rebelrats_poubelle,WEAPON,"Less of a missile and more of a flying IED that has been cobbled together from civilian components, the Poubelle is a credible threat as the lack of a complex thruster system has left room to stuff a more payload to compensate for the low-grade mining explosives.",,,,
 rebelrats_chaff,WEAPON,Fires a canister full of hyper-spectral decoys to foil incoming enemy missiles.,,,,
+rebelrats_amos_s,WEAPON,A high powered hacking beam which disables the missile's engines by using deadly Rat Virus. Does not work well with torpedos.,,,,
 ,,,,,,
 #FIGHTER WEAPONS,,,,,,
 rebelrats_huntsman_f,WEAPON,A fighter-mounted version of the Huntsman Torpedo stowed under the fuselage. Weight restrictions has led to downsizing the warhead to the minimum size.,,,,

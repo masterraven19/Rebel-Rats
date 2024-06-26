@@ -1,0 +1,56 @@
+{
+  "id": "rebelrats_amos_s",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "beamEffect": "data.scripts.weapons.rebelrats_amosBeamEffect",
+  "turretSprite": "graphics/weapons/Amos_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/Amos_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/Amos_turret_base.png",
+  "hardpointGlowSprite": "graphics/weapons/Amos_turret_glow.png",
+  "glowColor": [
+    133,
+    54,
+    235,
+    255
+  ],
+  "hitGlowRadius": 15,
+  "turretOffsets": [
+    9,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    14,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    133,
+    54,
+    235,
+    76
+  ],
+  "coreColor": [
+    241,
+    241,
+    241,
+    76
+  ],
+  "width": 5,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 128,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "burst_pd_fire"
+}
