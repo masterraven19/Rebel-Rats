@@ -1,14 +1,12 @@
 {
-	"id":"rebelrats_jerboahatch",  # this id must match what's in the spreadsheet
+	"id":"rebelrats_jerboa_leftHullCover",
 	"specClass":"beam",
 	"type":"DECORATIVE",
 	"size":"SMALL",
 	"showDamageWhenDecorative":true,
-	"renderBelowAllWeapons":false,
-	"turretSprite":"graphics/weapons/decorative/jerboahatch/frame0000.png",
-	"hardpointSprite":"graphics/weapons/decorative/jerboahatch/frame0000.png",
-	"numFrames":12,
-    "frameRate":20,
+	"renderAboveAllWeapons":true,
+	"turretSprite":"graphics/weapons/decorative/jerboa_left_weaponplate.png",
+	"hardpointSprite":"graphics/weapons/decorative/jerboa_left_weaponplate.png",
 	"turretOffsets":[0, 0],
 	"turretAngleOffsets":[0],
 	"hardpointOffsets":[0, 0],

@@ -19,7 +19,14 @@
   "builtInWeapons": {
     "WS0001": "rebelrats_goedendag_l",
     "WS0008": "rebelrats_huntsman_sidelauncher",
-    "WS0010": "rebelrats_jerboahatch"
+    "WS0010": "rebelrats_jerboahatch",
+    "WS0011": "rebelrats_jerboa_leftHullCover",
+    "WS0012": "rebelrats_jerboa_rightHullCover",
+    "WS0013": "rebelrats_jerboa_pyroclast_launcher",
+    "WS0014": "rebelrats_jerboa_frontHullCover",
+    "WS0015": "rebelrats_mischief_m",
+    "WS0016": "rebelrats_mischief_m",
+    "WS0017": "rebelrats_jerboa_backHullCover"
   },
   "weaponSlots": [
     {
@@ -29,16 +36,17 @@
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
-      "locations": [124.5, 0]
+      "locations": [137, -0],
+      "renderOrderMod": -4
     },
     {
       "id": "WS0002",
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 154,
-      "angle": -80.5,
-      "locations": [-8, -46]
+      "arc": 134,
+      "angle": -78.5,
+      "locations": [-8, -47]
     },
     {
       "id": "WS0003",
@@ -81,7 +89,7 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 210,
+      "arc": 233,
       "angle": 180,
       "locations": [-127.5, -0]
     },
@@ -122,7 +130,70 @@
       "mount": "TURRET",
       "arc": 1,
       "angle": 0,
-      "locations": [-24.5, -61.5]
+      "locations": [-50, -59.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-15.5, 42.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-15.5, -42.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [66, 35.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [143, -0]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -70,
+      "locations": [101, -11.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 70,
+      "locations": [101, 10.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-120.5, -0]
     }
   ],
   "engineSlots": [

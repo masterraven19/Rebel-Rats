@@ -42,6 +42,8 @@ Muridae Plasma Launchers,rebelrats_muridae_m,,,0,600,,600,200,70,0,0,,,,ENERGY,7
 Gyrojet Launchers,rebelrats_gyrolauncher_m,,,0,1500,,700,,50,0,0,,,,HIGH_EXPLOSIVE,700,,0,6,2,0.5,0,0,0,0,,1200,20,2.8,800,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","no_sell, no_drop, no_drop_salvage",,Arms & Armor,,Strike,Very Fast,Medium,,,"Accelerates to the target with limited tracking
 
 Can be shot down by heavy PD",,,,,
+Pyroclast Tube Launcher,rebelrats_jerboa_pyroclast_launcher,,,0,1200,,1800,,80,20,0,6,0.008333,2,HIGH_EXPLOSIVE,,,0,5,2,1,0,0,0,0,,400,50,5,650,,,"SYSTEM, DIRECT_AIM, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Heavy Torpedo,Fast,Medium,,,Secondary anti-matter charge inflicts additional %s fragmentation on hit,1200,,,TRUE,
+Mischief Phase Array,rebelrats_mischief_m,,,0,450,20,,,1,100,0,,,,ENERGY,,70,0,0,0.1,0.05,,,,,100000,,,,,,,"SYSTEM, PD","no_sell, no_drop, no_drop_salvage",,The Three Brothers Corporation,,Point Defense,,,Very Fast,Excellent,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Huntsman Torpedo,rebelrats_huntsman_s,0,,400,2000,,1000,,50,15,1,1,0.01,1,HIGH_EXPLOSIVE,,,0,5,1,,0,0,0,0,,450,100,5,300,,,"STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, rebelrats_arsenal_bp",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 Hwacha SRM ,rebelrats_hwacha_s,1,,300,1200,,300,,5,15,4,12,0.2,3,FRAGMENTATION,,,0,2,6,0.2,0,0,0,0,,500,50,6,20,,,"ANTI_FTR, DO_NOT_CONSERVE, DO_NOT_AIM","utility8, missile0, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Fighter,Very Fast,High,,,"Uses proximity warheads to maximize hit probability.
@@ -95,6 +97,10 @@ Petard (secondary),rebelrats_petard_canister,,,0,1000,2500,,,1,40,0,,,,HIGH_EXPL
 Daekon Left,rebelrats_daekon_left,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 Daekon Right,rebelrats_daekon_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 Jerboa Hatch,rebelrats_jerboahatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Jerboa Side Hull Cover,rebelrats_jerboa_leftHullCover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Jerboa Side Hull Cover,rebelrats_jerboa_rightHullCover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Jerboa Front Hull Cover,rebelrats_jerboa_frontHullCover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Jerboa Back Hull Cover,rebelrats_jerboa_backHullCover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Rat Targetting Laser,rebelrats_targetinglaser,0,,0,2700,1,,,0,200,0,1000,1000,,ENERGY,,0,0.05,0.05,0.1,0.05,,,,,1000000,,,,,,,SYSTEM,rebelrats_laser,,,,Special,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

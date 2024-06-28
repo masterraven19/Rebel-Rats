@@ -1,0 +1,50 @@
+{
+  "id": "rebelrats_mischief_m",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.scripts.weapons.rebelrats_mischiefBeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/fx/empty.png",
+  "hardpointSprite": "graphics/fx/empty.png",
+  "glowColor": [
+    223,
+    182,
+    12,
+    255
+  ],
+  "hitGlowRadius": 30,
+  "turretOffsets": [
+    3.5,
+    2
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    8,
+    -1
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    83,187,25,
+    255
+  ],
+  "coreColor": [
+    83,187,25,
+    255
+  ],
+  "width": 5,
+  "textureType": SMOOTH,
+  "textureScrollSpeed": 900,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "petard_firing"
+}

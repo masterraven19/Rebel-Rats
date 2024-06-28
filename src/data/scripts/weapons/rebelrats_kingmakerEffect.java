@@ -154,7 +154,7 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
             for (int i = 0; i < numShrap; i++) {
                 Vector2f loc = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(), shipLength * 1.3F, point);
                 CombatEntityAPI p = engine.spawnProjectile(projectile.getSource(), null, "rebelrats_railgun_shrapnel", loc, projectile.getFacing(), projectile.getSource().getVelocity());
-                float angle = rebelrats_combatUtils.calcConeAngle(180,projectile.getFacing());
+                float angle = rebelrats_combatUtils.calcConeAngle(30,projectile.getFacing());
                 p.setFacing(angle);
             }
             Vector2f point2 = rebelrats_combatUtils.calcLocWAngle(projectile.getFacing(),shipLength * 1.3F,point);

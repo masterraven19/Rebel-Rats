@@ -26,6 +26,8 @@ rebelrats_rattenjager_array_m,WEAPON,A built-in array of Snapper APS for long-ra
 rebelrats_petardlauncher_m,WEAPON,"Seeing that Petards already came in ready-to-use canisters, Krysans only had to mount thrusters and a rudimentary guidance system to make a simple, but effective, directed energy missile",,,,
 rebelrats_huntsman_salvo,WEAPON,Triple rack for Huntsman Torpedos,,,,
 rebelrats_gyrolauncher_m,WEAPON,"The Sorex's Gyrojet Launcher is an example of an old type of weapon making a resurgence in the Krysan Navy arsenal as miniaturization of technology outpaced weapons development. The utilization of gyrojets means that the ship can forgo the need of a complicated recoil management system and focus on having a larger payload size. A basic beam riding system keeps the rocket relatively on target, but could never keep up with fast moving targets.",,,,
+rebelrats_jerboa_pyroclast_launcher,WEAPON,TWO PYROCLAST?S??? FOR FREE???,,,,
+rebelrats_mischief_m,WEAPON,Uses green rats to fire 1 laser per missile within range. The extra beams can be disabled by disabling the weapon group.,,,,
 ,,,,,,
 #MUS HUNTSMAN AUTOLOADER,,,,,,
 rebelrats_huntsmanx2_m,WEAPON,These torpedo tubes serve as the Mus' main anti-ship weapon to allow the Mus to punch above its weight class. The tubes utilizes an autoloader derived from the Rattus that ensures a quick rate of fire.,,,,

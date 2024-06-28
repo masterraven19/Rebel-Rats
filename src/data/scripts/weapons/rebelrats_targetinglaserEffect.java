@@ -3,6 +3,8 @@ package data.scripts.weapons;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.WeaponAPI;
+import data.scripts.combat.rebelrats_combatUtils;
+import org.lwjgl.util.vector.Vector2f;
 
 public class rebelrats_targetinglaserEffect implements EveryFrameWeaponEffectPlugin {
     private WeaponAPI currentWeapon = null;
