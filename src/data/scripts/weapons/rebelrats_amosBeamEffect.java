@@ -20,6 +20,7 @@ public class rebelrats_amosBeamEffect implements BeamEffectPlugin {
 
         for (MissileAPI m : engine.getMissiles()){
             if(m.isFading() || m.isExpired())continue;
+            if(w.getShip().getOwner() == m.getOwner())continue;
             if(m.isFizzling())continue;
 
             float d = MathUtils.getDistance(w.getLocation(),m.getLocation());
