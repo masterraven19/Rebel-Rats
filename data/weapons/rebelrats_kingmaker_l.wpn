@@ -53,6 +53,6 @@
       200
     ]
   },
-  "fireSoundOne": "doldrums_charging",
-  "fireSoundTwo": "doldrums_firing_segment"
+  "fireSoundOne": "kingmaker_charging",
+  "fireSoundTwo": "kingmaker_firing"
 }

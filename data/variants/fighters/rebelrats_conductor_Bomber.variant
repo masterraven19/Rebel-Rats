@@ -1,7 +1,7 @@
 {
   "variantId": "rebelrats_conductor_Bomber",
   "hullId": "rebelrats_conductor_bomber",
-  "displayName": "Balanced",
+  "displayName": "Bomber",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,

@@ -63,6 +63,12 @@
     "sorex_firing": [
         {"file":"sounds/Sorex_gun_firing.ogg","pitch":1.00,"volume":0.7},
     ],
+    "kingmaker_firing": [
+        {"file":"sounds/kingmaker_firing.ogg","pitch":1.00,"volume":1},
+    ],
+    "kingmaker_charging": [
+        {"file":"sounds/kingmaker_charging.ogg","pitch":1.00,"volume":1},
+    ],
     "rebelrats_engine_loop":{
         "sounds":[
             {"file":"sounds/ratengineburn2.ogg","pitch":1,"volume":0.15}, #index 0
