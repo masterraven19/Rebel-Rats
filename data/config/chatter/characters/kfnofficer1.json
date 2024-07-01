@@ -8,10 +8,10 @@
 	
 	"lines":{
 		"start":[
-			{"text":"General Quarters, General Quarters. All hands action stations."},
-			{"text":"Drive signatures detected, all hands to action stations."},
+			{"text":"General Quarters, General Quarters. All hands to action stations."},
+			{"text":"Drive signatures detected, all hands, set ship to material condition ZEBRA."},
 			{"text":"Maintaining present course."},
-			{"text":"Rig ship for combat."},
+			{"text":"Rig ship for astrocombat."},
 			{"text":"Awaiting orders."}
 		],
 		"start_boss":[
@@ -36,7 +36,7 @@
 		],
 		"need_help":[
 			{"text":"I could use some help over here!"},
-			{"text":"Need some extra hands!"}
+			{"text":"I could use some extra firepower!"}
 		],
 		"pursuing":[
 			{"text":"Pursuing target."},
@@ -49,22 +49,22 @@
 		],
 		"hull_90":[
 			{"text":"Damage sustained. Pressure Hull remains stable."},
-			{"text":"Hull impact, damage control systems check."},
+			{"text":"Hull impact! damage control, systems check."},
 			{"text":"Taking fire, damage report."}
 		],
 		"hull_50":[
 			{"text":"Pressure Hull has been breached!"},
-			{"text":"Damage control, fire, fire, fire."},
-			{"text":"Switching condition to material ZEBRA"}
+			{"text":"Damage Control, fire, fire, fire!"},
+			{"text":"All unnecessary personnel proceed to damage control."}
 		],
 		"hull_30":[
 			{"text":"My hull's down to 30%!"},
 			{"text":"Pressure hull critical!"},
-			{"text":"Pressure hull is buckling, prepare the skiffs!"},
+			{"text":"Pressure hull is buckling, unnecessary personnel prepare skiffs!"},
 			#{"text":"Breach in starboard fusion chamber!"}
 		],
 		"overload":[
-			{"text":"Power Grid offline!"},
+			{"text":"Fusion reactor offline!"},
 			{"text":"Ship overloaded, requesting cover!"}
 		],
 		"death":[

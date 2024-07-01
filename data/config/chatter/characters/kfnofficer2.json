@@ -8,7 +8,7 @@
 	
 	"lines":{
 		"start":[
-			{"text":"General Quarters, action stations!"},
+			{"text":"General Quarters, General Quarters, all hands man your action stations!"},
 			{"text":"PDCs locked and loaded."},
 			{"text":"Rig ship for flank speed."},
 			{"text":"Entering zone of operations."},
@@ -54,8 +54,8 @@
 		"hull_50":[
 			{"text":"Pressure hull breached!"},
 			{"text":"Fire in the bridge!"},
-			{"text":"Switching condition to material ZEBRA"},
-			{"text":"Main hull lost pressure."},
+			{"text":"Reporting critical casualties among the crew!"},
+			{"text":"Main pressure hull venting atmosphere!"},
 			{"text":"Critical systems damaged!"}
 		],
 		"hull_30":[
