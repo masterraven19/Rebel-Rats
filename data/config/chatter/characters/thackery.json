@@ -1,0 +1,87 @@
+{
+	"name":"Himichi Thackery",
+	"personalities":["steady","cautious"],
+	"gender":["f","n"],
+	"chance":0.5,
+	"talkativeness":1,
+	"categoryTags":["rebelratters"],
+	
+	"lines":{
+		"start":[
+			{"text":"General Quarters, General Quarters, all hands man your action stations."},
+			{"text":"PDCs locked and loaded."},
+			{"text":"General Quarters, rig ship for astrocombat."},
+			{"text":"Thackery reporting, awaiting your orders."},
+			{"text":"Awaiting for combat orders."}
+		],
+		"start_boss":[
+			{"text":"H- Helmsman, rig ship for flank speed."},
+			{"text":"Th- this isn't good..."}
+		],		
+		"retreat":[
+			{"text":"Helmsman, rig ship for emergency war power, we're out."},
+			{"text":"Battle's lost, Thackery out."}
+		],
+		"out_of_missiles":[
+			{"text":"Missiles expended."},
+			{"text":"Missiles depleted."}
+		],
+		"engaged":[
+			{"text":"Target confirmed, Thackery engaging."},
+			{"text":"Gunner, I want that ship foundered"},
+			{"text":"HAVE AT THEE!"},
+			{"text":"Thackery reporting, engaging hostiles."},
+			{"text":"Rip and tear!"}
+		],
+		"need_help":[
+			{"text":"Need some help."},
+			{"text":"Thackery requesting assistance, situation is not in our favor."}
+		],
+		"pursuing":[
+			{"text":"Start praying, pests!"},
+			{"text":"Contact, Thackery moving to intercept point."},
+			{"text":"Helmsman, plot to intercept."}
+		],
+		"running":[
+			{"text":"Hmm, Helmsman, keep our distance."},
+			{"text":"This is unfortunate, Thackery disengaging."},
+			{"text":"We're out, pressure is too high"}
+		],
+		"hull_90":[
+			{"text":"That's quite rude."},
+			{"text":"This is the Persean's finest?"},
+			{"text":"That's not how you would treat a lady."}
+		],
+		"hull_50":[
+			{"text":"That all you got?"},
+			{"text":"Fire in the bridge!"},
+			{"text":"Can someone please plug that hole."},
+			{"text":"Main pressure hull venting atmosphere."},
+			{"text":"Critical systems damaged!"}
+		],
+		"hull_30":[
+			{"text":"General Quarters, all unnecessary crew are to prepare lifeboats."},
+			{"text":"This isn't good."},
+			{"text":"What do you mean the Helmsman's been vented?"},
+			{"text":"Reactor's failing, Damage Control, stabilize it!"},
+			#{"text":"Breach in starboard fusion chamber!"}
+		],
+		"overload":[
+			{"text":"Engine's dead, Thackery requesting cover.},
+			{"text":"Engine's dead, get it back up and running.},
+			{"text":"We're dead in the void, Thackery requesting assistance."}
+		],
+		"death":[
+			{"text":"Thackery signing out."},
+			{"text":"All these dreams and aspirations for nothing."},
+			{"text":"Why did I choose to struggle."},
+			{"text":"I still couldn't do it."}
+		],
+		"victory":[
+			{"text":"All in a day's work."},
+			{"text":"Area secured, begin crew recovery procedures."},
+			{"text":"Let's go! another day, another victory."},
+			{"text":"Hah ha! serves them right."}
+		],
+	}
+}

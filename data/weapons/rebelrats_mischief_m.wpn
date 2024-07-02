@@ -46,5 +46,5 @@
     PROJECTILE_NO_FF,
     PROJECTILE_FIGHTER
   ],
-  "fireSoundOne": "petard_firing"
+  "fireSoundOne": "mischief_firing"
 }

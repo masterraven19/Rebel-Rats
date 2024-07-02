@@ -6,10 +6,10 @@
     ],
     "equalizer_firing":
     [
-    {"file":"sounds/equalizer_firing3.ogg", "pitch":1.00, "volume":1},
-    {"file":"sounds/equalizer_firing4.ogg", "pitch":1.00, "volume":1},
-    {"file":"sounds/equalizer_firing5.ogg", "pitch":1.00, "volume":1},
-    {"file":"sounds/equalizer_firing6.ogg", "pitch":1.00, "volume":1},
+    {"file":"sounds/equalizer_firing3.ogg", "pitch":1.00, "volume":1.2},
+    {"file":"sounds/equalizer_firing4.ogg", "pitch":1.00, "volume":1.2},
+    {"file":"sounds/equalizer_firing5.ogg", "pitch":1.00, "volume":1.2},
+    {"file":"sounds/equalizer_firing6.ogg", "pitch":1.00, "volume":1.2},
     ],
     "doldrums_firing":
     [
@@ -68,6 +68,9 @@
     ],
     "kingmaker_charging": [
         {"file":"sounds/kingmaker_charging.ogg","pitch":1.00,"volume":1},
+    ],
+    "mischief_firing": [
+        {"file":"sounds/mischief_firing.ogg","pitch":1.00,"volume":1},
     ],
     "rebelrats_engine_loop":{
         "sounds":[
