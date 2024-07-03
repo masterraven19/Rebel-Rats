@@ -25,6 +25,8 @@ public class rebelrats_mischiefBeamEffect implements EveryFrameWeaponEffectPlugi
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
         if(engine.isPaused())return;
         if(engine.getMissiles().isEmpty())return;
+        if(weapon.getShip() == null)return;
+        if(!weapon.getShip().isAlive())return;
         if(weapon.getShip().getFluxTracker().isOverloadedOrVenting())return;
         if(weapon.getShip().getCurrFlux() >= weapon.getShip().getFluxTracker().getMaxFlux() - fluxPerShot * 10)return;
         if(!weapon.getShip().getWeaponGroupFor(weapon).isAutofiring())return;

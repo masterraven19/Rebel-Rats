@@ -2,7 +2,6 @@
   <artifact type="jar" name="Create .jar">
     <output-path>$PROJECT_DIR$/jars</output-path>
     <root id="archive" name="rebelrats.jar">
-      <element id="module-output" name="fat rat mod" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/rebelratsgen.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/rebelratsplugin.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/systems/rebelrats_dragonsblessing/dragons_gen.java" />
@@ -46,6 +45,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_poacherOnHitEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_amosBeamEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_mischiefBeamEffect.java" />
+      <element id="module-output" name="Rebel-Rats" />
     </root>
   </artifact>
 </component>

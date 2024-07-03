@@ -7,17 +7,17 @@ ASG-203 Drummer Heavy Railgun,rebelrats_drummer_l,2,,6000,1000,,625,50,200,5,20,
 Mangonel Plasma Launcher,rebelrats_mangonel_l,2,,8000,900,,400,,100,8,24,9,0.5,1,ENERGY,480,,0,0.5,2,0.25,0,18,3,5,,1200,,,,,,STRIKE,"energy14, rebelrats_arsenal_bp",,The Three Brothers Corporation,,General,,,Slow,Poor,,,,,,
 Nezulana Assault Railgun,rebelrats_nezulana_l,2,,8000,1200,,500,,200,6,25,,,,KINETIC,700,,0,4.5,4,0.5,0,5,1,5,,1100,,,400,,,STRIKE,"kinetic14, rebelrats_arsenal_bp",,Arms & Armor,,Anti-Shield,,,Slow,Excellent,,,,,,
 AHG-308 Tripubus Saker,rebelrats_tripubus_l,1,,8000,900,,400,,100,5,18,,,,HIGH_EXPLOSIVE,360,,0,5,1,,0,10,3,10,,700,,,40,,,STRIKE,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Slow,Good,,,,,,
-ACG-210 Spinal Doldrums,rebelrats_babydoldrumspine_l,,,0,1100,,1200,100,300,60,0,,,,KINETIC,1200,,1.5,8.5,1,,0,6,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Cruiser,,,,,"On perforation, deals %s armor damage and 100 frag damage per explosion
+ACG-210 Spinal Doldrums,rebelrats_babydoldrumspine_l,,,0,1100,,1200,100,300,60,0,,,,KINETIC,1200,,1.5,8.5,1,,0,6,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Cruiser,,,,,"On perforation, deals %s armor damage and 100 frag damage per explosion
 Has a chance to trigger the shaped charge when hitting shields",100,,,,
-ACG-210 Goedendag Assault Railgun,rebelrats_goedendag_l,,,0,1100,,1200,100,300,60,0,,,,KINETIC,1200,,2.5,17.5,3,1.5,0,6,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,,,"On perforation, deals %s armor damage and 100 frag damage per explosion
+ACG-210 Goedendag Assault Railgun,rebelrats_goedendag_l,,,0,1100,,1200,100,300,60,0,,,,KINETIC,1200,,2.5,17.5,3,1.5,0,6,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,,,"On perforation, deals %s armor damage and 100 frag damage per explosion
 Has a chance to trigger the shaped charge when hitting shields",100,,,,
-ACG-380 Doldrums Superheavy Railgun,rebelrats_doldrums_l,,,0,1200,,3600,300,500,10,0,,,,ENERGY,3600,,2.5,27.5,1,,0,4,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,Very Slow,Excellent,"On perforation, deals %s armor damage and 100 frag damage per explosion
+ACG-380 Doldrums Superheavy Railgun,rebelrats_doldrums_l,,,0,1200,,3600,300,500,10,0,,,,ENERGY,3600,,2.5,27.5,1,,0,4,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,Very Slow,Excellent,"On perforation, deals %s armor damage and 100 frag damage per explosion
 Has a chance to trigger the shaped charge when hitting shields",100,,,,
-ACG-450 Kingmaker Titan Railgun,rebelrats_kingmaker_l,,,0,1300,,4000,400,700,10,0,,,,ENERGY,4000,,3.5,27.5,1,,0,4,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic14, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,Very Slow,Excellent,"On perforation, deals %s armor damage and 100 frag damage per explosion
+ACG-450 Kingmaker Titan Railgun,rebelrats_kingmaker_l,,,0,1300,,4000,400,700,10,0,,,,ENERGY,4000,,3.5,27.5,1,,0,4,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,Very Slow,Excellent,"On perforation, deals %s armor damage and 100 frag damage per explosion
 Has a chance to trigger the shaped charge when hitting shields
 Ricochets against shields at high hit angles unless within 600 range",100,,,,
-Huntsman Torpedo Salvo Launcher,rebelrats_salvo_autoloader,,,0,2500,,1000,,50,15,0,15,0.03,3,HIGH_EXPLOSIVE,,,0,6.5,3,0.5,0,0,0,0,,500,200,6,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
-Huntsman Side Salvo Launcher,rebelrats_huntsman_sidelauncher,,,0,2500,,1000,,50,15,0,15,0.03,3,HIGH_EXPLOSIVE,,,0.8,6.5,3,0.5,0,0,0,0,,500,300,6,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
+Huntsman Torpedo Salvo Launcher,rebelrats_salvo_autoloader,,,0,2500,,1000,,50,15,0,15,0.03,3,HIGH_EXPLOSIVE,,,0,6.5,3,0.5,0,0,0,0,,500,200,6,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
+Huntsman Side Salvo Launcher,rebelrats_huntsman_sidelauncher,,,0,2500,,1000,,50,15,0,15,0.03,3,HIGH_EXPLOSIVE,,,0.8,6.5,3,0.5,0,0,0,0,,500,300,6,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AHG-203 Siege Harquebus,rebelrats_siegeharq_m,1,,1100,800,,360,,12,10,12,,,,HIGH_EXPLOSIVE,324,,0,2,1,,0,12,8,12,,700,,,40,,,,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Fast,Excellent,,,,,,
 ASG-120 Crossbow,rebelrats_crossbow_m,1,,1100,800,,100,,10,10,10,,,,KINETIC,100,,0,1,1,,0,14,2,10,,800,,,30,,,,"kinetic14, rebelrats_arsenal_bp",,Arms & Armor,,Anti-Shield,,,Fast,Medium,,,,,,
@@ -43,7 +43,7 @@ Gyrojet Launchers,rebelrats_gyrolauncher_m,,,0,1500,,700,,50,0,0,,,,HIGH_EXPLOSI
 
 Can be shot down by heavy PD",,,,,
 Pyroclast Tube Launcher,rebelrats_jerboa_pyroclast_launcher,,,0,1200,,1800,,80,20,0,6,0.008333,2,HIGH_EXPLOSIVE,,,0,8,2,0.5,0,0,0,0,,400,200,5,650,,,"SYSTEM, DIRECT_AIM, USE_VS_FRIGATES, GUIDED_POOR","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Heavy Torpedo,Fast,Medium,,,Secondary anti-matter charge inflicts additional %s fragmentation on hit,1200,,,TRUE,
-Mischief Phase Array PD,rebelrats_mischief_m,,,0,450,25,,,1,100,0,,,,ENERGY,,70,0,0,0.1,0.15,,,,,100000,,,,,,,"SYSTEM, PD_ONLY","no_sell, no_drop, no_drop_salvage",,The Three Brothers Corporation,,Area Point Defense,,,Very Fast,Excellent,"Deals %s per target
+Mischief Phase Array PD,rebelrats_mischief_m,,,0,450,25,,,1,100,0,,,,ENERGY,,70,0,0,0.05,0.2,,,,,100000,,,,,,,"SYSTEM, PD_ONLY","no_sell, no_drop, no_drop_salvage",,The Three Brothers Corporation,,Area Point Defense,,,Very Fast,Excellent,"Deals %s per target
 Can be turned off by disabling autofire
 Each target engaged raises its flux/s use by 10",20 damage per burst,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -68,24 +68,24 @@ Amos Hacking Laser,rebelrats_amos_s,0,,400,450,20,,350,12,100,5,,,,ENERGY,,40,0.
 Does not autotarget fighters or ships",,,,,
 Poubelle Torpedo,rebelrats_poubelle,,,0,1600,,6000,,80,20,3,1,0.004166,1,FRAGMENTATION,,,0,60,1,,0,0,0,0,,800,50,3,350,,,"SYSTEM, STRIKE, DIRECT_AIM, USE_VS_FRIGATES, DO_NOT_CONSERVE, GUIDED_POOR","no_sell, no_drop, no_drop_salvage",,Belters,,Armored Torpedo,Very Fast,Poor,,,Ejects to the side with explosive bolts,,,,TRUE,
 Rattus Huntsman Torpedo Launcher,rebelrats_rattus_torp,,,0,2000,,1000,,50,15,0,6,0.05,1,HIGH_EXPLOSIVE,,,0,1,1,,0,0,0,0,,500,200,5,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
-# guards,rebelrats_guardsman,,,0,400,,28,,1,100,0,,,,KINETIC,0,,0,.15,1,,0,2,0.5,15,,900,,,5,,,"SYSTEM, PD, NO_TURN_RATE_BOOST_WHEN_IDLE","pd7, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
+# guards,rebelrats_guardsman,,,0,400,,28,,1,100,0,,,,KINETIC,0,,0,.15,1,,0,2,0.5,15,,900,,,5,,,"SYSTEM, PD, NO_TURN_RATE_BOOST_WHEN_IDLE","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #FIGHTER WEAPONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Mini Huntsman Torpedo,rebelrats_huntsman_f,,,0,1000,,600,,80,15,0,1,0.0001,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,450,100,3,150,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
+Mini Huntsman Torpedo,rebelrats_huntsman_f,,,0,1000,,600,,80,15,0,1,0.0001,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,450,100,3,150,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 Hwacha SRM x3,rebelrats_hwacha_f,,,0,800,,50,,5,15,0,6,,,HIGH_EXPLOSIVE,0,,0,5,3,0.5,0,0,0,0,,400,150,3,50,,,"SYSTEM, ANTI_FTR, DO_NOT_CONSERVE, DO_NOT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Fighter,Medium,High,,,"Uses proximity warheads to maximize hit probability.
 
 Each shrapnel piece deals %s damage",30,,,TRUE,
-AFG-40 Ranger (f),rebelrats_ranger_f,,,0,400,,18,,1,75,0,,,,KINETIC,0,,0,.3,1,,0,4,1,15,,1300,,,10,,,"SYSTEM, PD","pd7, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
-AFG-20(2) Guardsman,rebelrats_guardsman_f,,,0,400,,25,,1,100,0,,,,KINETIC,0,,0,.15,1,,0,2,0.5,15,,900,,,5,,,"SYSTEM, PD, NO_TURN_RATE_BOOST_WHEN_IDLE","pd7, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
-Vaybchek Plasma Howitzer,rebelrats_vaybchek,,,0,600,,300,,20,15,0,2,,,ENERGY,0,,0,3,1,,0,0,0,0,,700,,,40,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","he6, no_sell, no_drop, no_drop_salvage",,Pirate,,Strike,,,,,,,,,,
-Pyroclast Torpedo Bay,rebelrats_pyroclast_f,,,0,800,,1000,,75,20,0,1,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,0,0,0,,800,100,2,300,,,"SYSTEM, STRIKE, DIRECT_AIM, USE_VS_FRIGATES","strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Torpedo,Fast,Unguided,,,Secondary anti-matter charge inflicts additional %s fragmentation on hit,1200,,,TRUE,
-Felis LAWS,rebelrats_felis,,,0,700,500,,,30,100,0,,,,ENERGY,,500,0,.2,0.2,,,,,,100000,,,,,,,"SYSTEM, PD, ANTI_FTR","pd9, beam6, no_sell, no_drop, no_drop_salvage",,The Three Brothers Corporation,,Point Defense,,,Very Fast,Excellent,,,,,,
+AFG-40 Ranger (f),rebelrats_ranger_f,,,0,400,,18,,1,75,0,,,,KINETIC,0,,0,.3,1,,0,4,1,15,,1300,,,10,,,"SYSTEM, PD","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
+AFG-20(2) Guardsman,rebelrats_guardsman_f,,,0,400,,25,,1,100,0,,,,KINETIC,0,,0,.15,1,,0,2,0.5,15,,900,,,5,,,"SYSTEM, PD, NO_TURN_RATE_BOOST_WHEN_IDLE","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
+Vaybchek Plasma Howitzer,rebelrats_vaybchek,,,0,600,,300,,20,15,0,2,,,ENERGY,0,,0,3,1,,0,0,0,0,,700,,,40,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Pirate,,Strike,,,,,,,,,,
+Pyroclast Torpedo Bay,rebelrats_pyroclast_f,,,0,800,,1000,,75,20,0,1,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,0,0,0,,800,100,2,300,,,"SYSTEM, STRIKE, DIRECT_AIM, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Torpedo,Fast,Unguided,,,Secondary anti-matter charge inflicts additional %s fragmentation on hit,1200,,,TRUE,
+Felis LAWS,rebelrats_felis,,,0,700,500,,,30,100,0,,,,ENERGY,,500,0,.2,0.2,,,,,,100000,,,,,,,"SYSTEM, PD, ANTI_FTR","no_sell, no_drop, no_drop_salvage",,The Three Brothers Corporation,,Point Defense,,,Very Fast,Excellent,,,,,,
 Ashford LAWS (f),rebelrats_ashford_f,,,0,400,400,,30,5,100,0,1,.5,1,FRAGMENTATION,,,0,.1,.5,,,,,,100000,,,,,,,"SYSTEM, PD","no_sell, no_drop, no_drop_salvage",,The Three Brothers Corporation,,Point Defense,,,Very Fast,Perfect,,,,,,
 Wing-mounted Falcon,rebelrats_falcon_f,,,0,1000,,1000,,40,15,0,1,0.0001,,FRAGMENTATION,0,,0,4.5,1,,0,0,0,0,,400,100,6,150,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Shield,Medium,Medium,,,"Specialized flechettes have been tailored to cause extra damage(%s) to shields
 
 Warhead size reduced due to fighter restrictions",300,,,TRUE,
 AHG-20 Chaingun,rebelrats_chaingun_f,,,0,400,,15,,1,75,0,,,,HIGH_EXPLOSIVE,0,,0,1.5,6,0.05,0,0,0,0,,800,,,10,,,"SYSTEM, PD","no_sell, no_drop, no_drop_salvage",,Arms & Armor,,Anti-Armor,,,Very Fast,Excellent,,,,,,
-Tephra Kinetic Rocket,rebelrats_tephra_f,,,0,800,,600,50,40,15,0,1,,,KINETIC,0,,0,1,1,,0,0,0,0,,600,0,2,200,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Shield Rocket,Very Fast,Unguided,,,,,,,TRUE,
+Tephra Kinetic Rocket,rebelrats_tephra_f,,,0,800,,600,50,40,15,0,1,,,KINETIC,0,,0,1,1,,0,0,0,0,,600,0,2,200,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Shield Rocket,Very Fast,Unguided,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #SPECIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ACG-380 Kingmaker (Post-hit),rebelrats_kingmaker_munition,,,0,800,,4000,,300,5,0,,,,FRAGMENTATION,0,,2.5,27.5,1,,0,4,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,,,"What remains of the Kingmaker's rod after penetrating a ship, on hit explodes into frag dealing %s damage",80,,,,

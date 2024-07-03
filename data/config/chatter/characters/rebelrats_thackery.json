@@ -67,8 +67,8 @@
 			#{"text":"Breach in starboard fusion chamber!"}
 		],
 		"overload":[
-			{"text":"Engine's dead, Thackery requesting cover.},
-			{"text":"Engine's dead, get it back up and running.},
+			{"text":"Engine's dead, Thackery requesting cover."},
+			{"text":"Engine's dead, get it back up and running."},
 			{"text":"We're dead in the void, Thackery requesting assistance."}
 		],
 		"death":[
