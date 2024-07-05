@@ -2,6 +2,7 @@
 	"posts":{
 		#"factionLeader":{"name":"High Commander"},
 		"rebelrats_FRO":{"name":"Foreign Relations Chief Officer"},
+		"rebelrats_Officer":{"name":"Krysan Officer"},
 	},
 }
 

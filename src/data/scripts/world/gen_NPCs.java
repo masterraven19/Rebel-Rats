@@ -1,18 +1,17 @@
-package data.scripts.world.systems.rebelrats_dragonsblessing;
+package data.scripts.world;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.PersonImportance;
-import com.fs.starfarer.api.campaign.PlanetAPI;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.characters.FullName;
 import com.fs.starfarer.api.characters.ImportantPeopleAPI;
 import com.fs.starfarer.api.characters.PersonAPI;
-import com.fs.starfarer.api.impl.campaign.ids.People;
 import com.fs.starfarer.api.impl.campaign.ids.Ranks;
+import com.fs.starfarer.api.impl.campaign.ids.Skills;
 import com.fs.starfarer.api.impl.campaign.ids.Tags;
 
 public class gen_NPCs {
-    public static void Administrator_Example(MarketAPI market){//finally works,
+    public void generate_FRO(MarketAPI market){
         PersonAPI p = Global.getFactory().createPerson();
         FullName name = new FullName("Nazarin","Dess", FullName.Gender.FEMALE);
         p.setName(name);
@@ -28,12 +27,29 @@ public class gen_NPCs {
         market.getCommDirectory().addPerson(p,0);
         market.addPerson(p);
 
+        //ImportantPeopleAPI ip = Global.getSector().getImportantPeople();
+        //ip.addPerson(p);
+
+        //People.assignPost(market,post,p);
+    }
+    public void generate_Thackery(MarketAPI market){
+        PersonAPI p = Global.getFactory().createPerson();
+        FullName name = new FullName("Himichi","Thackery", FullName.Gender.FEMALE);
+        p.setName(name);
+        p.setPortraitSprite(Global.getSettings().getSpriteName("characters", "rebelrats_nazarin"));
+        p.setId("rebelrats_thackery");
+        p.setFaction("rebelrats");
+        String post = "rebelrats_Officer";
+        p.setRankId(Ranks.SPACE_CAPTAIN);
+        p.setPostId(post);
+        p.getStats().setLevel(5);
+        p.getStats().setSkillLevel(Skills.SYSTEMS_EXPERTISE,2F);
+        p.getStats().setSkillLevel(Skills.HELMSMANSHIP,2F);
+
         ImportantPeopleAPI ip = Global.getSector().getImportantPeople();
         ip.addPerson(p);
-        People.assignPost(market,post,p);
+        market.getCommDirectory().addPerson(p);
+        market.addPerson(p);
 
-    }
-    public static void generateNPCS(PlanetAPI planet, MarketAPI market){
-        Administrator_Example(market);
     }
 }

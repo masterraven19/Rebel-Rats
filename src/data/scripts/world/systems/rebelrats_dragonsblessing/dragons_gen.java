@@ -366,7 +366,9 @@ public class dragons_gen {
         outerstation_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         globalEconomy.addMarket(outerstation_market,false);
         //persons
-        gen_NPCs.generateNPCS(rattus,rattus_market);
+        //gen_NPCs.generate_FRO(rattus_market);
+        //gen_NPCs.generate_Thackery(rattus_market);
+        //moved to onNewGameAfterEconomyLoad()
         //jumpoints
         JumpPointAPI jump1 = Global.getFactory().createJumpPoint("lower_jaw",
                 "Dragon's Lower Jaw");
