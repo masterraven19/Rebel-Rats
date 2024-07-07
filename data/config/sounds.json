@@ -6,10 +6,10 @@
     ],
     "equalizer_firing":
     [
-    {"file":"sounds/equalizer_firing3.ogg", "pitch":1.00, "volume":1.2},
-    {"file":"sounds/equalizer_firing4.ogg", "pitch":1.00, "volume":1.2},
-    {"file":"sounds/equalizer_firing5.ogg", "pitch":1.00, "volume":1.2},
-    {"file":"sounds/equalizer_firing6.ogg", "pitch":1.00, "volume":1.2},
+    {"file":"sounds/equalizer_firing3.ogg", "pitch":1.00, "volume":1.5},
+    {"file":"sounds/equalizer_firing4.ogg", "pitch":1.00, "volume":1.5},
+    {"file":"sounds/equalizer_firing5.ogg", "pitch":1.00, "volume":1.5},
+    {"file":"sounds/equalizer_firing6.ogg", "pitch":1.00, "volume":1.5},
     ],
     "doldrums_firing":
     [

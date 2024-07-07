@@ -3,10 +3,12 @@
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{
 			"rebelrats_mus_Balanced":10,
+			"rebelrats_patron_Balanced":6,
 	},
 	"combatSmall":{
 			"rebelrats_mus_Balanced":10,
 			"rebelrats_patron_Balanced":10,
+			"rebelrats_musrattus_Balanced":4,
 	},
 	"combatMedium":{
 			"rebelrats_rattus_Balanced":10,
@@ -23,6 +25,8 @@
 			"rebelrats_matkaboska_Lancer":7,
 			"rebelrats_matkaboska_outdated":8,
 			"rebelrats_steersman_Balanced":7,
+			"rebelrats_jerboa_Standard":7,
+			"rebelrats_jerboa_Roseblight":7,
 	},
 	"combatCapital":{
 			"rebelrats_porcellus_Balanced":8,
@@ -57,7 +61,7 @@
 			"rebelrats_marmot_Balanced":8,
 			"rebelrats_marmot_Hardliner":6,
 			"rebelrats_marmot_Outdated":7,
-},
+	},
 	"carrierLarge":{
 
 	},
@@ -70,7 +74,7 @@
 
 	},
 	"phaseLarge":{
-			"rebelrats_jerboa_Standard":10,
+
 	},
 	"phaseCapital":{
 	},
@@ -88,8 +92,7 @@
 	},
 	
 	"tankerSmall":{
-            
-		
+            		"rebelrats_rott_Balanced":10,
 	},
 	"tankerMedium":{
 		

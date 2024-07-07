@@ -1,0 +1,21 @@
+{
+	"baseHullId":"rebelrats_jerboa",
+	"skinHullId":"rebelrats_jerboa_roseblight",
+	"hullName":"Jerboa (RB)",
+	"incompatibleWithBaseHull":false, # for the autofit dialog
+	"descriptionId":"rebelrats_jerboa",
+	"descriptionPrefix":"A Jerboa that had been modified to meet the procurement specifications of Roseblight Industries.to meet the needs of the Kiatseun Ascendency. It boasts improved flux management software and in-house created Roseblight fire control systems.",
+	"tags":["rebelrats_hull_bp"],
+	"tech":"Roseblight Industries",
+	"fleetPoints":18,
+	"ordnancePoints":155,
+	"baseValueMult":1.25,
+	"spriteName":"graphics/ships/jerboa/Jerboa_Stealth_Cruiser_Roseblight.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+     },
+}

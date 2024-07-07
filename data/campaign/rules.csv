@@ -20,14 +20,15 @@ rebelrats_powerstation_Leave,DialogOptionSelected,$option == rebelrats_powerstat
 ,,,,,,
 # Dialogues,,,,,,
 rebelrats_nazarDialogues,PopulateOptions,"$isPerson
-$id == rebelrats_nazarin",,"(This is placeholder stuff)
+$id == rebelrats_nazarin",,"
+==>Start<==
 
 What should have been a typical meeting turned into a peculiarity. Instead of a normal holo, you are greeted by an image of a shoddily drawn character with rodent ears. The image would light up whenever she spoke.
 
-""Greetings, starfarer! I am Foreign Relations Officer, Nazarin Dess. How may I help you?""","rebelrats_nazar_aboutKrysa:""Can I ask something about Krysa?""
+""Welcome, starfarer! I am your assigned Foreign Relations Officer, Nazarin Dess. How may I help you?""","rebelrats_nazar_aboutKrysa:""Can I ask something about Krysa?""
 rebelrats_nazar_aboutRats:""Why are you a picture?""
 rebelrats_nazar_cheese:""Do you like cheese?""
-rebelrats_nazar_escortOpt:""I'm kinda looking for awesome officers does krysa have some?""",
+rebelrats_nazar_escortOpt:""I'm looking to hire some muscle, you have some available for hire?""",
 rebelrats_nazar_aboutKrysa,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysa,,"One can almost imagine the ears of the shoddily drawn rat perking up in anticipated silence after hearing the question. A subtle clink of a cup in the background can be heard as the image lit up again as the person spoke.
 
 ""Hoh... What may be of your interest with Krysa starfarer. May it be history, or our culture and what's its?""
@@ -68,41 +69,55 @@ Despite a slight pause, she continued talking before you were able to ask a foll
 ,,,,,,
 rebelrats_nazar_aboutRats,DialogOptionSelected,$option == rebelrats_nazar_aboutRats,,"""Oh! Ehehehe, it is a drawing of my own. My superiors told me that it adds character.""
 
-Her response was immediate, as if planned. While it wasn't uncommon to find an oddball pirate to run with an unconventional look, it is odder to find one being used by a Foreign Relations Officer.","rebelrats_nazar_aboutRats2:""Right, it gives character.""",
+Her response was immediate, as if planned. While it wasn't uncommon to find an oddball pirate to run with an unconventional look, it is odder to find one being used by a Foreign Relations Officer.","rebelrats_nazar_aboutRats2:""Right, it adds character.""",
 rebelrats_nazar_aboutRats2,DialogOptionSelected,$option == rebelrats_nazar_aboutRats2,FireAll PopulateOptions,"""Oh hoh, I can hear the doubt in your voice, but I assure you that the children love it and I make sure that other officers take the same approach.""",,
 ,,,,,,
-rebelrats_nazar_cheese,DialogOptionSelected,$option == rebelrats_nazar_cheese,FireAll PopulateOptions,"Almost on queue, ruffling of plastic can be heard through the audio, followed by the familiar sound of nibbling.
+rebelrats_nazar_cheese,DialogOptionSelected,$option == rebelrats_nazar_cheese,FireAll PopulateOptions,"Almost on queue, ruffling of plastic can be heard through the audio, followed by the familiar sound of nibbling followed by the familiar crumpling of a bag.
 
 ""Yes, and my favorite is Cheddar. It is always a sign of a Gouda day!""",,
 ,,,,,,
-rebelrats_nazar_escortOpt,DialogOptionSelected,$option == rebelrats_nazar_escortOpt,"SetTextHighlights ""50,000""
-DoCanAffordCheck 50000 rebelrats_nazar_buyEscortCredit false
-SetStoryOption rebelrats_nazar_storyPointEscort general ""What does this text mean""","""Ahhh you're looking for a special one are you? This one will cost you soo much like 50,000. This officer has blah balh""","rebelrats_nazar_buyEscortCredit:""Easily affordable for the skills they provide.""
-rebelrats_nazar_useRelEscort:""I think I've done a lot for Krysa.""
-rebelrats_nazar_storyPointEscort:""I think im pro.""
-rebelrats_nazar_declineEscort:""I've changed my mind.""",
+rebelrats_nazar_escortOpt,DialogOptionSelected,"$option == rebelrats_nazar_escortOpt
+$faction.relValue < 0.3",FireAll PopulateOptions,"""Sorry, I am not permitted to sell our services to would be strangers, perhaps bettering yourself is your option for now.""",,
+rebelrats_nazar_escortOptSuccess,DialogOptionSelected,"$option == rebelrats_nazar_escortOpt
+$faction.relValue >= 0.3","DoCanAffordCheck 50000 rebelrats_nazar_buyEscortCredit false
+SetStoryOption rebelrats_nazar_storyPointEscort general ""What does this text mean""","""Hoh? Interesting. Would you like to be patched to a general selection, or might you be interested in our curated list for something more specific? Although! Keep in mind you'll need to be in good terms with us for the good stuff.""","rebelrats_nazar_buyEscortCredit:""Let me look at the general selection""
+rebelrats_nazar_useRelEscort:""Can I see that curated list? I do have something in mind.""
+rebelrats_nazar_storyPointEscort:""The Heavenly Gods on Rodentia already knows the answer!""
+rebelrats_nazar_declineEscort:""Nevermind, can I ask something else?""",
 rebelrats_nazar_denyEscortOpt,DialogOptionSelected,"$option == rebelrats_nazar_escortOpt
 $rebelrats_gotOfficer
-",FireAll PopulateOptions,"""We don't have anyone available.""",,
+",FireAll PopulateOptions,"""Ehe, unfortunately, we don't have anyone available.""
+
+One can almost imagine a shrug from the portrait as she quiets herself.",,
 rebelrats_nazar_buyEscortCredit,DialogOptionSelected,$option == rebelrats_nazar_buyEscortCredit,"RemoveCommodity credits 50000
 FireBest PopulateOptions
 rebelrats_hireOfficer rebelrats_thackery
-$rebelrats_gotOfficer = true","""money well spent ok bye""",,
-rebelrats_nazar_useRelEscort,DialogOptionSelected,$option == rebelrats_nazar_useRelEscort,FireAll rebelrats_nazarAppealResult,"""Oh? Are you really? Give me a moment to check your records.""",,
+$rebelrats_gotOfficer = true","""Excellent choice! Thackery will be joining you once you are ready to leave.""",,
+rebelrats_nazar_useRelEscort,DialogOptionSelected,$option == rebelrats_nazar_useRelEscort,FireAll rebelrats_nazarAppealResult,"""Curated list it is! First, background check if you're not some random riff raff. You aren't, right?""
+
+Clickety clack as she typed away from behind the screen as her microphone betrays her.",,
 rebelrats_nazar_useRelSuccess,rebelrats_nazarAppealResult,$faction.relValue >= 0.75,,,rebelrats_nazar_useRelSuccess2:Wait,
 rebelrats_nazar_useRelFail,rebelrats_nazarAppealResult,$faction.relValue < 0.75,,,rebelrats_nazar_useRelFailure:Wait,
 rebelrats_nazar_useRelSuccess2,DialogOptionSelected,$option == rebelrats_nazar_useRelSuccess2,"FireAll PopulateOptions
 rebelrats_hireOfficer rebelrats_thackery
-$rebelrats_gotOfficer = true","""You've done a lot! It's on the mouse for sure.""",,
-rebelrats_nazar_useRelFailure,DialogOptionSelected,$option == rebelrats_nazar_useRelFailure,FireAll PopulateOptions,"""Ahhh, it looks like you may have done some feats but they're not enough.""",,
+$rebelrats_gotOfficer = true","""Ah hah! Yes, you are indeed allowed to access our curated list.""
+
+A list on the screen unfurls to reveal names and icons of mercenaries and their prices. Seems like Krysans were not averse to the idea of selling their people's services to the Persean Sector, not that it was surprising as the practice was not uncommon especially with the League commonly selling their services.
+
+""Here's the curated list, I'm sure you'll be satisfied of the selection.""
+
+Your XO points to a particular one on the list, Himichi Thackery.",,
+rebelrats_nazar_useRelFailure,DialogOptionSelected,$option == rebelrats_nazar_useRelFailure,FireAll PopulateOptions,"""Ahh... Unfortunately, you have not been given permission to access the curated list.""",,
 rebelrats_nazar_storyPointEscort,DialogOptionSelected,$option == rebelrats_nazar_storyPointEscort,"FireAll PopulateOptions
 rebelrats_hireOfficer rebelrats_thackery
-$rebelrats_gotOfficer = true","""Hmmm I think you're right, I'll send you the mercenary over.""",,
-rebelrats_nazar_declineEscort,DialogOptionSelected,$option == rebelrats_nazar_declineEscort,FireAll PopulateOptions,"""okay then, you can ask any time""",,
+$rebelrats_gotOfficer = true","There was a comically long pause after having said that, as if the commlink had been cut off, yet only a snicker can be heard from the icon.
+
+""Hahaha! I like that attitude, Starfarer! I think I know who would fit your fleet, give me a moment.""",,
+rebelrats_nazar_declineEscort,DialogOptionSelected,$option == rebelrats_nazar_declineEscort,FireAll PopulateOptions,"""Mmh, sure. You can ask again any other time if you're in need, provided you have credits of course!""",,
 ,,,,,,
 # Commissioned Crews Effect,,,,,,
 rebelrats_comissioned,ExerelinNGCStep3,"$playerFaction == rebelrats
-!$rebelrats_changemind	","AddText ""Krysan Fervor: Krysan crews are renowned for their stalwart attitude towards battle, often making frequent field repairs whenever a lull occurs.""
+!$rebelrats_changemind	","AddText ""Krysan Fervor: Krysan crews are renowned for their stalwart attitude towards battle, often making field repairs whenever a lull occurs to stay in battle longer.""
 SetTextHighlights Krysan Fervor
 $rebelrats_changemind = true 0",,,
 #END Commissioned Crews Effect,,,,,,

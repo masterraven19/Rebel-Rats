@@ -34,6 +34,7 @@
 		                "rebelrats_marmot":5,
 		                "rebelrats_matkaboska":9,
 		                "rebelrats_jerboa":5,
+		                "rebelrats_jerboa_roseblight":9,
 
 		                #combat destroyer
 		                "rebelrats_rattus":7,
@@ -75,9 +76,10 @@
 		                "rebelrats_porcellus",
 
 		                #combat cruiser
-                        "rebelrats_marmot",
-                        "rebelrats_jerboa",
-                        "rebelrats_matkaboska",
+				"rebelrats_marmot",
+				"rebelrats_jerboa",
+				"rebelrats_matkaboska",
+				"rebelrats_jerboa_roseblight",
 
 		                #combat destroyer
 		                "rebelrats_rattus",

@@ -1,0 +1,19 @@
+{
+  "baseHullId": "rebelrats_jerboa",
+  "baseValue": 150000,
+  "baseValueMult": 1.2,
+  "descriptionId": "base_hull",
+  "descriptionPrefix": "Test Hull for Roseblight Industries",
+  "fighterBays": 0,
+  "fleetPoints": 18,
+  "fpMod": 0,
+  "hullDesignation": "CRUISER",
+  "hullName": "Jerboa (RB)",
+  "manufacturer": "",
+  "ordnancePoints": 155,
+  "restoreToBaseHull": false,
+  "skinHullId": "rebelrats_jerboa_roseblight",
+  "spriteName": "graphics/ships/jerboa/Jerboa_Stealth_Cruiser_Roseblight.png",
+  "systemId": "rebelrats_jerboaSystem",
+  "tech": "Roseblight Industries"
+}
