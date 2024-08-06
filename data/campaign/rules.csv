@@ -42,16 +42,14 @@ rebelrats_nazar_aboutKrysaoverview1,DialogOptionSelected,$option == rebelrats_na
 
 A brief pause lingered before she continued.
 
-""Still following me, Starfarer?""","rebelrats_nazar_aboutKrysaoverview2:Continue listening
-",
+""Still following me, Starfarer?""",rebelrats_nazar_aboutKrysaoverview2:Continue listening,
 rebelrats_nazar_aboutKrysaoverview2,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview2,,"An audible clunk was heard before the infographic switches to the next slide. It was more expansive, portraying what seems to be a map of Krysa's geography and key landmarks. Aside from that, a manual presentation in this day and age? It makes one wonder if the rest of the planet is like her, using archaic trinkets and doodads in their daily lives.
 
 ""The closest example of a planet I could compare to Krysa, if you may, is Gilead. The planet used to be barren believe it or not! It had been severely ravaged by past conflicts. Yet, with the will of the gods and the people's resolute determination, the planet was restored to the beauty it is today through the Ratze-Potkan Planet Rejuvenation Program.""
 
 Pausing for a moment, a flip of the page can be heard right before she continued to speak. Your group of officers show a mix of intrigue and a rising sense of boredom.
 
-""Today you can see some evidence of such catastrophic damage on your way down from orbit. One of such craters were as a result of an asteroid strike. The people have converted it into the Remembrance Park to stand as a reminder of those who fell fighting for Krysa. The nearby shuttle terminal can take you there directly.""","rebelrats_nazar_aboutKrysaoverview3:""Yeah...""
-",
+""Today you can see some evidence of such catastrophic damage on your way down from orbit. One of such craters were as a result of an asteroid strike. The people have converted it into the Remembrance Park to stand as a reminder of those who fell fighting for Krysa. The nearby shuttle terminal can take you there directly.""","rebelrats_nazar_aboutKrysaoverview3:""Yeah...""",
 rebelrats_nazar_aboutKrysaoverview3,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview3,FireAll PopulateOptions,"There were two clinks heard. The next slide was a list of the local bars, resorts, hotels, or local attractions.
 
 ""If I may, I can see that your crew are getting boorish  the best location to lounge in for a vacation here is, ideally, here at the starport where hotels and resorts are widely available. But, I would suggest taking a shuttle to the tip of the peninsula. The crowds are smaller there and the beaches are equally beautiful.""
@@ -79,40 +77,76 @@ rebelrats_nazar_cheese,DialogOptionSelected,$option == rebelrats_nazar_cheese,Fi
 rebelrats_nazar_escortOpt,DialogOptionSelected,"$option == rebelrats_nazar_escortOpt
 $faction.relValue < 0.3",FireAll PopulateOptions,"""Sorry, I am not permitted to sell our services to would be strangers, perhaps bettering yourself is your option for now.""",,
 rebelrats_nazar_escortOptSuccess,DialogOptionSelected,"$option == rebelrats_nazar_escortOpt
-$faction.relValue >= 0.3","DoCanAffordCheck 50000 rebelrats_nazar_buyEscortCredit false
-SetStoryOption rebelrats_nazar_storyPointEscort general ""What does this text mean""","""Hoh? Interesting. Would you like to be patched to a general selection, or might you be interested in our curated list for something more specific? Although! Keep in mind you'll need to be in good terms with us for the good stuff.""","rebelrats_nazar_buyEscortCredit:""Let me look at the general selection""
+$faction.relValue >= 0.3","SetStoryOption rebelrats_nazar_storyPointEscort general ""What does this text mean""
+rebelrats_doIsTrueCheck $rebelrats_gotOfficer rebelrats_nazar_storyPointEscort","""Hoh? Interesting. Would you like to be patched to a general selection, or might you be interested in our curated list for something more specific? Although! Keep in mind you'll need to be in good terms with us for the good stuff.""","rebelrats_nazar_buyEscortCredit:""Let me look at the general selection""
 rebelrats_nazar_useRelEscort:""Can I see that curated list? I do have something in mind.""
 rebelrats_nazar_storyPointEscort:""The Heavenly Gods on Rodentia already knows the answer!""
 rebelrats_nazar_declineEscort:""Nevermind, can I ask something else?""",
-rebelrats_nazar_denyEscortOpt,DialogOptionSelected,"$option == rebelrats_nazar_escortOpt
-$rebelrats_gotOfficer
-",FireAll PopulateOptions,"""Ehe, unfortunately, we don't have anyone available.""
+rebelrats_nazar_denyEscortOpt,DialogOptionSelected,"$option == rebelrats_nazar_buyEscortCredit
+$rebelrats_gotRocimar == true
+$rebelrats_gotRufodorsalis == true
+$rebelrats_gotMallomy == true
+$rebelrats_gotMurinae == true
+$rebelrats_gotMastomys == true",,"""Ehe, unfortunately, we don't have anyone available.""
 
-One can almost imagine a shrug from the portrait as she quiets herself.",,
-rebelrats_nazar_buyEscortCredit,DialogOptionSelected,$option == rebelrats_nazar_buyEscortCredit,"RemoveCommodity credits 50000
-FireBest PopulateOptions
-rebelrats_hireOfficer rebelrats_thackery
-$rebelrats_gotOfficer = true","""Excellent choice! Thackery will be joining you once you are ready to leave.""",,
+One can almost imagine a shrug from the portrait as she quiets herself.","rebelrats_nazar_escortOpt:""Unfortunate""",
+rebelrats_nazar_buyEscortCredit,DialogOptionSelected,$option == rebelrats_nazar_buyEscortCredit,"DoCanAffordCheck 75000 rebelrats_nazar_hireRocimar
+DoCanAffordCheck 100000 rebelrats_nazar_hireRufodorsalis
+DoCanAffordCheck 132000 rebelrats_nazar_hireMallomy
+DoCanAffordCheck 256000 rebelrats_nazar_hireMurinae
+DoCanAffordCheck 290000 rebelrats_nazar_hireMastomys
+rebelrats_doIsTrueCheck $rebelrats_gotRocimar rebelrats_nazar_hireRocimar
+rebelrats_doIsTrueCheck $rebelrats_gotRufodorsalis rebelrats_nazar_hireRufodorsalis
+rebelrats_doIsTrueCheck $rebelrats_gotMallomy rebelrats_nazar_hireMallomy
+rebelrats_doIsTrueCheck $rebelrats_gotMurinae rebelrats_nazar_hireMurinae
+rebelrats_doIsTrueCheck $rebelrats_gotMastomys rebelrats_nazar_hireMastomys","""Here's our general list!""","rebelrats_nazar_hireRocimar:Hire Rocimar Company
+rebelrats_nazar_hireRufodorsalis:Hire Rufodorsalis Air Arm
+rebelrats_nazar_hireMallomy:Hire Mallomy Free Movers
+rebelrats_nazar_hireMurinae:Hire Murinae Galloglass
+rebelrats_nazar_hireMastomys:Hire Mastomys Grand Company
+rebelrats_nazar_escortOpt: ""Nevermind""",
+rebelrats_nazar_hireRocimar,DialogOptionSelected,$option == rebelrats_nazar_hireRocimar,"RemoveCommodity credits 75000
+rebelrats_hireMercenary rocimar
+$rebelrats_gotRocimar = true","""Nice choice""","rebelrats_nazar_buyEscortCredit:Return to list
+rebelrats_nazar_escortOpt:""Can I ask for something else?""",
+rebelrats_nazar_hireRufodorsalis,DialogOptionSelected,$option == rebelrats_nazar_hireRufodorsalis,"RemoveCommodity credits 100000
+rebelrats_hireMercenary rufodorsalis
+$rebelrats_gotRufodorsalis = true","""Nice choice""","rebelrats_nazar_buyEscortCredit:Return to list
+rebelrats_nazar_escortOpt:""Can I ask for something else?""",
+rebelrats_nazar_hireMallomy,DialogOptionSelected,$option == rebelrats_nazar_hireMallomy,"RemoveCommodity credits 132000
+rebelrats_hireMercenary mallomy
+$rebelrats_gotMallomy = true","""Nice choice""","rebelrats_nazar_buyEscortCredit:Return to list
+rebelrats_nazar_escortOpt:""Can I ask for something else?""",
+rebelrats_nazar_hireMurinae,DialogOptionSelected,$option == rebelrats_nazar_hireMurinae,"RemoveCommodity credits 256000
+rebelrats_hireMercenary murinae
+$rebelrats_gotMurinae = true","""Nice choice""","rebelrats_nazar_buyEscortCredit:Return to list
+rebelrats_nazar_escortOpt:""Can I ask for something else?""",
+rebelrats_nazar_hireMastomys,DialogOptionSelected,$option == rebelrats_nazar_hireMastomys,"RemoveCommodity credits 290000
+rebelrats_hireMercenary mastomys
+$rebelrats_gotMastomys = true","""Nice choice""","rebelrats_nazar_buyEscortCredit:Return to list
+rebelrats_nazar_escortOpt:""Can I ask for something else?""",
 rebelrats_nazar_useRelEscort,DialogOptionSelected,$option == rebelrats_nazar_useRelEscort,FireAll rebelrats_nazarAppealResult,"""Curated list it is! First, background check if you're not some random riff raff. You aren't, right?""
 
 Clickety clack as she typed away from behind the screen as her microphone betrays her.",,
 rebelrats_nazar_useRelSuccess,rebelrats_nazarAppealResult,$faction.relValue >= 0.75,,,rebelrats_nazar_useRelSuccess2:Wait,
 rebelrats_nazar_useRelFail,rebelrats_nazarAppealResult,$faction.relValue < 0.75,,,rebelrats_nazar_useRelFailure:Wait,
-rebelrats_nazar_useRelSuccess2,DialogOptionSelected,$option == rebelrats_nazar_useRelSuccess2,"FireAll PopulateOptions
-rebelrats_hireOfficer rebelrats_thackery
-$rebelrats_gotOfficer = true","""Ah hah! Yes, you are indeed allowed to access our curated list.""
+rebelrats_nazar_useRelSuccess2,DialogOptionSelected,$option == rebelrats_nazar_useRelSuccess2,"DoCanAffordCheck 50000 rebelrats_nazar_hireThackery
+rebelrats_doIsTrueCheck $rebelrats_gotOfficer rebelrats_nazar_hireThackery","""Ah hah! Yes, you are indeed allowed to access our curated list.""
 
 A list on the screen unfurls to reveal names and icons of mercenaries and their prices. Seems like Krysans were not averse to the idea of selling their people's services to the Persean Sector, not that it was surprising as the practice was not uncommon especially with the League commonly selling their services.
 
 ""Here's the curated list, I'm sure you'll be satisfied of the selection.""
 
-Your XO points to a particular one on the list, Himichi Thackery.",,
-rebelrats_nazar_useRelFailure,DialogOptionSelected,$option == rebelrats_nazar_useRelFailure,FireAll PopulateOptions,"""Ahh... Unfortunately, you have not been given permission to access the curated list.""",,
-rebelrats_nazar_storyPointEscort,DialogOptionSelected,$option == rebelrats_nazar_storyPointEscort,"FireAll PopulateOptions
+Your XO points to a particular one on the list, Himichi Thackery.","rebelrats_nazar_hireThackery: Hire Himichi Thackery
+rebelrats_nazar_escortOpt: ""Nevermind""",
+rebelrats_nazar_useRelFailure,DialogOptionSelected,$option == rebelrats_nazar_useRelFailure,,"""Ahh... Unfortunately, you have not been given permission to access the curated list.""",rebelrats_nazar_escortOpt:Unfortunate,
+rebelrats_nazar_hireThackery,DialogOptionSelected,$option == rebelrats_nazar_hireThackery,"RemoveCommodity credits 50000
 rebelrats_hireOfficer rebelrats_thackery
+$rebelrats_gotOfficer = true","""Excellent choice! Thackery will be joining you once you are ready to leave.""",rebelrats_nazar_escortOpt:...,
+rebelrats_nazar_storyPointEscort,DialogOptionSelected,$option == rebelrats_nazar_storyPointEscort,"rebelrats_hireOfficer rebelrats_thackery
 $rebelrats_gotOfficer = true","There was a comically long pause after having said that, as if the commlink had been cut off, yet only a snicker can be heard from the icon.
 
-""Hahaha! I like that attitude, Starfarer! I think I know who would fit your fleet, give me a moment.""",,
+""Hahaha! I like that attitude, Starfarer! I think I know who would fit your fleet, give me a moment.""",rebelrats_nazar_escortOpt:...,
 rebelrats_nazar_declineEscort,DialogOptionSelected,$option == rebelrats_nazar_declineEscort,FireAll PopulateOptions,"""Mmh, sure. You can ask again any other time if you're in need, provided you have credits of course!""",,
 ,,,,,,
 # Commissioned Crews Effect,,,,,,

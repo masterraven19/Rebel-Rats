@@ -47,6 +47,8 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_mischiefBeamEffect.java" />
       <element id="module-output" name="Rebel-Rats" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rulecmd/rebelrats_hireOfficer.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rulecmd/rebelrats_hireMercenary.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rulecmd/rebelrats_doIsTrueCheck.java" />
     </root>
   </artifact>
 </component>

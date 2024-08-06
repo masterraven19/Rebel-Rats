@@ -32,19 +32,22 @@ public class rebelrats_hireOfficer extends BaseCommandPlugin {
 
         if(key.matches("rebelrats_thackery")){
             FleetMemberAPI fleetMember = Global.getFactory().createFleetMember(FleetMemberType.SHIP,"rebelrats_musrattus_Balanced");
-            TextPanelAPI text = dialog.getTextPanel();
-            fleetMember.setShipName("ALMAYER");
+            fleetMember.setShipName("FNS Almayer");
             fleetMember.setCaptain(person);
 
             Global.getSector().getPlayerFleet().getCargo().addCrew((int)fleetMember.getMinCrew());
             playerFleet.addFleetMember(fleetMember);
-            text.setFontSmallInsignia();
-            text.addParagraph("Gained her personal ship, a " + fleetMember.getVariant().getFullDesignationWithHullNameForShip(), Misc.getPositiveHighlightColor());
-            text.addParagraph("Gained " + (int)fleetMember.getMinCrew() + " crew", Misc.getPositiveHighlightColor());
-            text.highlightInLastPara(Misc.getHighlightColor(), fleetMember.getVariant().getFullDesignationWithHullNameForShip());
-            text.highlightInLastPara(Misc.getHighlightColor(), (int)fleetMember.getMinCrew() + " crew");
-            text.setFontInsignia();
+            gainMercenaryText(dialog,fleetMember);
         }
         return true;
+    }
+    public static void gainMercenaryText(InteractionDialogAPI dialog, FleetMemberAPI fleetMember){
+        TextPanelAPI text = dialog.getTextPanel();
+        text.setFontSmallInsignia();
+        text.addParagraph("Gained " + fleetMember.getCaptain().getHisOrHer() + " personal ship, a " + fleetMember.getVariant().getFullDesignationWithHullNameForShip(), Misc.getPositiveHighlightColor());
+        text.addParagraph("Gained " + (int)fleetMember.getMinCrew() + " crew", Misc.getPositiveHighlightColor());
+        text.highlightInLastPara(Misc.getHighlightColor(), fleetMember.getVariant().getFullDesignationWithHullNameForShip());
+        text.highlightInLastPara(Misc.getHighlightColor(), (int)fleetMember.getMinCrew() + " crew");
+        text.setFontInsignia();
     }
 }

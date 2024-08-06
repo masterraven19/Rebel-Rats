@@ -26,11 +26,8 @@ public class gen_NPCs {
 
         market.getCommDirectory().addPerson(p,0);
         market.addPerson(p);
-
-        //ImportantPeopleAPI ip = Global.getSector().getImportantPeople();
-        //ip.addPerson(p);
-
-        //People.assignPost(market,post,p);
+        ImportantPeopleAPI ip = Global.getSector().getImportantPeople();
+        ip.addPerson(p);
     }
     public void generate_Thackery(MarketAPI market){
         PersonAPI p = Global.getFactory().createPerson();
@@ -50,6 +47,5 @@ public class gen_NPCs {
         ip.addPerson(p);
         market.getCommDirectory().addPerson(p);
         market.addPerson(p);
-
     }
 }
