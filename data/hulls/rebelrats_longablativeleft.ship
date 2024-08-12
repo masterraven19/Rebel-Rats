@@ -2,7 +2,7 @@
   "hullName": "Long Ablative Plate (Left)",
   "hullId": "rebelrats_longablativeleft",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/longablativeplate_left.png",
+  "spriteName": "graphics/rebelrats/ships/longablativeplate_left.png",
   "style": "LOW_TECH",
   "height": 30,
   "width": 23,

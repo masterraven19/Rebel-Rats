@@ -15,5 +15,5 @@
 	"coreColor":[148,255,248,220],
 	"textureScrollSpeed":120.0,
 	"pixelsPerTexel":5.0,
-	"bulletSprite":"graphics/missiles/ratshell_small_grey.png",
+	"bulletSprite":"graphics/rebelrats/missiles/ratshell_small_grey.png",
 }

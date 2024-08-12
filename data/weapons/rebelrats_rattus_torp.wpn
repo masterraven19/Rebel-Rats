@@ -4,8 +4,8 @@
   "projectileSpecId": "rebelrats_huntsman_torp",
   "type": "MISSILE",
   "size": "LARGE",
-  "turretSprite": "graphics/weapons/rattus_torpedo_launcher.png",
-  "hardpointSprite": "graphics/weapons/rattus_torpedo_launcher.png",
+  "turretSprite": "graphics/rebelrats/weapons/rattus_torpedo_launcher.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/rattus_torpedo_launcher.png",
   #"renderHints": [
   #  RENDER_LOADED_MISSILES_UNLESS_HIDDEN
   #],

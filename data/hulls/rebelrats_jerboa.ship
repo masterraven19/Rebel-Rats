@@ -2,7 +2,7 @@
   "hullName": "Jerboa",
   "hullId": "rebelrats_jerboa",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/ships/jerboa/Jerboa_Stealth_Cruiser.png",
+  "spriteName": "graphics/rebelrats/ships/jerboa/Jerboa_Stealth_Cruiser.png",
   "style": "REBELRATS",
   "height": 322,
   "width": 139,

@@ -2,7 +2,7 @@
 	"id":"rebelrats_gyrojet_heavy",
 	"specClass":"missile",
 	"missileType":"MISSILE",
-	"sprite":"graphics/missiles/heavy_gyrojet.png",
+	"sprite":"graphics/rebelrats/missiles/heavy_gyrojet.png",
 	"size":[10,21],
 	"center":[5,10.5],
 	"collisionRadius":15,

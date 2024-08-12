@@ -2,7 +2,7 @@
   "hullName": "Front Armor Plate",
   "hullId": "rebelrats_matkaboskaplate_front",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/matkaboskaplate_front.png",
+  "spriteName": "graphics/rebelrats/ships/matkaboskaplate_front.png",
   "style": "MIDLINE",
   "height": 29,
   "width": 52,

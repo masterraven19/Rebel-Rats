@@ -5,10 +5,10 @@
   "type": "BALLISTIC",
   "size": "LARGE",
   "displayArcRadius": 400,
-  "turretSprite": "graphics/weapons/drummer_turret_base.png",
-  "turretGunSprite": "graphics/weapons/drummer_turret_barrel.png",
-  "hardpointSprite": "graphics/weapons/drummer_hardpoint_base.png",
-  "hardpointGunSprite": "graphics/weapons/drummer_hardpoint_barrel.png",
+  "turretSprite": "graphics/rebelrats/weapons/drummer_turret_base.png",
+  "turretGunSprite": "graphics/rebelrats/weapons/drummer_turret_barrel.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/drummer_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/rebelrats/weapons/drummer_hardpoint_barrel.png",
   "visualRecoil": 10,
   "renderHints": [
     RENDER_BARREL_BELOW

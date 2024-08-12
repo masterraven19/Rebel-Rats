@@ -5,10 +5,10 @@
   "type": "BALLISTIC",
   "size": "MEDIUM",
   "displayArcRadius": 250,
-  "turretSprite": "graphics/weapons/arratoi_guns_base.png",
-  "turretGunSprite": "graphics/weapons/arratoi_guns_barrel.png",
-  "hardpointSprite": "graphics/weapons/arratoi_guns_base.png",
-  "hardpointGunSprite": "graphics/weapons/arratoi_guns_barrel.png",
+  "turretSprite": "graphics/rebelrats/weapons/arratoi_guns_base.png",
+  "turretGunSprite": "graphics/rebelrats/weapons/arratoi_guns_barrel.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/arratoi_guns_base.png",
+  "hardpointGunSprite": "graphics/rebelrats/weapons/arratoi_guns_barrel.png",
   "visualRecoil": 15,
   "renderHints": [
     RENDER_BARREL_BELOW

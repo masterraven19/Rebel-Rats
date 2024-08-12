@@ -2,7 +2,7 @@
   "hullName": "Left Armor Plate",
   "hullId": "rebelrats_matkaboskaplate_left",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/matkaboskaplate_left.png",
+  "spriteName": "graphics/rebelrats/ships/matkaboskaplate_left.png",
   "style": "MIDLINE",
   "height": 50,
   "width": 33,

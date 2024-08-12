@@ -2,7 +2,7 @@
   "hullName": "Monax ",
   "hullId": "rebelrats_monax",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/Monax_logistics_ship.png",
+  "spriteName": "graphics/rebelrats/ships/Monax_logistics_ship.png",
   "style": "REBELRATS",
   "height": 264,
   "width": 99,

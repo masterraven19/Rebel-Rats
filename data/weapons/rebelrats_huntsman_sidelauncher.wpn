@@ -5,8 +5,8 @@
   "type": "MISSILE",
   "size": "LARGE",
   "everyFrameEffect": "data.scripts.weapons.rebelrats_huntsmanLaunchEffect",
-  "turretSprite": "graphics/weapons/marmot_torpedo_launcher.png",
-  "hardpointSprite": "graphics/weapons/marmot_torpedo_launcher.png",
+  "turretSprite": "graphics/rebelrats/weapons/marmot_torpedo_launcher.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/marmot_torpedo_launcher.png",
   "turretOffsets": [
     -2.5,
     0,

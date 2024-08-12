@@ -2,7 +2,7 @@
   "hullName": "Rattus",
   "hullId": "rebelrats_rattus",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/Rattus_heavy_frigate2.png",
+  "spriteName": "graphics/rebelrats/ships/Rattus_heavy_frigate2.png",
   "style": "REBELRATS",
   "height": 196,
   "width": 80,

@@ -2,7 +2,7 @@
   "hullName": "Patron",
   "hullId": "rebelrats_patron",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/Patron_corvette.png",
+  "spriteName": "graphics/rebelrats/ships/Patron_corvette.png",
   "style": "MIDLINE",
   "height": 79,
   "width": 50,

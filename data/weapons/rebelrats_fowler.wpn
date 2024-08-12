@@ -5,10 +5,10 @@
   "type": "BALLISTIC",
   "size": "SMALL",
   "displayArcRadius": 250,
-  "turretSprite": "graphics/weapons/afg20fowler_turret_base.png",
-  "turretGunSprite": "graphics/weapons/afg20fowler_turret_barrel.png",
-  "hardpointSprite": "graphics/weapons/afg20fowler_hardpoint_base.png",
-  "hardpointGunSprite": "graphics/weapons/afg20fowler_hardpoint_barrel.png",
+  "turretSprite": "graphics/rebelrats/weapons/afg20fowler_turret_base.png",
+  "turretGunSprite": "graphics/rebelrats/weapons/afg20fowler_turret_barrel.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/afg20fowler_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/rebelrats/weapons/afg20fowler_hardpoint_barrel.png",
   "visualRecoil": 6,
   "renderHints": [
     RENDER_BARREL_BELOW

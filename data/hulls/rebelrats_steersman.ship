@@ -2,7 +2,7 @@
   "hullName": "Steersman",
   "hullId": "rebelrats_steersman",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/ships/steersman_independent_cruiser.png",
+  "spriteName": "graphics/rebelrats/ships/steersman_independent_cruiser.png",
   "style": "MIDLINE",
   "height": 274,
   "width": 90,

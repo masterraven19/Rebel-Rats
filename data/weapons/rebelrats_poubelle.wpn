@@ -4,8 +4,8 @@
   "projectileSpecId": "rebelrats_poubelle_torp",
   "type": "MISSILE",
   "size": "SMALL",
-  "turretSprite": "graphics/weapons/poubelle_missile_mount.png",
-  "hardpointSprite": "graphics/weapons/poubelle_missile_mount.png",
+  "turretSprite": "graphics/rebelrats/weapons/poubelle_missile_mount.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/poubelle_missile_mount.png",
   "renderHints": [
     RENDER_LOADED_MISSILES_UNLESS_HIDDEN
   ],

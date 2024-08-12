@@ -2,7 +2,7 @@
   "hullName": "Mus Rattus",
   "hullId": "rebelrats_musrattus",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/musrattus_super_frigate.png",
+  "spriteName": "graphics/rebelrats/ships/musrattus_super_frigate.png",
   "style": "REBELRATS",
   "height": 158,
   "width": 76,

@@ -16,7 +16,7 @@ import java.awt.Color;
 public class rebelrats_petardBeamEffect implements BeamEffectPlugin{
     private boolean done = false;
     public void advance(float amount, CombatEngineAPI engine, BeamAPI beam){
-        beam.setCoreTexture("graphics/fx/petardlaser_beam.png");
+        beam.setCoreTexture("graphics/rebelrats/fx/petardlaser_beam.png");
         if (done) return;
         CombatEntityAPI target = beam.getDamageTarget();
         boolean first = beam.getWeapon().getBeams().indexOf(beam) == 0;

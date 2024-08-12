@@ -2,7 +2,7 @@
 	"id":"rebelrats_hwacha_srm",
 	"specClass":"missile",	
 	"missileType":"MISSILE",
-	"sprite":"graphics/missiles/hwacha_missile.png",
+	"sprite":"graphics/rebelrats/missiles/hwacha_missile.png",
 	"size":[7,13],	
 	"center":[3.5,6.5],
 	"onFireEffect":"data.scripts.weapons.rebelrats_missileTrackEffect",

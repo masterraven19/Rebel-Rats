@@ -2,7 +2,7 @@
 	"id":"rebelrats_falcon_mrm",
 	"specClass":"missile",	
 	"missileType":"MISSILE",
-	"sprite":"graphics/missiles/falcon_missile.png",
+	"sprite":"graphics/rebelrats/missiles/falcon_missile.png",
 	"size":[4,21],	
 	"center":[2,11],
 	"onHitEffect":"data.scripts.weapons.rebelrats_falconOnHitEffect",

@@ -2,7 +2,7 @@
 	"id":"rebelrats_pyroclast_torp",
 	"specClass":"missile",
 	"missileType":"MISSILE",
-	"sprite":"graphics/missiles/pyroclast_torpedo.png",
+	"sprite":"graphics/rebelrats/missiles/pyroclast_torpedo.png",
 	"size":[8,24],	
 	"center":[4,12],
 	"onHitEffect":"data.scripts.weapons.rebelrats_pyroclastOnHitEffect",

@@ -5,8 +5,8 @@
   "type": "MISSILE",
   "size": "SMALL",
   "displayArcRadius": 500,
-  "turretSprite": "graphics/weapons/hwacha_missile_mount.png",
-  "hardpointSprite": "graphics/weapons/hwacha_missile_mount.png",
+  "turretSprite": "graphics/rebelrats/weapons/hwacha_missile_mount.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/hwacha_missile_mount.png",
   "turretOffsets": [
     9.5,
     -2.5,

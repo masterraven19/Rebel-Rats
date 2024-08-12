@@ -2,7 +2,7 @@
   "hullName": "Porcellus",
   "hullId": "rebelrats_porcellus",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/ships/porcellus_battleship.png",
+  "spriteName": "graphics/rebelrats/ships/porcellus_battleship.png",
   "style": "REBELRATS",
   "height": 461,
   "width": 208,

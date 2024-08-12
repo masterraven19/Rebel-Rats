@@ -6,10 +6,10 @@
   "size": "MEDIUM",
   "displayArcRadius": 400,
   #"everyFrameEffect":"data.scripts.unused.rebelrats_custodianEffect",
-  "turretSprite": "graphics/weapons/afg76custodian_turret_base.png",
-  "turretGunSprite": "graphics/weapons/afg76custodian_turret_barrel.png",
-  "hardpointSprite": "graphics/weapons/afg76custodian_turret_base.png",
-  "hardpointGunSprite": "graphics/weapons/afg76custodian_turret_barrel.png",
+  "turretSprite": "graphics/rebelrats/weapons/afg76custodian_turret_base.png",
+  "turretGunSprite": "graphics/rebelrats/weapons/afg76custodian_turret_barrel.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/afg76custodian_turret_base.png",
+  "hardpointGunSprite": "graphics/rebelrats/weapons/afg76custodian_turret_barrel.png",
   "visualRecoil": 8,
   "renderHints": [
     RENDER_BARREL_BELOW

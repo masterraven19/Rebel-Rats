@@ -5,8 +5,8 @@
   "type": "COMPOSITE",
   "size": "MEDIUM",
   "displayArcRadius": 500,
-  "turretSprite": "graphics/weapons/rattenjager_medium_mount.png",
-  "hardpointSprite": "graphics/weapons/rattenjager_medium_mount.png",
+  "turretSprite": "graphics/rebelrats/weapons/rattenjager_medium_mount.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/rattenjager_medium_mount.png",
   "renderHints": [
     RENDER_LOADED_MISSILES_UNLESS_HIDDEN
   ],

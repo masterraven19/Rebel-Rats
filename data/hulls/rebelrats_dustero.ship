@@ -2,7 +2,7 @@
   "hullName": "Dustero",
   "hullId": "rebelrats_dustero",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/dustero_fighter.png",
+  "spriteName": "graphics/rebelrats/ships/dustero_fighter.png",
   "style": "LOW_TECH",
   "height": 20,
   "width": 22,

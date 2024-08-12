@@ -2,7 +2,7 @@
 	"id":"rebelrats_huntsman_torp",
 	"specClass":"missile",
 	"missileType":"MISSILE",
-	"sprite":"graphics/missiles/huntsman_missile.png",
+	"sprite":"graphics/rebelrats/missiles/huntsman_missile.png",
 	"size":[6,24],	
 	"center":[3,12],
 	"collisionRadius":15,

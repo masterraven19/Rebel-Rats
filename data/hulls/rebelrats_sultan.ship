@@ -2,7 +2,7 @@
   "hullName": "Sultan",
   "hullId": "rebelrats_sultan",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/sultan_fighter.png",
+  "spriteName": "graphics/rebelrats/ships/sultan_fighter.png",
   "style": "MIDLINE",
   "height": 45,
   "width": 34,

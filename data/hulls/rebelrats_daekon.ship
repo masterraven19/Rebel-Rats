@@ -2,7 +2,7 @@
   "hullName": "Daekon",
   "hullId": "rebelrats_daekon",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/daekon_fighter.png",
+  "spriteName": "graphics/rebelrats/ships/daekon_fighter.png",
   "style": "REBELRATS",
   "height": 55,
   "width": 46,

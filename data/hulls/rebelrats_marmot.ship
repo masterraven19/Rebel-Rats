@@ -2,7 +2,7 @@
   "hullName": "Marmot",
   "hullId": "rebelrats_marmot",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/ships/marmot_heavy_cruiser.png",
+  "spriteName": "graphics/rebelrats/ships/marmot_heavy_cruiser.png",
   "style": "REBELRATS",
   "height": 299,
   "width": 204,

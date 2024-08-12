@@ -2,7 +2,7 @@
   "hullName": "Helmsman",
   "hullId": "rebelrats_helmsman",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/helmsman_pirate_destroyer.png",
+  "spriteName": "graphics/rebelrats/ships/helmsman_pirate_destroyer.png",
   "style": "LOW_TECH",
   "height": 192,
   "width": 82,

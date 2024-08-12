@@ -2,7 +2,7 @@
   "hullName": "Rat Shield Module",
   "hullId": "rebelrats_shieldmodule",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/rr_shield_module.png",
+  "spriteName": "graphics/rebelrats/ships/rr_shield_module.png",
   "style": "REBELRATS",
   "height": 182,
   "width": 132,

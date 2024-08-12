@@ -12,7 +12,7 @@
 	"coreColor":[148,255,248,220],
 	"textureScrollSpeed":120.0,
 	"pixelsPerTexel":5.0,
-	"bulletSprite":"graphics/missiles/rat_canister.png",
+	"bulletSprite":"graphics/rebelrats/missiles/rat_canister.png",
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
     	                "onExplosionEffect":"data.scripts.weapons.rebelrats_hawkerProxEffect",
     					"range":100,

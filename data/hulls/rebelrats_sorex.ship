@@ -2,7 +2,7 @@
   "hullName": "Sorex",
   "hullId": "rebelrats_sorex",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/Sorex_gun_destroyer.png",
+  "spriteName": "graphics/rebelrats/ships/Sorex_gun_destroyer.png",
   "style": "REBELRATS",
   "height": 172,
   "width": 88,

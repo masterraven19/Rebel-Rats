@@ -4,8 +4,8 @@
   "projectileSpecId": "rebelrats_pyroclast_torp",
   "type": "MISSILE",
   "size": "MEDIUM",
-  "turretSprite": "graphics/weapons/jerboa_pyroclast_launcher.png",
-  "hardpointSprite": "graphics/weapons/jerboa_pyroclast_launcher.png",
+  "turretSprite": "graphics/rebelrats/weapons/jerboa_pyroclast_launcher.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/jerboa_pyroclast_launcher.png",
   "renderHints": [
     #RENDER_LOADED_MISSILES_UNLESS_HIDDEN
   ],

@@ -26,7 +26,7 @@
     },
 	"chatter":{
 	"factionRoundels":{
-			"rebelrats":"graphics/factions/rebelratscrest.png",
+			"rebelrats":"graphics/rebelrats/factions/rebelratscrest.png",
 		},
 	}
 }

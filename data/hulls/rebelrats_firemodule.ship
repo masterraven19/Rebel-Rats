@@ -2,7 +2,7 @@
   "hullName": "Rat Fire Module",
   "hullId": "rebelrats_firemodule",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/rr_firepower_module.png",
+  "spriteName": "graphics/rebelrats/ships/rr_firepower_module.png",
   "style": "REBELRATS",
   "height": 280,
   "width": 350,

@@ -2,7 +2,7 @@
   "hullName": "Bluster",
   "hullId": "rebelrats_bluster",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/bluster_bomber.png",
+  "spriteName": "graphics/rebelrats/ships/bluster_bomber.png",
   "style": "LOW_TECH",
   "height": 33,
   "width": 36,

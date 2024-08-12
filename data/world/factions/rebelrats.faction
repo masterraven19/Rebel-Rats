@@ -8,8 +8,8 @@
 	"displayNameWithArticle":"Krysan Federal Navy",
 	"displayNameLong":"Krysan Navy",
 	"displayNameLongWithArticle":"Krysan Federal Navy",
-	"logo":"graphics/factions/rebelratsflag.png",
-	"crest":"graphics/factions/rebelratscrest.png",
+	"logo":"graphics/rebelrats/factions/rebelratsflag.png",
+	"crest":"graphics/rebelrats/factions/rebelratscrest.png",
 	"shipNamePrefix":"FNS",
 	"shipNameSources":{
 		"rebelrats_Rats":1,

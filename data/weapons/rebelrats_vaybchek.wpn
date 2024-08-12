@@ -5,8 +5,8 @@
   "type": "BALLISTIC",
   "size": "SMALL",
   "displayArcRadius": 600,
-  "turretSprite": "graphics/weapons/vaybchek_turret_base.png",
-  "hardpointSprite": "graphics/weapons/vaybchek_turret_base.png",
+  "turretSprite": "graphics/rebelrats/weapons/vaybchek_turret_base.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/vaybchek_turret_base.png",
   "turretOffsets": [
     9.5,
     0

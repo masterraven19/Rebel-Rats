@@ -2,7 +2,7 @@
 	"id":"rebelrats_snapper_amm",
 	"specClass":"missile",	
 	"missileType":"MISSILE",
-	"sprite":"graphics/missiles/rattenjager_missile.png",
+	"sprite":"graphics/rebelrats/missiles/rattenjager_missile.png",
 	"size":[6,16],
 	"center":[3,8],
 	"onFireEffect":"data.scripts.weapons.rebelrats_missileTrackEffect",

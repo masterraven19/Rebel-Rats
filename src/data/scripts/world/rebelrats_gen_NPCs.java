@@ -10,7 +10,7 @@ import com.fs.starfarer.api.impl.campaign.ids.Ranks;
 import com.fs.starfarer.api.impl.campaign.ids.Skills;
 import com.fs.starfarer.api.impl.campaign.ids.Tags;
 
-public class gen_NPCs {
+public class rebelrats_gen_NPCs {
     public void generate_FRO(MarketAPI market){
         PersonAPI p = Global.getFactory().createPerson();
         FullName name = new FullName("Nazarin","Dess", FullName.Gender.FEMALE);

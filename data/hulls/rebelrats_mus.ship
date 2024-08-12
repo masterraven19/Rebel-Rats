@@ -2,7 +2,7 @@
   "hullName": "Mus",
   "hullId": "rebelrats_mus",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/mus_missile_frigate.png",
+  "spriteName": "graphics/rebelrats/ships/mus_missile_frigate.png",
   "style": "REBELRATS",
   "height": 153,
   "width": 72,

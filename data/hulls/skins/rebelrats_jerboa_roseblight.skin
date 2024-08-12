@@ -10,7 +10,7 @@
 	"fleetPoints":18,
 	"ordnancePoints":155,
 	"baseValueMult":1.25,
-	"spriteName":"graphics/ships/jerboa/Jerboa_Stealth_Cruiser_Roseblight.png",
+	"spriteName":"graphics/rebelrats/ships/jerboa/Jerboa_Stealth_Cruiser_Roseblight.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids

@@ -4,8 +4,8 @@
   "projectileSpecId": "rebelrats_gyrojet_heavy",
   "type": "MISSILE",
   "size": "MEDIUM",
-  "turretSprite": "graphics/weapons/torpedo_launcher_bow.png",
-  "hardpointSprite": "graphics/weapons/torpedo_launcher_bow.png",
+  "turretSprite": "graphics/rebelrats/weapons/torpedo_launcher_bow.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/torpedo_launcher_bow.png",
   "turretOffsets": [
     -0.5,
     13.5,

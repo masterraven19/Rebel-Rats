@@ -18,5 +18,5 @@
 	"passThroughMissiles":true,
     "passThroughFighters":true,
     "passThroughFightersOnlyWhenDestroyed":false,
-	"bulletSprite":"graphics/missiles/ratrod_grey.png"
+	"bulletSprite":"graphics/rebelrats/missiles/ratrod_grey.png"
 }

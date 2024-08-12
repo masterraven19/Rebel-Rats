@@ -2,7 +2,7 @@
 	"id":"rebelrats_tephra_torp",
 	"specClass":"missile",
 	"missileType":"MISSILE",
-	"sprite":"graphics/missiles/tephra_rocket.png",
+	"sprite":"graphics/rebelrats/missiles/tephra_rocket.png",
 	"size":[4,24],
 	"center":[2,12],
 	"collisionRadius":15,

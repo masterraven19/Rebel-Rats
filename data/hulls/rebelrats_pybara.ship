@@ -2,7 +2,7 @@
   "hullName": "Pybara",
   "hullId": "rebelrats_pybara",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/ships/Pybara_cargo_capital.png",
+  "spriteName": "graphics/rebelrats/ships/Pybara_cargo_capital.png",
   "style": "REBELRATS",
   "height": 505,
   "width": 122,

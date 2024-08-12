@@ -2,7 +2,7 @@
   "hullName": "Mellivora",
   "hullId": "rebelrats_mellivora",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/mellivora_light_carrier.png",
+  "spriteName": "graphics/rebelrats/ships/mellivora_light_carrier.png",
   "style": "REBELRATS",
   "height": 198,
   "width": 96,

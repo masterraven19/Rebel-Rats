@@ -2,7 +2,7 @@
   "hullName": "Rott",
   "hullId": "rebelrats_rott",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/rott_tanker_frigate.png",
+  "spriteName": "graphics/rebelrats/ships/rott_tanker_frigate.png",
   "style": "REBELRATS",
   "height": 156,
   "width": 64,

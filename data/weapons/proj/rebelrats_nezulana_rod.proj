@@ -17,5 +17,5 @@
 	"passThroughMissiles":true,
     "passThroughFighters":true,
     "passThroughFightersOnlyWhenDestroyed":false,
-	"bulletSprite":"graphics/missiles/ap_rod_large.png"
+	"bulletSprite":"graphics/rebelrats/missiles/ap_rod_large.png"
 }

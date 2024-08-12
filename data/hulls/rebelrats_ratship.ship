@@ -2,7 +2,7 @@
   "hullName": "The Rat",
   "hullId": "rebelrats_ratship",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/ships/dandilion_007.png",
+  "spriteName": "graphics/rebelrats/ships/dandilion_007.png",
   "style": "HIGH_TECH",
   "height": 400,
   "width": 310,

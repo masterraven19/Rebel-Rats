@@ -2,7 +2,7 @@
 	"id":"rebelrats_poubelle_torp",
 	"specClass":"missile",
 	"missileType":"MISSILE",
-	"sprite":"graphics/missiles/poubelle_torpedo.png",
+	"sprite":"graphics/rebelrats/missiles/poubelle_torpedo.png",
 	"size":[5,28],
 	"center":[2.5,14],
 	"onHitEffect":"data.scripts.weapons.rebelrats_poubelleEffect",

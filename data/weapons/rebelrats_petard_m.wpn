@@ -6,10 +6,10 @@
   "beamEffect": "data.scripts.weapons.rebelrats_petardBeamEffect",
   "collisionClass": "RAY",
   "collisionClassByFighter": "RAY_FIGHTER",
-  "turretSprite": "graphics/weapons/petardlaser_turret_base.png",
-  "turretGlowSprite": "graphics/weapons/petardlaser_turret_glow.png",
-  "hardpointSprite": "graphics/weapons/petardlaser_hardpoint_base.png",
-  "hardpointGlowSprite": "graphics/weapons/petardlaser_hardpoint_glow.png",
+  "turretSprite": "graphics/rebelrats/weapons/petardlaser_turret_base.png",
+  "turretGlowSprite": "graphics/rebelrats/weapons/petardlaser_turret_glow.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/petardlaser_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/rebelrats/weapons/petardlaser_hardpoint_glow.png",
   "glowColor": [
     223,182,12,255
   ],

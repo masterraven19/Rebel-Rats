@@ -36,7 +36,7 @@
 		"shapedExplosionEndSizeMax":1,
 		"shapedExplosionScatter":60,
 	},
-	"sprite":"graphics/missiles/petard_canister.png",
+	"sprite":"graphics/rebelrats/missiles/petard_canister.png",
 	"size":[10,26],	
 	"center":[5,13],
 	"collisionRadius":10,

@@ -4,8 +4,8 @@
   "projectileSpecId": "rebelrats_falcon_mrm",
   "type": "MISSILE",
   "size": "SMALL",
-  "turretSprite": "graphics/weapons/huntsman_torp_mount.png",
-  "hardpointSprite": "graphics/weapons/huntsman_torp_mount.png",
+  "turretSprite": "graphics/rebelrats/weapons/huntsman_torp_mount.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/huntsman_torp_mount.png",
   "renderHints": [
     RENDER_LOADED_MISSILES
   ],

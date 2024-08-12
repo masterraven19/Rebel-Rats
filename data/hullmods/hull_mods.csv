@@ -5,17 +5,17 @@ Man-at-Arms Targeting Grid,rebelrats_manatarmstargettinggrid,1,,Rebel Rats,"offe
 
 - Increases the target lead and range of small ballistic PD turrets by %s (Does not stack with first modifier)
 
-- Incompatible with %s",Standard-issue Krysan targeting system. Increases ballistic weapon range by %s|%s|%s and PD range by %s.,,graphics/hullmods/ManAtArmsTargettingGrid.png
-Black Rat Stealth Composites ,rebelrats_stealthrathide,1,,Arms & Armor,"engines, defensive, rebelrats, no_drop, no_drop_salvage","Engines, Logistics, Defenses",0,FALSE,,,0,0,0,0,data.scripts.hullmods.rebelrats_stealthrathide,"Utilizing an extensive suite of multispectral stealth composites, heatsinks, and signature masking, this craft is able to reduce its sensor profile by %s.",Stealthy rat. Decreases sensor profile by %s.,,graphics/hullmods/StealthRatHide.png
+- Incompatible with %s",Standard-issue Krysan targeting system. Increases ballistic weapon range by %s|%s|%s and PD range by %s.,,graphics/rebelrats/hullmods/ManAtArmsTargettingGrid.png
+Black Rat Stealth Composites ,rebelrats_stealthrathide,1,,Arms & Armor,"engines, defensive, rebelrats, no_drop, no_drop_salvage","Engines, Logistics, Defenses",0,FALSE,,,0,0,0,0,data.scripts.hullmods.rebelrats_stealthrathide,"Utilizing an extensive suite of multispectral stealth composites, heatsinks, and signature masking, this craft is able to reduce its sensor profile by %s.",Stealthy rat. Decreases sensor profile by %s.,,graphics/rebelrats/hullmods/StealthRatHide.png
 Bastion Shield System,rebelrats_bastionshield,1,,Rebel Rats,"defensive, shields, rebelrats, no_drop, no_drop_salvage",Shields,0,FALSE,,,0,0,0,0,data.scripts.hullmods.rebelrats_BastionShieldSystem,"Krysan shield generators have been tuned to have max shield efficiency when directed to the ship's front and back. However, this makes Krysan ships vulnerable from shots to the side as shields have to be stretched thin to compensate for the ship's length
 
-Increases shield arc to %s when turned to the sides, but decreases shield efficiency by %s",The shield rat!!!,Nullifies the shield debuff and sets it to %s.,graphics/hullmods/bastion_shield_system.png
-Ratfield Ballistics Computer,rebelrats_ratfield,1,,,"defensive, no_drop, no_drop_salvage","Weapons, Defenses",0,FALSE,,,0,0,0,0,data.scripts.hullmods.rebelrats_ratfield,"Krysan power rats make the point so much stronger, infact by %s","PD unaffected by decoy flares, improved target leading, more damage to missiles.",,graphics/hullmods/ratfield.png
-INCOMPATIBLE,rebelrats_incompatible,,,,,,0,,TRUE,,0,0,0,0,data.scripts.hullmods.rebelrats_incompatible,HULLMOD %s,,,graphics/hullmods/noncompatible.png
+Increases shield arc to %s when turned to the sides, but decreases shield efficiency by %s",The shield rat!!!,Nullifies the shield debuff and sets it to %s.,graphics/rebelrats/hullmods/bastion_shield_system.png
+Ratfield Ballistics Computer,rebelrats_ratfield,1,,,"defensive, no_drop, no_drop_salvage","Weapons, Defenses",0,FALSE,,,0,0,0,0,data.scripts.hullmods.rebelrats_ratfield,"Krysan power rats make the point so much stronger, infact by %s","PD unaffected by decoy flares, improved target leading, more damage to missiles.",,graphics/rebelrats/hullmods/ratfield.png
+INCOMPATIBLE,rebelrats_incompatible,,,,,,0,,TRUE,,0,0,0,0,data.scripts.hullmods.rebelrats_incompatible,HULLMOD %s,,,graphics/rebelrats/hullmods/noncompatible.png
 ,,,,,,,,,,,,,,,,,,,
 #comissionooonon,,,,,,,,,,,,,,,,,,,
 Krysan Fervor,rebelrats_cc,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.rebelrats_cc,"Krysan crew are known for their fervent behavior during battles, often displaying acts of bravery bordering on lunacy for the sake of victory. As battle-hardened folks, their ships tend to last longer in the heat of battle as Krysans ardently perform damage control whenever a lull in the fighting is found.
 
 Repairs start once ship HP reaches %s and the ship is repaired by %s/%s/%s/%s.
 
-At %s hull, the ship engages emergency war power, increasing ship acceleration and deceleration by %s and turn speed by %s",Repairs hull and provides increased acceleration when on low health.,,graphics/hullmods/Krysan_fervor.png
+At %s hull, the ship engages emergency war power, increasing ship acceleration and deceleration by %s and turn speed by %s",Repairs hull and provides increased acceleration when on low health.,,graphics/rebelrats/hullmods/Krysan_fervor.png

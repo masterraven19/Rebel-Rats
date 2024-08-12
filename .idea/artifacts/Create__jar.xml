@@ -36,7 +36,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_chaffProxEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/shipsystems/rebelrats_lockjaw.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_incompatible.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/gen_NPCs.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/rebelrats_gen_NPCs.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_targetinglaserEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_missileProxy.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_ratfield.java" />

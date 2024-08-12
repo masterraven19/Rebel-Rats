@@ -2,7 +2,7 @@
   "hullName": "Hippo Skiff",
   "hullId": "rebelrats_hippo",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/hippo_skiff.png",
+  "spriteName": "graphics/rebelrats/ships/hippo_skiff.png",
   "style": "MIDLINE",
   "height": 67,
   "width": 38,

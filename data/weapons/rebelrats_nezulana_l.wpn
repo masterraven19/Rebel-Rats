@@ -5,10 +5,10 @@
   "type": "BALLISTIC",
   "size": "LARGE",
   "displayArcRadius": 400,
-  "turretSprite": "graphics/weapons/nezulana_turret_base.png",
-  "turretGunSprite": "graphics/weapons/nezulana_turret_barrel.png",
-  "hardpointSprite": "graphics/weapons/nezulana_hardpoint_base.png",
-  "hardpointGunSprite": "graphics/weapons/nezulana_hardpoint_barrel.png",
+  "turretSprite": "graphics/rebelrats/weapons/nezulana_turret_base.png",
+  "turretGunSprite": "graphics/rebelrats/weapons/nezulana_turret_barrel.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/nezulana_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/rebelrats/weapons/nezulana_hardpoint_barrel.png",
   "visualRecoil": 9,
   "renderHints": [
     RENDER_BARREL_BELOW

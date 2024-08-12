@@ -4,8 +4,8 @@
   "projectileSpecId": "rebelrats_falcon_mrm",
   "type": "MISSILE",
   "size": "MEDIUM",
-  "turretSprite": "graphics/weapons/falcon_missile_mount.png",
-  "hardpointSprite": "graphics/weapons/falcon_missile_mount.png",
+  "turretSprite": "graphics/rebelrats/weapons/falcon_missile_mount.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/falcon_missile_mount.png",
   "renderHints": [
     RENDER_LOADED_MISSILES_UNLESS_HIDDEN
   ],

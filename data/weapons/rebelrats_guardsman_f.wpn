@@ -5,8 +5,8 @@
   "type": "BALLISTIC",
   "size": "SMALL",
   "displayArcRadius": 250,
-  "turretSprite": "graphics/weapons/afg202guardsman_turret_base.png",
-  "hardpointSprite": "graphics/weapons/afg202guardsman_turret_base.png",
+  "turretSprite": "graphics/rebelrats/weapons/afg202guardsman_turret_base.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/afg202guardsman_turret_base.png",
   "turretOffsets": [
     9,
     1.5,

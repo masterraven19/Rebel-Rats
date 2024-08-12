@@ -2,7 +2,7 @@
   "hullName": "Matkaboska",
   "hullId": "rebelrats_matkaboska",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/ships/matkaboska_assault_cruiser.png",
+  "spriteName": "graphics/rebelrats/ships/matkaboska_assault_cruiser.png",
   "style": "REBELRATS",
   "height": 331,
   "width": 194,

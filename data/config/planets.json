@@ -8,7 +8,7 @@
 		"atmosphereThickness":0.18, # as fraction of radius.  Set to 0 for no atmosphere
 		"atmosphereThicknessMin":62, #  minimum thickness in pixels - used when radius * atmosphereThickness is really low
 		"atmosphereColor":[255,255,255,140],
-		"texture":"graphics/planets/Rodentia_Texture.png",
+		"texture":"graphics/rebelrats/planets/Rodentia_Texture.png",
 		"icon":"graphics/warroom/icon_planet.png",
 		"iconColor":[60,209,8,255],
 		"isStar":false,

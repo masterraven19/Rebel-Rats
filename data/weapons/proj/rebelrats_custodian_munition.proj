@@ -15,7 +15,7 @@
 	"glowRadius":5,
 	"textureScrollSpeed":64.0,
 	"pixelsPerTexel":5.0,
-	"bulletSprite":"graphics/missiles/ratshell_small_yellow.png",
+	"bulletSprite":"graphics/rebelrats/missiles/ratshell_small_yellow.png",
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
 	                "onExplosionEffect":"data.scripts.weapons.rebelrats_custodianProxEffect",
 					"range":0,

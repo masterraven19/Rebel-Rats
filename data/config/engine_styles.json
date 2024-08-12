@@ -21,8 +21,8 @@
 		"type":"GLOW", # GLOW or SMOKE
 		"glowSizeMult":0.5,
 		"glowAlternateColor":[136,195,239,255],
-		"glowSprite":"graphics/fx/rebelrats_engineglow5.png", #the plume shape
-		"glowOutline":"graphics/fx/rebelrats_engineflame6.png", #the plume flame
+		"glowSprite":"graphics/rebelrats/fx/rebelrats_engineglow5.png", #the plume shape
+		"glowOutline":"graphics/rebelrats/fx/rebelrats_engineflame6.png", #the plume flame
 		"omegaMode":true,
 	},
 }

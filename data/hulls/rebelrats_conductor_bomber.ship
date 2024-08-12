@@ -3,7 +3,7 @@
     "hullId": "rebelrats_conductor_bomber",
     "hullSize": "FIGHTER",
     "style": "REBELRATS",
-    "spriteName": "graphics/ships/conductor_bomber.png",
+    "spriteName": "graphics/rebelrats/ships/conductor_bomber.png",
     "height": 40,
     "width": 26,
     "center": [

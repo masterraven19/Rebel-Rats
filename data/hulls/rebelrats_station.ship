@@ -2,7 +2,7 @@
   "hullName": "Krysan Station",
   "hullId": "rebelrats_station",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/ships/rr_station_core.png",
+  "spriteName": "graphics/rebelrats/ships/rr_station_core.png",
   "style": "REBELRATS",
   "height": 534,
   "width": 534,

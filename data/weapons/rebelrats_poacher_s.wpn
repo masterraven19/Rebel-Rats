@@ -5,8 +5,8 @@
   "type": "BALLISTIC",
   "size": "SMALL",
   "displayArcRadius": 250,
-  "turretSprite": "graphics/weapons/poacher/poacher20000.png",
-  "hardpointSprite": "graphics/weapons/poacher/poacher_hardpoint0000.png",
+  "turretSprite": "graphics/rebelrats/weapons/poacher/poacher20000.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/poacher/poacher_hardpoint0000.png",
   "turretOffsets": [
     15,
     0

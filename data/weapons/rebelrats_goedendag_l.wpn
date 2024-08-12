@@ -5,10 +5,10 @@
   "type": "BALLISTIC",
   "size": "LARGE",
   "displayArcRadius": 1500,
-  "turretSprite": "graphics/weapons/goedendag_hardpoint_base.png",
-  "turretGlowSprite": "graphics/weapons/goedendag_hardpoint_glow.png",
-  "hardpointSprite": "graphics/weapons/goedendag_hardpoint_base.png",
-  "hardpointGlowSprite": "graphics/weapons/goedendag_hardpoint_glow.png",
+  "turretSprite": "graphics/rebelrats/weapons/goedendag_hardpoint_base.png",
+  "turretGlowSprite": "graphics/rebelrats/weapons/goedendag_hardpoint_glow.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/goedendag_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/rebelrats/weapons/goedendag_hardpoint_glow.png",
   "glowColor": [
     100,100,255,255
   ],

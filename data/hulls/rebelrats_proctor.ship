@@ -2,7 +2,7 @@
   "hullName": "Proctor",
   "hullId": "rebelrats_proctor",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/proctor_fighter.png",
+  "spriteName": "graphics/rebelrats/ships/proctor_fighter.png",
   "style": "MIDLINE",
   "height": 43,
   "width": 30,

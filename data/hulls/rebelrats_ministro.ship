@@ -2,7 +2,7 @@
   "hullName": "Ministro",
   "hullId": "rebelrats_ministro",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/ministro_interceptor.png",
+  "spriteName": "graphics/rebelrats/ships/ministro_interceptor.png",
   "style": "LOW_TECH",
   "height": 17,
   "width": 28,

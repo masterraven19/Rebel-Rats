@@ -3,7 +3,7 @@
 	"specClass":"missile",
 	"missileType":"MISSILE",
 	#"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
-	"sprite":"graphics/missiles/pyroclast_torpedo.png",
+	"sprite":"graphics/rebelrats/missiles/pyroclast_torpedo.png",
 	"size":[6,24],	
 	"center":[3,12],
 	"onHitEffect":"data.scripts.weapons.rebelrats_pyroclastOnHitEffect",

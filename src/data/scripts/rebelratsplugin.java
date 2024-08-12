@@ -7,7 +7,7 @@ import com.fs.starfarer.api.campaign.StarSystemAPI;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.characters.PersonAPI;
 import data.scripts.world.rebelratsgen;
-import data.scripts.world.gen_NPCs;
+import data.scripts.world.rebelrats_gen_NPCs;
 import exerelin.campaign.SectorManager;
 
 import java.util.List;
@@ -50,17 +50,17 @@ public class rebelratsplugin extends BaseModPlugin {
         PersonAPI pThackery = Global.getSector().getImportantPeople().getPerson(thackery);
         if(pNaz == null){
             MarketAPI krysaMarket = Global.getSector().getEconomy().getMarket(krysa);
-            new gen_NPCs().generate_FRO(krysaMarket);
+            new rebelrats_gen_NPCs().generate_FRO(krysaMarket);
         }
         if(pThackery == null){
             MarketAPI krysaMarket = Global.getSector().getEconomy().getMarket(krysa);
-            new gen_NPCs().generate_Thackery(krysaMarket);
+            new rebelrats_gen_NPCs().generate_Thackery(krysaMarket);
         }
     }
     public void onNewGameAfterEconomyLoad() {
         MarketAPI krysaMarket = Global.getSector().getEconomy().getMarket(krysa);
-        new gen_NPCs().generate_FRO(krysaMarket);
-        new gen_NPCs().generate_Thackery(krysaMarket);
+        new rebelrats_gen_NPCs().generate_FRO(krysaMarket);
+        new rebelrats_gen_NPCs().generate_Thackery(krysaMarket);
     }
 }
     
