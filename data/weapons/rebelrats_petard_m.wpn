@@ -41,5 +41,5 @@
     PROJECTILE_NO_FF,
     PROJECTILE_FIGHTER
   ],
-  "fireSoundOne": "petard_firing"
+  "fireSoundOne": "rebelrats_petard_firing"
 }

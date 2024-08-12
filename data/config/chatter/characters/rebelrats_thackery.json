@@ -3,85 +3,85 @@
 	"personalities":["steady","cautious"],
 	"gender":["f","n"],
 	"chance":0.5,
-	"talkativeness":1,
+	"talkativeness":3,
 	"categoryTags":["rebelratters"],
 	
 	"lines":{
 		"start":[
-			{"text":"General Quarters, General Quarters, all hands man your action stations."},
-			{"text":"PDCs locked and loaded."},
-			{"text":"General Quarters, rig ship for astrocombat."},
-			{"text":"Thackery reporting, awaiting your orders."},
-			{"text":"Awaiting for combat orders."}
+			{"text":"General Quarters, General Quarters, all hands man your action stations.","sound":"rebelrats_thackery_start1"},
+			{"text":"PDCs locked and loaded.","sound":"rebelrats_thackery_start2"},
+			{"text":"General Quarters, rig ship for astrocombat.","sound":"rebelrats_thackery_start3"},
+			{"text":"Thackery reporting, awaiting your orders.","sound":"rebelrats_thackery_start4"},
+			{"text":"Awaiting for combat orders.","sound":"rebelrats_thackery_start5"}
 		],
 		"start_boss":[
-			{"text":"H- Helmsman, rig ship for flank speed."},
-			{"text":"Th- this isn't good..."}
+			{"text":"H- Helmsman, rig ship for flank speed.","sound":"rebelrats_thackery_startbossline1"},
+			{"text":"Th- this isn't good...","sound":"rebelrats_thackery_startbossline2"},
 		],		
 		"retreat":[
-			{"text":"Helmsman, rig ship for emergency war power, we're out."},
-			{"text":"Battle's lost, Thackery out."}
+			{"text":"Helmsman, rig ship for emergency war power, we're out.","sound":"rebelrats_thackery_retreatline1"},
+			{"text":"Battle's lost, Thackery out.","sound":"rebelrats_thackery_retreatline2"}
 		],
 		"out_of_missiles":[
-			{"text":"Missiles expended."},
-			{"text":"Missiles depleted."}
+			{"text":"Missiles expended.","sound":"rebelrats_thackery_missileline1"},
+			{"text":"Missiles depleted.","sound":"rebelrats_thackery_missileline2"}
 		],
 		"engaged":[
-			{"text":"Target confirmed, Thackery engaging."},
-			{"text":"Gunner, I want that ship foundered"},
-			{"text":"HAVE AT THEE!"},
-			{"text":"Thackery reporting, engaging hostiles."},
-			{"text":"Rip and tear!"}
+			{"text":"Target confirmed, Thackery engaging.","sound":"rebelrats_thackery_engage1"},
+			{"text":"Gunner, I want that ship foundered","sound":"rebelrats_thackery_engage2"},
+			{"text":"HAVE AT THEE!","sound":"rebelrats_thackery_engage3"},
+			{"text":"Thackery reporting, engaging hostiles.","sound":"rebelrats_thackery_engage4"},
+			{"text":"Rip and tear!","sound":"rebelrats_thackery_engage5"}
 		],
 		"need_help":[
-			{"text":"Need some help."},
-			{"text":"Thackery requesting assistance, situation is not in our favor."}
+			{"text":"Need some help.","sound":"rebelrats_thackery_needhelpline1"},
+			{"text":"Thackery requesting assistance, situation is not in our favor.","sound":"rebelrats_thackery_needhelpline2"}
 		],
 		"pursuing":[
-			{"text":"Start praying, pests!"},
-			{"text":"Contact, Thackery moving to intercept point."},
-			{"text":"Helmsman, plot to intercept."}
+			{"text":"Start praying, pests!","sound":"rebelrats_thackery_pursuingline1"},
+			{"text":"Contact, Thackery moving to intercept point.","sound":"rebelrats_thackery_pursuingline2"},
+			{"text":"Helmsman, plot to intercept.","sound":"rebelrats_thackery_pursuingline3"}
 		],
 		"running":[
-			{"text":"Hmm, Helmsman, keep our distance."},
-			{"text":"This is unfortunate, Thackery disengaging."},
-			{"text":"We're out, pressure is too high"}
+			{"text":"Hmm, Helmsman, keep our distance.","sound":"rebelrats_thackery_runningline1"},
+			{"text":"This is unfortunate, Thackery disengaging.","sound":"rebelrats_thackery_runningline2"},
+			{"text":"We're out, pressure is too high","sound":"rebelrats_thackery_runningline3"}
 		],
 		"hull_90":[
-			{"text":"That's quite rude."},
-			{"text":"This is the Persean's finest?"},
-			{"text":"That's not how you would treat a lady."}
+			{"text":"That's quite rude.","sound":"rebelrats_thackery_hull90line1"},
+			{"text":"This is the Persean's finest?","sound":"rebelrats_thackery_hull90line2"},
+			{"text":"That's not how you would treat a lady.","sound":"rebelrats_thackery_hull90line3"}
 		],
 		"hull_50":[
-			{"text":"That all you got?"},
-			{"text":"Fire in the bridge!"},
-			{"text":"Can someone please plug that hole."},
-			{"text":"Main pressure hull venting atmosphere."},
-			{"text":"Critical systems damaged!"}
+			{"text":"That all you got?","sound":"rebelrats_thackery_hull50line1"},
+			{"text":"Fire in the bridge!","sound":"rebelrats_thackery_hull50line2"},
+			{"text":"Can someone please plug that hole.","sound":"rebelrats_thackery_hull50line3"},
+			{"text":"Main pressure hull venting atmosphere.","sound":"rebelrats_thackery_hull50line4"},
+			{"text":"Critical systems damaged!","sound":"rebelrats_thackery_hull50line5"}
 		],
 		"hull_30":[
-			{"text":"General Quarters, all unnecessary crew are to prepare lifeboats."},
-			{"text":"This isn't good."},
-			{"text":"What do you mean the Helmsman's been vented?"},
-			{"text":"Reactor's failing, Damage Control, stabilize it!"},
-			#{"text":"Breach in starboard fusion chamber!"}
+			{"text":"General Quarters, all unnecessary crew are to prepare lifeboats.","sound":"rebelrats_thackery_hull30line1"},
+			{"text":"This isn't good.","sound":"rebelrats_thackery_hull30line2"},
+			{"text":"What do you mean the Helmsman's been vented?","sound":"rebelrats_thackery_hull30line3"},
+			{"text":"Reactor's failing, Damage Control, stabilize it!","sound":"rebelrats_thackery_hull30line4"},
+			#,{"text":"Breach in starboard fusion chamber!","sound":"rebelrats_thackery_hull30line4"}
 		],
 		"overload":[
-			{"text":"Engine's dead, Thackery requesting cover."},
-			{"text":"Engine's dead, get it back up and running."},
-			{"text":"We're dead in the void, Thackery requesting assistance."}
+			{"text":"Engine's dead, Thackery requesting cover.","sound":"rebelrats_thackery_overloadline1"},
+			{"text":"Engine's dead, get it back up and running.","sound":"rebelrats_thackery_overloadline2"},
+			{"text":"We're dead in the void, Thackery requesting assistance.","sound":"rebelrats_thackery_overloadline3"}
 		],
 		"death":[
-			{"text":"Thackery signing out."},
-			{"text":"All these dreams and aspirations for nothing."},
-			{"text":"Why did I choose to struggle."},
-			{"text":"I still couldn't do it."}
+			{"text":"Thackery signing out.","sound":"rebelrats_thackery_death1"},
+			{"text":"All these dreams and aspirations for nothing.","sound":"rebelrats_thackery_death2"},
+			{"text":"Why did I choose to struggle.","sound":"rebelrats_thackery_death3"},
+			{"text":"I still couldn't do it.","sound":"rebelrats_thackery_death4"}
 		],
 		"victory":[
-			{"text":"All in a day's work."},
-			{"text":"Area secured, begin crew recovery procedures."},
-			{"text":"Let's go! another day, another victory."},
-			{"text":"Hah ha! serves them right."}
+			{"text":"All in a day's work.","sound":"rebelrats_thackery_victoryline1"},
+			{"text":"Area secured, begin crew recovery procedures.","sound":"rebelrats_thackery_victoryline2"},
+			{"text":"Let's go! another day, another victory.","sound":"rebelrats_thackery_victoryline3"},
+			{"text":"Hah ha! serves them right.","sound":"rebelrats_thackery_victoryline4"}
 		],
 	}
 }

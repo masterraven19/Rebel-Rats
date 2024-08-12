@@ -48,6 +48,6 @@
       105
     ]
   },
-  "fireSoundOne": "spinaldoldrums_charging",
-  "fireSoundTwo": "spinaldoldrums_firing"
+  "fireSoundOne": "rebelrats_spinaldoldrums_charging",
+  "fireSoundTwo": "rebelrats_spinaldoldrums_firing"
 }

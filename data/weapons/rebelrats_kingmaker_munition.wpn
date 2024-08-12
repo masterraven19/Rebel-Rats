@@ -52,6 +52,6 @@
       200
     ]
   },
-  "fireSoundOne": "doldrums_charging",
-  "fireSoundTwo": "doldrums_firing_segment"
+  "fireSoundOne": "rebelrats_doldrums_charging",
+  "fireSoundTwo": "rebelrats_doldrums_firing_segment"
 }

@@ -53,6 +53,6 @@
       200
     ]
   },
-  "fireSoundOne": "kingmaker_charging",
-  "fireSoundTwo": "kingmaker_firing"
+  "fireSoundOne": "rebelrats_kingmaker_charging",
+  "fireSoundTwo": "rebelrats_kingmaker_firing"
 }
