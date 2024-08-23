@@ -47,7 +47,7 @@
     0,
     0
   ],
-  "barrelMode": "DUAL",
+  "barrelMode": "ALTERNATING",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
     "length": 20,
