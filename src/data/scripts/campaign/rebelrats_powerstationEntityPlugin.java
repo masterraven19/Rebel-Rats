@@ -1,6 +1,7 @@
 package data.scripts.campaign;
 
 import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.campaign.FactionAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.BaseCampaignObjectivePlugin;
@@ -13,7 +14,6 @@ public class rebelrats_powerstationEntityPlugin extends BaseCampaignObjectivePlu
     //private int reqrep = 75;
     // market condition will do the effects to be less buggy
     private float elapsed = 0;
-
     public void init(SectorEntityToken entity, Object pluginParams) {
         super.init(entity, pluginParams);
         readResolve();
@@ -29,24 +29,26 @@ public class rebelrats_powerstationEntityPlugin extends BaseCampaignObjectivePlu
 
         if (elapsed > dur) {
             elapsed -= dur;
-            for (MarketAPI m : Misc.getNearbyMarkets(entity.getLocationInHyperspace(), 10F)) {
-                if (m.hasCondition(rebelrats_Conditions.KRYSAN_AID) && !m.getFactionId().equals("rebelrats") && !m.getFactionId().equals("player")) {
+            String krysanOwner = Global.getSector().getEconomy().getMarket("rattus_market").getFactionId();
+            float aidRange = 15f;
+
+            if (!krysanOwner.matches("rebelrats")){
+                aidRange = 20F;
+            }
+
+            for (MarketAPI m : Misc.getNearbyMarkets(entity.getLocationInHyperspace(), aidRange)) {
+                boolean hasmc = m.hasCondition(rebelrats_Conditions.KRYSAN_AID);
+                FactionAPI faction = m.getFaction();
+
+                if(!hasmc){
+                    if (faction.getId().matches(krysanOwner) || faction.getRelationship(krysanOwner) >= 0.3f){
+                        m.addCondition(rebelrats_Conditions.KRYSAN_AID);
+                    }
+                }
+                if(hasmc && !faction.getId().matches(krysanOwner) && faction.getRelationship(krysanOwner) < 0.3f){
                     m.removeCondition(rebelrats_Conditions.KRYSAN_AID);
                 }
 
-                boolean hasmc = m.hasCondition(rebelrats_Conditions.KRYSAN_AID);
-                String faction = m.getFactionId();
-
-                if (!hasmc) {
-                    switch (faction) {
-                        case "rebelrats":
-                            m.addCondition(rebelrats_Conditions.KRYSAN_AID);
-                            break;
-                        case "player":
-                            m.addCondition(rebelrats_Conditions.KRYSAN_AID);
-                            break;
-                    }
-                }
             }
         }
     }
