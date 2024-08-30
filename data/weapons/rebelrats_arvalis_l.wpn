@@ -40,10 +40,10 @@
     "particleDuration": 0.15,
     "particleCount": 7,
     "particleColor": [
-      255,
-      240,
-      165,
-      200
+      0,
+      145,
+      238,
+      255
     ]
   },
   "fireSoundTwo": "rebelrats_arvalis_firing"

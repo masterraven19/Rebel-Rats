@@ -58,7 +58,7 @@
         {"file":"sounds/rebelrats/weapons/spinaldoldrums_firing1.ogg","pitch":1.00,"volume":0.8},
     ],
     "rebelrats_spinaldoldrums_charging": [
-        {"file":"sounds/rebelrats/weapons/spinaldoldrums_charging2.ogg","pitch":0.8,"volume":0.7},
+        {"file":"sounds/rebelrats/weapons/spinaldoldrums_charging2.ogg","pitch":0.8,"volume":0.5},
     ],
     "rebelrats_sorex_firing": [
         {"file":"sounds/rebelrats/weapons/Sorex_gun_firing.ogg","pitch":1.00,"volume":0.7},
