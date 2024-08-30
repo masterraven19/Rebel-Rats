@@ -7,7 +7,7 @@ ASG-203 Drummer Heavy Railgun,rebelrats_drummer_l,2,,6000,1000,,625,50,200,5,20,
 Mangonel Plasma Launcher,rebelrats_mangonel_l,2,,8000,900,,400,,100,8,24,9,0.5,1,ENERGY,480,,0,0.5,2,0.25,0,18,3,5,,1200,,,,,,STRIKE,"energy14, rebelrats_arsenal_bp",,The Three Brothers Corporation,,General,,,Slow,Poor,,,,,,
 Nezulana Assault Railgun,rebelrats_nezulana_l,2,,8000,1200,,500,,200,6,25,,,,KINETIC,700,,0,4.5,4,0.5,0,5,1,5,,1100,,,400,,,STRIKE,"kinetic14, rebelrats_arsenal_bp",,Arms & Armor,,Anti-Shield,,,Slow,Excellent,,,,,,
 AHG-308 Tripubus Saker,rebelrats_tripubus_l,1,,8000,900,,400,,100,5,18,,,,HIGH_EXPLOSIVE,360,,0,5,1,,0,10,3,10,,700,,,40,,,STRIKE,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Slow,Good,,,,,,
-ACG-210 Spinal Doldrums,rebelrats_babydoldrumspine_l,,,0,1100,,2400,100,300,60,0,,,,KINETIC,1200,,1.5,8.5,1,,0,6,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Cruiser,,,,,"On perforation, deals %s armor damage and 100 frag damage per explosion
+ACG-210 Spinal Doldrums,rebelrats_babydoldrumspine_l,,,0,1100,,2400,100,300,60,0,,,,KINETIC,1200,,0,10,1,,0,6,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Cruiser,,,,,"On perforation, deals %s armor damage and 100 frag damage per explosion
 Has a chance to trigger the shaped charge when hitting shields",100,,,,
 ACG-210 Goedendag Assault Railgun,rebelrats_goedendag_l,,,0,1100,,1200,100,300,60,0,,,,KINETIC,1200,,2.5,17,3,1.5,0,6,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,,,"On perforation, deals %s armor damage and 100 frag damage per explosion
 Has a chance to trigger the shaped charge when hitting shields",100,,,,
@@ -75,8 +75,8 @@ Mini Huntsman Torpedo,rebelrats_huntsman_f,,,0,1000,,600,,80,15,0,1,0.0001,,HIGH
 Hwacha SRM x3,rebelrats_hwacha_f,,,0,800,,50,,5,15,0,6,,,HIGH_EXPLOSIVE,0,,0,5,3,0.5,0,0,0,0,,400,150,3,50,,,"SYSTEM, ANTI_FTR, DO_NOT_CONSERVE, DO_NOT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Fighter,Medium,High,,,"Uses proximity warheads to maximize hit probability.
 
 Each shrapnel piece deals %s damage",30,,,TRUE,
-AFG-40 Ranger (f),rebelrats_ranger_f,,,0,400,,18,,1,75,0,,,,KINETIC,0,,0,.3,1,,0,4,1,15,,1300,,,10,,,"SYSTEM, PD","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
-AFG-20(2) Guardsman,rebelrats_guardsman_f,,,0,400,,25,,1,100,0,,,,KINETIC,0,,0,.15,1,,0,2,0.5,15,,900,,,5,,,"SYSTEM, PD, NO_TURN_RATE_BOOST_WHEN_IDLE","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
+AFG-40 Ranger (f),rebelrats_ranger_f,,,0,400,,18,,1,75,0,,,,KINETIC,0,,0,.2,1,,0,4,1,15,,1300,,,10,,,"SYSTEM, PD","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
+AFG-20(2) Guardsman,rebelrats_guardsman_f,,,0,400,,60,,1,100,0,,,,FRAGMENTATION,0,,0,.15,1,,0,2,0.5,15,,900,,,5,,,"SYSTEM, PD, NO_TURN_RATE_BOOST_WHEN_IDLE","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
 Vaybchek Plasma Howitzer,rebelrats_vaybchek,,,0,600,,300,,20,15,0,2,,,ENERGY,0,,0,3,1,,0,0,0,0,,700,,,40,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Pirate,,Strike,,,,,,,,,,
 Pyroclast Torpedo Bay,rebelrats_pyroclast_f,,,0,800,,1500,,75,20,0,1,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,0,0,0,,800,100,2,300,,,"SYSTEM, STRIKE, DIRECT_AIM, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Torpedo,Fast,Unguided,,,Secondary anti-matter charge inflicts additional %s fragmentation on hit,1200,,,TRUE,
 Felis LAWS,rebelrats_felis,,,0,700,500,,,30,100,0,,,,ENERGY,,500,0,.2,0.2,,,,,,100000,,,,,,,"SYSTEM, PD, ANTI_FTR","no_sell, no_drop, no_drop_salvage",,The Three Brothers Corporation,,Point Defense,,,Very Fast,Excellent,,,,,,
@@ -84,8 +84,8 @@ Ashford LAWS (f),rebelrats_ashford_f,,,0,400,400,,30,5,100,0,1,.5,1,FRAGMENTATIO
 Wing-mounted Falcon,rebelrats_falcon_f,,,0,1000,,1000,,40,15,0,1,0.0001,,FRAGMENTATION,0,,0,4.5,1,,0,0,0,0,,400,100,6,150,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Shield,Medium,Medium,,,"Specialized flechettes have been tailored to cause extra damage(%s) to shields
 
 Warhead size reduced due to fighter restrictions",300,,,TRUE,
-AHG-20 Chaingun,rebelrats_chaingun_f,,,0,400,,15,,1,75,0,,,,HIGH_EXPLOSIVE,0,,0,1.5,6,0.05,0,0,0,0,,800,,,10,,,"SYSTEM, PD","no_sell, no_drop, no_drop_salvage",,Arms & Armor,,Anti-Armor,,,Very Fast,Excellent,,,,,,
-Tephra Kinetic Rocket,rebelrats_tephra_f,,,0,800,,600,50,40,15,0,1,,,KINETIC,0,,0,1,1,,0,0,0,0,,600,0,2,200,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Shield Rocket,Very Fast,Unguided,,,,,,,TRUE,
+AHG-20 Chaingun,rebelrats_chaingun_f,,,0,400,,18,,1,75,0,,,,HIGH_EXPLOSIVE,0,,0,1.5,8,0.05,0,0,0,0,,1000,,,10,,,"SYSTEM, PD","no_sell, no_drop, no_drop_salvage",,Arms & Armor,,Anti-Armor,,,Very Fast,Excellent,,,,,,
+Tephra Kinetic Rocket,rebelrats_tephra_f,,,0,1200,,600,50,40,15,0,1,,,KINETIC,0,,0,1,1,,0,0,0,0,,600,0,2,200,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Shield Rocket,Very Fast,Unguided,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #SPECIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ACG-380 Kingmaker (Post-hit),rebelrats_kingmaker_munition,,,0,800,,4000,,300,5,0,,,,FRAGMENTATION,0,,2.5,27.5,1,,0,4,1,10,,1500,,,700,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Capital Ship,,,,,"What remains of the Kingmaker's rod after penetrating a ship, on hit explodes into frag dealing %s damage",80,,,,
@@ -93,7 +93,7 @@ Railgun shrapnel (decorative),rebelrats_railgun_shrapnel,,,0,200,,0,,1,0,0,,,,FR
 AFG-76 Custodian (secondary),rebelrats_custodian_munition,,,0,90,,80,,12,0,0,,,,FRAGMENTATION,0,,0,0,1,,0,12,2,6,,700,,,30,,,SYSTEM,"no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
 AFG-155C Hawker (secondary),rebelrats_hawker_munition,,,0,100,,80,,1,0,0,,,,FRAGMENTATION,0,,0,0,1,,0,10,1,10,,1300,,,10,,,SYSTEM,"no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
 Rattenjager (secondary),rebelrats_rattenjager_munition,,,0,100,,50,,1,0,0,,,,FRAGMENTATION,0,,0,0,1,,0,10,1,10,,1300,,,10,,,SYSTEM,"no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
-Hwacha (secondary),rebelrats_hwacha_munition,,,0,100,,35,,1,0,0,,,,FRAGMENTATION,0,,0,0,1,,0,10,1,10,,1300,,,10,,,SYSTEM,"no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
+Hwacha (secondary),rebelrats_hwacha_munition,,,0,100,,60,,1,0,0,,,,FRAGMENTATION,0,,0,0,1,,0,10,1,10,,1300,,,10,,,SYSTEM,"no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
 Chaff (secondary),rebelrats_chaff_munition,,,0,200,,10,,,,,,,,ENERGY,,,0,0,1,,0,0,0,0,,200,100,5,500,,,SYSTEM,"no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
 Petard (secondary),rebelrats_petard_canister,,,0,1000,2500,,,1,40,0,,,,HIGH_EXPLOSIVE,,1200,0,0.05,0.95,,,,,,10000,,,,,,,"SYSTEM, DANGEROUS","no_sell, no_drop, no_drop_salvage, fires_one_burst",,Rebel Rats,,Finisher,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
