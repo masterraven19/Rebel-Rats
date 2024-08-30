@@ -1,0 +1,23 @@
+{
+	"id":"rebelrats_arvalis_plasma",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"onHitEffect":"data.scripts.weapons.rebelrats_arvalisEffect",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":30.0,
+	"width":10.0,
+	"hitGlowRadius":50,
+	"fadeTime":0.25,
+	"fringeColor":[0,145,238,255],
+	"coreColor":[99,194,255,200],
+	"glowColor":[0,145,238,255],
+	"glowRadius":30,
+	#"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	#"textureScrollSpeed":64.0,
+	#"pixelsPerTexel":5.0
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

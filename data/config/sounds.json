@@ -224,4 +224,7 @@
      "rebelrats_thackery_victoryline4": [
         {"file":"sounds/rebelrats/rr_voicelines/thackeryvictoryline4.ogg","pitch":1.00,"volume":10},
      ],
+     "rebelrats_arvalis_firing": [
+     {"file":"sounds/rebelrats/weapons/arvalis_firing.ogg","pitch":1.00,"volume":1},
+     ],
  }
