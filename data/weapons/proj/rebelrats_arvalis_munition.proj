@@ -1,10 +1,10 @@
 {
-	"id":"rebelrats_arvalis_plasma",
+	"id":"rebelrats_arvalis_munition",
 	"specClass":"projectile",
 	#"spawnType":"BEAM",
 	"spawnType":"BALLISTIC_AS_BEAM",
 	"collisionClass":"RAY",
-	"onHitEffect":"data.scripts.weapons.rebelrats_arvalisEffect",
+	#"onHitEffect":"data.scripts.weapons.rebelrats_arvalisEffect",
 	#"onFireEffect":"data.scripts.weapons.rebelrats_arvalisEffect",
 	"collisionClassByFighter":"RAY_FIGHTER",
 	"length":30.0,

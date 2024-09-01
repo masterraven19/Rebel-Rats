@@ -1,7 +1,7 @@
 {
-  "id": "rebelrats_arvalis_l",
+  "id": "rebelrats_arvalis_munition",
   "specClass": "projectile",
-  "projectileSpecId": "rebelrats_arvalis_plasma",
+  "projectileSpecId": "rebelrats_arvalis_munition",
   "type": "ENERGY",
   "size": "LARGE",
   "displayArcRadius": 250,

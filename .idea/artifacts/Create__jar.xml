@@ -51,6 +51,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rulecmd/rebelrats_doIsTrueCheck.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/impl/rebelrats_Constabulary.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_arvalisEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_arvalisPostEffect.java" />
     </root>
   </artifact>
 </component>
