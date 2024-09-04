@@ -7,7 +7,7 @@ import data.scripts.combat.rebelrats_arvalisPostEffect;
 import org.lwjgl.util.vector.Vector2f;
 
 public class rebelrats_arvalisEffect implements OnHitEffectPlugin{
-    private float shieldBounceChance = 0.3F;
+    private float shieldBounceChance = 0.5F;
 
     public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target,
                       Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {

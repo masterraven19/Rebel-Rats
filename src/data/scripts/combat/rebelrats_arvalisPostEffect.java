@@ -3,9 +3,11 @@ package data.scripts.combat;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.impl.combat.BreachOnHitEffect;
 import com.fs.starfarer.api.input.InputEventAPI;
+import com.fs.starfarer.api.loading.DamagingExplosionSpec;
 import org.lwjgl.util.vector.Vector2f;
 
 import java.awt.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class rebelrats_arvalisPostEffect extends BaseEveryFrameCombatPlugin {
@@ -48,22 +50,30 @@ public class rebelrats_arvalisPostEffect extends BaseEveryFrameCombatPlugin {
             float ratio = numExplosions / maxExplosions;
             Vector2f exploloc = rebelrats_combatUtils.calcLocWAngle(facing,shipLength * ratio, projloc);
 
-            ShipAPI ship = (ShipAPI) target;
-            ArmorGridAPI grid = ship.getArmorGrid();
-            int[] cell = grid.getCellAtLocation(exploloc);
-            if(cell == null){
+            /*
+            List<Vector2f> points = new ArrayList<>();
+            for(BoundsAPI.SegmentAPI S : target.getExactBounds().getSegments()){
+                points.add(S.getP1());
+            }
+            boolean isJoe = rebelrats_combatUtils.isPointInPoints(points,exploloc);
+            if(!isJoe){
                 CombatEntityAPI newproj = engine.spawnProjectile(null, null,"rebelrats_arvalis_munition",exploloc, facing,null);
                 engine.addPlugin(new rebelrats_arvalisPostEffect(newproj,true,target,engine));
                 numExplosions = maxExplosions;
                 return;
-            }
+            }*/
 
             BreachOnHitEffect.dealArmorDamage((DamagingProjectileAPI) proj,(ShipAPI) target,exploloc,armorDmg);
 
             rebelrats_addExplosionFx explosionFx = new rebelrats_addExplosionFx();
-            explosionFx.addExplosion("graphics/fx/explosion_ring0.png",null,new Vector2f(50,50),new Vector2f(100,100),exploloc,new Vector2f(0,0), new Color(235,163,54),1.5F,2,2.2F,0,(float) Math.random() * 180,0.8F,false);
+            explosionFx.addExplosion("graphics/fx/explosion_ring0.png",null,new Vector2f(6,6),new Vector2f(50,50),exploloc,new Vector2f(0,0), new Color(22, 153, 196),1.5F,0.1f,2.2F,0,(float) Math.random() * 180,0.8F,false);
             CombatEntityAPI e = engine.addLayeredRenderingPlugin(explosionFx);
             e.getLocation().set(exploloc);
+
+            if(numExplosions == maxExplosions - 1){
+                CombatEntityAPI newproj = engine.spawnProjectile(null, null,"rebelrats_arvalis_munition",exploloc, facing,null);
+                engine.addPlugin(new rebelrats_arvalisPostEffect(newproj,true,target,engine));
+            }
         }
     }
 }
