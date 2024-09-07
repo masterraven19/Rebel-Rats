@@ -19,7 +19,7 @@ public class rebelrats_arvalisPostEffect extends BaseEveryFrameCombatPlugin {
     private Vector2f projloc;
     private boolean PorB;
     private boolean right = (Math.random() < 0.5f);
-    private float armorDmg = 1;
+    private float armorDmg = 2;
     private float numExplosions = 0;
     private float maxExplosions = 10;
     private float facing;
@@ -31,7 +31,7 @@ public class rebelrats_arvalisPostEffect extends BaseEveryFrameCombatPlugin {
         this.projloc = proj.getLocation();
         this.facing = proj.getFacing();
         this.target = target;
-        this.shipLength = target.getCollisionRadius();
+        this.shipLength = target.getCollisionRadius() * 1.2f;
         this.PorB = PenOrBounce;
         this.engine = engine;
     }
