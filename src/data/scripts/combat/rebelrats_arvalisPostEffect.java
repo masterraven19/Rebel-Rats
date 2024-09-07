@@ -1,13 +1,15 @@
 package data.scripts.combat;
 
-import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.BaseEveryFrameCombatPlugin;
+import com.fs.starfarer.api.combat.CombatEntityAPI;
+import com.fs.starfarer.api.combat.CombatEngineAPI;
+import com.fs.starfarer.api.combat.DamagingProjectileAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.impl.combat.BreachOnHitEffect;
 import com.fs.starfarer.api.input.InputEventAPI;
-import com.fs.starfarer.api.loading.DamagingExplosionSpec;
 import org.lwjgl.util.vector.Vector2f;
 
 import java.awt.*;
-import java.util.ArrayList;
 import java.util.List;
 
 public class rebelrats_arvalisPostEffect extends BaseEveryFrameCombatPlugin {
@@ -17,7 +19,7 @@ public class rebelrats_arvalisPostEffect extends BaseEveryFrameCombatPlugin {
     private Vector2f projloc;
     private boolean PorB;
     private boolean right = (Math.random() < 0.5f);
-    private float armorDmg = 5;
+    private float armorDmg = 2;
     private float numExplosions = 0;
     private float maxExplosions = 10;
     private float facing;
@@ -29,7 +31,7 @@ public class rebelrats_arvalisPostEffect extends BaseEveryFrameCombatPlugin {
         this.projloc = proj.getLocation();
         this.facing = proj.getFacing();
         this.target = target;
-        this.shipLength = target.getCollisionRadius();
+        this.shipLength = target.getCollisionRadius() * 1.2f;
         this.PorB = PenOrBounce;
         this.engine = engine;
     }
@@ -49,19 +51,6 @@ public class rebelrats_arvalisPostEffect extends BaseEveryFrameCombatPlugin {
 
             float ratio = numExplosions / maxExplosions;
             Vector2f exploloc = rebelrats_combatUtils.calcLocWAngle(facing,shipLength * ratio, projloc);
-
-            /*
-            List<Vector2f> points = new ArrayList<>();
-            for(BoundsAPI.SegmentAPI S : target.getExactBounds().getSegments()){
-                points.add(S.getP1());
-            }
-            boolean isJoe = rebelrats_combatUtils.isPointInPoints(points,exploloc);
-            if(!isJoe){
-                CombatEntityAPI newproj = engine.spawnProjectile(null, null,"rebelrats_arvalis_munition",exploloc, facing,null);
-                engine.addPlugin(new rebelrats_arvalisPostEffect(newproj,true,target,engine));
-                numExplosions = maxExplosions;
-                return;
-            }*/
 
             BreachOnHitEffect.dealArmorDamage((DamagingProjectileAPI) proj,(ShipAPI) target,exploloc,armorDmg);
 
