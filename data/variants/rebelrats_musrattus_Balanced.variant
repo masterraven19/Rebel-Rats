@@ -8,9 +8,9 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "missleracks",
-    "heavyarmor",
-    "auxiliarythrusters"
+    "auxiliarythrusters",
+    "targetingunit",
+    "magazines"
   ],
   "weaponGroups": [
     {

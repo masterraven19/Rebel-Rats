@@ -40,7 +40,7 @@
         {"file":"sounds/rebelrats/weapons/Braggador_firing2.ogg","pitch":1.00,"volume":0.7},
     ],
     "rebelrats_crossbow_firing":[
-        {"file":"sounds/rebelrats/weapons/Crossbow_firing2.ogg","pitch":1.00,"volume":0.2},
+        {"file":"sounds/rebelrats/weapons/Crossbow_firing2.ogg","pitch":1.00,"volume":0.3},
     ],
     "rebelrats_nezulana_firing": [
         {"file":"sounds/rebelrats/weapons/nezulana_firing2.ogg","pitch":1.00,"volume":0.7},
@@ -49,7 +49,7 @@
         {"file":"sounds/rebelrats/weapons/drummer_firing.ogg","pitch":1.00,"volume":0.8},
     ],
     "rebelrats_petardcanister_firing": [
-        {"file":"sounds/rebelrats/weapons/petardcanister_firing.ogg","pitch":1.00,"volume":1},
+        {"file":"sounds/rebelrats/weapons/petardcanister_firing.ogg","pitch":1.00,"volume":0.8},
     ],
     "rebelrats_poacher_firing": [
         {"file":"sounds/rebelrats/weapons/poacher_firing3.ogg","pitch":1.00,"volume":0.2},
@@ -64,13 +64,13 @@
         {"file":"sounds/rebelrats/weapons/Sorex_gun_firing.ogg","pitch":1.00,"volume":0.7},
     ],
     "rebelrats_kingmaker_firing": [
-        {"file":"sounds/rebelrats/weapons/kingmaker_firing.ogg","pitch":1.00,"volume":1},
+        {"file":"sounds/rebelrats/weapons/kingmaker_firing.ogg","pitch":1.00,"volume":0.7},
     ],
     "rebelrats_kingmaker_charging": [
-        {"file":"sounds/rebelrats/weapons/kingmaker_charging.ogg","pitch":1.00,"volume":1},
+        {"file":"sounds/rebelrats/weapons/kingmaker_charging.ogg","pitch":1.00,"volume":0.7},
     ],
     "rebelrats_mischief_firing": [
-        {"file":"sounds/rebelrats/weapons/mischief_firing.ogg","pitch":1.00,"volume":1},
+        {"file":"sounds/rebelrats/weapons/mischief_firing.ogg","pitch":1.00,"volume":0.8},
     ],
     "rebelrats_engine_loop":{
         "sounds":[
