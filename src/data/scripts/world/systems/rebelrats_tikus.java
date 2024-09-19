@@ -65,14 +65,14 @@ public class rebelrats_tikus {
                 "Tikus I",
                 "gas_giant",
                 135,
-                400,
+                300,
                 3500,
                 116);
         tikus.setCustomDescriptionId("rebelrats_tikus_gasGiant");
         tikus.setFaction("rebelrats");
 
         SectorEntityToken stableLoc2 = system.addCustomEntity("tikus_stableloc2", "Comm Relay", "comm_relay", "rebelrats");
-        stableLoc1.setCircularOrbit(tikus, 290, 1000, 70);
+        stableLoc2.setCircularOrbit(tikus, 290, 600, 20);
 
         PlanetAPI tikusII = system.addPlanet("rebelrats_tikusII",
                 systemstar,

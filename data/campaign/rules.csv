@@ -12,6 +12,72 @@ SetShortcut defaultLeave ""ESCAPE""",,defaultLeave:Leave,
 SetShortcut beaconLeave ""ESCAPE""",An autonomous warning beacon has been left emitting a distorted wail between official channels. Whatever message it was meant to convey has been corrupted.,beaconLeave:Leave,
 #END warning beacons,,,,,,
 ,,,,,,
+#MARKET INTERACTIONS TEXT,,,,,,
+rebelrats_rattusInteractionText,MarketPostOpen,"$hasMarket
+$market.id == rattus_market
+$player.transponderOn
+!$faction.isNeutralFaction","$tradeMode = OPEN 0
+FireBest MarketPostDock",Me ratta approacha gianta rataaaa,,
+rebelrats_malusInteractionText,MarketPostOpen,"$hasMarket
+$market.id == malus_market
+!$player.transponderOn","$tradeMode = OPEN 0
+FireBest MarketPostDock",stinky pirate,,
+rebelrats_nutriaInteractionText,MarketPostOpen,"$hasMarket
+$market.id == nutria_market
+$player.transponderOn
+!$faction.isNeutralFaction","$tradeMode = OPEN 0
+FireBest MarketPostDock",mmm nutrients,,
+rebelrats_magawaInteractionText,MarketPostOpen,"$hasMarket
+$market.id == magawa_market
+$player.transponderOn
+!$faction.isNeutralFaction","$tradeMode = OPEN 0
+FireBest MarketPostDock",hold the rat fort,,
+rebelrats_rodentiaInteractionText,MarketPostOpen,"$hasMarket
+$market.id == rodentia_market
+$player.transponderOn
+!$faction.isNeutralFaction","$tradeMode = OPEN 0
+FireBest MarketPostDock",why the it so baddd its ocming out ,,
+rebelrats_outerstationInteractionText,MarketPostOpen,"$hasMarket
+$market.id == outerstation_market
+$player.transponderOn
+!$faction.isNeutralFaction","$tradeMode = OPEN 0
+FireBest MarketPostDock",i forgot you ,,
+rebelrats_tikusInteractionText,MarketPostOpen,"$hasMarket
+$market.id == tikus_market
+$player.transponderOn
+!$faction.isNeutralFaction","$tradeMode = OPEN 0
+FireBest MarketPostDock",tik ,,
+rebelrats_tikusII_InteractionText,MarketPostOpen,"$hasMarket
+$market.id == tikusII_market
+$player.transponderOn
+!$faction.isNeutralFaction","$tradeMode = OPEN 0
+FireBest MarketPostDock",tik tik ,,
+rebelrats_tikusIII_InteractionText,MarketPostOpen,"$hasMarket
+$market.id == tikusIII_market
+$player.transponderOn
+!$faction.isNeutralFaction","$tradeMode = OPEN 0
+FireBest MarketPostDock",tik tik tik ,,
+,,,,,,
+#MARKET FLAVOR TEXT,,,,,,
+rebelrats_rattusFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$market.id == rattus_market","AddText ""A rat greets you in a business suit ready to trade"" marketFlavorTextColor",,,
+rebelrats_malusFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$market.id == malus_market","AddText ""A rat in a pirate suit greets you ready to trade"" marketFlavorTextColor",,,
+rebelrats_nutriaFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$market.id == nutria_market","AddText ""rats dressed in gnarly cold outfits greet you ready to trade supplise"" marketFlavorTextColor",,,
+rebelrats_magawaFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$market.id == magawa_market","AddText ""Rats armed with armour made out of hardened cheese and cheese weapons greet you ready to trade supplies and weapons"" marketFlavorTextColor",,,
+rebelrats_rodentiaFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$market.id == rodentia_market","AddText ""Rats with a green odor coming out of them greet you ready to trade moldy cheese."" marketFlavorTextColor",,,
+rebelrats_outerstationFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$market.id == outerstation_market","AddText ""Old rats that look like they have been forgotten greet you ready to bake you cookies."" marketFlavorTextColor",,,
+rebelrats_tikusFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$market.id == tikus_market","AddText ""Tik"" marketFlavorTextColor",,,
+rebelrats_tikusII_FlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$market.id == tikusII_market","AddText ""Tik Tik"" marketFlavorTextColor",,,
+rebelrats_tikusIII_FlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$market.id == tikusIII_market","AddText ""Tik Tik Tik"" marketFlavorTextColor",,,
+,,,,,,
 # stations,,,,,,
 rebelrats_powerstationOpenDialog,OpenInteractionDialog,$customType == rebelrats_powerstation,"ShowDefaultVisual
 SetShortcut rebelrats_powerstation_Leave ""ESCAPE""",As your fleet approaches the power station you receive a warning notification to divert your current course with the gunnery officer warning that several targetting lasers have painted the fleet. Your executive officer advises you not to escalate further.,"0:rebelrats_powerstation_Leave:""Divert course.""",

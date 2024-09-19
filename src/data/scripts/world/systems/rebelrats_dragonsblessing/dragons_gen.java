@@ -56,7 +56,7 @@ public class dragons_gen {
         system.addAsteroidBelt(systemstar, 100, 2500, 270f, 82, 83, Terrain.ASTEROID_BELT, "Astero Belt");
         system.addRingBand(systemstar, "misc", "rings_asteroids0", 270, 2, Color.darkGray, 270, 2500, 83);
         //third ring
-        system.addAsteroidBelt(systemstar, 0, 2900, 230f, 95, 96, Terrain.RING, "MARMOT ZZZZ");
+        system.addAsteroidBelt(systemstar, 0, 2900, 230f, 95, 96, Terrain.RING, "Mozarella");
         system.addRingBand(systemstar, "misc", "rings_dust0", 230, 0, Color.lightGray, 230, 2900, 96);
         //fourth ring (infinity rings)
         system.addAsteroidBelt(systemstar, 400, 6900, 200f, 229, 230, Terrain.ASTEROID_BELT, "Cold Belt");
@@ -91,44 +91,44 @@ public class dragons_gen {
                 "Malus", 
                 "arid", 
                 200, 
-                160f, 
+                140f,
                 2700,
                 90);
         malus.setCustomDescriptionId("rebelrats_malus_planet"); //reference descriptions.csv
         malus.setFaction(Factions.PIRATES);
-        //the rebel rats home
-        PlanetAPI rattus = system.addPlanet("rebelrats_krysa",
-                systemstar,
-                "Krysa",
-                Planets.PLANET_TERRAN,
-                235,
-                190f,
-                4800,
-                160);
-        rattus.setCustomDescriptionId("rebelrats_rattus_planet"); //reference descriptions.csv
-        rattus.setFaction("rebelrats");
-        //the rats mine
-        PlanetAPI magawa = system.addPlanet("rebelrats_magawa", 
-                rattus, 
-                "Magawa", 
-                "barren", 
-                240,
-                60f, 
-                1200,
-                40);
-        magawa.setCustomDescriptionId("rebelrats_magawa_moon"); //reference descriptions.csv
-        magawa.setFaction("rebelrats");
         //stinky
-        PlanetAPI rodentia = system.addPlanet("rebelrats_rodentia", 
-                systemstar, 
-                "Rodentia", 
+        PlanetAPI rodentia = system.addPlanet("rebelrats_rodentia",
+                systemstar,
+                "Rodentia",
                 "rebelrats_fart_giant",
                 260,
-                300f, 
+                300f,
                 4800,
                 160);
         rodentia.setCustomDescriptionId("rebelrats_rodentia_planet"); //reference descriptions.csv
         rodentia.setFaction("rebelrats");
+        //the rebel rats home
+        PlanetAPI rattus = system.addPlanet("rebelrats_krysa",
+                rodentia,
+                "Krysa",
+                Planets.PLANET_TERRAN,
+                235,
+                170f,
+                1300,
+                43);
+        rattus.setCustomDescriptionId("rebelrats_rattus_planet"); //reference descriptions.csv
+        rattus.setFaction("rebelrats");
+        //the rats mine
+        PlanetAPI magawa = system.addPlanet("rebelrats_magawa", 
+                rodentia,
+                "Magawa", 
+                "barren", 
+                235,
+                70f,
+                1800,
+                60);
+        magawa.setCustomDescriptionId("rebelrats_magawa_moon"); //reference descriptions.csv
+        magawa.setFaction("rebelrats");
         
         system.addAsteroidBelt(rodentia, 0, 550, 270f, 8, 9, Terrain.RING, "Rodentia Belt");
         system.addRingBand(rodentia, "misc", "rings_dust0", 270, 0, Color.lightGray, 270, 550, 9);
