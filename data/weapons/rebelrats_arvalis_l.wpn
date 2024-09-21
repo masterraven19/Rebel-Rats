@@ -5,11 +5,10 @@
   "type": "ENERGY",
   "size": "LARGE",
   "displayArcRadius": 250,
-  #"everyFrameEffect":"data.scripts.weapons.rebelrats_arvalisEffect",
   "turretSprite": "graphics/rebelrats/weapons/arvalis_turret_base.png",
   "turretGlowSprite": "graphics/rebelrats/weapons/arvalis_turret_glow.png",
-  "hardpointSprite": "graphics/rebelrats/weapons/arvalis_turret_base.png",
-  "hardpointGlowSprite": "graphics/rebelrats/weapons/arvalis_turret_glow.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/arvalis_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/rebelrats/weapons/arvalis_hardpoint_glow.png",
   "glowColor": [
     255,
     255,
@@ -24,7 +23,7 @@
     0
   ],
   "hardpointOffsets": [
-    45,
+    30,
     0
   ],
   "hardpointAngleOffsets": [
