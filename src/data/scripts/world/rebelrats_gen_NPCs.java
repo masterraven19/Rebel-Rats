@@ -33,7 +33,7 @@ public class rebelrats_gen_NPCs {
         PersonAPI p = Global.getFactory().createPerson();
         FullName name = new FullName("Himichi","Thackery", FullName.Gender.FEMALE);
         p.setName(name);
-        p.setPortraitSprite(Global.getSettings().getSpriteName("characters", "rebelrats_nazarin"));
+        p.setPortraitSprite(Global.getSettings().getSpriteName("characters", "rebelrats_genericOfficer"));
         p.setId("rebelrats_thackery");
         p.setFaction("rebelrats");
         String post = "rebelrats_Officer";

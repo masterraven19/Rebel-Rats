@@ -19,7 +19,7 @@ public class rebelrats_arvalisPostEffect extends BaseEveryFrameCombatPlugin {
     private Vector2f projloc;
     private boolean PorB;
     private boolean right = (Math.random() < 0.5f);
-    private float armorDmg = 2;
+    private float armorDmg = 20;
     private float numExplosions = 0;
     private float maxExplosions = 10;
     private float facing;
