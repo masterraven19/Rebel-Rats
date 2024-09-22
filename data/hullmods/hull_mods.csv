@@ -16,6 +16,6 @@ INCOMPATIBLE,rebelrats_incompatible,,,,,,0,,TRUE,,0,0,0,0,data.scripts.hullmods.
 #comissionooonon,,,,,,,,,,,,,,,,,,,
 Krysan Fervor,rebelrats_cc,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.rebelrats_cc,"Krysan crew are known for their fervent behavior during battles, often displaying acts of bravery bordering on lunacy for the sake of victory. As battle-hardened folks, their ships tend to last longer in the heat of battle as Krysans ardently perform damage control whenever a lull in the fighting is found.
 
-Repairs start once ship HP reaches %s and the ship is repaired by %s/%s/%s/%s.
+Repairs start once ship HP drops to %s and the ship is repaired by %s/%s/%s/%s.
 
 At %s hull, the ship engages emergency war power, increasing ship acceleration and deceleration by %s and turn speed by %s",Repairs hull and provides increased acceleration when on low health.,,graphics/rebelrats/hullmods/Krysan_fervor.png

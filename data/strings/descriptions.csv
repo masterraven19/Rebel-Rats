@@ -27,6 +27,7 @@ rebelrats_rattenjager_m,WEAPON,The Rattenjager utilizes advanced algorithms and 
 rebelrats_rattenjager_array_m,WEAPON,A built-in array of Snapper APS for long-range hardkill interceptions,,,,
 rebelrats_petardlauncher_m,WEAPON,"Seeing that Petards already came in ready-to-use canisters, Krysans only had to mount thrusters and a rudimentary guidance system to make a simple, but effective, directed energy missile",,,,
 rebelrats_huntsman_salvo,WEAPON,Triple rack for Huntsman Torpedos,,,,
+rebelrats_pyroclast_salvo,WEAPON,Dual rack for Pyroclast Torpedos,,,,
 rebelrats_gyrolauncher_m,WEAPON,"The Sorex's Gyrojet Launcher is an example of an old type of weapon making a resurgence in the Krysan Navy arsenal as miniaturization of technology outpaced weapons development. The utilization of gyrojets means that the ship can forgo the need of a complicated recoil management system and focus on having a larger payload size. A basic beam riding system keeps the rocket relatively on target, but could never keep up with fast moving targets.",,,,
 rebelrats_jerboa_pyroclast_launcher,WEAPON,An integrated tube magazine of Pyroclast torpedos to be used for quickly disposing large targets.,,,,
 rebelrats_mischief_m,WEAPON,The Mischief uses a phased array of thousands of Green Rat Emitters to engage all targets within its range. The extra beams can be disabled by disabling the weapon group.,,,,
@@ -72,14 +73,14 @@ rebelrats_hippo,SHIP,"The Hippo is the standard skiff of Krysan Federal Navy. Th
 rebelrats_overseer,SHIP,"A light interceptor of the Krysan Federal Navy, the Overseer is a hardy fighter created by Arms & Armor. The craft comes equipped with a Hwacha missile rack and a pair of Ranger autocannons, making a wing of Overseers a threat to enemy shields.
 
 Will return to its carrier once missiles are expended.",,,,
-rebelrats_ministro,SHIP,"The Ministro is an unmanned interceptor designed by Rebel Rat Industries as a proposal to Krysan Navy officials to reduce pilot losses. It quickly found success with the advent of increasingly advanced drone control systems that allows finer control with unmanned systems.
+rebelrats_ministro,SHIP,"The Ministro is an unmanned interceptor designed by Rebel Rat Industries to reduce Federal Navy pilot losses. It quickly found success with the advent of increasingly advanced drone control systems that allows finer control over multiple unmanned systems by a single pilot.
 
 Will return to carrier once missiles are expended.",,,,
 rebelrats_patron_f,SHIP,"Cleverly set up microforges have allowed Federal ships to stuff an entire corvette into a hangar bay. Unfortunately, this means that only one Patron can be deployed per hangar bay with reduced capabilities.",,,,
 rebelrats_daekon,SHIP,"A fast assault fighter built to break the shields of the enemy spacecraft with falcon missiles and shred armor plates with assault chainguns.
 
 Will not return to carrier once missiles are expended.",,,,
-rebelrats_dustero,SHIP,"When a group of Belters found the Talon to be lacking, the Dustero was their answer. However, it is arguable if the Dustero is any more effective than its Persean counterpart. Despite its firepower, the Dustero lacks shields, missiles, and armor that lends it very little survivability during battles.",,,,
+rebelrats_dustero,SHIP,"When a group of Belters found the Talon to be lacking, the Dustero was their answer. It is arguable if the Dustero is any more effective than its Persean counterpart as, despite its firepower, the Dustero lacks the shields, missiles, and armor to keep itself alive in engagements.",,,,
 ,,,,,,
 #BOMBERS,,,,,,
 rebelrats_olympian,SHIP,"Despite shambolic origins of being created from scavenged Piranha bombers, the Olympian today is a capable bomber that dutifully does its job with enough armor and PD coverage for bombing runs. A recurring joke among Olympian pilots is that the onboard warhead contains a Red Bombardier Rat as its payload.",,,,"""What kind of barbarians would ever use an animal as its guidance system? That's preposterous!"""
@@ -265,7 +266,7 @@ rebelrats_outerstation,CUSTOM,"A station made of massive cobbled together astero
 
 Despite its ponderous appearance, the station is lightly-armed with very few large guns to speak off. The few dedicated defence modules that can be seen are a handful of jury-rigged gun platforms not too dissimilar to those found on Pirate or Pather stations.
 ",,,,
-rebelrats_station,SHIP,A heavily armed orbital station equipped with a battery of doldrums railguns.,,,,
+rebelrats_station,SHIP,A heavily armed orbital station equipped with a battery of Kingmaker railguns.,,,,
 ,,,,,,
 #UNKOWN,,,,,,
 rebelrats_lobsterclaw,WEAPON,"What.. what is this? What the hell- Avoid it at all costs. Dodge, parry even, avoid the beam of ultraheated lobsters at all costs!!!",,,,

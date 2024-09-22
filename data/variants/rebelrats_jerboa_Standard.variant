@@ -4,7 +4,7 @@
   "displayName": "Standard",
   "goalVariant": true,
   "fluxCapacitors": 8,
-  "fluxVents": 30,
+  "fluxVents": 32,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -31,11 +31,18 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "rebelrats_salvo_autoloader"
+        "WS0013": "rebelrats_jerboa_pyroclast_launcher"
       }
     },
     {
       "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "rebelrats_huntsman_sidelauncher"
+      }
+    },
+    {
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0009": "rebelrats_hwacha_m"
@@ -47,21 +54,18 @@
       "weapons": {
         "WS0002": "rebelrats_ashford",
         "WS0004": "rebelrats_ashford",
-        "WS0007": "rebelrats_ashford"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
         "WS0005": "rebelrats_fowler",
-        "WS0006": "rebelrats_fowler"
+        "WS0006": "rebelrats_fowler",
+        "WS0007": "rebelrats_ashford"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0015": "rebelrats_mischief_m",
+        "WS0016": "rebelrats_mischief_m"
+      }
     }
   ],
   "modules": [],

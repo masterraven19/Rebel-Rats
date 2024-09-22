@@ -34,7 +34,7 @@
       "size": "LARGE",
       "type": "BUILT_IN",
       "mount": "HARDPOINT",
-      "arc": 5,
+      "arc": 15,
       "angle": 0,
       "locations": [137, -0],
       "renderOrderMod": -4
@@ -164,7 +164,7 @@
       "size": "SMALL",
       "type": "DECORATIVE",
       "mount": "TURRET",
-      "arc": 1,
+      "arc": 0,
       "angle": 0,
       "locations": [143, -0]
     },

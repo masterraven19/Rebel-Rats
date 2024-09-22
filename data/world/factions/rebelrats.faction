@@ -175,6 +175,7 @@
                         "rebelrats_mangonel_l",
                         "rebelrats_nezulana_l",
                         "rebelrats_tripubus_l",
+                        "rebelrats_arvalis_l",
 
                         #medium
                         "rebelrats_braggador_m",
@@ -182,6 +183,7 @@
                         "rebelrats_custodian_m",
                         "rebelrats_falcon_m",
                         "rebelrats_huntsman_salvo",
+                        "rebelrats_pyroclast_salvo",
                         "rebelrats_hwacha_m",
                         "rebelrats_petard_m",
                         "rebelrats_petardlauncher_m",

@@ -1,26 +1,32 @@
 {
-  "id": "rebelrats_jerboa_pyroclast_launcher",
+  "id": "rebelrats_pyroclast_salvo",
   "specClass": "projectile",
   "projectileSpecId": "rebelrats_pyroclast_torp",
   "type": "MISSILE",
   "size": "MEDIUM",
-  "turretSprite": "graphics/rebelrats/weapons/jerboa_pyroclast_launcher.png",
-  "hardpointSprite": "graphics/rebelrats/weapons/jerboa_pyroclast_launcher.png",
+  "turretSprite": "graphics/rebelrats/weapons/pyroclastsalvo_missile_mount.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/pyroclastsalvo_missile_mount.png",
   "renderHints": [
-    #RENDER_LOADED_MISSILES_UNLESS_HIDDEN
+    RENDER_LOADED_MISSILES_UNLESS_HIDDEN
   ],
   "turretOffsets": [
-    7,
-    -1.5
+    -1,
+    5.5,
+    -1,
+    -5.5
   ],
   "turretAngleOffsets": [
+    0,
     0
   ],
   "hardpointOffsets": [
-    12,
-    -1.5
+    5,
+    5.5,
+    5,
+    -5.5
   ],
   "hardpointAngleOffsets": [
+    0,
     0
   ],
   "barrelMode": "ALTERNATING",
