@@ -17,66 +17,88 @@ rebelrats_rattusInteractionText,MarketPostOpen,"$hasMarket
 $market.id == rattus_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
-FireBest MarketPostDock",Me ratta approacha gianta rataaaa,,
+FireBest MarketPostDock","Port 11 brimmed with activity as people from all walks of life went about their daily routine, unbothered by the eclectic set of shuttles going in and out of port.
+
+Pass the port security checkpoints, children can be seen dashing their way around spacers in the concourse, some going with their parents, attracted by the smell of fresh bread, melted cheese, and grilled meat mingling together and wafting in the air.
+
+Beyond the menial food vendors were the wide-ranging shops in the bazaar who sold more niche items such as cyberhardware, or even the occasional starship parts; Persean wares seems to be all the madness for the guileless rodents.
+
+Krysa is like a home away from home.",,
 rebelrats_malusInteractionText,MarketPostOpen,"$hasMarket
 $market.id == malus_market
 !$player.transponderOn","$tradeMode = OPEN 0
-FireBest MarketPostDock",stinky pirate,,
+FireBest MarketPostDock","The rolling airlock of New Eden Cove roars to life with a menagerie of thumps and clunks, having seen better days with faded warning signs and burnt out bulbs.
+
+Passing the airlock, the yellow-lit hallways of New Eden Cove gave way to loose crowds of immigrants and undesirables huddling around makeshift dwellings, occasionally lit by the blare of the exterior sunlight. Looking down from the windows, processions of railcars, maintenance drones, and elevators of all manner snake down the underground caverns, marked by a procession of lights as their evidence of existence.
+
+Passing by the droves of arrivals, an overbuilt security checkpoint, manned by armed guards, marked the end of the hallway which lead up to one of the elevators to the underground portion of New Eden Cove.",,
 rebelrats_nutriaInteractionText,MarketPostOpen,"$hasMarket
 $market.id == nutria_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
-FireBest MarketPostDock",mmm nutrients,,
+FireBest MarketPostDock","Stepping off of the shuttle, a cold breeze filled the air, almost burning one's lungs. Plumes of steam from geysers and manholes alike emit a subtle smell of sulfur as one made their way through the promenade that offered a comprehensive view of the medley of ships and shuttles making their way to port and from orbit.
+
+The familiar sight of hab blocks and commercial skyscrapers marked the skies, and a carnival of huge holo-ads, fly overs, and city lights illuminated the streets. Most prominent was the mechant's district that propped itself along Spalax City's huge avenues like they were walls of separation.
+
+An ad-drone then greets you with the latest personalized deals as you made your way to the trams.",,
 rebelrats_magawaInteractionText,MarketPostOpen,"$hasMarket
 $market.id == magawa_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
-FireBest MarketPostDock",hold the rat fort,,
+FireBest MarketPostDock","Massive emplacements, others operational, others clearly decommissioned, announced themselves with steadfast disposition, tenders can be seen dutifully servicing presumably would be tunnels that meandered their way across the pock marked surface. In the distance, massive ground level wharfs offered a comprehensive view of the planet's extensive garrison of frigates, destroyers, cruisers, and capital ships.
+
+Stepping off of the elevator, the concourse was surprisingly pristine, almost daintily organized and maintained, in contrast to the harsh exterior of Magawa. Pass the checkpoints, hospitality drones offered drinks to your crew while concierge staff with spiffy clean uniforms personally welcomed you to Magawa.
+
+Despite rough initial impressions, one gets a feeling that a stay at Magawa may not be as bad as the pock marked exterior may show.",,
 rebelrats_rodentiaInteractionText,MarketPostOpen,"$hasMarket
 $market.id == rodentia_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
-FireBest MarketPostDock",why the it so baddd its ocming out ,,
+FireBest MarketPostDock","The airlock to the massive station silently hummed open, directing the way through the quiet perpendicular hallway filled with the familiar hum of airscrubbers and occasional clicking of refrigeration units, all illuminated by harsh sterile white light. The monotony of the spotless hallways would be occasionally broken up by shadows of passing ships from the windows.",,
 rebelrats_outerstationInteractionText,MarketPostOpen,"$hasMarket
 $market.id == outerstation_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
-FireBest MarketPostDock",i forgot you ,,
+FireBest MarketPostDock","Having avoided the busier docks of the station, the mood of the smaller docks were of somber silence and carefree taps as miners and the occasional soldier silently made their way through the station's cramped halls. Piercing through the dark halls, below the strips of holo-ads, glimmers of illumination highlighted the disgraced locals, merchants, and workers that sat in the open bars, minding their own business.",,
 rebelrats_tikusInteractionText,MarketPostOpen,"$hasMarket
 $market.id == tikus_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
-FireBest MarketPostDock",tik ,,
+FireBest MarketPostDock","Teams of miners, robots, and soldiers busied themselves across the concourse of Lobby 6 with mining ships and mobile refineries making up most of the wharf's population. You and your officers are greeted by a pair of concierge staff to guide you through the station.",,
 rebelrats_tikusII_InteractionText,MarketPostOpen,"$hasMarket
 $market.id == tikusII_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
-FireBest MarketPostDock",tik tik ,,
+FireBest MarketPostDock","The spaceport saw meagre activity outside of the odd trader or shuttle making their way from the few orbital installations above, yet, the spaceport was not a representative of the whole. The town below, watched over by the distant pantheon, was surrounded by swaths of farmland, built over cleared jungle life.",,
 rebelrats_tikusIII_InteractionText,MarketPostOpen,"$hasMarket
 $market.id == tikusIII_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
-FireBest MarketPostDock",tik tik tik ,,
+FireBest MarketPostDock","From orbit, what little human civilisation that could be found were huddled around the few geysers, marked by a few vestiges of light. On the way from orbit, it became clear that those streaks of grey snaking its way through the planet's surface were gas pipes dutifully shunting its contents while a streak of lights marked what little road infrastructure was built.
+
+Landing on one of the destitute landing pad outside the settlement, one of the settlers came to meet the shuttle crew and act as a guide. A simple glance at its gates hinted that one did not need to enter to know that their stay on the settlement would be unpleasant, menial at best.
+
+",,
 ,,,,,,
 #MARKET FLAVOR TEXT,,,,,,
 rebelrats_rattusFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$market.id == rattus_market","AddText ""Port 11 brimmed with activity as people from all walks of life went about their daily routine, unbothered by the eclectic set of shuttles going in and out of port. Pass the port security checkpoints, children can be seen dashing their way around spacers in the concourse, some going with their parents, attracted by the smell of fresh bread and grilled meat mingling together and wafting in the air. Krysa is like a home away from home."" marketFlavorTextColor",,,
+$market.id == rattus_market","AddText ""The commercial plaza wailed with energy. Traders from all walks of life belched out deals and advertised their wares to would be customers. Holo-ads, and even archaic posters clung around the placa, dutifully displayed their contents, blocked every now and then by the ears of the locals."" marketFlavorTextColor",,,
 rebelrats_malusFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $market.id == malus_market","AddText ""The expansive underground plaza bristled with life, disproportionately filled with pirates and undesirables, eeking out a life in this underground installation. A menagerie of chatter, dealings, and holo-ads were draped along the walls of the plaza, with its shoddily built structures connected by an eclectic system of catwalks, ladders, and elevators. Courtesans on the second level greet oncoming spacers, goading them for a good time."" marketFlavorTextColor",,,
 rebelrats_nutriaFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$market.id == nutria_market","AddText ""The merchant district of Spalax is a sight to behold. Towering hab blocks and commercial skyscrapers ruled the skyline, reminding spacers and locals alike of their grandeur. On the ground, establishments of all sizes nestled themselves among each other, from the smallest of food stalls, to massive concourses filled with an eclectic selection of goods and services. A glimpse of Federal Navy Servicemen among the crowds indicate an active force to keep order within the city."" marketFlavorTextColor",,,
+$market.id == nutria_market","AddText ""The merchant district of Spalax city is a sight to behold. Towering hab blocks and commercial skyscrapers ruled the skyline, reminding spacers and locals alike of their grandeur. On the ground, establishments of all sizes nestled themselves among each other, from the smallest of food stalls, to massive concourses filled with an eclectic selection of goods and services. A glimpse of Federal Navy Servicemen among the crowds indicate an active force to keep order within the city."" marketFlavorTextColor",,,
 rebelrats_magawaFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $market.id == magawa_market","AddText ""Orbital berths and passing ships filled much of the view from the thick windows of the port. Second to the berths, giant domed cities announced their presence with their sheer scale, but also as a reminder of the past. Moving ahead, military personnel filled the lobbies, shunting about with or without equipment. The odd trader, mercenary, or civilian break up the monotony of purple, walking up and down the deeper levels, some catching a ride on the transport carts that zip around the port."" marketFlavorTextColor",,,
 rebelrats_rodentiaFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$market.id == rodentia_market","AddText ""The air within Lobby Number 6 of the massive station is filled with the familiar scent of fuel and the hustle of traders dashing in and out of the central bazaar. Out in the void, ships, both military and civilian, dance among each other as they fetch fuel or make way for repairs. Persean traders move away from the promenade as security make their routine patrol around the docks."" marketFlavorTextColor",,,
+$market.id == rodentia_market","AddText ""The air within Lobby Number 6 of the massive station is filled with the familiar scent of fuel and the hustle of traders dashing in and out of the central bazaar. Out the station's window, ships, both military and civilian, dance among each other as they fetch fuel or make way for repairs. Persean traders move away from the promenade as security make their routine patrol around the docks."" marketFlavorTextColor",,,
 rebelrats_outerstationFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$market.id == outerstation_market","AddText ""Having avoided the busier docks of the station, the mood of the smaller docks were of somber silence and carefree taps as miners and the occasional soldier silently made their way through the station's cramped halls. Piercing through the dark halls, below the strips of holo-ads, glimmers of illumination highlighted the disgraced locals, merchants, and workers that sat in the open bars, minding their own business."" marketFlavorTextColor",,,
+$market.id == outerstation_market","AddText ""The market facilities of the station could only be described as utilitarian with convenience at the forefront, yet at the same time, spartan in design. More importantly, the market facilities interlinked with the rest of the station through corridors like a hub of a wheel with one marked and color coded by paint and harsh neon lights."" marketFlavorTextColor",,,
 rebelrats_tikusFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$market.id == tikus_market","AddText ""Teams of miners, robots, and soldiers busied themselves across the concourse of Lobby 6 with mining ships and mobile refineries making up most of the wharf's population. Recently unloaded cargo makes its way to its rightful owners in the merchant's district after passing numerous checkpoints. Holo-boards burped out information about news from other systems, others displayed a wall of text about the latest deals on the market."" marketFlavorTextColor",,,
+$market.id == tikus_market","AddText ""Recently unloaded cargo makes its way to its rightful owners in the merchant's district after passing numerous checkpoints. Holo-boards burped out information about news from other systems, others displayed a wall of text about the latest deals on the market. Massive outlets neatly organized the offices of various companies that inhabited the station, all interconnected by skyways."" marketFlavorTextColor",,,
 rebelrats_tikusII_FlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$market.id == tikusII_market","AddText ""The spaceport saw meagre activity outside of the odd trader or shuttle making their way from the few orbital installations above, yet, the spaceport was not a representative of the whole. The town below, watched over by the distant pantheon, was surrounded by swaths of farmland, built over cleared jungle life. Spacers and locals mingled in the central plaza where shops of all manners were set up, dotting the mainstreet leading to it with colorful curtains, holo-boards, and flags."" marketFlavorTextColor",,,
+$market.id == tikusII_market","AddText ""Spacers and locals mingled in the central plaza where shops of all manners were set up, dotting the mainstreet leading to it with colorful curtains, holo-boards, and flags. It easily reminded one of the many Luddic majority worlds of the Persean Sector, yet the ears and tails of its inhabitants were a cosntant reminder that they were on a Krysan settlement."" marketFlavorTextColor",,,
 rebelrats_tikusIII_FlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$market.id == tikusIII_market","AddText ""Settling on one of the settlement's destitute landing pad outside, one of the settlers come to meet the crew and act as a guide. One did not need to enter to know that their stay on the settlement would be unpleasant. The atmosphere was gloomy, the people not any different as they went on with their life. What little activity came from the little cove of market stalls and vendors selling trinkets, food, or meagre hardware. In the distance, lights snaking up the mountain show what little industry this planet had."" marketFlavorTextColor",,,
+$market.id == tikusIII_market","AddText ""The atmosphere in the settlment was rightfully gloomy, the people not any different as they went on with their life. What little activity came from the little cove of market stalls and vendors selling trinkets, food, or meagre hardware. In the distance, lights snaking up the mountain show what little industry this planet had."" marketFlavorTextColor",,,
 ,,,,,,
 # stations,,,,,,
 rebelrats_powerstationOpenDialog,OpenInteractionDialog,$customType == rebelrats_powerstation,"ShowDefaultVisual

@@ -64,7 +64,7 @@
         {"file":"sounds/rebelrats/weapons/Sorex_gun_firing.ogg","pitch":1.00,"volume":0.7},
     ],
     "rebelrats_kingmaker_firing": [
-        {"file":"sounds/rebelrats/weapons/kingmaker_firing.ogg","pitch":1.00,"volume":0.7},
+        {"file":"sounds/rebelrats/weapons/kingmaker_firing.ogg","pitch":1.00,"volume":0.5},
     ],
     "rebelrats_kingmaker_charging": [
         {"file":"sounds/rebelrats/weapons/kingmaker_charging.ogg","pitch":1.00,"volume":0.7},
@@ -125,16 +125,16 @@
     "rebelrats_thackery_engage5": [
         {"file":"sounds/rebelrats/rr_voicelines/thackeryengageline5.ogg","pitch":1.00,"volume":5},
     ],
-    "rebelrats_thackery_hull50line1": [
+    "rebelrats_thackery_hull30line1": [
         {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line1.ogg","pitch":1.00,"volume":5},
     ],
-    "rebelrats_thackery_hull50line2": [
+    "rebelrats_thackery_hull30line2": [
         {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line2.ogg","pitch":1.00,"volume":5},
     ],
-    "rebelrats_thackery_hull50line3": [
+    "rebelrats_thackery_hull30line3": [
         {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line3.ogg","pitch":1.00,"volume":5},
     ],
-    "rebelrats_thackery_hull50line4": [
+    "rebelrats_thackery_hull30line4": [
         {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line4.ogg","pitch":1.00,"volume":5},
     ],
     "rebelrats_thackery_hull50line1": [

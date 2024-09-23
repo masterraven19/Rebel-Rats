@@ -44,7 +44,7 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 134,
+      "arc": 157,
       "angle": -78.5,
       "locations": [-8, -47]
     },
@@ -62,7 +62,7 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 200,
+      "arc": 205,
       "angle": 90,
       "locations": [17, 33]
     },
@@ -109,7 +109,7 @@
       "mount": "HIDDEN",
       "arc": 33,
       "angle": 0,
-      "locations": [87, -28.5]
+      "locations": [83.5, -31]
     },
     {
       "id": "LB 1",
