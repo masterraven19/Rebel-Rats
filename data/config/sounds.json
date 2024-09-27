@@ -70,7 +70,7 @@
         {"file":"sounds/rebelrats/weapons/kingmaker_charging.ogg","pitch":1.00,"volume":0.7},
     ],
     "rebelrats_mischief_firing": [
-        {"file":"sounds/rebelrats/weapons/mischief_firing.ogg","pitch":1.00,"volume":0.8},
+        {"file":"sounds/rebelrats/weapons/mischief_firing.ogg","pitch":1.00,"volume":1},
     ],
     "rebelrats_engine_loop":{
         "sounds":[

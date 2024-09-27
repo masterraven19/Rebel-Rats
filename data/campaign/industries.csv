@@ -3,7 +3,7 @@ id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plu
 radius:55,
 variant:rebelrats_station_Orbital,
 fleetName:Orbital Station,
-}",graphics/icons/industry/orbital_station.png,data.scripts.campaign.econ.impl.rebelrats_OrbitalStation,"A heavily armed orbital station mounted with four heavy battery modules that each have a doldrums.
+}",graphics/icons/industry/orbital_station.png,data.scripts.campaign.econ.impl.rebelrats_OrbitalStation,"A heavily armed orbital station equipped with four heavy battery modules, each mounted with a Kingmaker railgun.
 
 Must be reduced before invasions or bombardment can be attempted.",,
 rebelrats_battlestation,Orbital Bastion Fortress,100,120,,4,rebelrats_orbitalstation,rebelrats_starfortress,"station, battlestation, unraidable, structure","{
@@ -21,7 +21,9 @@ fleetName:Star Fortress
 
 Must be reduced before invasions or bombardment can be attempted.",,
 ,,,,,,,,,,,,,,
-rebelrats_constabulary,Constabulary,60,60,,8,,,"patrol, unraidable, tactical_bombardment, structure",,graphics/rebelrats/icons/industry/Constabulary.png,data.scripts.campaign.econ.impl.rebelrats_Constabulary,"The requisite hangars, maintenance bays, command/control center, barracks, and logistics operations required to project force throughout a star system. Once established, militarized patrols will hunt pirates and protect friendly convoys.",,
+rebelrats_constabulary,Constabulary,60,60,,8,,,"patrol, unraidable, tactical_bombardment, structure",,graphics/rebelrats/icons/industry/Constabulary.png,data.scripts.campaign.econ.impl.rebelrats_Constabulary,"Houses the wharfs, drydocks, command/control center, block houses, and logistics cores required to project a police force throughout a star system. Once established, constables will hunt pirates and protect friendly convoys.
+
+At lower stability, will output smaller, more numerous patrols. At higher stability, will output larger, but less numerous fleets",,
 ,,,,,,,,,,,,,,
 #heavyindustry,Heavy Industry,100,120,,12,,orbitalworks,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/heavy_industry.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,"Centralized manufacturing infrastructure for production of heavy industrial equipment, supplies, and weapons. Also capable of producing barely-spaceworthy starships; a nanoforge can be installed to improve production quality.",1600,HIGH
 #orbitalworks,Orbital Works,60,150,,12,heavyindustry,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/orbital_works.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,"Centralized manufacturing infrastructure for production of heavy industrial equipment, supplies, and weapons. Also capable of producing barely-spaceworthy starships; a nanoforge can be installed to improve production quality.
