@@ -74,13 +74,13 @@
     ],
     "rebelrats_engine_loop":{
         "sounds":[
-            {"file":"sounds/rebelrats/sfx/ratengineburn3.ogg","pitch":1,"volume":0.2}, #index 0
+            {"file":"sounds/rebelrats/sfx/ratengineburn3.ogg","pitch":1,"volume":0.3}, #index 0
             ],
         "Rats":{"sounds":[0], "pitch":1, "volume":1}
     },
     "rebelrats_engine_accelerate":{ # played when ship receives an "engine boost" from having zero flux
     "sounds":[
-        {"file":"sounds/rebelrats/sfx/ratengineboost.ogg","pitch":1,"volume":0.1},
+        {"file":"sounds/rebelrats/sfx/ratengineboost.ogg","pitch":1,"volume":0.15},
     ],
     },
     "rebelrats_thackery_death1": [
