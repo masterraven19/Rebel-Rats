@@ -74,7 +74,7 @@
     ],
     "rebelrats_engine_loop":{
         "sounds":[
-            {"file":"sounds/rebelrats/sfx/ratengineburn2.ogg","pitch":1,"volume":0.15}, #index 0
+            {"file":"sounds/rebelrats/sfx/ratengineburn3.ogg","pitch":1,"volume":0.2}, #index 0
             ],
         "Rats":{"sounds":[0], "pitch":1, "volume":1}
     },

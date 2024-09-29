@@ -109,11 +109,9 @@ rebelrats_powerstation_Leave,DialogOptionSelected,$option == rebelrats_powerstat
 # Dialogues,,,,,,
 rebelrats_nazarDialogues,PopulateOptions,"$isPerson
 $id == rebelrats_nazarin",,"
-==>Start<==
+What should have been a typical meeting turned into a peculiarity. Instead of a normal holovid, an image of a shoddily drawn character with rodent ears greets you and your crew with it lighting up whenever she spoke.
 
-What should have been a typical meeting turned into a peculiarity. Instead of a normal holo, you are greeted by an image of a shoddily drawn character with rodent ears. The image would light up whenever she spoke.
-
-""Welcome, starfarer! I am your assigned Foreign Relations Officer, Nazarin Dess. How may I help you?""","rebelrats_nazar_aboutKrysa:""Can I ask something about Krysa?""
+""Ahem! my apolocheese. Welcome, starfarer! I am your assigned Foreign Relations Officer, Nazarin Dess. How may I help you?""","rebelrats_nazar_aboutKrysa:""Can I ask something about Krysa?""
 rebelrats_nazar_aboutRats:""Why are you a picture?""
 rebelrats_nazar_cheese:""Do you like cheese?""
 rebelrats_nazar_escortOpt:""I'm looking to hire some muscle, you have some available for hire?""",
@@ -187,37 +185,37 @@ rebelrats_doIsTrueCheck $rebelrats_gotRocimar rebelrats_nazar_hireRocimar
 rebelrats_doIsTrueCheck $rebelrats_gotRufodorsalis rebelrats_nazar_hireRufodorsalis
 rebelrats_doIsTrueCheck $rebelrats_gotMallomy rebelrats_nazar_hireMallomy
 rebelrats_doIsTrueCheck $rebelrats_gotMurinae rebelrats_nazar_hireMurinae
-rebelrats_doIsTrueCheck $rebelrats_gotMastomys rebelrats_nazar_hireMastomys","""Here's our general list!""","rebelrats_nazar_hireRocimar:Hire Rocimar Company
-rebelrats_nazar_hireRufodorsalis:Hire Rufodorsalis Air Arm
-rebelrats_nazar_hireMallomy:Hire Mallomy Free Movers
-rebelrats_nazar_hireMurinae:Hire Murinae Galloglass
-rebelrats_nazar_hireMastomys:Hire Mastomys Grand Company
+rebelrats_doIsTrueCheck $rebelrats_gotMastomys rebelrats_nazar_hireMastomys","""Here's our general list! All the groups on this list come fully equipped and crewed. However! Do keep in mind that they can be only hired once.""","rebelrats_nazar_hireRocimar:Hire Rocimar Company (75k, Rattus and Mellivora)
+rebelrats_nazar_hireRufodorsalis:Hire Rufodorsalis Air Arm (100k, 2 Mellivoras)
+rebelrats_nazar_hireMallomy:Hire Mallomy Free Movers (132k, Pybara, 2 Patrons)
+rebelrats_nazar_hireMurinae:Hire Murinae Galloglass Raiders (236k, Nebula, 2 Mus Rattus, 1 Patron)
+rebelrats_nazar_hireMastomys:Hire Mastomys Grand Company (290k, Marmot, Mellivora, 2 Rattus, Monax)
 rebelrats_nazar_escortOpt: ""Nevermind""",
 rebelrats_nazar_hireRocimar,DialogOptionSelected,$option == rebelrats_nazar_hireRocimar,"RemoveCommodity credits 75000
 rebelrats_hireMercenary rocimar
-$rebelrats_gotRocimar = true","""Nice choice""","rebelrats_nazar_buyEscortCredit:Return to list
+$rebelrats_gotRocimar = true","""Excellent choice! The Rocimar Company will be happy to escort you in the void.""","rebelrats_nazar_buyEscortCredit:Return to list
 rebelrats_nazar_escortOpt:""Can I ask for something else?""",
 rebelrats_nazar_hireRufodorsalis,DialogOptionSelected,$option == rebelrats_nazar_hireRufodorsalis,"RemoveCommodity credits 100000
 rebelrats_hireMercenary rufodorsalis
-$rebelrats_gotRufodorsalis = true","""Nice choice""","rebelrats_nazar_buyEscortCredit:Return to list
+$rebelrats_gotRufodorsalis = true","""Mmm, cheese.. Oh, sorry! Yes, they will eagerly aid you battle with their finest pilots!""","rebelrats_nazar_buyEscortCredit:Return to list
 rebelrats_nazar_escortOpt:""Can I ask for something else?""",
 rebelrats_nazar_hireMallomy,DialogOptionSelected,$option == rebelrats_nazar_hireMallomy,"RemoveCommodity credits 132000
 rebelrats_hireMercenary mallomy
-$rebelrats_gotMallomy = true","""Nice choice""","rebelrats_nazar_buyEscortCredit:Return to list
+$rebelrats_gotMallomy = true","""I see you're looking to haul lots of cargo. These guys will carry it for you anywhere with economical efficiency!""","rebelrats_nazar_buyEscortCredit:Return to list
 rebelrats_nazar_escortOpt:""Can I ask for something else?""",
 rebelrats_nazar_hireMurinae,DialogOptionSelected,$option == rebelrats_nazar_hireMurinae,"RemoveCommodity credits 256000
 rebelrats_hireMercenary murinae
-$rebelrats_gotMurinae = true","""Nice choice""","rebelrats_nazar_buyEscortCredit:Return to list
+$rebelrats_gotMurinae = true","""Mmm, someone's got an eye for quality. Careful, though, these guys tend to be reckless in battle, keep an eye on them.""","rebelrats_nazar_buyEscortCredit:Return to list
 rebelrats_nazar_escortOpt:""Can I ask for something else?""",
 rebelrats_nazar_hireMastomys,DialogOptionSelected,$option == rebelrats_nazar_hireMastomys,"RemoveCommodity credits 290000
 rebelrats_hireMercenary mastomys
-$rebelrats_gotMastomys = true","""Nice choice""","rebelrats_nazar_buyEscortCredit:Return to list
+$rebelrats_gotMastomys = true","""Outstanding choice! The Grand Company will whater you ask of them with sublime performance and outright decorum.""","rebelrats_nazar_buyEscortCredit:Return to list
 rebelrats_nazar_escortOpt:""Can I ask for something else?""",
 rebelrats_nazar_useRelEscort,DialogOptionSelected,$option == rebelrats_nazar_useRelEscort,FireAll rebelrats_nazarAppealResult,"""Curated list it is! First, background check if you're not some random riff raff. You aren't, right?""
 
 Clickety clack as she typed away from behind the screen as her microphone betrays her.",,
-rebelrats_nazar_useRelSuccess,rebelrats_nazarAppealResult,$faction.relValue >= 0.75,,,rebelrats_nazar_useRelSuccess2:Wait,
-rebelrats_nazar_useRelFail,rebelrats_nazarAppealResult,$faction.relValue < 0.75,,,rebelrats_nazar_useRelFailure:Wait,
+rebelrats_nazar_useRelSuccess,rebelrats_nazarAppealResult,$faction.relValue >= 0.5,,,rebelrats_nazar_useRelSuccess2:Wait,
+rebelrats_nazar_useRelFail,rebelrats_nazarAppealResult,$faction.relValue < 0.5,,,rebelrats_nazar_useRelFailure:Wait,
 rebelrats_nazar_useRelSuccess2,DialogOptionSelected,$option == rebelrats_nazar_useRelSuccess2,"DoCanAffordCheck 50000 rebelrats_nazar_hireThackery
 rebelrats_doIsTrueCheck $rebelrats_gotOfficer rebelrats_nazar_hireThackery","""Ah hah! Yes, you are indeed allowed to access our curated list.""
 

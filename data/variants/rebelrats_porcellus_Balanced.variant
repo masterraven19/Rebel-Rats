@@ -3,20 +3,21 @@
   "hullId": "rebelrats_porcellus",
   "displayName": "Modern",
   "goalVariant": true,
-  "fluxCapacitors": 11,
+  "fluxCapacitors": 12,
   "fluxVents": 50,
   "quality": 2,
   "permaMods": [],
   "hullMods": [
     "heavyarmor",
-    "targetingunit"
+    "targetingunit",
+    "reinforcedhull"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0024": "rebelrats_doldrums_l"
+        "WS0024": "rebelrats_kingmaker_l"
       }
     },
     {

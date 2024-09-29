@@ -3,13 +3,14 @@
   "hullId": "rebelrats_rattus",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 12,
+  "fluxCapacitors": 10,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "targetingunit",
-    "fluxbreakers"
+    "fluxbreakers",
+    "eccm"
   ],
   "weaponGroups": [
     {
@@ -23,15 +24,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "rebelrats_rattus_torp"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0002": "rebelrats_hwacha_s",
-        "WS0003": "rebelrats_hwacha_s"
+        "WS0002": "rebelrats_huntsmanx2",
+        "WS0003": "rebelrats_huntsmanx2"
       }
     },
     {
@@ -57,6 +51,11 @@
         "WS0006": "rebelrats_hawker",
         "WS0007": "rebelrats_hawker"
       }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],
