@@ -3,14 +3,15 @@
   "hullId": "rebelrats_musrattus",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 3,
+  "fluxCapacitors": 9,
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "auxiliarythrusters",
     "targetingunit",
-    "magazines"
+    "magazines",
+    "hardenedshieldemitter"
   ],
   "weaponGroups": [
     {

@@ -3,7 +3,7 @@
 	"personalities":["steady","cautious"],
 	"gender":["f","n"],
 	"chance":0.5,
-	"talkativeness":3,
+	"talkativeness":1,
 	"categoryTags":["rebelratters"],
 	
 	"lines":{
