@@ -32,15 +32,10 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "rebelrats_hwacha_m",
-        "WS0007": "rebelrats_hwacha_m",
-        "WS0008": "rebelrats_hwacha_m"
+        "WS0006": "rebelrats_huntsman_salvo",
+        "WS0007": "rebelrats_huntsman_salvo",
+        "WS0008": "rebelrats_huntsman_salvo"
       }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {}
     },
     {
       "autofire": true,
@@ -55,7 +50,6 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "rebelrats_ranger",
         "WS0004": "rebelrats_ranger",
         "WS0005": "rebelrats_ranger"
       }
@@ -66,6 +60,13 @@
       "weapons": {
         "WS0011": "rebelrats_hawker",
         "WS0012": "rebelrats_hawker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_poacher_s"
       }
     }
   ],

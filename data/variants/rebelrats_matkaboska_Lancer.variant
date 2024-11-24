@@ -3,7 +3,7 @@
   "hullId": "rebelrats_matkaboska",
   "displayName": "Nuclear Lancer",
   "goalVariant": true,
-  "fluxCapacitors": 10,
+  "fluxCapacitors": 12,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
@@ -31,9 +31,9 @@
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0006": "rebelrats_falcon_m",
-        "WS0007": "rebelrats_falcon_m",
-        "WS0008": "rebelrats_falcon_m"
+        "WS0006": "rebelrats_petardlauncher_m",
+        "WS0007": "rebelrats_petardlauncher_m",
+        "WS0008": "rebelrats_petardlauncher_m"
       }
     },
     {
@@ -41,8 +41,6 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "rebelrats_fowler",
-        "WS0002": "rebelrats_fowler",
-        "WS0003": "rebelrats_fowler",
         "WS0014": "rebelrats_fowler"
       }
     },
@@ -65,7 +63,10 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0002": "rebelrats_poacher_s",
+        "WS0003": "rebelrats_poacher_s"
+      }
     }
   ],
   "modules": [

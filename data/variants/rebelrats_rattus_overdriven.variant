@@ -21,7 +21,9 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0009": "rebelrats_rattus_torp"
+      }
     },
     {
       "autofire": true,

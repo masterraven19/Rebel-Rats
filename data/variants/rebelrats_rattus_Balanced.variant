@@ -29,6 +29,13 @@
       }
     },
     {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "rebelrats_rattus_torp"
+      }
+    },
+    {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
@@ -51,11 +58,6 @@
         "WS0006": "rebelrats_hawker",
         "WS0007": "rebelrats_hawker"
       }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {}
     }
   ],
   "modules": [],
