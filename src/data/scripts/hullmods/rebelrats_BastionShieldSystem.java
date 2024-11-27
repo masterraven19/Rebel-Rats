@@ -11,14 +11,20 @@ import java.awt.Color;
 public class rebelrats_BastionShieldSystem extends BaseHullMod {
     private final float shieldRadiusOffset = -0.1F;
     private final float shieldArcMax = 150;
+
+    private final float sModShieldAccellBuff = 0.5F;
     private final float shieldDebuff = 0.2F;
     private final float sModShieldBuff = 0F;
     private final float hardenedShieldBuff = 0.1F;
     private String modId = null;
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
         modId = id;
+        boolean sMod = isSMod(stats);
+        if (sMod) {
+            stats.getShieldUnfoldRateMult().modifyMult(id,1+sModShieldAccellBuff);
+            stats.getShieldTurnRateMult().modifyMult(id,1+sModShieldAccellBuff);
+        }
     }
-    public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {}
 
     public void advanceInCombat(ShipAPI ship, float amount) {
         if (Global.getCombatEngine().isPaused()) return;
@@ -101,7 +107,7 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
         return null;
     }
     public String getSModDescriptionParam(int index, HullSize hullSize) {
-        if (index == 0) return "" + sModShieldBuff;
+        if (index == 0) return "" + (int)(sModShieldAccellBuff * 100f) + "%";
         return null;
     }
     public Color getBorderColor() {
