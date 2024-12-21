@@ -20,7 +20,7 @@
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
 	                "onExplosionEffect":"data.scripts.weapons.rebelrats_custodianProxEffect",
 					"range":40,
-					#"vsMissileRange":100,
+					"vsMissileRange":100,
 					"explosionSpec":{"duration":0.025f,
 									 "radius":45,
 									 "coreRadius":30, # full damage within core radius - also equal to proximity fuse range
