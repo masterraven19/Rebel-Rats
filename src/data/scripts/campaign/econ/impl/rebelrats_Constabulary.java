@@ -20,6 +20,7 @@ import com.fs.starfarer.api.util.IntervalUtil;
 import com.fs.starfarer.api.util.Misc;
 import com.fs.starfarer.api.util.Pair;
 import com.fs.starfarer.api.util.WeightedRandomPicker;
+import data.scripts.campaign.econ.fleets.rebelrats_constableAssignment;
 import org.lwjgl.util.vector.Vector2f;
 
 import java.util.Random;
@@ -307,7 +308,7 @@ public class rebelrats_Constabulary extends BaseIndustry implements RouteFleetSp
         // this will get overridden by the patrol assignment AI, depending on route-time elapsed etc
         fleet.setLocation(market.getPrimaryEntity().getLocation().x, market.getPrimaryEntity().getLocation().y);
 
-        fleet.addScript(new PatrolAssignmentAIV4(fleet, route));
+        fleet.addScript(new rebelrats_constableAssignment(fleet, route));
 
         fleet.getMemoryWithoutUpdate().set(MemFlags.FLEET_IGNORES_OTHER_FLEETS, true, 0.3f);
 
@@ -361,19 +362,12 @@ public class rebelrats_Constabulary extends BaseIndustry implements RouteFleetSp
         CampaignFleetAPI fleet = FleetFactoryV3.createFleet(params);
 
         if (fleet == null || fleet.isEmpty()) return null;
+        fleet.setName(" Constables");
 
         if (!fleet.getFaction().getCustomBoolean(Factions.CUSTOM_PATROLS_HAVE_NO_PATROL_MEMORY_KEY)) {
             fleet.getMemoryWithoutUpdate().set(MemFlags.MEMORY_KEY_PATROL_FLEET, true);
             if (type == FleetFactory.PatrolType.FAST || type == FleetFactory.PatrolType.COMBAT) {
                 fleet.getMemoryWithoutUpdate().set(MemFlags.MEMORY_KEY_CUSTOMS_INSPECTOR, true);
-            }
-        } else if (fleet.getFaction().getCustomBoolean(Factions.CUSTOM_PIRATE_BEHAVIOR)) {
-            fleet.getMemoryWithoutUpdate().set(MemFlags.MEMORY_KEY_PIRATE, true);
-
-            // hidden pather and pirate bases
-            // make them raid so there's some consequence to just having a colony in a system with one of those
-            if (market != null && market.isHidden()) {
-                fleet.getMemoryWithoutUpdate().set(MemFlags.MEMORY_KEY_RAIDER, true);
             }
         }
 
