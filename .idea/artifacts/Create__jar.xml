@@ -53,6 +53,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_arvalisEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_arvalisPostEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/impl/rebelrats_CheeseFactory.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/fleets/rebelrats_constableAssignment.java" />
     </root>
   </artifact>
 </component>
