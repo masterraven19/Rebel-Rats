@@ -3,8 +3,8 @@
   "hullId": "rebelrats_musrattus",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 9,
-  "fluxVents": 10,
+  "fluxCapacitors": 2,
+  "fluxVents": 7,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

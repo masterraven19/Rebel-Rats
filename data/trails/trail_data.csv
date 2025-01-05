@@ -3,8 +3,8 @@ trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn
 #SKR_blackout_shot,SKR_blackout_shot,SKR_fuzzyTrail,10,0.1,0.1,0.5,24,12,"[25,200,150]","[50,100,200]",0.5,-128,-256,TRUE,10,0,0,0,FALSE,FALSE,TRUE,50,0,0,0,0,180,true,false
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-rebelrats_doldrums_rod,rebelrats_doldrums_rod,base_trail_zap,10,0.1,0.1,0.8,12,64,"[218,125,222]","[230,208,231]",1,100,0,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
-rebelrats_doldrumstrail,rebelrats_doldrums_rod,rebelrats_doldrumstrail,0.1,0.2,2.5,1,18,192,"[218,165,222]","[230,228,231]",1,200,0,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,0,false,false
+rebelrats_doldrums_rod,rebelrats_doldrums_rod,base_trail_zap,10,0.1,0.1,0.8,12,48,"[218,125,222]","[230,208,231]",1,100,0,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
+rebelrats_doldrumstrail,rebelrats_doldrums_rod,rebelrats_doldrumstrail,0.1,0.2,2.5,1,12,96,"[218,165,222]","[230,228,231]",1,200,0,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,0,false,false
 rebelrats_kingmaker_rod,rebelrats_kingmaker_rod,base_trail_zap,10,0.1,0.1,0.8,12,64,"[236,64,64]","[207,177,30]",1,100,0,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_kingmakertrail,rebelrats_kingmaker_rod,rebelrats_doldrumstrail,0.1,0.2,2.5,1,12,192,"[207,207,207]","[236,207,64]",1,200,0,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,0,false,false
 rebelrats_kingmaker_munition,rebelrats_kingmaker_munition,base_trail_zap,10,0.1,0.1,0.8,12,64,"[236,64,64]","[207,177,30]",1,100,0,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
@@ -12,7 +12,7 @@ rebelrats_hwacha_srm,rebelrats_hwacha_srm,base_trail_smooth,0.5,0.025,0.025,0.05
 rebelrats_huntsman_torp,rebelrats_huntsman_torp,base_trail_heavySmoke,1.5,0.05,0.05,0.2,10,16,"[230,230,230]","[230,208,231]",0.5,100,0,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_rattenjager_amm,rebelrats_rattenjager_amm,base_trail_smooth,1,0.05,0.05,0.05,4,8,"[255,165,80]","[233,161,24]",0.5,100,200,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_custodian_shell,rebelrats_custodian_shell,base_trail_rough,1,0.05,0.05,0.2,4,8,"[230,230,230]","[230,208,231]",0.8,100,0,TRUE,10,0,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,90,true,false
-#rebelrats_ranger,rebelrats_ranger,base_trail_weave,1,0.05,0.025,0.025,3,2,"[233,200,24]","[233,161,24]",1,100,300,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
+#rebelrats_ranger,rebelrats_ranger,base_trail_weave,1,0.05,0.05,0.05,3,2,"[233,200,24]","[233,161,24]",1,100,0,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_poacher,rebelrats_poacher,base_trail_smooth,0.5,0.025,0.03,0.025,3,2,"[233,233,233]","[233,161,24]",1,100,300,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_drummer_shell,rebelrats_drummer_shell,base_trail_weave,2,0.05,0.15,0.2,8,24,"[218,218,218]","[233,161,24]",0.5,100,0,TRUE,10,4,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,0,false,false
 rebelrats_equalizer_shell,rebelrats_equalizer_shell,base_trail_heavySmoke,2,0.05,0.15,0.2,12,24,"[255,165,30]","[233,161,24]",0.5,100,0,TRUE,10,4,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,0,false,false
@@ -29,7 +29,7 @@ rebelrats_muridae_plasma,rebelrats_muridae_plasma,base_trail_zap,1,0.05,0.1,0.15
 rebelrats_mangonel_shot,rebelrats_mangonel_shot,base_trail_zap,1,0.05,0.1,0.07,4,24,"[255,255,255]","[255,0,0]",0.5,100,-100,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,30,180,true,false
 rebelrats_tephra_torp,rebelrats_tephra_torp,base_trail_heavySmoke,2,0.1,0.1,0.4,12,18,"[230,230,230]","[230,208,231]",0.5,100,50,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
 rebelrats_trapee_second_stage,rebelrats_trapee_second_stage,base_trail_heavySmoke,2,0.1,1,0.4,16,24,"[230,230,230]","[230,208,231]",0.5,128,50,TRUE,0,0,0,0,TRUE,FALSE,TRUE,60,0,0,0,0,180,false,false
-rebelrats_arvalis_plasma,rebelrats_arvalis_plasma,base_trail_zap,1,0.05,0.5,0.15,24,4,"[99,194,255]","[0,145,238]",0.5,128,50,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,0,true,false
+rebelrats_arvalis_plasma,rebelrats_arvalis_plasma,base_trail_zap,1,0.15,0.5,0.25,24,4,"[99,194,255]","[0,145,238]",0.5,128,50,TRUE,10,2,1,0,TRUE,FALSE,TRUE,60,0,0,0,0,0,true,false
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #String trail: projectile ID plus a suffix if there are multiple trails for that proj,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #String projectile: projectile ID,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
