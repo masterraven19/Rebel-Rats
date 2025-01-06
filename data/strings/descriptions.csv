@@ -32,6 +32,7 @@ rebelrats_gyrolauncher_m,WEAPON,"The Sorex's Gyrojet Launcher is an example of a
 rebelrats_jerboa_pyroclast_launcher,WEAPON,An integrated tube magazine of Pyroclast torpedos to be used for quickly disposing large targets.,,,,
 rebelrats_mischief_m,WEAPON,The Mischief uses a phased array of thousands of Green Rat Emitters to engage all targets within its range. The extra beams can be disabled by disabling the weapon group.,,,,
 rebelrats_trapee_m,WEAPON,Fulfills the demand of long range missile coverage. The Trapee a two stage motor to coast to the target and then convert to the sprint stage once within range of the target.,,,,
+rebelrats_gingsen_m,WEAPON,"Using baby green rats as a fuel for the nanobots, the Gingsen SRM carries a helpful payload of repair nanobots through the help of a modified huntsman missile.",,,,
 ,,,,,,
 #MUS HUNTSMAN AUTOLOADER,,,,,,
 rebelrats_huntsmanx2_m,WEAPON,These torpedo tubes serve as the Mus' main anti-ship weapon to allow the Mus to punch above its weight class. The tubes utilizes an autoloader derived from the Rattus that ensures a quick rate of fire.,,,,

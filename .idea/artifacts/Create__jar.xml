@@ -54,6 +54,8 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_arvalisPostEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/impl/rebelrats_CheeseFactory.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/fleets/rebelrats_constableAssignment.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_gingsenAIEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_gingsenCloudEffect.java" />
     </root>
   </artifact>
 </component>
