@@ -2,7 +2,7 @@
 	"id":"rebelrats_gingsen_torp",
 	"specClass":"missile",
 	"missileType":"MISSILE",
-	"sprite":"graphics/rebelrats/missiles/huntsman_missile.png",
+	"sprite":"graphics/rebelrats/missiles/gingsen_missile.png",
 	"size":[6,24],	
 	"center":[3,12],
 	"collisionRadius":15,
@@ -22,7 +22,7 @@
 					 "particleColor":[100,159,217,50]},
 	"armingTime":0.5,
 	"engineSpec":{"turnAcc":900,
-				  "turnRate":300,
+				  "turnRate":450,
 				  "acc":1200,
 				  "dec":300},
 	"engineSlots":[{"id":"ES1",
@@ -31,9 +31,9 @@
 				    "style":"CUSTOM",
 					"styleSpec":{
 						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
-						"engineColor":[124,192,255,155],
+						"engineColor":[105, 185, 236,155],
 						"glowSizeMult":1.5,
-						"glowAlternateColor":[124,192,255,155],
+						"glowAlternateColor":[77,229,216,155],
 						"contrailDuration":3,
 						"contrailWidthMult":2,
 						"contrailWidthAddedFractionAtEnd":-2,  # can be negative. makes trail spread out/narrow at the end

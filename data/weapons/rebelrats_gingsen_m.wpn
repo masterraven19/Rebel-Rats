@@ -4,8 +4,8 @@
   "projectileSpecId": "rebelrats_gingsen_torp",
   "type": "MISSILE",
   "size": "MEDIUM",
-  "turretSprite": "graphics/rebelrats/weapons/dual_missile_mount.png",
-  "hardpointSprite": "graphics/rebelrats/weapons/dual_missile_mount.png",
+  "turretSprite": "graphics/rebelrats/weapons/gingsen_missile_mount.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/gingsen_missile_mount.png",
   "renderHints": [
     RENDER_LOADED_MISSILES_UNLESS_HIDDEN
   ],
