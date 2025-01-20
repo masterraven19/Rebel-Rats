@@ -11,12 +11,11 @@ public class rebelrats_CheeseFactory extends BaseIndustry {
         super.apply(true);
         int size = market.getSize();
 
-        demand(Commodities.FOOD,size);
-        supply("rebelrats_cheese",size);
+        demand(Commodities.FOOD,size - 2);
+        supply("rebelrats_cheese",size - 2);
 
         Pair<String,Integer> deficit = getMaxDeficit(Commodities.FOOD);
-        applyDeficitToProduction(1, deficit,
-                "rebelrats_cheese");
+        applyDeficitToProduction(1, deficit, "rebelrats_cheese");
 
         if (!isFunctional()) {
             supply.clear();

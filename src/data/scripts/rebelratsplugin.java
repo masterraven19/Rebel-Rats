@@ -6,6 +6,7 @@ import com.fs.starfarer.api.campaign.CustomCampaignEntityAPI;
 import com.fs.starfarer.api.campaign.StarSystemAPI;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.characters.PersonAPI;
+import data.scripts.campaign.econ.rebelrats_EconListener;
 import data.scripts.world.rebelratsgen;
 import data.scripts.world.rebelrats_gen_NPCs;
 import exerelin.campaign.SectorManager;
@@ -14,8 +15,8 @@ import java.util.List;
 
 public class rebelratsplugin extends BaseModPlugin {
     private final String krysa = "rattus_market";
-    private final String magawa = "magawa_market";
-    private final String rodentia = "rodentia_market";
+    private final String magawa = "rebelrats_magawa_market";
+    private final String rodentia = "rebelrats_rodentia_market";
     private final String nazarin = "rebelrats_nazarin";
     private final String thackery = "rebelrats_thackery";
     @Override
@@ -56,6 +57,8 @@ public class rebelratsplugin extends BaseModPlugin {
             MarketAPI krysaMarket = Global.getSector().getEconomy().getMarket(krysa);
             new rebelrats_gen_NPCs().generate_Thackery(krysaMarket);
         }
+
+        Global.getSector().getEconomy().addUpdateListener(new rebelrats_EconListener());
     }
     public void onNewGameAfterEconomyLoad() {
         MarketAPI krysaMarket = Global.getSector().getEconomy().getMarket(krysa);
