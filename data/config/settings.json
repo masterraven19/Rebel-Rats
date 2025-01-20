@@ -23,6 +23,7 @@
 			"rebelrats_explosion3":"graphics/fx/explosion3.png",
 			"rebelrats_doldrumstrail":"graphics/rebelrats/fx/doldrumstrail.png",
 			"rebelrats_doldrums_warning":"graphics/rebelrats/fx/doldrums_warning.png",
+			"rebelrats_mangonel_plasma":"graphics/rebelrats/fx/mangonel_shrap.png",
 		},
 		"illustrations": {
 			"rebelrats_powerstation": "graphics/rebelrats/illustrations/rat_powerstation_illu.png",

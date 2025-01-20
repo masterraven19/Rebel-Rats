@@ -28,10 +28,9 @@ public class rebelratsplugin extends BaseModPlugin {
     }
     public void onGameLoad(boolean newGame){
 
-        boolean haverats = Global.getSettings().getModManager().isModEnabled("rebelrats");
         boolean haveNexerelin = Global.getSettings().getModManager().isModEnabled("nexerelin");
 
-        if (!haveNexerelin || haverats && SectorManager.getManager().isCorvusMode()){
+        if (!haveNexerelin || SectorManager.getManager().isCorvusMode()){
             if (Global.getSector().getStarSystem("Dragon's Blessing") != null) {
                 StarSystemAPI dragon = Global.getSector().getStarSystem("Dragon's Blessing");
                 List<CustomCampaignEntityAPI> customentities = dragon.getCustomEntities();

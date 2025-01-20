@@ -57,6 +57,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_gingsenAIEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_gingsenCloudEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/rebelrats_EconListener.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_mangonelOnHitEffect.java" />
     </root>
   </artifact>
 </component>

@@ -12,7 +12,8 @@ public class rebelrats_CheeseFactory extends BaseIndustry {
         int size = market.getSize();
 
         demand(Commodities.FOOD,size - 2);
-        supply("rebelrats_cheese",size - 2);
+        supply("rebelrats_cheese",size - 1);
+        modifyStabilityWithBaseMod();
 
         Pair<String,Integer> deficit = getMaxDeficit(Commodities.FOOD);
         applyDeficitToProduction(1, deficit, "rebelrats_cheese");
@@ -24,6 +25,8 @@ public class rebelrats_CheeseFactory extends BaseIndustry {
     @Override
     public void unapply() {
         super.unapply();
+
+        unmodifyStabilityWithBaseMod();
     }
     @Override
     protected boolean canImproveToIncreaseProduction() {
