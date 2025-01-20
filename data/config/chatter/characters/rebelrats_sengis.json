@@ -1,7 +1,7 @@
 {
-	"name":"Krysan Navy Officer",
+	"name":"Sengis Probo",
 	"personalities":["steady","aggressive"],
-	"gender":["m","f","n"],
+	"gender":["m","n"],
 	"chance":0.5,
 	"talkativeness":1,
 	"categoryTags":["rebelratters"],
@@ -9,14 +9,14 @@
 	"lines":{
 		"start":[
 			{"text":"General Quarters, General Quarters, all hands man your action stations!"},
-			{"text":"PDCs locked and loaded."},
-			{"text":"Rig ship for flank speed."},
-			{"text":"Entering zone of operations."},
-			{"text":"Awaiting for combat orders."}
+			{"text":"Torpedo tubes prepped and loaded."},
+			{"text":"Rig radiators for action."},
+			{"text":"Entering zone of operation."},
+			{"text":"Awaiting combat orders."}
 		],
 		"start_boss":[
-			{"text":"By the gods, that is quite a handful!"},
-			{"text":"It's either us or them!"}
+			{"text":"My god, that ain't good."},
+			{"text":"Rig ship for war emergency power."}
 		],		
 		"retreat":[
 			{"text":"This isn't optimal."},
@@ -27,18 +27,18 @@
 			{"text":"Missiles depleted."}
 		],
 		"engaged":[
-			{"text":"Target painted, engaging!"},
+			{"text":"Target acquired, engaging!"},
 			{"text":"Get some, get some, get some!"},
 			{"text":"HAVE AT THEE!"},
-			{"text":"Engaging hostiles."},
+			{"text":"Engaging!"},
 			{"text":"Rip them apart!"}
 		],
 		"need_help":[
 			{"text":"Need reinforcement!"},
-			{"text":"Requesting assistance, situation's turned sour."}
+			{"text":"Oh boy."}
 		],
 		"pursuing":[
-			{"text":"Start praying, pests!"},
+			{"text":"After them!"},
 			{"text":"Contact, moving to intercept."},
 			{"text":"Vectoring to intercept target."}
 		],
@@ -48,37 +48,37 @@
 			{"text":"We're out, pressure is too high"}
 		],
 		"hull_90":[
-			{"text":"Damage Control, hull impact"},
+			{"text":"Damage Control, hull impact."},
 			{"text":"Taking fire."}
+			{"text":"Steady as she goes."}
 		],
 		"hull_50":[
 			{"text":"Pressure hull breached!"},
 			{"text":"Fire in the bridge!"},
-			{"text":"Reporting critical casualties among the crew!"},
+			{"text":"Reporting critical casualties!"},
 			{"text":"Main pressure hull venting atmosphere!"},
-			{"text":"Critical systems damaged!"}
 		],
 		"hull_30":[
 			{"text":"My hull's down to 30%!"},
-			{"text":"Pressure hull is screwed!"},
+			{"text":"Critical systems damaged!"}
 			{"text":"We've taken critical damage!"},
-			{"text":"Get that reactor stable, or we're dead!"},
+			{"text":"Get that reactor stable!"},
 			#{"text":"Breach in starboard fusion chamber!"}
 		],
 		"overload":[
-			{"text":"Subsystems offline!"},
-			{"text":"We've been overloaded!"}
+			{"text":"Flux grid offline."},
+			{"text":"Flux systems overloaded!"}
 		],
 		"death":[
 			{"text":"We're going down!"},
-			{"text":"Out, out, out!"},
+			{"text":"Get to the escape pods!"},
 			{"text":"Mayday, mayday, mayday!"}
 		],
 		"victory":[
-			{"text":"All identified hostiles eliminated."},
+			{"text":"Victory secured."},
 			{"text":"Area secured."},
 			{"text":"The enemy has been foundered!"},
-			{"text":"Ah hah, take that!"}
+			{"text":"Good work, everyone!"}
 		],
 	}
 }
