@@ -6,11 +6,11 @@ rebelrats_doldrums_l,WEAPON,The Doldrums-Pattern Railgun is one of the most capa
 rebelrats_drummer_l,WEAPON,The Drummer is an offshoot development made from the lessons of making the Doldrums. An electrothermal-chemical firing system has been used in place of a pure magnetic rail to propel kinetic projectiles.,,,,
 rebelrats_tripubus_l,WEAPON,"Unimaginative, but effective, and despite sporting smaller shells than the Equalizer, the Tripubus has a heavier throw weight, making it reliable against all but the thickest armor plates.",,,,
 rebelrats_goedendag_l,WEAPON,"Buried behind the layers of stealth composites is a complex series of carefully engineered superconductors, capacitors, and extensive cooling systems snaking around a set of magazines connected to the ship’s internal ammo forges.","	""They said to never fight fair, and I took it to heart."" ~ Walter Grumman, Director of Intelligience",,,
-rebelrats_mangonel_l,WEAPON,"At its core, the Mangonel is a reverse engineered TPC from a wrecked Onslaught that has been modified with increased throughput energy and larger heatsinks. Due to its steep flux requirements, only a few ships in the Fleet can mount the gun.","	""Mason, look at this, the numbers! It is a miracle our equipment hasn't been slagged."" ~ Unnamed scientist during Project Icarus",,,
+rebelrats_mangonel_l,WEAPON,"At its core, the Mangonel is a reverse engineered TPC of a wrecked Onslaught. The design was augmented with larger heatsinks and a new lasing medium for better throughput energy.","	""Mason, look at this, the numbers! It is a miracle our equipment hasn't been slagged."" ~ Unnamed scientist during Project Icarus",,,
 rebelrats_nezulana_l,WEAPON,"A railgun designed to break capital-grade shields. With the success of the Drummer, the Nezulana uses a scaled-up version of the electrothermal-chemical system to hurl saboted hyperdense penetrating rods.",,,,
 rebelrats_babydoldrumspine_l,WEAPON,Advancements in Krysan technology has allowed designers to fit what is effectively a downsized Doldrums Railgun into the frame of a frigate.,"	""They said it couldn't be done, but they forgot to loosen a few screws in their head!"" ~ Clementina Witherfield, Lead Test Pilot",,,
 rebelrats_kingmaker_l,WEAPON,"Easily the largest slugthrower the Federal Navy can bring to bear, the Kingmaker takes lessons learnt from the creation of the Doldrums and iteratively improves upon the design.","	""Express delivery to high heavens coming right up!"" ~ Cenry Arbalest, Gunnery Officer on KFS Midnight Fury",,,
-rebelrats_salvo_autoloader,WEAPON,"Initially a testbed for Porcellus' missile tubes, the design is now used in many of the Federal Navy's capital ships as a finisher weapon with its unparalleled reliability.",,,,
+rebelrats_salvo_autoloader,WEAPON,"Initially the testbed for Porcellus' missile tubes, it is now used in many of the Federal Navy's capital ships as a finisher weapon with its unparalleled agility and reliability.",,,,
 rebelrats_arvalis_l,WEAPON,The Arvalis accelerates a stream of macroparticles to extreme hypervelocities through a series of pulse-staged accelerators to perforate and degrade capital-grade armor.,,,,
 ,,,,,,
 ,,,,,,
@@ -59,20 +59,20 @@ rebelrats_ranger_f,WEAPON,"A stripped-down version of the Ranger, the cannon has
 rebelrats_hwacha_f,WEAPON,"Modified for fighter use, Hwachas have proven to be effective against fighters and now sees mass use in Krysan strike craft.",,,,
 rebelrats_guardsman_f,WEAPON,Guardsman-Pattern turrets have their roots in old Krysan naval ship armaments as CIWS installations. They are the mainstay armaments of Hippo Skiffs and bombers due to their ubiquity and ability to function with minimal maintenance.,,,,
 rebelrats_vaybchek,WEAPON,"Overcharged plasma mining tools, the Vaybchek purposefully overloads its mining cartridges to produce a higher output. This unsafe practice commonly led to premature breech explosions, often injuring or outright killing the Bluster's crew.",,,,
-rebelrats_pyroclast_f,WEAPON,"With the complex thruster system removed and a solid rocket motor fitted, this version of the Pyroclast is meant for the Olympian's magnetic bomb launcher.",,,,
+rebelrats_pyroclast_f,WEAPON,This is a Pyroclast with a rocket motor created for the Olympian's magnetic bomb launcher.,,,,
 rebelrats_felis,WEAPON,Built-in PD laser created for the Patron corvette. Extremely effective against fighters and missiles despite its high flux costs.,,,,
 rebelrats_ashford_f,WEAPON,A tuned down Ashford for fighter use.,,,,
 rebelrats_chaingun_f,WEAPON,Fires armor piercing incendiary rounds specialized for shredding thinly armored spacecraft.,,,,
 rebelrats_falcon_f,WEAPON,A wing mounting bracket for a Falcon missile.,,,,
-rebelrats_tephra_f,WEAPON,Uses an overclocked fusion torch to accelerate a long-rod penetrator to ludicrous speeds.,,,,
+rebelrats_tephra_f,WEAPON,Uses an overcharged fusion torch to accelerate a long-rod penetrator to ludicrous speeds.,,,,
 ,,,,,,
 #FIGHTERS,,,,,,
-rebelrats_sultan,SHIP,"The Sultan is the Krysan Navy's premier fighter. It was built and designed by Rebel Rats to operate both in atmosphere and space, acting as a multi-role SSTO fighter. Its large arsenal allows it deal with most enemies in a battle space, especially with its underslung Huntsman torpedo to help it hunt larger spacecraft.
+rebelrats_sultan,SHIP,"Equipped with an arsenal of weapons to deal with many types of targets, the Sultan is the Krysan Navy's premier fighter. It is designed by Rebel Rats as an SSTO to operate in most environments.
 
 Will return to carrier once missiles are expended.",,,,
-rebelrats_proctor,SHIP,"More engine than fighter, the Proctor is built to counter the thick PD grids in the Persean Sector. Its armaments allow it to hunt frigates, but quickly falters against concentrated enemy PD fire from a lack of shields despite extensive armor around crucial internal systems.",,,,
+rebelrats_proctor,SHIP,"More of an engine than fighter with its absurd forward speed, the Proctor is designed to withstand thick PD grids to be able to make daring gun runs agaisnt enemy frigates or fighters.",,,,
 rebelrats_hippo,SHIP,"The Hippo is the standard skiff of Krysan Federal Navy. They allow Krysan ships to insert a platoon of marines into planetary battlespace or initiate boarding action against enemy ships and stations with breaching charges. Outside of dropship duties, the skiffs can act as impromptu PD boats to screen its mothership with its Guardsman turrets.",,,,
-rebelrats_overseer,SHIP,"A light interceptor of the Krysan Federal Navy, the Overseer is a hardy fighter created by Arms & Armor. The craft comes equipped with a Hwacha missile rack and a pair of Ranger autocannons, making a wing of Overseers a threat to enemy shields.
+rebelrats_overseer,SHIP,"A light interceptor of the Krysan Federal Navy, the Overseer is a hardy fighter created by Arms & Armor from analyzing Persean Broadswords. The craft comes equipped with a Hwacha missile rack and a pair of Ranger autocannons to allow it to spar with enemy fighters.
 
 Will return to its carrier once missiles are expended.",,,,
 rebelrats_ministro,SHIP,"The Ministro is an unmanned interceptor designed by Rebel Rat Industries to reduce Federal Navy pilot losses. It quickly found success with the advent of increasingly advanced drone control systems that allows finer control over multiple unmanned systems by a single pilot.
