@@ -17,7 +17,10 @@ public class rebelrats_EconListener implements EconomyAPI.EconomyUpdateListener 
         String source = "rebelrats_EconListener";
 
         for (MarketAPI market : Global.getSector().getEconomy().getMarketsCopy()){
-            market.getIndustry("population").getDemand(cheese).getQuantity().modifyFlat(source, market.getSize() - 2);
+            if(market.hasIndustry("population")){
+                market.getIndustry("population").getDemand(cheese).getQuantity().modifyFlat(source, market.getSize() - 2);
+            }
+
             if(market.hasIndustry("farming")){
                 market.getIndustry("farming").getSupply(cheese).getQuantity().modifyFlat(source, market.getSize() - 2);
             }

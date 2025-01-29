@@ -9,6 +9,8 @@ import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
 import java.awt.*;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class rebelrats_mangonelOnHitEffect implements OnHitEffectPlugin {
     @Override //if armored or shielded shrapnel, if bare hull pyroclast explson
@@ -70,6 +72,30 @@ public class rebelrats_mangonelOnHitEffect implements OnHitEffectPlugin {
                 for(int i = 0;i < shrapamt;i++){
                     float pFacing = projectile.getFacing();
                     float reflectAngle;
+                    BoundsAPI.SegmentAPI closest = target.getExactBounds().getSegments().get(1);
+                    BoundsAPI.SegmentAPI closest2 = target.getExactBounds().getSegments().get(1);
+                    float closestDist = 100000f;
+                    float closestDist2 = 100000f;
+
+                    Iterator<BoundsAPI.SegmentAPI> segments = target.getExactBounds().getSegments().iterator();
+                    while(segments.hasNext()){
+                        BoundsAPI.SegmentAPI s = segments.next();
+                        float dist = MathUtils.getDistance(s.getP1(), point);
+                        if(dist < closestDist) {
+                            closest = s;
+                            closestDist = dist;
+                        }
+                    }
+                    for(BoundsAPI.SegmentAPI s : target.getExactBounds().getSegments()){
+                        if(s == closest) continue;
+                        float dist = MathUtils.getDistance(s.getP1(),closest.getP1());
+                        if(dist < closestDist2){
+                            closest2 = s;
+                            closestDist2 = dist;
+                        }
+                    }
+                    float test = rebelrats_combatUtils.calcDirectionOfTwoPoints(closest.getP1(),closest2.getP1());
+                    engine.addFloatingText(target.getLocation(),""+test+"LOC:"+closest.getP1(),20,Color.RED,target,1,1);
 
                     float normal = rebelrats_combatUtils.calcDirectionOfTwoPoints(point,target.getLocation());
                     if(pFacing > 0){reflectAngle = pFacing -180;}
