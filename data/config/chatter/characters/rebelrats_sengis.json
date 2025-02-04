@@ -8,10 +8,10 @@
 	
 	"lines":{
 		"start":[
-			{"text":"General Quarters, General Quarters, all hands man your action stations!"},
-			{"text":"Torpedo tubes prepped and loaded."},
-			{"text":"Rig radiators for action."},
-			{"text":"Entering zone of operation."},
+			{"text":"All hands man your action stations!"},
+			{"text":"Torpedo tubes prepped and ready."},
+			{"text":"Rig radiators for astrocombat."},
+			{"text":"Entering zone of operations."},
 			{"text":"Awaiting combat orders."}
 		],
 		"start_boss":[
@@ -62,7 +62,7 @@
 			{"text":"My hull's down to 30%!"},
 			{"text":"Critical systems damaged!"}
 			{"text":"We've taken critical damage!"},
-			{"text":"Get that reactor stable!"},
+			{"text":"Wait, wait, wait!"},
 			#{"text":"Breach in starboard fusion chamber!"}
 		],
 		"overload":[
@@ -71,13 +71,13 @@
 		],
 		"death":[
 			{"text":"We're going down!"},
-			{"text":"Get to the escape pods!"},
-			{"text":"Mayday, mayday, mayday!"}
+			{"text":"I'm down."},
+			{"text":"No!"}
 		],
 		"victory":[
 			{"text":"Victory secured."},
 			{"text":"Area secured."},
-			{"text":"The enemy has been foundered!"},
+			{"text":"We've driven off the enemy!"},
 			{"text":"Good work, everyone!"}
 		],
 	}
