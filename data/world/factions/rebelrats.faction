@@ -28,7 +28,7 @@
 		},
 		"hulls":{
 		                #combat cap
-		                "rebelrats_porcellus":2,
+		                "rebelrats_porcellus":1,
 
 		                #combat cruiser
 		                "rebelrats_marmot":5,
@@ -47,7 +47,7 @@
 		                "rebelrats_musrattus":6,
 
 		                #logis cap
-		                "rebelrats_pybara":2,
+		                "rebelrats_pybara":4,
 
 		                #logis cruiser
 
@@ -55,8 +55,8 @@
 		                "rebelrats_monax":4,
 
 		                #logis frig
-                        "rebelrats_panya":3,
-                        "rebelrats_rott":3,
+                        	"rebelrats_panya":3,
+                        	"rebelrats_rott":3,
 
 		},
 	},
@@ -80,6 +80,7 @@
 				"rebelrats_jerboa",
 				"rebelrats_matkaboska",
 				"rebelrats_jerboa_roseblight",
+				"rebelrats_xerus",
 
 		                #combat destroyer
 		                "rebelrats_rattus",
@@ -100,8 +101,8 @@
 		                "rebelrats_monax",
 
 		                #logis frig
-                        "rebelrats_panya",
-                        "rebelrats_rott",
+                        	"rebelrats_panya",
+                        	"rebelrats_rott",
 
 		],
 	},
@@ -116,6 +117,7 @@
 		                "rebelrats_marmot",
 		                "rebelrats_jerboa",
 		                "rebelrats_matkaboska",
+				"rebelrats_xerus",
 
 		                #combat destroyer
 		                "rebelrats_rattus",
@@ -124,7 +126,7 @@
 
 		                #combat frig
 		                "rebelrats_mus",
-                        "rebelrats_patron",
+                        	"rebelrats_patron",
 
 		],
 	},
@@ -138,8 +140,8 @@
 
 		                #Interceptor
 		                "rebelrats_ministro_Interceptor_wingt",
-                        "rebelrats_overseer_Interceptor_wingt",
-                        "rebelrats_proctor_Fighter_wingt",
+                        	"rebelrats_overseer_Interceptor_wingt",
+                        	"rebelrats_proctor_Fighter_wingt",
 
 		                #Bomber
 		                "rebelrats_olympian_Bomber_wingt",
@@ -189,6 +191,8 @@
                         "rebelrats_petardlauncher_m",
                         "rebelrats_rattenjager_m",
                         "rebelrats_siegeharq_m",
+			"rebelrats_gingsen_m",
+			"rebelrats_trapee_m",
 
                         #small
                         "rebelrats_ashford",
@@ -201,6 +205,9 @@
                         "rebelrats_longbow",
                         "rebelrats_pyroclast",
                         "rebelrats_ranger",
+			"rebelrats_poacher_s",
+			"rebelrats_chaff",
+			"rebelrats_amos_s",
 		],
 	},
 	"priorityWeapons":{
@@ -352,7 +359,7 @@
 	"fleetTypeNames":{
 		"trade":"Mercantile Column",
 		"tradeLiner":"Liner Column",
-		"tradeSmuggler":"Rats",
+		"tradeSmuggler":"Smuggling Rats",
 		"smallTrader":"Sole Trader",
 		
 		"patrolSmall":"Patrol Flotilla",

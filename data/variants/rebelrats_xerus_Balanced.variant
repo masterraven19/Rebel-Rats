@@ -1,0 +1,55 @@
+{
+  "variantId": "rebelrats_xerus_Balanced",
+  "hullId": "rebelrats_xerus",
+  "displayName": "Fleet",
+  "goalVariant": false,
+  "fluxCapacitors": 2,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "reinforcedhull",
+    "ballistic_rangefinder"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "rebelrats_jerboa_pyroclast_launcher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "rebelrats_crossbow_m",
+        "WS0005": "rebelrats_crossbow_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "rebelrats_tripubus_l"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_ashford",
+        "WS0002": "rebelrats_ashford",
+        "WS0006": "rebelrats_ashford"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
