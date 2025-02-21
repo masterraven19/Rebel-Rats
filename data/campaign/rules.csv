@@ -17,21 +17,21 @@ rebelrats_rattusInteractionText,MarketPostOpen,"$hasMarket
 $market.id == rattus_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
-FireBest MarketPostDock","Port 11 brimmed with activity as people from all walks of life went about their daily routine, unbothered by the eclectic set of shuttles going in and out of port.
+FireBest MarketPostDock","Passing through the shuttle's doors, Port 11 brimmed with activity as people from all walks of life went about their daily routine, unbothered by the eclectic set of shuttles coming in and out of the island spaceport. Climbing up the elevator tothe massive accoustic walls, employees from the menagerie of pop-up shops and market stalls perched up along the wall next to the tram station bombarded the crew with various offers and deals.
 
-Pass the port security checkpoints, children can be seen dashing their way around spacers in the concourse, some going with their parents, attracted by the smell of fresh bread, melted cheese, and grilled meat mingling together and wafting in the air.
+Taking a tram to the mainland, children can be seen dashing their way around spacers in the wide spaces of the tram hub, some tailing along with their parents, others rushing in groups to the stalls at the end of the concourse, attracted by the smell of fresh bread, melted cheese, and grilled meat mingling together and wafting in the air.
 
-Beyond the menial food vendors were the wide-ranging shops in the bazaar who sold more niche items such as cyberhardware, or even the occasional starship parts; Persean wares seems to be all the madness for the guileless rodents.
+Beyond the menial food vendors of the concourse, a large hallway gave way to a number of wide-ranging shops in the bazaar who sold more niche items such as cyberware, or even the occasional starship parts; peering closer into nearby conversations, Persean wares seems to be all the madness for the guileless inhabitants.
 
-Krysa is like a home away from home.",,
+With such a warm atmosphere, Krysa is almost like a home away from home.",,
 rebelrats_malusInteractionText,MarketPostOpen,"$hasMarket
 $market.id == malus_market
 !$player.transponderOn","$tradeMode = OPEN 0
 FireBest MarketPostDock","The rolling airlock of New Eden Cove roars to life with a menagerie of thumps and clunks, having seen better days with faded warning signs and burnt out bulbs.
 
-Passing the airlock, the yellow-lit hallways of New Eden Cove gave way to loose crowds of immigrants and undesirables huddling around makeshift dwellings, occasionally lit by the blare of the exterior sunlight. Looking down from the windows, processions of railcars, maintenance drones, and elevators of all manner snake down the underground caverns, marked by a procession of lights as their evidence of existence.
+Passing the shoddy airlock, the grungy yellow-lit hallways of New Eden Cove gave way to loose crowds of immigrants and undesirables huddling around eclectic makeshift shanties, occasionally lit by the blare of exterior sunlight coming from the dome above. Looking down from the windows, processions of railcars, maintenance drones, and elevators of all manner snake down the underground caverns, marked by a procession of lights as their evidence of existence.
 
-Passing by the droves of arrivals, an overbuilt security checkpoint, manned by armed guards, marked the end of the hallway which lead up to one of the elevators to the underground portion of New Eden Cove.",,
+Passing by the droves of arrivals, an overbuilt security checkpoint manned by armed guards marked the end of the hallway, leading up to a platform of elevators which led to the underground portion of New Eden Cove.",,
 rebelrats_nutriaInteractionText,MarketPostOpen,"$hasMarket
 $market.id == nutria_market
 $player.transponderOn
@@ -84,7 +84,7 @@ Landing on one of the destitute landing pad outside the settlement, one of the s
 rebelrats_rattusFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $market.id == rattus_market","AddText ""The commercial plaza wailed with energy. Traders from all walks of life belched out deals and advertised their wares to would be customers. Holo-ads, and even archaic posters clung around the placa, dutifully displayed their contents, blocked every now and then by the ears of the locals."" marketFlavorTextColor",,,
 rebelrats_malusFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$market.id == malus_market","AddText ""The expansive underground plaza bristled with life, disproportionately filled with pirates and undesirables, eeking out a life in this underground installation. A menagerie of chatter, dealings, and holo-ads were draped along the walls of the plaza, with its shoddily built structures connected by an eclectic system of catwalks, ladders, and elevators. Courtesans on the second level greet oncoming spacers, goading them for a good time."" marketFlavorTextColor",,,
+$market.id == malus_market","AddText ""The expansive underground plaza  of New Eden Cove bristled with life, disproportionately populated by pirates and undesirables eeking out a life in this semi-underground installation. Passing through the plaza, the atmosphere was filled with a menagerie of chatter, dealings, and holo-ads were draped along the plaza's walls. Shoddily built structures that latched on the plaza walls were connected by an hodgepodge system of catwalks, ladders, and elevators. On the second level, Courtesans greet oncoming spacers, goading them for a good time."" marketFlavorTextColor",,,
 rebelrats_nutriaFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $market.id == nutria_market","AddText ""The merchant district of Spalax city is a sight to behold. Towering hab blocks and commercial skyscrapers ruled the skyline, reminding spacers and locals alike of their grandeur. On the ground, establishments of all sizes nestled themselves among each other, from the smallest of food stalls, to massive concourses filled with an eclectic selection of goods and services. A glimpse of Federal Navy Servicemen among the crowds indicate an active force to keep order within the city."" marketFlavorTextColor",,,
 rebelrats_magawaFlavorText,TradePanelFlavorText,"$global.tradePanelMode == MARKET

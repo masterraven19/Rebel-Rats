@@ -4,20 +4,21 @@
   "hullSize": "CRUISER",
   "spriteName": "graphics/rebelrats/ships/xerus_light_cruiser.png",
   "style": "REBELRATS",
-  "height": 286,
+  "height": 280,
   "width": 108,
-  "center": [54, 141.5],
+  "center": [54, 136],
   "collisionRadius": 191.5,
   "shieldCenter": [0, -0],
   "shieldRadius": 163.5,
   "viewOffset": 0,
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid",
-    "rebelrats_ratfield",
-    "rebelrats_bastionshield"
+    "rebelrats_bastionshield",
+    "rebelrats_ratfield"
   ],
   "builtInWeapons": {
-    "WS0007": "rebelrats_jerboa_pyroclast_launcher"
+    "WS0007": "rebelrats_jerboa_pyroclast_launcher",
+    "WS0008": "rebelrats_rattenjager_array_m"
   },
   "weaponSlots": [
     {
@@ -27,7 +28,7 @@
       "mount": "TURRET",
       "arc": 283,
       "angle": 0,
-      "locations": [8.5, -0]
+      "locations": [14, -0]
     },
     {
       "id": "WS0004",
@@ -36,7 +37,7 @@
       "mount": "TURRET",
       "arc": 315,
       "angle": 0,
-      "locations": [62.5, -0]
+      "locations": [68, -0]
     },
     {
       "id": "WS0005",
@@ -45,7 +46,7 @@
       "mount": "TURRET",
       "arc": 327,
       "angle": 0,
-      "locations": [99.5, -0]
+      "locations": [105, -0]
     },
     {
       "id": "WS0006",
@@ -54,7 +55,7 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 180,
-      "locations": [-95.5, -0]
+      "locations": [-90, -0]
     },
     {
       "id": "WS0001",
@@ -63,7 +64,7 @@
       "mount": "TURRET",
       "arc": 200,
       "angle": 79,
-      "locations": [-14.5, 41]
+      "locations": [-9, 41]
     },
     {
       "id": "WS0002",
@@ -72,7 +73,7 @@
       "mount": "TURRET",
       "arc": 200,
       "angle": -79,
-      "locations": [-14.5, -41]
+      "locations": [-9, -41]
     },
     {
       "id": "WS0007",
@@ -81,24 +82,52 @@
       "mount": "HIDDEN",
       "arc": 6,
       "angle": 0,
-      "locations": [127.5, -0]
+      "locations": [133, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-9, -0]
     }
   ],
-  "engineSlots": [],
+  "engineSlots": [
+    {
+      "location": [-134, 21],
+      "length": 70,
+      "width": 60,
+      "angle": 180,
+      "contrailSize": 60,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    },
+    {
+      "location": [-134, -21],
+      "length": 70,
+      "width": 60,
+      "angle": -180,
+      "contrailSize": 60,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    }
+  ],
   "bounds": [
-    -140.5, -36.5,
-    -118, -40.5,
-    -33, -40.5,
-    -11, -54,
-    12.5, -31.5,
-    91.5, -28.5,
-    105.5, -13,
-    105.5, 13,
-    91.5, 28.5,
-    12.5, 31.5,
-    -11, 54,
-    -33, 40.5,
-    -118, 40.5,
-    -140.5, 36.5
+    -135, -36.5,
+    -44.5, -46.5,
+    -27.5, -40.5,
+    -5.5, -54,
+    18, -31.5,
+    114, -28,
+    133.5, -8,
+    133.5, 8,
+    114, 28,
+    18, 31.5,
+    -5.5, 54,
+    -27.5, 40.5,
+    -44.5, 46.5,
+    -135, 36.5
   ]
 }
