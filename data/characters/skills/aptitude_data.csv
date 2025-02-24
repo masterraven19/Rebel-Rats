@@ -1,0 +1,3 @@
+id,name,color,description,order,effect_skill_id,sound1,sound2,sound3,sound4,sound5,sound_story,elite_overlay,elite_overlay_medium,elite_overlay_small
+#combat,Combat,"220,94,41,255",Skills that improve the combat performance of your flagship.,1,aptitude_combat,combat1,combat2,combat3,combat4,combat5,ui_char_spent_story_point_combat,graphics/icons/skills/elite_combat.png,graphics/icons/skills/elite_combat48.png,graphics/icons/skills/elite_combat32.png
+rebelrats,Combat,"89,45,150,255",Skills that improve the combat performance of your flagship.,1,rebelrats_aptitude,combat1,combat2,combat3,combat4,combat5,ui_char_spent_story_point_combat,graphics/icons/skills/elite_combat.png,graphics/icons/skills/elite_combat48.png,graphics/icons/skills/elite_combat32.png

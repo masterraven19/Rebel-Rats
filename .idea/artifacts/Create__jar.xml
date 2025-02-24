@@ -58,6 +58,9 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_gingsenCloudEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/rebelrats_EconListener.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_mangonelOnHitEffect.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/skills/rebelrats_FuriousBrawler.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/skills/rebelrats_Aptitude.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/skills/rebelrats_GunneryDrills.java" />
     </root>
   </artifact>
 </component>

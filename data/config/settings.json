@@ -30,7 +30,8 @@
 		},
 		"characters": {
 			"rebelrats_nazarin": "graphics/rebelrats/portraits/Nazrin_huh.png",
-			"rebelrats_genericOfficer": "graphics/rebelrats/portraits/rebelratsgenericofficerpfp.png"
+			"rebelrats_genericOfficer": "graphics/rebelrats/portraits/rebelratsgenericofficerpfp.png",
+			"rebelrats_thackery": "graphics/rebelrats/portraits/hiichifunny.png",
 		},
 	},
 	"ruleCommandPackages": [

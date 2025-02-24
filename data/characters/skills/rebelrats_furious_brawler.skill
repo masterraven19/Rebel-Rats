@@ -1,0 +1,43 @@
+{
+	"id":"rebelrats_furious_brawler",
+	"governingAptitude":"rebelrats", #has to be custom for officer skills
+	"compressHullmods":false,
+	#"elite":true,
+	"scope":"PILOTED_SHIP",
+	#scopes can be found in com.fs.starfarer.api.characters.LevelBasedEffect
+	#"scopeStr":"",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.scripts.campaign.skills.rebelrats_FuriousBrawler$Level1"},
+
+
+				#{"type":"SHIP", "script":"com.fs.starfarer.api.impl.campaign.skills.BallisticMastery$Level2"},
+				#{"type":"HULLMOD_UNLOCK", "hullmods":{"targetingunit":1}},
+
+				#Types can be:
+				#HULLMOD_UNLOCK - for hullmods
+				#ABILITY_UNLOCK - unlock player abilities.
+
+				#FLEET - for hyperspace modifiers.
+				#SHIP - for the ship with the officer that has the skill.
+				#ALL_SHIPS_IN_FLEET
+				#CHARACTER_STATS - for things like Industry.
+                #DESCRIPTION - for things like Neural Link.
+
+			]
+		},
+		#{
+		#	"name":"Elite",
+		#	"requiredSkillLevel":2,
+		#	"effectBasedOnLevel":false,
+		#	"effects":[
+		#		{"type":"SHIP", "script":"com.fs.starfarer.api.impl.campaign.skills.BallisticMastery$Level4"},
+		#		{"type":"SHIP", "script":"com.fs.starfarer.api.impl.campaign.skills.BallisticMastery$Level3"},
+		#	]
+		#},
+	],
+}
+

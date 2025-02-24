@@ -1,6 +1,12 @@
 package data.scripts.weapons;
 
-import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.OnHitEffectPlugin;
+import com.fs.starfarer.api.combat.DamagingProjectileAPI;
+import com.fs.starfarer.api.combat.CombatEngineAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.DamageType;
+import com.fs.starfarer.api.combat.CombatEntityAPI;
+import com.fs.starfarer.api.combat.BoundsAPI;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import data.scripts.combat.rebelrats_addExplosionFx;
 import data.scripts.combat.rebelrats_addParticle;
@@ -8,8 +14,7 @@ import data.scripts.combat.rebelrats_combatUtils;
 import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
-import java.awt.*;
-import java.util.ArrayList;
+import java.awt.Color;
 import java.util.Iterator;
 
 public class rebelrats_mangonelOnHitEffect implements OnHitEffectPlugin {
@@ -72,30 +77,6 @@ public class rebelrats_mangonelOnHitEffect implements OnHitEffectPlugin {
                 for(int i = 0;i < shrapamt;i++){
                     float pFacing = projectile.getFacing();
                     float reflectAngle;
-                    BoundsAPI.SegmentAPI closest = target.getExactBounds().getSegments().get(1);
-                    BoundsAPI.SegmentAPI closest2 = target.getExactBounds().getSegments().get(1);
-                    float closestDist = 100000f;
-                    float closestDist2 = 100000f;
-
-                    Iterator<BoundsAPI.SegmentAPI> segments = target.getExactBounds().getSegments().iterator();
-                    while(segments.hasNext()){
-                        BoundsAPI.SegmentAPI s = segments.next();
-                        float dist = MathUtils.getDistance(s.getP1(), point);
-                        if(dist < closestDist) {
-                            closest = s;
-                            closestDist = dist;
-                        }
-                    }
-                    for(BoundsAPI.SegmentAPI s : target.getExactBounds().getSegments()){
-                        if(s == closest) continue;
-                        float dist = MathUtils.getDistance(s.getP1(),closest.getP1());
-                        if(dist < closestDist2){
-                            closest2 = s;
-                            closestDist2 = dist;
-                        }
-                    }
-                    float test = rebelrats_combatUtils.calcDirectionOfTwoPoints(closest.getP1(),closest2.getP1());
-                    engine.addFloatingText(target.getLocation(),""+test+"LOC:"+closest.getP1(),20,Color.RED,target,1,1);
 
                     float normal = rebelrats_combatUtils.calcDirectionOfTwoPoints(point,target.getLocation());
                     if(pFacing > 0){reflectAngle = pFacing -180;}
@@ -123,7 +104,7 @@ public class rebelrats_mangonelOnHitEffect implements OnHitEffectPlugin {
             }else{
                 for(int i = 0;i < cloudamt;i++){
                     rebelrats_addExplosionFx p = new rebelrats_addExplosionFx();
-                    p.addExplosion("misc","nebula_particles",new Vector2f(50,50),new Vector2f(80,80),point,new Vector2f(0,0),new Color(244,0,0),1.5F,2,1,0, rebelrats_combatUtils.randomNumber(0,360),0.7F,true);
+                    p.addExplosion("misc","nebula_particles",new Vector2f(50,50),new Vector2f(95,95),point,new Vector2f(0,0),new Color(244,0,0),1.5F,2,1,0, rebelrats_combatUtils.randomNumber(0,360),0.7F,true);
                     CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
                     e.getLocation().set(point);
                 }

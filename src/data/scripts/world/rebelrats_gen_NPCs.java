@@ -33,7 +33,7 @@ public class rebelrats_gen_NPCs {
         PersonAPI p = Global.getFactory().createPerson();
         FullName name = new FullName("Himichi","Thackery", FullName.Gender.FEMALE);
         p.setName(name);
-        p.setPortraitSprite(Global.getSettings().getSpriteName("characters", "rebelrats_genericOfficer"));
+        p.setPortraitSprite(Global.getSettings().getSpriteName("characters", "rebelrats_thackery"));
         p.setId("rebelrats_thackery");
         p.setFaction("rebelrats");
         String post = "rebelrats_Officer";
@@ -42,6 +42,8 @@ public class rebelrats_gen_NPCs {
         p.getStats().setLevel(5);
         p.getStats().setSkillLevel(Skills.SYSTEMS_EXPERTISE,2F);
         p.getStats().setSkillLevel(Skills.HELMSMANSHIP,2F);
+        p.getStats().setSkillLevel("rebelrats_furious_brawler",1f);
+        p.getStats().setSkillLevel("rebelrats_gunnery_drills",1f);
 
         ImportantPeopleAPI ip = Global.getSector().getImportantPeople();
         ip.addPerson(p);

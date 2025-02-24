@@ -1,0 +1,10 @@
+id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon,
+# LEADERSHIP,,,,,,,,,,,,,
+#tactical_drills,Tactical Drills,500,1,0,,"Perfect.
+Now do it again.","Cameron Fourth-Phobos, Coatl Gunnery Range",,TRUE,,,graphics/icons/skills/weapon_drills.png,
+rebelrats_furious_brawler,Furious Brawler,1002,1,,,Go Go Fight The Power,"Himichi Thackery, Krysan Navy Officer",TRUE,,,"npc_only, deprecated",graphics/icons/skills/weapon_drills.png,
+rebelrats_gunnery_drills,Incessant Gunnery Drills,1001,1,,,"One rat, Two rat, 
+great, now repeat that","Ratting Johnson, Krysan Federal Reserve",TRUE,,,"npc_only, deprecated",graphics/icons/skills/ranged_specialization.png,
+,,,,,,,,,,,,,
+#aptitude,,,,,,,,,,,,,
+rebelrats_aptitude,Krysan Navy Skills,400,0,,,Krysan navy skills,,,,,"npc_only, deprecated",graphics/icons/skills/weapon_drills.png,

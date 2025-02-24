@@ -223,7 +223,7 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
         projectile.getDamage().setDamage(1);
 
         rebelrats_addParticle p = new rebelrats_addParticle();
-        p.addParticle(projectile,"graphics/fx/doldrums_warning.png",null,240,80,null,new Vector2f(80,10),new Vector2f(0,0),0,0,false,0,15,1,0.5F,false, new Color(233,91,14,255));
+        p.addParticle(projectile,"fx","rebelrats_doldrums_warning",240,80,null,new Vector2f(80,10),new Vector2f(0,0),0,0,false,0,15,1,0.5F,false, new Color(233,91,14,255));
         CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
         e.getLocation().set(projectile.getLocation());
     }

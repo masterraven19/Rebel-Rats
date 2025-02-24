@@ -1,0 +1,12 @@
+{
+	"id":"rebelrats_aptitude",
+	"governingAptitude":"rebelrats",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":0,
+			"effects":[
+				{"type":"DESCRIPTION", "script":"data.scripts.campaign.skills.rebelrats_Aptitude$Level0"},
+			]
+		},
+	],
+}
