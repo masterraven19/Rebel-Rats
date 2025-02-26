@@ -114,7 +114,7 @@ What should have been a typical meeting turned into a peculiarity. Instead of a 
 ""Ahem! my apolocheese. Welcome, starfarer! I am your assigned Foreign Relations Officer, Nazarin Dess. How may I help you?""","rebelrats_nazar_aboutKrysa:""Can I ask something about Krysa?""
 rebelrats_nazar_aboutRats:""Why are you a picture?""
 rebelrats_nazar_cheese:""Do you like cheese?""
-rebelrats_nazar_escortOpt:""I'm looking to hire some muscle, you have some available for hire?""",
+rebelrats_nazar_escortOpt:""I'm looking to hire some muscle.""",
 rebelrats_nazar_aboutKrysa,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysa,,"One can almost imagine the ears of the shoddily drawn rat perking up in anticipated silence after hearing the question. A subtle clink of a cup in the background can be heard as the image lit up again as the person spoke.
 
 ""Hoh... What may be of your interest with Krysa starfarer. May it be history, or our culture and what's its?""
@@ -124,37 +124,41 @@ rebelrats_nazar_aboutKrysafood:""I'm curious, what exactly do Krysans eat. Do th
 rebelrats_nazar_aboutKrysadomain:""I have read the info packets about Krysa, but is Krysa a former Domain colony?""",
 rebelrats_nazar_aboutKrysaoverview1,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview1,,"It didn't take long for the image to light up again. Her voice had become more energetic, as if some curtain had been unfurled. The shoddy drawing then reserves itself to the corner as an infographic slides portraying six coat of arms under the Krysan flag. You felt as if a mistake had been made as she took an audibly long breath.
 
-""As you may have read on the information pamphlets, Krysa is the Federated States of Krysa's seat of power and houses the Directorial Assembly, the governing entity of the nation. They are the collective members of the 6 founding states, namely: The Kaharian Principality, The Alenian Federal Republic, United Clans of Sandar, Kingdom of Taledia, Republic of Zestiel, and the Collective Houses of the Neusian Ritters.""
+""As you may have read on the information pamphlets, Krysa is the seat of power for the Federated States of Krysa and houses the Directorial Assembly, the governing entity of the nation. They are the collective members of the 6 founding states, namely: The Kaharian Principality, The Alenian Federal Republic, United Clans of Sandar, Kingdom of Taledia, Republic of Zestiel, and the Collective Houses of the Neusian Ritters.""
 
 A brief pause lingered before she continued.
 
 ""Still following me, Starfarer?""",rebelrats_nazar_aboutKrysaoverview2:Continue listening,
 rebelrats_nazar_aboutKrysaoverview2,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview2,,"An audible clunk was heard before the infographic switches to the next slide. It was more expansive, portraying what seems to be a map of Krysa's geography and key landmarks. Aside from that, a manual presentation in this day and age? It makes one wonder if the rest of the planet is like her, using archaic trinkets and doodads in their daily lives.
 
-""The closest example of a planet I could compare to Krysa, if you may, is Gilead. The planet used to be barren believe it or not! It had been severely ravaged by past conflicts. Yet, with the will of the gods and the people's resolute determination, the planet was restored to the beauty it is today through the Ratze-Potkan Planet Rejuvenation Program.""
+""The closest example of a planet I could compare to Krysa, if you may, is Gilead. The planet used to be barren believe it or not! It was severely ravaged by the Penance War. Yet, by the will of the gods and resolute determination, the planet was restored to the beauty that it is today through the Ratze-Potkan Planet Rejuvenation Program.""
 
 Pausing for a moment, a flip of the page can be heard right before she continued to speak. Your group of officers show a mix of intrigue and a rising sense of boredom.
 
-""Today you can see some evidence of such catastrophic damage on your way down from orbit. One of such craters were as a result of an asteroid strike. The people have converted it into the Remembrance Park to stand as a reminder of those who fell fighting for Krysa. The nearby shuttle terminal can take you there directly.""","rebelrats_nazar_aboutKrysaoverview3:""Yeah...""",
+""Today you can still see evidence of the catastrophic damage, especially from orbit. One such crater being a result of a deliberate asteroid strike of which it has been converted into Penance Park as a reminder of those who fell fighting for Krysa. If you're interested, the tram terminal can take you there directly.""","rebelrats_nazar_aboutKrysaoverview3:""Yeah...""",
 rebelrats_nazar_aboutKrysaoverview3,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview3,FireAll PopulateOptions,"There were two clinks heard. The next slide was a list of the local bars, resorts, hotels, or local attractions.
 
-""If I may, I can see that your crew are getting boorish  the best location to lounge in for a vacation here is, ideally, here at the starport where hotels and resorts are widely available. But, I would suggest taking a shuttle to the tip of the peninsula. The crowds are smaller there and the beaches are equally beautiful.""
+""If I may, I can see that your crew are getting boorish. Ideally, I would recommend staying here at the starport mainland where hotels and resorts are widely available for spacers. But, I would suggest taking a shuttle or a tram to the tip of the peninsula. 
 
-Another clink and the slides disappeared to be replaced by Nazarin's icon.
+The crowds there are smaller and the beaches are equally beautiful and sport calmer waters.""
+
+Another clink and the slides disappears to be replaced by Nazarin's portrait.
 
 ""Thank you for listening, Starfarer.""",,
 ,,,,,,
-rebelrats_nazar_aboutKrysafood,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysafood,FireAll PopulateOptions,"""Oh hoh, absolutely! Cheese has been ingrained in Krysan culture for centuries, Starfarer. Many festivals and theatrics have been based on cheese and its makings. From Cheddar, all the way to the delicious Pecorino Romano, we welcome any and all because we love a cheese equally!""",,
-rebelrats_nazar_aboutKrysadomain,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysadomain,FireAll PopulateOptions,"""Not to my knowledge, no, I don't believe that Krysa is a Domain colony. We are a people who have put our life and blood into creating what Krysa is today.""
+rebelrats_nazar_aboutKrysafood,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysafood,FireAll PopulateOptions,"""Oh hoh, absolutely! Cheese has been ingrained in Krysan culture for eons, Starfarer. Festivals and theatrics have based themselves on cheese and its makings.
 
-Despite a slight pause, she continued talking before you were able to ask a follow up question.
+From Cheddar, all the way to the delicious Pecorino Romano, we welcome any and all types because we love all cheese equally!""",,
+rebelrats_nazar_aboutKrysadomain,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysadomain,FireAll PopulateOptions,"""Not to my knowledge, no, I don't believe that Krysa is a Domain colony. We are a people who put life and blood into creating what Krysa is today.""
 
-""However, I can request a shuttle to take you to the Fialot Library if you wish to inquire further. The scholars there may be more knowledgeable on thsi matter than I am.""",,
+Despite a slight pause, she continued before you were able to ask any follow up questions.
+
+""However, I can request a shuttle to take you to the Fialot Grand Library if you wish to inquire further. Scholars there are more knowledgeable on the matter than I am.""",,
 ,,,,,,
-rebelrats_nazar_aboutRats,DialogOptionSelected,$option == rebelrats_nazar_aboutRats,,"""Oh! Ehehehe, it is a drawing of my own. My superiors told me that it adds character.""
+rebelrats_nazar_aboutRats,DialogOptionSelected,$option == rebelrats_nazar_aboutRats,,"""Oh! Ehehehe, the children of a local school drew it for me. I figured it adds character, so I kept it.""
 
-Her response was immediate, as if planned. While it wasn't uncommon to find an oddball pirate to run with an unconventional look, it is odder to find one being used by a Foreign Relations Officer.","rebelrats_nazar_aboutRats2:""Right, it adds character.""",
-rebelrats_nazar_aboutRats2,DialogOptionSelected,$option == rebelrats_nazar_aboutRats2,FireAll PopulateOptions,"""Oh hoh, I can hear the doubt in your voice, but I assure you that the children love it and I make sure that other officers take the same approach.""",,
+Her response was immediate, as if planned. While it wasn't uncommon to find an oddball pirate to run with an unconventional look, it is odder to find one being used by a Foreign Relations Officer in official work.","rebelrats_nazar_aboutRats2:""Right, it adds character.""",
+rebelrats_nazar_aboutRats2,DialogOptionSelected,$option == rebelrats_nazar_aboutRats2,FireAll PopulateOptions,"""Oh hoh, I can hear the doubt in your voice, but I assure you that the children love it and I make sure that other officers take the same approach!""",,
 ,,,,,,
 rebelrats_nazar_cheese,DialogOptionSelected,$option == rebelrats_nazar_cheese,FireAll PopulateOptions,"Almost on queue, ruffling of plastic can be heard through the audio, followed by the familiar sound of nibbling followed by the familiar crumpling of a bag.
 
@@ -175,7 +179,7 @@ $rebelrats_gotMallomy == true
 $rebelrats_gotMurinae == true
 $rebelrats_gotMastomys == true",,"""Ehe, unfortunately, we don't have anyone available.""
 
-One can almost imagine a shrug from the portrait as she quiets herself.","rebelrats_nazar_escortOpt:""Unfortunate""",
+One can almost imagine a shrug from the portrait as she quiets herself before the sound of a candy wrapper momentarily breaks the silence.","rebelrats_nazar_escortOpt:""Unfortunate""",
 rebelrats_nazar_buyEscortCredit,DialogOptionSelected,$option == rebelrats_nazar_buyEscortCredit,"DoCanAffordCheck 75000 rebelrats_nazar_hireRocimar
 DoCanAffordCheck 100000 rebelrats_nazar_hireRufodorsalis
 DoCanAffordCheck 132000 rebelrats_nazar_hireMallomy
@@ -213,7 +217,7 @@ $rebelrats_gotMastomys = true","""Outstanding choice! The Grand Company will wha
 rebelrats_nazar_escortOpt:""Can I ask for something else?""",
 rebelrats_nazar_useRelEscort,DialogOptionSelected,$option == rebelrats_nazar_useRelEscort,FireAll rebelrats_nazarAppealResult,"""Curated list it is! First, background check if you're not some random riff raff. You aren't, right?""
 
-Clickety clack as she typed away from behind the screen as her microphone betrays her.",,
+Clickety clack as she typed away from behind the screen as her microphone betrays her attempted silence.",,
 rebelrats_nazar_useRelSuccess,rebelrats_nazarAppealResult,$faction.relValue >= 0.5,,,rebelrats_nazar_useRelSuccess2:Wait,
 rebelrats_nazar_useRelFail,rebelrats_nazarAppealResult,$faction.relValue < 0.5,,,rebelrats_nazar_useRelFailure:Wait,
 rebelrats_nazar_useRelSuccess2,DialogOptionSelected,$option == rebelrats_nazar_useRelSuccess2,"DoCanAffordCheck 50000 rebelrats_nazar_hireThackery
@@ -228,7 +232,7 @@ rebelrats_nazar_escortOpt: ""Nevermind""",
 rebelrats_nazar_useRelFailure,DialogOptionSelected,$option == rebelrats_nazar_useRelFailure,,"""Ahh... Unfortunately, you have not been given permission to access the curated list.""",rebelrats_nazar_escortOpt:Unfortunate,
 rebelrats_nazar_hireThackery,DialogOptionSelected,$option == rebelrats_nazar_hireThackery,"RemoveCommodity credits 50000
 rebelrats_hireOfficer rebelrats_thackery
-$rebelrats_gotOfficer = true","""Excellent choice! Thackery will be joining you once you are ready to leave.""",rebelrats_nazar_escortOpt:...,
+$rebelrats_gotOfficer = true","""Excellent choice! Captain Thackery will be joining you once you are ready to leave.""",rebelrats_nazar_escortOpt:...,
 rebelrats_nazar_storyPointEscort,DialogOptionSelected,$option == rebelrats_nazar_storyPointEscort,"rebelrats_hireOfficer rebelrats_thackery
 $rebelrats_gotOfficer = true","There was a comically long pause after having said that, as if the commlink had been cut off, yet only a snicker can be heard from the icon.
 
