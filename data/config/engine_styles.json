@@ -9,20 +9,46 @@
 		"contrailParticleSizeMult":1.5,
 		"contrailParticleDuration":2,
 		"contrailParticleFinalSizeMult":1,
-		"contrailDuration":1.5,
+		"contrailDuration":2.5,
 		"contrailWidthMult":0.5,
-		"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
-		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailWidthAddedFractionAtEnd":-2,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":20, # min segment length, in pixels
 		"contrailMaxSpeedMult":1, #0.5
 		"contrailAngularVelocityMult":0.5, #0.5
 		"contrailColor":[176,217,243,70],
 		"contrailCampaignColor":[176,217,243,50],
 
 		"type":"GLOW", # GLOW or SMOKE
-		"glowSizeMult":0.5,
+		"glowSizeMult":0.25,
 		"glowAlternateColor":[136,195,239,255],
 		"glowSprite":"graphics/rebelrats/fx/rebelrats_engineglow5.png", #the plume shape
 		"glowOutline":"graphics/rebelrats/fx/rebelrats_engineflame6.png", #the plume flame
+		"omegaMode":true,
+	},
+	# Reserved engine style ids (can not be used):
+	# "CUSTOM"
+	
+	"Rats2":{
+		"mode":"PARTICLES", # PARTICLES or QUAD_STRIP, determines which params are used
+		"engineColor":[243,243,243,255],
+		"engineCampaignColor":[243,243,243,255],
+		"contrailParticleSizeMult":0.5,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":1,
+		"contrailDuration":2.5,
+		"contrailWidthMult":0.5,
+		"contrailWidthAddedFractionAtEnd":-2,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":40, # min segment length, in pixels
+		"contrailMaxSpeedMult":0.5, #0.5
+		"contrailAngularVelocityMult":0, #0.5
+		"contrailColor":[176,217,243,70],
+		"contrailCampaignColor":[176,217,243,50],
+
+		"type":"GLOW", # GLOW or SMOKE
+		"glowSizeMult":0.25,
+		"glowAlternateColor":[136,195,239,255],
+		"glowSprite":"graphics/rebelrats/fx/rebelrats_engineglow6.png", #the plume shape
+		"glowOutline":"graphics/rebelrats/fx/rebelrats_engineflame7.png", #the plume flame
 		"omegaMode":true,
 	},
 }

@@ -74,6 +74,15 @@
       "contrailSize": 40,
       "style": "CUSTOM",
       "styleId": "Rats"
+    },
+    {
+      "location": [-79, -0],
+      "length": 90,
+      "width": 40,
+      "angle": 180,
+      "contrailSize": 40,
+      "style": "CUSTOM",
+      "styleId": "Rats2"
     }
   ],
   "bounds": [

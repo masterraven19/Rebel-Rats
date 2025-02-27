@@ -172,13 +172,22 @@
   ],
   "engineSlots": [
     {
-      "location": [-171, -0],
+      "location": [-168, -0],
       "length": 140,
       "width": 40,
       "angle": 180,
       "contrailSize": 40,
       "style": "CUSTOM",
       "styleId": "Rats"
+    },
+    {
+      "location": [-170, -0],
+      "length": 138,
+      "width": 40,
+      "angle": 180,
+      "contrailSize": 40,
+      "style": "CUSTOM",
+      "styleId": "Rats2"
     }
   ],
   "bounds": [

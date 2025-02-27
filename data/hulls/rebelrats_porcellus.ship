@@ -288,25 +288,25 @@
   ],
   "engineSlots": [
     {
-      "location": [-198, 83.5],
-      "length": 66.097138,
-      "width": 26.545711,
+      "location": [-196, 83],
+      "length": 65.93409,
+      "width": 30.655903,
       "angle": 170.5,
-      "contrailSize": 26.545711,
+      "contrailSize": 30.655903,
       "style": "CUSTOM",
       "styleId": "Rats"
     },
     {
-      "location": [-198, -84.5],
-      "length": 66.097138,
-      "width": 26.545711,
+      "location": [-196, -83],
+      "length": 65.93409,
+      "width": 30.655903,
       "angle": -170.5,
-      "contrailSize": 26.545711,
+      "contrailSize": 30.655903,
       "style": "CUSTOM",
       "styleId": "Rats"
     },
     {
-      "location": [-211, 36.5],
+      "location": [-208, 37],
       "length": 100,
       "width": 50,
       "angle": 180,
@@ -315,7 +315,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-211, -37.5],
+      "location": [-208, -37],
       "length": 100,
       "width": 50,
       "angle": -180,
@@ -324,13 +324,58 @@
       "styleId": "Rats"
     },
     {
-      "location": [-211, -0.5],
-      "length": 99.5,
-      "width": 51,
+      "location": [-208, -0],
+      "length": 100,
+      "width": 50,
       "angle": 180,
-      "contrailSize": 51,
+      "contrailSize": 50,
       "style": "CUSTOM",
       "styleId": "Rats"
+    },
+    {
+      "location": [-209, 37],
+      "length": 100,
+      "width": 50,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "CUSTOM",
+      "styleId": "Rats2"
+    },
+    {
+      "location": [-209, -37],
+      "length": 100,
+      "width": 50,
+      "angle": -180,
+      "contrailSize": 50,
+      "style": "CUSTOM",
+      "styleId": "Rats2"
+    },
+    {
+      "location": [-209, -0],
+      "length": 100,
+      "width": 50,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "CUSTOM",
+      "styleId": "Rats2"
+    },
+    {
+      "location": [-197, 84],
+      "length": 65.93409,
+      "width": 30.655903,
+      "angle": 170.5,
+      "contrailSize": 30.655903,
+      "style": "CUSTOM",
+      "styleId": "Rats2"
+    },
+    {
+      "location": [-197, -84],
+      "length": 65.93409,
+      "width": 30.655903,
+      "angle": -170.5,
+      "contrailSize": 30.655903,
+      "style": "CUSTOM",
+      "styleId": "Rats2"
     }
   ],
   "bounds": [
