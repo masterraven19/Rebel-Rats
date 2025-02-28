@@ -15,10 +15,10 @@ import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
 import java.awt.Color;
-import java.util.Iterator;
+import java.util.List;
 
 public class rebelrats_mangonelOnHitEffect implements OnHitEffectPlugin {
-    @Override //if armored or shielded shrapnel, if bare hull pyroclast explson
+    @Override
     public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
         if(!(target instanceof ShipAPI)) return;
         ShipAPI ship = (ShipAPI) target;
@@ -36,16 +36,12 @@ public class rebelrats_mangonelOnHitEffect implements OnHitEffectPlugin {
 
             for(int i = 0;i < shrapamt;i++){
                 float pFacing = projectile.getFacing();
-                float reflectAngle;
+                float reflectAngle = pFacing - 180;
 
                 float normal = rebelrats_combatUtils.calcDirectionOfTwoPoints(point,target.getLocation());
-                if(pFacing > 0){reflectAngle = pFacing -180;}
-                else{reflectAngle = pFacing + 180;}
                 float diff = normal - reflectAngle;
                 float reflectDiff = diff;
-                if(diff < -180){reflectDiff += 360;}
-                if(diff > 180){reflectDiff -= 360;}
-                if(reflectDiff < 0){reflectDiff *= -1;}
+                reflectDiff = Math.abs(reflectDiff);
                 if(reflectDiff > ratioCone){reflectDiff = ratioCone;}
                 float ratio = reflectDiff / ratioCone;
                 reflectAngle = normal + (ratio * diff);
@@ -71,21 +67,45 @@ public class rebelrats_mangonelOnHitEffect implements OnHitEffectPlugin {
             float max = ship.getArmorGrid().getMaxArmorInCell();
             float scale = (armot/max) * 1;
             int shrapamt = (int)(scale * 15);
-            int cloudamt = 3;
+            int cloudamt = (int)((1 - scale) * 6);
 
             if(armot > 0){
-                for(int i = 0;i < shrapamt;i++){
-                    float pFacing = projectile.getFacing();
-                    float reflectAngle;
+                float pFacing = projectile.getFacing();
+                float reflectAngle = pFacing - 180;
 
-                    float normal = rebelrats_combatUtils.calcDirectionOfTwoPoints(point,target.getLocation());
-                    if(pFacing > 0){reflectAngle = pFacing -180;}
-                    else{reflectAngle = pFacing + 180;}
+                float nearestMidpoint = 1000000f;
+                List<BoundsAPI.SegmentAPI> segments = ship.getExactBounds().getSegments();
+                BoundsAPI.SegmentAPI s0 = null;
+                BoundsAPI.SegmentAPI s1 = null;
+
+                for(int i = 0;i < segments.size();i++){
+                    BoundsAPI.SegmentAPI currentSegment;
+                    BoundsAPI.SegmentAPI previousSegment;
+
+                    currentSegment = segments.get(i);
+                    if(i == 0){
+                        previousSegment = segments.get(segments.size() - 1);
+                    }else{
+                        previousSegment = segments.get(i - 1);
+                    }
+                    Vector2f midpoint = MathUtils.getMidpoint(currentSegment.getP1(),previousSegment.getP1());
+                    float dist = MathUtils.getDistance(midpoint,point);
+                    if(dist < nearestMidpoint){
+                        nearestMidpoint = dist;
+                        s0 = currentSegment;
+                        s1 = previousSegment;
+                    }
+                }
+                float surface = rebelrats_combatUtils.calcDirectionOfTwoPoints(s1.getP1(),s0.getP1());
+
+                float turn = 90;
+                float normal = surface - turn;
+
+                for(int i = 0;i < shrapamt;i++){
+
                     float diff = normal - reflectAngle;
                     float reflectDiff = diff;
-                    if(diff < -180){reflectDiff += 360;}
-                    if(diff > 180){reflectDiff -= 360;}
-                    if(reflectDiff < 0){reflectDiff *= -1;}
+                    reflectDiff = Math.abs(reflectDiff);
                     if(reflectDiff > ratioCone){reflectDiff = ratioCone;}
                     float ratio = reflectDiff / ratioCone;
                     reflectAngle = normal + (ratio * diff);
@@ -101,10 +121,9 @@ public class rebelrats_mangonelOnHitEffect implements OnHitEffectPlugin {
                     CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
                     e.getLocation().set(point);
                 }
-            }else{
                 for(int i = 0;i < cloudamt;i++){
                     rebelrats_addExplosionFx p = new rebelrats_addExplosionFx();
-                    p.addExplosion("misc","nebula_particles",new Vector2f(50,50),new Vector2f(95,95),point,new Vector2f(0,0),new Color(244,0,0),1.5F,2,1,0, rebelrats_combatUtils.randomNumber(0,360),0.7F,true);
+                    p.addExplosion("misc","nebula_particles",new Vector2f(25,25),new Vector2f(140,140),point,new Vector2f(0,0),new Color(244,0,0),2F,2,1,0, rebelrats_combatUtils.randomNumber(0,360),0.7F,true);
                     CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
                     e.getLocation().set(point);
                 }

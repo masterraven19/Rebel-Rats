@@ -51,6 +51,7 @@ public class rebelrats_gingsenCloudEffect extends BaseEveryFrameCombatPlugin {
             interval.advance(amount);
             if (interval.intervalElapsed() && ticks < TOTAL_TICKS) {
                 dealDamage();
+
                 ticks++;
             }
             return;
