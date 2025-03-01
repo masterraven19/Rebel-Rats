@@ -29,18 +29,18 @@ $market.id == malus_market
 !$player.transponderOn","$tradeMode = OPEN 0
 FireBest MarketPostDock","The rolling airlock of New Eden Cove roars to life with a menagerie of thumps and clunks, having seen better days with faded warning signs and burnt out bulbs.
 
-Passing the shoddy airlock, the grungy yellow-lit hallways of New Eden Cove gave way to loose crowds of immigrants and undesirables huddling around eclectic makeshift shanties, occasionally lit by the blare of exterior sunlight coming from the dome above. Looking down from the windows, processions of railcars, maintenance drones, and elevators of all manner snake down the underground caverns, marked by a procession of lights as their evidence of existence.
+Passing the shoddy airlock, the grungy yellow-lit hallways of New Eden Cove gave way to loose crowds of immigrants and undesirables huddling around eclectic makeshift shanties, occasionally lit by the blare of exterior sunlight coming from the transparent dome above. Looking down from the windows, processions of railcars, maintenance drones, and elevators of all manner snake down the underground caverns, marked by a procession of lights as their evidence of existence.
 
 Passing by the droves of arrivals, an overbuilt security checkpoint manned by armed guards marked the end of the hallway, leading up to a platform of elevators which led to the underground portion of New Eden Cove.",,
 rebelrats_nutriaInteractionText,MarketPostOpen,"$hasMarket
 $market.id == nutria_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
-FireBest MarketPostDock","Stepping off of the shuttle, a cold breeze filled the air, almost burning one's lungs. Plumes of steam from geysers and manholes alike emit a subtle smell of sulfur as one made their way through the promenade that offered a comprehensive view of the medley of ships and shuttles making their way to port and from orbit.
+FireBest MarketPostDock","Stepping off of the shuttle, a cold breeze filled the air, almost burning one's lungs. Plumes of steam from geysers and manholes alike emit a subtle smell of sulfur as one made their way through the neon-filled promenade which offered a comprehensive view of the medley of ships and shuttles making their way to port and from orbit.
 
-The familiar sight of hab blocks and commercial skyscrapers marked the skies, and a carnival of huge holo-ads, fly overs, and city lights illuminated the streets. Most prominent was the mechant's district that propped itself along Spalax City's huge avenues like they were walls of separation.
+The familiar sight of hab blocks and commercial skyscrapers marked the skies while a carnival of huge holo-ads, fly overs, and city lights illuminated the streets below. Most prominent was the cast mechant's bazaars that propped themselves along Spalax City's huge avenues like they were walls of separation.
 
-An ad-drone then greets you with the latest personalized deals as you made your way to the trams.",,
+While taking in the view, an ad-drone then greets you and your crew with the latest personalized deals as you made your way to the trams.",,
 rebelrats_magawaInteractionText,MarketPostOpen,"$hasMarket
 $market.id == magawa_market
 $player.transponderOn
@@ -131,16 +131,16 @@ A brief pause lingered before she continued.
 ""Still following me, Starfarer?""",rebelrats_nazar_aboutKrysaoverview2:Continue listening,
 rebelrats_nazar_aboutKrysaoverview2,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview2,,"An audible clunk was heard before the infographic switches to the next slide. It was more expansive, portraying what seems to be a map of Krysa's geography and key landmarks. Aside from that, a manual presentation in this day and age? It makes one wonder if the rest of the planet is like her, using archaic trinkets and doodads in their daily lives.
 
-""The closest example of a planet I could compare to Krysa, if you may, is Gilead. The planet used to be barren believe it or not! It was severely ravaged by the Penance War. Yet, by the will of the gods and resolute determination, the planet was restored to the beauty that it is today through the Ratze-Potkan Planet Rejuvenation Program.""
+""The closest example that I could compare to Krysa, if you may, is Gilead. The planet used to be barren believe it or not! Its surface was severely ravaged during the Penance War. Yet, by the will of the gods and resolute determination, the planet was restored to the beauty that it is today through the Ratze-Potkan Rejuvenation Program.""
 
 Pausing for a moment, a flip of the page can be heard right before she continued to speak. Your group of officers show a mix of intrigue and a rising sense of boredom.
 
-""Today you can still see evidence of the catastrophic damage, especially from orbit. One such crater being a result of a deliberate asteroid strike of which it has been converted into Penance Park as a reminder of those who fell fighting for Krysa. If you're interested, the tram terminal can take you there directly.""","rebelrats_nazar_aboutKrysaoverview3:""Yeah...""",
+""You can see the damage today, especially from orbit. Mostly by the work of abominable machines, with a handful of the impact sites having been converted into memorials such as the Grand Memorial Park that I oblige all of you to visit.""","rebelrats_nazar_aboutKrysaoverview3:""Yeah...""",
 rebelrats_nazar_aboutKrysaoverview3,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysaoverview3,FireAll PopulateOptions,"There were two clinks heard. The next slide was a list of the local bars, resorts, hotels, or local attractions.
 
-""If I may, I can see that your crew are getting boorish. Ideally, I would recommend staying here at the starport mainland where hotels and resorts are widely available for spacers. But, I would suggest taking a shuttle or a tram to the tip of the peninsula. 
+""If I may, I can see that your crew are getting restless. I would  ideally recommend staying here at the starport mainland where hotels and resorts are widely available, but, for today I suggest taking a shuttle or a tram to the tip of the peninsula. 
 
-The crowds there are smaller and the beaches are equally beautiful and sport calmer waters.""
+The crowds there are smaller and the beaches are equally beautiful and sport calmer waters. That is, if you can contend with smaller resorts.""
 
 Another clink and the slides disappears to be replaced by Nazarin's portrait.
 
@@ -149,11 +149,11 @@ Another clink and the slides disappears to be replaced by Nazarin's portrait.
 rebelrats_nazar_aboutKrysafood,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysafood,FireAll PopulateOptions,"""Oh hoh, absolutely! Cheese has been ingrained in Krysan culture for eons, Starfarer. Festivals and theatrics have based themselves on cheese and its makings.
 
 From Cheddar, all the way to the delicious Pecorino Romano, we welcome any and all types because we love all cheese equally!""",,
-rebelrats_nazar_aboutKrysadomain,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysadomain,FireAll PopulateOptions,"""Not to my knowledge, no, I don't believe that Krysa is a Domain colony. We are a people who put life and blood into creating what Krysa is today.""
+rebelrats_nazar_aboutKrysadomain,DialogOptionSelected,$option == rebelrats_nazar_aboutKrysadomain,FireAll PopulateOptions,"""Not to my knowledge, no, I don't believe that Krysa was ever a Domain colony. The people put their life and blood into creating what Krysa is today outside of any Domain meddling.""
 
-Despite a slight pause, she continued before you were able to ask any follow up questions.
+Despite a slight pause, she continued before you were able to ask any follow up questions as your crew pondered, some distracted by a passing schoolbus.
 
-""However, I can request a shuttle to take you to the Fialot Grand Library if you wish to inquire further. Scholars there are more knowledgeable on the matter than I am.""",,
+""However, I can request a shuttle to take you to the Fialot Grand Library if you wish to inquire further. The scholars there are more knowledgeable on the topic than I am.""",,
 ,,,,,,
 rebelrats_nazar_aboutRats,DialogOptionSelected,$option == rebelrats_nazar_aboutRats,,"""Oh! Ehehehe, the children of a local school drew it for me. I figured it adds character, so I kept it.""
 

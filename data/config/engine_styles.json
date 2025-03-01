@@ -32,15 +32,15 @@
 		"mode":"PARTICLES", # PARTICLES or QUAD_STRIP, determines which params are used
 		"engineColor":[243,243,243,255],
 		"engineCampaignColor":[243,243,243,255],
-		"contrailParticleSizeMult":0.5,
-		"contrailParticleDuration":2,
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":1,
 		"contrailParticleFinalSizeMult":1,
 		"contrailDuration":2.5,
 		"contrailWidthMult":0.5,
 		"contrailWidthAddedFractionAtEnd":-2,  # can be negative. makes trail spread out/narrow at the end
 		"contrailMinSeg":40, # min segment length, in pixels
 		"contrailMaxSpeedMult":0.5, #0.5
-		"contrailAngularVelocityMult":0, #0.5
+		"contrailAngularVelocityMult":0.5, #0.5
 		"contrailColor":[176,217,243,70],
 		"contrailCampaignColor":[176,217,243,50],
 
