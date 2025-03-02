@@ -18,7 +18,9 @@
   ],
   "builtInWeapons": {
     "WS0007": "rebelrats_jerboa_pyroclast_launcher",
-    "WS0008": "rebelrats_rattenjager_array_m"
+    "WS0008": "rebelrats_rattenjager_array_m",
+    "WS0009": "rebelrats_verlokken_m",
+    "WS0010": "rebelrats_verlokken_m"
   },
   "weaponSlots": [
     {
@@ -92,6 +94,24 @@
       "arc": 360,
       "angle": 0,
       "locations": [-9, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [20.5, -26.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [20.5, 26.5]
     }
   ],
   "engineSlots": [

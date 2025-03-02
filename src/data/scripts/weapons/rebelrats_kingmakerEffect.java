@@ -85,22 +85,18 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
 
         if (shieldHit){
             float pFacing = projectile.getFacing();
-            float reflectAngle;
+            float reflectAngle = pFacing - 180;
             float dist = MathUtils.getDistance(projectile.getSource(),target);
 
             float normal = rebelrats_combatUtils.calcDirectionOfTwoPoints(point,target.getLocation());
-            if(pFacing > 0){reflectAngle = pFacing -180;}
-            else{reflectAngle = pFacing + 180;}
             float diff = normal - reflectAngle;
             reflectAngle = normal + diff;
 
-            float reflectDiff = diff;
-            if(diff < -180){reflectDiff += 360;}
-            if(diff > 180){reflectDiff -= 360;}
+            float reflectDiff = Math.abs(diff);
 
             float dmg = projectile.getWeapon().getDamage().getDamage();
 
-            if ((reflectDiff > baseCone || reflectDiff < -baseCone) && dist > penDist){
+            if (reflectDiff > baseCone && dist > penDist){
                 dmg *= 0.5F;
                 engine.applyDamage(target,point,dmg,projectile.getDamageType(), projectile.getEmpAmount(),false,false,projectile.getSource());
 

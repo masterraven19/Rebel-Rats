@@ -33,6 +33,7 @@ rebelrats_jerboa_pyroclast_launcher,WEAPON,An integrated tube magazine of Pyrocl
 rebelrats_mischief_m,WEAPON,The Mischief uses a phased array of thousands of Green Rat Emitters to engage all targets within its range. The extra beams can be disabled by disabling the weapon group.,,,,
 rebelrats_trapee_m,WEAPON,Fulfills the demand of long range missile coverage. The Trapee's two stage engine lets it coast to the target and then release its payload once it is within range of its target.,,,,
 rebelrats_gingsen_m,WEAPON,"The Gingsen is a generation's worth of research stuffed into a payload. On impact, the missile distributes mesh-networked microbots which navigate to and seal up any holes in the target's armor.",,,,
+rebelrats_verlokken_m,WEAPON,No description... yet Blackbeard,,,,
 ,,,,,,
 #MUS HUNTSMAN AUTOLOADER,,,,,,
 rebelrats_huntsmanx2_m,WEAPON,These torpedo tubes serve as the Mus' main anti-ship weapon to allow the Mus to punch above its weight class. The tubes utilizes an autoloader derived from the Rattus that ensures a quick rate of fire.,,,,
