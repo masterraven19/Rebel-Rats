@@ -61,6 +61,8 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/skills/rebelrats_FuriousBrawler.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/skills/rebelrats_Aptitude.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/skills/rebelrats_GunneryDrills.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_verlokkenScript.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_verlokkenEffect.java" />
     </root>
   </artifact>
 </component>
