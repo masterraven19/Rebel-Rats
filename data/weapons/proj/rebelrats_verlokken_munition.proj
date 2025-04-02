@@ -7,13 +7,13 @@
 	"center":[3,7],
 	"collisionRadius":7,
 	"collisionClass":"MISSILE_NO_FF",
-	#"collisionClass":"FIGHTER",
 	"explosionColor":[255,125,75,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":75, # purely visual
 	#"maxFlightTime":3,
 	"flameoutTime":1, # total time from flameout to full fadeout
 	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
 	"fadeTime":0.5, # fadeout duration
+	"armingTime":10,
 	#"collisionClassAfterFlameout":"MISSILE_NO_FF",
 	"behaviorSpec":{"behavior":"CUSTOM",
 					"effectRange":900,

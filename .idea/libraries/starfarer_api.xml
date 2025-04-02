@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="starfarer.api">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../../Program Files (x86)/Fractal Softworks/Starsector/starsector-core/starfarer.api.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../../Program Files (x86)/Fractal Softworks/Starsector/starsector-core/lwjgl.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../../Program Files (x86)/Fractal Softworks/Starsector/starsector-core/lwjgl_util.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../../Program Files (x86)/Fractal Softworks/Starsector/starsector-core/json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files (x86)/Fractal Softworks/Starsector/starsector-core/starfarer.api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files (x86)/Fractal Softworks/Starsector/starsector-core/lwjgl_util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files (x86)/Fractal Softworks/Starsector/starsector-core/lwjgl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files (x86)/Fractal Softworks/Starsector/starsector-core/json.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../../../../Program Files (x86)/Fractal Softworks/Starsector/starsector-core/starfarer.api.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files (x86)/Fractal Softworks/Starsector/starsector-core/starfarer.api.zip!/" />
     </SOURCES>
   </library>
 </component>

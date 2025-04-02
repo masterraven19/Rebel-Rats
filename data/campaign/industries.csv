@@ -1,5 +1,5 @@
 id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
-#rebelrats_orbitalstation,Orbital Station - Rebel Rats,50,90,,3,,rebelrats_battlestation,"station, sub_item, unraidable, structure","{
+rebelrats_orbitalstation,Orbital Station - Rebel Rats,50,90,,3,,rebelrats_battlestation,"station, sub_item, unraidable, structure","{
 radius:55,
 variant:rebelrats_station_Orbital,
 fleetName:Orbital Station,
