@@ -2,7 +2,7 @@ id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat of
 # LEADERSHIP,,,,,,,,,,,,,
 #tactical_drills,Tactical Drills,500,1,0,,"Perfect.
 Now do it again.","Cameron Fourth-Phobos, Coatl Gunnery Range",,TRUE,,,graphics/icons/skills/weapon_drills.png,
-rebelrats_furious_brawler,Furious Brawler,1002,1,,,I will say it now rather than later. This is a warship that I intend to take into danger. If anyone has objections speak now or forever hold your peace and get off my ship.,"Himichi Thackery,
+rebelrats_furious_brawler,Furious Brawler,1002,1,,,"I will say it now rather than later. This is a warship, and I intend to take it into danger. If anyone has their objections, speak now or forever hold your peace and get off my ship.","Himichi Thackery,
 Captain of the KFS Almayer, final address to the crew before embarking to Nutria.",TRUE,,,"npc_only, deprecated",graphics/rebelrats/icons/skills/furious_brawler.png,
 rebelrats_gunnery_drills,Incessant Gunnery Drills,1001,1,,,"One rat, Two rat, 
 great, now repeat that","Ratting Johnson, Krysan Federal Reserve",TRUE,,,"npc_only, deprecated",graphics/rebelrats/icons/skills/incessant_drills.png,
