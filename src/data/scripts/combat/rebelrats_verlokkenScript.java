@@ -15,7 +15,6 @@ public class rebelrats_verlokkenScript extends BaseEveryFrameCombatPlugin {
     private CombatEngineAPI engine;
     private MissileAPI missile;
     private MagicMissileAI ai;
-    private IntervalUtil interval = new IntervalUtil(0.1f,0.1f);
     private float range = 1200;
     private float proxyrange = 500;
     private float deadzoneRange = 0;
@@ -26,6 +25,9 @@ public class rebelrats_verlokkenScript extends BaseEveryFrameCombatPlugin {
     private float d = 0;
     private int frame = 1;
     private int maxFrames = 6;
+    private int FPS = 3;
+    private float frameRate = 1f/FPS;
+    private IntervalUtil interval = new IntervalUtil(frameRate,frameRate);
     private boolean finished;
     private String munitionId = "rebelrats_verlokken_munition";
     private String mode = "main";
@@ -88,17 +90,16 @@ public class rebelrats_verlokkenScript extends BaseEveryFrameCombatPlugin {
             if(finished)return;
             float angle = missile.getFacing() - 90;
             float duration = missile.getMaxFlightTime() - missile.getFlightTime() + missile.getSpec().getFadeTime();
-            float frameDuration = duration * 0.1f;
             if(frame == maxFrames){
                 rebelrats_addParticle p = new rebelrats_addParticle();
-                p.addParticle(missile,"rebelrats_verlokkenAnimation",""+frame,30,30,new Vector2f(0,0),new Vector2f(0,0),new Vector2f(0,0),angle,0,false,0,frameDuration,1,0.1f,false,null);
+                p.addParticle(missile,"rebelrats_verlokkenAnimation",""+frame,30,30,new Vector2f(0,0),new Vector2f(0,0),new Vector2f(0,0),angle,0,false,0,duration,1,0.2f,false,null);
                 CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
                 e.getLocation().set(missile.getLocation());
                 finished = true;
                 return;
             }
             if(frame < maxFrames){
-                rebelrats_addFrame p = new rebelrats_addFrame(missile,null,"rebelrats_verlokkenAnimation",""+frame,new Vector2f(30,30),null,null,frameDuration,angle,0,false,null);
+                rebelrats_addFrame p = new rebelrats_addFrame(missile,null,"rebelrats_verlokkenAnimation",""+frame,new Vector2f(30,30),null,null,frameRate,angle,0,false,null);
                 CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
                 e.getLocation().set(missile.getLocation());
                 frame += 1;
