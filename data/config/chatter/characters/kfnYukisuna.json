@@ -1,0 +1,91 @@
+{
+	"name":"Yukisuna",
+	"personalities":["steady","aggressive"],
+	"gender":["f"],
+	"chance":0.5,
+	"talkativeness":1,
+	"categoryTags":["rebelratters"],
+	
+	"lines":{
+		"start":[
+			{"text":"Time to make our wages worthwile!!"},
+			{"text":"Finally, some fun!"},
+			{"text":"Why do we address only you as 'Captain'? Aren't we all the captains of our ships?"},
+			{"text":"Launching! Let's get in there!"},
+			{"text":"They better not have any phase ships."},
+			{"text":"Let's show them what the navy's good for!"},
+			{"text":"I don't know who I am, I don't know why I'm here. All I know is I must kill."}
+		],
+		"start_boss":[
+			{"text":"We can do this... We can do this..."},
+			{"text":"Game's about to get ugly, boys and girls!"},
+			{"text":"Dang... Are we up for this?"},
+			{"text":"Things are about to get SPICY!"}
+		],		
+		"retreat":[
+			{"text":"Getting out!"},
+			{"text":"We're extracting!"}
+		],
+		"out_of_missiles":[
+			{"text":"Awww, no more fireworks..."},
+			{"text":"We're out of fireworks! It's down to you, gunnery crew!"}
+		],
+		"engaged":[
+			{"text":"Engaging!"},
+			{"text":"C'mere, you!"},
+			{"text":"Shoot, here we go!"},
+			{"text":"FIGHT and WIN!"},
+			{"text":"Take'em down!"}
+		],
+		"need_help":[
+			{"text":"Where is my damn team!"},
+			{"text":"Hey, team! Where are you!?"},
+			{"text":"We're getting bullied! Rood, dood!"}
+		],
+		"pursuing":[
+			{"text":"That's a nice bridge... Be a shame if something happened to it!"},
+			{"text":"We've got'em now! Go go go, get us in there!"},
+			{"text":"Pursuing! Let's take'em down!"},
+			{"text":"Get'em, get'em, get'em!"}
+		],
+		"running":[
+			{"text":"Back! Back!"},
+			{"text":"Stars! We need to catch our breath!"},
+			{"text":"Yikes! Get us out of here!"}
+		],
+		"hull_90":[
+			{"text":"Ouch! Brace yourselves, people!"},
+			{"text":"Taking hits! Catch your footing and strike back!"}
+		],
+		"hull_50":[
+			{"text":"We're taking a beating! Hang in there, crew!"},
+			{"text":"Suit up, everybody! Oxygen masks!"},
+			{"text":"We're getting jumped, permission to disengage?"}
+		],
+		"hull_30":[
+			{"text":"Ready escape pods! Stay safe, everybody!"},
+			{"text":"Chat, I think we're cooked!"},
+			{"text":"NO! My crew!"},
+			{"text":"We're getting blasted! Captain, HELP!"},
+			{"text":"It's only me left on the bridge! I can't do this, Captain!"},
+			{"text":"Hello darkness my old friend..."}
+		],
+		"overload":[
+			{"text":"Where'd I leave my fire extinguisher..."},
+			{"text":"Damn it! Shield's taken a hit too many!"}
+		],
+		"death":[
+			{"text":"Save yourselves, everybody! Live, and come back to me!"},
+			{"text":"Bailing! My poor ship!"},
+			{"text":"FUUUUUUUUUU-"}
+		],
+		"victory":[
+			{"text":"We got'em!"},
+			{"text":"It's over! Everybody alright?"},
+			{"text":"Aww, the fun time's over. See you next time, Captain!"},
+			{"text":"Hell yeah, time for salvage! I'll get suited up!"},
+			{"text":"Thanks for coming to the stream! Yukisuna signing off!"},
+			{"text":"Time to go pet the fox and unwind."}
+		],
+	}
+}
