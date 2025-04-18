@@ -215,7 +215,7 @@ The ship runs with a Lynx-Pattern flux reactor to power and systems while a pell
 ,,,,,,
 #SHIP SYSTEMS,,,,,,
 rebelrats_jerboaSystem,SHIP_SYSTEM,Overwhelms the target using the ship's extensive EW systems. Disables enemy turret rotation | Reduces enemy ship turning | Disables enemy engines,Offensive,Disables the enemy ship's weapon rotation and engines and thrusters.,,
-rebelrats_lockjaw,SHIP_SYSTEM,Power for shields are diverted into weapon capacitors while Composition HEP is injected into shell canisters. Increases weapon damage by 50% | Increases range by 30% | Generates hardflux | Disables shields | Disables venting,,,,
+rebelrats_lockjaw,SHIP_SYSTEM,Power for shields are diverted into weapon capacitors while Composition HEP is injected into shell canisters. Increases ballistic weapon damage by 50% | Increases weapon range by 30% | Generates hardflux | Disables shields | Disables venting,,,,
 ,,,,,,
 rebelrats,FACTION,"Rats, rats, we are the rats
 Celebrating yet another birthday bash

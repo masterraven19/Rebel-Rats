@@ -84,145 +84,145 @@
     ],
     },
     "rebelrats_thackery_death1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerydeathline1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerydeathline1.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_death2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerydeathline2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerydeathline2.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_death3": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerydeathline3.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerydeathline3.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_death4": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerydeathline4.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerydeathline4.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_start1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerystartline1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerystartline1.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_start2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerystartline2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerystartline2.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_start3": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerystartline3.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerystartline3.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_start4": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerystartline4.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerystartline4.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_start5": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerystartline5.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerystartline5.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_engage1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryengageline1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryengageline1.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_engage2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryengageline2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryengageline2.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_engage3": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryengageline3.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryengageline3.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_engage4": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryengageline4.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryengageline4.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_engage5": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryengageline5.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryengageline5.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_hull30line1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull30line1.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_hull30line2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull30line2.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_hull30line3": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line3.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull30line3.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_hull30line4": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line4.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull30line4.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_hull50line1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line1.ogg","pitch":1.00,"volume":3},
     ],
     "rebelrats_thackery_hull50line2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line2.ogg","pitch":1.00,"volume":3},
     ],
      "rebelrats_thackery_hull50line3": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line3.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line3.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_hull50line4": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line4.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line4.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_hull50line5": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line5.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull50line5.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_hull90line1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull90line1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull90line1.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_hull90line2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull90line2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull90line2.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_hull90line3": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull90line3.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryhull90line3.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_missileline1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerymissileline1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerymissileline1.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_missileline2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerymissileline2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerymissileline2.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_needhelpline1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryneedhelpline1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryneedhelpline1.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_needhelpline2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryneedhelpline2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryneedhelpline2.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_overloadline1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryoverloadline1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryoverloadline1.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_overloadline2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryoverloadline2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryoverloadline2.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_overloadline3": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryoverloadline3.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryoverloadline3.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_pursuingline1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerypursuingline1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerypursuingline1.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_pursuingline2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerypursuingline2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerypursuingline2.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_pursuingline3": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerypursuingline3.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerypursuingline3.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_retreatline1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryretreatline1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryretreatline1.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_retreatline2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryretreatline2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryretreatline2.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_runningline1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryrunningline1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryrunningline1.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_runningline2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryrunningline2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryrunningline2.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_runningline3": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryrunningline3.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryrunningline3.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_startbossline1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerystartbossline1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerystartbossline1.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_startbossline2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackerystartbossline2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackerystartbossline2.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_victoryline1": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryvictoryline1.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryvictoryline1.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_victoryline2": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryvictoryline2.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryvictoryline2.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_victoryline3": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryvictoryline3.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryvictoryline3.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_thackery_victoryline4": [
-        {"file":"sounds/rebelrats/rr_voicelines/thackeryvictoryline4.ogg","pitch":1.00,"volume":5},
+        {"file":"sounds/rebelrats/rr_voicelines/thackeryvictoryline4.ogg","pitch":1.00,"volume":3},
      ],
      "rebelrats_arvalis_firing": [
      {"file":"sounds/rebelrats/weapons/arvalis_firing.ogg","pitch":1.00,"volume":1},
