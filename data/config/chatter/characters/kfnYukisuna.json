@@ -8,7 +8,7 @@
 	
 	"lines":{
 		"start":[
-			{"text":"Time to make our wages worthwile!!"},
+			{"text":"Time to make our wages worthwhile!!"},
 			{"text":"Finally, some fun!"},
 			{"text":"Why do we address only you as 'Captain'? Aren't we all the captains of our ships?"},
 			{"text":"Launching! Let's get in there!"},
@@ -20,33 +20,38 @@
 			{"text":"We can do this... We can do this..."},
 			{"text":"Game's about to get ugly, boys and girls!"},
 			{"text":"Dang... Are we up for this?"},
-			{"text":"Things are about to get SPICY!"}
+			{"text":"Things are about to get SPICY!"},
+			{"text":"Die, monster! You don't belong in this world!"}
 		],		
 		"retreat":[
 			{"text":"Getting out!"},
-			{"text":"We're extracting!"}
+			{"text":"We're extracting!"},
+			{"text":"I'll get you for this!"}
 		],
 		"out_of_missiles":[
 			{"text":"Awww, no more fireworks..."},
 			{"text":"We're out of fireworks! It's down to you, gunnery crew!"}
 		],
 		"engaged":[
-			{"text":"Engaging!"},
+			{"text":"Let me at'Em!"},
 			{"text":"C'mere, you!"},
 			{"text":"Shoot, here we go!"},
 			{"text":"FIGHT and WIN!"},
-			{"text":"Take'em down!"}
+			{"text":"Fight time fight time!!"},
+			{"text":"Let's do this!"},
+			{"text":"Have at'ya!"}
 		],
 		"need_help":[
-			{"text":"Where is my damn team!"},
 			{"text":"Hey, team! Where are you!?"},
-			{"text":"We're getting bullied! Rood, dood!"}
+			{"text":"We're getting bullied! Rood, dood!"},
+			{"text":"This is all getting a little much!"}
 		],
 		"pursuing":[
 			{"text":"That's a nice bridge... Be a shame if something happened to it!"},
 			{"text":"We've got'em now! Go go go, get us in there!"},
-			{"text":"Pursuing! Let's take'em down!"},
+			{"text":"Aww c'mere, cutie!"},
 			{"text":"Get'em, get'em, get'em!"}
+			{"text":"HehehEHAHAHA-"}
 		],
 		"running":[
 			{"text":"Back! Back!"},
@@ -55,7 +60,8 @@
 		],
 		"hull_90":[
 			{"text":"Ouch! Brace yourselves, people!"},
-			{"text":"Taking hits! Catch your footing and strike back!"}
+			{"text":"Taking hits! Catch your footing and strike back!"},
+			{"text":"A badge of honour!"}
 		],
 		"hull_50":[
 			{"text":"We're taking a beating! Hang in there, crew!"},
@@ -72,20 +78,26 @@
 		],
 		"overload":[
 			{"text":"Where'd I leave my fire extinguisher..."},
-			{"text":"Damn it! Shield's taken a hit too many!"}
+			{"text":"Damn it! We're lit up like a christmas tree!"}
 		],
 		"death":[
 			{"text":"Save yourselves, everybody! Live, and come back to me!"},
 			{"text":"Bailing! My poor ship!"},
-			{"text":"FUUUUUUUUUU-"}
+			{"text":"FUUUUUUUUUU-"},
+			{"text":"It was fun while it lasted. Grrr, ejecting!"}
 		],
 		"victory":[
 			{"text":"We got'em!"},
 			{"text":"It's over! Everybody alright?"},
 			{"text":"Aww, the fun time's over. See you next time, Captain!"},
-			{"text":"Hell yeah, time for salvage! I'll get suited up!"},
-			{"text":"Thanks for coming to the stream! Yukisuna signing off!"},
+			{"text":"Hell yeah, time for salvage! I'll get suited up."},
+			{"text":"Thanks for coming to the stream! Yukisuna signing off."},
 			{"text":"Time to go pet the fox and unwind."}
+		],
+		"victory_boss":[
+			{"text":"WE GOT IT! WE GOT IT, WE GOT IT, WE GOT IT!!!"},
+			{"text":"It's down, and we're not! YEAH!!"},
+			{"text":"Mankind needs a saviour such as you!"}
 		],
 	}
 }
