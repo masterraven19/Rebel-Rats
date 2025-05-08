@@ -1,0 +1,65 @@
+{
+  "id": "rebelrats_ozotsu_l",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "data.scripts.weapons.rebelrats_petardBeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/rebelrats/weapons/ozotsu_turret_base.png",
+  "turretGlowSprite": "graphics/rebelrats/weapons/ozotsu_turret_glow.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/ozotsu_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/rebelrats/weapons/ozotsu_hardpoint_glow.png",
+  "glowColor": [
+    223,
+    182,
+    12,
+    255
+  ],
+  "hitGlowRadius": 200,
+  "turretOffsets": [
+    19,
+    -7,
+    19,
+    7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    25,
+    -7.5,
+    25,
+    7
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "beamFireOnlyOnFullCharge": true,
+  "fringeColor": [
+    217,
+    180,
+    124,
+    255
+  ],
+  "coreColor": [
+    233,
+    192,
+    20,
+    255
+  ],
+  "barrelMode": "DUAL",
+  "darkCore": true,
+  "width": 16,
+  "textureType": LASER,
+  "textureScrollSpeed": 100,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "rebelrats_petard_firing"
+}
