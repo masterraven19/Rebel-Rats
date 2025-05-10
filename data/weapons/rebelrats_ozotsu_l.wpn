@@ -50,11 +50,11 @@
     20,
     255
   ],
-  "barrelMode": "DUAL",
+  "barrelMode": "LINKED",
   "darkCore": true,
   "width": 16,
   "textureType": LASER,
-  "textureScrollSpeed": 100,
+  "textureScrollSpeed": 300,
   "pixelsPerTexel": 5,
   "pierceSet": [
     PROJECTILE_FF,
