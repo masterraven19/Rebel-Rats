@@ -32,7 +32,7 @@
   "coreColor": [
     233,192,20,255
   ],
-  "width": 16,
+  "width": 12,
   "textureType": LASER,
   "textureScrollSpeed": 300,
   "pixelsPerTexel": 5,

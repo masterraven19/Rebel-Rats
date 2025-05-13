@@ -52,7 +52,7 @@
   ],
   "barrelMode": "LINKED",
   "darkCore": true,
-  "width": 16,
+  "width": 12,
   "textureType": LASER,
   "textureScrollSpeed": 300,
   "pixelsPerTexel": 5,
