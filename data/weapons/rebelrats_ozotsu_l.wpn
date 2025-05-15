@@ -50,10 +50,9 @@
     20,
     255
   ],
-  "barrelMode": "LINKED",
   "darkCore": true,
   "width": 12,
-  "textureType": LASER,
+  "textureType": WEAVE,
   "textureScrollSpeed": 300,
   "pixelsPerTexel": 5,
   "pierceSet": [

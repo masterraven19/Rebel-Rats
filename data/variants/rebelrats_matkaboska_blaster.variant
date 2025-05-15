@@ -3,14 +3,14 @@
   "hullId": "rebelrats_matkaboska",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 19,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "targetingunit",
     "reinforcedhull",
-    "eccm"
+    "magazines"
   ],
   "weaponGroups": [
     {

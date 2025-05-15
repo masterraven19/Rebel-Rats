@@ -12,7 +12,7 @@ rebelrats_babydoldrumspine_l,WEAPON,Advancements in Krysan technology has allowe
 rebelrats_kingmaker_l,WEAPON,"Easily the largest slugthrower the Federal Navy can bring to bear, the Kingmaker takes lessons learnt from the creation of the Doldrums and iteratively improves upon the design.","	""Express delivery to high heavens coming right up!"" ~ Cenry Arbalest, Gunnery Officer on KFS Midnight Fury",,,
 rebelrats_salvo_autoloader,WEAPON,"Initially the testbed for Porcellus' missile tubes, it is now used in many of the Federal Navy's capital ships as a finisher weapon with its unparalleled agility and reliability.",,,,
 rebelrats_arvalis_l,WEAPON,The Arvalis accelerates a stream of macroparticles to extreme hypervelocities through a series of pulse-staged accelerators to perforate and degrade capital-grade armor.,,,,
-,,,,,,
+rebelrats_ozotsu_l,WEAPON,"Large and imposing, it is a further development of the Petard Howitzer with the use of larger nuclear pellets and a thicker liner for better energy conversion.",,,,
 ,,,,,,
 rebelrats_siegeharq_m,WEAPON,An old artillery piece taken from Magawa's vast underground weapon stocks and modernized by Rebel Rat engineers to modern standards after the Penance Civil War.,,,,
 rebelrats_crossbow_m,WEAPON,"The Crossbow is based off of existing static defense emplacements and is loaded with standard anti-shield rounds, firing them from a reliable electrothermal-chemical system.",,,,
@@ -132,7 +132,7 @@ A direct evolution from the Helmsman, the Steersman is a more serious take by Be
 Hailing from the docks of the Asteroid Central Station, the Steersman represents the Belter's will to be true independents and its ultimate wish to remove piracy within its space. The ship was built to counteract the growing levels of piracy when pirates from the Persean Sector brought ever heavier ships and weapons to raid Belter space.
 
 Its onboard fusion torch is a design derived from the most successful Helmsman homebrewed fusion torch drive nicknamed the Mammoth Fusion Torch. At its core, three Bobcat-Pattern flux reactors power the ship's onboard systems and torch drive.",,,,
-rebelrats_xerus,SHIP,"A relatively new addition to the Federal cruiser force, Xerus cruisers bear an unusual ABX turret layout, owing to its acquisition requirements submitted by Federal officials. Postings for Xerus cruisers are often envied for their new hulls, interiors, and modern conveniences.",,,,
+rebelrats_xerus,SHIP,"A relatively new addition to the federal cruiser force, Xerus cruisers bear an unusual ABC turret layout, which came as a result of the acquisition requirements submitted by Federal officials. Postings for Xerus cruisers are often envied for their new hulls, interiors, and modern conveniences compatible with Persean devices.",,,,
 ,,,,,,
 rebelrats_mellivora,SHIP,"Though thin skinned and lightly armed, the Mellivora provides a sufficient amount of strikecraft cover with its high-capacity hangars. During battles, it relies on its blistering speed and ample fighter coverage to strike opponents as its armaments is, at best, comparable to that of a frigate.
 

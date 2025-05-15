@@ -3,21 +3,21 @@
   "hullId": "rebelrats_matkaboska",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 5,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "targetingunit",
     "reinforcedhull",
-    "eccm"
+    "ballistic_rangefinder"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0013": "rebelrats_tripubus_l"
+        "WS0013": "rebelrats_equalizer_l"
       }
     },
     {
@@ -33,8 +33,14 @@
       "mode": "LINKED",
       "weapons": {
         "WS0006": "rebelrats_huntsman_salvo",
-        "WS0007": "rebelrats_huntsman_salvo",
-        "WS0008": "rebelrats_huntsman_salvo"
+        "WS0007": "rebelrats_huntsman_salvo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "rebelrats_rattenjager_m"
       }
     },
     {
@@ -50,6 +56,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0001": "rebelrats_ranger",
         "WS0004": "rebelrats_ranger",
         "WS0005": "rebelrats_ranger"
       }
@@ -60,13 +67,6 @@
       "weapons": {
         "WS0011": "rebelrats_hawker",
         "WS0012": "rebelrats_hawker"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "rebelrats_poacher_s"
       }
     }
   ],

@@ -3,7 +3,7 @@
   "hullId": "rebelrats_xerus",
   "displayName": "Support",
   "goalVariant": false,
-  "fluxCapacitors": 3,
+  "fluxCapacitors": 5,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
@@ -38,7 +38,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "rebelrats_siegeharq_m"
+        "WS0005": "rebelrats_rattenjager_m"
       }
     },
     {
@@ -58,9 +58,12 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0009": "rebelrats_verlokken_m",
+        "WS0010": "rebelrats_verlokken_m"
+      }
     }
   ],
   "modules": [],

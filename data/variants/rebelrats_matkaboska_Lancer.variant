@@ -3,7 +3,7 @@
   "hullId": "rebelrats_matkaboska",
   "displayName": "Nuclear Lancer",
   "goalVariant": true,
-  "fluxCapacitors": 12,
+  "fluxCapacitors": 8,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
@@ -16,7 +16,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0013": "rebelrats_drummer_l"
+        "WS0013": "rebelrats_ozotsu_l"
       }
     },
     {

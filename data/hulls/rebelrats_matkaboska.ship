@@ -4,12 +4,12 @@
   "hullSize": "CRUISER",
   "spriteName": "graphics/rebelrats/ships/matkaboska_assault_cruiser.png",
   "style": "REBELRATS",
-  "height": 331,
+  "height": 342,
   "width": 194,
   "center": [97, 175],
-  "collisionRadius": 219,
+  "collisionRadius": 234,
   "shieldCenter": [0, -0],
-  "shieldRadius": 201.5,
+  "shieldRadius": 210,
   "viewOffset": 0,
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid",
@@ -23,7 +23,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 0,
-      "locations": [117, 0]
+      "locations": [128, -0]
     },
     {
       "id": "WS0003",
@@ -32,7 +32,7 @@
       "mount": "TURRET",
       "arc": 174,
       "angle": -78,
-      "locations": [105, -17]
+      "locations": [116, -17]
     },
     {
       "id": "WS0004",
@@ -41,7 +41,7 @@
       "mount": "TURRET",
       "arc": 156,
       "angle": 74,
-      "locations": [28, 25]
+      "locations": [39, 25]
     },
     {
       "id": "WS0005",
@@ -50,7 +50,7 @@
       "mount": "TURRET",
       "arc": 156,
       "angle": -74,
-      "locations": [28, -25]
+      "locations": [39, -25]
     },
     {
       "id": "WS0006",
@@ -59,7 +59,7 @@
       "mount": "TURRET",
       "arc": 10,
       "angle": 0,
-      "locations": [80, 0]
+      "locations": [91, -0]
     },
     {
       "id": "WS0009",
@@ -68,7 +68,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 82,
-      "locations": [8, 43]
+      "locations": [19, 43]
     },
     {
       "id": "WS0010",
@@ -77,7 +77,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -82,
-      "locations": [8, -43]
+      "locations": [19, -43]
     },
     {
       "id": "WS0011",
@@ -86,7 +86,7 @@
       "mount": "TURRET",
       "arc": 135,
       "angle": 120,
-      "locations": [-21, 30]
+      "locations": [-10, 30]
     },
     {
       "id": "WS0012",
@@ -95,7 +95,7 @@
       "mount": "TURRET",
       "arc": 135,
       "angle": -120,
-      "locations": [-21, -30]
+      "locations": [-10, -30]
     },
     {
       "id": "WS0013",
@@ -104,7 +104,7 @@
       "mount": "TURRET",
       "arc": 75,
       "angle": 0,
-      "locations": [-19, -0]
+      "locations": [-6, -0]
     },
     {
       "id": "WS0014",
@@ -113,7 +113,7 @@
       "mount": "TURRET",
       "arc": 273,
       "angle": 180,
-      "locations": [-104, 0]
+      "locations": [-93, -0]
     },
     {
       "id": "WS0002",
@@ -122,7 +122,7 @@
       "mount": "TURRET",
       "arc": 174,
       "angle": 78,
-      "locations": [105, 17]
+      "locations": [116, 17]
     },
     {
       "id": "WS0007",
@@ -131,7 +131,7 @@
       "mount": "TURRET",
       "arc": 10,
       "angle": 0,
-      "locations": [55, 0]
+      "locations": [66, -0]
     },
     {
       "id": "WS0008",
@@ -140,7 +140,7 @@
       "mount": "TURRET",
       "arc": 10,
       "angle": 0,
-      "locations": [30, 0]
+      "locations": [41, -0]
     },
     {
       "id": "WS0015",
@@ -149,7 +149,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [126.5, 27]
+      "locations": [137, 27]
     },
     {
       "id": "WS0016",
@@ -158,7 +158,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": -0,
-      "locations": [126.5, -27]
+      "locations": [137, -27]
     },
     {
       "id": "WS0017",
@@ -167,45 +167,49 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [154.5, 0]
+      "locations": [164, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-168, -0],
-      "length": 140,
-      "width": 40,
+      "location": [-174, -0],
+      "length": 148,
+      "width": 57,
       "angle": 180,
-      "contrailSize": 40,
+      "contrailSize": 57,
       "style": "CUSTOM",
       "styleId": "Rats"
     },
     {
-      "location": [-170, -0],
-      "length": 138,
-      "width": 40,
+      "location": [-175, -0],
+      "length": 148,
+      "width": 60,
       "angle": 180,
-      "contrailSize": 40,
+      "contrailSize": 60,
       "style": "CUSTOM",
       "styleId": "Rats2"
     }
   ],
   "bounds": [
-    -171, 19.5,
-    -143, 14,
-    -115.5, 30,
-    -21, 39,
-    11, 59,
-    24, 40.5,
-    101.5, 37,
-    140, 11,
-    140, -11,
-    101.5, -37,
-    24, -40.5,
-    11, -59,
-    -21, -39,
-    -115.5, -30,
-    -143, -14,
-    -171, -19.5
+    -174.5, -30,
+    -144.5, -23,
+    -100, -29,
+    -130, -47,
+    -82.5, -34,
+    -9.5, -38.5,
+    24.5, -58,
+    36.5, -40,
+    119, -33.5,
+    151, -11,
+    151, 11,
+    119, 33.5,
+    36.5, 40,
+    24.5, 58,
+    -9.5, 38.5,
+    -82.5, 34,
+    -130, 47,
+    -100, 29,
+    -144.5, 23,
+    -174.5, 30
   ]
 }
