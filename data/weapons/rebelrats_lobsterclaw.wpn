@@ -7,8 +7,8 @@
   "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/rebelrats/weapons/lobsterclaw.png",
   "turretGlowSprite": "graphics/rebelrats/weapons/lobsterclaw_glow.png",
-  "hardpointSprite": "graphics/rebelrats/weapons/lobsterclaw.png",
-  "hardpointGlowSprite": "graphics/rebelrats/weapons/lobsterclaw_glow.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/lobsterclawhardpoint.png",
+  "hardpointGlowSprite": "graphics/rebelrats/weapons/lobsterclawhardpoint_glow.png",
   "glowColor": [
     147,
     232,
@@ -24,7 +24,7 @@
     0
   ],
   "hardpointOffsets": [
-    42.5,
+    22.5,
     0
   ],
   "hardpointAngleOffsets": [
@@ -42,8 +42,9 @@
     255,
     255
   ],
+  "darkCore": true,
   "width": 40,
-  "textureType": LASER,
+  "textureType": WEAVE,
   "textureScrollSpeed": 100,
   "pixelsPerTexel": 5,
   "pierceSet": [
