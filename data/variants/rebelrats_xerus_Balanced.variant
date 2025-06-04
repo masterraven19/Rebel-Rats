@@ -3,14 +3,14 @@
   "hullId": "rebelrats_xerus",
   "displayName": "Fleet",
   "goalVariant": false,
-  "fluxCapacitors": 2,
+  "fluxCapacitors": 6,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "dedicated_targeting_core",
     "reinforcedhull",
-    "ballistic_rangefinder"
+    "fluxbreakers"
   ],
   "weaponGroups": [
     {
@@ -32,7 +32,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "rebelrats_tripubus_l"
+        "WS0004": "rebelrats_arvalis_l"
       }
     },
     {

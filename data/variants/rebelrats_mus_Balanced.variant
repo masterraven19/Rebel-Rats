@@ -3,8 +3,8 @@
   "hullId": "rebelrats_mus",
   "displayName": "Mus ",
   "goalVariant": true,
-  "fluxCapacitors": 12,
-  "fluxVents": 5,
+  "fluxCapacitors": 10,
+  "fluxVents": 8,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
