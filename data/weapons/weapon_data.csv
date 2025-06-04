@@ -72,7 +72,7 @@ Each shrapnel deals %s fragmentation damage",80,,,TRUE,
 LDEW-450k Ashford,rebelrats_ashford,0,,400,450,230,,10,12,100,5,,,,ENERGY,,184,0,0,0.1,0.05,,,,,100000,,,,,,,PD,"pd9, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Very Fast,Excellent,,,,,,
 PDC-35 Poacher,rebelrats_poacher_s,1,,600,300,,21,,1,80,5,60,5,2,HIGH_EXPLOSIVE,7,,0,0.07,1,,0,6,1,4,,1200,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Very Fast,Excellent,Hits to missiles and fighters inflicts additional %s frag damage,30,,,,
 SKAPS Chaffer,rebelrats_chaff,0,,300,400,,80,,1,60,1,,,,FRAGMENTATION,30,,0,8,1,,0,10,1,10,,500,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Rebel Rats,,Soft-kill PD,,,,,Uses a timed fuse,80,,,TRUE,
-PDL-60k Amos Hacking Laser,rebelrats_amos_s,0,,400,450,20,,350,12,120,4,,,,ENERGY,,40,0.1,0.1,,,,,,,10000,,,,,,,"PD_ONLY, NO_TURN_RATE_BOOST_WHEN_IDLE","pd9, rebelrats_arsenal_bp",,Rebel Rats,,Soft-kill PD,,,Very Fast,Perfect,"Switches target when the target missile's engine fizzles out
+PDL-60k Amos Hacking Laser,rebelrats_amos_s,0,,400,450,20,,350,5,120,4,,,,ENERGY,,40,0.1,0.1,,,,,,,10000,,,,,,,"PD_ONLY, NO_TURN_RATE_BOOST_WHEN_IDLE","pd9, rebelrats_arsenal_bp",,Rebel Rats,,Soft-kill PD,,,Very Fast,Perfect,"Switches target when the target missile's engine fizzles out
 
 Does not autotarget fighters or ships",,,,,
 Poubelle Torpedo,rebelrats_poubelle,,,0,1600,,6000,,80,20,3,1,0.004166,1,FRAGMENTATION,,,0,60,1,,0,0,0,0,,800,50,3,350,,,"SYSTEM, STRIKE, DIRECT_AIM, USE_VS_FRIGATES, DO_NOT_CONSERVE, GUIDED_POOR","no_sell, no_drop, no_drop_salvage",,Belters,,Armored Torpedo,Very Fast,Poor,,,Ejects to the side with explosive bolts,,,,TRUE,

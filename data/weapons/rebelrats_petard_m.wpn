@@ -11,29 +11,43 @@
   "hardpointSprite": "graphics/rebelrats/weapons/petardlaser_hardpoint_base.png",
   "hardpointGlowSprite": "graphics/rebelrats/weapons/petardlaser_hardpoint_glow.png",
   "glowColor": [
-    223,182,12,255
+    223,
+    182,
+    12,
+    255
   ],
   "hitGlowRadius": 200,
   "turretOffsets": [
-    23,0
+    23,
+    0
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    20,0
+    20,
+    0
   ],
   "hardpointAngleOffsets": [
     0
   ],
   "fringeColor": [
-    217,180,124,255
+    217,
+    180,
+    124,
+    255
   ],
   "coreColor": [
-    233,192,20,255
+    233,
+    192,
+    20,
+    255
   ],
   "width": 12,
-  "textureType": LASER,
+  "textureType": [
+    "graphics/fx/beamfringe.png",
+    "graphics/fx/beamcore.png"
+  ],
   "textureScrollSpeed": 300,
   "pixelsPerTexel": 5,
   "pierceSet": [
