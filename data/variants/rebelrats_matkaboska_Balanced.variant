@@ -3,14 +3,14 @@
   "hullId": "rebelrats_matkaboska",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 5,
+  "fluxCapacitors": 7,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "targetingunit",
     "reinforcedhull",
-    "ballistic_rangefinder"
+    "magazines"
   ],
   "weaponGroups": [
     {
@@ -32,33 +32,26 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "rebelrats_huntsman_salvo",
-        "WS0007": "rebelrats_huntsman_salvo"
+        "WS0006": "rebelrats_falcon_m",
+        "WS0007": "rebelrats_falcon_m",
+        "WS0008": "rebelrats_falcon_m"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "rebelrats_rattenjager_m"
+        "WS0001": "rebelrats_poacher_s",
+        "WS0002": "rebelrats_poacher_s",
+        "WS0003": "rebelrats_poacher_s"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "rebelrats_fowler",
-        "WS0003": "rebelrats_fowler",
-        "WS0014": "rebelrats_fowler"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "rebelrats_ranger",
-        "WS0004": "rebelrats_ranger",
-        "WS0005": "rebelrats_ranger"
+        "WS0004": "rebelrats_ashford",
+        "WS0005": "rebelrats_ashford"
       }
     },
     {
@@ -66,8 +59,14 @@
       "mode": "LINKED",
       "weapons": {
         "WS0011": "rebelrats_hawker",
-        "WS0012": "rebelrats_hawker"
+        "WS0012": "rebelrats_hawker",
+        "WS0014": "rebelrats_hawker"
       }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [

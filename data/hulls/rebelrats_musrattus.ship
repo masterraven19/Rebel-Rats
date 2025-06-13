@@ -7,9 +7,9 @@
   "height": 158,
   "width": 76,
   "center": [38, 79],
-  "collisionRadius": 104.5,
+  "collisionRadius": 120,
   "shieldCenter": [0, 0],
-  "shieldRadius": 89.5,
+  "shieldRadius": 92,
   "viewOffset": 0,
   "builtInMods": [
     "rebelrats_bastionshield",
