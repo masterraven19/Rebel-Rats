@@ -11,7 +11,6 @@ import java.awt.Color;
 import java.util.List;
 
 public class rebelrats_verlokkenScript extends BaseEveryFrameCombatPlugin {
-    //TODO maybe make missile scrips modular
     private CombatEngineAPI engine;
     private MissileAPI missile;
     private MagicMissileAI ai;

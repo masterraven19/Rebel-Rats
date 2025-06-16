@@ -15,6 +15,9 @@ Ratfield Ballistics Computer,rebelrats_ratfield,1,,,"defensive, no_drop, no_drop
 
 Damage to missiles increased by  %s | Improves target leading","PD unaffected by decoy flares, improved target leading, more damage to missiles.",,graphics/rebelrats/hullmods/ratfield.png
 INCOMPATIBLE,rebelrats_incompatible,,,,,,0,,TRUE,,0,0,0,0,data.scripts.hullmods.rebelrats_incompatible,HULLMOD %s,,,graphics/rebelrats/hullmods/noncompatible.png
+Hyperspectral Camo Net,rebelrats_hyperspectralcamonet,1,,Rebel Rats,"defensive, no_drop, no_drop_salvage","Engines, Logistics, Defenses",0,FALSE,,,0,0,0,0,data.scripts.hullmods.rebelrats_HyperSpectralCamoNet,"Rat use big net. Big net Cover biggest ship. Net good for hide. 
+Depending on how small the ship type the fleet's sensor profile is reduced by 40/25/15/10
+Effect does not stack with more copies of this hullmod.",,,graphics/rebelrats/hullmods/StealthRatHide.png
 ,,,,,,,,,,,,,,,,,,,
 #comissionooonon,,,,,,,,,,,,,,,,,,,
 Krysan Fervor,rebelrats_cc,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.rebelrats_cc,"Krysan crew are known for their fervent behavior during battles, often displaying acts of bravery bordering on lunacy for the sake of victory. As battle-hardened folks, their ships tend to last longer in the heat of battle as Krysans ardently perform damage control whenever a lull in the fighting is found.

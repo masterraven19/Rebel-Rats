@@ -14,7 +14,8 @@
   "builtInMods": [
     "rebelrats_stealthrathide",
     "rebelrats_manatarmstargettinggrid",
-    "rebelrats_bastionshield"
+    "rebelrats_bastionshield",
+    "rebelrats_hyperspectralcamonet"
   ],
   "builtInWeapons": {
     "WS0001": "rebelrats_goedendag_l",

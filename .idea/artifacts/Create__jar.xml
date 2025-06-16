@@ -64,6 +64,8 @@
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_verlokkenScript.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_verlokkenEffect.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_addFrame.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_HyperSpectralCamoNet.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rebelrats_campaignUtils.java" />
     </root>
   </artifact>
 </component>
