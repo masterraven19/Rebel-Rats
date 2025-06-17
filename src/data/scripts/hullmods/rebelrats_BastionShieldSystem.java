@@ -1,10 +1,13 @@
 package data.scripts.hullmods;
 
+import com.fs.starfarer.api.GameState;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
+import com.fs.starfarer.api.ui.TooltipMakerAPI;
+import com.fs.starfarer.api.util.Misc;
 
 import java.awt.Color;
 
@@ -28,6 +31,7 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
 
     public void advanceInCombat(ShipAPI ship, float amount) {
         if (Global.getCombatEngine().isPaused()) return;
+        if(ship.getShield() == null) return;
 
         float frontAngle = ship.getFacing();
         float targetArc = 0;
@@ -110,6 +114,20 @@ public class rebelrats_BastionShieldSystem extends BaseHullMod {
         if (index == 0) return "" + (int)(sModShieldAccellBuff * 100f) + "%";
         return null;
     }
+
+    @Override
+    public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
+        if (isForModSpec || ship == null) return;
+        if (Global.getSettings().getCurrentState() == GameState.TITLE) return;
+
+        if(ship.getShield() != null) return;
+        float pad = 5f;
+        Color highlight = Misc.getNegativeHighlightColor();
+
+        tooltip.addPara("This hullmod is " + "disabled" + " due to no shield.",pad,
+                highlight,"disabled");
+    }
+
     public Color getBorderColor() {
         return Global.getSettings().getDesignTypeColor("Rebel Rats");
     }
