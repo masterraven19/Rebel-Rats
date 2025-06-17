@@ -12,7 +12,7 @@ public class rebelrats_CheeseFactory extends BaseIndustry {
         int size = market.getSize();
 
         demand(Commodities.FOOD,size - 2);
-        supply("rebelrats_cheese",size - 1);
+        supply("rebelrats_cheese",size);
         modifyStabilityWithBaseMod();
 
         Pair<String,Integer> deficit = getMaxDeficit(Commodities.FOOD);
