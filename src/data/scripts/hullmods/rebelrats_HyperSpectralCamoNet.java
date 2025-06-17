@@ -27,12 +27,16 @@ public class rebelrats_HyperSpectralCamoNet extends BaseHullMod implements HullM
         float pad = 5f;
         Color highlight = Misc.getHighlightColor();
 
-        String biggest = rebelrats_campaignUtils.getBiggestShip(fleet,"rebelrats_jerboa").getShipName();
-        if(biggest == null) biggest = "None";
-        biggest = " " + biggest;
+        String biggest = "";
+        FleetMemberAPI member = rebelrats_campaignUtils.getBiggestShip(fleet,"rebelrats_jerboa");
+        if(member == null) {
+            biggest = ship.getHullSpec().getHullName();
+        }else{
+            biggest = member.getHullSpec().getHullName();
+        }
 
-        tooltip.addPara("The biggest ship is" + biggest,
-                pad,highlight,""+biggest);
+        tooltip.addPara("The biggest ship is " + biggest,
+                pad,highlight,biggest);
     }
 
     @Override
