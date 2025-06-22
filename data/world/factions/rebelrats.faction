@@ -32,14 +32,16 @@
 
 		                #combat cruiser
 		                "rebelrats_marmot":5,
-		                "rebelrats_matkaboska":9,
-		                "rebelrats_jerboa":5,
-		                "rebelrats_jerboa_roseblight":9,
+		                "rebelrats_matkaboska":6,
+		                "rebelrats_jerboa":4,
+		                "rebelrats_xerus":6,
+				"rebelrats_dormouse":8,
 
 		                #combat destroyer
 		                "rebelrats_rattus":7,
 		                "rebelrats_mellivora":6,
 		                "rebelrats_sorex":7,
+				"rebelrats_tamias":8,
 
 		                #combat frig
 		                "rebelrats_mus":5,
@@ -79,13 +81,14 @@
 				"rebelrats_marmot",
 				"rebelrats_jerboa",
 				"rebelrats_matkaboska",
-				"rebelrats_jerboa_roseblight",
 				"rebelrats_xerus",
+				"rebelrats_dormouse",
 
 		                #combat destroyer
 		                "rebelrats_rattus",
 		                "rebelrats_mellivora",
 		                "rebelrats_sorex",
+				"rebelrats_tamias",
 
 		                #combat frig
 		                "rebelrats_mus",
@@ -118,15 +121,18 @@
 		                "rebelrats_jerboa",
 		                "rebelrats_matkaboska",
 				"rebelrats_xerus",
+				"rebelrats_dormouse",
 
 		                #combat destroyer
 		                "rebelrats_rattus",
 		                "rebelrats_mellivora",
 		                "rebelrats_sorex",
+				"rebelrats_tamias",
 
 		                #combat frig
 		                "rebelrats_mus",
                         	"rebelrats_patron",
+				"rebelrats_musrattus",
 
 		],
 	},
@@ -137,6 +143,7 @@
 		                "rebelrats_sultan_Fighter_wingt",
 		                "rebelrats_proctor_Fighter_wingt",
 		                "rebelrats_daekon_Fighter_wingt",
+		                "rebelrats_patron_F_wingt",
 
 		                #Interceptor
 		                "rebelrats_ministro_Interceptor_wingt",
@@ -214,7 +221,7 @@
 	"priorityWeapons":{
 		"tags":[],
 		"weapons":[
-		                #large
+		        #large
                         "rebelrats_drummer_l",
                         "rebelrats_equalizer_l",
                         "rebelrats_nezulana_l",

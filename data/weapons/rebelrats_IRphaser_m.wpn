@@ -1,0 +1,56 @@
+{
+  "id": "rebelrats_IRphaser_m",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "collisionClass": "RAY_FIGHTER",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/rebelrats/weapons/IRphaser_hardpoint_base.png",
+  "turretGlowSprite": "graphics/rebelrats/weapons/IRphaser_hardpoint_glow.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/IRphaser_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/rebelrats/weapons/IRphaser_hardpoint_glow.png",
+  "glowColor": [
+    200,
+    11,
+    13,
+    225
+  ],
+  "hitGlowRadius": 20,
+  "turretOffsets": [
+    6.5,
+    4
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    11,
+    4
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    155,
+    50,
+    50,
+    255
+  ],
+  "coreColor": [
+    255,
+    100,
+    100,
+    250
+  ],
+  "convergeOnPoint": true,
+  "width": 12,
+  "textureType": WEAVE,
+  "textureScrollSpeed": 100,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "rebelrats_IRphaser_firing"
+}

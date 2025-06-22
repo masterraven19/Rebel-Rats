@@ -1,62 +1,61 @@
 {
-  "variantId": "rebelrats_xerus_Balanced",
-  "hullId": "rebelrats_xerus",
-  "displayName": "Fleet Cruiser",
+  "variantId": "rebelrats_dormouse_balanced",
+  "hullId": "rebelrats_dormouse",
+  "displayName": "Balanced",
   "goalVariant": false,
-  "fluxCapacitors": 6,
+  "fluxCapacitors": 0,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "dedicated_targeting_core",
-    "reinforcedhull",
-    "fluxbreakers"
+    "missleracks",
+    "eccm"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "rebelrats_jerboa_pyroclast_launcher"
+        "WS0005": "rebelrats_falcon_m"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "rebelrats_huntsman_salvo"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "rebelrats_crossbow_m",
-        "WS0005": "rebelrats_crossbow_m"
+        "WS0006": "rebelrats_IRphaser_m"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "rebelrats_arvalis_l"
+        "WS0008": "rebelrats_hwacha_s",
+        "WS0009": "rebelrats_hwacha_s"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "rebelrats_rattenjager_array_m"
+        "WS0002": "rebelrats_amos_s",
+        "WS0003": "rebelrats_amos_s"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "rebelrats_ashford",
-        "WS0002": "rebelrats_ashford",
-        "WS0006": "rebelrats_ashford"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0009": "rebelrats_verlokken_m",
-        "WS0010": "rebelrats_verlokken_m"
+        "WS0001": "rebelrats_poacher_s",
+        "WS0004": "rebelrats_poacher_s",
+        "WS0010": "rebelrats_poacher_s"
       }
     },
     {

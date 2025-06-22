@@ -2,6 +2,7 @@ name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn r
 #Light Machine Gun,lightmg,0,,100,300,,25,,1,50,3,,,,KINETIC,3,,0,0.4,5,0.1,0,5,1,15,,600,,,10,,,PD,"pd6, kinetic3, SR, base_bp",,,,Point Defense,,,,,,,,,,0.5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #SHIP WEAPONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#LARGE WEAPONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AHG-406 Equalizer Howitzer,rebelrats_equalizer_l,1,,6000,900,,500,,200,6,16,,,,HIGH_EXPLOSIVE,500,,0,3.5,2,0.5,0,10,6,10,,700,,,450,,,STRIKE,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Slow,Good,,,,,,
 ASG-203 Drummer Heavy Railgun,rebelrats_drummer_l,1,,6000,900,,625,50,200,5,20,,,,KINETIC,625,,0,5,1,,0,8,3,10,,1000,,,500,,,STRIKE,"kinetic14, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Shield,,,Slow,Good,,,,,,
 DEW-120 Mangonel Plasma Launcher,rebelrats_mangonel_l,2,,8000,900,,200,,100,8,24,9,1,1,ENERGY,320,,0,0.25,1,,0,18,3,5,,1200,,,,,,"STRIKE, USE_VS_FRIGATES","energy14, rebelrats_arsenal_bp",,Rebel Rats,,General,,,Slow,Poor,"Will deal an extra 100 kinetic damage against shields, or 300 frag damage against %s hull.",bare,,,,
@@ -19,7 +20,8 @@ ACRG-305 Kingmaker Titan Railgun,rebelrats_kingmaker_l,,,0,1200,,3000,300,700,10
 Has a chance to trigger the shaped charge when hitting shields.",100,,,,
 ASM-500 Huntsman Salvo Launcher,rebelrats_salvo_autoloader,,,0,2500,,1000,,20,15,0,15,0.03,3,HIGH_EXPLOSIVE,,,0,6.5,3,0.5,0,0,0,0,,600,200,6,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 ASM-500 Huntsman Side Launcher,rebelrats_huntsman_sidelauncher,,,0,2500,,1000,,20,15,0,15,0.03,3,HIGH_EXPLOSIVE,,,0.8,6.5,3,0.5,0,0,0,0,,600,300,6,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"On perforation, deals %s and 100 frag damage per explosion
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#MEDIUM WEAPONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"On perforation, deals %s and 100 frag damage per explosion
 Has a chance to detonate when hitting shields
 Ricochets against shields at high hit angles outside %s",,,,,
 AHG-203 Siege Harquebus,rebelrats_siegeharq_m,0,,1000,700,,360,,12,10,12,,,,HIGH_EXPLOSIVE,324,,0,2,1,,0,12,8,12,,700,,,40,,,,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Fast,Excellent,,,,,,
@@ -40,7 +42,7 @@ Targets missiles first
 Benefits from ECCM",50,,,,
 NDEM-680 Petard Canister,rebelrats_petardlauncher_m,1,,5000,1500,,300,,50,15,12,2,0.005,1,HIGH_EXPLOSIVE,,,0,10,1,,0,0,0,0,,300,50,8,200,,,"STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, damage_special, rebelrats_arsenal_bp",,Rebel Rats,,Nuclear DEM Torpedo,Fast,Medium,,,Fires an energy beam that deals approximately %s HE damage,2500,,,TRUE,
 LRASM-600 Trapee MIRV,rebelrats_trapee_m,1,,2000,6000,,700,50,25,10,7,24,0.04,4,FRAGMENTATION,0,,0,15,3,0.5,0,0,0,0,,200,400,40,150,,,DO_NOT_AIM,"utility13, missile7, rebelrats_arsenal_bp",,Rebel Rats,,Long Range Support,Very Slow,Two Stage,,,Coasts to target before releasing its submunitions when within %s of the target,1000su,,,TRUE,
-LRRM-800 Gingsen,rebelrats_gingsen_m,2,,3000,2000,,1,,50,15,0,8,0.04,4,HIGH_EXPLOSIVE,,,0,1,2,0.5,0,0,0,0,,400,200,8,300,,,"STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","utility13, missile7, rebelrats_arsenal_bp",,Rebel Rats,,Repair Missile,Fast,Medium,,,"Will guide to the nearest friendly ship.
+LRRM-800 Gingsen,rebelrats_gingsen_m,2,,3000,2000,,1,,50,15,12,8,0.04,4,HIGH_EXPLOSIVE,,,0,1,2,0.5,0,0,0,0,,400,200,8,300,,,"STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","utility13, missile7, rebelrats_arsenal_bp",,Rebel Rats,,Repair Missile,Fast,Medium,,,"Will guide to the nearest friendly ship.
 Repairs damaged armor for %s but not hull.",300 points,,,TRUE,
 ALD-800 Verlokken HKAPS,rebelrats_verlokken_m,,,0,1000,,10,,10,60,0,,,,FRAGMENTATION,30,,0,12,1,,0,0,1,10,,500,500,10,10,,,"SYSTEM, PD, DO_NOT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Decoy Launcher,,,,,"Splits off into decoy balloons when near missiles
 Has a chance to attract missiles like flares would",,,,TRUE,
@@ -55,7 +57,9 @@ AST-750 Pyroclast Tube Launcher,rebelrats_jerboa_pyroclast_launcher,,,0,1200,,24
 LDEW-990k Mischief Phased Array,rebelrats_mischief_m,,,0,450,40,,,1,100,0,,,,ENERGY,,70,0,0,0.05,0.2,,,,,100000,,,,,,,"SYSTEM, PD_ONLY","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Area Point Defense,,,Very Fast,Excellent,"Deals %s per target
 Can be turned off by disabling autofire
 Each target engaged raises its flux/s use by 10",20 damage,,,TRUE,
+LDEW-900cm IR Phaser,rebelrats_IRphaser_m,,,0,900,900,,,5,60,0,,,,ENERGY,,900,0,0,0.5,1,,,,,50000,,,,,,,"STRIKE, USE_VS_FRIGATES, PD_ALSO, IGNORES_FLARES, NO_TURN_RATE_BOOST_WHEN_IDLE","strike9, rebelrats_arsenal_bp",,Rebel Rats,,Nose Laser,,,Fast,Perfect,Ignores flares,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#SMALL WEAPONS,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls
 ASM-500 Huntsman Torpedo,rebelrats_huntsman_s,0,,400,2000,,1000,,20,15,1,1,0.01,1,HIGH_EXPLOSIVE,,,0,5,1,,0,0,0,0,,600,100,5,300,,,"STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, rebelrats_arsenal_bp",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 AFM-80 Hwacha SRM ,rebelrats_hwacha_s,0,,300,1200,,300,,5,15,4,12,0.2,3,FRAGMENTATION,,,0,2,6,0.1,0,0,0,0,,500,50,6,20,,,"ANTI_FTR, DO_NOT_CONSERVE, DO_NOT_AIM","utility8, missile0, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Fighter,Very Fast,High,,,"Uses proximity warheads to maximize hit probability.
 

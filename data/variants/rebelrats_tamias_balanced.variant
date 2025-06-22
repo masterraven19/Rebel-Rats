@@ -1,62 +1,61 @@
 {
-  "variantId": "rebelrats_xerus_Balanced",
-  "hullId": "rebelrats_xerus",
-  "displayName": "Fleet Cruiser",
+  "variantId": "rebelrats_tamias_balanced",
+  "hullId": "rebelrats_tamias",
+  "displayName": "Balanced",
   "goalVariant": false,
-  "fluxCapacitors": 6,
-  "fluxVents": 30,
+  "fluxCapacitors": 4,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "dedicated_targeting_core",
-    "reinforcedhull",
-    "fluxbreakers"
+    "targetingunit",
+    "missleracks"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "rebelrats_jerboa_pyroclast_launcher"
+        "WS0006": "rebelrats_huntsmanx2",
+        "WS0007": "rebelrats_huntsmanx2"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "rebelrats_crossbow_m",
-        "WS0005": "rebelrats_crossbow_m"
+        "WS0005": "rebelrats_siegeharq_m"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "rebelrats_arvalis_l"
+        "WS0001": "rebelrats_longbow"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "rebelrats_rattenjager_array_m"
+        "WS0004": "rebelrats_poacher_s",
+        "WS0010": "rebelrats_poacher_s"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "rebelrats_ashford",
         "WS0002": "rebelrats_ashford",
-        "WS0006": "rebelrats_ashford"
+        "WS0003": "rebelrats_ashford"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "rebelrats_verlokken_m",
-        "WS0010": "rebelrats_verlokken_m"
+        "WS0008": "rebelrats_rattenjager_array_m",
+        "WS0009": "rebelrats_rattenjager_array_m"
       }
     },
     {
