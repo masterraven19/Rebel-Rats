@@ -26,7 +26,7 @@ Has a chance to detonate when hitting shields
 Ricochets against shields at high hit angles outside %s",,,,,
 AHG-203 Siege Harquebus,rebelrats_siegeharq_m,0,,1000,700,,360,,12,10,12,,,,HIGH_EXPLOSIVE,324,,0,2,1,,0,12,8,12,,700,,,40,,,,"he18, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Armor,,,Fast,Excellent,,,,,,
 ASG-120 Crossbow,rebelrats_crossbow_m,1,,900,700,,100,,10,10,10,,,,KINETIC,100,,0,1,1,,0,14,2,10,,800,,,30,,,,"kinetic14, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Shield,,,Fast,Medium,,,,,,
-KKM-400 Falcon Missile Pod,rebelrats_falcon_m,1,,2000,2000,,1000,,40,15,12,12,0.04,4,FRAGMENTATION,,,0,4,4,0.5,0,0,0,0,,500,150,6,150,,,"STRIKE, USE_VS_FRIGATES","missile12, strike9, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Shield,Medium,Medium,,,Specialized flechettes have been tailored to deal extra damage to shields (%s kinetic damage),300,,,TRUE,
+KKM-400 Falcon Missile Pod,rebelrats_falcon_m,1,,2000,2000,,800,,40,15,12,12,0.04,4,FRAGMENTATION,,,0,4,4,0.5,0,0,0,0,,500,150,6,120,,,"STRIKE, USE_VS_FRIGATES","missile12, strike9, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Shield,Medium,Medium,,,Specialized flechettes have been tailored to deal extra damage to shields (%s kinetic damage),300,,,TRUE,
 AFM-80 Hwacha MLRS,rebelrats_hwacha_m,0,,1900,1400,,300,,5,15,8,120,0.6,12,FRAGMENTATION,20,,0,3.8,12,0.15,0,0,0,0,,500,50,6,20,,,"ANTI_FTR, DO_NOT_CONSERVE, DO_NOT_AIM","utility8, missile0, rebelrats_arsenal_bp",,Rebel Rats,,Anti-Fighter,Very Fast,Very High,,,"Uses an airburst warhead to maximize hit probability.
 
 Each shrapnel deals %s damage",30,,,,
@@ -94,7 +94,7 @@ Vaybchek Plasma Howitzer,rebelrats_vaybchek,,,0,600,,300,,20,15,0,2,,,ENERGY,0,,
 AST-750 Pyroclast Rocket Bay,rebelrats_pyroclast_f,,,0,1000,,1500,,75,20,0,1,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,0,0,0,,600,100,2,300,,,"SYSTEM, STRIKE, DIRECT_AIM, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Torpedo,Fast,Unguided,,,Secondary anti-matter charge inflicts additional %s fragmentation on hit,1200,,,TRUE,
 LDEW-500k Felis,rebelrats_felis,,,0,700,500,,,30,100,0,,,,ENERGY,,500,0,.2,0.2,,,,,,100000,,,,,,,"SYSTEM, PD, ANTI_FTR","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,Very Fast,Excellent,,,,,,
 Ashford LDEW (f),rebelrats_ashford_f,,,0,400,400,,30,5,100,0,1,.5,1,FRAGMENTATION,,,0,.1,.5,,,,,,100000,,,,,,,"SYSTEM, PD","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,Very Fast,Perfect,,,,,,
-Underslung Falcon,rebelrats_falcon_f,,,0,1000,,1000,,40,15,0,1,0.0001,,FRAGMENTATION,0,,0,4.5,1,,0,0,0,0,,400,100,6,150,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Shield,Medium,Medium,,,"Specialized flechettes have been tailored to cause extra damage(%s) to shields
+Underslung Falcon,rebelrats_falcon_f,,,0,1000,,600,,40,15,0,1,0.0001,,FRAGMENTATION,0,,0,4.5,1,,0,0,0,0,,400,100,6,150,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Shield,Medium,Medium,,,"Specialized flechettes have been tailored to cause extra damage(%s) to shields
 
 Warhead size reduced due to fighter restrictions",300,,,TRUE,
 AHG-20 Chaingun,rebelrats_chaingun_f,,,0,400,,18,,1,75,0,,,,HIGH_EXPLOSIVE,0,,0,1.5,8,0.05,0,0,0,0,,1000,,,10,,,"SYSTEM, PD","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Armor,,,Very Fast,Excellent,,,,,,
