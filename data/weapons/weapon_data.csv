@@ -57,7 +57,7 @@ AST-750 Pyroclast Tube Launcher,rebelrats_jerboa_pyroclast_launcher,,,0,1200,,24
 LDEW-990k Mischief Phased Array,rebelrats_mischief_m,,,0,450,40,,,1,100,0,,,,ENERGY,,70,0,0,0.05,0.2,,,,,100000,,,,,,,"SYSTEM, PD_ONLY","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Area Point Defense,,,Very Fast,Excellent,"Deals %s per target
 Can be turned off by disabling autofire
 Each target engaged raises its flux/s use by 10",20 damage,,,TRUE,
-LDEW-900cm IR Phaser,rebelrats_IRphaser_m,,,0,900,900,,,5,60,0,,,,ENERGY,,900,0,0,0.5,1,,,,,50000,,,,,,,"STRIKE, USE_VS_FRIGATES, PD_ALSO, IGNORES_FLARES, NO_TURN_RATE_BOOST_WHEN_IDLE","strike9, rebelrats_arsenal_bp",,Rebel Rats,,Nose Laser,,,Fast,Perfect,Ignores flares,,,,,
+LDEW-900cm IR Phaser,rebelrats_IRphaser_m,,,0,1000,900,,,5,60,0,,,,ENERGY,,900,0,0,0.5,1,,,,,50000,,,,,,,"STRIKE, USE_VS_FRIGATES, PD_ALSO, IGNORES_FLARES, NO_TURN_RATE_BOOST_WHEN_IDLE","strike9, rebelrats_arsenal_bp",,Rebel Rats,,Nose Laser,,,Fast,Perfect,Ignores flares,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #SMALL WEAPONS,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls
 ASM-500 Huntsman Torpedo,rebelrats_huntsman_s,0,,400,2000,,1000,,20,15,1,1,0.01,1,HIGH_EXPLOSIVE,,,0,5,1,,0,0,0,0,,600,100,5,300,,,"STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, rebelrats_arsenal_bp",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
