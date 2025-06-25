@@ -3,7 +3,7 @@
   "hullId": "rebelrats_dormouse",
   "displayName": "Balanced",
   "goalVariant": false,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 1,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
@@ -16,14 +16,16 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "rebelrats_falcon_m"
+        "WS0005": "rebelrats_falcon_m",
+        "WS0007": "rebelrats_falcon_m"
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "rebelrats_huntsman_salvo"
+        "WS0002": "rebelrats_longbow",
+        "WS0003": "rebelrats_longbow"
       }
     },
     {
@@ -45,18 +47,15 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "rebelrats_amos_s",
-        "WS0003": "rebelrats_amos_s"
+        "WS0001": "rebelrats_poacher_s",
+        "WS0004": "rebelrats_poacher_s",
+        "WS0010": "rebelrats_poacher_s"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "rebelrats_poacher_s",
-        "WS0004": "rebelrats_poacher_s",
-        "WS0010": "rebelrats_poacher_s"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,

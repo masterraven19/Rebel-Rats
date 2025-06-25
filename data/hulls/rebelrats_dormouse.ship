@@ -58,7 +58,7 @@
     {
       "id": "WS0005",
       "size": "MEDIUM",
-      "type": "MISSILE",
+      "type": "SYNERGY",
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
@@ -76,7 +76,7 @@
     {
       "id": "WS0007",
       "size": "MEDIUM",
-      "type": "MISSILE",
+      "type": "SYNERGY",
       "mount": "TURRET",
       "arc": 267,
       "angle": 0,
