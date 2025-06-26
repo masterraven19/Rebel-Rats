@@ -1,6 +1,9 @@
 package data.scripts.combat;
 
-import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.BaseEveryFrameCombatPlugin;
+import com.fs.starfarer.api.combat.CombatEngineAPI;
+import com.fs.starfarer.api.combat.CombatEntityAPI;
+import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.input.InputEventAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
 import org.lazywizard.lazylib.MathUtils;
@@ -24,7 +27,7 @@ public class rebelrats_verlokkenScript extends BaseEveryFrameCombatPlugin {
     private float d = 0;
     private int frame = 1;
     private int maxFrames = 6;
-    private int FPS = 3;
+    private int FPS = 6;
     private float frameRate = 1f/FPS;
     private IntervalUtil interval = new IntervalUtil(frameRate,frameRate);
     private boolean finished;

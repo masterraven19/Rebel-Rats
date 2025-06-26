@@ -1,20 +1,26 @@
 package data.scripts.combat;
 
-import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.BaseEveryFrameCombatPlugin;
+import com.fs.starfarer.api.combat.CollisionClass;
+import com.fs.starfarer.api.combat.CombatEngineAPI;
+import com.fs.starfarer.api.combat.DamageType;
+import com.fs.starfarer.api.combat.MissileAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.input.InputEventAPI;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
 import org.lazywizard.lazylib.MathUtils;
 
-import java.awt.*;
+import java.awt.Color;
 import java.util.List;
 
 public class rebelrats_missileProxy extends BaseEveryFrameCombatPlugin {
     protected MissileAPI missile;
     protected CombatEngineAPI engine;
     private float proxyRange = 30;
-    private int numShrap = 40;
+    private int numShrapInner = 40;
+    private int numShrapRing = 60;
     private DamagingExplosionSpec createExplosionSpec() {
-        float damage = 60f;
+        float damage = 80f;
         DamagingExplosionSpec spec = new DamagingExplosionSpec(
                 0.1f, // duration
                 40f, // radius
@@ -55,13 +61,13 @@ public class rebelrats_missileProxy extends BaseEveryFrameCombatPlugin {
             if (ship.getOwner() == missile.getOwner())continue;
             if (MathUtils.getDistance(missile.getLocation(),ship.getLocation()) < proxyRange){
                 engine.spawnDamagingExplosion(createExplosionSpec(), missile.getSource(),missile.getLocation());
-                for (int i = 0; i < numShrap/2; i++) {
+                for (int i = 0; i < numShrapRing; i++) {
                     float angle = rebelrats_combatUtils.calcConeAngle(360,missile.getFacing());
-                    engine.addHitParticle(missile.getLocation(),rebelrats_combatUtils.calcVelDir(angle,90f),rebelrats_combatUtils.randomNumber(8f,10f),1f,2f, new Color(200,200,200,255));
+                    engine.addHitParticle(missile.getLocation(),rebelrats_combatUtils.calcVelDir(angle,160f),rebelrats_combatUtils.randomNumber(10f,12f),2f,1f, new Color(200,200,200,255));
                 }
-                for (int i = 0; i < numShrap/2; i++) {
+                for (int i = 0; i < numShrapInner; i++) {
                     float angle = rebelrats_combatUtils.calcConeAngle(360,missile.getFacing());
-                    engine.addHitParticle(missile.getLocation(),rebelrats_combatUtils.calcVelDir(angle,rebelrats_combatUtils.randomNumber(90f,91f)),rebelrats_combatUtils.randomNumber(5f,8f),1f,2f, new Color(200,200,200,255));
+                    engine.addHitParticle(missile.getLocation(),rebelrats_combatUtils.calcVelDir(angle,rebelrats_combatUtils.randomNumber(100f,101f)),rebelrats_combatUtils.randomNumber(5f,8f),1f,2f, new Color(200,200,200,255));
                 }
                 engine.removeEntity(missile);
                 engine.removePlugin(this);
