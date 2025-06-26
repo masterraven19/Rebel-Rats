@@ -14,7 +14,7 @@ import java.awt.Color;
 
 public class rebelrats_falconOnHitEffect implements OnHitEffectPlugin{
     public DamagingExplosionSpec createExplosionSpec() {
-        float damage = 400f;
+        float damage = 300f;
         DamagingExplosionSpec spec = new DamagingExplosionSpec(
                 0.1f, // duration
                 60f, // radius
