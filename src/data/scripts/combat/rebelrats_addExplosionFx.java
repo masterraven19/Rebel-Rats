@@ -79,6 +79,9 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
 
         if (currSize.x < sizeEnd.x){
             sprite.setSize(sprite.getWidth() + flatIncreaseRate, sprite.getHeight() + flatIncreaseRate);
+        }else{
+            fader.advance(amount);
+            return;
         }
 
         if (elapsed > (spriteDur * 0.9) - fadeOutDur || currSize.x >= sizeEnd.x){

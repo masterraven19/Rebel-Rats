@@ -12,15 +12,24 @@ import org.lwjgl.util.vector.Vector2f;
 import java.awt.Color;
 
 public class rebelrats_huntsmanOnHitEffect implements OnHitEffectPlugin {
-    private int numParticles = 3;
+    private int numParticles = 4;
+    private int numMissileDebris = 10;
+    private int numExplosionDebris = 30;
     public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
         for (int i = 0;i<numParticles;i++){
-            rebelrats_addExplosionFx p = new rebelrats_addExplosionFx();
-            float angleRot = rebelrats_combatUtils.randomNumber(0,0.7F);
-            Vector2f loc = rebelrats_combatUtils.calcLocWAngle(rebelrats_combatUtils.randomNumber(0,360),rebelrats_combatUtils.randomNumber(1,30),point);
-            p.addExplosion("misc","nebula_particles",new Vector2f(50,50),new Vector2f(100,100),loc,new Vector2f(0,0),new Color(42,106,170),3.5F,4,1,angleRot,0,0.7F,true);
+            rebelrats_addExplosionFx p = new rebelrats_addExplosionFx();;
+            p.addExplosion("misc","nebula_particles",new Vector2f(50,50),new Vector2f(200,200),point,new Vector2f(0,0),new Color(42,106,170),2f,3f,1.3f,0,0,0.7F,true);
             CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
             e.getLocation().set(point);
+        }
+        for(int i = 0;i < numMissileDebris;i++){
+            float angle = rebelrats_combatUtils.calcConeAngle(170,projectile.getFacing() - 180f);
+            engine.addHitParticle(point,rebelrats_combatUtils.calcVelDir(angle,rebelrats_combatUtils.randomNumber(300f,400f)),10f,1f,2.5f,new Color(255, 255, 255,255));
+        }
+        if(shieldHit) return;
+        for(int i = 0;i < numExplosionDebris;i++){
+            float angle = rebelrats_combatUtils.calcConeAngle(170,projectile.getFacing() - 180f);
+            engine.addHitParticle(point,rebelrats_combatUtils.calcVelDir(angle,rebelrats_combatUtils.randomNumber(300f,400f)),10f,1f,2.5f,new Color(255, 175, 56,255));
         }
     }
 }
