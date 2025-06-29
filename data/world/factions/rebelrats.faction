@@ -29,6 +29,7 @@
 		"hulls":{
 		                #combat cap
 		                "rebelrats_porcellus":1,
+				"rebelrats_chevrotain":3,
 
 		                #combat cruiser
 		                "rebelrats_marmot":5,

@@ -1,0 +1,84 @@
+{
+  "variantId": "rebelrats_chevrotain_balanced",
+  "hullId": "rebelrats_chevrotain",
+  "displayName": "Balanced",
+  "goalVariant": false,
+  "fluxCapacitors": 5,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "expanded_deck_crew",
+    "recovery_shuttles"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_huntsman_salvo",
+        "WS0002": "rebelrats_huntsman_salvo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "rebelrats_drummer_l"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "rebelrats_arvalis_l"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "rebelrats_siegeharq_m",
+        "WS0009": "rebelrats_siegeharq_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "rebelrats_poacher_s",
+        "WS0010": "rebelrats_poacher_s",
+        "WS0011": "rebelrats_poacher_s",
+        "WS0012": "rebelrats_poacher_s",
+        "WS0013": "rebelrats_poacher_s",
+        "WS0014": "rebelrats_poacher_s",
+        "WS0015": "rebelrats_poacher_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "rebelrats_ashford",
+        "WS0017": "rebelrats_ashford"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "rebelrats_hawker",
+        "WS0004": "rebelrats_hawker",
+        "WS0018": "rebelrats_custodian_m"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "rebelrats_overseer_Interceptor_wingt",
+    "rebelrats_overseer_Interceptor_wingt",
+    "rebelrats_daekon_Fighter_wingt",
+    "rebelrats_conductor_Bomber_wingt"
+  ]
+}
