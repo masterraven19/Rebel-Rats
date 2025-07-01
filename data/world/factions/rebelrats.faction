@@ -77,6 +77,7 @@
 		"hulls":[
 		                #combat cap
 		                "rebelrats_porcellus",
+		                "rebelrats_chevrotain",
 
 		                #combat cruiser
 				"rebelrats_marmot",
@@ -116,6 +117,7 @@
 		"hulls":[
 		                #combat cap
 		                "rebelrats_porcellus",
+		                "rebelrats_chevrotain",
 
 		                #combat cruiser
 		                "rebelrats_marmot",

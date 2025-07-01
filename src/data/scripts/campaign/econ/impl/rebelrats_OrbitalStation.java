@@ -17,6 +17,7 @@ import com.fs.starfarer.api.combat.ShipVariantAPI;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.fleet.FleetMemberType;
 import com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry;
+import com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation;
 import com.fs.starfarer.api.impl.campaign.events.OfficerManagerEvent;
 import com.fs.starfarer.api.impl.campaign.fleets.DefaultFleetInflater;
 import com.fs.starfarer.api.impl.campaign.fleets.DefaultFleetInflaterParams;
@@ -37,23 +38,16 @@ import java.awt.Color;
 public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEventListener {
 
 	public static float DEFENSE_BONUS_BASE = 0.5f;
-	public static float DEFENSE_BONUS_BATTLESTATION = 1f; 
+	public static float DEFENSE_BONUS_BATTLESTATION = 1f;
 	public static float DEFENSE_BONUS_FORTRESS = 2f;
-	
-	public static float IMPROVE_STABILITY_BONUS = 1f;
 
-	public boolean isHidden() {
-		return false;
-	}
-	public boolean showWhenUnavailable() {
-		return false;
-	}
+	public static float IMPROVE_STABILITY_BONUS = 1f;
 
 	public void apply() {
 		super.apply(false);
-		
+
 		int size = 3;
-		
+
 		boolean battlestation = getSpec().hasTag(Industries.TAG_BATTLESTATION);
 		boolean starfortress = getSpec().hasTag(Industries.TAG_STARFORTRESS);
 		if (battlestation) {
@@ -61,22 +55,28 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 		} else if (starfortress) {
 			size = 7;
 		}
-		
-		modifyStabilityWithBaseMod();		
-		
+
+		modifyStabilityWithBaseMod();
+
 		applyIncomeAndUpkeep(size);
-		
+
 		demand(Commodities.CREW, size);
 		demand(Commodities.SUPPLIES, size);
-		
+
+		float mult = getDeficitMult(Commodities.SUPPLIES);
+		String extra = "";
+		if (mult != 1) {
+			String com = getMaxDeficit(Commodities.SUPPLIES).one;
+			extra = " (" + getDeficitText(com).toLowerCase() + ")";
+		}
 		float bonus = DEFENSE_BONUS_BASE;
 		if (battlestation) bonus = DEFENSE_BONUS_BATTLESTATION;
 		else if (starfortress) bonus = DEFENSE_BONUS_FORTRESS;
 		market.getStats().getDynamic().getMod(Stats.GROUND_DEFENSES_MOD)
-						.modifyMult(getModId(), 1f + bonus, getNameForModifier());
-		
+				.modifyMult(getModId(), 1f + bonus * mult, getNameForModifier() + extra);
+
 		matchCommanderToAICore(aiCoreId);
-		
+
 		if (!isFunctional()) {
 			supply.clear();
 			unapply();
@@ -84,18 +84,18 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 			applyCRToStation();
 		}
 	}
-	
+
 	@Override
 	public void unapply() {
 		super.unapply();
-		
+
 		unmodifyStabilityWithBaseMod();
-		
+
 		matchCommanderToAICore(null);
-		
+
 		market.getStats().getDynamic().getMod(Stats.GROUND_DEFENSES_MOD).unmodifyMult(getModId());
 	}
-	
+
 	protected void applyCRToStation() {
 		if (stationFleet != null) {
 			float cr = getCR();
@@ -115,32 +115,32 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 			}
 		}
 	}
-	
+
 	protected float getCR() {
 		float deficit = getMaxDeficit(Commodities.CREW, Commodities.SUPPLIES).two;
 		float demand = Math.max(getDemand(Commodities.CREW).getQuantity().getModifiedInt(),
-								getDemand(Commodities.SUPPLIES).getQuantity().getModifiedInt());
-		
+				getDemand(Commodities.SUPPLIES).getQuantity().getModifiedInt());
+
 		if (deficit < 0) deficit = 0f;
 		if (demand < 1) {
 			demand = 1;
 			deficit = 0f;
 		}
-		
-		
+
+
 		float q = Misc.getShipQuality(market);
 		if (q < 0) q = 0;
 		if (q > 1) q = 1;
-		
+
 		float d = (demand - deficit) / demand;
 		if (d < 0) d = 0;
 		if (d > 1) d = 1;
-		
+
 		//float cr = 0.2f + 0.4f * d + 0.4f * q;
 		//float cr = 0.2f + 0.8f * Math.min(d, q);
 		float cr = 0.5f + 0.5f * Math.min(d, q);
 		if (cr > 1) cr = 1;
-		
+
 		return cr;
 	}
 
@@ -149,19 +149,19 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 		//return mode == IndustryTooltipMode.NORMAL && isFunctional();
 		return mode != IndustryTooltipMode.NORMAL || isFunctional();
 	}
-	
+
 	@Override
 	protected void addPostDemandSection(TooltipMakerAPI tooltip, boolean hasDemand, IndustryTooltipMode mode) {
 		//if (mode == IndustryTooltipMode.NORMAL && isFunctional()) {
 		if (mode != IndustryTooltipMode.NORMAL || isFunctional()) {
 			Color h = Misc.getHighlightColor();
 			float opad = 10f;
-			
+
 			float cr = getCR();
 			tooltip.addPara("Station combat readiness: %s", opad, h, "" + Math.round(cr * 100f) + "%");
-			
+
 			addStabilityPostDemandSection(tooltip, hasDemand, mode);
-			
+
 			boolean battlestation = getSpec().hasTag(Industries.TAG_BATTLESTATION);
 			boolean starfortress = getSpec().hasTag(Industries.TAG_STARFORTRESS);
 			float bonus = DEFENSE_BONUS_BASE;
@@ -182,6 +182,12 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 
 
 
+	public CampaignFleetAPI getStationFleet() {
+		return stationFleet;
+	}
+	public SectorEntityToken getStationEntity() {
+		return stationEntity;
+	}
 
 
 	protected CampaignFleetAPI stationFleet = null;
@@ -189,25 +195,25 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 	protected SectorEntityToken stationEntity = null;
 
 	//protected IntervalUtil tracker = new IntervalUtil(0.7f, 1.3f);
-	
+
 	@Override
 	public void advance(float amount) {
 		super.advance(amount);
 
 		if (Global.getSector().getEconomy().isSimMode()) return;
 
-		
+
 		if (stationEntity == null) {
 			spawnStation();
 		}
-		
+
 		if (stationFleet != null) {
 			stationFleet.setAI(null);
 			if (stationFleet.getOrbit() == null && stationEntity != null) {
-				stationFleet.setCircularOrbit(stationEntity, 0, 0, 100);	
+				stationFleet.setCircularOrbit(stationEntity, 0, 0, 100);
 			}
 		}
-		
+
 //		if (stationFleet != null) {
 //			if (stationFleet.getAI() != null) {
 //				System.out.println("wefwefew");
@@ -218,11 +224,11 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 //				System.out.println("wefwefe");
 //			}
 //		}
-		
+
 //		if (stationEntity != null && stationFleet != null) {
 //			stationFleet.setFacing(stationEntity.getFacing());
 //		}
-		
+
 //		if (isFunctional()) {
 //			if (stationEntity == null) {
 //				spawnStation(false);
@@ -232,7 +238,7 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 //				removeStationEntityAndFleetIfNeeded();
 //			}
 //		}
-		
+
 //		if (stationFleet != null) {
 //			//stationFleet.advance(amount);
 //			if (stationEntity != null) {
@@ -244,7 +250,7 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 //		if (stationFleet != null && stationFleet.isInCurrentLocation()) {
 //			System.out.println("inf: " + stationFleet.getInflater());
 //		}
-		
+
 //		float days = Global.getSector().getClock().convertToDays(amount);
 //		tracker.advance(days);
 //		if (tracker.intervalElapsed()) {
@@ -253,23 +259,23 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 //			}
 //		}
 	}
-	
+
 
 	@Override
 	protected void buildingFinished() {
 		super.buildingFinished();
-		
+
 		if (stationEntity != null && stationFleet != null) {
 			matchStationAndCommanderToCurrentIndustry();
 		} else {
 			spawnStation();
 		}
 	}
-	
+
 	@Override
 	public void notifyBeingRemoved(MarketInteractionMode mode, boolean forUpgrade) {
 		super.notifyBeingRemoved(mode, forUpgrade);
-		
+
 		if (!forUpgrade) {
 			removeStationEntityAndFleetIfNeeded();
 		}
@@ -278,18 +284,18 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 	@Override
 	protected void upgradeFinished(Industry previous) {
 		super.upgradeFinished(previous);
-		
+
 		if (previous instanceof rebelrats_OrbitalStation) {
 			rebelrats_OrbitalStation prev = (rebelrats_OrbitalStation) previous;
 			stationEntity = prev.stationEntity;
 			stationFleet = prev.stationFleet;
 			usingExistingStation = prev.usingExistingStation;
-			
+
 			if (stationFleet != null) {
 				stationFleet.removeEventListener(prev);
 				stationFleet.addEventListener(this);
 			}
-			
+
 			if (stationEntity != null && stationFleet != null) {
 				matchStationAndCommanderToCurrentIndustry();
 			} else {
@@ -297,32 +303,32 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 			}
 		}
 	}
-	
+
 	protected void removeStationEntityAndFleetIfNeeded() {
 		if (stationEntity != null) {
 			stationEntity.getMemoryWithoutUpdate().unset(MemFlags.STATION_FLEET);
 			stationEntity.getMemoryWithoutUpdate().unset(MemFlags.STATION_BASE_FLEET);
-			
+
 			stationEntity.getContainingLocation().removeEntity(stationFleet);
-			
+
 			if (stationEntity.getContainingLocation() != null && !usingExistingStation) {
 				stationEntity.getContainingLocation().removeEntity(stationEntity);
 				market.getConnectedEntities().remove(stationEntity);
-				
+
 				// commented out so that MarketCMD doesn't NPE if you destroy a market through bombardment of a station
 				//stationEntity.setMarket(null);
-				
+
 			} else if (stationEntity.hasTag(Tags.USE_STATION_VISUAL)) {
 				((CustomCampaignEntityAPI)stationEntity).setFleetForVisual(null);
 				float origRadius = ((CustomCampaignEntityAPI)stationEntity).getCustomEntitySpec().getDefaultRadius();
 				((CustomCampaignEntityAPI)stationEntity).setRadius(origRadius);
 			}
-			
+
 			if (stationFleet != null) {
 				stationFleet.getMemoryWithoutUpdate().unset(MemFlags.STATION_MARKET);
 				stationFleet.removeEventListener(this);
 			}
-			
+
 			stationEntity = null;
 			stationFleet = null;
 		}
@@ -332,76 +338,77 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 	@Override
 	public void notifyColonyRenamed() {
 		super.notifyColonyRenamed();
-		if (!usingExistingStation) {
+		if (!usingExistingStation && stationFleet != null && stationEntity != null) {
 			stationFleet.setName(market.getName() + " Station");
 			stationEntity.setName(market.getName() + " Station");
 		}
 	}
 
-	
-	
+
+
 	protected void spawnStation() {
 		FleetParamsV3 fParams = new FleetParamsV3(null, null,
-												  market.getFactionId(),
-												  1f,
-												  FleetTypes.PATROL_SMALL,
-												  0,
-												  0, 0, 0, 0, 0, 0);
+				market.getFactionId(),
+				1f,
+				FleetTypes.PATROL_SMALL,
+				0,
+				0, 0, 0, 0, 0, 0);
 		fParams.allWeapons = true;
-		
+
 		removeStationEntityAndFleetIfNeeded();
-		
+
 //		if (market.getId().equals("jangala")) {
 //			System.out.println("wefwefew");
 //		}
-		
+
 		stationFleet = FleetFactoryV3.createFleet(fParams);
+		//stationFleet.setName(getCurrentName());
 		stationFleet.setNoFactionInName(true);
-		
-		
+
+
 		stationFleet.setStationMode(true);
-		
+
 		//stationFleet.getMemoryWithoutUpdate().set(MemFlags.MEMORY_KEY_MAKE_ALLOW_DISENGAGE, true);
-		
+
 		// needed for AI fleets to engage it, as they engage the hidden station fleet, unlike
 		// the player that interacts with the stationEntity
 		stationFleet.clearAbilities();
 		stationFleet.addAbility(Abilities.TRANSPONDER);
 		stationFleet.getAbility(Abilities.TRANSPONDER).activate();
 		stationFleet.getDetectedRangeMod().modifyFlat("gen", 10000f);
-		
+
 		stationFleet.setAI(null);
 		stationFleet.addEventListener(this);
 
-		
+
 		ensureStationEntityIsSetOrCreated();
-		
+
 		if (stationEntity instanceof CustomCampaignEntityAPI) {
 			if (!usingExistingStation || stationEntity.hasTag(Tags.USE_STATION_VISUAL)) {
 				((CustomCampaignEntityAPI)stationEntity).setFleetForVisual(stationFleet);
 			}
 		}
-		
+
 		stationFleet.setCircularOrbit(stationEntity, 0, 0, 100);
 		stationFleet.getMemoryWithoutUpdate().set(MemFlags.STATION_MARKET, market);
 		stationFleet.setHidden(true);
-		
-		
+
+
 		matchStationAndCommanderToCurrentIndustry();
 	}
-	
-	
+
+
 	protected void ensureStationEntityIsSetOrCreated() {
 		if (stationEntity == null) {
 			for (SectorEntityToken entity : market.getConnectedEntities()) {
-				if (entity.hasTag(Tags.STATION) && !entity.hasTag("NO_ORBITAL_STATION")) { // added NO_ORBITAL_STATION per modder request 
+				if (entity.hasTag(Tags.STATION) && !entity.hasTag("NO_ORBITAL_STATION")) { // added NO_ORBITAL_STATION per modder request
 					stationEntity = entity;
 					usingExistingStation = true;
 					break;
 				}
 			}
 		}
-		
+
 		if (stationEntity == null) {
 			stationEntity = market.getContainingLocation().addCustomEntity(
 					null, market.getName() + " Station", Entities.STATION_BUILT_FROM_INDUSTRY, market.getFactionId());
@@ -412,11 +419,13 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 			stationEntity.setMarket(market);
 		}
 	}
-	
-	
+
+
 	protected void matchStationAndCommanderToCurrentIndustry() {
+		if (stationFleet == null) return;
+
 		stationFleet.getFleetData().clear();
-		
+
 		String fleetName = null;
 		String variantId = null;
 		float radius = 60f;
@@ -429,55 +438,55 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 		} catch (JSONException e) {
 			throw new RuntimeException(e);
 		}
-		
+
 		if (stationEntity != null) {
 			fleetName = stationEntity.getName();
 		}
-		
-		
+
+
 		stationFleet.setName(fleetName);
-		
+
 //		try {
 //			FleetMemberAPI member = Global.getFactory().createFleetMember(FleetMemberType.SHIP, variantId);
 //		} catch (Throwable t) {
 //			throw new RuntimeException("Market: " + market.getId() + ", variantId: " + variantId + ", " +
 //					"message: [" + t.getMessage() + "]");
 //		}
-		
+
 		FleetMemberAPI member = Global.getFactory().createFleetMember(FleetMemberType.SHIP, variantId);
 		//String name = stationFleet.getFleetData().pickShipName(member, null);
 		String name = fleetName;
 		member.setShipName(name);
-		
+
 		stationFleet.getFleetData().addFleetMember(member);
-		
+
 //		int level = 20;
 //		PersonAPI commander = OfficerManagerEvent.createOfficer(
 //				Global.getSector().getFaction(market.getFactionId()), level, true);
 //		commander.getStats().setSkillLevel(Skills.GUNNERY_IMPLANTS, 3);
 //		stationFleet.setCommander(commander);
 //		stationFleet.getFlagship().setCaptain(commander);
-		
+
 		//stationFleet.getFlagship().getRepairTracker().setCR(stationFleet.getFlagship().getRepairTracker().getMaxCR());
 		applyCRToStation();
-		
+
 		//stationFleet.setMarket(market);
-		
+
 		//JSONObject
-		
+
 		if (!usingExistingStation && stationEntity instanceof CustomCampaignEntityAPI) {
 			((CustomCampaignEntityAPI)stationEntity).setRadius(radius);
 		} else if (stationEntity.hasTag(Tags.USE_STATION_VISUAL)) {
 			((CustomCampaignEntityAPI)stationEntity).setRadius(radius);
 		}
-		
+
 		boolean skeletonMode = !isFunctional();
-		
+
 		if (skeletonMode) {
 			stationEntity.getMemoryWithoutUpdate().unset(MemFlags.STATION_FLEET);
 			stationEntity.getMemoryWithoutUpdate().set(MemFlags.STATION_BASE_FLEET, stationFleet);
 			stationEntity.getContainingLocation().removeEntity(stationFleet);
-			
+
 			for (int i = 1; i < member.getStatus().getNumStatuses(); i++) {
 				ShipVariantAPI variant = member.getVariant();
 				if (i > 0) {
@@ -486,14 +495,14 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 				} else {
 					continue;
 				}
-				
+
 				if (!variant.hasHullMod(HullMods.VASTBULK)) {
 					member.getStatus().setDetached(i, true);
 					member.getStatus().setPermaDetached(i, true);
 					member.getStatus().setHullFraction(i, 0f);
 				}
 			}
-			
+
 		} else {
 			stationEntity.getMemoryWithoutUpdate().unset(MemFlags.STATION_BASE_FLEET);
 			stationEntity.getMemoryWithoutUpdate().set(MemFlags.STATION_FLEET, stationFleet);
@@ -504,11 +513,11 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 			stationEntity.getContainingLocation().addEntity(stationFleet);
 		}
 	}
-	
+
 	protected int getHumanCommanderLevel() {
 		boolean battlestation = getSpec().hasTag(Industries.TAG_BATTLESTATION);
 		boolean starfortress = getSpec().hasTag(Industries.TAG_STARFORTRESS);
-		
+
 		if (starfortress) {
 			return Global.getSettings().getInt("tier3StationOfficerLevel");
 		} else if (battlestation) {
@@ -516,20 +525,20 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 		}
 		return Global.getSettings().getInt("tier1StationOfficerLevel");
 	}
-	
+
 	protected void matchCommanderToAICore(String aiCore) {
 		if (stationFleet == null) return;
 
 //		if (market.isPlayerOwned()) {
 //			System.out.println("wefwefew");
 //		}
-		
+
 		PersonAPI commander = null;
 		if (Commodities.ALPHA_CORE.equals(aiCore)) {
 //			commander = OfficerManagerEvent.createOfficer(
 //					Global.getSector().getFaction(Factions.REMNANTS), level, SkillPickPreference.NON_CARRIER);
 //			commander.getStats().setSkillLevel(Skills.GUNNERY_IMPLANTS, 3);
-			
+
 			AICoreOfficerPlugin plugin = Misc.getAICoreOfficerPlugin(Commodities.ALPHA_CORE);
 			commander = plugin.createPerson(Commodities.ALPHA_CORE, Factions.REMNANTS, null);
 			if (stationFleet.getFlagship() != null) {
@@ -541,14 +550,14 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 //					!stationFleet.getFlagship().getCaptain().isDefault()) {
 //				commander = Global.getFactory().createPerson();
 //			}
-			
+
 			if (stationFleet.getFlagship() != null) {
 				int level = getHumanCommanderLevel();
 				PersonAPI current = stationFleet.getFlagship().getCaptain();
 				if (level > 0) {
 					if (current.isAICore() || current.getStats().getLevel() != level) {
 						commander = OfficerManagerEvent.createOfficer(
-									Global.getSector().getFaction(market.getFactionId()), level, true);
+								Global.getSector().getFaction(market.getFactionId()), level, true);
 					}
 				} else {
 					if (stationFleet.getFlagship() == null || stationFleet.getFlagship().getCaptain() == null ||
@@ -557,9 +566,9 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 					}
 				}
 			}
-			
+
 		}
-		
+
 //		if (commander != null) {
 //			PersonAPI current = stationFleet.getFlagship().getCaptain();
 //			if (current.isAICore() == commander.isAICore() &&
@@ -568,7 +577,7 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 //				commander = null;
 //			}
 //		}
-		
+
 		if (commander != null) {
 			//stationFleet.setCommander(commander); // don't want a  "this is a flagship" star showing in the fleet list
 			if (stationFleet.getFlagship() != null) {
@@ -577,32 +586,32 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 			}
 		}
 	}
-	
+
 
 	public void reportBattleOccurred(CampaignFleetAPI fleet, CampaignFleetAPI primaryWinner, BattleAPI battle) {
-		
+
 	}
 
-	
+
 	@Override
 	protected void disruptionFinished() {
 		super.disruptionFinished();
-		
+
 		matchStationAndCommanderToCurrentIndustry();
 	}
 
 	@Override
 	protected void notifyDisrupted() {
 		super.notifyDisrupted();
-		
+
 		matchStationAndCommanderToCurrentIndustry();
 	}
-	
+
 	public void reportFleetDespawnedToListener(CampaignFleetAPI fleet, FleetDespawnReason reason, Object param) {
 		if (fleet != stationFleet) return; // shouldn't happen...
-		
+
 		disrupt(this);
-		
+
 		// bug where somehow a station fleet can become empty as a result of combat
 		// then its despawn() gets called every frame
 		if (stationFleet.getMembersWithFightersCopy().isEmpty()) {
@@ -610,13 +619,14 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 		}
 		stationFleet.setAbortDespawn(true);
 	}
-	
+
 	public static void disrupt(Industry station) {
 		station.setDisrupted(station.getSpec().getBuildTime() * 0.5f, true);
 	}
-	
+
 	public boolean isAvailableToBuild() {
 		//if (getSpec().hasTag(Industries.TAG_PARENT)) return true;
+
 		boolean canBuild = false;
 		/**
 		for (Industry ind : market.getIndustries()) {
@@ -630,12 +640,12 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 		 **/
 		return canBuild;
 	}
-	
+
 	public String getUnavailableReason() {
 		return "Requires a functional spaceport";
 	}
 
-	
+
 	@Override
 	protected int getBaseStabilityMod() {
 		boolean battlestation = getSpec().hasTag(Industries.TAG_BATTLESTATION);
@@ -648,30 +658,30 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 		}
 		return stabilityMod;
 	}
-	
+
 	@Override
 	protected Pair<String, Integer> getStabilityAffectingDeficit() {
 		return getMaxDeficit(Commodities.SUPPLIES, Commodities.CREW);
 	}
-	
-	
+
+
 	@Override
 	protected void applyAlphaCoreModifiers() {
 	}
-	
+
 	@Override
 	protected void applyNoAICoreModifiers() {
 	}
-	
+
 	@Override
 	protected void applyAlphaCoreSupplyAndDemandModifiers() {
 		demandReduction.modifyFlat(getModId(0), DEMAND_REDUCTION, "Alpha core");
 	}
-	
+
 	protected void addAlphaCoreDescription(TooltipMakerAPI tooltip, AICoreDescriptionMode mode) {
 		float opad = 10f;
 		Color highlight = Misc.getHighlightColor();
-		
+
 		String pre = "Alpha-level AI core currently assigned. ";
 		if (mode == AICoreDescriptionMode.MANAGE_CORE_DIALOG_LIST || mode == AICoreDescriptionMode.INDUSTRY_TOOLTIP) {
 			pre = "Alpha-level AI core. ";
@@ -680,37 +690,37 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 			CommoditySpecAPI coreSpec = Global.getSettings().getCommoditySpec(aiCoreId);
 			TooltipMakerAPI text = tooltip.beginImageWithText(coreSpec.getIconName(), 48);
 			text.addPara(pre + "Reduces upkeep cost by %s. Reduces demand by %s unit. " +
-					"Increases station combat effectiveness.", 0f, highlight,
+							"Increases station combat effectiveness.", 0f, highlight,
 					"" + (int)((1f - UPKEEP_MULT) * 100f) + "%", "" + DEMAND_REDUCTION);
 			tooltip.addImageWithText(opad);
 			return;
 		}
-		
+
 		tooltip.addPara(pre + "Reduces upkeep cost by %s. Reduces demand by %s unit. " +
-				"Increases station combat effectiveness.", opad, highlight,
+						"Increases station combat effectiveness.", opad, highlight,
 				"" + (int)((1f - UPKEEP_MULT) * 100f) + "%", "" + DEMAND_REDUCTION);
-		
+
 	}
-	
+
 	@Override
 	public boolean canImprove() {
 		return true;
 	}
-	
+
 	protected void applyImproveModifiers() {
 		if (isImproved()) {
-			market.getStability().modifyFlat("orbital_station_improve", IMPROVE_STABILITY_BONUS, 
-						getImprovementsDescForModifiers() + " (" + getNameForModifier() + ")");
+			market.getStability().modifyFlat("orbital_station_improve", IMPROVE_STABILITY_BONUS,
+					getImprovementsDescForModifiers() + " (" + getNameForModifier() + ")");
 		} else {
 			market.getStability().unmodifyFlat("orbital_station_improve");
 		}
 	}
-	
+
 	public void addImproveDesc(TooltipMakerAPI info, ImprovementDescriptionMode mode) {
 		float opad = 10f;
 		Color highlight = Misc.getHighlightColor();
-		
-		
+
+
 		if (mode == ImprovementDescriptionMode.INDUSTRY_TOOLTIP) {
 			info.addPara("Stability increased by %s.", 0f, highlight, "" + (int) IMPROVE_STABILITY_BONUS);
 		} else {
@@ -720,14 +730,14 @@ public class rebelrats_OrbitalStation extends BaseIndustry implements FleetEvent
 		info.addSpacer(opad);
 		super.addImproveDesc(info, mode);
 	}
-	
-	
+
+
 	protected boolean isMiltiarized() {
 		boolean battlestation = getSpec().hasTag(Industries.TAG_BATTLESTATION);
 		boolean starfortress = getSpec().hasTag(Industries.TAG_STARFORTRESS);
 		return battlestation || starfortress;
 	}
-	
+
 	@Override
 	public RaidDangerLevel adjustCommodityDangerLevel(String commodityId, RaidDangerLevel level) {
 		if (!isMiltiarized()) return level;
