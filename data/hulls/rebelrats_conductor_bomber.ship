@@ -1,76 +1,70 @@
 {
-    "hullName": "Conductor",
-    "hullId": "rebelrats_conductor_bomber",
-    "hullSize": "FIGHTER",
-    "style": "REBELRATS",
-    "spriteName": "graphics/rebelrats/ships/conductor_bomber.png",
-    "height": 40,
-    "width": 26,
-    "center": [
-        13, 20
-    ],
-    "collisionRadius": 31,
-    "coversColor": "",
-    "shieldCenter": [
-        0, 0
-    ],
-    "shieldRadius": 23,
-    "viewOffset": 0,
-    "builtInMods": [
-        "no_weapon_flux"
-    ],
-    "builtInWings": [],
-    "builtInModules": null,
-    "weaponSlots": [
-        {
-            "id": "WS 000",
-            "size": "SMALL",
-            "type": "MISSILE",
-            "mount": "HIDDEN",
-            "arc": 1,
-            "angle": 0,
-            "locations": [
-                    -1.5,     -7.5
-            ]
-        },
-        {
-            "id": "WS 001",
-            "size": "SMALL",
-            "type": "MISSILE",
-            "mount": "HIDDEN",
-            "arc": 1,
-            "angle": 0,
-            "locations": [
-                    -1.5,      7.5
-            ]
-        }
-    ],
-    "engineSlots": [
-        {
-            "location": [
-                -19, 5.5
-            ],
-            "length": 17.5,
-            "width": 7,
-            "angle": 180,
-            "contrailSize": 12,
-            "style": "Rats"
-        },
-        {
-            "location": [
-                -19, -5.5
-            ],
-            "length": 17.5,
-            "width": 7,
-            "angle": 180,
-            "contrailSize": 12,
-            "style": "Rats"
-        }
-    ],
-    "bounds": [
-             -19,     17.5,
-              20,      4.5,
-              20,     -4.5,
-             -19,    -17.5
-    ]
+  "hullName": "Conductor",
+  "hullId": "rebelrats_conductor_bomber",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/rebelrats/ships/conductor_bomber.png",
+  "style": "REBELRATS",
+  "height": 40,
+  "width": 26,
+  "center": [13, 20],
+  "collisionRadius": 31,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-1.5, -7.5]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-1.5, 7.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-12, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, 5.5],
+      "length": 17.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "Rats"
+    },
+    {
+      "location": [-19, -5.5],
+      "length": 17.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "Rats"
+    }
+  ],
+  "bounds": [
+    -19, 17.5,
+    20, 4.5,
+    20, -4.5,
+    -19, -17.5
+  ]
 }

@@ -21,7 +21,7 @@
     },
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
         "WS0003": "rebelrats_falcon_f",
         "WS0004": "rebelrats_falcon_f"
