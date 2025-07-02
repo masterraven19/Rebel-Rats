@@ -3,7 +3,7 @@
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{
 			"rebelrats_mus_Balanced":1,
-			"rebelrats_patron_Balanced":6,
+			"rebelrats_patron_Balanced":4,
 			"rebelrats_sorex_Balanced":1,
 			"rebelrats_tamias_balanced":4,
 	},
@@ -28,8 +28,8 @@
 			"rebelrats_dormouse_balanced":4,
 	},
 	"combatCapital":{
-			"rebelrats_porcellus_Balanced":2,
-			"rebelrats_porcellus_antishield":2,
+			"rebelrats_porcellus_Balanced":1,
+			"rebelrats_porcellus_antishield":1,
 			"rebelrats_porcellus_Outdated":1,
 	},
 	
@@ -63,7 +63,7 @@
 			"rebelrats_marmot_Antifighter":1,
 	},
 	"carrierLarge":{
-			"rebelrats_chevrotain_balanced":4,
+			"rebelrats_chevrotain_balanced":2,
 	},
 
 	# phase ships
