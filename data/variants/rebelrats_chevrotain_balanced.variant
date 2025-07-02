@@ -3,7 +3,7 @@
   "hullId": "rebelrats_chevrotain",
   "displayName": "Balanced",
   "goalVariant": false,
-  "fluxCapacitors": 5,
+  "fluxCapacitors": 13,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
@@ -17,8 +17,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "rebelrats_huntsman_salvo",
-        "WS0002": "rebelrats_huntsman_salvo"
+        "WS0001": "rebelrats_salvo_autoloader",
+        "WS0002": "rebelrats_salvo_autoloader"
       }
     },
     {
@@ -32,15 +32,15 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "rebelrats_arvalis_l"
+        "WS0007": "rebelrats_equalizer_l"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "rebelrats_siegeharq_m",
-        "WS0009": "rebelrats_siegeharq_m"
+        "WS0008": "rebelrats_crossbow_m",
+        "WS0009": "rebelrats_crossbow_m"
       }
     },
     {
@@ -53,7 +53,8 @@
         "WS0012": "rebelrats_poacher_s",
         "WS0013": "rebelrats_poacher_s",
         "WS0014": "rebelrats_poacher_s",
-        "WS0015": "rebelrats_poacher_s"
+        "WS0015": "rebelrats_poacher_s",
+        "WS0018": "rebelrats_braggador_m"
       }
     },
     {
@@ -69,8 +70,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0003": "rebelrats_hawker",
-        "WS0004": "rebelrats_hawker",
-        "WS0018": "rebelrats_custodian_m"
+        "WS0004": "rebelrats_hawker"
       }
     }
   ],

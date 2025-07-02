@@ -3,7 +3,7 @@
   "hullId": "rebelrats_tamias",
   "displayName": "Balanced",
   "goalVariant": false,
-  "fluxCapacitors": 4,
+  "fluxCapacitors": 5,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
@@ -14,10 +14,10 @@
   "weaponGroups": [
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
-        "WS0006": "rebelrats_huntsmanx2",
-        "WS0007": "rebelrats_huntsmanx2"
+        "WS0006": "rebelrats_pyroclast",
+        "WS0007": "rebelrats_pyroclast"
       }
     },
     {
@@ -31,13 +31,15 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "rebelrats_longbow"
+        "WS0002": "rebelrats_longbow",
+        "WS0003": "rebelrats_longbow"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0001": "rebelrats_poacher_s",
         "WS0004": "rebelrats_poacher_s",
         "WS0010": "rebelrats_poacher_s"
       }
@@ -45,10 +47,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0002": "rebelrats_ashford",
-        "WS0003": "rebelrats_ashford"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

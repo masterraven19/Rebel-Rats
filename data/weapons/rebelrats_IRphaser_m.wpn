@@ -5,8 +5,8 @@
   "size": "MEDIUM",
   "collisionClass": "RAY_FIGHTER",
   "collisionClassByFighter": "RAY_FIGHTER",
-  "turretSprite": "graphics/rebelrats/weapons/IRphaser_hardpoint_base.png",
-  "turretGlowSprite": "graphics/rebelrats/weapons/IRphaser_hardpoint_glow.png",
+  "turretSprite": "graphics/rebelrats/weapons/IRphaser_turret_base.png",
+  "turretGlowSprite": "graphics/rebelrats/weapons/IRphaser_turret_glow.png",
   "hardpointSprite": "graphics/rebelrats/weapons/IRphaser_hardpoint_base.png",
   "hardpointGlowSprite": "graphics/rebelrats/weapons/IRphaser_hardpoint_glow.png",
   "glowColor": [
