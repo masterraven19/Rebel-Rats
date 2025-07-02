@@ -2,36 +2,35 @@
 	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{
-			"rebelrats_mus_Balanced":10,
+			"rebelrats_mus_Balanced":1,
 			"rebelrats_patron_Balanced":6,
+			"rebelrats_sorex_Balanced":1,
+			"rebelrats_tamias_balanced":4,
 	},
 	"combatSmall":{
-			"rebelrats_mus_Balanced":10,
-			"rebelrats_patron_Balanced":10,
-			"rebelrats_musrattus_Balanced":4,
+			"rebelrats_mus_Balanced":4,
+			"rebelrats_patron_Balanced":4,
+			"rebelrats_musrattus_Balanced":1,
 	},
 	"combatMedium":{
-			"rebelrats_rattus_Balanced":10,
-			"rebelrats_rattus_overdriven":8,
-			"rebelrats_helmsman_Balanced":6,
-			"rebelrats_sorex_Balanced":6,
+			"rebelrats_rattus_Balanced":3,
+			"rebelrats_rattus_overdriven":2,
+			"rebelrats_helmsman_Balanced":3,
+			"rebelrats_sorex_Balanced":1,
+			"rebelrats_tamias_balanced":4,
 	},
 	"combatLarge":{
-			"rebelrats_marmot_Balanced":9,
-			"rebelrats_marmot_Hardliner":7,
-			"rebelrats_marmot_Outdated":8,
-			"rebelrats_marmot_Antifighter":7,
-			"rebelrats_matkaboska_Balanced":9,
-			"rebelrats_matkaboska_Lancer":7,
-			"rebelrats_matkaboska_outdated":8,
-			"rebelrats_steersman_Balanced":7,
-			"rebelrats_jerboa_Standard":7,
-			"rebelrats_jerboa_Roseblight":7,
+			"rebelrats_matkaboska_Balanced":4,
+			"rebelrats_matkaboska_Lancer":2,
+			"rebelrats_matkaboska_outdated":1,
+			"rebelrats_steersman_Balanced":1,
+			"rebelrats_jerboa_Standard":1,
+			"rebelrats_dormouse_balanced"4,
 	},
 	"combatCapital":{
-			"rebelrats_porcellus_Balanced":8,
-			"rebelrats_porcellus_antishield":8,
-			"rebelrats_porcellus_Outdated":5,
+			"rebelrats_porcellus_Balanced":2,
+			"rebelrats_porcellus_antishield":2,
+			"rebelrats_porcellus_Outdated":1,
 	},
 	
 	
@@ -40,10 +39,10 @@
 		
 	},
 	"combatFreighterMedium":{
-
+			"rebelrats_monax_p_Balanced":2,
 	},
 	"combatFreighterLarge":{
-			"rebelrats_monax_p_Balanced":6,
+
 	},
 	
 	"civilianRandom":{
@@ -52,18 +51,19 @@
 
 	# carriers
 	"carrierSmall":{
-			"rebelrats_mellivora_Balanced":8,
-			"rebelrats_mellivora_elite":6,
-			"rebelrats_mellivora_Outdated":7,
+			"rebelrats_mellivora_Balanced":4,
+			"rebelrats_mellivora_elite":2,
+			"rebelrats_mellivora_Outdated":1,
 	},
 	"carrierMedium":{
 
-			"rebelrats_marmot_Balanced":8,
-			"rebelrats_marmot_Hardliner":6,
-			"rebelrats_marmot_Outdated":7,
+			"rebelrats_marmot_Balanced":3,
+			"rebelrats_marmot_Hardliner":2,
+			"rebelrats_marmot_Outdated":1,
+			"rebelrats_marmot_Antifighter":1,
 	},
 	"carrierLarge":{
-
+			"rebelrats_chevrotain_balanced":4,
 	},
 
 	# phase ships
@@ -81,18 +81,17 @@
 
 	# freighters and such
 	"freighterSmall":{
-			"rebelrats_panya_Balanced":10,
-			"rebelrats_rott_Balanced":10,
+			"rebelrats_panya_Balanced":2,
 	},
 	"freighterMedium":{
-			"rebelrats_monax_Standard":10,
+			"rebelrats_monax_Standard":2,
 	},
 	"freighterLarge":{
-			"rebelrats_pybara_Balanced":10,
+			"rebelrats_pybara_Balanced":2,
 	},
 	
 	"tankerSmall":{
-            		"rebelrats_rott_Balanced":10,
+            		"rebelrats_rott_Balanced":2,
 	},
 	"tankerMedium":{
 		
