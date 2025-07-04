@@ -4,12 +4,12 @@
   "hullSize": "FIGHTER",
   "spriteName": "graphics/rebelrats/ships/Patron_corvette.png",
   "style": "MIDLINE",
-  "height": 79,
-  "width": 50,
-  "center": [25, 42],
-  "collisionRadius": 76,
+  "height": 54,
+  "width": 48,
+  "center": [24, 25.5],
+  "collisionRadius": 52,
   "shieldCenter": [0, -0],
-  "shieldRadius": 56.5,
+  "shieldRadius": 40.5,
   "viewOffset": 0,
   "builtInMods": [
     "advancedoptics",
@@ -21,66 +21,95 @@
     {
       "id": "WS0001",
       "size": "SMALL",
-      "type": "COMPOSITE",
+      "type": "MISSILE",
       "mount": "TURRET",
-      "arc": 90,
+      "arc": 0,
       "angle": 0,
-      "locations": [16, -0]
+      "locations": [9.5, -0]
     },
     {
       "id": "WS0002",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 201,
+      "arc": 224,
       "angle": 90,
-      "locations": [1, 15]
+      "locations": [0.5, 18]
     },
     {
       "id": "WS0003",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 201,
+      "arc": 224,
       "angle": -90,
-      "locations": [1, -15]
+      "locations": [0.5, -18]
     },
     {
       "id": "WS0004",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 70,
+      "arc": 125,
       "angle": 0,
-      "locations": [35, -0]
+      "locations": [27.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -0,
+      "locations": [27.5, 0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-41, 7],
-      "length": 35,
-      "width": 13,
+      "location": [-24.5, 5.5],
+      "length": 30,
+      "width": 10,
       "angle": 180,
-      "contrailSize": 13,
+      "contrailSize": 30,
       "style": "CUSTOM",
       "styleId": "Rats"
     },
     {
-      "location": [-41, -7],
-      "length": 35,
-      "width": 13,
+      "location": [-24.5, -5.5],
+      "length": 30,
+      "width": 10,
       "angle": -180,
-      "contrailSize": 13,
+      "contrailSize": 30,
       "style": "CUSTOM",
       "styleId": "Rats"
+    },
+    {
+      "location": [-24, 5.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "Rats2"
+    },
+    {
+      "location": [-24, -5.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "Rats2"
     }
   ],
   "bounds": [
-    -41.5, -14,
-    5, -21,
-    35, -9,
-    35, 9,
-    5, 21,
-    -41.5, 14
+    -24.5, -11,
+    0.5, -19.5,
+    7, -12,
+    28.5, -6,
+    28.5, 6,
+    7, 12,
+    0.5, 19.5,
+    -24.5, 11
   ]
 }
