@@ -99,6 +99,7 @@ The Porcellus was designed by the Arms and Armor Conglomerate and built in the m
 
 At the ship’s core, four Barkley-Pattern Heavy-Duty AM-catalysed flux reactors are responsible for powering the ship’s Basilica-Model shield generator and its set of four massive H303 Torch Drives and two secondary H302 Torch Drives. 
 ",,,,
+rebelrats_chevrotain,SHIP,"Representing a new paradigm in the Krysan Navy, the Chevrotain is the adaptation to the Persean Sector's carriers. The unique cylindrical hangar bay gives its ample fighter storage comparable to contemporary carriers. During engagements, the ship can bring to bear extensive missile capabilities with its 24 VLS cells. Festooned with PD turrets, the ship can abate incoming enemy torpedoes with ease while updated shield generators effortlessly keep enemy shots away from its crew.",,,,
 ,,,,,,
 rebelrats_marmot,SHIP,"Marmot cruisers form the backbone of Krysan formations. The ship is designed to fill most roles that its captain may require. But most importantly, a Marmot allows captains to bring station-grade weaponry to engagements, making it a credible threat even in larger battles.
 
@@ -116,15 +117,15 @@ Built by The Three Brothers Corporation, the Jerboa is designed with extremely l
 
 The ship uses two heavily modified M503 Torch Drives fed by three hypercooled Sleipnir-Pattern flux reactors. Apart from its use of stealth composites, the Jerboa also runs extensive hull thermal management systems to hide it in the infrared spectrum, often storing waste heat in its 2 massive internal heat sinks that recycle the heat to power auxiliary systems until the ship can dump it out safely away from prying eyes.
 ",,,,
-rebelrats_matkaboska,SHIP,"Despite lacking the mountings for a Doldrums, the Matka Boska makes up for it with heavy firepower and protection. The ship has a solid reputation for keeping its crew safe during heavy engagements thanks to its Central Battery armor layout. Due to this apparent hardiness, the ship has become a favorite for officers to use as frontline command ships.
+rebelrats_matkaboska,SHIP,"Despite lacking station-grade weaponry, the Matka Boska makes up for it with heavy firepower and protection. The ship has a solid reputation for keeping its crew safe during heavy engagements thanks to its Central Battery armor layout. Due to this apparent hardiness, the ship has become a favorite for officers to use as frontline command ships.
 
-The Matka Boska was unfortunately conceived right before the beginning of the Mobile Defence Doctrine development. Due to this, the ship received neither sufficient reinforcement nor the sufficiently sized reactors to accommodate the energy needs of a Doldrums. Instead, the ship relies on thick slabs of frontal ablative armour and an arsenal of missile mounts to even out peer to peer fights.
+The Matka Boska was unfortunately conceived right before the implementation of the Mobile Defence Doctrine development. Due to this, the ship has neither the hull reinforcement nor sufficiently sized reactors to accommodate the energy needs of a Doldrums. Instead, the ship relies on frontal ablative armour and an arsenal of missiles to even out peer to peer fights.
 
-The base design of the ship which Rebel Rat engineers took design cues predates that of the modern Krysan ship architecture and resembles that of archaic Krysan warships. Due to this, the Matka Boska not only boasts heavier frontal armour than its contemporaries, but also better structural integrity and a hardier citadel that effectively keeps its crew safe during even the heaviest engagements.
+Rebel Rat engineers took inspiration from archaic Krysan warships for the ship's design. Due to this, Matka Boskas boast better structural integrity and a hardier citadel that effectively keeps its crew safe even during heavy engagements.
 
-The interior of the ship is as utilitarian as its hardy outside. Due to reinforcement of the ship structure, crew amenities are kept to a minimalist standard, yet kept with personal privacy in mind. With some creative rearrangements, the crew bunks on the ship are akin to that of capsule rooms with storage slots, work surface, and other basic amenities available within the rectangular confines of the bunk to provide respite during off duty. Yet, its most iconic space is its multi-story mess hall which resembles that of shops in Lycoria back at Krysa. 
+The interior of the ship is as utilitarian as the outside hardiness. Extensive structural reinforcement meant crew amenities are kept to minimal standards but do have some personal privacy in mind. The crew bunks resembled capsule rooms with storage, work surfaces, and other basic amenities installed within the rectangular confines of the bunk. Yet, its most iconic space is its narrow multi-story mess hall that resembled food bazaars found in Lycoria City, Krysa
 
-The ship is equipped with two Barkley-Pattern AM-catalysed flux reactors to power its singular H305 Torch Drive and its Basilica-Model shield generator. Multiple redundant subsystems are in place to make sure that the ship can get the crew back to safety, which includes extensive escape skiff bays and hardened egress routes.
+The ship is equipped with two Barkley-Pattern AM flux reactors to power its single H305 Torch Drive and Basilica-Model shield generator. Multiple redundant subsystems ensure that crew are kept in relative safety. This includes extensive escape rafts, hardened egress routes, and armored muster bays for damage control crews.
 ",,,,
 rebelrats_steersman,SHIP,"The Steersman is an armoured cruiser built in belter shipyards meant to escort belter trade convoys from increasing pirate threats. The ship sports Poubelle Torpedos along its racks for anti-ship usage while an embrasure for a large weapon mount can be seen on its armoured nose.
 
@@ -133,7 +134,14 @@ A direct evolution from the Helmsman, the Steersman is a more serious take by Be
 Hailing from the docks of the Asteroid Central Station, the Steersman represents the Belter's will to be true independents and its ultimate wish to remove piracy within its space. The ship was built to counteract the growing levels of piracy when pirates from the Persean Sector brought ever heavier ships and weapons to raid Belter space.
 
 Its onboard fusion torch is a design derived from the most successful Helmsman homebrewed fusion torch drive nicknamed the Mammoth Fusion Torch. At its core, three Bobcat-Pattern flux reactors power the ship's onboard systems and torch drive.",,,,
-rebelrats_xerus,SHIP,"A relatively new addition to the federal cruiser force, Xerus cruisers bear an unusual ABC turret layout, which came as a result of the acquisition requirements submitted by Federal officials. Postings for Xerus cruisers are often envied for their new hulls, interiors, and modern conveniences compatible with Persean devices.",,,,
+rebelrats_xerus,SHIP,"A relatively new addition to the federal cruiser force, Xerus cruisers bear an unusual ABC turret layout, which came as a result of the acquisition requirements submitted by  the Federal Design Bureau. In battle, extensive active protection systems abate heavy incoming enemy torpedo fire, increasing survivability not only for itself, but for the unit that it's attached to.
+
+Postings for Xerus cruisers are often envied for their new hulls, spacious interiors, and modern conveniences compatible with Persean devices. While its crew bunks are of average size, hot-bunking is almost are the ship is built with excess crew in mind.  Every soul on board gets their own personal locker and their bunks have some luxury of sound dampening.",,,,
+rebelrats_dormouse,SHIP,"Dormouse cruisers were created to solve the supply issue of equipping Provisional Squadrons. These light cruisers bring a good amount of missile coverage into engagements. As they're built from Standard-type modules, interiors are utilitarian, almost spartan in nature. Crews often populate their berths with personal touches to bring a sense of liveness.
+
+Postings for these ships are  often disliked by spacers as, while its rooms aren't particularly tight, they are no redeeming qualities either. Berthings are smaller than average, and crews have to share storage space as the personal storage provides only enough space for important belongings.
+
+The ship's few redeeming quality are its over-designed galley with ample storage, and updated electronics compatible with Persean systems. ",,,,
 ,,,,,,
 rebelrats_mellivora,SHIP,"Though thin skinned and lightly armed, the Mellivora provides a sufficient amount of strikecraft cover with its high-capacity hangars. During battles, it relies on its blistering speed and ample fighter coverage to strike opponents as its armaments is, at best, comparable to that of a frigate.
 
