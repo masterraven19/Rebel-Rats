@@ -21,13 +21,15 @@
     "rebelrats_hippo_Fighter_wingt"
   ],
   "builtInWeapons": {
-    "WS0001": "rebelrats_salvo_autoloader",
-    "WS0002": "rebelrats_salvo_autoloader"
+    "WS0001": "rebelrats_pyroclast_salvo",
+    "WS0002": "rebelrats_pyroclast_salvo",
+    "WS0019": "rebelrats_vls12_l",
+    "WS0020": "rebelrats_vls12_l"
   },
   "weaponSlots": [
     {
       "id": "WS0001",
-      "size": "LARGE",
+      "size": "MEDIUM",
       "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 5,
@@ -36,7 +38,7 @@
     },
     {
       "id": "WS0002",
-      "size": "LARGE",
+      "size": "MEDIUM",
       "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 5,
@@ -46,7 +48,7 @@
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 157,
       "angle": 45,
@@ -55,7 +57,7 @@
     {
       "id": "WS0004",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 157,
       "angle": -45,
@@ -120,8 +122,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 120,
-      "angle": 75,
+      "arc": 150,
+      "angle": 60,
       "locations": [16, 39]
     },
     {
@@ -129,8 +131,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 120,
-      "angle": -75,
+      "arc": 150,
+      "angle": -60,
       "locations": [16, -39]
     },
     {
@@ -138,8 +140,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 120,
-      "angle": 105,
+      "arc": 180,
+      "angle": 135,
       "locations": [-7, 39]
     },
     {
@@ -147,8 +149,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 120,
-      "angle": -105,
+      "arc": 180,
+      "angle": -135,
       "locations": [-7, -39]
     },
     {
@@ -181,7 +183,7 @@
     {
       "id": "WS0007",
       "size": "LARGE",
-      "type": "HYBRID",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 310,
       "angle": 0,
@@ -191,19 +193,19 @@
       "id": "WS0019",
       "size": "LARGE",
       "type": "BUILT_IN",
-      "mount": "HARDPOINT",
+      "mount": "TURRET",
       "arc": 0,
       "angle": 90,
-      "locations": [-51, 26.5]
+      "locations": [-51, 26]
     },
     {
       "id": "WS0020",
       "size": "LARGE",
       "type": "BUILT_IN",
-      "mount": "HARDPOINT",
+      "mount": "TURRET",
       "arc": 0,
       "angle": -90,
-      "locations": [-51, -26.5]
+      "locations": [-51, -26]
     },
     {
       "id": "LB 1",

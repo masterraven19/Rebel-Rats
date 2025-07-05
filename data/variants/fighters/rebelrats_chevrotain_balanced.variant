@@ -1,0 +1,85 @@
+{
+  "variantId": "rebelrats_chevrotain_balanced",
+  "hullId": "rebelrats_chevrotain",
+  "displayName": "Balanced",
+  "goalVariant": false,
+  "fluxCapacitors": 13,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "expanded_deck_crew",
+    "recovery_shuttles"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "rebelrats_pyroclast_salvo",
+        "WS0002": "rebelrats_pyroclast_salvo"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0019": "rebelrats_vls12_l",
+        "WS0020": "rebelrats_vls12_l"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "rebelrats_equalizer_l",
+        "WS0007": "rebelrats_equalizer_l"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "rebelrats_crossbow_m",
+        "WS0009": "rebelrats_crossbow_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "rebelrats_poacher_s",
+        "WS0010": "rebelrats_poacher_s",
+        "WS0011": "rebelrats_poacher_s",
+        "WS0012": "rebelrats_poacher_s",
+        "WS0013": "rebelrats_poacher_s",
+        "WS0014": "rebelrats_poacher_s",
+        "WS0015": "rebelrats_poacher_s",
+        "WS0018": "rebelrats_braggador_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "rebelrats_ashford",
+        "WS0004": "rebelrats_ashford",
+        "WS0016": "rebelrats_ashford",
+        "WS0017": "rebelrats_ashford"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "rebelrats_overseer_Interceptor_wingt",
+    "rebelrats_overseer_Interceptor_wingt",
+    "rebelrats_daekon_Fighter_wingt",
+    "rebelrats_conductor_Bomber_wingt"
+  ]
+}

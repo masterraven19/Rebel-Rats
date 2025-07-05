@@ -12,11 +12,11 @@
 	"fadeTime":1, # fadeout duration
 	"maxFlightTime":5,
 	"engineSpec":{
-				  "turnAcc":1,
-				  "turnRate":1,
+				  "turnAcc":150,
+				  "turnRate":15,
 				  "acc":350,
 				  "dec":300,
-				  "maxSpeed":350},
+				  "maxSpeed":400},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-7, 0],
 				    "style":"CUSTOM",

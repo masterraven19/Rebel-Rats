@@ -42,7 +42,7 @@
     {
       "id": "WS0002",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 222,
       "angle": 90,
@@ -51,7 +51,7 @@
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 222,
       "angle": -90,
