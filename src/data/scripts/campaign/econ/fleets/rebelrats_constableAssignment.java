@@ -1,6 +1,10 @@
 package data.scripts.campaign.econ.fleets;
 
-import com.fs.starfarer.api.campaign.*;
+import com.fs.starfarer.api.campaign.CampaignFleetAPI;
+import com.fs.starfarer.api.campaign.FleetAssignment;
+import com.fs.starfarer.api.campaign.LocationAPI;
+import com.fs.starfarer.api.campaign.SectorEntityToken;
+import com.fs.starfarer.api.campaign.StarSystemAPI;
 import com.fs.starfarer.api.campaign.ai.FleetAssignmentDataAPI;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase;
