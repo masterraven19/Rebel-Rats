@@ -13,19 +13,21 @@ rebelrats_kingmaker_l,WEAPON,"Easily the largest slugthrower the Federal Navy ca
 rebelrats_salvo_autoloader,WEAPON,"Initially the testbed for Porcellus' missile tubes, it is now used in many of the Federal Navy's capital ships as a finisher weapon with its unparalleled agility and reliability.",,,,
 rebelrats_arvalis_l,WEAPON,The Arvalis accelerates a stream of macroparticles to extreme hypervelocities through a series of pulse-staged electromagnets. Capable of perforating capital-grade armor.,,,,
 rebelrats_ozotsu_l,WEAPON,"Large and imposing, it is a further development of the Petard Howitzer. Uses larger nuclear pellets with thicker liners for better energy conversion and higher liner velocity.",,,,
+rebelrats_vls12_l,WEAPON,"Outputs an astounding volume of torpedos in a short span of time. Uses Huntsman LR torpedos that have a longer range, but smaller payload.",,,,
+,,,,,,
 ,,,,,,
 rebelrats_siegeharq_m,WEAPON,An old artillery piece taken from Magawa's vast underground weapon stocks and modernized by Rebel Rat engineers to modern standards after the Penance Civil War.,,,,
 rebelrats_crossbow_m,WEAPON,"The Crossbow is based off of existing static defense emplacements and is loaded with standard anti-shield rounds, firing them from a reliable electrothermal-chemical system.",,,,
 rebelrats_falcon_m,WEAPON,"Developed for overloading shields, Falcon missiles carry a shrapnel warhead with special materials designed to shred through hull and overload shields via many points of contact.",,,,
-rebelrats_hwacha_m,WEAPON,"Created from the Land Mattress Weapons Program, the Hwacha MLRS is simple in concept and fires a sundry of Hwacha missiles to saturate a target's point defense grid.",,,,
-rebelrats_custodian_m,WEAPON,The Custodian brings the much needed capability to bring down multiple targets with a single shot using a multi-stage airburst shell.,,,,
+rebelrats_hwacha_m,WEAPON,"Created from the Land Mattress Weapons Program, the weapon is simple in concept, it fires a sundry of Hwacha missiles to saturate a target's point defense grid or abate fighter swarms.",,,,
+rebelrats_custodian_m,WEAPON,Medium flak-based point defence designed to bring down multiple targets with a single shot using multi-stage airburst shells.,,,,
 rebelrats_muridae_m,WEAPON,"Created by The Three Brothers Corporation, these fire hyper-charged plasma bolts capable of degrading capital-grade armor in a few salvos.",,,,
 rebelrats_arratoi_m,WEAPON,A set of destroyer-grade railguns that fires standard issue anti-shield rounds. It was developed for the Rattus Modernization Project to augment the firepower of Rattus destroyers against hardier Persean shields.,,,,
 rebelrats_petard_m,WEAPON,The Petard consists of a reinforced breech lined with multiple rectifiers to concentrate the energy beam released by its laser-activated nuclear pellets. Impacts from this weapon are often horrific and is vaguely similar to how Krysan Orange Rat pest control works.,,,,
 rebelrats_braggador_m,WEAPON,The Braggador bridges the gap between long ranged flak and smaller PD. Its quad guns can easily intercept enemy torpedoes or obstruct incoming enemy bombing runs.,,,,
 rebelrats_rattenjager_m,WEAPON,"Taking an existing anti-ballistic missile platform, the Rattenjager utilizes advanced algorithms and a smart-fuze system to intercept fighters and missiles. An integrated ammo feeder keeps it fed with new missiles during battle. ",,,,
 rebelrats_rattenjager_array_m,WEAPON,A VLS of Snapper APS for long-range hardkill interceptions. Ineffective against close-in targets.,,,,
-rebelrats_petardlauncher_m,WEAPON,"With the Petards already built in ready-to-use canisters, Krysan engineers only had to mount thrusters and a rudimentary guidance system to make a simple, but effective, directed energy missile.",,,,
+rebelrats_petardlauncher_m,WEAPON,"With the Petards already built in ready-to-use canisters, Krysan engineers only had to mount a rudimentary guidance system to make an effective directed energy missile.",,,,
 rebelrats_huntsman_salvo,WEAPON,Triple rack for Huntsman Torpedos.,,,,
 rebelrats_pyroclast_salvo,WEAPON,Dual rack for Pyroclast Torpedos.,,,,
 rebelrats_gyrolauncher_m,WEAPON,"The Sorex's Gyrojet Launcher is an example of an old type of weapon making a resurgence in the Krysan Navy as miniaturization of technology outpaced weapons development. Utilization of gyrojets forgo the need of a complicated recoil management system, allowing for a larger payload size. A basic beam riding system keeps the rocket relatively on target.",,,,
@@ -34,7 +36,7 @@ rebelrats_mischief_m,WEAPON,The Mischief uses a phased array of thousands of Gre
 rebelrats_trapee_m,WEAPON,The Trapee fulfills the demand of long range missile support. Its two stage engine lets it coast to its target before releasing its payload once within range.,,,,
 rebelrats_gingsen_m,WEAPON,"The Gingsen represents a generation's worth of research condensed into a payload. On impact, the missile distributes mesh-networked microbots which navigate towards and seal up any detected damage within a ship's armor.",,,,
 rebelrats_verlokken_m,WEAPON,Electronic warfare decoys are shot out from tubes towards enemy missiles to draw their sensors away from the ship.,,,,
-rebelrats_IRphaser_m,WEAPON,"From tubes, electronic warfare decoys are shot out towards enemy missiles to draw their sensors away from the ship.",,,,
+rebelrats_IRphaser_m,WEAPON,Dielectric rectifiers and transparent tungsteel prisms focus energy taken from the reactor and expelled out in a deadly Infrared beam.,,,,
 ,,,,,,
 #MUS HUNTSMAN AUTOLOADER,,,,,,
 rebelrats_huntsmanx2_m,WEAPON,These torpedo tubes serve as the Mus' main anti-ship weapon to allow the Mus to punch above its weight class. The tubes utilizes an autoloader derived from the Rattus to ensure a quick rate of fire.,,,,
@@ -87,19 +89,22 @@ Will not return to carrier once missiles are expended.",,,,
 rebelrats_dustero,SHIP,"When a group of Belters found the Talon to be lacking, the Dustero was their answer. It is arguable if the Dustero is any more effective than its Persean counterpart as, despite its firepower, the Dustero lacks the shields, missiles, and armor to keep itself alive in engagements.",,,,
 ,,,,,,
 #BOMBERS,,,,,,
-rebelrats_olympian,SHIP,"Despite shambolic origins of being created from scavenged Piranha bombers, the Olympian today is a capable bomber that dutifully does its job with enough armor and PD coverage for bombing runs. A recurring joke among Olympian pilots is that the onboard warhead contains a Red Bombardier Rat as its payload.",,,,"""What kind of barbarians would ever use an animal as its guidance system? That's preposterous!"""
-rebelrats_bluster,SHIP,The Bluster has its origins from juryrigged shuttlecraft in mining fleets who looked for a temporary solution to the growing pirate problem. A salvaged guardsman turret sits on top of the Bluster's engine block to serve as all around protection against enemy fightercraft.,,,,
-rebelrats_conductor_bomber,SHIP,The Conductor is made to extend the anti-shield striking range of Federal Navy carriers when Persean Sector shields proved to be hardier than previous model Krysan shield generators.,,,,
+rebelrats_olympian,SHIP,"A capable bomber, designed from piranha bombers, and equipped with enough armor and PD coverage for bombing runs. A recurring joke among Olympian pilots is that the warhead contains a Red Bombardier Rat in reference of the color.",,,,"""What kind of barbarians would ever use an animal as its guidance system? That's preposterous!"""
+rebelrats_bluster,SHIP,Converted civilian shuttles that have been retrofitted with  new engines and overcharged mining blasters for use against ships.,,,,
+rebelrats_conductor_bomber,SHIP,A fast strike bomber made when Persean Sector shields proved to be hardier than Krysan shield generators. Carries two Tephra rockets to break shields.,,,,
 ,,,,,,
 #COMBAT SHIPS ,,,,,,
-rebelrats_porcellus,SHIP,"Bristling with weaponry and cladded in thick composites, the Porcellus is the most common capital ship found in Krysan Federal Navy battlegroups. It carries a pair of skiffs to conduct rapid military insertions, or act as PD screens during engagements. While the ship has been primarily designed to be a mobile artillery platform, it is readily equipped to host commanders and admirals as command centers for fleet engagements.
+rebelrats_porcellus,SHIP,"Bristling with weaponry and cladded in thick composites, the Porcellus is the hammer for Federal Navy battlegroups. It carries a wing of skiffs to conduct rapid military insertions, or act as PD screens during engagements. 
 
-The Porcellus was designed by the Arms and Armor Conglomerate and built in the massive orbital berths of Kaharian Naval Steelworks. Being based off of a venerable design in the old days of the Empire, the prototype model lacked sufficient PD coverage and long-ranged weaponry, but design improvements such as additional PD mounts and installation of new technologies brought by the development of the Mobile Defence Doctrine made the Porcellus one of the safest ships to be in during battles.
+The ship was designed by the Arms and Armor Conglomerate and built in the massive orbital berths of Kaharian Naval Steelworks. Initially, the prototype model lacked sufficient PD coverage and long-ranged weaponry, but later developments added more PD mounts and the Doldrums railgun. making the Porcellus one of the safest ships to be in during battles.
 
-
-At the ship’s core, four Barkley-Pattern Heavy-Duty AM-catalysed flux reactors are responsible for powering the ship’s Basilica-Model shield generator and its set of four massive H303 Torch Drives and two secondary H302 Torch Drives. 
+At the ship’s core, four Barkley-Pattern Heavy-Duty AM flux reactors are responsible for powering the ship’s Basilica-Model shield generator and its set of four massive H303 Torch Drives and two secondary H302 Torch Drives. 
 ",,,,
-rebelrats_chevrotain,SHIP,"Representing a new paradigm in the Krysan Navy, the Chevrotain is the adaptation to the Persean Sector's carriers. The unique cylindrical hangar bay gives its ample fighter storage comparable to contemporary carriers. During engagements, the ship can bring to bear extensive missile capabilities with its 24 VLS cells. Festooned with PD turrets, the ship can abate incoming enemy torpedoes with ease while updated shield generators effortlessly keep enemy shots away from its crew.",,,,
+rebelrats_chevrotain,SHIP,"Representing a new paradigm in Krysan Navy doctrine, the Chevrotain is their response to Persean Sector's carriers. Its unique cylindrical hangar bay give ample storage for fighters while 24 VLS cells provide ample missile coverage. In battle, the ship is equipped to service the needs of Fleet Admirals during major operations, with multiple machines allowing for rapid processing of battlefield information.
+
+Encounters with Persean-built carriers led to the re-evaluation of the Mobile Defence Doctrine. Afterwards, the Federal Design Bureau issued a new procurement program indicating the project requirements to related companies. Its introduction saw resounding acceptance between flag officers who valued the ship's endurance and ability to project power beyond the Federation's celestial territories.
+
+Onboard crew often commented that life on the ship were like travelling in older gravships, referencing to the Chevrotain's use of rotating drums to generate gravity while paragravity generators are turned off during long endurance operations. ",,,,
 ,,,,,,
 rebelrats_marmot,SHIP,"Marmot cruisers form the backbone of Krysan formations. The ship is designed to fill most roles that its captain may require. But most importantly, a Marmot allows captains to bring station-grade weaponry to engagements, making it a credible threat even in larger battles.
 
@@ -134,14 +139,12 @@ A direct evolution from the Helmsman, the Steersman is a more serious take by Be
 Hailing from the docks of the Asteroid Central Station, the Steersman represents the Belter's will to be true independents and its ultimate wish to remove piracy within its space. The ship was built to counteract the growing levels of piracy when pirates from the Persean Sector brought ever heavier ships and weapons to raid Belter space.
 
 Its onboard fusion torch is a design derived from the most successful Helmsman homebrewed fusion torch drive nicknamed the Mammoth Fusion Torch. At its core, three Bobcat-Pattern flux reactors power the ship's onboard systems and torch drive.",,,,
-rebelrats_xerus,SHIP,"A relatively new addition to the federal cruiser force, Xerus cruisers bear an unusual ABC turret layout, which came as a result of the acquisition requirements submitted by  the Federal Design Bureau. In battle, extensive active protection systems abate heavy incoming enemy torpedo fire, increasing survivability not only for itself, but for the unit that it's attached to.
+rebelrats_xerus,SHIP,"A relatively new addition to the federal cruiser force, Xerus cruisers bear an unusual ABC turret layout, which came as a result of the acquisition requirements submitted by the Federal Design Bureau. In battle, extensive active protection systems abate heavy incoming enemy torpedo fire, increasing survivability not only for itself, but for the unit that it's attached to.
 
 Postings for Xerus cruisers are often envied for their new hulls, spacious interiors, and modern conveniences compatible with Persean devices. While its crew bunks are of average size, hot-bunking is almost are the ship is built with excess crew in mind.  Every soul on board gets their own personal locker and their bunks have some luxury of sound dampening.",,,,
 rebelrats_dormouse,SHIP,"Dormouse cruisers were created to solve the supply issue of equipping Provisional Squadrons. These light cruisers bring a good amount of missile coverage into engagements. As they're built from Standard-type modules, interiors are utilitarian, almost spartan in nature. Crews often populate their berths with personal touches to bring a sense of liveness.
 
-Postings for these ships are  often disliked by spacers as, while its rooms aren't particularly tight, they are no redeeming qualities either. Berthings are smaller than average, and crews have to share storage space as the personal storage provides only enough space for important belongings.
-
-The ship's few redeeming quality are its over-designed galley with ample storage, and updated electronics compatible with Persean systems. ",,,,
+Postings for these ships are  often disliked by spacers as, while its rooms aren't particularly tight, they are no redeeming qualities either. Berthings are smaller than average, and crews have to share storage space as the personal storage provides only enough space for important belongings. The ship's few redeeming quality are its over-designed galley with ample storage, and updated electronics compatible with Persean systems. ",,,,
 ,,,,,,
 rebelrats_mellivora,SHIP,"Though thin skinned and lightly armed, the Mellivora provides a sufficient amount of strikecraft cover with its high-capacity hangars. During battles, it relies on its blistering speed and ample fighter coverage to strike opponents as its armaments is, at best, comparable to that of a frigate.
 
