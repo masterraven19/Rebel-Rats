@@ -17,6 +17,7 @@ import java.awt.Color;
 public class rebelrats_pyroclastOnHitEffect implements OnHitEffectPlugin {
     private final int numMissileDebris = 30;
     private final int numChargeParticles = 30;
+    private final int numShrapRing = 30;
     public DamagingExplosionSpec createExplosionSpec() {
         float damage = 1200f;
         DamagingExplosionSpec spec = new DamagingExplosionSpec(
@@ -58,6 +59,10 @@ public class rebelrats_pyroclastOnHitEffect implements OnHitEffectPlugin {
         for(int i = 0;i < numMissileDebris;i++){
             float coneAngle = rebelrats_combatUtils.calcConeAngle(170,projectile.getFacing() - 180f);
             engine.addHitParticle(point,rebelrats_combatUtils.calcVelDir(coneAngle,rebelrats_combatUtils.randomNumber(400f,500f)),12f,1f,1.5f,new Color(255,71,49,255));
+        }
+        for (int i = 0; i < numShrapRing; i++) {
+            float coneAngle = rebelrats_combatUtils.calcConeAngle(360,projectile.getFacing() - 180f);
+            engine.addHitParticle(projectile.getLocation(),rebelrats_combatUtils.calcVelDir(coneAngle,160f),rebelrats_combatUtils.randomNumber(10f,12f),2f,1f, new Color(200,200,200,255));
         }
         for(int i = 0;i < numChargeParticles;i++){
             float coneAngle = rebelrats_combatUtils.calcConeAngle(8,projectile.getFacing());
