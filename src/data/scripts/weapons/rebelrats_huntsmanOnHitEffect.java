@@ -15,6 +15,7 @@ public class rebelrats_huntsmanOnHitEffect implements OnHitEffectPlugin {
     private int numParticles = 4;
     private int numMissileDebris = 10;
     private int numExplosionDebris = 30;
+    private int numShrapRing = 30;
     public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
         for (int i = 0;i<numParticles;i++){
             rebelrats_addExplosionFx p = new rebelrats_addExplosionFx();;
@@ -26,10 +27,20 @@ public class rebelrats_huntsmanOnHitEffect implements OnHitEffectPlugin {
             float angle = rebelrats_combatUtils.calcConeAngle(170,projectile.getFacing() - 180f);
             engine.addHitParticle(point,rebelrats_combatUtils.calcVelDir(angle,rebelrats_combatUtils.randomNumber(300f,400f)),10f,1f,2.5f,new Color(255, 255, 255,255));
         }
+        for (int i = 0; i < numShrapRing; i++) {
+            float angle = rebelrats_combatUtils.calcConeAngle(170,projectile.getFacing() - 180f);
+            engine.addHitParticle(projectile.getLocation(),rebelrats_combatUtils.calcVelDir(angle,160f),rebelrats_combatUtils.randomNumber(10f,12f),2f,1f, new Color(200,200,200,255));
+        }
+
         if(shieldHit) return;
+
         for(int i = 0;i < numExplosionDebris;i++){
             float angle = rebelrats_combatUtils.calcConeAngle(170,projectile.getFacing() - 180f);
             engine.addHitParticle(point,rebelrats_combatUtils.calcVelDir(angle,rebelrats_combatUtils.randomNumber(300f,400f)),10f,1f,2.5f,new Color(255, 175, 56,255));
+        }
+        for (int i = 0; i < numShrapRing; i++) {
+            float angle = rebelrats_combatUtils.calcConeAngle(170,projectile.getFacing() - 180f);
+            engine.addHitParticle(projectile.getLocation(),rebelrats_combatUtils.calcVelDir(angle,160f),rebelrats_combatUtils.randomNumber(10f,12f),2f,1f, new Color(200,200,200,255));
         }
     }
 }
