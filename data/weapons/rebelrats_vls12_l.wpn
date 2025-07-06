@@ -6,9 +6,7 @@
   "size": "LARGE",
   "turretSprite": "graphics/rebelrats/weapons/12cellVLS_base.png",
   "hardpointSprite": "graphics/rebelrats/weapons/12cellVLS_base.png",
-  "renderHints": [
-    RENDER_LOADED_MISSILES_UNLESS_HIDDEN
-  ],
+
   "turretOffsets": [
     10,
     2.5,
