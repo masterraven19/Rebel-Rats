@@ -20,7 +20,7 @@ ACRG-305 Kingmaker Titan Railgun,rebelrats_kingmaker_l,,,0,1200,,3000,300,700,10
 Has a chance to trigger the shaped charge when hitting shields.",100,,,,
 ASM-500 Huntsman Salvo Launcher,rebelrats_salvo_autoloader,,,0,2500,,1000,,20,15,0,15,0.03,3,HIGH_EXPLOSIVE,,,0,6.5,3,0.5,0,0,0,0,,600,200,6,270,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, GROUP_ALTERNATING","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 ASM-500 Huntsman Side Launcher,rebelrats_huntsman_sidelauncher,,,0,2500,,1000,,20,15,0,15,0.03,3,HIGH_EXPLOSIVE,,,0.8,6.5,3,0.5,0,0,0,0,,600,300,6,270,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
-VLS-50-12 Sylver Launch System,rebelrats_vls12_l,,,0,3000,,700,,20,15,0,24,0.12,12,HIGH_EXPLOSIVE,,,0,0.5,1,,0,0,0,0,,600,300,8,270,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, GROUP_ALTERNATING","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
+VLS-50-12 Sylver Launch System,rebelrats_vls12_l,,,0,3000,,700,,20,15,0,24,0.12,12,HIGH_EXPLOSIVE,,,0,0.5,1,,0,0,0,0,,600,300,8,270,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, GROUP_ALTERNATING, DO_NOT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #MEDIUM WEAPONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"On perforation, deals %s and 100 frag damage per explosion
 Has a chance to detonate when hitting shields
@@ -59,7 +59,7 @@ AST-750 Pyroclast Tube Launcher,rebelrats_jerboa_pyroclast_launcher,,,0,1200,,24
 LDEW-990k Mischief Phased Array,rebelrats_mischief_m,,,0,450,40,,,1,100,0,,,,ENERGY,,70,0,0,0.05,0.2,,,,,100000,,,,,,,"SYSTEM, PD_ONLY","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Area Point Defense,,,Very Fast,Excellent,"Deals %s per target
 Can be turned off by disabling autofire
 Each target engaged raises its flux/s use by 10",20 damage,,,TRUE,
-LDEW-900cm IR Phaser,rebelrats_IRphaser_m,,,0,1000,900,,,5,60,0,,,,ENERGY,,900,0,0,0.5,1,,,,,50000,,,,,,,"STRIKE, USE_VS_FRIGATES, PD_ALSO, IGNORES_FLARES, NO_TURN_RATE_BOOST_WHEN_IDLE","strike9, rebelrats_arsenal_bp",,Rebel Rats,,Nose Laser,,,Fast,Perfect,Ignores flares,,,,,
+LDEW-900cm IR Arc Laser,rebelrats_IRphaser_m,,,0,1000,1280,,,5,60,0,,,,ENERGY,,1280,0,0,0.5,1,,,,,50000,,,,,,,"STRIKE, USE_VS_FRIGATES, PD_ALSO, IGNORES_FLARES, NO_TURN_RATE_BOOST_WHEN_IDLE","strike9, rebelrats_arsenal_bp",,Rebel Rats,,Nose Laser,,,Fast,Perfect,Ignores flares,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #SMALL WEAPONS,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls,#Smalls
 ASM-500 Huntsman Torpedo,rebelrats_huntsman_s,0,,400,2000,,1000,,20,15,1,1,0.01,1,HIGH_EXPLOSIVE,,,0,5,1,,0,0,0,0,,600,100,5,270,,,"STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, rebelrats_arsenal_bp",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
