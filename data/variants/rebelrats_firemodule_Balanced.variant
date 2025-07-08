@@ -13,24 +13,26 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0013": "rebelrats_doldrums_l"
+        "WS0002": "rebelrats_hawker",
+        "WS0003": "rebelrats_hawker",
+        "WS0006": "rebelrats_custodian_m",
+        "WS0007": "rebelrats_custodian_m",
+        "WS0009": "rebelrats_crossbow_m",
+        "WS0010": "rebelrats_crossbow_m",
+        "WS0011": "rebelrats_nezulana_l",
+        "WS0012": "rebelrats_nezulana_l",
+        "WS0013": "rebelrats_kingmaker_l"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0011": "rebelrats_tripubus_l",
-        "WS0012": "rebelrats_tripubus_l"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0009": "rebelrats_petard_m",
-        "WS0010": "rebelrats_petard_m"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
@@ -42,10 +44,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0006": "rebelrats_braggador_m",
-        "WS0007": "rebelrats_braggador_m"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
@@ -59,10 +58,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0002": "rebelrats_ranger",
-        "WS0003": "rebelrats_ranger"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],
