@@ -23,24 +23,24 @@ public class rebelrats_huntsmanOnHitEffect implements OnHitEffectPlugin {
             CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
             e.getLocation().set(point);
         }
-        for(int i = 0;i < numMissileDebris;i++){
-            float angle = rebelrats_combatUtils.calcConeAngle(170,projectile.getFacing() - 180f);
-            engine.addHitParticle(point,rebelrats_combatUtils.calcVelDir(angle,rebelrats_combatUtils.randomNumber(300f,400f)),10f,1f,2.5f,new Color(255, 255, 255,255));
-        }
-        for (int i = 0; i < numShrapRing; i++) {
-            float angle = rebelrats_combatUtils.calcConeAngle(170,projectile.getFacing() - 180f);
-            engine.addHitParticle(projectile.getLocation(),rebelrats_combatUtils.calcVelDir(angle,160f),rebelrats_combatUtils.randomNumber(10f,12f),2f,1f, new Color(200,200,200,255));
-        }
+
+        float faceAngle = projectile.getFacing() - 180f;
+        Color missileColor = new Color(255, 255, 255,255);
+        rebelrats_weaponUtils.particleExplosion(numMissileDebris,170f,faceAngle,
+                engine,point,300f,400f,10f,1f,2.5f,missileColor);
+
+        Color shrapColor = new Color(200,200,200,255);
+        float shrapSize = rebelrats_combatUtils.randomNumber(10f,12f);
+        rebelrats_weaponUtils.particleExplosion(numShrapRing,170f,faceAngle,
+                engine,point,160f,160f,shrapSize,1f,1f,shrapColor);
 
         if(shieldHit) return;
 
-        for(int i = 0;i < numExplosionDebris;i++){
-            float angle = rebelrats_combatUtils.calcConeAngle(170,projectile.getFacing() - 180f);
-            engine.addHitParticle(point,rebelrats_combatUtils.calcVelDir(angle,rebelrats_combatUtils.randomNumber(300f,400f)),10f,1f,2.5f,new Color(255, 175, 56,255));
-        }
-        for (int i = 0; i < numShrapRing; i++) {
-            float angle = rebelrats_combatUtils.calcConeAngle(170,projectile.getFacing() - 180f);
-            engine.addHitParticle(projectile.getLocation(),rebelrats_combatUtils.calcVelDir(angle,160f),rebelrats_combatUtils.randomNumber(10f,12f),2f,1f, new Color(200,200,200,255));
-        }
+        Color explosionColor = new Color(255, 175, 56,255);
+        rebelrats_weaponUtils.particleExplosion(numExplosionDebris,170f,faceAngle,
+                engine,point,300f,400f,10f,1f,2.5f,explosionColor);
+
+        rebelrats_weaponUtils.particleExplosion(numShrapRing,170f,faceAngle,
+                engine,point,160f,160f,shrapSize,1f,1f,shrapColor);
     }
 }

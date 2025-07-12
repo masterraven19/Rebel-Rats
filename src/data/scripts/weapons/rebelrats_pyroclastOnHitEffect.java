@@ -56,17 +56,19 @@ public class rebelrats_pyroclastOnHitEffect implements OnHitEffectPlugin {
         CombatEntityAPI explosion2 = engine.addLayeredRenderingPlugin(p2);
         explosion2.getLocation().set(point);
 
-        for(int i = 0;i < numMissileDebris;i++){
-            float coneAngle = rebelrats_combatUtils.calcConeAngle(170,projectile.getFacing() - 180f);
-            engine.addHitParticle(point,rebelrats_combatUtils.calcVelDir(coneAngle,rebelrats_combatUtils.randomNumber(400f,500f)),12f,1f,1.5f,new Color(255,71,49,255));
-        }
-        for (int i = 0; i < numShrapRing; i++) {
-            float coneAngle = rebelrats_combatUtils.calcConeAngle(360,projectile.getFacing() - 180f);
-            engine.addHitParticle(projectile.getLocation(),rebelrats_combatUtils.calcVelDir(coneAngle,160f),rebelrats_combatUtils.randomNumber(10f,12f),2f,1f, new Color(200,200,200,255));
-        }
-        for(int i = 0;i < numChargeParticles;i++){
-            float coneAngle = rebelrats_combatUtils.calcConeAngle(8,projectile.getFacing());
-            engine.addSmoothParticle(point,rebelrats_combatUtils.calcVelDir(coneAngle,rebelrats_combatUtils.randomNumber(400f,500f)),rebelrats_combatUtils.randomNumber(35f,50f),1f,1f,new Color(255,60,40,255));
-        }
+        float faceAngle = projectile.getFacing() - 180f;
+        Color chargeColor = new Color(255,71,49,255);
+        rebelrats_weaponUtils.particleExplosion(numMissileDebris,170f,faceAngle,
+                engine,point,400f,500f,12f,1f,1.5f,chargeColor);
+
+        float shrapSize = rebelrats_combatUtils.randomNumber(10f,12f);
+        Color shrapColor = new Color(200,200,200,255);
+        rebelrats_weaponUtils.particleExplosion(numShrapRing,360f,faceAngle,
+                engine,point,160f,160f,shrapSize,1f,1f,shrapColor);
+
+        float chargeFaceAngle = projectile.getFacing();
+        float chargeSize = rebelrats_combatUtils.randomNumber(35f,50f);
+        rebelrats_weaponUtils.particleExplosion(numChargeParticles,8,chargeFaceAngle,
+                engine,point,400f,500f,chargeSize,1f,1f,chargeColor);
     }
 }
