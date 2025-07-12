@@ -1,17 +1,10 @@
 package data.scripts.combat;
 
 import com.fs.starfarer.api.combat.BaseEveryFrameCombatPlugin;
-import com.fs.starfarer.api.combat.BoundsAPI;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
-import com.fs.starfarer.api.combat.DamagingProjectileAPI;
-import com.fs.starfarer.api.combat.ShipAPI;
-import com.fs.starfarer.api.impl.combat.BreachOnHitEffect;
 import com.fs.starfarer.api.input.InputEventAPI;
-import org.lwjgl.util.vector.Vector2f;
 
-import java.awt.*;
-import java.util.ArrayList;
 import java.util.List;
 
 public class rebelrats_arvalisPostEffect extends BaseEveryFrameCombatPlugin {
