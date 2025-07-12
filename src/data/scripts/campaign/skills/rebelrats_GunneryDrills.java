@@ -22,8 +22,8 @@ public class rebelrats_GunneryDrills {
 
         @Override
         public String getEffectDescription(float level) {
-            return "+" + (int) (FIRERATE_MULTIPLIER * 100f) + "% firerate and +"
-                    + (int) (RECOIL_MULTIPLIER * 100f) + "% recoil for smalls.";
+            return "+" + (int) ((FIRERATE_MULTIPLIER * 100f) - 100f) + "% firerate and +"
+                    + (int) ((RECOIL_MULTIPLIER * 100f) - 100f) + "% recoil reduction for smalls.";
         }
 
         @Override
