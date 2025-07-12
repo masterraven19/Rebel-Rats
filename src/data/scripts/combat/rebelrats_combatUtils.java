@@ -2,6 +2,7 @@ package data.scripts.combat;
 
 import org.lwjgl.util.vector.Vector2f;
 
+import java.util.Iterator;
 import java.util.List;
 
 
@@ -64,21 +65,23 @@ public class rebelrats_combatUtils {
     public static float randomNumber(float min, float max){
         float r = (float)Math.random() * ((max - min + 1) + min);
         return r;
-    }/* too laggy
+    }
     public static boolean isPointInPoints(List<Vector2f> points, Vector2f point){
+        Iterator<Vector2f> iterator = points.iterator();
         float minX = 0;
         float maxX = 0;
         float minY = 0;
         float maxY = 0;
-        for(Vector2f v: points){
-            minX = Math.min(minX,v.getX());
-            maxX = Math.max(maxX,v.getX());
-            minY = Math.min(minY,v.getY());
-            maxY = Math.max(maxY,v.getY());
+        while(iterator.hasNext()){
+            Vector2f vector = iterator.next();
+            minX = Math.min(minX,vector.getX());
+            maxX = Math.max(maxX,vector.getX());
+            minY = Math.min(minY,vector.getY());
+            maxY = Math.max(maxY,vector.getY());
         }
         if (point.x < minX || point.x > maxX || point.y < minY || point.y > maxY){
             return false;
         }
         return true;
-    }*/
+    }
 }
