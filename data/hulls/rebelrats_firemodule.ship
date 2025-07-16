@@ -15,10 +15,10 @@
     "always_detaches",
     "reduced_explosion",
     "rebelrats_manatarmstargettinggrid",
-    "targetingunit",
     "ballistic_rangefinder",
     "fluxbreakers",
-    "ablative_armor"
+    "ablative_armor",
+    "advancedcore"
   ],
   "builtInWeapons": {
     "WS0013": "rebelrats_kingmaker_l",

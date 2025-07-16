@@ -8,7 +8,9 @@ import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.input.InputEventAPI;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
+import data.scripts.weapons.rebelrats_weaponUtils;
 import org.lazywizard.lazylib.MathUtils;
+import org.lwjgl.util.vector.Vector2f;
 
 import java.awt.Color;
 import java.util.List;
@@ -61,14 +63,19 @@ public class rebelrats_missileProxy extends BaseEveryFrameCombatPlugin {
             if (ship.getOwner() == missile.getOwner())continue;
             if (MathUtils.getDistance(missile.getLocation(),ship.getLocation()) < proxyRange){
                 engine.spawnDamagingExplosion(createExplosionSpec(), missile.getSource(),missile.getLocation());
-                for (int i = 0; i < numShrapRing; i++) {
-                    float angle = rebelrats_combatUtils.calcConeAngle(360,missile.getFacing());
-                    engine.addHitParticle(missile.getLocation(),rebelrats_combatUtils.calcVelDir(angle,160f),rebelrats_combatUtils.randomNumber(10f,12f),2f,1f, new Color(200,200,200,255));
-                }
-                for (int i = 0; i < numShrapInner; i++) {
-                    float angle = rebelrats_combatUtils.calcConeAngle(360,missile.getFacing());
-                    engine.addHitParticle(missile.getLocation(),rebelrats_combatUtils.calcVelDir(angle,rebelrats_combatUtils.randomNumber(100f,101f)),rebelrats_combatUtils.randomNumber(5f,8f),1f,2f, new Color(200,200,200,255));
-                }
+
+                float faceAngle = missile.getFacing();
+                float size = rebelrats_combatUtils.randomNumber(10f,12f);
+                Vector2f point = missile.getLocation();
+                Color color = new Color(200,200,200,255);
+
+                rebelrats_weaponUtils.particleExplosion(numShrapRing,360f,faceAngle,
+                        engine,point,160f,160f,size,1f,1f,color);
+
+                float innerSize = rebelrats_combatUtils.randomNumber(5f,8f);
+                rebelrats_weaponUtils.particleExplosion(numShrapInner,360f,faceAngle,
+                        engine,point,100f,101f,innerSize,1f,2f,color);
+
                 engine.removeEntity(missile);
                 engine.removePlugin(this);
             }

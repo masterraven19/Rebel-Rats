@@ -1,4 +1,4 @@
 name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnitOrigUnused,econUnit,baseRaidDanger,eU * base value,iconWidthMult,plugin,desc
 #Supplies,supplies,supplies,100,250,3,1,,"military, expensive",1000,1,graphics/icons/cargo/supplies.png,ui_cargo_supplies,ui_cargo_supplies_drop,0.5,2.1,200,750,,75000,1,,
 ,,,,,,,,,,,,,,,,,,,,,,
-Platter of Cheese,rebelrats_cheese,rebelrats_cheese,300,600,3,1,,"luxury, expensive",1000,1,graphics/rebelrats/icons/cargo/krysancheese.png,ui_cargo_supplies,ui_cargo_supplies_drop,1,2.8,200,400,,120000,1,,
+Platter of Cheese,rebelrats_cheese,rebelrats_cheese,200,1200,3,1,,"luxury, expensive",1000,1,graphics/rebelrats/icons/cargo/krysancheese.png,ui_cargo_supplies,ui_cargo_supplies_drop,1,2.8,200,400,,120000,1,,
