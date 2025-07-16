@@ -55,7 +55,7 @@ DEW-203 Muridae Plasma Blasters,rebelrats_muridae_m,,,0,600,,600,200,20,0,0,,,,E
 AHG-450 Gyrojet Launchers,rebelrats_gyrolauncher_m,,,0,1500,,700,,50,0,0,,,,HIGH_EXPLOSIVE,700,,0,6,2,0.5,0,0,0,0,,1200,200,3,800,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM, DO_NOT_CONSERVE","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Strike,Very Fast,Medium,,,"Accelerates to the target with limited tracking
 
 Can be shot down by heavy PD",,,,,
-AST-750 Pyroclast Tube Launcher,rebelrats_jerboa_pyroclast_launcher,,,0,1200,,2400,,50,20,0,6,0.02,2,HIGH_EXPLOSIVE,,,0,8,2,0.5,0,0,0,0,,400,200,5,500,,,"SYSTEM, DIRECT_AIM, USE_VS_FRIGATES, GUIDED_POOR","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Heavy Torpedo,Fast,Medium,,,Secondary anti-matter charge inflicts additional %s fragmentation on hit,1200,,,TRUE,
+AST-750 Pyroclast Tube Launcher,rebelrats_jerboa_pyroclast_launcher,,,0,1200,,2400,,50,20,0,6,0.02,2,HIGH_EXPLOSIVE,,,0,12,2,0.5,0,0,0,0,,400,200,5,500,,,"SYSTEM, DIRECT_AIM, USE_VS_FRIGATES, GUIDED_POOR","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Heavy Torpedo,Fast,Medium,,,Secondary anti-matter charge inflicts additional %s fragmentation on hit,1200,,,TRUE,
 LDEW-990k Mischief Phased Array,rebelrats_mischief_m,,,0,450,40,,,1,100,0,,,,ENERGY,,70,0,0,0.05,0.2,,,,,100000,,,,,,,"SYSTEM, PD_ONLY","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Area Point Defense,,,Very Fast,Excellent,"Deals %s per target
 Can be turned off by disabling autofire
 Each target engaged raises its flux/s use by 10",20 damage,,,TRUE,
@@ -71,12 +71,12 @@ PDC-20 Fowler,rebelrats_fowler,0,,400,250,,40,,1,75,4,,,,FRAGMENTATION,4,,0,.31,
 AHG-90 Culverin,rebelrats_culverin,0,,400,650,,80,,4,30,6,,,,HIGH_EXPLOSIVE,80,,0,1,4,0.25,0,10,1,15,,800,,,40,,,,"he6, rebelrats_arsenal_bp",,Rebel Rats,,Anti Armor,,,Fast,Medium,,,,,,
 ASG-57 Longbow,rebelrats_longbow,0,,400,700,,80,,4,30,6,,,,KINETIC,64,,0,1.8,4,0.2,0,10,1,15,,800,,,40,,,,"kinetic7, rebelrats_arsenal_bp",,Rebel Rats,,Anti Shield,,,Fast,Medium,,,,,,
 ASM-500 Huntsman Rack,rebelrats_huntsmanx2,0,,400,2000,,1000,,20,20,4,2,0.01,1,HIGH_EXPLOSIVE,,,0,5,1,,0,0,0,0,,600,50,5,270,,,"STRIKE, USE_VS_FRIGATES, GUIDED_POOR","rocket13, strike8, rebelrats_arsenal_bp",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
-AST-750 Pyroclast,rebelrats_pyroclast,0,,600,1200,,2400,,80,20,3,1,0.008333,1,HIGH_EXPLOSIVE,,,0,5,1,,0,0,0,0,,400,200,5,500,,,"STRIKE, DIRECT_AIM, USE_VS_FRIGATES","strike8, rocket3, rebelrats_arsenal_bp",,Rebel Rats,,Heavy Torpedo,Fast,Medium,,,Secondary anti-matter charge inflicts additional %s fragmentation on hit,1200,,,TRUE,
+AST-750 Pyroclast,rebelrats_pyroclast,0,,600,1200,,2400,,80,20,3,1,0.008333,1,HIGH_EXPLOSIVE,,,0,7,1,,0,0,0,0,,400,200,5,500,,,"STRIKE, DIRECT_AIM, USE_VS_FRIGATES","strike8, rocket3, rebelrats_arsenal_bp",,Rebel Rats,,Heavy Torpedo,Fast,Medium,,,Secondary anti-matter charge inflicts additional %s fragmentation on hit,1200,,,TRUE,
 AFG-155C Hawker,rebelrats_hawker,0,,300,600,,80,,1,60,3,,,,FRAGMENTATION,30,,0,1.5,1,,0,10,1,10,,700,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,,,"Fires a shrapnel canister that explodes into a cone of shrapnel.
 
 Each shrapnel deals %s fragmentation damage",80,,,TRUE,
 LDEW-450k Ashford,rebelrats_ashford,0,,400,450,230,,10,12,100,5,,,,ENERGY,,184,0,0,0.1,0.05,,,,,100000,,,,,,,PD,"pd9, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Very Fast,Excellent,,,,,,
-PDC-35 Poacher,rebelrats_poacher_s,1,,600,300,,21,,1,80,5,60,5,2,HIGH_EXPLOSIVE,7,,0,0.07,1,,0,6,1,4,,1200,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Very Fast,Excellent,Hits to missiles and fighters inflicts additional %s frag damage,30,,,,
+PDC-35 Poacher,rebelrats_poacher_s,1,,600,300,,21,,1,80,5,60,5,2,HIGH_EXPLOSIVE,7,,0,0.07,1,,1,8,1,4,,1200,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Rebel Rats,,Point Defense,,,Very Fast,Excellent,Hits to missiles and fighters inflicts additional %s frag damage,30,,,,
 SKAPS Chaffer,rebelrats_chaff,0,,300,400,,80,,1,60,1,,,,FRAGMENTATION,30,,0,8,1,,0,10,1,10,,500,,,10,,,PD,"pd7, rebelrats_arsenal_bp",,Rebel Rats,,Soft-kill PD,,,,,Uses a timed fuse,80,,,TRUE,
 PDL-60k Amos Hacking Laser,rebelrats_amos_s,0,,400,450,20,,350,5,120,4,,,,ENERGY,,40,0.1,0.1,,,,,,,10000,,,,,,,"PD_ONLY, NO_TURN_RATE_BOOST_WHEN_IDLE","pd9, rebelrats_arsenal_bp",,Rebel Rats,,Soft-kill PD,,,Very Fast,Perfect,"Switches target when the target missile's engine fizzles out
 
