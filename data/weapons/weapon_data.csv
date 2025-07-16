@@ -87,7 +87,7 @@ Rattus ASM-500 Huntsman Launcher,rebelrats_rattus_torp,,,0,2000,,1000,,20,15,0,6
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #FIGHTER WEAPONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Mini Huntsman Torpedo,rebelrats_huntsman_f,,,0,1000,,700,,80,15,0,1,0.0001,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,450,100,3,150,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Finisher,Fast,Medium,,,,,,,TRUE,
-Hwacha SRM x3,rebelrats_hwacha_f,,,0,800,,50,,5,15,0,6,,,HIGH_EXPLOSIVE,0,,0,5,3,0.5,0,0,0,0,,400,150,3,50,,,"SYSTEM, ANTI_FTR, DO_NOT_CONSERVE, DO_NOT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Fighter,Medium,High,,,"Uses an airburst warhead to maximize hit probability.
+Hwacha SRM x3,rebelrats_hwacha_f,,,0,800,,75,,5,15,0,6,,,HIGH_EXPLOSIVE,0,,0,5,3,0.5,0,0,0,0,,400,150,3,50,,,"SYSTEM, ANTI_FTR, DO_NOT_CONSERVE, DO_NOT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Anti-Fighter,Medium,High,,,"Uses an airburst warhead to maximize hit probability.
 
 Airburst deals %s fragmentation damage.",80,,,TRUE,
 PDC-40 Ranger (f),rebelrats_ranger_f,,,0,400,,20,,1,75,0,,,,KINETIC,0,,0,.2,1,,0,4,1,15,,1300,,,10,,,"SYSTEM, PD","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Point Defense,,,,,,,,,,
