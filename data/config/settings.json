@@ -34,6 +34,7 @@
 			"rebelrats_thackery": "graphics/rebelrats/portraits/hiichifunny.png",
 		},
 		"rebelrats_verlokkenAnimation": {
+			"0": "graphics/rebelrats/missiles/verlokken_missile/verlokken_missile_deployed0001.png",
 			"1": "graphics/rebelrats/missiles/verlokken_missile/verlokken_missile_deployed0002.png",
 			"2": "graphics/rebelrats/missiles/verlokken_missile/verlokken_missile_deployed0003.png",
 			"3": "graphics/rebelrats/missiles/verlokken_missile/verlokken_missile_deployed0004.png",

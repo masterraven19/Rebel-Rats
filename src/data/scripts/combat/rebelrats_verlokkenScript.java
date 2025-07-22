@@ -88,24 +88,20 @@ public class rebelrats_verlokkenScript extends BaseEveryFrameCombatPlugin {
         }
     }
     public void munition(){
-        if(interval.intervalElapsed()){
+        //if(interval.intervalElapsed()){
             if(finished)return;
             float angle = missile.getFacing() - 90;
             float duration = missile.getMaxFlightTime() - missile.getFlightTime() + missile.getSpec().getFadeTime();
-            if(frame == maxFrames){
-                rebelrats_addParticle p = new rebelrats_addParticle();
-                p.addParticle(missile,"rebelrats_verlokkenAnimation",""+frame,30,30,new Vector2f(0,0),new Vector2f(0,0),new Vector2f(0,0),angle,0,false,0,duration,1,0.2f,false,null);
-                CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
-                e.getLocation().set(missile.getLocation());
-                finished = true;
-                return;
-            }
-            if(frame < maxFrames){
-                rebelrats_addFrame p = new rebelrats_addFrame(missile,null,"rebelrats_verlokkenAnimation",""+frame,new Vector2f(30,30),null,null,frameRate,angle,0,false,null);
-                CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
-                e.getLocation().set(missile.getLocation());
-                frame += 1;
-            }
-        }
+
+            rebelrats_addAnimation p = new rebelrats_addAnimation(missile,null,
+                    "rebelrats_verlokkenAnimation",new Vector2f(30,26),
+                    null,null,angle,0.4f,0,3,null);
+            CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
+            e.getLocation().set(missile.getLocation());
+            engine.removePlugin(this);
+
+
+            frame += 1;
+        //}
     }
 }

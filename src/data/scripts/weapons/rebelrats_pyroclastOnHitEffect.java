@@ -58,17 +58,17 @@ public class rebelrats_pyroclastOnHitEffect implements OnHitEffectPlugin {
 
         float faceAngle = projectile.getFacing() - 180f;
         Color chargeColor = new Color(255,71,49,255);
-        rebelrats_weaponUtils.particleExplosion(numMissileDebris,170f,faceAngle,
+        rebelrats_effectsFactory.particleExplosion(numMissileDebris,170f,faceAngle,
                 engine,point,400f,500f,12f,1f,1.5f,chargeColor);
 
         float shrapSize = rebelrats_combatUtils.randomNumber(10f,12f);
         Color shrapColor = new Color(200,200,200,255);
-        rebelrats_weaponUtils.particleExplosion(numShrapRing,360f,faceAngle,
+        rebelrats_effectsFactory.particleExplosion(numShrapRing,360f,faceAngle,
                 engine,point,160f,160f,shrapSize,1f,1f,shrapColor);
 
         float chargeFaceAngle = projectile.getFacing();
         float chargeSize = rebelrats_combatUtils.randomNumber(35f,50f);
-        rebelrats_weaponUtils.particleExplosion(numChargeParticles,8,chargeFaceAngle,
+        rebelrats_effectsFactory.particleExplosion(numChargeParticles,8,chargeFaceAngle,
                 engine,point,400f,500f,chargeSize,1f,1f,chargeColor);
     }
 }

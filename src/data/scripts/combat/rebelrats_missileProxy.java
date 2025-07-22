@@ -8,7 +8,7 @@ import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.input.InputEventAPI;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
-import data.scripts.weapons.rebelrats_weaponUtils;
+import data.scripts.weapons.rebelrats_effectsFactory;
 import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
@@ -69,11 +69,11 @@ public class rebelrats_missileProxy extends BaseEveryFrameCombatPlugin {
                 Vector2f point = missile.getLocation();
                 Color color = new Color(200,200,200,255);
 
-                rebelrats_weaponUtils.particleExplosion(numShrapRing,360f,faceAngle,
+                rebelrats_effectsFactory.particleExplosion(numShrapRing,360f,faceAngle,
                         engine,point,160f,160f,size,1f,1f,color);
 
                 float innerSize = rebelrats_combatUtils.randomNumber(5f,8f);
-                rebelrats_weaponUtils.particleExplosion(numShrapInner,360f,faceAngle,
+                rebelrats_effectsFactory.particleExplosion(numShrapInner,360f,faceAngle,
                         engine,point,100f,101f,innerSize,1f,2f,color);
 
                 engine.removeEntity(missile);

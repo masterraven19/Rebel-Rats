@@ -26,21 +26,21 @@ public class rebelrats_huntsmanOnHitEffect implements OnHitEffectPlugin {
 
         float faceAngle = projectile.getFacing() - 180f;
         Color missileColor = new Color(255, 255, 255,255);
-        rebelrats_weaponUtils.particleExplosion(numMissileDebris,170f,faceAngle,
+        rebelrats_effectsFactory.particleExplosion(numMissileDebris,170f,faceAngle,
                 engine,point,300f,400f,10f,1f,2.5f,missileColor);
 
         Color shrapColor = new Color(200,200,200,255);
         float shrapSize = rebelrats_combatUtils.randomNumber(10f,12f);
-        rebelrats_weaponUtils.particleExplosion(numShrapRing,170f,faceAngle,
+        rebelrats_effectsFactory.particleExplosion(numShrapRing,170f,faceAngle,
                 engine,point,160f,160f,shrapSize,1f,1f,shrapColor);
 
         if(shieldHit) return;
 
         Color explosionColor = new Color(255, 175, 56,255);
-        rebelrats_weaponUtils.particleExplosion(numExplosionDebris,170f,faceAngle,
+        rebelrats_effectsFactory.particleExplosion(numExplosionDebris,170f,faceAngle,
                 engine,point,300f,400f,10f,1f,2.5f,explosionColor);
 
-        rebelrats_weaponUtils.particleExplosion(numShrapRing,170f,faceAngle,
+        rebelrats_effectsFactory.particleExplosion(numShrapRing,170f,faceAngle,
                 engine,point,160f,160f,shrapSize,1f,1f,shrapColor);
     }
 }
