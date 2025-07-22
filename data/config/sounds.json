@@ -64,10 +64,10 @@
         {"file":"sounds/rebelrats/weapons/Sorex_gun_firing.ogg","pitch":1.00,"volume":0.7},
     ],
     "rebelrats_kingmaker_firing": [
-        {"file":"sounds/rebelrats/weapons/kingmaker_firing.ogg","pitch":1.00,"volume":0.5},
+        {"file":"sounds/rebelrats/weapons/kingmaker_firing.ogg","pitch":1.00,"volume":0.8},
     ],
     "rebelrats_kingmaker_charging": [
-        {"file":"sounds/rebelrats/weapons/kingmaker_charging.ogg","pitch":1.00,"volume":0.7},
+        {"file":"sounds/rebelrats/weapons/kingmaker_charging.ogg","pitch":1.00,"volume":1},
     ],
     "rebelrats_mischief_firing": [
         {"file":"sounds/rebelrats/weapons/mischief_firing.ogg","pitch":1.00,"volume":1},
