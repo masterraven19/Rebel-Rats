@@ -76,9 +76,9 @@
   ],
   "modules": [],
   "wings": [
-    "rebelrats_overseer_Interceptor_wingt",
-    "rebelrats_overseer_Interceptor_wingt",
-    "rebelrats_daekon_Fighter_wingt",
-    "rebelrats_conductor_Bomber_wingt"
+    "rebelrats_overseer_Interceptor_wing",
+    "rebelrats_overseer_Interceptor_wing",
+    "rebelrats_daekon_Fighter_wing",
+    "rebelrats_conductor_Bomber_wing"
   ]
 }

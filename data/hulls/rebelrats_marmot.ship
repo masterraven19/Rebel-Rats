@@ -16,7 +16,7 @@
     "rebelrats_bastionshield"
   ],
   "builtInWings": [
-    "rebelrats_hippo_Fighter_wingt"
+    "rebelrats_hippo_Fighter_wing"
   ],
   "builtInWeapons": {
     "WS0008": "rebelrats_salvo_autoloader",

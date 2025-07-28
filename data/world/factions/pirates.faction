@@ -7,8 +7,8 @@
 	"knownFighters":{
 		"tags":["pirates"],
 		"fighters":[
-			"rebelrats_dustero_Fighter_wingt",
-			"rebelrats_bluster_Bomber_wingt",
+			"rebelrats_dustero_Fighter_wing",
+			"rebelrats_bluster_Bomber_wing",
 		],
 	},
 },	

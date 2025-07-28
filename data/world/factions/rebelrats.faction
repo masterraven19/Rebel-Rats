@@ -143,19 +143,19 @@
 		"tags":["rebelrats_arsenal_bp"],
 		"fighters":[
 		                #Fighter
-		                "rebelrats_sultan_Fighter_wingt",
-		                "rebelrats_proctor_Fighter_wingt",
-		                "rebelrats_daekon_Fighter_wingt",
-		                "rebelrats_patron_F_wingt",
+		                "rebelrats_sultan_Fighter_wing",
+		                "rebelrats_proctor_Fighter_wing",
+		                "rebelrats_daekon_Fighter_wing",
+		                "rebelrats_patron_F_wing",
 
 		                #Interceptor
-		                "rebelrats_ministro_Interceptor_wingt",
-                        	"rebelrats_overseer_Interceptor_wingt",
-                        	"rebelrats_proctor_Fighter_wingt",
+		                "rebelrats_ministro_Interceptor_wing",
+                        	"rebelrats_overseer_Interceptor_wing",
+                        	"rebelrats_proctor_Fighter_wing",
 
 		                #Bomber
-		                "rebelrats_olympian_Bomber_wingt",
-		                "rebelrats_conductor_Bomber_wingt",
+		                "rebelrats_olympian_Bomber_wing",
+		                "rebelrats_conductor_Bomber_wing",
 
 		],
 	},
@@ -163,18 +163,18 @@
 		"tags":[],
 		"fighters":[
 		                #Fighter
-                        "rebelrats_sultan_Fighter_wingt",
-                        "rebelrats_proctor_Fighter_wingt",
-                        "rebelrats_daekon_Fighter_wingt",
+                        "rebelrats_sultan_Fighter_wing",
+                        "rebelrats_proctor_Fighter_wing",
+                        "rebelrats_daekon_Fighter_wing",
 
                         #Interceptor
-                        "rebelrats_ministro_Interceptor_wingt",
-                        "rebelrats_overseer_Interceptor_wingt",
-                        "rebelrats_proctor_Fighter_wingt",
+                        "rebelrats_ministro_Interceptor_wing",
+                        "rebelrats_overseer_Interceptor_wing",
+                        "rebelrats_proctor_Fighter_wing",
 
                         #Bomber
-                        "rebelrats_olympian_Bomber_wingt",
-                        "rebelrats_conductor_Bomber_wingt",
+                        "rebelrats_olympian_Bomber_wing",
+                        "rebelrats_conductor_Bomber_wing",
                         
 		],
 	},

@@ -83,7 +83,7 @@
   ],
   "modules": [],
   "wings": [
-    "rebelrats_ministro_Interceptor_wingt",
-    "rebelrats_sultan_Fighter_wingt"
+    "rebelrats_ministro_Interceptor_wing",
+    "rebelrats_sultan_Fighter_wing"
   ]
 }
