@@ -1,0 +1,14 @@
+{
+	"hullFrequency":{
+		"hulls":{
+			"rebelrats_monax_p":0.5,
+		},
+	},
+	"knownFighters":{
+		"tags":["pirates"],
+		"fighters":[
+			"rebelrats_dustero_Fighter_wingt",
+			"rebelrats_bluster_Bomber_wingt",
+		],
+	},
+},	
