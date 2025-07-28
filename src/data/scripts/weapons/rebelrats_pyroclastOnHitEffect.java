@@ -67,8 +67,8 @@ public class rebelrats_pyroclastOnHitEffect implements OnHitEffectPlugin {
                 engine,point,160f,160f,shrapSize,1f,1f,shrapColor);
 
         float chargeFaceAngle = projectile.getFacing();
-        float chargeSize = rebelrats_combatUtils.randomNumber(35f,50f);
+        float chargeSize = rebelrats_combatUtils.randomNumber(45f,90f);
         rebelrats_effectsFactory.particleExplosion(numChargeParticles,8,chargeFaceAngle,
-                engine,point,400f,500f,chargeSize,1f,1f,chargeColor);
+                engine,point,600f,800f,chargeSize,1f,1f,chargeColor);
     }
 }
