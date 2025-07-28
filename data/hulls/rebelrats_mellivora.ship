@@ -85,6 +85,15 @@
         -33, 0,
         -30.5, 0
       ]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [56.5, -0]
     }
   ],
   "engineSlots": [
