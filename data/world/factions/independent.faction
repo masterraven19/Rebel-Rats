@@ -1,8 +1,8 @@
 {
     "hullFrequency":{
         #"hulls":{
-        #"rebelrats_steersman":7,
-        #"rebelrats_helmsman":6,
+        #"rebelrats_steersman":2,
+        #"rebelrats_helmsman":1,
         #},
     },
 	"knownShips":{
