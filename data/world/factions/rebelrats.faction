@@ -28,38 +28,38 @@
 		},
 		"hulls":{
 		                #combat cap
-		                "rebelrats_porcellus":1,
-				"rebelrats_chevrotain":3,
+		                "rebelrats_porcellus":0.2,
+				"rebelrats_chevrotain":0.6,
 
 		                #combat cruiser
-		                "rebelrats_marmot":5,
-		                "rebelrats_matkaboska":6,
-		                "rebelrats_jerboa":4,
-		                "rebelrats_xerus":6,
-				"rebelrats_dormouse":8,
+		                "rebelrats_marmot":0.4,
+		                "rebelrats_matkaboska":0.6,
+		                "rebelrats_jerboa":0.2,
+		                "rebelrats_xerus":0.6,
+				"rebelrats_dormouse":0.6,
 
 		                #combat destroyer
-		                "rebelrats_rattus":7,
-		                "rebelrats_mellivora":6,
-		                "rebelrats_sorex":7,
-				"rebelrats_tamias":8,
+		                "rebelrats_rattus":0.7,
+		                "rebelrats_mellivora":0.6,
+		                "rebelrats_sorex":0.4,
+				"rebelrats_tamias":0.8,
 
 		                #combat frig
-		                "rebelrats_mus":5,
-		                "rebelrats_patron":5,
-		                "rebelrats_musrattus":6,
+		                "rebelrats_mus":0.5,
+		                "rebelrats_patron":0.5,
+		                "rebelrats_musrattus":0.6,
 
 		                #logis cap
-		                "rebelrats_pybara":4,
+		                "rebelrats_pybara":0.4,
 
 		                #logis cruiser
 
 		                #logis destroyer
-		                "rebelrats_monax":4,
+		                "rebelrats_monax":0.4,
 
 		                #logis frig
-                        	"rebelrats_panya":3,
-                        	"rebelrats_rott":3,
+                        	"rebelrats_panya":0.3,
+                        	"rebelrats_rott":0.3,
 
 		},
 	},
