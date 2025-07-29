@@ -4,7 +4,7 @@
   "hullSize": "FRIGATE",
   "spriteName": "graphics/rebelrats/ships/longablativeplate_left.png",
   "style": "LOW_TECH",
-  "height": 30,
+  "height": 42,
   "width": 23,
   "center": [11.5, 15],
   "collisionRadius": 23.5,
@@ -14,9 +14,9 @@
   "weaponSlots": [],
   "engineSlots": [],
   "bounds": [
-    -15, 10.5,
-    -4, 10.5,
-    15.5, -10.5,
-    -5, -10.5
+    -15, 11.5,
+    7, 11.5,
+    27.5, -11.5,
+    -15, -11.5
   ]
 }

@@ -3,7 +3,7 @@
   "hullId": "rebelrats_marmot",
   "displayName": "Outdated",
   "goalVariant": true,
-  "fluxCapacitors": 8,
+  "fluxCapacitors": 15,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
@@ -28,7 +28,7 @@
     },
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
         "WS0012": "rebelrats_falcon_m",
         "WS0013": "rebelrats_falcon_m"
@@ -54,10 +54,10 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "rebelrats_poacher_s",
+        "WS0001": "rebelrats_fowler",
         "WS0004": "rebelrats_fowler",
         "WS0005": "rebelrats_fowler",
-        "WS0006": "rebelrats_poacher_s",
+        "WS0006": "rebelrats_fowler",
         "WS0007": "rebelrats_fowler"
       }
     },

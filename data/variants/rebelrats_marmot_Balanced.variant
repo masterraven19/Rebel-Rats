@@ -3,14 +3,15 @@
   "hullId": "rebelrats_marmot",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 14,
+  "fluxCapacitors": 1,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "fluxbreakers",
-    "recovery_shuttles",
-    "dedicated_targeting_core"
+    "targetingunit",
+    "reinforcedhull",
+    "missleracks"
   ],
   "weaponGroups": [
     {
@@ -47,8 +48,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "rebelrats_culverin",
-        "WS0003": "rebelrats_culverin"
+        "WS0002": "rebelrats_hawker",
+        "WS0003": "rebelrats_hawker"
       }
     },
     {
@@ -56,8 +57,8 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "rebelrats_ranger",
-        "WS0006": "rebelrats_fowler",
-        "WS0007": "rebelrats_fowler"
+        "WS0006": "rebelrats_ranger",
+        "WS0007": "rebelrats_ranger"
       }
     },
     {

@@ -3,7 +3,7 @@
   "hullId": "rebelrats_marmot",
   "displayName": "Hardliner",
   "goalVariant": true,
-  "fluxCapacitors": 9,
+  "fluxCapacitors": 16,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
@@ -28,10 +28,10 @@
     },
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
-        "WS0012": "rebelrats_petardlauncher_m",
-        "WS0013": "rebelrats_petardlauncher_m"
+        "WS0012": "rebelrats_pyroclast_salvo",
+        "WS0013": "rebelrats_pyroclast_salvo"
       }
     },
     {
@@ -56,13 +56,13 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "rebelrats_ranger",
+        "WS0001": "rebelrats_poacher_s",
         "WS0006": "rebelrats_poacher_s",
         "WS0007": "rebelrats_poacher_s"
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {}
     }
