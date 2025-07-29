@@ -1,19 +1,19 @@
 id,type,text1,text2,text3,text4,notes
 ,,,,,,
 #SHIP WEAPONS,,,,,,
-rebelrats_equalizer_l,WEAPON,"The Equalizer's ponderous shots can shatter even the thickest armor plates. Its origins are as old as the Krysan Federal Monarchy, with it seeing first use in the defence of Magawa from loyalist elements.",,,,
-rebelrats_doldrums_l,WEAPON,"The Doldrums-Pattern Railgun is the penultimate largest weapon in the Krysan Navy. Initially built for orbital installations, it was retooled to be used on warships on the implementation of the Mobile Defence Doctrine.","	""Compensating for terrain flux, releasing flux manifolds."" ~ Veronica Witherfield during the Doldrums weapons test",,,
-rebelrats_drummer_l,WEAPON,The Drummer is an offshoot development from the lessons learned when making the Doldrums. An electrothermal-chemical firing system has been used in place of a pure magnetic rail to propel kinetic projectiles.,,,,
-rebelrats_tripubus_l,WEAPON,"A triple barrelled medium caliber turret with a heavier throw weight, the Tripubus utilizes newer, hardier autoloaders to achieve higher shell speeds",,,,
+rebelrats_equalizer_l,WEAPON,"The Equalizer's ponderous shots can shatter even the thickest armor plates. Its origins are as old as the Federated States of Krysa, seeing first use on orbital emplacements in the defence of Magawa from loyalist elements.",,,,
+rebelrats_doldrums_l,WEAPON,"The Doldrums-Pattern Railgun is the penultimate largest weapon in the Krysan Navy. Initially built for orbital installations, it was retooled for use on warships upon the implementation of the Mobile Defence Doctrine.","	""Compensating for terrain flux, releasing flux manifolds."" ~ Veronica Witherfield during the Doldrums weapons test",,,
+rebelrats_drummer_l,WEAPON,The Drummer is an offshoot development from the lessons learnt from the Doldrums. An electrothermal-chemical firing system has been used in place of a pure magnetic rail to propel kinetic projectiles.,,,,
+rebelrats_tripubus_l,WEAPON,"A triple barrelled medium caliber turret with a heavier throw weight, the Tripubus utilizes newer, hardier autoloaders to achieve higher shell speeds.",,,,
 rebelrats_goedendag_l,WEAPON,"Buried underneath the layers of stealth composites is a complex series of carefully engineered superconductors, capacitors, and extensive cooling systems snaking around a set of magazines connected to the ship’s internal ammo forges.","	""They said to never fight fair, and I took it to heart."" ~ Walter Grumman, Director of Intelligience",,,
-rebelrats_mangonel_l,WEAPON,"At its core, the Mangonel is a reverse engineered TPC of a wrecked Onslaught. The design was augmented with larger heatsinks and a new lasing medium for better throughput energy.","	""Mason, look at this, the numbers! It is a miracle our equipment hasn't been slagged."" ~ Unnamed scientist during Project Icarus",,,
+rebelrats_mangonel_l,WEAPON,"At its core, the Mangonel is a reverse engineered TPC taken from wrecks. The design was then augmented with larger heatsinks and a new lasing medium for better throughput energy.","	""Mason, look at this, the numbers! It is a miracle our equipment hasn't been slagged."" ~ Unnamed scientist during Project Icarus",,,
 rebelrats_nezulana_l,WEAPON,A railgun designed to break capital-grade shields. The Nezulana uses a scaled-up version of the Drummer's electrothermal-chemical system to hurl hyperdense saboted penetrating rods.,,,,
-rebelrats_babydoldrumspine_l,WEAPON,Advancements in Krysan technology has allowed designers to fit what is effectively a downsized Doldrums Railgun into the frame of a frigate.,"	""They said it couldn't be done, but they forgot to loosen a few screws in their head!"" ~ Clementina Witherfield, Lead Test Pilot",,,
-rebelrats_kingmaker_l,WEAPON,"Easily the largest slugthrower the Federal Navy can bring to bear, the Kingmaker takes lessons learnt from the creation of the Doldrums and iteratively improves upon the design.","	""Express delivery to high heavens coming right up!"" ~ Cenry Arbalest, Gunnery Officer on KFS Midnight Fury",,,
+rebelrats_babydoldrumspine_l,WEAPON,Advancements in Krysan weapons technology has allowed designers to fit what is effectively a downsized Doldrums Railgun into the frame of a frigate.,"	""They said it couldn't be done, but they forgot to loosen a few screws in their head!"" ~ Clementina Witherfield, Lead Test Pilot",,,
+rebelrats_kingmaker_l,WEAPON,"Easily the largest slugthrower the Federal Navy can bring to bear, the Kingmaker takes lessons learnt from the creation of the Doldrums and iteratively improves upon the design with larger capacitors, improved feathered flux-vents, and additional targeting sensors.","	""Express delivery to high heavens coming right up!"" ~ Cenry Arbalest, Gunnery Officer on KFS Midnight Fury",,,
 rebelrats_salvo_autoloader,WEAPON,"Initially the testbed for Porcellus' missile tubes, it is now used in many of the Federal Navy's capital ships as a finisher weapon with its unparalleled agility and reliability.",,,,
 rebelrats_arvalis_l,WEAPON,The Arvalis accelerates a stream of macroparticles to extreme hypervelocities through a series of pulse-staged electromagnets. Capable of perforating capital-grade armor.,,,,
-rebelrats_ozotsu_l,WEAPON,"Large and imposing, it is a further development of the Petard Howitzer. Uses larger nuclear pellets with thicker liners for better energy conversion and higher liner velocity.",,,,
-rebelrats_vls12_l,WEAPON,"Outputs an astounding volume of torpedos in a short span of time. Uses Huntsman LR torpedos that have a longer range, but smaller payload.",,,,
+rebelrats_ozotsu_l,WEAPON,"Large and imposing, this is a further development of the Petard Howitzer. Uses larger nuclear pellets with thicker liners for better energy conversion and higher liner velocity.",,,,
+rebelrats_vls12_l,WEAPON,"Outputs an astounding volume of torpedos in a short span of time. Uses Huntsman LR-type torpedos that have a longer range, but smaller payload.",,,,
 ,,,,,,
 ,,,,,,
 rebelrats_siegeharq_m,WEAPON,An old artillery piece taken from Magawa's vast underground weapon stocks and modernized by Rebel Rat engineers to modern standards after the Penance Civil War.,,,,
@@ -238,7 +238,7 @@ Open up your gifts while we all cheer
 
 The Krysan Federal Navy is the naval arm of the Federated States of Krysa and responsible for enforcing and safeguarding the nation's celestial borders and citizens within the sector.
 
-The Federated States of Krysa is a burgeoning polity governed by a directorial assembly who jointly serve as the collective head of state. The polity was formed from the defunct Krysan Empire, after a long interplanetary civil war called the Penance War which led to the devastation of much of the nation's infrastructure.
+The Federated States of Krysa is a burgeoning polity governed by a directorial assembly who jointly serve as the collective head of state. This polity was formed from the defunct Krysan Empire, after a long interplanetary civil war called the Penance War which led to the devastation of much of the nation's infrastructure.
 
 It is not known whether the nation is Domain in origin as no records of past colonization efforts that exists within Hegemony libraries. Nevertheless, it is clear to the sector that the nationstate has poised itself to be independent of the Hegemony; with a Krysan spokesperson outwardly stating the nation's desire to be neither friend or foe of the Hegemony.
 
@@ -258,14 +258,14 @@ Most importantly, instilled within every citizen is the nation's often heard mot
 #PLANETS,,,,,,
 rebelrats_rattus_planet,CUSTOM,"The planet serves as an example of the nation’s conviction to its founding tenets, manifesting itself in the people's ability to heal the planet's grievous wounds earned from its long history of conflict.
 
-Today, Krysa presents itself to the sector as one of the most prosperous places to visit, bearing natural features similar to that of Old Earth despite nearly turning into an arid hellscape more than half a century earlier. Upon closer inspection, scars of past conflicts can be seen from with huge craters long filled by surrounding fauna.",,,,
-rebelrats_malus_planet,CUSTOM,"Lawless is the word that encompasses Malus. Despite its arid wastelands, small settlements pockmark around the planet's remaining water sources, ranging from hastily made shanty towns around ailing lakes, to relatively well-built hab towns that host their own spaceports centered around underground water stores. Whatever authority available is largely self-imposed through the use of force, with shady backroom deals and smuggling by undesirables being the norm.
+Today, Krysa presents itself to the sector as one of the most prosperous places to visit, bearing natural features similar to that of Old Earth despite nearly turning into an arid hellscape more than half a century earlier. Upon closer inspection, scars of past conflicts can be seen from orbit with huge craters long filled by surrounding fauna.",,,,
+rebelrats_malus_planet,CUSTOM,"Lawless is the word that encompasses Malus. Despite its arid wastelands, settlements huddle around the planet's few remaining water sources, ranging from hastily made shanty towns huddling around ailing lakes, to relatively well-built hab towns centered around vast underground water stores. Whatever authority around here is largely self-imposed through the use of force and shady backroom deals.
 
-It was only of recent when Malus became a hub of pirate activity as pirates from the Persean Sector sought after refuge from the law. Its history goes far back into the days of the Empire when rebels used Malus as a smuggling port, after the Penance War, numerous decommissioned military installations were illegally acquisitioned by disgruntled rebels and undesirables and built up to settlements seen today.
+Its history goes far back into the days of the Penance War when rebels used Malus as a smuggling port to hide from the Empire. After the Penance War, disrguntled rebels and undesirables acquisitioned the numerous decommissioned military installations and built them up to the settlements that are seen today.
 ",,,,
-rebelrats_magawa_moon,CUSTOM,"Gigantic orbital berths orbiting around the planet dutifully service civilian freighters who have arrived to load and offload their holds. Magawan defence stations in the horizon orbit ponderously as a grim reminder of the planet’s history of living multiple bombardments.
+rebelrats_magawa_moon,CUSTOM,"Gigantic orbital berths orbiting around the planet dutifully service civilian freighters who have arrived to have their holds tended to. Magawan defence stations are seen in the horizon, ponderously hovering as a grim reminder of the planet’s history of living through multiple bombardments.
 
-Despite its scarred looks from decades of conflict, Magawa hosts one of the largest subterranean complexes of fortresses in the sector. These underground megastructures were built during the time of the Penance War from the vast network of old mining tunnels. Today, many of the surface emplacements have been converted for civilian use, with the largest ones developing into hubs for fully fledged dome cities.
+Despite scarred looks gained from decades of conflict, Magawa hosts one of the largest subterranean complexes of cities fortresses in the sector. These underground megastructures were built during the Penance War from a vast network of old mining tunnels. Today, many of the surface emplacements have been converted for civilian use, with the largest ones developing into hubs for huge dome cities.
 ",,,,
 rebelrats_rodentia_planet,CUSTOM,"The humble green giant has been the source of many Krysan folk tales and superstitions, often cited by olden folks to be where gods reside with their mountains of emerald riches. However, in contrast, children often joke that the gas giant's vivid hue is a result of the sheer amount of rat flatulence.
 
@@ -282,17 +282,17 @@ Outside of what little of its exotic crops can be exported, settlers also take t
 rebelrats_powerstation,CUSTOM,A collector station designed by The Three Brothers Corporation to consume the power of the sun and beam it back to Krysan orbital power stations.,,,,
 rebelrats_powerstation_interaction,CUSTOM,Rising thermal signatures eminating from the station's internals indicate massive reactors reactivating for a potential scuffle. Your gunnery officer promptly informs you that numerous targeting lasers are painting your fleet.,,,,
 rebelrats_rod_station,CUSTOM,A station built by Rebel Rat Industries to extract the resources of Rodentia.,,,,
-rebelrats_outerstation,CUSTOM,"A station made of massive cobbled together asteroids, Asteroid Central Station serves as the home port for miners and smugglers in the system. The massive station was once a humble outpost owned by a now defunct mining company and later rapidly expanded out of necessity as numerous refugees fled to the outpost during the Penance War.
+rebelrats_outerstation,CUSTOM,"A station made of asteroids cobbled together, Asteroid Central Station is the home port for the many miners, and smugglers, in the system. The massive station was once a humble outpost owned by a now defunct mining company and was later rapidly expanded out of necessity as numerous refugees fllocked to the outpost during the Penance Civil War.
 
-Despite its ponderous appearance, the station is lightly-armed with very few large guns to speak off. The few dedicated defence modules that can be seen are a handful of jury-rigged gun platforms not too dissimilar to those found on Pirate or Pather stations.
+Despite its ponderous appearance, the station is lightly-armed with very few large guns to speak of. The few dedicated defence modules that can be seen are a handful of jury-rigged gun platforms not too dissimilar to those found on Pirate or Pather stations.
 ",,,,
 rebelrats_station,SHIP,A heavily armed orbital station equipped with a battery of Kingmaker railguns.,,,,
 ,,,,,,
 #COMMODITIES/ITEMS,,,,,,
-rebelrats_cheese,RESOURCE,A collection of large cheese pieces optimally packaged together in fridge-crates for efficient transport.,,,,
+rebelrats_cheese,RESOURCE,A collection of large pieces of cheese optimally packaged in large fridge-crates for efficient transport.,,,,
 ,,,,,,
 #UNKOWN,,,,,,
-rebelrats_lobsterclaw,WEAPON,"Whether by miracle or by Ludd's curse, the pulsating underflesh benignly interface with the ship's systems to do its bidding to a fault. Calcium-esque transistors and internal musculature under its protective shell ruthlessly convert energy into nutrients for its protein-based laser emitters",,,,
+rebelrats_lobsterclaw,WEAPON,"Whether by miracle or by Ludd's curse, its pulsating underflesh benignly interface with the ship's subsystems to do its bidding to a fault. Calcium-esque transistors and internal musculature under its protective shell ruthlessly convert energy into nutrients for its protein-based laser emitters.",,,,
 rebelrats_ratship,SHIP,The blue lobster has evolved... by the time you are reading this you should focus on trying to escape rather than defeating it.. You may lose some capitals.,,,,
 ,,,,,,
 ,,,,,,
