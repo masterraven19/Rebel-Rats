@@ -42,8 +42,7 @@ Targets missiles first
 
 Benefits from ECCM",50,,,,
 NDEM-680 Petard Canister,rebelrats_petardlauncher_m,1,,5000,1500,,300,,50,15,12,2,0.005,1,HIGH_EXPLOSIVE,,,0,10,1,,0,0,0,0,,300,50,8,200,,,"STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","rocket13, strike8, damage_special, rebelrats_arsenal_bp",,Rebel Rats,,Nuclear DEM Torpedo,Fast,Medium,,,Fires an energy beam that deals approximately %s HE damage,2500,,,TRUE,
-LRASM-600 Trapee MIRV,rebelrats_trapee_m,1,,2000,6000,,2000,200,25,10,7,12,0.04,4,FRAGMENTATION,0,,0,15,3,0.5,0,0,0,0,,200,400,40,150,,,DO_NOT_AIM,"utility13, missile7, rebelrats_arsenal_bp",,Rebel Rats,,Long Range MIRV,Very Slow,Two Stage,,,"Coasts to target before releasing 4 submunitions when within %s of the target.
-Each submunition deals 500 fragmentation damage.",1000su,,,TRUE,
+LRASM-600 Trapee MIRV,rebelrats_trapee_m,1,,2000,7000,,2000,200,25,10,7,12,0.04,4,FRAGMENTATION,0,,0,15,3,0.5,0,0,0,0,,200,400,40,150,,,DO_NOT_AIM,"utility13, missile7, rebelrats_arsenal_bp",,Rebel Rats,,Long Range MIRV,Very Slow,Two Stage,,,Coasts to target before releasing 4 submunitions when within %s of the target.,1000su,,,TRUE,
 LRRM-800 Gingsen,rebelrats_gingsen_m,2,,3000,2000,,1,,50,15,12,8,0.04,4,HIGH_EXPLOSIVE,,,0,1,2,0.5,0,0,0,0,,400,200,8,300,,,"STRIKE, USE_VS_FRIGATES, GUIDED_POOR, DIRECT_AIM","utility13, missile7, rebelrats_arsenal_bp",,Rebel Rats,,Repair Missile,Fast,Medium,,,"Will guide to the nearest friendly ship.
 Repairs damaged armor for %s but not hull.",300 points,,,TRUE,
 ALD-800 Verlokken HKAPS,rebelrats_verlokken_m,,,0,1000,,10,,10,60,0,,,,FRAGMENTATION,30,,0,12,1,,0,0,1,10,,500,500,10,10,,,"SYSTEM, PD, DO_NOT_AIM","no_sell, no_drop, no_drop_salvage",,Rebel Rats,,Decoy Launcher,,,,,"Splits off into decoy balloons when near missiles

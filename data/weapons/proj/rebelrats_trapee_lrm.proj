@@ -48,7 +48,7 @@
 					"damageType":FRAGMENTATION,
 					"hitpoints":100,
 					#"evenSpread":true,
-					"arc":0,
+					"arc":30,
 					"spreadInaccuracy":20,
 					"spreadSpeed":200,
 					"spreadSpeedRange":50,
