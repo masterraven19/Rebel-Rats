@@ -3,18 +3,26 @@
   "hullId": "rebelrats_mellivora",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 3,
+  "fluxCapacitors": 0,
   "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "expanded_deck_crew",
-    "missleracks"
+    "missleracks",
+    "blast_doors"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "rebelrats_trapee_m"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
       "weapons": {
         "WS0001": "rebelrats_huntsmanx2",
         "WS0002": "rebelrats_huntsmanx2"
@@ -24,15 +32,15 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "rebelrats_ranger",
-        "WS0004": "rebelrats_ranger"
+        "WS0003": "rebelrats_poacher_s",
+        "WS0004": "rebelrats_poacher_s"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "rebelrats_fowler"
+        "WS0005": "rebelrats_hawker"
       }
     }
   ],
