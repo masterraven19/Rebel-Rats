@@ -17,7 +17,7 @@ Rattus,rebelrats_rattus,Destroyer,Rebel Rats,maneuveringjets,12,3500,350,4500,,2
 Mellivora,rebelrats_mellivora,Light Carrier,Rebel Rats,targetingfeed,13,4500,300,3000,,150,90,2,100,60,35,30,50,400,OMNI,,90,0.4,0.7,,,80,160,80,80,2,40,8,45000,5,12,360,0.25,14,14,,,,,,,"CARRIER, RENDER_ENGINES_BELOW_HULL",rebelrats_hull_bp,,.25,2,3,,
 Helmsman,rebelrats_helmsman,Destroyer,Belters,maneuveringjets,7,2500,250,3400,,200,85,,120,80,30,35,60,280,FRONT,,60,0.25,1,,,20,50,70,60,2,30,9,15000,7,8,360,0.25,8,8,,,,,,,RENDER_ENGINES_BELOW_HULL,"rebelrats_belter_bp, ind, pirates",,.25,1,2,,
 Sorex,rebelrats_sorex,Destroyer,Rebel Rats,ammofeed,12,3300,600,4000,,220,95,,90,60,25,30,50,350,OMNI,,80,0.4,0.9,,,40,80,70,80,2,40,10,30000,5,10,360,0.25,12,12,,,,,,,RENDER_ENGINES_BELOW_HULL,rebelrats_hull_bp,,.25,2,3,,
-Tamias,rebelrats_tamias,Destroyer,Rebel Rats,ammofeed,12,4000,500,4200,,250,90,,100,70,30,30,50,300,OMNI,,80,0.4,0.8,,,80,160,120,100,2,50,9,30000,5,10,360,0.25,10,10,,,,,,,RENDER_ENGINES_BELOW_HULL,rebelrats_hull_bp,,.25,2,3,,
+Tamias,rebelrats_tamias,Destroyer,Rebel Rats,ammofeed,12,4000,500,4200,,250,90,,100,70,30,30,50,300,OMNI,,80,0.4,0.8,,,70,140,120,100,2,50,9,30000,5,10,360,0.25,10,10,,,,,,,RENDER_ENGINES_BELOW_HULL,rebelrats_hull_bp,,.25,2,3,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Mus,rebelrats_mus,Frigate,Rebel Rats,plasmajets,8,2200,200,2500,,300,50,,160,80,40,30,60,230,OMNI,,90,0.2,0.7,,,20,50,60,30,1,30,10,20000,8,20,360,0.25,9,9,,,,,,,RENDER_ENGINES_BELOW_HULL,rebelrats_hull_bp,,.25,2,3,,
 Patron,rebelrats_patron,Escort Corvette,Rebel Rats,highenergyfocus,7,1000,100,1300,,150,40,,190,90,50,50,70,100,OMNI,,120,0.1,0.6,,,4,8,12,15,1,15,10,6000,8,20,360,0.25,3,3,,,,,,,,rebelrats_hull_bp,,.25,1,,,
