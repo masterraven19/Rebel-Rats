@@ -13,7 +13,7 @@ import data.scripts.combat.rebelrats_combatUtils;
 import data.scripts.combat.rebelrats_arvalisPostEffect;
 import org.lwjgl.util.vector.Vector2f;
 
-import java.awt.*;
+import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -47,10 +47,10 @@ public class rebelrats_arvalisEffect implements OnHitEffectPlugin{
         if (!shieldHit){
             float shipLength = ship.getCollisionRadius() * 1.5f;
 
-            List<Vector2f> shipSegments = new ArrayList<>();
-            for(BoundsAPI.SegmentAPI s : ship.getExactBounds().getSegments()){
-                shipSegments.add(s.getP1());
-            }
+//            List<Vector2f> shipSegments = new ArrayList<>();
+//            for(BoundsAPI.SegmentAPI s : ship.getExactBounds().getSegments()){
+//                shipSegments.add(s.getP1());
+//            }
 
             for(int i = 0;i < numExplosions;i++){
                 float ratio = i / numExplosions;
@@ -63,11 +63,15 @@ public class rebelrats_arvalisEffect implements OnHitEffectPlugin{
                 CombatEntityAPI e = engine.addLayeredRenderingPlugin(explosionFx);
                 e.getLocation().set(exploloc);
 
-                boolean isInShip = rebelrats_combatUtils.isPointInPoints(shipSegments,exploloc);
-                if(!isInShip){
+//                boolean isInShip = rebelrats_combatUtils.isPointInPoints(shipSegments,exploloc);
+//                if(!isInShip){
+//                    CombatEntityAPI newproj = engine.spawnProjectile(projectile.getSource(), null,"rebelrats_arvalis_munition",exploloc, pFacing,null);
+//                    engine.addPlugin(new rebelrats_arvalisPostEffect(newproj,engine));
+//                    break;
+//                }
+                if(i == numExplosions - 1){
                     CombatEntityAPI newproj = engine.spawnProjectile(projectile.getSource(), null,"rebelrats_arvalis_munition",exploloc, pFacing,null);
                     engine.addPlugin(new rebelrats_arvalisPostEffect(newproj,engine));
-                    break;
                 }
             }
         }
