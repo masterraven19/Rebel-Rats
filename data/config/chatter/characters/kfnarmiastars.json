@@ -1,0 +1,83 @@
+{
+	"name":"Commodore Armia Stars",
+	"personalities":["cautious","steady","aggressive"],
+	"gender":["f","n"],
+	"chance":0.5,
+	"talkativeness":1,
+	"categoryTags":["rebelratters"],
+	
+	"lines":{
+		"start":[
+			{"text":"Let us abate the heathen."},
+			{"text":"Starkos secured, ready for orders."},
+			{"text":"Commodore Stars at your service."},
+			{"text":"I await your orders."},
+			{"text":"Lang leve de staten!"}
+		],
+		"start_boss":[
+			{"text":"We shall fight beneath a sky bereft of light!"},
+			{"text":"Oof, that isn't good."}
+		],		
+		"retreat":[
+			{"text":"Helmsman, full speed astern."},
+			{"text":"Assuming retreat posture."}
+		],
+		"out_of_missiles":[
+			{"text":"Out of missiles."},
+			{"text":"Torpedo magazine expended."}
+		],
+		"engaged":[
+			{"text":"Gunner, fire as she bears!"},
+			{"text":"For love, war, and starkos!"},
+			{"text":"HAVE AT THEE!"},
+			{"text":"Discord and mayhem!"},
+		],
+		"need_help":[
+			{"text":"This one is a bit prickly."},
+			{"text":"Things are turning bit sour, need help."}
+		],
+		"pursuing":[
+			{"text":"Did you count your blessings?"},
+			{"text":"It appears that fate has caught up."},
+			{"text":"I'll throw you into a star myself."},
+			{"text":"To the box with you!"}
+		],
+		"running":[
+			{"text":"Reverse thrusters!"},
+			{"text":"Need a little breather."},
+			{"text":"Seeking fire support!"}
+		],
+		"hull_90":[
+			{"text":"Oh- Oh dear, that's a hole."},
+			{"text":"Lilith, stop biting my leg *click click*."}
+		],
+		"hull_50":[
+			{"text":"What was that."},
+			{"text":"That's not good."},
+			{"text":"Uh oh, Lilith escaped the box."},
+			{"text":"Critical subsystem damaged!"}
+		],
+		"hull_30":[
+			{"text":"My hull's down to 30%!"},
+			{"text":"Oh no, Lilith got vented!"},
+			{"text":"Heavy casualties sustained, the starkos is gone!"},
+			{"text":"Pressure hull is crumpling."},
+			#{"text":"Breach in starboard fusion chamber!"}
+		],
+		"overload":[
+			{"text":"Fire, we're on fire!"},
+			{"text":"Lilith, put down the torches."}
+		],
+		"death":[
+			{"text":"Uh oh *explosion*"},
+			{"text":"Fair is fair."},
+			{"text":"Agh-! *connection lost*"}
+		],
+		"victory":[
+			{"text":"Victory screech!"},
+			{"text":"Can't help but feel sorry for them"},
+			{"text":"Battle's over, start crew triage."},
+			{"text":"Outstanding performance, sir."}
+		],
+	}
+}
