@@ -2,71 +2,7 @@
   <artifact type="jar" name="Create .jar">
     <output-path>$PROJECT_DIR$/jars</output-path>
     <root id="archive" name="rebelrats.jar">
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/rebelratsgen.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/rebelratsplugin.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/systems/rebelrats_dragonsblessing/dragons_gen.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_doldrumsEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rulecmd/rebelrats_powerstationDialog.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_falconOnHitEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_pyroclastOnHitEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_petardBeamEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/rebelrats_Tortuga.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_custodianProxEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_hawkerProxEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rebelrats_powerstationEntityPlugin.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/rebelrats_Powerstation.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/ids/rebelrats_Conditions.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_missileTrackEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_missileScript.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_addParticle.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_poubelleEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_combatUtils.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_addExplosionFx.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/systems/rebelrats_tikus.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_huntsmanOnHitEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/shipsystems/rebelrats_JerboaSystemStats.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_JerboaTarget.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_ManAtArmsTargettingGrid.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_stealthrathide.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_BastionShieldSystem.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_spinalDoldrumsEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_huntsmanLaunchEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_cc.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/impl/rebelrats_OrbitalStation.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_chaffProxEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/shipsystems/rebelrats_lockjaw.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_incompatible.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/world/rebelrats_gen_NPCs.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_targetinglaserEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_missileProxy.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_ratfield.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_kingmakerEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_kingmaker_munitionOnHitEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_poacherOnHitEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_amosBeamEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_mischiefBeamEffect.java" />
       <element id="module-output" name="Rebel-Rats" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rulecmd/rebelrats_hireOfficer.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rulecmd/rebelrats_hireMercenary.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rulecmd/rebelrats_doIsTrueCheck.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/impl/rebelrats_Constabulary.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_arvalisEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_arvalisPostEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/impl/rebelrats_CheeseFactory.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/fleets/rebelrats_constableAssignment.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_gingsenAIEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_gingsenCloudEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/econ/rebelrats_EconListener.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_mangonelOnHitEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/skills/rebelrats_FuriousBrawler.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/skills/rebelrats_Aptitude.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/skills/rebelrats_GunneryDrills.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_verlokkenScript.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_verlokkenEffect.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/combat/rebelrats_addAnimation.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/hullmods/rebelrats_HyperSpectralCamoNet.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/campaign/rebelrats_campaignUtils.java" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/data/scripts/weapons/rebelrats_effectsFactory.java" />
     </root>
   </artifact>
 </component>
