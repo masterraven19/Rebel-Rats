@@ -133,6 +133,8 @@ public class rebelrats_tikus {
         tikus_market.addCondition(Conditions.POPULATION_4);
         tikus_market.addCondition(Conditions.VOLATILES_PLENTIFUL);
         tikus_market.addCondition(Conditions.EXTREME_WEATHER);
+        tikus_market.addCondition(Conditions.HOT);
+        tikus_market.addCondition(Conditions.NO_ATMOSPHERE);
 
         tikus_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
         tikus_market.addSubmarket(Submarkets.SUBMARKET_BLACK);

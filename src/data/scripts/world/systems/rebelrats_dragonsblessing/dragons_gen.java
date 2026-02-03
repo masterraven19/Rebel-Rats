@@ -324,6 +324,7 @@ public class dragons_gen {
         rodentia_market.addCondition(Conditions.VOLATILES_PLENTIFUL);
         rodentia_market.addCondition(Conditions.POPULATION_4);
         rodentia_market.addCondition(Conditions.EXTREME_WEATHER);
+        rodentia_market.addCondition(Conditions.NO_ATMOSPHERE);
 
         rodentia_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
         rodentia_market.addSubmarket(Submarkets.SUBMARKET_BLACK);
