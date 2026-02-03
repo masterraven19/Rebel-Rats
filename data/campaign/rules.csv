@@ -17,7 +17,9 @@ rebelrats_rattusInteractionText,MarketPostOpen,"$hasMarket
 $market.id == rattus_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
-FireBest MarketPostDock","Passing through the shuttle's doors, Port 11 brimmed with activity as people from all walks of life went about their daily routine, unbothered by the eclectic set of shuttles coming in and out of the island spaceport. Climbing up the elevator tothe massive accoustic walls, employees from the menagerie of pop-up shops and market stalls perched up along the wall next to the tram station bombarded the crew with various offers and deals.
+FireBest MarketPostDock","Passing through the shuttle's doors, Port 11 brimmed with activity as people from all walks of life went about their daily routine, unbothered by the eclectic set of shuttles coming in and out of the island spaceport.
+
+Cresting the top of the massive accoustic walls, you and your crew are bombarded by 
 
 Taking a tram to the mainland, children can be seen dashing their way around spacers in the wide spaces of the tram hub, some tailing along with their parents, others rushing in groups to the stalls at the end of the concourse, attracted by the smell of fresh bread, melted cheese, and grilled meat mingling together and wafting in the air.
 

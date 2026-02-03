@@ -3,7 +3,7 @@
   "hullId": "rebelrats_porcellus",
   "displayName": "Anti-Shield",
   "goalVariant": true,
-  "fluxCapacitors": 19,
+  "fluxCapacitors": 10,
   "fluxVents": 46,
   "quality": 1,
   "permaMods": [],
@@ -57,6 +57,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0005": "rebelrats_braggador_m",
+        "WS0006": "rebelrats_braggador_m",
         "WS0012": "rebelrats_custodian_m",
         "WS0013": "rebelrats_custodian_m",
         "WS0014": "rebelrats_custodian_m",
@@ -72,13 +74,10 @@
         "WS0002": "rebelrats_ashford",
         "WS0003": "rebelrats_fowler",
         "WS0004": "rebelrats_fowler",
-        "WS0005": "rebelrats_hawker",
-        "WS0006": "rebelrats_hawker",
         "WS0007": "rebelrats_hawker",
         "WS0008": "rebelrats_fowler",
         "WS0009": "rebelrats_ranger",
-        "WS0010": "rebelrats_ranger",
-        "WS0011": "rebelrats_ashford"
+        "WS0010": "rebelrats_ranger"
       }
     }
   ],

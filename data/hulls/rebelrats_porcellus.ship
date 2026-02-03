@@ -4,12 +4,12 @@
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/rebelrats/ships/porcellus_battleship.png",
   "style": "REBELRATS",
-  "height": 461,
-  "width": 208,
-  "center": [104, 212],
-  "collisionRadius": 282.5,
+  "height": 506,
+  "width": 250,
+  "center": [125, 228],
+  "collisionRadius": 324.5,
   "shieldCenter": [0, -0],
-  "shieldRadius": 262.5,
+  "shieldRadius": 290.5,
   "viewOffset": 0,
   "builtInMods": [
     "ground_support",
@@ -34,7 +34,7 @@
       "mount": "TURRET",
       "arc": 137,
       "angle": 45,
-      "locations": [203, 18]
+      "locations": [229, 18]
     },
     {
       "id": "WS0002",
@@ -43,52 +43,34 @@
       "mount": "TURRET",
       "arc": 137,
       "angle": -46.5,
-      "locations": [203, -18]
+      "locations": [229, -18]
     },
     {
       "id": "WS0003",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 150,
-      "angle": 90,
-      "locations": [122, 34]
+      "arc": 180,
+      "angle": 75,
+      "locations": [143, 30]
     },
     {
       "id": "WS0004",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 150,
-      "angle": -90,
-      "locations": [122, -34]
-    },
-    {
-      "id": "WS0005",
-      "size": "SMALL",
-      "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 150,
-      "angle": 90,
-      "locations": [77, 34]
-    },
-    {
-      "id": "WS0006",
-      "size": "SMALL",
-      "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 150,
-      "angle": -90,
-      "locations": [77, -34]
+      "arc": 180,
+      "angle": -75,
+      "locations": [143, -30]
     },
     {
       "id": "WS0007",
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 180,
+      "arc": 240,
       "angle": 0,
-      "locations": [18, 0]
+      "locations": [66, -0]
     },
     {
       "id": "WS0008",
@@ -97,7 +79,7 @@
       "mount": "TURRET",
       "arc": 130,
       "angle": 0,
-      "locations": [206, 0]
+      "locations": [233, -0]
     },
     {
       "id": "WS0009",
@@ -106,7 +88,7 @@
       "mount": "TURRET",
       "arc": 206,
       "angle": 135,
-      "locations": [-147, 39]
+      "locations": [-154, 59]
     },
     {
       "id": "WS0010",
@@ -115,16 +97,7 @@
       "mount": "TURRET",
       "arc": 206,
       "angle": -135,
-      "locations": [-147, -39]
-    },
-    {
-      "id": "WS0011",
-      "size": "SMALL",
-      "type": "HYBRID",
-      "mount": "TURRET",
-      "arc": 150,
-      "angle": 180,
-      "locations": [-153, 0]
+      "locations": [-154, -59]
     },
     {
       "id": "WS0012",
@@ -133,7 +106,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 75,
-      "locations": [174, 49]
+      "locations": [204, 48]
     },
     {
       "id": "WS0013",
@@ -142,25 +115,25 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -75,
-      "locations": [174, -49]
+      "locations": [204, -48]
     },
     {
       "id": "WS0014",
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 110,
-      "angle": 50.5,
-      "locations": [17, 34]
+      "arc": 114,
+      "angle": 45.5,
+      "locations": [35, 28]
     },
     {
       "id": "WS0015",
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 110,
-      "angle": -50.5,
-      "locations": [17, -34]
+      "arc": 114,
+      "angle": -45.5,
+      "locations": [35, -28]
     },
     {
       "id": "WS0016",
@@ -169,7 +142,7 @@
       "mount": "TURRET",
       "arc": 114,
       "angle": 45,
-      "locations": [-14, 53]
+      "locations": [15, 42]
     },
     {
       "id": "WS0017",
@@ -178,7 +151,7 @@
       "mount": "TURRET",
       "arc": 114,
       "angle": -45,
-      "locations": [-14, -53]
+      "locations": [15, -42]
     },
     {
       "id": "WS0018r",
@@ -187,7 +160,7 @@
       "mount": "TURRET",
       "arc": 160,
       "angle": 72,
-      "locations": [-66, 58]
+      "locations": [-34, 61]
     },
     {
       "id": "WS0019",
@@ -196,7 +169,7 @@
       "mount": "TURRET",
       "arc": 160,
       "angle": -72,
-      "locations": [-66, -58]
+      "locations": [-34, -61]
     },
     {
       "id": "WS0018",
@@ -205,7 +178,7 @@
       "mount": "TURRET",
       "arc": 255,
       "angle": 180,
-      "locations": [-107, 0]
+      "locations": [-154, -0]
     },
     {
       "id": "WS0020",
@@ -214,7 +187,7 @@
       "mount": "TURRET",
       "arc": 10,
       "angle": 0,
-      "locations": [46, 11]
+      "locations": [98, 14.5]
     },
     {
       "id": "WS0021",
@@ -223,7 +196,7 @@
       "mount": "TURRET",
       "arc": 10,
       "angle": -0,
-      "locations": [46, -11]
+      "locations": [98, -14.5]
     },
     {
       "id": "WS0022",
@@ -232,7 +205,7 @@
       "mount": "HIDDEN",
       "arc": 10,
       "angle": 0,
-      "locations": [228, 15.5]
+      "locations": [258.5, 16]
     },
     {
       "id": "WS0023",
@@ -241,7 +214,7 @@
       "mount": "HIDDEN",
       "arc": 10,
       "angle": -0,
-      "locations": [228, -15.5]
+      "locations": [258.5, -16]
     },
     {
       "id": "WS0024",
@@ -250,7 +223,7 @@
       "mount": "TURRET",
       "arc": 90,
       "angle": 0,
-      "locations": [-37, 0]
+      "locations": [-24, 0]
     },
     {
       "id": "LB 1",
@@ -260,8 +233,8 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        71.5, 0,
-        83, 0
+        55.5, 21,
+        67, 21
       ]
     },
     {
@@ -272,8 +245,8 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        112, 0,
-        123.5, 0
+        96, 21,
+        107.5, 21
       ]
     },
     {
@@ -283,30 +256,48 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [-37.5, -0]
+      "locations": [-24.5, 0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -70,
+      "locations": [-86, -47]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 70,
+      "locations": [-86, 47]
     }
   ],
   "engineSlots": [
     {
-      "location": [-196, 83],
+      "location": [-216, 90],
       "length": 65.93409,
       "width": 30.655903,
-      "angle": 170.5,
+      "angle": 165,
       "contrailSize": 30.655903,
       "style": "CUSTOM",
       "styleId": "Rats"
     },
     {
-      "location": [-196, -83],
+      "location": [-215, -90],
       "length": 65.93409,
       "width": 30.655903,
-      "angle": -170.5,
+      "angle": -165,
       "contrailSize": 30.655903,
       "style": "CUSTOM",
       "styleId": "Rats"
     },
     {
-      "location": [-208, 37],
+      "location": [-222, 42],
       "length": 100,
       "width": 50,
       "angle": 180,
@@ -315,7 +306,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-208, -37],
+      "location": [-224, -42],
       "length": 100,
       "width": 50,
       "angle": -180,
@@ -324,7 +315,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-208, -0],
+      "location": [-222, -0],
       "length": 100,
       "width": 50,
       "angle": 180,
@@ -333,7 +324,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-209, 37],
+      "location": [-224, 42],
       "length": 100,
       "width": 50,
       "angle": 180,
@@ -342,7 +333,7 @@
       "styleId": "Rats2"
     },
     {
-      "location": [-209, -37],
+      "location": [-222, -42],
       "length": 100,
       "width": 50,
       "angle": -180,
@@ -351,7 +342,7 @@
       "styleId": "Rats2"
     },
     {
-      "location": [-209, -0],
+      "location": [-224, -0],
       "length": 100,
       "width": 50,
       "angle": 180,
@@ -360,42 +351,46 @@
       "styleId": "Rats2"
     },
     {
-      "location": [-197, 84],
+      "location": [-214, 89],
       "length": 65.93409,
       "width": 30.655903,
-      "angle": 170.5,
+      "angle": 165,
       "contrailSize": 30.655903,
       "style": "CUSTOM",
       "styleId": "Rats2"
     },
     {
-      "location": [-197, -84],
+      "location": [-214, -89.5],
       "length": 65.93409,
       "width": 30.655903,
-      "angle": -170.5,
+      "angle": -165,
       "contrailSize": 30.655903,
       "style": "CUSTOM",
       "styleId": "Rats2"
     }
   ],
   "bounds": [
-    -208.5, -60.5,
-    -188, -103.5,
-    -6, -64,
-    11, -46.5,
-    161.5, -45,
-    167, -66,
-    188.5, -65,
-    205, -28,
-    232, -24,
-    232, 24,
-    205, 28,
-    188.5, 65,
-    167, 66,
-    161.5, 45,
-    11, 46.5,
-    -6, 64,
-    -188, 103.5,
-    -208.5, 60.5
+    -228, -58,
+    -213.5, -106,
+    -188, -117.5,
+    -52.5, -80,
+    -30.5, -86.5,
+    29.5, -67,
+    184, -42.5,
+    195.5, -66,
+    213, -66,
+    232.5, -38,
+    263, -27,
+    263, 27,
+    232.5, 38,
+    213, 66,
+    195.5, 66,
+    184, 42.5,
+    29.5, 67,
+    -30.5, 86.5,
+    -52.5, 80,
+    -188, 117.5,
+    -213.5, 106,
+    -228, 58
   ]
 }
