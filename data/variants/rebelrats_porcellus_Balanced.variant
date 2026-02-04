@@ -3,7 +3,7 @@
   "hullId": "rebelrats_porcellus",
   "displayName": "Modern",
   "goalVariant": true,
-  "fluxCapacitors": 12,
+  "fluxCapacitors": 11,
   "fluxVents": 50,
   "quality": 2,
   "permaMods": [],
@@ -29,7 +29,7 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0020": "rebelrats_hwacha_m",
@@ -48,6 +48,14 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0005": "rebelrats_petard_m",
+        "WS0006": "rebelrats_petard_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0016": "rebelrats_crossbow_m",
         "WS0017": "rebelrats_crossbow_m"
       }
@@ -56,34 +64,25 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0012": "rebelrats_custodian_m",
-        "WS0013": "rebelrats_custodian_m",
+        "WS0001": "rebelrats_amos_s",
+        "WS0002": "rebelrats_amos_s",
+        "WS0003": "rebelrats_hawker",
+        "WS0004": "rebelrats_hawker",
+        "WS0007": "rebelrats_amos_s",
+        "WS0008": "rebelrats_ranger",
+        "WS0009": "rebelrats_ranger",
+        "WS0010": "rebelrats_ranger",
+        "WS0012": "rebelrats_ranger",
+        "WS0013": "rebelrats_ranger",
         "WS0014": "rebelrats_custodian_m",
         "WS0015": "rebelrats_custodian_m",
         "WS0018": "rebelrats_custodian_m"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "rebelrats_ranger",
-        "WS0002": "rebelrats_ranger",
-        "WS0003": "rebelrats_fowler",
-        "WS0004": "rebelrats_fowler",
-        "WS0005": "rebelrats_ranger",
-        "WS0006": "rebelrats_ranger",
-        "WS0007": "rebelrats_ranger",
-        "WS0008": "rebelrats_fowler",
-        "WS0009": "rebelrats_ranger",
-        "WS0010": "rebelrats_ranger",
-        "WS0011": "rebelrats_fowler"
       }
     }
   ],
   "modules": [],
   "wings": [
-    "rebelrats_ministro_Interceptor_wing",
+    "rebelrats_overseer_Interceptor_wing",
     "rebelrats_sultan_Fighter_wing"
   ]
 }

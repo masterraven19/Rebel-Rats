@@ -3,14 +3,15 @@
   "hullId": "rebelrats_porcellus",
   "displayName": "Outdated",
   "goalVariant": true,
-  "fluxCapacitors": 7,
-  "fluxVents": 44,
+  "fluxCapacitors": 0,
+  "fluxVents": 35,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "missleracks",
     "eccm",
-    "dedicated_targeting_core"
+    "dedicated_targeting_core",
+    "heavyarmor"
   ],
   "weaponGroups": [
     {
@@ -58,9 +59,9 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0012": "rebelrats_custodian_m",
-        "WS0013": "rebelrats_custodian_m",
-        "WS0018": "rebelrats_custodian_m"
+        "WS0005": "rebelrats_braggador_m",
+        "WS0006": "rebelrats_braggador_m",
+        "WS0018": "rebelrats_braggador_m"
       }
     },
     {
@@ -71,13 +72,12 @@
         "WS0002": "rebelrats_fowler",
         "WS0003": "rebelrats_fowler",
         "WS0004": "rebelrats_fowler",
-        "WS0005": "rebelrats_chaff",
-        "WS0006": "rebelrats_chaff",
         "WS0007": "rebelrats_fowler",
         "WS0008": "rebelrats_fowler",
         "WS0009": "rebelrats_hawker",
         "WS0010": "rebelrats_hawker",
-        "WS0011": "rebelrats_fowler"
+        "WS0012": "rebelrats_hawker",
+        "WS0013": "rebelrats_hawker"
       }
     }
   ],
