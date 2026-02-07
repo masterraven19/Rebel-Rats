@@ -24,7 +24,7 @@ import java.awt.Color;
 public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameWeaponEffectPlugin, OnFireEffectPlugin {
     private float elapsed = 0;
     private float elapsed2 = 0;
-    private float particleDuration = 1F;
+    private float elapsed3 = 0;
     private float numexplosions = 20;
     private float explosionDmg = 50;
     private float armorDmg = 100;
@@ -33,9 +33,7 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
     private float baseCone = 40;
     private float penDist = 600;
     private int numShrap = 15;
-    private boolean fired = false;
-    private boolean fired2 = false;
-    private DamagingProjectileAPI proj;
+    private float fullyOpenedSmokeRate = 1/4; //1/rate
     public DamagingExplosionSpec createExplosionSpec() {
         float damage = explosionDmg;
         DamagingExplosionSpec spec = new DamagingExplosionSpec(
@@ -158,64 +156,78 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
 
         }
     }
+
+//    private static Logger logger = Global.getLogger(rebelrats_kingmakerEffect.class);
+    private boolean fullyOpened = false;
+    private int currFrame = 0;
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
         if (engine.isPaused()) return;
 
-        if (fired2 && proj.didDamage()){
-            elapsed2 += amount;
-        }
-        if (elapsed2 > 0.1){
-            float currAngle = proj.getFacing();
-            Vector2f projloc = proj.getLocation();
-
-            Vector2f vel = rebelrats_combatUtils.calcVelDir(currAngle, 50);
-            Vector2f loc = rebelrats_combatUtils.calcLocWAngle(currAngle, 0, projloc);
-            float range = (1 - 0.5F) + 1;
-            float alphaMult = (float)(Math.random() * range) + 0.5F;
-
-            rebelrats_addParticle p = new rebelrats_addParticle();
-            p.addParticle(null,"misc", "nebula_particles",80,80,loc,new Vector2f(0,0),vel,currAngle,1,false,0,1F,alphaMult,0.5F,true,new Color(235,54,54,160));
-            CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
-            e.getLocation().set(projloc);
-        }
-        if (elapsed2 > particleDuration){
-            fired2 = false;
-            elapsed2 -= particleDuration;
-        }
-
-        if (!fired) {
+        if (weapon.getCooldownRemaining() == 0) {
             weapon.getAnimation().setFrame(0);
+            fullyOpened = false;
+            elapsed3 = 0;
             return;
         }else{
             elapsed += amount;
+            elapsed2 += amount;
+            elapsed3 += amount;
         }
 
-        float f = weapon.getAnimation().getNumFrames() / weapon.getAnimation().getFrameRate();
-        weapon.getAnimation().play();
+        float framerate = 1 / weapon.getAnimation().getFrameRate();
+        int totalFrames = weapon.getAnimation().getNumFrames();
 
-        if (weapon.getAnimation().getFrame() >= 6 && weapon.getAnimation().getFrame() < 37){
-            float angle = rebelrats_combatUtils.calcConeAngle(30,0);
-            Vector2f vel = rebelrats_combatUtils.calcVelDir((weapon.getCurrAngle() - 180) + angle, 200);
-            Vector2f loc = rebelrats_combatUtils.calcLocWAngle(weapon.getCurrAngle() - 180, 35, weapon.getLocation());
-            float range = (1 - 0.5F) + 1;
-            float alphaMult = (float)(Math.random() * range) + 0.5F;
+        float cooldown = weapon.getCooldown();
+        boolean isCooling = (elapsed3 < cooldown * 0.5f);
 
-            rebelrats_addParticle p = new rebelrats_addParticle();
-            p.addParticle(null,"misc", "nebula_particles",30,30,loc,new Vector2f(0,0),vel,angle,1,false,0,0.2F,alphaMult,0.5F,true,new Color(141,95,240,255));
-            CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
-            e.getLocation().set(weapon.getLocation());
+        if (elapsed > framerate){
+            if (currFrame < totalFrames - 1 && !fullyOpened){
+                currFrame++;
+            }else{
+                fullyOpened = true;
+            }
+            if (isCooling && fullyOpened){
+                currFrame = totalFrames - 1;
+            }
+            if (currFrame > 0 && !isCooling){
+                currFrame--;
+            }
+            elapsed -= framerate;
         }
+        weapon.getAnimation().setFrame(currFrame);
 
-        if (elapsed > f) {
-            fired = !fired;
-            elapsed -= f;
+        if (!isCooling) return;
+        if (elapsed2 >= fullyOpenedSmokeRate){
+            if (currFrame >= 7){
+                //top vents left
+                addSmoke(engine,weapon,14,90,90,15);
+                addSmoke(engine,weapon,8,97,90,15);
+                //top vents right
+                addSmoke(engine,weapon,-14,90,-90,15);
+                addSmoke(engine,weapon,-8,97,-90,15);
+            }
+            if (currFrame >= 9){
+                //bottom vents
+                addSmoke(engine,weapon,153,33,140,20);
+                addSmoke(engine,weapon,-153,33,-140,20);
+            }
+            elapsed2 -= fullyOpenedSmokeRate;
         }
+    }
+    private void addSmoke(CombatEngineAPI engine, WeaponAPI weapon, float angleOffsetFromWeaponAngle,
+                          float lengthFromWeaponMiddle, float angleOffsetVelocity, float smokeSize){
+        float angle = rebelrats_combatUtils.calcConeAngle(9,0);
+        Vector2f vel = rebelrats_combatUtils.calcVelDir((weapon.getCurrAngle() + angleOffsetVelocity) + angle, rebelrats_combatUtils.randomNumber(160,200));
+        Vector2f loc = rebelrats_combatUtils.calcLocWAngle(weapon.getCurrAngle() + angleOffsetFromWeaponAngle, lengthFromWeaponMiddle, weapon.getLocation());
+        float alphaMult = rebelrats_combatUtils.randomNumber(0.5f,0.9f);
+
+        rebelrats_addParticle p = new rebelrats_addParticle();
+        p.addParticle(null,"misc", "nebula_particles",smokeSize,smokeSize,loc,new Vector2f(0,0),vel,angle,1,false,0,0.25F,alphaMult,0.2F,true,new Color(229, 229, 229,255));
+        CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
+        e.getLocation().set(weapon.getLocation());
     }
 
     public void onFire(DamagingProjectileAPI projectile, WeaponAPI weapon, CombatEngineAPI engine) {
-        fired = true;
-        fired2 = true;
-        proj = projectile;
         projectile.getDamage().setDamage(1);
 
         rebelrats_addParticle p = new rebelrats_addParticle();
