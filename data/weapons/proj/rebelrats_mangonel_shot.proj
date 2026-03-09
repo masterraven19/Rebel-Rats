@@ -6,10 +6,13 @@
 	"collisionClassByFighter":"RAY_FIGHTER",
 	"onHitEffect":"data.scripts.weapons.rebelrats_mangonelOnHitEffect",
 	"length":150.0,
+	"hitGlowRadius":60,
 	"width":40,
 	"fadeTime":0.3,
 	"fringeColor":[255,0,0,255],
 	"coreColor":[255,255,255,200],
+	"glowColor":[240,10,10,200],
+	"glowRadius":40,
 	"textureType":"ROUGH",  # now also used for "BALLISTIC_AS_BEAM", if specified
 	#"textureType":["graphics/fx/emp_arcs.png","graphics/fx/emp_arcs.png"],
 	"textureScrollSpeed":-256,

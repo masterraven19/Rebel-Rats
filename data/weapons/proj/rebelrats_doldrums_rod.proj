@@ -17,7 +17,7 @@
 	"textureScrollSpeed":90.0,
 	"pixelsPerTexel":5.0,
 	"passThroughMissiles":true,
-    "passThroughFighters":true,
-    "passThroughFightersOnlyWhenDestroyed":false,
+    	"passThroughFighters":true,
+    	"passThroughFightersOnlyWhenDestroyed":false,
 	"bulletSprite":"graphics/rebelrats/missiles/ratrod_grey.png"
 }

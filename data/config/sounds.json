@@ -36,8 +36,8 @@
         {"file":"sounds/rebelrats/weapons/petard_firing3.ogg","pitch":1.00,"volume":0.8},
     ],
     "rebelrats_braggador_firing":[
-        {"file":"sounds/rebelrats/weapons/Braggador_firing1.ogg","pitch":1.00,"volume":0.7},
-        {"file":"sounds/rebelrats/weapons/Braggador_firing2.ogg","pitch":1.00,"volume":0.7},
+        {"file":"sounds/rebelrats/weapons/Braggador_firing1.ogg","pitch":1.00,"volume":0.5},
+        {"file":"sounds/rebelrats/weapons/Braggador_firing2.ogg","pitch":1.00,"volume":0.5},
     ],
     "rebelrats_crossbow_firing":[
         {"file":"sounds/rebelrats/weapons/Crossbow_firing2.ogg","pitch":1.00,"volume":0.3},
@@ -61,7 +61,7 @@
         {"file":"sounds/rebelrats/weapons/spinaldoldrums_charging2.ogg","pitch":0.8,"volume":0.5},
     ],
     "rebelrats_sorex_firing": [
-        {"file":"sounds/rebelrats/weapons/Sorex_gun_firing.ogg","pitch":1.00,"volume":0.7},
+        {"file":"sounds/rebelrats/weapons/Sorex_gun_firing.ogg","pitch":1.00,"volume":0.4},
     ],
     "rebelrats_kingmaker_firing": [
         {"file":"sounds/rebelrats/weapons/kingmaker_firing.ogg","pitch":1.00,"volume":0.8},

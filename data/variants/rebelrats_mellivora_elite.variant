@@ -16,6 +16,13 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0006": "rebelrats_trapee_m"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0001": "rebelrats_pyroclast",
         "WS0002": "rebelrats_pyroclast"
       }
@@ -24,21 +31,21 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "rebelrats_fowler",
-        "WS0004": "rebelrats_fowler"
+        "WS0003": "rebelrats_chaff"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "rebelrats_hawker"
+        "WS0004": "rebelrats_poacher_s",
+        "WS0005": "rebelrats_poacher_s"
       }
     }
   ],
   "modules": [],
   "wings": [
     "rebelrats_olympian_Bomber_wing",
-    "rebelrats_olympian_Bomber_wing"
+    "rebelrats_conductor_Bomber_wing"
   ]
 }

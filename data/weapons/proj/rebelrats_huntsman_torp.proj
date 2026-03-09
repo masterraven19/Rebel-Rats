@@ -9,7 +9,7 @@
 	"collisionClass":"MISSILE_NO_FF",
 	"onHitEffect":"data.scripts.weapons.rebelrats_huntsmanOnHitEffect",
 	"explosionColor":[100,159,217,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":90, # purely visual
+	"explosionRadius":60, # purely visual
 	"explosionSpec":{"duration":0.1f, # not visual
 					 "radius":125,
 					 "coreRadius":50, # full damage within core radius

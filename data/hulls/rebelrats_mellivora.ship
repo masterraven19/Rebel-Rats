@@ -4,12 +4,12 @@
   "hullSize": "DESTROYER",
   "spriteName": "graphics/rebelrats/ships/mellivora_light_carrier.png",
   "style": "REBELRATS",
-  "height": 198,
-  "width": 96,
-  "center": [48, 96],
-  "collisionRadius": 130.5,
+  "height": 247,
+  "width": 130,
+  "center": [65, 118],
+  "collisionRadius": 164,
   "shieldCenter": [0, -0],
-  "shieldRadius": 113.5,
+  "shieldRadius": 139.5,
   "viewOffset": 0,
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid",
@@ -21,51 +21,6 @@
   },
   "weaponSlots": [
     {
-      "id": "WS0001",
-      "size": "SMALL",
-      "type": "COMPOSITE",
-      "mount": "TURRET",
-      "arc": 181,
-      "angle": 75.5,
-      "locations": [34, 18]
-    },
-    {
-      "id": "WS0002",
-      "size": "SMALL",
-      "type": "COMPOSITE",
-      "mount": "TURRET",
-      "arc": 181,
-      "angle": -75.5,
-      "locations": [34, -18]
-    },
-    {
-      "id": "WS0003",
-      "size": "SMALL",
-      "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": 62,
-      "locations": [-25, 37]
-    },
-    {
-      "id": "WS0004",
-      "size": "SMALL",
-      "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": -62,
-      "locations": [-25, -37]
-    },
-    {
-      "id": "WS0005",
-      "size": "SMALL",
-      "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 360,
-      "angle": 180,
-      "locations": [-59, -0]
-    },
-    {
       "id": "LB 1",
       "size": "LARGE",
       "type": "LAUNCH_BAY",
@@ -73,8 +28,8 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        -5, 0,
-        -2.5, 0
+        -34, -0,
+        -30, -0
       ]
     },
     {
@@ -85,8 +40,8 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        -33, 0,
-        -30.5, 0
+        -46, -0,
+        -41.5, -0
       ]
     },
     {
@@ -96,12 +51,57 @@
       "mount": "HIDDEN",
       "arc": 5,
       "angle": 0,
-      "locations": [56.5, -0]
+      "locations": [56, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 72.5,
+      "locations": [18, 19]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -72.5,
+      "locations": [18, -19]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 0,
+      "locations": [36, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 75,
+      "locations": [-58, 29]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -75,
+      "locations": [-58, -29]
     }
   ],
   "engineSlots": [
     {
-      "location": [-93, 31],
+      "location": [-115, 48],
       "length": 100,
       "width": 30,
       "angle": 180,
@@ -110,7 +110,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-93, -31],
+      "location": [-115, -14],
       "length": 100,
       "width": 30,
       "angle": -180,
@@ -119,7 +119,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-95, 31],
+      "location": [-117, 48],
       "length": 100,
       "width": 34,
       "angle": 180,
@@ -128,7 +128,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-95, -31],
+      "location": [-117, -14],
       "length": 100,
       "width": 34,
       "angle": -180,
@@ -138,21 +138,21 @@
     }
   ],
   "bounds": [
-    -94, 18.5,
-    -94, 43,
-    -72.5, 48.5,
-    5.5, 35.5,
-    5, 27,
-    25, 27,
-    73.5, 16,
-    102, 0,
-    73.5, -16,
-    25, -27,
-    5, -27,
-    5.5, -35.5,
-    -72.5, -48.5,
-    -94, -43,
-    -94, -18.5,
-    -70, 0
+    -116, 35.5,
+    -116, 60,
+    -94.5, 65.5,
+    -16.5, 52.5,
+    -17, 44,
+    3, 44,
+    51.5, 33,
+    80, 17,
+    51.5, 1,
+    3, -10,
+    -17, -10,
+    -16.5, -18.5,
+    -94.5, -31.5,
+    -116, -26,
+    -116, -1.5,
+    -92, 17
   ]
 }
