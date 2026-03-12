@@ -9,7 +9,7 @@
 		"contrailParticleSizeMult":1.5,
 		"contrailParticleDuration":2,
 		"contrailParticleFinalSizeMult":1,
-		"contrailDuration":2.5,
+		"contrailDuration":2,
 		"contrailWidthMult":0.5,
 		"contrailWidthAddedFractionAtEnd":-2,  # can be negative. makes trail spread out/narrow at the end
 		"contrailMinSeg":20, # min segment length, in pixels
@@ -35,7 +35,7 @@
 		"contrailParticleSizeMult":2,
 		"contrailParticleDuration":1,
 		"contrailParticleFinalSizeMult":1,
-		"contrailDuration":2.5,
+		"contrailDuration":2,
 		"contrailWidthMult":0.5,
 		"contrailWidthAddedFractionAtEnd":-2,  # can be negative. makes trail spread out/narrow at the end
 		"contrailMinSeg":40, # min segment length, in pixels

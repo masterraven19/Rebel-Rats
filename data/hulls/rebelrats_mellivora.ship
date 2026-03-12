@@ -101,40 +101,40 @@
   ],
   "engineSlots": [
     {
-      "location": [-115, 48],
-      "length": 100,
-      "width": 30,
-      "angle": 180,
-      "contrailSize": 30,
+      "location": [-109, 32],
+      "length": 66.26873,
+      "width": 20.293413,
+      "angle": 170,
+      "contrailSize": 20.293413,
       "style": "CUSTOM",
       "styleId": "Rats"
     },
     {
-      "location": [-115, -14],
-      "length": 100,
-      "width": 30,
-      "angle": -180,
-      "contrailSize": 30,
+      "location": [-109, -32],
+      "length": 66.26873,
+      "width": 20.293413,
+      "angle": -170,
+      "contrailSize": 20.293413,
       "style": "CUSTOM",
       "styleId": "Rats"
     },
     {
-      "location": [-117, 48],
-      "length": 100,
-      "width": 34,
-      "angle": 180,
-      "contrailSize": 34,
+      "location": [-110, 32.5],
+      "length": 65.023445,
+      "width": 17.686287,
+      "angle": 170,
+      "contrailSize": 17.686287,
       "style": "CUSTOM",
-      "styleId": "Rats"
+      "styleId": "Rats2"
     },
     {
-      "location": [-117, -14],
-      "length": 100,
-      "width": 34,
-      "angle": -180,
-      "contrailSize": 34,
+      "location": [-110, -32.5],
+      "length": 65.023445,
+      "width": 17.686287,
+      "angle": -170,
+      "contrailSize": 17.686287,
       "style": "CUSTOM",
-      "styleId": "Rats"
+      "styleId": "Rats2"
     }
   ],
   "bounds": [

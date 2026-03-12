@@ -3,12 +3,65 @@
   "hullId": "rebelrats_monax_p",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 1,
-  "fluxVents": 0,
+  "fluxCapacitors": 10,
+  "fluxVents": 26,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
-  "weaponGroups": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "rebelrats_trapee_m"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "rebelrats_falcon_m",
+        "WS0009": "rebelrats_falcon_m"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "rebelrats_pyroclast"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rebelrats_braggador_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "rebelrats_hawker",
+        "WS0004": "rebelrats_hawker",
+        "WS0007": "rebelrats_hawker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "mininglaser",
+        "WS0006": "mininglaser"
+      }
+    }
+  ],
   "modules": [],
-  "wings": []
+  "wings": [
+    "rebelrats_bluster_Bomber_wing",
+    "rebelrats_dustero_Fighter_wing"
+  ]
 }
