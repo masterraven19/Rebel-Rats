@@ -1,15 +1,15 @@
 {
-  "variantId": "rebelrats_cavia_balanced",
+  "variantId": "rebelrats_cavia_Balanced",
   "hullId": "rebelrats_cavia",
-  "displayName": "Line",
+  "displayName": "Balanced",
   "goalVariant": false,
-  "fluxCapacitors": 14,
-  "fluxVents": 40,
+  "fluxCapacitors": 7,
+  "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "auxiliarythrusters",
     "targetingunit",
+    "auxiliarythrusters",
     "reinforcedhull"
   ],
   "weaponGroups": [
@@ -17,58 +17,58 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0015": "rebelrats_kingmaker_l"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0016": "rebelrats_nezulana_l"
+        "WS0016": "rebelrats_lobsterclaw"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "rebelrats_huntsman_salvo",
-        "WS0008": "rebelrats_huntsman_salvo"
+        "WS0001": "rebelrats_kingmaker_l"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "rebelrats_mangonel_l",
+        "WS0012": "rebelrats_mangonel_l"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "rebelrats_equalizer_l",
-        "WS0010": "rebelrats_equalizer_l"
+        "WS0004": "rebelrats_crossbow_m",
+        "WS0005": "rebelrats_crossbow_m"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0011": "rebelrats_crossbow_m",
-        "WS0012": "rebelrats_crossbow_m"
+        "WS0002": "rebelrats_braggador_m",
+        "WS0003": "rebelrats_braggador_m",
+        "WS0015": "rebelrats_braggador_m"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "rebelrats_ashford",
-        "WS0004": "rebelrats_ashford",
-        "WS0005": "rebelrats_ashford",
-        "WS0006": "rebelrats_ashford",
+        "WS0006": "rebelrats_poacher_s",
+        "WS0007": "rebelrats_poacher_s",
+        "WS0010": "rebelrats_poacher_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "rebelrats_ashford",
+        "WS0009": "rebelrats_ashford",
         "WS0013": "rebelrats_ashford",
-        "WS0014": "rebelrats_custodian_m"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "rebelrats_rattenjager_m",
-        "WS0002": "rebelrats_rattenjager_m"
+        "WS0014": "rebelrats_ashford"
       }
     }
   ],
