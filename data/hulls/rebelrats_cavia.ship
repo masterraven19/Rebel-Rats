@@ -21,9 +21,8 @@
     "rebelrats_hippo_Fighter_wing"
   ],
   "builtInWeapons": {
-    "WS0001": "rebelrats_kingmaker_l",
-    "WS0016": "rebelrats_lobsterclaw",
-    "WS0017": "rebelrats_targetinglaser"
+    "WS0001": "rebelrats_procavia_l",
+    "WS0016": "rebelrats_lobsterclaw"
   },
   "weaponSlots": [
     {
@@ -33,7 +32,8 @@
       "mount": "TURRET",
       "arc": 300,
       "angle": 0,
-      "locations": [-36, -0]
+      "locations": [-36, -0],
+      "renderOrderMod": 1
     },
     {
       "id": "WS0002",
@@ -181,15 +181,6 @@
         -31.5, 105.5,
         -34, -105.5
       ]
-    },
-    {
-      "id": "WS0017",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "TURRET",
-      "arc": 300,
-      "angle": 0,
-      "locations": [-36.5, -0]
     }
   ],
   "engineSlots": [

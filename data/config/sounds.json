@@ -52,7 +52,7 @@
         {"file":"sounds/rebelrats/weapons/petardcanister_firing.ogg","pitch":1.00,"volume":0.8},
     ],
     "rebelrats_poacher_firing": [
-        {"file":"sounds/rebelrats/weapons/poacher_firing3.ogg","pitch":1.00,"volume":0.2},
+        {"file":"sounds/rebelrats/weapons/poacher_firing3.ogg","pitch":1.00,"volume":0.3},
     ],
     "rebelrats_spinaldoldrums_firing": [
         {"file":"sounds/rebelrats/weapons/spinaldoldrums_firing1.ogg","pitch":1.00,"volume":0.7},

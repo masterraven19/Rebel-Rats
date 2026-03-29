@@ -1,7 +1,7 @@
 E:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -y -r 24 -start_number 0 -start_number_range 1 -i E:/GitHub/Rebel-Rats/graphics/rebelrats/fx/frame%04d.png -i E:/GitHub/Rebel-Rats/graphics/rebelrats/fx/KritaTempPalettegen_%06d.png -lavfi [0:v][1:v]paletteuse=dither=sierra2_4a:diff_mode=none -f gif -loop 0 -gifflags +transdiff E:/GitHub/Rebel-Rats/graphics/rebelrats/fx/doldrums part 2.gif
 =====================================================
 Input #0, image2, from 'E:/GitHub/Rebel-Rats/graphics/rebelrats/fx/frame%04d.png':
-  Duration: 00:00:01.00, start: 0.000000, bitrate: N/A
+  Duration: 00:00:01.32, start: 0.000000, bitrate: N/A
   Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 42x190 [SAR 11811:11811 DAR 21:95], 25 fps, 25 tbr, 25 tbn
 Input #1, image2, from 'E:/GitHub/Rebel-Rats/graphics/rebelrats/fx/KritaTempPalettegen_%06d.png':
   Duration: 00:00:00.04, start: 0.000000, bitrate: N/A
@@ -17,5 +17,5 @@ Output #0, gif, to 'E:/GitHub/Rebel-Rats/graphics/rebelrats/fx/doldrums part 2.g
   Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 42x190 [SAR 1:1 DAR 21:95], q=2-31, 200 kb/s, 24 fps, 100 tbn
       Metadata:
         encoder         : Lavc61.19.101 gif
-[out#0/gif @ 00000158ce23c580] video:115KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.017037%
-frame=   25 fps=0.0 q=-0.0 Lsize=     115KiB time=00:00:01.04 bitrate= 901.7kbits/s speed=38.9x    
+[out#0/gif @ 0000020a9330d480] video:153KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.012739%
+frame=   33 fps=0.0 q=-0.0 Lsize=     153KiB time=00:00:01.37 bitrate= 913.6kbits/s speed=36.7x    

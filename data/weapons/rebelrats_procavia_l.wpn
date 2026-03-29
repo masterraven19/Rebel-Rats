@@ -1,0 +1,63 @@
+{
+  "id": "rebelrats_procavia_l",
+  "specClass": "projectile",
+  "projectileSpecId": "rebelrats_doldrums_rod",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.rebelrats_spinalDoldrumsEffect",
+  "displayArcRadius": 1500,
+  "turretSprite": "graphics/rebelrats/weapons/procavia_turret_base.png",
+  "turretGlowSprite": "graphics/rebelrats/weapons/procavia_turret_glow.png",
+  "turretGunSprite": "graphics/rebelrats/weapons/procavia_turret_barrel.png",
+  "hardpointSprite": "graphics/rebelrats/weapons/procavia_turret_base.png",
+  "hardpointGlowSprite": "graphics/rebelrats/weapons/procavia_turret_glow.png",
+  "hardpointGunSprite": "graphics/rebelrats/weapons/procavia_turret_barrel.png",
+  "renderBelowAllWeapons": false,
+  "glowColor": [
+    100,
+    100,
+    255,
+    255
+  ],
+  "visualRecoil": 9,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    79.5,
+    19.5,
+    79.5,
+    -19.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    39.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "interruptibleBurst": true,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 100,
+    "spread": 5,
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "particleDuration": 2,
+    "particleCount": 25,
+    "particleColor": [
+      218,
+      125,
+      222,
+      105
+    ]
+  },
+  "fireSoundOne": "rebelrats_spinaldoldrums_charging",
+  "fireSoundTwo": "rebelrats_spinaldoldrums_firing"
+}
