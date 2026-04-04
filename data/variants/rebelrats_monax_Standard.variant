@@ -3,7 +3,7 @@
   "hullId": "rebelrats_monax",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 1,
   "fluxVents": 5,
   "quality": 1,
   "permaMods": [],
