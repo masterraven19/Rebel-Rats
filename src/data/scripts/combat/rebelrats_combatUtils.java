@@ -1,5 +1,10 @@
 package data.scripts.combat;
 
+import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.combat.*;
+import data.scripts.utils.rebelrats_booleanUtils;
+import org.apache.log4j.Logger;
+import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
 import java.util.Iterator;
@@ -65,6 +70,35 @@ public class rebelrats_combatUtils {
     public static float randomNumber(float min, float max){
         float r = (float)Math.random() * ((max - min + 1) + min);
         return r;
+    }
+    public static MissileAPI getClosestMissile(
+            CombatEngineAPI engine, ShipAPI ship, WeaponAPI weapon, float startRange
+    ){
+        float range = startRange;
+        for (MissileAPI m : engine.getMissiles()){
+            if(rebelrats_booleanUtils.notAvailableEnemyMissile(m,ship)) continue;
+
+            float d = MathUtils.getDistance(weapon.getLocation(),m.getLocation());
+            if(d > weapon.getRange())continue;
+            if(d < range){
+                range = d;
+            }
+        }
+        return null;
+    }
+    public static Vector2f getFuturePosition(
+            CombatEntityAPI target, float time
+    ){
+        Vector2f currentLocation = target.getLocation();
+        Vector2f velocity = target.getVelocity();
+        return new Vector2f(
+                currentLocation.x + (velocity.x * time),
+                currentLocation.y + (velocity.y * time)
+        );
+    }
+    public static void logMessage(Class<?> currentClass, String message){
+        Logger log = Global.getLogger(currentClass);
+        log.warn(message);
     }
     public static boolean isPointInPoints(List<Vector2f> points, Vector2f point){
         Iterator<Vector2f> iterator = points.iterator();

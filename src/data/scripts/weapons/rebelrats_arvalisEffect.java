@@ -29,9 +29,7 @@ public class rebelrats_arvalisEffect implements OnHitEffectPlugin{
 
         float pFacing = projectile.getFacing();
         if (shieldHit){
-            if ((float)Math.random() > shieldBounceChance)return;
-
-
+            if (Math.random() > shieldBounceChance)return;
             float reflectAngle;
 
             float normal = rebelrats_combatUtils.calcDirectionOfTwoPoints(point,target.getLocation());
