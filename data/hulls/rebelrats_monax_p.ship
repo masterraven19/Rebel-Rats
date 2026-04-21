@@ -17,7 +17,7 @@
   ],
   "weaponSlots": [
     {
-      "id": "WS0001",
+      "id": "WS0003",
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
@@ -26,7 +26,7 @@
       "locations": [29, -0]
     },
     {
-      "id": "WS0002",
+      "id": "WS0004",
       "size": "MEDIUM",
       "type": "COMPOSITE",
       "mount": "TURRET",
@@ -35,7 +35,7 @@
       "locations": [116.5, 13.5]
     },
     {
-      "id": "WS0003",
+      "id": "WS0005",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
@@ -44,7 +44,7 @@
       "locations": [79, -35.5]
     },
     {
-      "id": "WS0004",
+      "id": "WS0006",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
@@ -53,7 +53,7 @@
       "locations": [83.5, 30.5]
     },
     {
-      "id": "WS0005",
+      "id": "WS0007",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
@@ -62,7 +62,7 @@
       "locations": [-54.5, 25.5]
     },
     {
-      "id": "WS0006",
+      "id": "WS0008",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
@@ -71,7 +71,7 @@
       "locations": [-54.5, -26.5]
     },
     {
-      "id": "WS0007",
+      "id": "WS0009",
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
@@ -80,7 +80,7 @@
       "locations": [-77.5, -0.5]
     },
     {
-      "id": "WS0008",
+      "id": "WS0010",
       "size": "MEDIUM",
       "type": "MISSILE",
       "mount": "HARDPOINT",
@@ -89,7 +89,7 @@
       "locations": [23, -41]
     },
     {
-      "id": "WS0009",
+      "id": "WS0011",
       "size": "MEDIUM",
       "type": "MISSILE",
       "mount": "HARDPOINT",
@@ -98,7 +98,7 @@
       "locations": [48, -41]
     },
     {
-      "id": "WS0010",
+      "id": "WS0012",
       "size": "SMALL",
       "type": "SYNERGY",
       "mount": "HARDPOINT",
