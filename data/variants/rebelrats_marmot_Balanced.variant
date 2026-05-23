@@ -1,17 +1,16 @@
 {
-  "variantId": "rebelrats_marmot_Balanced",
+  "variantId": "rebelrats_marmot_Antifighter",
   "hullId": "rebelrats_marmot",
-  "displayName": "Standard",
+  "displayName": "Anti-Fighter",
   "goalVariant": true,
-  "fluxCapacitors": 1,
+  "fluxCapacitors": 31,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "fluxbreakers",
-    "targetingunit",
+    "pointdefenseai",
     "reinforcedhull",
-    "missleracks"
+    "targetingunit"
   ],
   "weaponGroups": [
     {
@@ -32,24 +31,22 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0012": "rebelrats_huntsman_salvo",
-        "WS0013": "rebelrats_huntsman_salvo"
+        "WS0012": "rebelrats_falcon_m"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "rebelrats_crossbow_m",
-        "WS0010": "rebelrats_crossbow_m"
+        "WS0007": "rebelrats_hawker"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "rebelrats_hawker",
-        "WS0003": "rebelrats_hawker"
+        "WS0009": "rebelrats_custodian_m",
+        "WS0010": "rebelrats_custodian_m"
       }
     },
     {
@@ -57,37 +54,38 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "rebelrats_ranger",
-        "WS0006": "rebelrats_ranger",
-        "WS0007": "rebelrats_ranger"
+        "WS0002": "rebelrats_poacher_s",
+        "WS0003": "rebelrats_poacher_s",
+        "WS0006": "rebelrats_poacher_s"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "rebelrats_ashford",
-        "WS0005": "rebelrats_ashford"
+        "WS0004": "rebelrats_amos_s",
+        "WS0005": "rebelrats_amos_s"
       }
     }
   ],
   "modules": [
     {
-      "WS0015": "rebelrats_ablativeright_Standard"
-    },
-    {
-      "WS0014": "rebelrats_ablativeleft_Standard"
+      "WS0019": "rebelrats_longablativeright_Standard"
     },
     {
       "WS0018": "rebelrats_longablativeleft_Standard"
     },
     {
-      "WS0019": "rebelrats_longablativeright_Standard"
+      "WS0014": "rebelrats_ablativeleft_Standard"
     },
     {
       "WS0016": "rebelrats_ablativeleft_Standard"
     },
     {
       "WS0017": "rebelrats_ablativeright_Standard"
+    },
+    {
+      "WS0015": "rebelrats_ablativeright_Standard"
     }
   ],
   "wings": [

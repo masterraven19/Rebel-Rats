@@ -30,8 +30,7 @@
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0012": "rebelrats_falcon_m",
-        "WS0013": "rebelrats_falcon_m"
+        "WS0012": "rebelrats_falcon_m"
       }
     },
     {
