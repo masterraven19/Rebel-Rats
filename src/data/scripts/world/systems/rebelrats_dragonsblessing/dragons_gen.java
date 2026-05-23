@@ -25,6 +25,7 @@ import com.fs.starfarer.api.impl.campaign.terrain.AsteroidFieldTerrainPlugin;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.campaign.JumpPointAPI;
 import com.fs.starfarer.api.util.Misc;
+import data.scripts.campaign.ids.rebelrats_Markets;
 
 import java.util.Collections;
 
@@ -40,10 +41,12 @@ public class dragons_gen {
         // the yellow!! giant
         // to make the orbit days consistent I will divide the radius from whatever it orbits
         // by 30
-        PlanetAPI systemstar = system.initStar("Dragon's Blessing", // unique id for this star
-        "star_yellow", // id in planets.json
-        1100f, // radius (in pixels at default zoom)
-        450); // corona radius, from star edge
+        PlanetAPI systemstar = system.initStar(
+                "Dragon's Blessing", // unique id for this star
+                "star_yellow", // id in planets.json
+                1100f, // radius (in pixels at default zoom)
+                450
+        ); // corona radius, from star edge
         //flood them in yellow
         system.setLightColor(new Color(255,247,215)); // light color in entire system, affects all entities        
         
@@ -178,7 +181,7 @@ public class dragons_gen {
 
         //markets and conditions
         //krysa
-        MarketAPI rattus_market = Global.getFactory().createMarket("rattus_market", "", 7);
+        MarketAPI rattus_market = Global.getFactory().createMarket(rebelrats_Markets.krysa, "", 7);
         rattus.setMarket(rattus_market);
         rattus_market.setPrimaryEntity(rattus);
                             
@@ -366,10 +369,7 @@ public class dragons_gen {
 
         outerstation_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         globalEconomy.addMarket(outerstation_market,false);
-        //persons
-        //gen_NPCs.generate_FRO(rattus_market);
-        //gen_NPCs.generate_Thackery(rattus_market);
-        //moved to onNewGameAfterEconomyLoad()
+
         //jumpoints
         JumpPointAPI jump1 = Global.getFactory().createJumpPoint("lower_jaw",
                 "Dragon's Lower Jaw");

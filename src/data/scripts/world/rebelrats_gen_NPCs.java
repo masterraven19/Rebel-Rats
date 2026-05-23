@@ -11,6 +11,12 @@ import com.fs.starfarer.api.impl.campaign.ids.Skills;
 import com.fs.starfarer.api.impl.campaign.ids.Tags;
 
 public class rebelrats_gen_NPCs {
+    private void addPerson(PersonAPI person, MarketAPI market){
+        market.getCommDirectory().addPerson(person);
+        market.addPerson(person);
+        ImportantPeopleAPI ip = Global.getSector().getImportantPeople();
+        ip.addPerson(person);
+    }
     public void generate_FRO(MarketAPI market){
         PersonAPI p = Global.getFactory().createPerson();
         FullName name = new FullName("Nazarin","Dess", FullName.Gender.FEMALE);
@@ -24,10 +30,7 @@ public class rebelrats_gen_NPCs {
         p.setPostId(post);
         p.addTag(Tags.CONTACT_TRADE);
 
-        market.getCommDirectory().addPerson(p,0);
-        market.addPerson(p);
-        ImportantPeopleAPI ip = Global.getSector().getImportantPeople();
-        ip.addPerson(p);
+        addPerson(p, market);
     }
     public void generate_Thackery(MarketAPI market){
         PersonAPI p = Global.getFactory().createPerson();
@@ -45,9 +48,6 @@ public class rebelrats_gen_NPCs {
         p.getStats().setSkillLevel("rebelrats_furious_brawler",1f);
         p.getStats().setSkillLevel("rebelrats_gunnery_drills",1f);
 
-        ImportantPeopleAPI ip = Global.getSector().getImportantPeople();
-        ip.addPerson(p);
-        market.getCommDirectory().addPerson(p);
-        market.addPerson(p);
+        addPerson(p, market);
     }
 }

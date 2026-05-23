@@ -7,6 +7,7 @@ import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.BaseCampaignObjectivePlugin;
 import com.fs.starfarer.api.util.Misc;
 import data.scripts.campaign.ids.rebelrats_Conditions;
+import data.scripts.campaign.ids.rebelrats_Markets;
 
 public class rebelrats_powerstationEntityPlugin extends BaseCampaignObjectivePlugin {
     //private float accessbonus = 20;
@@ -29,7 +30,7 @@ public class rebelrats_powerstationEntityPlugin extends BaseCampaignObjectivePlu
 
         if (elapsed > dur) {
             elapsed -= dur;
-            String krysanOwner = Global.getSector().getEconomy().getMarket("rattus_market").getFactionId();
+            String krysanOwner = Global.getSector().getEconomy().getMarket(rebelrats_Markets.krysa).getFactionId();
             float aidRange = 15f;
 
             if (!krysanOwner.matches("rebelrats")){

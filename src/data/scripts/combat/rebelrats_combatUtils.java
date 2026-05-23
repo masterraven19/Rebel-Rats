@@ -12,6 +12,8 @@ import java.util.List;
 
 
 public class rebelrats_combatUtils {
+    public static final float PI = (float) Math.PI;
+
     public static Vector2f calcSideMissileLaunch(float angle, float launchAngle, float launchSpeed, Vector2f slotloc){
         float dx;
         float dy;
@@ -86,15 +88,38 @@ public class rebelrats_combatUtils {
         }
         return null;
     }
-    public static Vector2f getFuturePosition(
+    public static Vector2f predictLinearAndAngular(
             CombatEntityAPI target, float time
     ){
         Vector2f currentLocation = target.getLocation();
         Vector2f velocity = target.getVelocity();
-        return new Vector2f(
-                currentLocation.x + (velocity.x * time),
-                currentLocation.y + (velocity.y * time)
+        float angularVelocity = target.getAngularVelocity();
+
+        float speed = velocity.length();
+        Vector2f combinedVelocity = new Vector2f(
+                speed * (cos(angularVelocity) * time),
+                speed * (sin(angularVelocity) * time)
         );
+
+        return new Vector2f(
+                currentLocation.x + combinedVelocity.x * time,
+                currentLocation.y + combinedVelocity.y * time
+        );
+    }
+    public static Vector2f applyRotationMatrix(float angle, Vector2f position){
+        return new Vector2f(
+                cos(angle) * position.x - sin(angle) * position.y,
+                cos(angle) * position.x + sin(angle) * position.y
+        );
+    }
+    public static float sin(float angle){
+        return (float) Math.sin(angle);
+    }
+    public static float cos(float angle){
+        return (float) Math.cos(angle);
+    }
+    public static float toRadians(float angle){
+        return (float) Math.toRadians(angle);
     }
     public static void logMessage(Class<?> currentClass, String message){
         Logger log = Global.getLogger(currentClass);
