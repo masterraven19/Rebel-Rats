@@ -5,11 +5,11 @@
   "spriteName": "graphics/rebelrats/ships/dormouse_light_cruiser.png",
   "style": "REBELRATS",
   "height": 260,
-  "width": 90,
-  "center": [45, 127],
+  "width": 92,
+  "center": [46, 132.5],
   "collisionRadius": 187.5,
   "shieldCenter": [0, -0],
-  "shieldRadius": 154.5,
+  "shieldRadius": 157.5,
   "viewOffset": 0,
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid",
@@ -20,22 +20,13 @@
   },
   "weaponSlots": [
     {
-      "id": "WS0001",
-      "size": "SMALL",
-      "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 267,
-      "angle": 0,
-      "locations": [101, -0]
-    },
-    {
       "id": "WS0002",
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
       "arc": 238,
       "angle": 90,
-      "locations": [38, 28]
+      "locations": [32.5, 28]
     },
     {
       "id": "WS0003",
@@ -44,16 +35,16 @@
       "mount": "TURRET",
       "arc": 238,
       "angle": -90,
-      "locations": [38, -28]
+      "locations": [32.5, -28]
     },
     {
       "id": "WS0004",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 320,
+      "arc": 270,
       "angle": 180,
-      "locations": [-56, -0]
+      "locations": [-61.5, -0]
     },
     {
       "id": "WS0005",
@@ -62,7 +53,7 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [43, -0]
+      "locations": [37.5, 0]
     },
     {
       "id": "WS0006",
@@ -71,7 +62,7 @@
       "mount": "TURRET",
       "arc": 90,
       "angle": 0,
-      "locations": [131, -0]
+      "locations": [125.5, -0]
     },
     {
       "id": "WS0007",
@@ -80,7 +71,7 @@
       "mount": "TURRET",
       "arc": 267,
       "angle": 0,
-      "locations": [78, -0]
+      "locations": [81.5, -0]
     },
     {
       "id": "WS0008",
@@ -89,7 +80,7 @@
       "mount": "TURRET",
       "arc": 160,
       "angle": 60,
-      "locations": [64, 22]
+      "locations": [55.5, 23]
     },
     {
       "id": "WS0009",
@@ -98,21 +89,21 @@
       "mount": "TURRET",
       "arc": 160,
       "angle": -60,
-      "locations": [64, -22]
+      "locations": [55.5, -23]
     },
     {
       "id": "WS0010",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 255,
+      "arc": 320,
       "angle": 180,
-      "locations": [0, -0]
+      "locations": [-5.5, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-86, -0],
+      "location": [-113.5, -0],
       "length": 148,
       "width": 57,
       "angle": 180,
@@ -121,7 +112,7 @@
       "styleId": "Rats"
     },
     {
-      "location": [-87, -0],
+      "location": [-112.5, -0],
       "length": 148,
       "width": 60,
       "angle": 180,
@@ -131,22 +122,25 @@
     }
   ],
   "bounds": [
-    -118.5, -27,
-    -76.5, -17.5,
-    -57, -27.5,
-    -76, -44.5,
-    -17, -26,
-    -14, -34.5,
-    38, -34,
-    102, -23,
-    131, -0,
-    102, 23,
-    38, 34,
-    -14, 34.5,
-    -17, 26,
-    -76, 44.5,
-    -57, 27.5,
-    -76.5, 17.5,
-    -118.5, 27
+    -130.5, -33.5,
+    -87, -17,
+    -63.5, -25.5,
+    -83, -43.5,
+    -27, -30.5,
+    -19, -37.5,
+    4.5, -34,
+    34, -37,
+    73, -33.5,
+    124.5, -11.5,
+    124.5, 11.5,
+    73, 33.5,
+    34, 37,
+    4.5, 34,
+    -19, 37.5,
+    -27, 30.5,
+    -83, 43.5,
+    -63.5, 25.5,
+    -87, 17,
+    -130.5, 33.5
   ]
 }

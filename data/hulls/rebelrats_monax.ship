@@ -6,10 +6,10 @@
   "style": "REBELRATS",
   "height": 276,
   "width": 109,
-  "center": [55, 131],
-  "collisionRadius": 169,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 148.5,
+  "center": [57, 137.5],
+  "collisionRadius": 181.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 163,
   "viewOffset": 0,
   "builtInMods": [
     "hiressensors",
@@ -24,7 +24,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 90,
-      "locations": [22, 46]
+      "locations": [15.5, 48]
     },
     {
       "id": "WS0002",
@@ -33,7 +33,7 @@
       "mount": "TURRET",
       "arc": 300,
       "angle": 0,
-      "locations": [47, -2]
+      "locations": [40.5, 0]
     },
     {
       "id": "WS0003",
@@ -42,39 +42,60 @@
       "mount": "TURRET",
       "arc": 307,
       "angle": 180,
-      "locations": [-53, -2]
+      "locations": [-59.5, 0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-127.5, 0],
-      "length": 150,
-      "width": 50,
+      "location": [-136.5, 16],
+      "length": 60,
+      "width": 20,
       "angle": 180,
-      "contrailSize": 50,
+      "contrailSize": 20,
       "style": "CUSTOM",
       "styleId": "Rats"
     },
     {
-      "location": [-130, 0],
-      "length": 150,
-      "width": 50,
-      "angle": -180,
-      "contrailSize": 50,
+      "location": [-134.5, 16],
+      "length": 60,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "CUSTOM",
+      "styleId": "Rats2"
+    },
+    {
+      "location": [-136.5, -24],
+      "length": 60,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "CUSTOM",
+      "styleId": "Rats"
+    },
+    {
+      "location": [-134.5, -24],
+      "length": 60,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
       "style": "CUSTOM",
       "styleId": "Rats2"
     }
   ],
   "bounds": [
-    108.5, 4,
-    96, 45.5,
-    -15.5, 55.5,
-    -86, 26,
-    -129, 24,
-    -129, -24,
-    -85.5, -23.5,
-    -59, -44.5,
-    85, -44,
-    103, -36
+    133.5, -22.5,
+    133.5, 21,
+    111.5, 35.5,
+    95, 27.5,
+    14.5, 54,
+    -1, 41.5,
+    -60, 38.5,
+    -134.5, 31.5,
+    -136.5, -41,
+    -52, -39.5,
+    -17, -46,
+    0.5, -40.5,
+    105.5, -40
   ]
 }
