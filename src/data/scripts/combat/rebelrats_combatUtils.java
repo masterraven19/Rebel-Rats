@@ -78,7 +78,7 @@ public class rebelrats_combatUtils {
     ){
         float range = startRange;
         for (MissileAPI m : engine.getMissiles()){
-            if(rebelrats_booleanUtils.notAvailableEnemyMissile(m,ship)) continue;
+            if(rebelrats_booleanUtils.isNotEnemyMissile(m,ship)) continue;
 
             float d = MathUtils.getDistance(weapon.getLocation(),m.getLocation());
             if(d > weapon.getRange())continue;
@@ -123,7 +123,7 @@ public class rebelrats_combatUtils {
     }
     public static void logMessage(Class<?> currentClass, String message){
         Logger log = Global.getLogger(currentClass);
-        log.warn(message);
+        log.info(message);
     }
     public static boolean isPointInPoints(List<Vector2f> points, Vector2f point){
         Iterator<Vector2f> iterator = points.iterator();
