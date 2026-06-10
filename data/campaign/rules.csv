@@ -14,7 +14,7 @@ SetShortcut beaconLeave ""ESCAPE""",An autonomous warning beacon has been left e
 ,,,,,,
 #MARKET INTERACTIONS TEXT,,,,,,
 rebelrats_rattusInteractionText,MarketPostOpen,"$hasMarket
-$market.id == rattus_market
+$market.id == rebelrats_rattus_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
 FireBest MarketPostDock","Passing through the shuttle's doors, Port 11 brimmed with activity as people from all walks of life went about their daily routine, unbothered by the eclectic set of shuttles coming in and out of the island spaceport.
@@ -27,7 +27,7 @@ Beyond the menial food vendors of the concourse, a large hallway gave way to a n
 
 With such a warm atmosphere, Krysa is almost like a home away from home.",,
 rebelrats_malusInteractionText,MarketPostOpen,"$hasMarket
-$market.id == malus_market
+$market.id == rebelrats_malus_market
 !$player.transponderOn","$tradeMode = OPEN 0
 FireBest MarketPostDock","The rolling airlock of New Eden Cove roars to life with a menagerie of thumps and clunks, having seen better days with faded warning signs and burnt out bulbs.
 
@@ -35,7 +35,7 @@ Passing the shoddy airlock, the grungy yellow-lit hallways of New Eden Cove gave
 
 Passing by the droves of arrivals, an overbuilt security checkpoint manned by armed guards marked the end of the hallway, leading up to a platform of elevators which led to the underground portion of New Eden Cove.",,
 rebelrats_nutriaInteractionText,MarketPostOpen,"$hasMarket
-$market.id == nutria_market
+$market.id == rebelrats_nutria_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
 FireBest MarketPostDock","Stepping off of the shuttle, a cold breeze filled the air, almost burning one's lungs. Plumes of steam from geysers and manholes alike emit a subtle smell of sulfur as one made their way through the neon-filled promenade which offered a comprehensive view of the medley of ships and shuttles making their way to port and from orbit.
@@ -44,7 +44,7 @@ The familiar sight of hab blocks and commercial skyscrapers marked the skies whi
 
 While taking in the view, an ad-drone then greets you and your crew with the latest personalized deals as you made your way to the trams.",,
 rebelrats_magawaInteractionText,MarketPostOpen,"$hasMarket
-$market.id == magawa_market
+$market.id == rebelrats_magawa_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
 FireBest MarketPostDock","Massive emplacements, others operational, others clearly decommissioned, announced themselves with steadfast disposition. Tenders can be seen dutifully servicing the presumably would be tunnels that meandered their way across the pockmarked surface.From afar, massive ground level wharfs offered a comprehensive view of the planet's extensive garrison of frigates, destroyers, cruisers, and capital ships in service to the Federal Navy.
@@ -53,28 +53,28 @@ Stepping off of the elevator, the concourse was surprisingly pristine, almost da
 
 Despite rough initial impressions, one gets a feeling that a stay at Magawa may not be as spartan as its exterior may show.",,
 rebelrats_rodentiaInteractionText,MarketPostOpen,"$hasMarket
-$market.id == rodentia_market
+$market.id == rebelrats_rodentia_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
 FireBest MarketPostDock","The airlock to Rodentia Station silently shuffled open, moving aside into a quaint perpendicular hallway filled with the familiar hum of airscrubbers and occasional clicking of refrigeration units, all illuminated by harsh sterile  overhead lights.
 
 The monotony of the spotless hallway would be occasionally broken up by shadows of passing ships from the windows, most likely another would be trader. Onwards, an overhead illumination panel would offer directions to the various points of interest of the station.",,
 rebelrats_outerstationInteractionText,MarketPostOpen,"$hasMarket
-$market.id == outerstation_market
+$market.id == rebelrats_outerstation_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
 FireBest MarketPostDock","Having avoided docking at the busier docks of the station, the mood of the smaller docks' concourse were of subdued, somber silence as warm sunlight is replaced by dreary, neonlit halls broken up by the dimly mix of bars, sweatshops, and shady establishments quietly selling off the shelf prosthetics, beauty products, etc,. 
 
 Piercing through the dark halls, below the strips of holo-ads, glimmers of neon illumination highlighted the disgraced locals, merchants, and deadbeat workers idling in open bars, minding their own business.",,
 rebelrats_tikusInteractionText,MarketPostOpen,"$hasMarket
-$market.id == tikus_market
+$market.id == rebelrats_tikus_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
 FireBest MarketPostDock","Teams of miners, labor drones, and soldiers busied themselves throughout the concourse of Lobby 6.
 
 Looking out of one of the thick, curved glass window, mining ships and mobile refineries made up most of the wharf's population. A pair of guide-drones would greet your torupe shortly, offering the notable locations on the station",,
 rebelrats_tikusII_InteractionText,MarketPostOpen,"$hasMarket
-$market.id == tikusII_market
+$market.id == rebelrats_tikusII_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
 FireBest MarketPostDock","The shuttle's hard worked doors gave way to an overarching view of the settlement and the surrounding lush fauna due to the spaceport perching itself higher than the settlement.
@@ -85,7 +85,7 @@ Beyond the central village of shops, swaths of farmland dominated the outskirts,
 
 Your officer points to the motley pack of shuttles sauntering to and fro on adhoc loading bays while funiculars tirelessly transported passengers up and down the heights.",,
 rebelrats_tikusIII_InteractionText,MarketPostOpen,"$hasMarket
-$market.id == tikusIII_market
+$market.id == rebelrats_tikusIII_market
 $player.transponderOn
 !$faction.isNeutralFaction","$tradeMode = OPEN 0
 FireBest MarketPostDock","From orbit, what little human civilisation that could be found were huddled around the few geysers, marked by a few vestiges of light. On the way from orbit, it became clear that those streaks of grey snaking its way through the planet's surface were gas pipes dutifully shunting its contents while a streak of lights marked what little road infrastructure was built.
@@ -196,21 +196,31 @@ $rebelrats_gotMurinae == true
 $rebelrats_gotMastomys == true",,"""Ehe, unfortunately, we don't have anyone available.""
 
 One can almost imagine a shrug from the portrait as she quiets herself before the sound of a candy wrapper momentarily breaks the silence.","rebelrats_nazar_escortOpt:""Unfortunate""",
-rebelrats_nazar_buyEscortCredit,DialogOptionSelected,$option == rebelrats_nazar_buyEscortCredit,"DoCanAffordCheck 75000 rebelrats_nazar_hireRocimar
-DoCanAffordCheck 100000 rebelrats_nazar_hireRufodorsalis
-DoCanAffordCheck 132000 rebelrats_nazar_hireMallomy
-DoCanAffordCheck 256000 rebelrats_nazar_hireMurinae
-DoCanAffordCheck 290000 rebelrats_nazar_hireMastomys
-rebelrats_doIsTrueCheck $rebelrats_gotRocimar rebelrats_nazar_hireRocimar
-rebelrats_doIsTrueCheck $rebelrats_gotRufodorsalis rebelrats_nazar_hireRufodorsalis
-rebelrats_doIsTrueCheck $rebelrats_gotMallomy rebelrats_nazar_hireMallomy
-rebelrats_doIsTrueCheck $rebelrats_gotMurinae rebelrats_nazar_hireMurinae
-rebelrats_doIsTrueCheck $rebelrats_gotMastomys rebelrats_nazar_hireMastomys","""Here's our general list! All the groups on this list come fully equipped and crewed. However! Do keep in mind that they can be only hired once.""","rebelrats_nazar_hireRocimar:Hire Rocimar Company (75k, Rattus and Mellivora)
-rebelrats_nazar_hireRufodorsalis:Hire Rufodorsalis Air Arm (100k, 2 Mellivoras)
-rebelrats_nazar_hireMallomy:Hire Mallomy Free Movers (132k, Pybara, 2 Patrons)
-rebelrats_nazar_hireMurinae:Hire Murinae Galloglass Raiders (236k, Nebula, 2 Mus Rattus, 1 Patron)
-rebelrats_nazar_hireMastomys:Hire Mastomys Grand Company (290k, Marmot, Mellivora, 2 Rattus, Monax)
+rebelrats_nazar_buyEscortCredit,DialogOptionSelected,$option == rebelrats_nazar_buyEscortCredit,"DoCanAffordCheck 75000 rebelrats_nazar_confirmHireRocimar
+DoCanAffordCheck 100000 rebelrats_nazar_confirmHireRufodorsalis
+DoCanAffordCheck 132000 rebelrats_nazar_confirmHireMallomy
+DoCanAffordCheck 256000 rebelrats_nazar_confirmHireMurinae
+DoCanAffordCheck 290000 rebelrats_nazar_confirmHireMastomys
+rebelrats_doIsTrueCheck $rebelrats_gotRocimar rebelrats_nazar_confirmHireRocimar
+rebelrats_doIsTrueCheck $rebelrats_gotRufodorsalis rebelrats_nazar_confirmHireRufodorsalis
+rebelrats_doIsTrueCheck $rebelrats_gotMallomy rebelrats_nazar_confirmHireMallomy
+rebelrats_doIsTrueCheck $rebelrats_gotMurinae rebelrats_nazar_confirmHireMurinae
+rebelrats_doIsTrueCheck $rebelrats_gotMastomys rebelrats_nazar_confirmHireMastomys","""Here's our general list! All the groups on this list come fully equipped and crewed. However! Do keep in mind that they can be only hired once.""","rebelrats_nazar_confirmHireRocimar:Hire Rocimar Company (75k, Rattus and Mellivora)
+rebelrats_nazar_confirmHireRufodorsalis:Hire Rufodorsalis Air Arm (100k, 2 Mellivoras)
+rebelrats_nazar_confirmHireMallomy:Hire Mallomy Free Movers (132k, Pybara, 2 Patrons)
+rebelrats_nazar_confirmHireMurinae:Hire Murinae Galloglass Raiders (236k, Nebula, 2 Mus Rattus, 1 Patron)
+rebelrats_nazar_confirmHireMastomys:Hire Mastomys Grand Company (290k, Marmot, Mellivora, 2 Rattus, Monax)
 rebelrats_nazar_escortOpt: ""Nevermind""",
+rebelrats_nazar_confirmHireRocimar,DialogOptionSelected,$option == rebelrats_nazar_confirmHireRocimar,"Highlight ""75,000""","Are you sure you want to hire the Rocimar group for 75,000 credits? (Rattus and Mellivora)","rebelrats_nazar_hireRocimar:Yep
+rebelrats_nazar_buyEscortCredit:Return to list",
+rebelrats_nazar_confirmHireRufodorsalis,DialogOptionSelected,$option == rebelrats_nazar_confirmHireRufodorsalis,"Highlight ""100,000""","Are you sure you want to hire the Rufodorsalis group for 100,000 credits?  (2 Mellivoras)","rebelrats_nazar_hireRufodorsalis:Yep
+rebelrats_nazar_buyEscortCredit:Return to list",
+rebelrats_nazar_confirmHireMallomy,DialogOptionSelected,$option == rebelrats_nazar_confirmHireMallomy,"Highlight ""132,000""","Are you sure you want to hire the Mallomy group for 132,000 credits? (Pybara, 2 Patrons)","rebelrats_nazar_hireMallomy:Yep
+rebelrats_nazar_buyEscortCredit:Return to list",
+rebelrats_nazar_confirmHireMurinae,DialogOptionSelected,$option == rebelrats_nazar_confirmHireMurinae,"Highlight ""256,000""","Are you sure you want to hire the Murinae group for 256,000 credits? (Nebula, 2 Mus Rattus, 1 Patron)","rebelrats_nazar_hireMurinae:Yep
+rebelrats_nazar_buyEscortCredit:Return to list",
+rebelrats_nazar_confirmHireMastomys,DialogOptionSelected,$option == rebelrats_nazar_confirmHireMastomys,"Highlight ""290,000""","Are you sure you want to hire the Mastomys group for 290,000 credits? (Marmot, Mellivora, 2 Rattus, Monax)","rebelrats_nazar_hireMastomys:Yep
+rebelrats_nazar_buyEscortCredit:Return to list",
 rebelrats_nazar_hireRocimar,DialogOptionSelected,$option == rebelrats_nazar_hireRocimar,"RemoveCommodity credits 75000
 rebelrats_hireMercenary rocimar
 $rebelrats_gotRocimar = true","""Excellent choice! The Rocimar Company will be happy to escort you in the void.""","rebelrats_nazar_buyEscortCredit:Return to list
