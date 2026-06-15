@@ -45,8 +45,8 @@
   "convergeOnPoint": true,
   "width": 18,
   "textureType": [
-    "graphics/fx/lasernormfringe_beam.png",
-    "graphics/fx/lasernormcore_beam.png"
+    "graphics/rebelrats/fx/lasernormfringe_beam.png",
+    "graphics/rebelrats/fx/lasernormcore_beam.png"
   ],
   "textureScrollSpeed": 100,
   "pixelsPerTexel": 5,
