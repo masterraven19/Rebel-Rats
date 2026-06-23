@@ -30,7 +30,13 @@ public class rebelrats_powerstationEntityPlugin extends BaseCampaignObjectivePlu
 
         if (elapsed > dur) {
             elapsed -= dur;
-            String krysanOwner = Global.getSector().getEconomy().getMarket(rebelrats_Markets.krysa).getFactionId();
+            MarketAPI krysanMarket = Global.getSector().getEconomy().getMarket(rebelrats_Markets.krysa);
+            if (krysanMarket == null) {
+                krysanMarket = Global.getSector().getEconomy().getMarket("rattus_market");
+                if (krysanMarket == null) return;
+            }
+            String krysanOwner = krysanMarket.getFactionId();
+
             float aidRange = 15f;
 
             if (!krysanOwner.matches("rebelrats")){

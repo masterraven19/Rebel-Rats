@@ -13,6 +13,7 @@ import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.impl.campaign.terrain.AsteroidFieldTerrainPlugin;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
+import data.scripts.campaign.ids.rebelrats_Markets;
 
 import java.awt.Color;
 import java.util.Collections;
@@ -121,7 +122,7 @@ public class rebelrats_tikus {
 
         //markets
         //tikus 1 (not green this time)
-        MarketAPI tikus_market = Global.getFactory().createMarket("rebelrats_tikus_market","",4);
+        MarketAPI tikus_market = Global.getFactory().createMarket(rebelrats_Markets.tikus,"",4);
         tikus.setMarket(tikus_market);
         tikus_market.setPrimaryEntity(tikus);
 
@@ -152,7 +153,7 @@ public class rebelrats_tikus {
         tikus_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         globalEconomy.addMarket(tikus_market, false);
         //tikus II jungle!!
-        MarketAPI tikusII_market = Global.getFactory().createMarket("rebelrats_tikusII_market","",5);
+        MarketAPI tikusII_market = Global.getFactory().createMarket(rebelrats_Markets.tikusII,"",5);
         tikusII.setMarket(tikusII_market);
         tikusII_market.setPrimaryEntity(tikusII);
 
@@ -185,7 +186,7 @@ public class rebelrats_tikus {
         tikusII_market.getIndustry(Industries.MINING).setAICoreId(Commodities.BETA_CORE);
         globalEconomy.addMarket(tikusII_market, true);
         //tikus 3 COLD
-        MarketAPI tikusIII_market = Global.getFactory().createMarket("rebelrats_tikusIII_market","",4);
+        MarketAPI tikusIII_market = Global.getFactory().createMarket(rebelrats_Markets.tikusIII,"",4);
         tikusIII.setMarket(tikusIII_market);
         tikusIII_market.setPrimaryEntity(tikusIII);
 

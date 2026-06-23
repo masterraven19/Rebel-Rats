@@ -219,7 +219,7 @@ public class dragons_gen {
         globalEconomy.addMarket(rattus_market, false);
         
         //malus
-        MarketAPI malus_market = Global.getFactory().createMarket("rebelrats_malus_market", "", 5);
+        MarketAPI malus_market = Global.getFactory().createMarket(rebelrats_Markets.malus, "", 5);
         malus.setMarket(malus_market);
         malus_market.setPrimaryEntity(malus);
         
@@ -251,7 +251,7 @@ public class dragons_gen {
         globalEconomy.addMarket(malus_market, false);
         
         //nutria
-        MarketAPI nutria_market = Global.getFactory().createMarket("rebelrats_nutria_market", "", 4);
+        MarketAPI nutria_market = Global.getFactory().createMarket(rebelrats_Markets.nutria, "", 4);
         nutria.setMarket(nutria_market);
         nutria_market.setPrimaryEntity(nutria);
         
@@ -315,7 +315,7 @@ public class dragons_gen {
         magawa_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         globalEconomy.addMarket(magawa_market, false);
 
-        MarketAPI rodentia_market = Global.getFactory().createMarket("rebelrats_rodentia_market", "", 4);
+        MarketAPI rodentia_market = Global.getFactory().createMarket(rebelrats_Markets.rodentia, "", 4);
         rodentia.setMarket(rodentia_market);
         rodentia_market.setPrimaryEntity(rodentia);
 
@@ -344,7 +344,7 @@ public class dragons_gen {
         rodentia_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
         globalEconomy.addMarket(rodentia_market, false);
 
-        MarketAPI outerstation_market = Global.getFactory().createMarket("rebelrats_outerstation_market", "", 4);
+        MarketAPI outerstation_market = Global.getFactory().createMarket(rebelrats_Markets.outerStation, "", 4);
         outerstation.setMarket(outerstation_market);
         outerstation_market.setPrimaryEntity(outerstation);
 
