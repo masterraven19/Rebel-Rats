@@ -1,0 +1,21 @@
+{
+	"id":"rebelrats_passThrough_shell",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"hitGlowRadius":10,
+	#"spawnType":"BALLISTIC",
+	#"collisionClass":"PROJECTILE_FF",
+	#"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":35.0,
+	"width":3.5,
+	"fadeTime":0.1,
+	"fringeColor":[0,145,238,255],
+	"coreColor":[99,194,255,200],
+	"glowColor":[0,145,238,255],
+	"glowRadius":0,
+	"textureScrollSpeed":120.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/fx/empty.png"
+}

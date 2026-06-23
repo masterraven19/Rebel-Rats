@@ -86,7 +86,7 @@ public class rebelrats_kingmakerEffect implements OnHitEffectPlugin, EveryFrameW
             float reflectAngle = pFacing - 180;
             float dist = MathUtils.getDistance(projectile.getSource(),target);
 
-            float normal = rebelrats_combatUtils.calcDirectionOfTwoPoints(point,target.getLocation());
+            float normal = rebelrats_combatUtils.calcDirectionOfTwoPoints(target.getLocation(),point);
             float diff = normal - reflectAngle;
             reflectAngle = normal + diff;
 

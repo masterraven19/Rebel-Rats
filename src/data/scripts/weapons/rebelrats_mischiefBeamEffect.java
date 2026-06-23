@@ -62,7 +62,7 @@ public class rebelrats_mischiefBeamEffect implements EveryFrameWeaponEffectPlugi
             for(MissileAPI m : engine.getMissiles()){
                 if(m.isFizzling() || m.isExpired())continue;
                 if(weapon.getShip().getOwner() == m.getOwner())continue;
-                float dir = rebelrats_combatUtils.calcDirectionOfTwoPoints(m.getLocation(),weapon.getLocation());
+                float dir = rebelrats_combatUtils.calcDirectionOfTwoPoints(weapon.getLocation(),m.getLocation());
                 if(MathUtils.getDistance(weapon.getLocation(),m.getLocation()) > range)continue;
 
                 if(arcFacing < 0){

@@ -38,7 +38,7 @@ public class rebelrats_mangonelOnHitEffect implements OnHitEffectPlugin {
                 float pFacing = projectile.getFacing();
                 float reflectAngle = pFacing - 180;
 
-                float normal = rebelrats_combatUtils.calcDirectionOfTwoPoints(point,target.getLocation());
+                float normal = rebelrats_combatUtils.calcDirectionOfTwoPoints(target.getLocation(),point);
                 float diff = normal - reflectAngle;
                 float reflectDiff = Math.abs(diff);
                 if(reflectDiff > ratioCone){reflectDiff = ratioCone;}
@@ -92,7 +92,7 @@ public class rebelrats_mangonelOnHitEffect implements OnHitEffectPlugin {
                     s1 = previousSegment;
                 }
             }
-            float surface = rebelrats_combatUtils.calcDirectionOfTwoPoints(s1.getP1(),s0.getP1());
+            float surface = rebelrats_combatUtils.calcDirectionOfTwoPoints(s0.getP1(),s1.getP1());
             float normal = surface - 90;
 
             for(int i = 0;i < shrapamt;i++){
