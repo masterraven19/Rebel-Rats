@@ -8,7 +8,7 @@ import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
-import data.scripts.combat.rebelrats_addExplosionFx;
+import data.scripts.combat.particles.rebelrats_addExplosionFx;
 import data.scripts.combat.rebelrats_combatUtils;
 import org.lwjgl.util.vector.Vector2f;
 

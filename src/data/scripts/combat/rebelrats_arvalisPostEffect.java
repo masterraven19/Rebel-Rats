@@ -1,14 +1,17 @@
 package data.scripts.combat;
 
-import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.BaseEveryFrameCombatPlugin;
+import com.fs.starfarer.api.combat.CombatEngineAPI;
+import com.fs.starfarer.api.combat.CombatEntityAPI;
+import com.fs.starfarer.api.combat.DamagingProjectileAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.impl.combat.BreachOnHitEffect;
 import com.fs.starfarer.api.input.InputEventAPI;
-import com.fs.starfarer.api.util.Misc;
 import data.scripts.combat.ids.rebelrats_Weapons;
 import data.scripts.weapons.rebelrats_arvalisEffect;
 import org.lwjgl.util.vector.Vector2f;
 
-import java.awt.*;
+import java.awt.Color;
 import java.util.List;
 
 public class rebelrats_arvalisPostEffect extends BaseEveryFrameCombatPlugin {
@@ -16,7 +19,6 @@ public class rebelrats_arvalisPostEffect extends BaseEveryFrameCombatPlugin {
     private CombatEngineAPI engine;
     private DamagingProjectileAPI passThroughProj;
     private ShipAPI target;
-    private float elapsed;
     private final float facingVel = 2 * ((Math.random() < 0.5f) ? 1f : -1f);
     private int currExplosion = 0;
 
@@ -69,10 +71,10 @@ public class rebelrats_arvalisPostEffect extends BaseEveryFrameCombatPlugin {
 
             BreachOnHitEffect.dealArmorDamage(passThroughProj, target, point, rebelrats_arvalisEffect.armorDmg);
 
-            rebelrats_addExplosionFx explosionFx = new rebelrats_addExplosionFx();
-            explosionFx.addExplosion("graphics/fx/explosion_ring0.png",null,new Vector2f(6,6),new Vector2f(150,150),point,new Vector2f(0,0), new Color(22, 153, 196),1.5F,1f,2.2F,0,(float) Math.random() * 180,0.8F,false);
-            CombatEntityAPI e = engine.addLayeredRenderingPlugin(explosionFx);
-            e.getLocation().set(point);
+//            rebelrats_addExplosionFx explosionFx = new rebelrats_addExplosionFx();
+//            explosionFx.addExplosion("graphics/fx/explosion_ring0.png",null,new Vector2f(6,6),new Vector2f(150,150),point,new Vector2f(0,0), new Color(22, 153, 196),1.5F,1f,2.2F,0,(float) Math.random() * 180,0.8F,false);
+//            CombatEntityAPI e = engine.addLayeredRenderingPlugin(explosionFx);
+//            e.getLocation().set(point);
 
             currExplosion++;
         }

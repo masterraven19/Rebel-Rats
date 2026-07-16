@@ -2,6 +2,7 @@ package data.scripts.weapons;
 import java.awt.Color;
 
 import com.fs.starfarer.api.combat.CollisionClass;
+import com.fs.starfarer.api.combat.CombatLayeredRenderingPlugin;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
@@ -14,8 +15,10 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import com.fs.starfarer.api.impl.combat.BreachOnHitEffect;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
-import data.scripts.combat.rebelrats_addExplosionFx;
-import data.scripts.combat.rebelrats_addParticle;
+import data.scripts.combat.particles.rebelrats_addExplosionFx;
+import data.scripts.combat.particles.rebelrats_addParticle;
+import data.scripts.combat.particles.rebelrats_particleUtils;
+import data.scripts.combat.particles.rebelrats_particles;
 import data.scripts.combat.rebelrats_combatUtils;
 import org.lwjgl.util.vector.Vector2f;
 
@@ -117,6 +120,36 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
     }
     //protected DamagingProjectileAPI proj;
     boolean fired = false;
+    private float elapsedSmoke = 0;
+    private float smokeRate = 0.1f;
+
+    public void doldrumsSmoke(
+            float coneArc, float facing, Vector2f weaponLoc,
+            float lengthFromWeaponMiddle, boolean left
+    ){
+        float angle = rebelrats_combatUtils.calcConeAngle(coneArc,0);
+        Vector2f vel = rebelrats_combatUtils.calcVelDir(facing + angle, 250);
+        Vector2f loc = rebelrats_combatUtils.calcLocWAngle(facing, lengthFromWeaponMiddle, weaponLoc);
+
+        float spin = left ? -1f: 1f;
+
+        rebelrats_addParticle p = new rebelrats_addParticle(
+                rebelrats_particles.smokeParticle(),
+                loc,
+                null,
+                vel,
+                0.2f,
+                1f,
+                0.5f
+        );
+        p.addSpin(spin);
+        p.addExpand(
+                new Vector2f(1000,1000),
+                3f,false
+        );
+        rebelrats_particleUtils.addParticlePlugin(p, weaponLoc);
+    }
+
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
         if (engine.isPaused()) return;
         if (!fired) {
@@ -124,46 +157,59 @@ public class rebelrats_doldrumsEffect implements OnHitEffectPlugin,EveryFrameWea
             return;
         }else{
             elapsed += amount;
+            elapsedSmoke += amount;
         }
 
         float f = weapon.getAnimation().getNumFrames() / weapon.getAnimation().getFrameRate();
         weapon.getAnimation().play();
 
         if (weapon.getAnimation().getFrame() >= 13 && weapon.getAnimation().getFrame() < 37){
-            //right vent
-            float angle = rebelrats_combatUtils.calcConeAngle(40,0);
-            Vector2f vel = rebelrats_combatUtils.calcVelDir((weapon.getCurrAngle() - 135) + angle, 400);
-            Vector2f loc = rebelrats_combatUtils.calcLocWAngle(weapon.getCurrAngle() - 135, 16, weapon.getLocation());
+            if (elapsedSmoke > smokeRate){
+                //right vent
+                doldrumsSmoke(
+                        40,
+                        weapon.getCurrAngle() - 135,
+                        weapon.getLocation(),
+                        16,
+                        false
+                );
 
-            rebelrats_addParticle p = new rebelrats_addParticle();
-            p.addParticle(null,"misc", "nebula_particles",20,20,loc,new Vector2f(0,0),vel,angle,1,false,0,0.2F,1,0.5F,true,Color.WHITE);
-            CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
-            e.getLocation().set(weapon.getLocation());
-
-            //left
-            float angle2 = rebelrats_combatUtils.calcConeAngle(40,0);
-            Vector2f vel2 = rebelrats_combatUtils.calcVelDir((weapon.getCurrAngle() + 135) + angle2, 400);
-            Vector2f loc2 = rebelrats_combatUtils.calcLocWAngle(weapon.getCurrAngle() + 135, 16, weapon.getLocation());
-
-            rebelrats_addParticle p2 = new rebelrats_addParticle();
-            p2.addParticle(null,"misc", "nebula_particles",20,20,loc2,new Vector2f(0,0),vel2,angle2,1,false,0,0.2F,1,0.5F,true,Color.WHITE);
-            CombatEntityAPI e2 = engine.addLayeredRenderingPlugin(p2);
-            e2.getLocation().set(weapon.getLocation());
+                //left
+                doldrumsSmoke(
+                        40,
+                        weapon.getCurrAngle() + 135,
+                        weapon.getLocation(),
+                        16,
+                        true
+                );
+            }
         }
-
 
         if (elapsed > f) {
-                fired = !fired;
-                elapsed -= f;
+            fired = !fired;
+            elapsed -= f;
         }
+        if (elapsedSmoke > smokeRate){
+            elapsedSmoke -= smokeRate;
+        }
+    }
+
+    public static void doldrumsWarning(CombatEntityAPI projectile){
+        rebelrats_addParticle p = new rebelrats_addParticle(
+                rebelrats_particles.doldrumsWarning(),
+                projectile.getLocation(),
+                new Vector2f(80, 20),
+                null,
+                15,
+                1,
+                0.5f
+        );
+        p.addEntity(projectile);
+        rebelrats_particleUtils.addParticlePlugin(p, projectile.getLocation());
     }
 
     public void onFire(DamagingProjectileAPI projectile, WeaponAPI weapon, CombatEngineAPI engine) {
         fired = true;
-
-        rebelrats_addParticle p = new rebelrats_addParticle();
-        p.addParticle(projectile,"fx","rebelrats_doldrums_warning",240,80,null,new Vector2f(80,10),new Vector2f(0,0),0,0,false,0,15,1,0.5F,false, new Color(233,91,14,255));
-        CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
-        e.getLocation().set(projectile.getLocation());
+        doldrumsWarning(projectile);
     }
 }

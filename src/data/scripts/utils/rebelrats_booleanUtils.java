@@ -1,10 +1,19 @@
 package data.scripts.utils;
 
+import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.combat.CombatEngineAPI;
+import com.fs.starfarer.api.combat.CombatEntityAPI;
+import com.fs.starfarer.api.combat.DamagingProjectileAPI;
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
 
 public class rebelrats_booleanUtils {
+
+    public static boolean isEntityAlive(CombatEntityAPI proj){
+        CombatEngineAPI engine = Global.getCombatEngine();
+        return proj.isExpired() || !engine.isEntityInPlay(proj);
+    }
 
     public static boolean isNotEnemyMissile(MissileAPI missile, ShipAPI ship) {
         return isNotAliveMissile(missile) || ship.getOwner() == missile.getOwner() ;

@@ -1,10 +1,7 @@
-package data.scripts.combat;
+package data.scripts.combat.particles;
 
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.combat.BaseCombatLayeredRenderingPlugin;
-import com.fs.starfarer.api.combat.CombatEngineLayers;
-import com.fs.starfarer.api.combat.CombatEntityAPI;
-import com.fs.starfarer.api.combat.ViewportAPI;
+import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.graphics.SpriteAPI;
 import com.fs.starfarer.api.util.FaderUtil;
 import com.fs.starfarer.api.util.Misc;
@@ -29,6 +26,9 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
     private float alphaMult;
     private float elapsed;
     //private float elapsed2;
+    public rebelrats_addExplosionFx(){
+
+    }
     public void addExplosion(String spriteNameOrCategory, String spriteKey, Vector2f sizeStart, Vector2f sizeEnd,
                              Vector2f loc, Vector2f velocity, Color color, float fadeOutDur, float spriteDur,
                              float flatIncreaseRate, float angeRotation,float angle, float alphaMult, boolean multipleSprites){
@@ -90,7 +90,6 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
     }
 
     public void render(CombatEngineLayers layer, ViewportAPI viewport) {
-        //sprite.setSize(sizeStart.x * scale,sizeStart.y * scale);
         sprite.setAlphaMult(viewport.getAlphaMult() * fader.getBrightness());
         sprite.renderAtCenter(loc.x,loc.y);
     }
@@ -105,9 +104,7 @@ public class rebelrats_addExplosionFx extends BaseCombatLayeredRenderingPlugin {
         }
         return false;
     }
-    public void init(CombatEntityAPI entity) {
-        this.entity = entity;
-    }
+
     protected EnumSet<CombatEngineLayers> layers = EnumSet.of(CombatEngineLayers.ABOVE_SHIPS_AND_MISSILES_LAYER);
-    public EnumSet<CombatEngineLayers> getActiveLayers() {return layers;}
+    public EnumSet<CombatEngineLayers> getActiveLayers() { return layers; }
 }

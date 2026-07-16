@@ -5,7 +5,7 @@ import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.DamagingProjectileAPI;
 import com.fs.starfarer.api.combat.OnHitEffectPlugin;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
-import data.scripts.combat.rebelrats_addExplosionFx;
+import data.scripts.combat.particles.rebelrats_addExplosionFx;
 import data.scripts.combat.rebelrats_combatUtils;
 import org.lwjgl.util.vector.Vector2f;
 

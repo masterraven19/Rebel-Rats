@@ -8,8 +8,11 @@ import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.BoundsAPI;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
-import data.scripts.combat.rebelrats_addExplosionFx;
-import data.scripts.combat.rebelrats_addParticle;
+import com.fs.starfarer.api.graphics.SpriteAPI;
+import data.scripts.combat.particles.rebelrats_addExplosionFx;
+import data.scripts.combat.particles.rebelrats_addParticle;
+import data.scripts.combat.particles.rebelrats_particleUtils;
+import data.scripts.combat.particles.rebelrats_particles;
 import data.scripts.combat.rebelrats_combatUtils;
 import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
@@ -48,13 +51,21 @@ public class rebelrats_mangonelOnHitEffect implements OnHitEffectPlugin {
                 float coneAngle = 170 - (155 * ratio);
                 float angle = rebelrats_combatUtils.calcConeAngle(coneAngle,reflectAngle);
                 float speed = rebelrats_combatUtils.randomNumber(1000,1500);
-                float fadout = (((speed - 999)/500) * 0.3f) + 0.08f;
+                float fadeout = (((speed - 999)/500) * 0.1f) + 0.08f;
                 Vector2f velocity = rebelrats_combatUtils.calcVelDir(angle,speed);
 
-                rebelrats_addParticle p = new rebelrats_addParticle();
-                p.addParticle(null,"fx","rebelrats_mangonel_plasma",80,20,point,new Vector2f(0,0),velocity,angle,0,false,0,0.3f,1f,fadout,false,null);
-                CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
-                e.getLocation().set(point);
+                SpriteAPI sprite = rebelrats_particles.mangonelPlasma();
+                sprite.setAngle(angle);
+                rebelrats_addParticle p = new rebelrats_addParticle(
+                        sprite,
+                        point,
+                        null,
+                        velocity,
+                        0.3f,
+                        1f,
+                        fadeout
+                );
+                rebelrats_particleUtils.addParticlePlugin(p, point);
             }
         }
         if(!shieldHit){
@@ -108,13 +119,21 @@ public class rebelrats_mangonelOnHitEffect implements OnHitEffectPlugin {
                 float coneAngle = 170 - (155 * ratio);
                 float angle = rebelrats_combatUtils.calcConeAngle(coneAngle,reflectAngle);
                 float speed = rebelrats_combatUtils.randomNumber(1000,1500);
-                float fadout = (((speed - 999)/500) * 0.3f) + 0.08f;
+                float fadeout = (((speed - 999)/500) * 0.1f) + 0.08f;
                 Vector2f velocity = rebelrats_combatUtils.calcVelDir(angle,speed);
 
-                rebelrats_addParticle p = new rebelrats_addParticle();
-                p.addParticle(null,"fx","rebelrats_mangonel_plasma",80,20,point,new Vector2f(0,0),velocity,angle,0,false,0,0.3f,1f,fadout,false,null);
-                CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
-                e.getLocation().set(point);
+                SpriteAPI sprite = rebelrats_particles.mangonelPlasma();
+                sprite.setAngle(angle);
+                rebelrats_addParticle p = new rebelrats_addParticle(
+                        sprite,
+                        point,
+                        null,
+                        velocity,
+                        0.3f,
+                        1f,
+                        fadeout
+                );
+                rebelrats_particleUtils.addParticlePlugin(p, point);
             }
             for(int i = 0;i < cloudamt;i++){
                 rebelrats_addExplosionFx p = new rebelrats_addExplosionFx();

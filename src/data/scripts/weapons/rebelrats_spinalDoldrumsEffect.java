@@ -4,7 +4,7 @@ import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.WeaponAPI;
-import data.scripts.combat.rebelrats_addExplosionFx;
+import data.scripts.combat.particles.rebelrats_addExplosionFx;
 import data.scripts.combat.rebelrats_combatUtils;
 import org.lwjgl.util.vector.Vector2f;
 

@@ -7,10 +7,14 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.ArmorGridAPI;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
+import com.fs.starfarer.api.graphics.SpriteAPI;
 import com.fs.starfarer.api.impl.combat.DisintegratorEffect;
 import com.fs.starfarer.api.input.InputEventAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
 import com.fs.starfarer.api.util.Misc;
+import data.scripts.combat.particles.rebelrats_addParticle;
+import data.scripts.combat.particles.rebelrats_particleUtils;
+import data.scripts.combat.particles.rebelrats_particles;
 import org.lwjgl.util.vector.Vector2f;
 import org.magiclib.ai.MagicMissileAI;
 
@@ -77,14 +81,24 @@ public class rebelrats_gingsenCloudEffect extends BaseEveryFrameCombatPlugin {
         if(grid.getCellAtLocation(proj.getLocation()) != null){
             this.loc = proj.getLocation();
             //ejection clouds
-            for(int i = 0;i < 4;i++){
+            for(int i = 0;i < 2;i++){
                 float angle = rebelrats_combatUtils.calcConeAngle(40f,proj.getFacing());
-                Vector2f velocity = rebelrats_combatUtils.calcVelDir(angle,600f);
-                rebelrats_addParticle p = new rebelrats_addParticle();
-                float size = rebelrats_combatUtils.randomNumber(50,60);
-                p.addParticle(null, "misc","nebula_particles",size,size,loc,new Vector2f(0,0),velocity, rebelrats_combatUtils.randomNumber(0,360),rebelrats_combatUtils.randomNumber(-2,2),false,0f,1f,0.7f,0.5f,true,new Color(240, 240, 240,255));
-                CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
-                e.getLocation().set(loc);
+                Vector2f velocity = rebelrats_combatUtils.calcVelDir(angle,20f);
+                rebelrats_addParticle p = new rebelrats_addParticle(
+                        rebelrats_particles.smokeParticle(),
+                        loc,
+                        null,
+                        velocity,
+                        1f,
+                        0.7f,
+                        0.5f
+                );
+                p.addExpand(
+                        new Vector2f(100, 100),
+                        10f,
+                        true
+                );
+                rebelrats_particleUtils.addParticlePlugin(p,loc);
             }
             engine.removeEntity(proj);
         }
@@ -94,11 +108,23 @@ public class rebelrats_gingsenCloudEffect extends BaseEveryFrameCombatPlugin {
         //fart cloud
         Vector2f offset = rebelrats_combatUtils.calcLocWAngle(proj.getFacing(),rebelrats_combatUtils.randomNumber(70,140),loc);
         for(int i = 0;i < 4;i++){
-            rebelrats_addParticle p = new rebelrats_addParticle();
-            float size = rebelrats_combatUtils.randomNumber(150,200);
-            p.addParticle(null, "misc","nebula_particles",size,size,offset,new Vector2f(0,0),new Vector2f(0,0), rebelrats_combatUtils.randomNumber(0,360),rebelrats_combatUtils.randomNumber(-2,2),false,0f,1f,0.7f,0.5f,true,new Color(93, 232, 125,255));
-            CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
-            e.getLocation().set(loc);
+            SpriteAPI fart = rebelrats_particles.smokeParticle();
+            fart.setColor(new Color(93, 232, 125,255));
+            rebelrats_addParticle p = new rebelrats_addParticle(
+                    fart,
+                    offset,
+                    null,
+                    null,
+                    1f,
+                    0.6f,
+                    0.5f
+            );
+            p.addExpand(
+                    new Vector2f(2500, 2500),
+                    1.25f,
+                    false
+            );
+            rebelrats_particleUtils.addParticlePlugin(p,loc);
         }
 
         ArmorGridAPI grid = target.getArmorGrid();

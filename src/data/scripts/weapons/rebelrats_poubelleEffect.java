@@ -9,8 +9,10 @@ import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
-import data.scripts.combat.rebelrats_addExplosionFx;
-import data.scripts.combat.rebelrats_addParticle;
+import data.scripts.combat.particles.rebelrats_addExplosionFx;
+import data.scripts.combat.particles.rebelrats_addParticle;
+import data.scripts.combat.particles.rebelrats_particleUtils;
+import data.scripts.combat.particles.rebelrats_particles;
 import data.scripts.combat.rebelrats_combatUtils;
 import org.lwjgl.util.vector.Vector2f;
 
@@ -39,9 +41,21 @@ public class rebelrats_poubelleEffect implements OnHitEffectPlugin, OnFireEffect
         Vector2f vel = rebelrats_combatUtils.calcSideMissileLaunch(m.getFacing(),90,launchspeed,weapon.getSlot().getLocation());
         m.getVelocity().set(vel);
 
-        rebelrats_addParticle p = new rebelrats_addParticle();
-        p.addParticle(m,"graphics/rebelrats/fx/target_painter.png",null,50,50,null,new Vector2f(0,0),new Vector2f(0,0),m.getFacing(),0,true,1,m.getMaxFlightTime(),1,0.5F,false, null);
-        CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
-        e.getLocation().set(projectile.getLocation());
+        rebelrats_addParticle p = new rebelrats_addParticle(
+                rebelrats_particles.targetPainter(),
+                m.getLocation(),
+                null,
+                null,
+                m.getMaxFlightTime(),
+                1,
+                0.5f
+        );
+        p.addPulse(
+                0.7f,
+                1.1f,
+                0.5f,
+                0.7f
+        );
+        rebelrats_particleUtils.addParticlePlugin(p,m.getLocation());
     }
 }

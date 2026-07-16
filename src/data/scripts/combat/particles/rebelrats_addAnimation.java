@@ -1,4 +1,4 @@
-package data.scripts.combat;
+package data.scripts.combat.particles;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseCombatLayeredRenderingPlugin;
@@ -12,14 +12,7 @@ import org.lwjgl.util.vector.Vector2f;
 import java.awt.Color;
 import java.util.EnumSet;
 
-//Will create a single particle when used. Make sure to assign it as a CombatEntity as
-//"engine.addLayeredPlugin(copy of this class)"
-//Will follow the projectile when given one, will stay in place when given a Vector2f
-// example
-//rebelrats_addParticle p = new rebelrats_addParticle();
-//p.addParticle(m,"graphics/fx/target_painter.png",50,50,null,new Vector2f(0,0),m.getFacing(),0,true,1,m.getMaxFlightTime(),false, null);
-//CombatEntityAPI e = engine.addLayeredRenderingPlugin(p);
-//e.getLocation().set(projectile.getLocation());
+// TODO instead of seperate sprites, use 1 sprite that will have all the frames.
 public class rebelrats_addAnimation extends BaseCombatLayeredRenderingPlugin {
     private CombatEntityAPI proj;
     private SpriteAPI sprite;
@@ -117,12 +110,6 @@ public class rebelrats_addAnimation extends BaseCombatLayeredRenderingPlugin {
     public EnumSet<CombatEngineLayers> getActiveLayers() {return layers;}
 
     public boolean isExpired() {
-        if(sprite.getAlphaMult() == 0){
-            return true;
-        }
-        return false;
-    }
-    public void init(CombatEntityAPI entity) {
-        this.entity = entity;
+        return sprite.getAlphaMult() == 0;
     }
 }

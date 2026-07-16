@@ -1,17 +1,17 @@
 package data.scripts.combat;
 
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.combat.*;
-import com.fs.starfarer.api.util.Misc;
+import com.fs.starfarer.api.combat.CombatEngineAPI;
+import com.fs.starfarer.api.combat.CombatEntityAPI;
+import com.fs.starfarer.api.combat.MissileAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.WeaponAPI;
 import data.scripts.utils.rebelrats_booleanUtils;
 import org.apache.log4j.Logger;
 import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
-import java.awt.*;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.awt.Color;
 
 
 public class rebelrats_combatUtils {
@@ -98,8 +98,7 @@ public class rebelrats_combatUtils {
     }
 
     public static float randomNumber(float min, float max) {
-        float r = (float)Math.random() * ((max - min + 1) + min);
-        return r;
+        return (float)Math.random() * ((max - min + 1) + min);
     }
 
     public static MissileAPI getClosestMissile(

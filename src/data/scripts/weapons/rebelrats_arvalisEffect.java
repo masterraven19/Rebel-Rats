@@ -1,6 +1,11 @@
 package data.scripts.weapons;
 
-import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.CollisionClass;
+import com.fs.starfarer.api.combat.CombatEngineAPI;
+import com.fs.starfarer.api.combat.CombatEntityAPI;
+import com.fs.starfarer.api.combat.DamagingProjectileAPI;
+import com.fs.starfarer.api.combat.OnHitEffectPlugin;
+import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import com.fs.starfarer.api.impl.combat.BreachOnHitEffect;
 import data.scripts.combat.ids.rebelrats_Weapons;
@@ -58,8 +63,5 @@ public class rebelrats_arvalisEffect implements OnHitEffectPlugin{
                     null, engine, newProj, ship
             ));
         }
-    }
-    private void arvalisEffect() {
-
     }
 }
