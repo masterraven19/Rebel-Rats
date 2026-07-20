@@ -94,7 +94,7 @@ public class rebelrats_hireMercenary extends BaseCommandPlugin {
                 playerFleet.getFleet().getCargo().addMarines(marines);
                 playerFleet.getFleet().getCargo().addSupplies(supplies);
                 playerFleet.getFleet().getCargo().addFuel(fuel);
-                playerFleet.getFleet().getCargo().addFighters("rebelrats_patron_F_wingt",1);
+                playerFleet.getFleet().getCargo().addFighters("rebelrats_patron_F_wing",1);
 
                 text.setFontSmallInsignia();
                 for(FleetMemberAPI fleetMember : fleetMembers) {
@@ -108,7 +108,7 @@ public class rebelrats_hireMercenary extends BaseCommandPlugin {
                 text.addPara("Gained " + fuel + " fuel",Misc.getPositiveHighlightColor());
                 text.highlightInLastPara(Misc.getHighlightColor(),""+fuel);
 
-                FleetMemberAPI fighter = Global.getFactory().createFleetMember(FleetMemberType.FIGHTER_WING,"rebelrats_patron_F_wingt");
+                FleetMemberAPI fighter = Global.getFactory().createFleetMember(FleetMemberType.FIGHTER_WING,"rebelrats_patron_F_wing");
                 text.addPara("Gained " + fighter.getVariant().getFullDesignationWithHullNameForShip(),Misc.getPositiveHighlightColor());
                 text.highlightInLastPara(Misc.getHighlightColor(), fighter.getVariant().getFullDesignationWithHullNameForShip());
                 text.setFontInsignia();
