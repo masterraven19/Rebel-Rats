@@ -3,7 +3,7 @@
   "hullId": "rebelrats_marmot",
   "displayName": "Anti-Fighter",
   "goalVariant": true,
-  "fluxCapacitors": 25,
+  "fluxCapacitors": 33,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],

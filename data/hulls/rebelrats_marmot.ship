@@ -9,7 +9,7 @@
   "center": [102, 155],
   "collisionRadius": 209.5,
   "shieldCenter": [0, -0],
-  "shieldRadius": 187,
+  "shieldRadius": 191,
   "viewOffset": 0,
   "builtInMods": [
     "rebelrats_manatarmstargettinggrid",
@@ -31,43 +31,43 @@
       "mount": "TURRET",
       "arc": 329,
       "angle": 0,
-      "locations": [97, 0]
+      "locations": [131.5, -0]
     },
     {
       "id": "WS0002",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 154,
+      "arc": 153,
       "angle": 61.5,
-      "locations": [36, 45]
+      "locations": [79, 39]
     },
     {
       "id": "WS0003",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 154,
+      "arc": 153,
       "angle": -61.5,
-      "locations": [36, -45]
+      "locations": [79, -39]
     },
     {
       "id": "WS0004",
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 201,
+      "arc": 180,
       "angle": 77.5,
-      "locations": [14, 48]
+      "locations": [46, 35]
     },
     {
       "id": "WS0005",
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 201,
+      "arc": 180,
       "angle": -77.5,
-      "locations": [14, -48]
+      "locations": [46, -35]
     },
     {
       "id": "WS0006",
@@ -76,7 +76,7 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": 180,
-      "locations": [-126, 0]
+      "locations": [-91, -0]
     },
     {
       "id": "WS0007",
@@ -85,7 +85,7 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": 180,
-      "locations": [-145, 0]
+      "locations": [-110, -0]
     },
     {
       "id": "WS0008",
@@ -103,7 +103,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 85,
-      "locations": [-60, 36],
+      "locations": [-26, 37],
       "renderOrderMod": 1
     },
     {
@@ -113,7 +113,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -85,
-      "locations": [-60, -36],
+      "locations": [-26, -37],
       "renderOrderMod": 1
     },
     {
@@ -123,7 +123,7 @@
       "mount": "TURRET",
       "arc": 91,
       "angle": 0,
-      "locations": [-65, -0],
+      "locations": [-30, -0],
       "renderOrderMod": 2
     },
     {
@@ -166,7 +166,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": -0,
-      "locations": [8.5, 64.5]
+      "locations": [-38, 66.5]
     },
     {
       "id": "WS0015",
@@ -175,7 +175,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [8.5, -64.5]
+      "locations": [-38, -66.5]
     },
     {
       "id": "WS0016",
@@ -184,7 +184,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": -0,
-      "locations": [-71, 56.5]
+      "locations": [-80.5, 57.5]
     },
     {
       "id": "WS0017",
@@ -193,7 +193,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [-71, -56.5]
+      "locations": [-80.5, -57.5]
     },
     {
       "id": "WS0020",
@@ -202,7 +202,7 @@
       "mount": "HARDPOINT",
       "arc": 90,
       "angle": 0,
-      "locations": [-65, -0]
+      "locations": [-30, -0]
     },
     {
       "id": "WS0018",
@@ -211,7 +211,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [82.5, 57.5]
+      "locations": [49.5, 63.5]
     },
     {
       "id": "WS0019",
@@ -220,7 +220,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": -0,
-      "locations": [82.5, -57.5]
+      "locations": [49.5, -63.5]
     }
   ],
   "engineSlots": [
